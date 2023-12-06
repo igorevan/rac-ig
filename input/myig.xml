@@ -59,11 +59,60 @@ including changing realm -->
 
     <resource>
       <reference>
+        <reference value="StructureDefinition/BRContatoAssistencial-1.0" />
+      </reference>
+      <name value="Contato Assistencial" />
+      <description
+        value="Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0" />
+      </reference>
+      <name value="Informações Complementares de Indivíduos Não Identificados" />
+      <description
+        value="Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BROcupacao-1.0" />
+      </reference>
+      <name value="Ocupação" />
+      <description
+        value="Ocupação" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0" />
+      </reference>
+      <name value="Identificador Nacional de Equipe" />
+      <description
+        value="Extensão para permitir informar o código do Identificador Nacional de Equipe" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRFinanciamento-1.0" />
+      </reference>
+      <name value="Financiamento" />
+      <description
+        value="Extensão utilizada para identificar financiamento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BROutrasInformacoes" />
+      </reference>
+      <name value="Outras Informações" />
+      <description
+        value="Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado" />
+    </resource>
+
+    <resource>
+      <reference>
         <reference value="CodeSystem/BRCID10" />
       </reference>
       <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10" />
       <description
-        value="Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos." />
+        value="Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos" />
     </resource>
 
     <page>
