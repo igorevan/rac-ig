@@ -5,6 +5,7 @@
   "resourceType": "CodeSystem",
   "language": "pt-BR",
   "description": "Classificação da relação familiar entre indivíduos.",
+  "caseSensitive": true,
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
   "name": "BRParentesco",

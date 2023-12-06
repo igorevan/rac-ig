@@ -15,6 +15,7 @@
   "date": "2020-09-20T23:04:30.8771699+00:00",
   "publisher": "Ministério da Saúde do Brasil",
   "description": "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+  "caseSensitive": true,
   "content": "complete",
   "concept": [
     {

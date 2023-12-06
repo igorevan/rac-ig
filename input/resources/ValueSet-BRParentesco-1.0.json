@@ -1,0 +1,26 @@
+{
+  "id": "BRParentesco-1.0",
+  "compose": {
+    "include": [
+      {
+        "version": "*",
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco"
+      }
+    ]
+  },
+  "date": "2020-03-12T13:23:16.6535149+00:00",
+  "resourceType": "ValueSet",
+  "immutable": false,
+  "description": "Classificação da relação familiar entre indivíduos.",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "name": "BRParentesco",
+  "title": "Parentesco",
+  "version": "1.0",
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRParentesco-1.0",
+  "language": "pt-BR",
+  "status": "active",
+  "meta": {
+    "lastUpdated": "2020-03-12T13:23:17.366+00:00"
+  }
+}
