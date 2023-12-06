@@ -105,6 +105,14 @@ including changing realm -->
       <description
         value="Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRIndividuo-1.0" />
+      </reference>
+      <name value="Indivíduo" />
+      <description
+        value="O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional." />
+    </resource>
 
     <resource>
       <reference>
