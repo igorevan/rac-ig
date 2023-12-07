@@ -13,7 +13,7 @@
   "experimental": false,
   "date": "2020-04-07T18:23:26.5540616+00:00",
   "publisher": "Ministério da Saúde do Brasil",
-  "description": "Value Set das classificações brasileiras para procedimentos adotadas em contexto nacional, os codesystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS",
+  "description": "ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS.",
   "immutable": false,
   "compose": {
     "include": [

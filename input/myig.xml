@@ -113,6 +113,54 @@ including changing realm -->
       <description
         value="O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional." />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRQualidadeCadastroIndividuo-1.0" />
+      </reference>
+      <name value="Qualidade do Cadastro do Indivíduo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRParentesIndividuo-1.0" />
+      </reference>
+      <name value="Parentes do Indivíduo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRRacaCorEtnia-1.0" />
+      </reference>
+      <name value="Raça/Cor e Etnina" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRMunicipio-1.0" />
+      </reference>
+      <name value="Município" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRPais-1.0" />
+      </reference>
+      <name value="País" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRNacionalidade" />
+      </reference>
+      <name value="Nacionalidade" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRIndividuoProtegido-1.0" />
+      </reference>
+      <name value="Indivíduo Protegido" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRNaturalizacao-1.0" />
+      </reference>
+      <name value="Dados de Naturalização" />
+    </resource>
 
     <resource>
       <reference>
