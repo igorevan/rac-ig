@@ -57,6 +57,7 @@ including changing realm -->
     need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
 
+    <!-- StructureDefinition -->
     <resource>
       <reference>
         <reference value="StructureDefinition/BRContatoAssistencial-1.0" />
@@ -161,15 +162,273 @@ including changing realm -->
       </reference>
       <name value="Dados de Naturalização" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRNomeIndividuo-1.0" />
+      </reference>
+      <name value="Nome de Indivíduos" />
+    </resource>
 
+    <!-- 
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRDocumentoIndividuo-1.0" />
+      </reference>
+      <name value="Documento do Indivíduo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRMeioContato-1.0" />
+      </reference>
+      <name value="Meio de Contato" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BREndereco-1.0" />
+      </reference>
+      <name value="Endereço" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0" />
+      </reference>
+      <name value="Jurisdição do Órgão Expedidor" />
+    </resource>
+    -->
+
+    <!-- CodeSystem -->
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRAlergenosCBARA" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCaraterAtendimento" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCategoriaDiagnostico" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCBHPMTUSS" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCBO" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCIAP2" />
+      </reference>
+    </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRCID10" />
       </reference>
-      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10" />
-      <description
-        value="Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRDadoAusenteOuDesconhecido" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRDivisaoGeograficaBrasil" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BREtniaIndigena" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRFinanciamento" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRFrequenciaUsoSubstancia" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRImunobiologico" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRLocalAfericao" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRMedDRA" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRMedicamento" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRModalidadeAssistencial" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRMotivoDesfecho" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRNacionalidade" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRNaturezaJuridica" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmAMPP" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmANVISA" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmCATMAT" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmEAN" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmVMP" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BROrgaoExpedidor" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRPais" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRPapelProblemaDiagnostico" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRParentesco" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRPosicaoIndividuo" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRProcedencia" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRRacaCor" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRResponsabilidadeParticipante" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaSUS" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoAleitamentoMaterno" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoDocumento" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoEstabelecimentoSaude" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoIdentificador" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoLogradouro" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoObservacao" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoSubstanciaUso" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTurno" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeMedida" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeTempo" />
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRViaAdministracao" />
+      </reference>
+    </resource>
+
+    <!-- ValueSet -->
 
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
