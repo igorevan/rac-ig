@@ -168,6 +168,66 @@ including changing realm -->
       </reference>
       <name value="Nome de Indivíduos" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BREstabelecimentoSaude-1.0" />
+      </reference>
+      <name value="Estabelecimento de Saúde" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRLocalAtendimento-1.0" />
+      </reference>
+      <name value="Local de Atendimento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRLotacaoProfissional-1.0" />
+      </reference>
+      <name value="Lotação Profissional" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0" />
+      </reference>
+      <name value="Pessoa Jurídica e Profissional Liberal" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRProfissional-1.0" />
+      </reference>
+      <name value="Profissional" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRAtendeSUS-1.0" />
+      </reference>
+      <name value="Atende SUS" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRAdministradorTerceiro-1.0" />
+      </reference>
+      <name value="Gerente/Administrador (Terceiro) ou Interveniente" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRMeioContato-1.0" />
+      </reference>
+      <name value="Meio de Contato" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BREndereco-1.0" />
+      </reference>
+      <name value="Endereço" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRDocumentoIndividuo-1.0" />
+      </reference>
+      <name value="Documento do Indivíduo" />
+    </resource>
 
     <!-- 
     <resource>
