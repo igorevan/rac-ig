@@ -252,6 +252,36 @@ including changing realm -->
       </reference>
       <name value="Procedimento Realizado" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRCID10Avaliado-1.0" />
+      </reference>
+      <name value="CID10 Avaliado" />
+    </resource>
+    <!--resource>
+      <reference>
+        <reference value="StructureDefinition/BRAlergiaReacaoAdversa-1.0" />
+      </reference>
+      <name value="Alergia ou Reação Adversa" />
+    </resource-->
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRAtestado" />
+      </reference>
+      <name value="Atestado Digital" />
+    </resource>
+    <!--resource>
+      <reference>
+        <reference value="StructureDefinition/BRMedidaObservada" />
+      </reference>
+      <name value="Medida Observada" />
+    </resource-->
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRQuantidade-1.0" />
+      </reference>
+      <name value="Quantidade" />
+    </resource>
 
     <!-- CodeSystem -->
     <resource>
