@@ -240,6 +240,12 @@ including changing realm -->
       </reference>
       <name value="Observação Descritiva" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRProblemaDiagnostico" />
+      </reference>
+      <name value="Problema e/ou diagnóstico" />
+    </resource>
 
     <!-- CodeSystem -->
     <resource>
