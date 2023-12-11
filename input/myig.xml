@@ -246,6 +246,12 @@ including changing realm -->
       </reference>
       <name value="Problema e/ou diagnóstico" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRProcedimentoRealizado-1.0" />
+      </reference>
+      <name value="Procedimento Realizado" />
+    </resource>
 
     <!-- CodeSystem -->
     <resource>
