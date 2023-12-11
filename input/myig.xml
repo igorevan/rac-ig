@@ -4,7 +4,7 @@ including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
-  <id value="rac" />
+  <id value="hl7.fhir.br.rac" />
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative" />
   </extension>
@@ -14,7 +14,7 @@ including changing realm -->
   <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/rac" />
+  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac" />
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is
   overridden -->
   <version value="0.1.0" />
@@ -27,19 +27,19 @@ including changing realm -->
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url" />
-      <value value="https://saude.gov.br" />
+      <value value="http://www.saude.gov.br" />
     </telecom>
   </contact>
   <description value="Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)" />
   <jurisdiction>
     <!-- This first repetition will drive SNOMED release used -->
     <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
+      <system value="urn:iso:std:iso:3166" />
       <!-- This is the code for universal -->
-      <code value="076" />
+      <code value="BR" />
     </coding>
   </jurisdiction>
-  <packageId value="rac" />
+  <packageId value="hl7.fhir.br.rac" />
   <!-- This should be changed to 'not-open-source' or another license if appropriate for
   non-HL7-published content -->
   <license value="CC0-1.0" />
@@ -228,33 +228,18 @@ including changing realm -->
       </reference>
       <name value="Documento do Indivíduo" />
     </resource>
-
-    <!-- 
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRDocumentoIndividuo-1.0" />
-      </reference>
-      <name value="Documento do Indivíduo" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRMeioContato-1.0" />
-      </reference>
-      <name value="Meio de Contato" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BREndereco-1.0" />
-      </reference>
-      <name value="Endereço" />
-    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0" />
       </reference>
       <name value="Jurisdição do Órgão Expedidor" />
     </resource>
-    -->
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRObservacaoDescritiva-1.0" />
+      </reference>
+      <name value="Observação Descritiva" />
+    </resource>
 
     <!-- CodeSystem -->
     <resource>
@@ -513,7 +498,7 @@ including changing realm -->
       <page>
         <nameUrl value="credenciamento.html" />
         <title value="Credenciamento" />
-        <generation value="markdown" />
+        <generation value="html" />
       </page>
       <page>
         <nameUrl value="exemplos.html" />
