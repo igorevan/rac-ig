@@ -270,12 +270,24 @@ including changing realm -->
       </reference>
       <name value="Plano de Cuidados" />
     </resource>
-    <!--resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/BRAtestado" />
       </reference>
       <name value="Atestado Digital" />
-    </resource-->
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRMedicamento" />
+      </reference>
+      <name value="Medicamento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRPrescricaoMedicamento" />
+      </reference>
+      <name value="Prescrição de Medicamento" />
+    </resource>
     <!--resource>
       <reference>
         <reference value="StructureDefinition/BRMedidaObservada" />
