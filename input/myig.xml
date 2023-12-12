@@ -264,6 +264,12 @@ including changing realm -->
       </reference>
       <name value="Alergia ou Reação Adversa" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRPlanoCuidados-1.0" />
+      </reference>
+      <name value="Plano de Cuidados" />
+    </resource>
     <!--resource>
       <reference>
         <reference value="StructureDefinition/BRAtestado" />
