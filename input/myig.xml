@@ -60,6 +60,12 @@ including changing realm -->
     <!-- StructureDefinition -->
     <resource>
       <reference>
+        <reference value="StructureDefinition/BRRegistroAtendimentoClinico" />
+      </reference>
+      <name value="Registro de Atendimento Clínico" />
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/BRContatoAssistencial-1.0" />
       </reference>
       <name value="Contato Assistencial" />
