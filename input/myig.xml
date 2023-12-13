@@ -294,12 +294,6 @@ including changing realm -->
       </reference>
       <name value="Quantidade" />
     </resource>
-    <!--resource>
-      <reference>
-        <reference value="StructureDefinition/BRMedidaObservada" />
-      </reference>
-      <name value="Medida Observada" />
-    </resource-->
     <resource>
       <reference>
         <reference value="StructureDefinition/BRCodigoSerialMedicamento" />
@@ -317,6 +311,24 @@ including changing realm -->
         <reference value="StructureDefinition/BRTurno" />
       </reference>
       <name value="Turno do Dia" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRRoupasUsadasMedicao" />
+      </reference>
+      <name value="Roupas Usadas na Medição" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BROrigemMedida" />
+      </reference>
+      <name value="Origem da Medição" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRMedidaObservada" />
+      </reference>
+      <name value="Medida Observada" />
     </resource>
 
     <!-- CodeSystem -->
