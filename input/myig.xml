@@ -330,6 +330,18 @@ including changing realm -->
       </reference>
       <name value="Medida Observada" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRCIAP2Avaliado-1.0" />
+      </reference>
+      <name value="CIAP2 Avaliado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRRegistroPrescricaoMedicamento" />
+      </reference>
+      <name value="Registro de Prescrição de Medicamento" />
+    </resource>
 
     <!-- CodeSystem -->
     <resource>
