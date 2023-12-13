@@ -5,9 +5,8 @@
   <h3>Introdução</h3>
   <p>
     Este Guia de Implementação (IG) tem o objetivo de orientar Estados, Municípios, Distrito
-    Federal,
-    Estabelecimentos de Saúde ou Empresas Privadas que fornecem soluções/software na área de saúde a
-    utilizarem os serviços (web services) que foram desenvolvidos para a Rede Nacional de
+    Federal, Estabelecimentos de Saúde ou Empresas Privadas que fornecem soluções/software na área
+    de saúde a utilizarem os serviços (web services) que foram desenvolvidos para a Rede Nacional de
     Dados em Saúde (RNDS),
     fornecendo as orientações técnicas necessárias para a integração dos sistemas/soluções locais
     com a rede, para o envio do Registro de Atendimento Clínico (RAC).
@@ -34,7 +33,7 @@
   <h3>Interoperabilidade</h3>
   <p> Para garantir a interoperabilidade entre as aplicações de Saúde Digital, em especial
     Prontuário(s) Eletrônico(s) do Paciente, portais e aplicações (<i>web e mobile</i>), a troca de
-    informações ocorrerá por meio de serviços (<i>web services</i>) RESTful, desenvolvidos de acordo
+    informações ocorre por meio de serviços (<i>web services</i>) RESTful, desenvolvidos de acordo
     com o padrão <a href="https://hl7.org/FHIR/">FHIR R4</a>. </p>
   <a name="walkthrough"></a>
   <h3>Roteiro</h3>
@@ -42,8 +41,8 @@
     <li>
       <a href="credenciamento.html">Credenciamento junto ao DATASUS</a> - Saiba qual é o processo a
       ser seguido por um estabelecimento de saúde, e requisitos, para a integração com a RNDS. </li>
-    <li><a href="spec.html">Especificação detalhada</a> - Define as operações e os recursos (<i>
-      Resources</i>) a serem atendidos para integração com a RNDS. </li>
+    <li><a href="spec.html">Especificação detalhada</a> - Define as operações e os recursos <i>
+      (Resources)</i> a serem atendidos para integração com a RNDS. </li>
     <li>
       <a href="downloads.html">Downloads</a> - Artefatos empregados pelos integradores. </li>
   </ul>

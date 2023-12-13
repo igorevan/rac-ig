@@ -1,16 +1,59 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <a name="integracao"></a>
   <h3>Integração com a RNDS</h3>
-  <p>
-    Este portal se limita a registrar o contrato de interação 
-    entre um SIS e a RNDS. O desenvolvedor de software interessado,
-    ou integrador, por outro lado, tem acesso a cursos e outras fontes
-    de informação que podem ser empregadas para a sua capacitação.
-  </p>
+  <p> Para garantir a interoperabilidade entre as aplicações de Saúde Digital, em especial
+    Prontuário(s) Eletrônico(s) do Paciente, portais e aplicações (<i>web e mobile</i>), a troca de
+    informações ocorre por meio de serviços (<i>web services</i>) RESTful, desenvolvidos de acordo
+    com o padrão <a href="https://hl7.org/FHIR/">FHIR R4</a>. </p>
 
   <a name="curso"></a>
-  <h3>Curso de integração</h3>
-  <p>UNASUS.</p>
+  <h3>Serviços Auxiliares</h3>
+  <p>
+    A seguir estão listados os serviços que irão auxiliar no envio da informação principal, o
+    Registro de Atendimento Clínico.
+  </p>
+  <p>
+    <table>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Componente</th>
+          <th>Objetivo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GET@/fhir/r4/Patient</td>
+          <td>EHR Services</td>
+          <td>Permitir a pesquisa de pacientes</td>
+        </tr>
+        <tr>
+          <td>GET@/fhir/r4/Organization</td>
+          <td>EHR Services</td>
+          <td>Permitir a pesquisa de estabelecimentos de Saúde </td>
+        </tr>
+        <tr>
+          <td>GET@/fhir/r4/Practitioner</td>
+          <td>EHR Services</td>
+          <td>Permitir a pesquisa de profissionais de saúde</td>
+        </tr>
+        <tr>
+          <td>GET@/fhir/r4/PractitionerRole</td>
+          <td>EHR Services</td>
+          <td>Permitir a pesquisa de perfis de profissionais de Saúde</td>
+        </tr>
+      </tbody>
+    </table>
+  </p>
+  <p>
+    Em relação ao serviço GET@/fhir/r4/Patient, quando não for possível captar o CPF ou CNS do
+    cidadão/paciente, é importante que o sistema/solução capture os dados demográficos do usuário
+    por meio eletrônico ou físico (nas fichas de registro regular do caso de uso). Desta forma,
+    será possível realizar a busca demográfica ou a criação do CNS (CADSUS inserir endereço
+    eletrônico) a ser
+    utilizado como identificador do paciente no documento eletrônico.
+  </p>
 
   <a name="links"></a>
   <h3>Outras fontes...</h3>

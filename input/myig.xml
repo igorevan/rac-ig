@@ -627,7 +627,7 @@ including changing realm -->
     <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear" />
-      <value value="2022+" />
+      <value value="2023+" />
     </parameter>
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
@@ -635,25 +635,33 @@ including changing realm -->
       <value value="CI Build" />
     </parameter>
     <parameter>
-      <code value="find-other-resources" />
-      <value value="true" />
-    </parameter>
-    <parameter>
       <code value="path-resource" />
       <value value="input\history" />
     </parameter>
-    <parameter>
-      <code value="path-binary" />
-      <value value="input\cql" />
-    </parameter>
-    <parameter>
-      <code value="path-liquid" />
-      <value value="templates\liquid" />
-    </parameter>
-    <parameter>
+    <!--parameter>
       <code value="shownav" />
       <value value="true" />
+    </parameter-->
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources" />
     </parameter>
+    <parameter>
+      <code value="path-pages" />
+      <value value="input/pagecontent" />
+    </parameter>
+    <!--parameter>
+      <code value="find-other-resources" />
+      <value value="true" />
+    </parameter-->
+    <!--parameter>
+      <code value="path-binary" />
+      <value value="input\cql" />
+    </parameter-->
+    <!--parameter>
+      <code value="path-liquid" />
+      <value value="templates\liquid" />
+    </parameter-->
     <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to
     disable the display of mappings
     <parameter>
@@ -672,9 +680,5 @@ including changing realm -->
       <code value="excludemap"/>
       <value value="true"/>
     </parameter>-->
-    <parameter>
-      <code value="showsource" />
-      <value value="true" />
-    </parameter>
   </definition>
 </ImplementationGuide>
