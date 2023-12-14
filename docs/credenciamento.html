@@ -46,7 +46,7 @@
         <!-- Placeholder for child template header declarations -->
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do RAC da RNDS</span>
+          <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - CI Build
 
@@ -161,7 +161,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do RAC da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Credenciamento</h2>
   
   
@@ -178,7 +178,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </table>
 
   
-  <div xmlns="http://www.w3.org/1999/xhtml">
+  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#acesso">Acesso ao Barramento de Serviços</a></li><li><a href="#conta">Conta GOV.BR</a></li><li><a href="#certificado">Certificado Digital</a></li><li><a href="#estabelecimentos">Estabelecimentos Filhos</a></li><li><a href="#solicitante">Identificador Solicitante / NamingSystem</a></li></ul></div>
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
   <a name="acesso">  </a>
   <h3>Acesso ao Barramento de Serviços</h3>
@@ -198,10 +198,113 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </p>
   <p>
     <b>Nota</b>: <i>Vale contextualizar que o parceiro tecnológico pode acionar a equipe técnica do
-    DATASUS por
-      meio do e-mail de suporte (rnds@saude.gov.br) se tiver dúvidas nos testes ou algum problema no
-    processo de integração.</i>
+    DATASUS por meio do e-mail de suporte (rnds@saude.gov.br) se tiver dúvidas nos testes ou algum
+    problema no
+      processo de integração.</i>
   </p>
+  <p>
+    A Figura 3 apresenta uma imagem do portal de serviços do DATASUS.
+  </p>
+  <p>
+    <b>Figura 3 - Portal de Serviços do DATASUS</b>
+  </p>
+  <div>
+
+    <img height="600" src="portalServicos.png" alt="Portal de Serviços do Datasus"/>
+
+  </div>
+  <p>
+    Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços
+    disponibilizados,
+    onde o usuário deverá identificar e clicar naquele que deseja solicitar a integração.
+  </p>
+  <p>
+    Após isso, o usuário será direcionado para a página principal dos serviços, onde podem ser
+    encontradas
+    todas as informações necessárias sobre o serviço selecionado juntamente com seu material de
+    apoio e
+    canal de suporte. Há também um botão denominado “Solicitar Acesso”, o qual o usuário deverá
+    clicar
+    para ser encaminhado os próximos passos da integração.
+  </p>
+
+  <a name="conta">  </a>
+  <h3>Conta GOV.BR</h3>
+  <p>
+    O acesso aos serviços digitais oferecidos pelo governo deve ser autenticado inicialmente pela
+    plataforma gov.br, a qual exige uma conta que qualquer cidadão pode criar pelo portal
+    https://acesso.gov.br.
+  </p>
+  <p>
+    <b>Figura 5 - Página de autenticação da plataforma GOV.BR</b>
+  </p>
+  <div>
+
+    <img height="600" src="acessoGov.png" alt="Página de autenticação da plataforma GOV.BR"/>
+
+  </div>
+  <p>
+    O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma,
+    deverá
+    providenciar, pois será necessária para requisitar a solicitação de acesso à RNDS.
+  </p>
+
+  <a name="certificado">  </a>
+  <h3>Certificado Digital</h3>
+  <p>O certificado digital é premissa obrigatória para acesso à RNDS, vez que esse é um dos
+    controles
+    mais fortes de segurança utilizado na rede. É necessário o certificado digital do
+    estabelecimento
+    principal. Vale contextualizar que os estabelecimentos que emitem nota fiscal ou acessam algum
+    portal do governo já tem um certificado A1 do tipo e-CNPJ.</p>
+  <p>No contexto de uso do CPF da pessoa Responsável (solicitante do acesso no Portal de Serviços),
+    vinculada ao estabelecimento, pode ser utilizado o certificado A1 do tipo e-CPF. Os certificados
+    devem
+    ser da cadeia ICP Brasil, pois quando o usuário carregar o seu certificado digital (chave
+    pública “.cer”
+    ou privada “.pfx”) ocorre a captura das informações de CNPJ ou CPF e a validade do certificado.</p>
+  <p>Em nenhum momento é capturada informação da sua chave privada, ela precisa ser instalada na
+    máquina porque é necessidade do esquema de autenticação “two way ssl”, onde é necessário ter um
+    certificado digital em cada uma das pontas para poder trocar um token (assinado em ambos os
+    lados)
+    garantindo assim uma comunicação segura.</p>
+  <p><b>Nota</b>: <i>O certificado ficará associado ao estabelecimento de saúde (ou lista de
+    estabelecimentos de
+      saúde) informado na solicitação de acesso.</i></p>
+
+  <a name="estabelecimentos">  </a>
+  <h3>Estabelecimentos Filhos</h3>
+  <p>Caso a solicitação envolva uma lista de estabelecimentos de saúde, todos deverão ser listados e
+    obrigatoriamente devem ser do mesmo estado (UF).</p>
+  <p>
+    <b>Figura 6 - Identificação de estabelecimentos Filhos</b>
+  </p>
+  <div>
+
+    <img height="400" src="estabelecimentosFilhos.png" alt="Identificação de estabelecimentos Filhos"/>
+
+  </div>
+
+  <a name="solicitante">  </a>
+  <h3>Identificador Solicitante / NamingSystem</h3>
+  <p>
+    O identificador do solicitante é um número fornecido pela RNDS quando a solicitação de acesso à
+    RNDS é aprovada, este número é fundamental para iniciar o processo de Homologação e deve ser
+    encontrado no menu “Gerenciar Credenciais” conforme a imagem abaixo.
+  </p>
+  <p>
+    <b>Figura 7 - Gerenciador de Credenciais</b>
+  </p>
+  <div>
+
+    <img height="300" src="gerenciadorCredenciais.png" alt="Gerenciador de Credenciais"/>
+
+  </div>
+  <p>
+    Este número deve ser sempre empregado na construção da identificação de uma requisição submetida
+    para a RNDS.
+  </p>
+
 </div>
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -247,7 +350,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 14, 2023 12:02-0300">2023-12-14</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 14, 2023 17:06-0300">2023-12-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |

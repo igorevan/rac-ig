@@ -143,6 +143,77 @@
     clínico.
   </p>
   <p>
-    <img height="600" src="enviarDocumento.png" alt="A sample image" />
+    <b>Figura 1 - Diagrama de Sequência: Enviar Documento</b>
   </p>
+  <div>
+
+    <img height="600" src="enviarDocumento.png" alt="Diagrama de Sequência - Enviar Documento" />
+
+  </div>
+  <p>
+    No diagrama de sequência, de acordo com Figura 2, está descrito o fluxo de geração do contexto
+    de
+    atendimento para consulta aos documentos clínicos de um paciente.
+  </p>
+  <p>
+    <b>Figura 2 - Diagrama de Sequência: Consultar Timeline</b>
+  </p>
+  <div>
+
+    <img height="600" src="consultarTimeline.png" alt="Diagrama de Sequência - Consultar Timeline" />
+
+  </div>
+  <p>
+    <b>Nota</b>: <i>O <a href="https://conectesus.saude.gov.br/">Conecte SUS Profissional</a> é uma
+    plataforma desenvolvida pelo Ministério da Saúde para materializar a Estratégia de Saúde para o
+    Brasil, e tem como objetivo a troca de informações em saúde entre profissionais de saúde de toda
+    a rede de atenção à saúde. Dessa forma, os profissionais acessam as informações de saúde de um
+    determinado paciente a partir de seu histórico já padronizado, sempre dentro de um contexto de
+    atendimento. O contexto de atendimento indica que o paciente passou por atendimento em um
+    estabelecimento de saúde com um profissional de saúde.</i>
+  </p>
+
+  <a name="identificadores"></a>
+  <h3>Identificadores do Registro Enviado a RNDS</h3>
+  <p>
+    Vale ressaltar que os registros são documentos computacionais, em formato JSON, compostos por
+    perfis (profiles) do padrão FHIR R4. Cada registro enviado à RNDS possui dois identificadores:
+  </p>
+  <ul>
+    <li>
+      <p><b>Identificador atribuído pelo sistema de origem</b>: também chamado de identificador
+        local, é o ID criado pelo sistema de origem para identificar univocamente o registro em sua
+        base.</p>
+      <p>
+        No arquivo JSON, o identificador local deve ser informado no profile Bundle, propriedade
+        identifier.value
+      </p>
+
+      <pre>
+          <code>
+            "identifier": {
+                "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1111",
+                "value": "3112009-06246116057"
+            }
+          </code>
+      </pre>
+
+      <p>
+        Em “system”, deve-se completar a URI “http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-
+        com o número do identificador do solicitante (ver item 4.4 Identificador solicitante /
+        Naming system).
+      </p>
+    </li>
+    <li>
+      <p>
+        <b>Identificador atribuído pela RNDS</b>: também denominado de ID RNDS. Quando o registro é
+        enviado com sucesso (header de resposta 201) à RNDS, no header location é gerada uma URL que
+        é o identificador do registro na RNDS (ver Exemplos de consumo dos serviços). </p>
+      <p>
+        <b>IMPORTANTE</b>: os softwares integradores DEVEM SALVAR o identificador local e o ID RNDS
+        para que possam realizar ações futuras como: pesquisa, substituição (ver item Substituição
+        de registro na RNDS) e exclusão. </p>
+    </li>
+  </ul>
+
 </div>

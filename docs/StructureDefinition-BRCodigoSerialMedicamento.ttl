@@ -43,7 +43,7 @@
   fhir:name [ fhir:v "BRCodigoSerialMedicamento"] ; # 
   fhir:title [ fhir:v "Código Serial de Medicamento"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-14T12:02:40-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-14T17:06:19-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

@@ -22,10 +22,10 @@
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "RACRNDSIG"] ; # 
-  fhir:title [ fhir:v "Guia de Implementação do RAC da RNDS"] ; # 
+  fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-14T12:02:40-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-14T17:06:19-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
