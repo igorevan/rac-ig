@@ -1,0 +1,298 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRUnidadeMedida"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2021-12-01T13:16:09.8385573+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRUnidadeMedida-1\"> </a></td><td>Adesivo</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRUnidadeMedida-2\"> </a></td><td>Ampola</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRUnidadeMedida-3\"> </a></td><td>Anel</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRUnidadeMedida-4\"> </a></td><td>Aplicação</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRUnidadeMedida-5\"> </a></td><td>Aplicador</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRUnidadeMedida-6\"> </a></td><td>Atomização</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRUnidadeMedida-7\"> </a></td><td>Bandagem</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRUnidadeMedida-8\"> </a></td><td>Barra</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRUnidadeMedida-9\"> </a></td><td>Bisnaga</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRUnidadeMedida-10\"> </a></td><td>Blíster</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRUnidadeMedida-11\"> </a></td><td>Bolsa</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRUnidadeMedida-12\"> </a></td><td>Caixa</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRUnidadeMedida-13\"> </a></td><td>Cápsula</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRUnidadeMedida-14\"> </a></td><td>Carpule</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRUnidadeMedida-15\"> </a></td><td>Cartucho</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRUnidadeMedida-16\"> </a></td><td>Catéter</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRUnidadeMedida-17\"> </a></td><td>cm (Centímetro)</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"BRUnidadeMedida-18\"> </a></td><td>cm² (Centímetro Quadrado)</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRUnidadeMedida-19\"> </a></td><td>Comprimido</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRUnidadeMedida-20\"> </a></td><td>Desconhecido</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRUnidadeMedida-21\"> </a></td><td>Dispositivo</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRUnidadeMedida-22\"> </a></td><td>Dispositivo de injeção pré-carregado</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRUnidadeMedida-23\"> </a></td><td>Dose</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRUnidadeMedida-24\"> </a></td><td>Emplastro</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRUnidadeMedida-25\"> </a></td><td>Endosporos</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRUnidadeMedida-26\"> </a></td><td>Enema</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRUnidadeMedida-27\"> </a></td><td>Envelope</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRUnidadeMedida-28\"> </a></td><td>Estojo</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRUnidadeMedida-29\"> </a></td><td>Filme</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRUnidadeMedida-30\"> </a></td><td>Flaconete</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRUnidadeMedida-31\"> </a></td><td>Frasco</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRUnidadeMedida-32\"> </a></td><td>Frasco-ampola</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRUnidadeMedida-33\"> </a></td><td>g (Grama)</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRUnidadeMedida-34\"> </a></td><td>Goma</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRUnidadeMedida-35\"> </a></td><td>Gota</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRUnidadeMedida-36\"> </a></td><td>Hora</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRUnidadeMedida-37\"> </a></td><td>Implante</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRUnidadeMedida-38\"> </a></td><td>kg (Quilograma)</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRUnidadeMedida-39\"> </a></td><td>L (Litro)</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRUnidadeMedida-40\"> </a></td><td>Lata</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRUnidadeMedida-41\"> </a></td><td>m (Metro)</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRUnidadeMedida-42\"> </a></td><td>mEq (Miliequivalente)</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRUnidadeMedida-43\"> </a></td><td>mg (Miligrama)</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRUnidadeMedida-44\"> </a></td><td>Micrograma</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRUnidadeMedida-45\"> </a></td><td>Microlitro</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRUnidadeMedida-46\"> </a></td><td>Milhões</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRUnidadeMedida-47\"> </a></td><td>MUI (Milhões de unidades internacionais)</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRUnidadeMedida-48\"> </a></td><td>mL (Mililitro)</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRUnidadeMedida-49\"> </a></td><td>mm (Milímetro)</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRUnidadeMedida-50\"> </a></td><td>ng (Nanograma)</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRUnidadeMedida-51\"> </a></td><td>nL (Nanolitro)</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRUnidadeMedida-52\"> </a></td><td>Pastilha</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRUnidadeMedida-53\"> </a></td><td>Pastilha dura</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRUnidadeMedida-54\"> </a></td><td>Pastilha gomosa</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRUnidadeMedida-55\"> </a></td><td>Pílula</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRUnidadeMedida-56\"> </a></td><td>Saco</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRUnidadeMedida-57\"> </a></td><td>Seringa</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRUnidadeMedida-58\"> </a></td><td>Strip</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRUnidadeMedida-59\"> </a></td><td>Supositório</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRUnidadeMedida-60\"> </a></td><td>UI (Unidade Internacional)</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRUnidadeMedida-61\"> </a></td><td>UIC (Unidade Inibidora de Calicreína)</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRUnidadeMedida-62\"> </a></td><td>Unidade</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRUnidadeMedida-63\"> </a></td><td>UTR (Unidade Redutora da Turbidez)</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRUnidadeMedida-64\"> </a></td><td>Óvulo</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRUnidadeMedida-66\"> </a></td><td>Bastão</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRUnidadeMedida-69\"> </a></td><td>Capsula inalante</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRUnidadeMedida-70\"> </a></td><td>Cartão</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRUnidadeMedida-71\"> </a></td><td>Cartela</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRUnidadeMedida-74\"> </a></td><td>Drágea</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRUnidadeMedida-75\"> </a></td><td>Pote</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRUnidadeMedida-76\"> </a></td><td>Sachê</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRUnidadeMedida-77\"> </a></td><td>Seringa preenchida</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRUnidadeMedida-78\"> </a></td><td>Tablete</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRUnidadeMedida-79\"> </a></td><td>Tubete</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRUnidadeMedida-80\"> </a></td><td>Tubo</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRUnidadeMedida-82\"> </a></td><td>Glóbulo</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRUnidadeMedida"] ; # 
+  fhir:title [ fhir:v "Unidade de Medida"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2021-12-01T13:16:09.8385573+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Adesivo" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Ampola" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Anel" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Aplicação" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Aplicador" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Atomização" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Bandagem" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Barra" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Bisnaga" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Blíster" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Bolsa" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Caixa" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Cápsula" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Carpule" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Cartucho" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Catéter" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "cm (Centímetro)" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "cm² (Centímetro Quadrado)" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Comprimido" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Desconhecido" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Dispositivo" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Dispositivo de injeção pré-carregado" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Dose" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Emplastro" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Endosporos" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Enema" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Envelope" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Estojo" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Filme" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Flaconete" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Frasco" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Frasco-ampola" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "g (Grama)" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "Goma" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Gota" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Hora" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Implante" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "kg (Quilograma)" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "L (Litro)" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Lata" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "m (Metro)" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "mEq (Miliequivalente)" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "mg (Miligrama)" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "Micrograma" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Microlitro" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "Milhões" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "MUI (Milhões de unidades internacionais)" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "mL (Mililitro)" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "mm (Milímetro)" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "ng (Nanograma)" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "nL (Nanolitro)" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "Pastilha" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "Pastilha dura" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "Pastilha gomosa" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "Pílula" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "Saco" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "Seringa" ]
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "Strip" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "Supositório" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "UI (Unidade Internacional)" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "UIC (Unidade Inibidora de Calicreína)" ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "Unidade" ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "UTR (Unidade Redutora da Turbidez)" ]
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "Óvulo" ]
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "Bastão" ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "Capsula inalante" ]
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "Cartão" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Cartela" ]
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "Drágea" ]
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "Pote" ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "Sachê" ]
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "Seringa preenchida" ]
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "Tablete" ]
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "Tubete" ]
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "Tubo" ]
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "Glóbulo" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

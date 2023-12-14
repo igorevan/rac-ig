@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoDocumentoIndividuo-1.0"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2020-03-12T13:27:33.411+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/ValueSet/identifier-type</code> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>HC</td><td>Número do Cartão Nacional de Saúde (CNS)</td></tr><tr><td>RRI</td><td>Número do Registro Geral (RG)</td></tr><tr><td>MCT</td><td>Número da Certidão de Casamento</td></tr><tr><td>PPN</td><td>Número do Passaporte</td></tr><tr><td>RN</td><td>Número de inscrição no Conselho Regional de Enfermagem (COREn)</td></tr><tr><td>SS</td><td>Número de Identificação Social (NIS/PIS/PASEP)</td></tr><tr><td>DL</td><td>Número da Carteira Nacional de Habilitação (CNH)</td></tr><tr><td>BCT</td><td>Número do Documento de Nascido Vivo (DN/DNV)</td></tr><tr><td>BR</td><td>Número da Certidão de Nascimento</td></tr><tr><td>IND</td><td>Número da Certidão de Índio</td></tr><tr><td>MI</td><td>Número do Certificado de Reservista</td></tr><tr><td>MD</td><td>Número de inscrição no Conselho Regional de Medicina (CRM)</td></tr><tr><td>DDS</td><td>Número de inscrição no Conselho Regional Odontologia (CRO)</td></tr><tr><td>TAX</td><td>Número de inscrição no Cadastro de Pessoas Físicas (CPF)</td></tr></table></li><li>Include all codes defined in <a href="CodeSystem-BRTipoIdentificador.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</code></a></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href="CodeSystem-BRTipoIdentificador.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-BRTipoIdentificador.html#BRTipoIdentificador-AUTH">AUTH</a></td><td style="color: #cccccc">Código de Autorização</td><td>Identificador da permissão para a realização de um procedimento.</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0"/>
+  <version value="0.1.0"/>
+  <name value="BRTipoDocumentoIndividuo"/>
+  <title value="Tipo de Documento do Indivíduo"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-12T13:27:32.6850777+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/ValueSet/identifier-type"/>
+      <version value="*"/>
+      <concept>
+        <code value="HC"/>
+        <display value="Número do Cartão Nacional de Saúde (CNS)"/>
+      </concept>
+      <concept>
+        <code value="RRI"/>
+        <display value="Número do Registro Geral (RG)"/>
+      </concept>
+      <concept>
+        <code value="MCT"/>
+        <display value="Número da Certidão de Casamento"/>
+      </concept>
+      <concept>
+        <code value="PPN"/>
+        <display value="Número do Passaporte"/>
+      </concept>
+      <concept>
+        <code value="RN"/>
+        <display value="Número de inscrição no Conselho Regional de Enfermagem (COREn)"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="Número de Identificação Social (NIS/PIS/PASEP)"/>
+      </concept>
+      <concept>
+        <code value="DL"/>
+        <display value="Número da Carteira Nacional de Habilitação (CNH)"/>
+      </concept>
+      <concept>
+        <code value="BCT"/>
+        <display value="Número do Documento de Nascido Vivo (DN/DNV)"/>
+      </concept>
+      <concept>
+        <code value="BR"/>
+        <display value="Número da Certidão de Nascimento"/>
+      </concept>
+      <concept>
+        <code value="IND"/>
+        <display value="Número da Certidão de Índio"/>
+      </concept>
+      <concept>
+        <code value="MI"/>
+        <display value="Número do Certificado de Reservista"/>
+      </concept>
+      <concept>
+        <code value="MD"/>
+        <display value="Número de inscrição no Conselho Regional de Medicina (CRM)"/>
+      </concept>
+      <concept>
+        <code value="DDS"/>
+        <display value="Número de inscrição no Conselho Regional Odontologia (CRO)"/>
+      </concept>
+      <concept>
+        <code value="TAX"/>
+        <display value="Número de inscrição no Cadastro de Pessoas Físicas (CPF)"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"/>
+      <version value="*"/>
+    </include>
+    <exclude>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"/>
+      <version value="*"/>
+      <concept>
+        <code value="AUTH"/>
+      </concept>
+    </exclude>
+  </compose>
+</ValueSet>

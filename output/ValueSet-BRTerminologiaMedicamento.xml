@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTerminologiaMedicamento"/>
+  <meta>
+    <lastUpdated value="2021-12-01T13:16:09.8385573+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-BRObmCATMAT.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmEAN.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmANVISA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmAMPP.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmVMP.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP</code></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento"/>
+  <version value="0.1.0"/>
+  <name value="BRTerminologiaMedicamento"/>
+  <title value="Terminologia dos medicamentos"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-12-01T13:16:09.8385573+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet utilizado para definir a terminologia de um dado medicamento."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT"/>
+      <version value="*"/>
+    </include>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN"/>
+      <version value="*"/>
+    </include>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA"/>
+      <version value="*"/>
+    </include>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP"/>
+      <version value="*"/>
+    </include>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP"/>
+      <version value="*"/>
+    </include>
+  </compose>
+</ValueSet>

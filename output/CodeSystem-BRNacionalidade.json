@@ -1,0 +1,91 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRNacionalidade",
+  "meta" : {
+    "lastUpdated" : "2021-12-28T17:23:29+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"BRNacionalidade-B\"> </a></td><td>Brasileiro</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"BRNacionalidade-E\"> </a></td><td>Estrangeiro</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"BRNacionalidade-N\"> </a></td><td>Naturalizado</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>B</td><td>Brazilian</td><td>Brasileño</td></tr><tr><td>E</td><td>Foreign</td><td>Extranjero</td></tr><tr><td>N</td><td>Naturalized</td><td>Naturalizado</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade",
+  "version" : "0.1.0",
+  "name" : "BRNacionalidade",
+  "title" : "Nacionalidade",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-12-28T17:23:29+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Define a nacionalidade de um dado indivíduo.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "B",
+    "display" : "Brasileiro",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Brazilian"
+    },
+    {
+      "language" : "es",
+      "value" : "Brasileño"
+    }]
+  },
+  {
+    "code" : "E",
+    "display" : "Estrangeiro",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Foreign"
+    },
+    {
+      "language" : "es",
+      "value" : "Extranjero"
+    }]
+  },
+  {
+    "code" : "N",
+    "display" : "Naturalizado",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Naturalized"
+    },
+    {
+      "language" : "es",
+      "value" : "Naturalizado"
+    }]
+  }]
+}

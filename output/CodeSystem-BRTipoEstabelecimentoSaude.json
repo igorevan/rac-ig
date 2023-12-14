@@ -1,0 +1,211 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRTipoEstabelecimentoSaude",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T18:25:07.005+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRTipoEstabelecimentoSaude-84\"> </a></td><td>CENTRAL DE ABASTECIMENTO</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRTipoEstabelecimentoSaude-68\"> </a></td><td>CENTRAL DE GESTAO EM SAUDE</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRTipoEstabelecimentoSaude-82\"> </a></td><td>CENTRAL DE NOTIFICACAO,CAPTACAO E DISTRIB DE ORGAOS ESTADUAL</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRTipoEstabelecimentoSaude-64\"> </a></td><td>CENTRAL DE REGULACAO DE SERVICOS DE SAUDE</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRTipoEstabelecimentoSaude-81\"> </a></td><td>CENTRAL DE REGULACAO DO ACESSO</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRTipoEstabelecimentoSaude-76\"> </a></td><td>CENTRAL DE REGULACAO MEDICA DAS URGENCIAS</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRTipoEstabelecimentoSaude-71\"> </a></td><td>CENTRO DE APOIO A SAUDE DA FAMILIA</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRTipoEstabelecimentoSaude-69\"> </a></td><td>CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRTipoEstabelecimentoSaude-70\"> </a></td><td>CENTRO DE ATENCAO PSICOSSOCIAL</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRTipoEstabelecimentoSaude-85\"> </a></td><td>CENTRO DE IMUNIZACAO</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRTipoEstabelecimentoSaude-61\"> </a></td><td>CENTRO DE PARTO NORMAL - ISOLADO</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRTipoEstabelecimentoSaude-2\"> </a></td><td>CENTRO DE SAUDE/UNIDADE BASICA</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRTipoEstabelecimentoSaude-36\"> </a></td><td>CLINICA/CENTRO DE ESPECIALIDADE</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRTipoEstabelecimentoSaude-22\"> </a></td><td>CONSULTORIO ISOLADO</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRTipoEstabelecimentoSaude-60\"> </a></td><td>COOPERATIVA OU EMPRESA DE CESSAO DE TRABALHADORES NA SAUDE</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRTipoEstabelecimentoSaude-43\"> </a></td><td>FARMACIA</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRTipoEstabelecimentoSaude-7\"> </a></td><td>HOSPITAL ESPECIALIZADO</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRTipoEstabelecimentoSaude-5\"> </a></td><td>HOSPITAL GERAL</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRTipoEstabelecimentoSaude-62\"> </a></td><td>HOSPITAL/DIA - ISOLADO</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRTipoEstabelecimentoSaude-67\"> </a></td><td>LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRTipoEstabelecimentoSaude-80\"> </a></td><td>LABORATORIO DE SAUDE PUBLICA</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRTipoEstabelecimentoSaude-79\"> </a></td><td>OFICINA ORTOPEDICA</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRTipoEstabelecimentoSaude-4\"> </a></td><td>POLICLINICA</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRTipoEstabelecimentoSaude-74\"> </a></td><td>POLO ACADEMIA DA SAUDE</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRTipoEstabelecimentoSaude-83\"> </a></td><td>POLO DE PREVENCAO DE DOENCAS E AGRAVOS E PROMOCAO DA SAUDE</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRTipoEstabelecimentoSaude-1\"> </a></td><td>POSTO DE SAUDE</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRTipoEstabelecimentoSaude-73\"> </a></td><td>PRONTO ATENDIMENTO</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRTipoEstabelecimentoSaude-21\"> </a></td><td>PRONTO SOCORRO ESPECIALIZADO</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRTipoEstabelecimentoSaude-20\"> </a></td><td>PRONTO SOCORRO GERAL</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRTipoEstabelecimentoSaude-77\"> </a></td><td>SERVICO DE ATENCAO DOMICILIAR ISOLADO(HOME CARE)</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRTipoEstabelecimentoSaude-75\"> </a></td><td>TELESSAUDE</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRTipoEstabelecimentoSaude-39\"> </a></td><td>UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRTipoEstabelecimentoSaude-72\"> </a></td><td>UNIDADE DE ATENCAO A SAUDE INDIGENA</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRTipoEstabelecimentoSaude-78\"> </a></td><td>UNIDADE DE ATENCAO EM REGIME RESIDENCIAL</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRTipoEstabelecimentoSaude-50\"> </a></td><td>UNIDADE DE VIGILANCIA EM SAUDE</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRTipoEstabelecimentoSaude-15\"> </a></td><td>UNIDADE MISTA</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRTipoEstabelecimentoSaude-42\"> </a></td><td>UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRTipoEstabelecimentoSaude-32\"> </a></td><td>UNIDADE MOVEL FLUVIAL</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRTipoEstabelecimentoSaude-40\"> </a></td><td>UNIDADE MOVEL TERRESTRE</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
+  "version" : "0.1.0",
+  "name" : "BRTipoEstabelecimentoSaude",
+  "title" : "Tipo de Estabelecimento de Saúde",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-11T18:25:27.5167216+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Códigos para representação de tipos de estabelecimentos de saúde, de acordo com codificação já existente para o Cadastro Nacional de Estabelecimentos de Saúde (CNES).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "84",
+    "display" : "CENTRAL DE ABASTECIMENTO"
+  },
+  {
+    "code" : "68",
+    "display" : "CENTRAL DE GESTAO EM SAUDE"
+  },
+  {
+    "code" : "82",
+    "display" : "CENTRAL DE NOTIFICACAO,CAPTACAO E DISTRIB DE ORGAOS ESTADUAL"
+  },
+  {
+    "code" : "64",
+    "display" : "CENTRAL DE REGULACAO DE SERVICOS DE SAUDE"
+  },
+  {
+    "code" : "81",
+    "display" : "CENTRAL DE REGULACAO DO ACESSO"
+  },
+  {
+    "code" : "76",
+    "display" : "CENTRAL DE REGULACAO MEDICA DAS URGENCIAS"
+  },
+  {
+    "code" : "71",
+    "display" : "CENTRO DE APOIO A SAUDE DA FAMILIA"
+  },
+  {
+    "code" : "69",
+    "display" : "CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA"
+  },
+  {
+    "code" : "70",
+    "display" : "CENTRO DE ATENCAO PSICOSSOCIAL"
+  },
+  {
+    "code" : "85",
+    "display" : "CENTRO DE IMUNIZACAO"
+  },
+  {
+    "code" : "61",
+    "display" : "CENTRO DE PARTO NORMAL - ISOLADO"
+  },
+  {
+    "code" : "2",
+    "display" : "CENTRO DE SAUDE/UNIDADE BASICA"
+  },
+  {
+    "code" : "36",
+    "display" : "CLINICA/CENTRO DE ESPECIALIDADE"
+  },
+  {
+    "code" : "22",
+    "display" : "CONSULTORIO ISOLADO"
+  },
+  {
+    "code" : "60",
+    "display" : "COOPERATIVA OU EMPRESA DE CESSAO DE TRABALHADORES NA SAUDE"
+  },
+  {
+    "code" : "43",
+    "display" : "FARMACIA"
+  },
+  {
+    "code" : "7",
+    "display" : "HOSPITAL ESPECIALIZADO"
+  },
+  {
+    "code" : "5",
+    "display" : "HOSPITAL GERAL"
+  },
+  {
+    "code" : "62",
+    "display" : "HOSPITAL/DIA - ISOLADO"
+  },
+  {
+    "code" : "67",
+    "display" : "LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN"
+  },
+  {
+    "code" : "80",
+    "display" : "LABORATORIO DE SAUDE PUBLICA"
+  },
+  {
+    "code" : "79",
+    "display" : "OFICINA ORTOPEDICA"
+  },
+  {
+    "code" : "4",
+    "display" : "POLICLINICA"
+  },
+  {
+    "code" : "74",
+    "display" : "POLO ACADEMIA DA SAUDE"
+  },
+  {
+    "code" : "83",
+    "display" : "POLO DE PREVENCAO DE DOENCAS E AGRAVOS E PROMOCAO DA SAUDE"
+  },
+  {
+    "code" : "1",
+    "display" : "POSTO DE SAUDE"
+  },
+  {
+    "code" : "73",
+    "display" : "PRONTO ATENDIMENTO"
+  },
+  {
+    "code" : "21",
+    "display" : "PRONTO SOCORRO ESPECIALIZADO"
+  },
+  {
+    "code" : "20",
+    "display" : "PRONTO SOCORRO GERAL"
+  },
+  {
+    "code" : "77",
+    "display" : "SERVICO DE ATENCAO DOMICILIAR ISOLADO(HOME CARE)"
+  },
+  {
+    "code" : "75",
+    "display" : "TELESSAUDE"
+  },
+  {
+    "code" : "39",
+    "display" : "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)"
+  },
+  {
+    "code" : "72",
+    "display" : "UNIDADE DE ATENCAO A SAUDE INDIGENA"
+  },
+  {
+    "code" : "78",
+    "display" : "UNIDADE DE ATENCAO EM REGIME RESIDENCIAL"
+  },
+  {
+    "code" : "50",
+    "display" : "UNIDADE DE VIGILANCIA EM SAUDE"
+  },
+  {
+    "code" : "15",
+    "display" : "UNIDADE MISTA"
+  },
+  {
+    "code" : "42",
+    "display" : "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA"
+  },
+  {
+    "code" : "32",
+    "display" : "UNIDADE MOVEL FLUVIAL"
+  },
+  {
+    "code" : "40",
+    "display" : "UNIDADE MOVEL TERRESTRE"
+  }]
+}

@@ -1,0 +1,182 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRMedDRA"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2022-12-02T15:35:49.359189+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">10002198<a name=\"BRMedDRA-10002198\"> </a></td><td>Anafilaxia</td><td>Anafilaxia é uma reação alérgica aguda e grave que começa subitamente, entre menos de um minuto e até algumas horas após a exposição a um alérgeno, ao qual a pessoa desenvolveu hipersensibilidade, e que pode ser fatal.</td></tr><tr><td style=\"white-space:nowrap\">10002424<a name=\"BRMedDRA-10002424\"> </a></td><td>Angioedema</td><td>Edema súbito da derme, tecido subcutâneo, mucosa e tecido submucoso.</td></tr><tr><td style=\"white-space:nowrap\">10003246<a name=\"BRMedDRA-10003246\"> </a></td><td>Artrite</td><td>Inflamação numa ou mais articulações.</td></tr><tr><td style=\"white-space:nowrap\">10003553<a name=\"BRMedDRA-10003553\"> </a></td><td>Asma</td><td>Asma é uma doença inflamatória das vias aéreas.</td></tr><tr><td style=\"white-space:nowrap\">10006482<a name=\"BRMedDRA-10006482\"> </a></td><td>Broncoespasmo</td><td>Estreitamento do lúmen brônquico, em consequência da contração da musculatura brônquica.</td></tr><tr><td style=\"white-space:nowrap\">10010741<a name=\"BRMedDRA-10010741\"> </a></td><td>Conjuntivite</td><td>Inflamação da conjuntiva.</td></tr><tr><td style=\"white-space:nowrap\">10003639<a name=\"BRMedDRA-10003639\"> </a></td><td>Dermatite atópica</td><td>Caracteriza-se pela presença de erupções pruriginosas e com crosta.</td></tr><tr><td style=\"white-space:nowrap\">10012442<a name=\"BRMedDRA-10012442\"> </a></td><td>Dermatite de contato</td><td>Reação inflamatória que ocorre devido ao contato da pele com um agente irritante.</td></tr><tr><td style=\"white-space:nowrap\">10012735<a name=\"BRMedDRA-10012735\"> </a></td><td>Diarréia</td><td>Evacuação de fezes líquidas de forma frequente e sem controle, podendo ser aguda ou crônica</td></tr><tr><td style=\"white-space:nowrap\">10013968<a name=\"BRMedDRA-10013968\"> </a></td><td>Dispnéia</td><td>É uma sensação de dificuldade em respirar.</td></tr><tr><td style=\"white-space:nowrap\">10014184<a name=\"BRMedDRA-10014184\"> </a></td><td>Eczema</td><td>Tipo de inflamação cutânea.</td></tr><tr><td style=\"white-space:nowrap\">10023845<a name=\"BRMedDRA-10023845\"> </a></td><td>Edema de Glote</td><td>Edema súbito da glote que impede a passagem de ar.</td></tr><tr><td style=\"white-space:nowrap\">10015218<a name=\"BRMedDRA-10015218\"> </a></td><td>Eritema Multiforme</td><td>Reação imunológica da pele e mucosas.</td></tr><tr><td style=\"white-space:nowrap\">10012441<a name=\"BRMedDRA-10012441\"> </a></td><td>Exantema bolhoso</td><td>Erupção cutânea constituída por bolhas.</td></tr><tr><td style=\"white-space:nowrap\">10037868<a name=\"BRMedDRA-10037868\"> </a></td><td>Exantema maculopapular</td><td>Erupção cutânea que se caracteriza pelo aparecimento de manchas e pápulas eritematosas.</td></tr><tr><td style=\"white-space:nowrap\">10034972<a name=\"BRMedDRA-10034972\"> </a></td><td>Fotossensibilidade</td><td>Queimaduras ou outras reações cutâneas desencadeadas pela exposição aos raios ultravioleta.</td></tr><tr><td style=\"white-space:nowrap\">10028116<a name=\"BRMedDRA-10028116\"> </a></td><td>Mucosite</td><td>A mucosite é uma inflamação da mucosa do tubo digestivo.</td></tr><tr><td style=\"white-space:nowrap\">10029117<a name=\"BRMedDRA-10029117\"> </a></td><td>Nefrite</td><td>Processo inflamatório localizado ao rim.</td></tr><tr><td style=\"white-space:nowrap\">10007617<a name=\"BRMedDRA-10007617\"> </a></td><td>Parada Cardiorespiratória</td><td>Interrupção súbita da circulação sanguínea e dos movimentos respiratórios.</td></tr><tr><td style=\"white-space:nowrap\">10037087<a name=\"BRMedDRA-10037087\"> </a></td><td>Prurido</td><td>Sensação de irritação intensa da pele, que induz a coceira.</td></tr><tr><td style=\"white-space:nowrap\">10039083<a name=\"BRMedDRA-10039083\"> </a></td><td>Rinite</td><td>Irritação e inflamação crônica ou aguda da mucosa nasal.</td></tr><tr><td style=\"white-space:nowrap\">10073508<a name=\"BRMedDRA-10073508\"> </a></td><td>Síndrome de DRESS</td><td>Reação adversa sistêmica a um fármaco, consistindo em erupções cutâneas graves, febre, adenopatias, hepatite e alterações hematológicas (hipereosinofilia e linfocitose atípica).</td></tr><tr><td style=\"white-space:nowrap\">10044223<a name=\"BRMedDRA-10044223\"> </a></td><td>Síndrome de Lyell</td><td>Lesão dermatológica rara, de extrema gravidade, caracterizada pelo aparecimento súbito de febre elevada, sinais de toxicidade sistémica e exfoliação mucocutânea intensa.</td></tr><tr><td style=\"white-space:nowrap\">10042033<a name=\"BRMedDRA-10042033\"> </a></td><td>Síndrome de Stevens-Johnson</td><td>Erupções cutâneas generalizadas, febre, mucosite oral e conjuntivite purulenta graves.</td></tr><tr><td style=\"white-space:nowrap\">10011224<a name=\"BRMedDRA-10011224\"> </a></td><td>Tosse</td><td>Resposta reflexa ou voluntária do organismo, resultante de irritação das vias áreas e que funciona como uma contração espasmódica e normalmente repetitiva, do tórax.</td></tr><tr><td style=\"white-space:nowrap\">10046735<a name=\"BRMedDRA-10046735\"> </a></td><td>Urticária</td><td>Tipo de erupção cutânea, pruriginosa, caracterizada por placas salientes, que se assemelham às produzidas pela urtiga.</td></tr><tr><td style=\"white-space:nowrap\">10047115<a name=\"BRMedDRA-10047115\"> </a></td><td>Vasculite</td><td>Inflamação vascular, que pode estender-se ao endotélio, causando estenose e/ou oclusão.</td></tr><tr><td style=\"white-space:nowrap\">10047700<a name=\"BRMedDRA-10047700\"> </a></td><td>Vômito</td><td>É a expulsão ativa do conteúdo gástrico pela boca.</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRMedDRA"] ; # 
+  fhir:title [ fhir:v "Medical Dictionary for Regulatory Activities (MedDRA)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2022-12-02T15:35:49.327439+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Medical Dictionary for Regulatory Activities."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "10002198" ] ;
+     fhir:display [ fhir:v "Anafilaxia" ] ;
+     fhir:definition [ fhir:v "Anafilaxia é uma reação alérgica aguda e grave que começa subitamente, entre menos de um minuto e até algumas horas após a exposição a um alérgeno, ao qual a pessoa desenvolveu hipersensibilidade, e que pode ser fatal." ]
+  ] [
+     fhir:code [ fhir:v "10002424" ] ;
+     fhir:display [ fhir:v "Angioedema" ] ;
+     fhir:definition [ fhir:v "Edema súbito da derme, tecido subcutâneo, mucosa e tecido submucoso." ]
+  ] [
+     fhir:code [ fhir:v "10003246" ] ;
+     fhir:display [ fhir:v "Artrite" ] ;
+     fhir:definition [ fhir:v "Inflamação numa ou mais articulações." ]
+  ] [
+     fhir:code [ fhir:v "10003553" ] ;
+     fhir:display [ fhir:v "Asma" ] ;
+     fhir:definition [ fhir:v "Asma é uma doença inflamatória das vias aéreas." ]
+  ] [
+     fhir:code [ fhir:v "10006482" ] ;
+     fhir:display [ fhir:v "Broncoespasmo" ] ;
+     fhir:definition [ fhir:v "Estreitamento do lúmen brônquico, em consequência da contração da musculatura brônquica." ]
+  ] [
+     fhir:code [ fhir:v "10010741" ] ;
+     fhir:display [ fhir:v "Conjuntivite" ] ;
+     fhir:definition [ fhir:v "Inflamação da conjuntiva." ]
+  ] [
+     fhir:code [ fhir:v "10003639" ] ;
+     fhir:display [ fhir:v "Dermatite atópica" ] ;
+     fhir:definition [ fhir:v "Caracteriza-se pela presença de erupções pruriginosas e com crosta." ]
+  ] [
+     fhir:code [ fhir:v "10012442" ] ;
+     fhir:display [ fhir:v "Dermatite de contato" ] ;
+     fhir:definition [ fhir:v "Reação inflamatória que ocorre devido ao contato da pele com um agente irritante." ]
+  ] [
+     fhir:code [ fhir:v "10012735" ] ;
+     fhir:display [ fhir:v "Diarréia" ] ;
+     fhir:definition [ fhir:v "Evacuação de fezes líquidas de forma frequente e sem controle, podendo ser aguda ou crônica" ]
+  ] [
+     fhir:code [ fhir:v "10013968" ] ;
+     fhir:display [ fhir:v "Dispnéia" ] ;
+     fhir:definition [ fhir:v "É uma sensação de dificuldade em respirar." ]
+  ] [
+     fhir:code [ fhir:v "10014184" ] ;
+     fhir:display [ fhir:v "Eczema" ] ;
+     fhir:definition [ fhir:v "Tipo de inflamação cutânea." ]
+  ] [
+     fhir:code [ fhir:v "10023845" ] ;
+     fhir:display [ fhir:v "Edema de Glote" ] ;
+     fhir:definition [ fhir:v "Edema súbito da glote que impede a passagem de ar." ]
+  ] [
+     fhir:code [ fhir:v "10015218" ] ;
+     fhir:display [ fhir:v "Eritema Multiforme" ] ;
+     fhir:definition [ fhir:v "Reação imunológica da pele e mucosas." ]
+  ] [
+     fhir:code [ fhir:v "10012441" ] ;
+     fhir:display [ fhir:v "Exantema bolhoso" ] ;
+     fhir:definition [ fhir:v "Erupção cutânea constituída por bolhas." ]
+  ] [
+     fhir:code [ fhir:v "10037868" ] ;
+     fhir:display [ fhir:v "Exantema maculopapular" ] ;
+     fhir:definition [ fhir:v "Erupção cutânea que se caracteriza pelo aparecimento de manchas e pápulas eritematosas." ]
+  ] [
+     fhir:code [ fhir:v "10034972" ] ;
+     fhir:display [ fhir:v "Fotossensibilidade" ] ;
+     fhir:definition [ fhir:v "Queimaduras ou outras reações cutâneas desencadeadas pela exposição aos raios ultravioleta." ]
+  ] [
+     fhir:code [ fhir:v "10028116" ] ;
+     fhir:display [ fhir:v "Mucosite" ] ;
+     fhir:definition [ fhir:v "A mucosite é uma inflamação da mucosa do tubo digestivo." ]
+  ] [
+     fhir:code [ fhir:v "10029117" ] ;
+     fhir:display [ fhir:v "Nefrite" ] ;
+     fhir:definition [ fhir:v "Processo inflamatório localizado ao rim." ]
+  ] [
+     fhir:code [ fhir:v "10007617" ] ;
+     fhir:display [ fhir:v "Parada Cardiorespiratória" ] ;
+     fhir:definition [ fhir:v "Interrupção súbita da circulação sanguínea e dos movimentos respiratórios." ]
+  ] [
+     fhir:code [ fhir:v "10037087" ] ;
+     fhir:display [ fhir:v "Prurido" ] ;
+     fhir:definition [ fhir:v "Sensação de irritação intensa da pele, que induz a coceira." ]
+  ] [
+     fhir:code [ fhir:v "10039083" ] ;
+     fhir:display [ fhir:v "Rinite" ] ;
+     fhir:definition [ fhir:v "Irritação e inflamação crônica ou aguda da mucosa nasal." ]
+  ] [
+     fhir:code [ fhir:v "10073508" ] ;
+     fhir:display [ fhir:v "Síndrome de DRESS" ] ;
+     fhir:definition [ fhir:v "Reação adversa sistêmica a um fármaco, consistindo em erupções cutâneas graves, febre, adenopatias, hepatite e alterações hematológicas (hipereosinofilia e linfocitose atípica)." ]
+  ] [
+     fhir:code [ fhir:v "10044223" ] ;
+     fhir:display [ fhir:v "Síndrome de Lyell" ] ;
+     fhir:definition [ fhir:v "Lesão dermatológica rara, de extrema gravidade, caracterizada pelo aparecimento súbito de febre elevada, sinais de toxicidade sistémica e exfoliação mucocutânea intensa." ]
+  ] [
+     fhir:code [ fhir:v "10042033" ] ;
+     fhir:display [ fhir:v "Síndrome de Stevens-Johnson" ] ;
+     fhir:definition [ fhir:v "Erupções cutâneas generalizadas, febre, mucosite oral e conjuntivite purulenta graves." ]
+  ] [
+     fhir:code [ fhir:v "10011224" ] ;
+     fhir:display [ fhir:v "Tosse" ] ;
+     fhir:definition [ fhir:v "Resposta reflexa ou voluntária do organismo, resultante de irritação das vias áreas e que funciona como uma contração espasmódica e normalmente repetitiva, do tórax." ]
+  ] [
+     fhir:code [ fhir:v "10046735" ] ;
+     fhir:display [ fhir:v "Urticária" ] ;
+     fhir:definition [ fhir:v "Tipo de erupção cutânea, pruriginosa, caracterizada por placas salientes, que se assemelham às produzidas pela urtiga." ]
+  ] [
+     fhir:code [ fhir:v "10047115" ] ;
+     fhir:display [ fhir:v "Vasculite" ] ;
+     fhir:definition [ fhir:v "Inflamação vascular, que pode estender-se ao endotélio, causando estenose e/ou oclusão." ]
+  ] [
+     fhir:code [ fhir:v "10047700" ] ;
+     fhir:display [ fhir:v "Vômito" ] ;
+     fhir:definition [ fhir:v "É a expulsão ativa do conteúdo gástrico pela boca." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

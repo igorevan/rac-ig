@@ -1,0 +1,91 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRTipoObservacao",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T18:25:29.666+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DSIA<a name=\"BRTipoObservacao-DSIA\"> </a></td><td>Declaração Subjetiva do Indivíudo para o Atendimento</td></tr><tr><td style=\"white-space:nowrap\">RECIDI<a name=\"BRTipoObservacao-RECIDI\"> </a></td><td>Resumo da evolução clínica do indivíduo durante a internação</td></tr><tr><td style=\"white-space:nowrap\">DF<a name=\"BRTipoObservacao-DF\"> </a></td><td>Dados do desfecho</td></tr><tr><td style=\"white-space:nowrap\">IAC<a name=\"BRTipoObservacao-IAC\"> </a></td><td>Informações Adicionais/Complementares</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"BRTipoObservacao-P\"> </a></td><td>Peso</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"BRTipoObservacao-A\"> </a></td><td>Altura</td></tr><tr><td style=\"white-space:nowrap\">PC<a name=\"BRTipoObservacao-PC\"> </a></td><td>Perímetro Cefálico</td></tr><tr><td style=\"white-space:nowrap\">CA<a name=\"BRTipoObservacao-CA\"> </a></td><td>Circunferência Abdominal</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"BRTipoObservacao-PA\"> </a></td><td>Pressão Arterial</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
+  "version" : "0.1.0",
+  "name" : "BRTipoObservacao",
+  "title" : "Tipo de Observação",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-03-11T18:25:50.173869+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Tipo de Observação.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "DSIA",
+    "display" : "Declaração Subjetiva do Indivíudo para o Atendimento"
+  },
+  {
+    "code" : "RECIDI",
+    "display" : "Resumo da evolução clínica do indivíduo durante a internação"
+  },
+  {
+    "code" : "DF",
+    "display" : "Dados do desfecho"
+  },
+  {
+    "code" : "IAC",
+    "display" : "Informações Adicionais/Complementares"
+  },
+  {
+    "code" : "P",
+    "display" : "Peso"
+  },
+  {
+    "code" : "A",
+    "display" : "Altura"
+  },
+  {
+    "code" : "PC",
+    "display" : "Perímetro Cefálico"
+  },
+  {
+    "code" : "CA",
+    "display" : "Circunferência Abdominal"
+  },
+  {
+    "code" : "PA",
+    "display" : "Pressão Arterial"
+  }]
+}

@@ -1,0 +1,101 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRTipoSubstanciaUso"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2020-09-20T23:04:32.536+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">deriv-tabaco<a name=\"BRTipoSubstanciaUso-deriv-tabaco\"> </a></td><td>Derivados do Tabaco</td></tr><tr><td style=\"white-space:nowrap\">alcool<a name=\"BRTipoSubstanciaUso-alcool\"> </a></td><td>Bebidas Alcóolicas</td></tr><tr><td style=\"white-space:nowrap\">maconha<a name=\"BRTipoSubstanciaUso-maconha\"> </a></td><td>Maconha</td></tr><tr><td style=\"white-space:nowrap\">cocaina<a name=\"BRTipoSubstanciaUso-cocaina\"> </a></td><td>Cocaína</td></tr><tr><td style=\"white-space:nowrap\">crack<a name=\"BRTipoSubstanciaUso-crack\"> </a></td><td>Crack</td></tr><tr><td style=\"white-space:nowrap\">anfetamina<a name=\"BRTipoSubstanciaUso-anfetamina\"> </a></td><td>Anfetaminas ou Êxtase</td></tr><tr><td style=\"white-space:nowrap\">inalante<a name=\"BRTipoSubstanciaUso-inalante\"> </a></td><td>Inalantes</td></tr><tr><td style=\"white-space:nowrap\">hipno-seda<a name=\"BRTipoSubstanciaUso-hipno-seda\"> </a></td><td>Hipnóticos ou Sedativos</td></tr><tr><td style=\"white-space:nowrap\">alucinogeno<a name=\"BRTipoSubstanciaUso-alucinogeno\"> </a></td><td>Alucinógenos</td></tr><tr><td style=\"white-space:nowrap\">opio<a name=\"BRTipoSubstanciaUso-opio\"> </a></td><td>Opióides ou Opiáceos</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRTipoSubstanciaUso"] ; # 
+  fhir:title [ fhir:v "Tipo de Substância em Uso"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-09-20T23:04:30.8771699+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "deriv-tabaco" ] ;
+     fhir:display [ fhir:v "Derivados do Tabaco" ]
+  ] [
+     fhir:code [ fhir:v "alcool" ] ;
+     fhir:display [ fhir:v "Bebidas Alcóolicas" ]
+  ] [
+     fhir:code [ fhir:v "maconha" ] ;
+     fhir:display [ fhir:v "Maconha" ]
+  ] [
+     fhir:code [ fhir:v "cocaina" ] ;
+     fhir:display [ fhir:v "Cocaína" ]
+  ] [
+     fhir:code [ fhir:v "crack" ] ;
+     fhir:display [ fhir:v "Crack" ]
+  ] [
+     fhir:code [ fhir:v "anfetamina" ] ;
+     fhir:display [ fhir:v "Anfetaminas ou Êxtase" ]
+  ] [
+     fhir:code [ fhir:v "inalante" ] ;
+     fhir:display [ fhir:v "Inalantes" ]
+  ] [
+     fhir:code [ fhir:v "hipno-seda" ] ;
+     fhir:display [ fhir:v "Hipnóticos ou Sedativos" ]
+  ] [
+     fhir:code [ fhir:v "alucinogeno" ] ;
+     fhir:display [ fhir:v "Alucinógenos" ]
+  ] [
+     fhir:code [ fhir:v "opio" ] ;
+     fhir:display [ fhir:v "Opióides ou Opiáceos" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

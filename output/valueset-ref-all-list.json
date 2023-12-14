@@ -1,0 +1,2268 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/additional-instruction-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAdditionalDosageInstructions",
+      "title" : "SNOMED CT Additional Dosage Instructions",
+      "description" : "This value set includes all SNOMED CT Additional Dosage Instructions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.95"],
+      "sources" : ["2.16.840.1.113883.4.642.3.95"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressType",
+      "title" : "AddressType",
+      "description" : "The type of an address (physical / postal).",
+      "systems" : ["http://hl7.org/fhir/address-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.69"],
+      "sources" : ["2.16.840.1.113883.4.642.3.69"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "The use of an address.",
+      "systems" : ["http://hl7.org/fhir/address-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.67"],
+      "sources" : ["2.16.840.1.113883.4.642.3.67"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administration-method-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAdministrationMethodCodes",
+      "title" : "SNOMED CT Administration Method Codes",
+      "description" : "This value set includes some method codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.97"],
+      "sources" : ["2.16.840.1.113883.4.642.3.97"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceType",
+      "title" : "AllergyIntoleranceType",
+      "description" : "Identification of the underlying physiological mechanism for a Reaction Risk.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.131"],
+      "sources" : ["2.16.840.1.113883.4.642.3.131"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceClinicalStatusCodes",
+      "title" : "AllergyIntolerance Clinical Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1372"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1372"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/approach-site-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTAnatomicalStructureForAdministrationSiteCodes",
+      "title" : "SNOMED CT Anatomical Structure for Administration Site Codes",
+      "description" : "This value set includes Anatomical Structure codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.346"],
+      "sources" : ["2.16.840.1.113883.4.642.3.346"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PracticeSettingCodeValueSet",
+      "title" : "Practice Setting Code Value Set",
+      "description" : "This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "uses" : {
+      },
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityKind",
+      "title" : "Care Plan Activity Kind",
+      "description" : "Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.145"],
+      "sources" : ["2.16.840.1.113883.4.642.3.145"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityOutcome",
+      "title" : "Care Plan Activity Outcome",
+      "description" : "Example codes indicating the outcome of a care plan activity. Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.149"],
+      "sources" : ["2.16.840.1.113883.4.642.3.149"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.146"],
+      "sources" : ["2.16.840.1.113883.4.642.3.146"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanCategory",
+      "title" : "Care Plan Category",
+      "description" : "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.148"],
+      "sources" : ["2.16.840.1.113883.4.642.3.148"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanIntent",
+      "title" : "Care Plan Intent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a care plan.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.150"],
+      "sources" : ["2.16.840.1.113883.4.642.3.150"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CompositionAttestationMode",
+      "title" : "CompositionAttestationMode",
+      "description" : "The way in which a person authenticated a composition.",
+      "systems" : ["http://hl7.org/fhir/composition-attestation-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.238"],
+      "sources" : ["2.16.840.1.113883.4.642.3.238"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/composition-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CompositionStatus",
+      "title" : "CompositionStatus",
+      "description" : "The workflow/clinical status of the composition.",
+      "systems" : ["http://hl7.org/fhir/composition-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.241"],
+      "sources" : ["2.16.840.1.113883.4.642.3.241"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/DiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.168"],
+      "sources" : ["2.16.840.1.113883.4.642.3.168"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Example value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.170"],
+      "sources" : ["2.16.840.1.113883.4.642.3.170"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.166"],
+      "sources" : ["2.16.840.1.113883.4.642.3.166"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointSystem",
+      "title" : "ContactPointSystem",
+      "description" : "Telecommunications form for contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-system"],
+      "oids" : ["2.16.840.1.113883.4.642.3.71"],
+      "sources" : ["2.16.840.1.113883.4.642.3.71"],
+      "uses" : {
+      },
+      "StructureDefinition-BRMeioContato-1.0.html" : "Meio de Contato",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointUse",
+      "title" : "ContactPointUse",
+      "description" : "Use of contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.73"],
+      "sources" : ["2.16.840.1.113883.4.642.3.73"],
+      "uses" : {
+      },
+      "StructureDefinition-BRMeioContato-1.0.html" : "Meio de Contato",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ContactEntityType",
+      "title" : "Contact entity type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/contactentity-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.416"],
+      "sources" : ["2.16.840.1.113883.4.642.3.416"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPessoaJuridicaProfissionalLiberal-1.0.html" : "Pessoa Jurídica e Profissional Liberal",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "systems" : ["http://hl7.org/fhir/days-of-week"],
+      "oids" : ["2.16.840.1.113883.4.642.3.512"],
+      "sources" : ["2.16.840.1.113883.4.642.3.512"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-action",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureDeviceActionCodes",
+      "title" : "Procedure Device Action Codes",
+      "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.425"],
+      "sources" : ["2.16.840.1.113883.4.642.3.425"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDeviceTypes",
+      "title" : "FHIR Device Types",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.208"],
+      "sources" : ["2.16.840.1.113883.4.642.3.208"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnosis-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosisRole",
+      "title" : "DiagnosisRole",
+      "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diagnosis-role"],
+      "oids" : ["2.16.840.1.113883.4.642.3.49"],
+      "sources" : ["2.16.840.1.113883.4.642.3.49"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/doc-section-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DocumentSectionCodes",
+      "title" : "Document Section Codes",
+      "description" : "Document section codes (LOINC codes used in CCDA sections).",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.237"],
+      "sources" : ["2.16.840.1.113883.4.642.3.237"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDocumentTypeCodes",
+      "title" : "FHIR Document Type Codes",
+      "description" : "FHIR Document Codes - all LOINC codes where scale type = 'DOC'.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.240"],
+      "sources" : ["2.16.840.1.113883.4.642.3.240"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DocumentClassValueSet",
+      "title" : "Document Class Value Set",
+      "description" : "This is the code specifying the high-level kind of document (e.g. Prescription, Discharge Summary, Report, etc.). Note: Class code for documents comes from LOINC, and is based upon one of the following:The type of service described by the document. It is described at a very high level in Section 7.3 of the LOINC Manual. The type study performed. It was determined by identifying modalities for study reports. The section of the chart where the document is placed. It was determined from the SETs created for Claims Attachment requests.",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.46"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DocumentRelationshipType",
+      "title" : "DocumentRelationshipType",
+      "description" : "The type of relationship between documents.",
+      "systems" : ["http://hl7.org/fhir/document-relationship-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.244"],
+      "sources" : ["2.16.840.1.113883.4.642.3.244"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Diet",
+      "title" : "Diet",
+      "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
+      "oids" : ["2.16.840.1.113883.4.642.3.255"],
+      "sources" : ["2.16.840.1.113883.4.642.3.255"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterLocationStatus",
+      "title" : "EncounterLocationStatus",
+      "description" : "The status of the location.",
+      "systems" : ["http://hl7.org/fhir/encounter-location-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.262"],
+      "sources" : ["2.16.840.1.113883.4.642.3.262"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterReasonCodes",
+      "title" : "Encounter Reason Codes",
+      "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.261"],
+      "sources" : ["2.16.840.1.113883.4.642.3.261"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecialArrangements",
+      "title" : "Special arrangements",
+      "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.253"],
+      "sources" : ["2.16.840.1.113883.4.642.3.253"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecialCourtesy",
+      "title" : "Special courtesy",
+      "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.252"],
+      "sources" : ["2.16.840.1.113883.4.642.3.252"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterStatus",
+      "title" : "EncounterStatus",
+      "description" : "Current state of the encounter.",
+      "systems" : ["http://hl7.org/fhir/encounter-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.246"],
+      "sources" : ["2.16.840.1.113883.4.642.3.246"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterType",
+      "title" : "Encounter type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.248"],
+      "sources" : ["2.16.840.1.113883.4.642.3.248"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-timing",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "EventTiming",
+      "title" : "EventTiming",
+      "description" : "Real world event relating to the schedule.",
+      "systems" : [
+        "http://hl7.org/fhir/event-timing",
+        "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.75"],
+      "sources" : ["2.16.840.1.113883.4.642.3.75"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Identifier Type Codes",
+      "title" : "IdentifierType",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRDocumentoIndividuo-1.0.html" : "Documento do Indivíduo",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
+      "StructureDefinition-BRMedicamento.html" : "Medicamento",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRPessoaJuridicaProfissionalLiberal-1.0.html" : "Pessoa Jurídica e Profissional Liberal",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListEmptyReasons",
+      "title" : "List Empty Reasons",
+      "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/list-empty-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.322"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListMode",
+      "title" : "ListMode",
+      "description" : "The processing mode that applies to this list.",
+      "systems" : ["http://hl7.org/fhir/list-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.318"],
+      "sources" : ["2.16.840.1.113883.4.642.3.318"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-order",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListOrderCodes",
+      "title" : "List Order Codes",
+      "description" : "Base values for the order of the items in a list resource.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/list-order"],
+      "oids" : ["2.16.840.1.113883.4.642.3.324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.324"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationMode",
+      "title" : "LocationMode",
+      "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+      "systems" : ["http://hl7.org/fhir/location-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.330"],
+      "sources" : ["2.16.840.1.113883.4.642.3.330"],
+      "uses" : {
+      },
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-physical-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationType",
+      "title" : "Location type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/location-physical-type"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.328"],
+      "sources" : ["2.16.840.1.113883.4.642.3.328"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationStatus",
+      "title" : "LocationStatus",
+      "description" : "Indicates whether the location is still in use.",
+      "systems" : ["http://hl7.org/fhir/location-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.332"],
+      "sources" : ["2.16.840.1.113883.4.642.3.332"],
+      "uses" : {
+      },
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ManifestationAndSymptomCodes",
+      "title" : "Manifestation and Symptom Codes",
+      "description" : "Example value set for Manifestation and Symptom codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.169"],
+      "sources" : ["2.16.840.1.113883.4.642.3.169"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Category Codes",
+      "title" : "Medication request  category  codes",
+      "description" : "MedicationRequest Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1322"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Course of Therapy Codes",
+      "title" : "Medication request  course of  therapy  codes",
+      "description" : "MedicationRequest Course of Therapy Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1326"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1326"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Intent",
+      "title" : "Medication request  intent",
+      "description" : "MedicationRequest Intent Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1321"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1321"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationrequest Status",
+      "title" : "Medicationrequest  status",
+      "description" : "MedicationRequest Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1320"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1320"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Status Reason Codes",
+      "title" : "Medication request  status  reason  codes",
+      "description" : "MedicationRequest Status Reason Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1324"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRNomeIndividuo-1.0.html" : "Nome de Indivíduos"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCategoryCodes(SNOMEDCT)",
+      "title" : "Procedure Category Codes (SNOMED CT)",
+      "description" : "Procedure Category code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.430"],
+      "sources" : ["2.16.840.1.113883.4.642.3.430"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+      "title" : "Procedure Follow up Codes (SNOMED CT)",
+      "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.429"],
+      "sources" : ["2.16.840.1.113883.4.642.3.429"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+      "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.431"],
+      "sources" : ["2.16.840.1.113883.4.642.3.431"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+      "title" : "Procedure Outcome Codes (SNOMED CT)",
+      "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.428"],
+      "sources" : ["2.16.840.1.113883.4.642.3.428"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureReasonCodes",
+      "title" : "Procedure Reason Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.432"],
+      "sources" : ["2.16.840.1.113883.4.642.3.432"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.59"],
+      "sources" : ["2.16.840.1.113883.4.642.3.59"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSeverity",
+      "title" : "AllergyIntoleranceSeverity",
+      "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+      "systems" : ["http://hl7.org/fhir/reaction-event-severity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.135"],
+      "sources" : ["2.16.840.1.113883.4.642.3.135"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/resource-types",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ResourceType",
+      "title" : "Resource Types",
+      "description" : "Concrete FHIR Resource Types",
+      "systems" : ["http://hl7.org/fhir/fhir-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.27"],
+      "sources" : ["2.16.840.1.113883.4.642.3.27"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRDocumentoIndividuo-1.0.html" : "Documento do Indivíduo",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRAdministradorTerceiro-1.0.html" : "Gerente/Administrador (Terceiro) ou Interveniente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/route-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTRouteCodes",
+      "title" : "SNOMED CT Route Codes",
+      "description" : "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.98"],
+      "sources" : ["2.16.840.1.113883.4.642.3.98"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/substance-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SubstanceCode",
+      "title" : "Substance Code",
+      "description" : "This value set contains concept codes for specific substances. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) and where concept is-a 373873005 (Pharmaceutical / biologic product (product))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.473"],
+      "sources" : ["2.16.840.1.113883.4.642.3.473"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/timing-abbreviation",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TimingAbbreviation",
+      "title" : "TimingAbbreviation",
+      "description" : "Code for a known / defined timing pattern.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation"],
+      "oids" : ["2.16.840.1.113883.4.642.3.78"],
+      "sources" : ["2.16.840.1.113883.4.642.3.78"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/units-of-time",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "UnitsOfTime",
+      "title" : "UnitsOfTime",
+      "description" : "A unit of time (units from UCUM).",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.77"],
+      "sources" : ["2.16.840.1.113883.4.642.3.77"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSReAdmissionIndicator",
+      "title" : "hl7VS-re-admissionIndicator",
+      "description" : "Value Set of codes which are used to specify that a patient is being re-admitted to a healthcare facility from which they were discharged, and indicates the circumstances around such re-admission.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
+      "oids" : ["2.16.840.1.113883.21.40"],
+      "sources" : ["2.16.840.1.113883.21.40"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSBedStatus",
+      "title" : "hl7VS-bedStatus",
+      "description" : "Value Set of codes that specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0116"],
+      "oids" : ["2.16.840.1.113883.21.51"],
+      "sources" : ["2.16.840.1.113883.21.51"],
+      "uses" : {
+      },
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ActCode",
+      "title" : "v3 Code System ActCode",
+      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.  Constraints:\r\nThe kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems.  The coding system will depend on the class of Act, such as LOINC for observations, etc. Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure. Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ActEncounterCode",
+      "title" : "ActEncounterCode",
+      "description" : "Domain provides codes that qualify the ActEncounterClass (ENC)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.13955"],
+      "sources" : ["2.16.840.1.113883.1.11.13955"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ActSubstanceAdminSubstitutionCode",
+      "title" : "ActSubstanceAdminSubstitutionCode",
+      "description" : "***No description***",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16621"],
+      "sources" : ["2.16.840.1.113883.1.11.16621"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
+      "version" : "2014-03-26",
+      "status" : "active",
+      "name" : "v3.ConfidentialityClassification",
+      "title" : "V3 Value SetConfidentialityClassification",
+      "description" : " Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Confidentiality"],
+      "oids" : ["2.16.840.1.113883.1.11.10228"],
+      "sources" : ["2.16.840.1.113883.1.11.10228"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ServiceDeliveryLocationRoleType",
+      "title" : "ServiceDeliveryLocationRoleType",
+      "description" : "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.17660"],
+      "sources" : ["2.16.840.1.113883.1.11.17660"],
+      "uses" : {
+      },
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "SubstanceAdminSubstitutionReason",
+      "title" : "SubstanceAdminSubstitutionReason",
+      "description" : "***No description***",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason"],
+      "oids" : ["2.16.840.1.113883.1.11.19377"],
+      "sources" : ["2.16.840.1.113883.1.11.19377"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRAlergenos",
+      "title" : "Alérgenos",
+      "description" : "Descreve o agente capaz de causar alergia ou reação adversa em seres humanos.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCIAP2-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCIAP2",
+      "title" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+      "description" : "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOA.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2"],
+      "uses" : {
+      },
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCID10",
+      "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "description" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"],
+      "uses" : {
+      },
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCaraterAtendimento",
+      "title" : "Caráter de atendimento do Contato Assistencial",
+      "description" : "ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRCategoriaAgenteAlergiasReacoesAdversas",
+      "title" : "Categoria do Agente da Alergia ou Reação Adversa",
+      "description" : "Categoriza a substância responsável por causar uma alergia ou reação adversa.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-category"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRCategoriaCondicao",
+      "title" : "Classificação de uma condição.",
+      "description" : "Tradução para o português do brasil da classificação de uma condição",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCategoriaDiagnostico",
+      "title" : "Categoria do Diagnóstico",
+      "description" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCriticidadeAlergiasReacoesAdversas",
+      "title" : "Criticidade de Alergias e Reações Adversas",
+      "description" : "Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida..",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoAfastamentoAtestado",
+      "title" : "Status do afastamento descrito no atestado",
+      "description" : "Status do afastamento descrito no atestado médico/odontológico.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoAtestado",
+      "title" : "Status do atestado",
+      "description" : "Status do atestado médico/odontológico.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoContatoAssistencial-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoContatoAssistencial",
+      "title" : "Estado do Contato Assistencial",
+      "description" : "Classifica o estado de um Contato Assistencial.",
+      "systems" : ["http://hl7.org/fhir/encounter-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoDocumento",
+      "title" : "Estado do Documento",
+      "description" : "Classifica o estado do documento que está sendo trafegado.",
+      "systems" : ["http://hl7.org/fhir/composition-status"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BREstadoEvento",
+      "title" : "Estado do Evento",
+      "description" : "Identificação do estado de um evento.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoObservacao",
+      "title" : "Estado da Observação.",
+      "description" : "Tipos de estados de uma observação.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BREstadoResolucaoDiagnosticoProblema",
+      "title" : "Estado da Resolução de Diagnóstico ou Problema.",
+      "description" : "Estado da resolução de um diagnóstico ou problema.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoSolicitacao",
+      "title" : "Estado da Solicitação",
+      "description" : "Estado da solicitação.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BREstadoSolicitacaoMedicamento",
+      "title" : "Estado da Solicitação de Medicamento",
+      "description" : "Estado da Solicitação de Medicamento",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRMedicamento.html" : "Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREtniaIndigena-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREtniaIndigena",
+      "title" : "Etnia Indígena",
+      "description" : "Códigos para representação de etnias indígenas no Brasil.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRacaCorEtnia-1.0.html" : "Raça/Cor e Etnina"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRFinanciamento",
+      "title" : "Financiamento do procedimento realizado",
+      "description" : "Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento"],
+      "uses" : {
+      },
+      "StructureDefinition-BRFinanciamento-1.0.html" : "Financiamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRFrequenciaUsoSubstancia",
+      "title" : "Frequência de Uso da Substância",
+      "description" : "Identifica a frequência de uso da substância em uso conforme declaração do indivíduo.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRGrauCertezaAlergiasReacoesAdversas",
+      "title" : "Grau de Certeza de Alergias e Reações Adversas",
+      "description" : "Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRIntencaoAtestado",
+      "title" : "Intenção do atestado",
+      "description" : "Intenção do atestado médico/odontológico.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRJustificativaIndividuoNaoIdentificado",
+      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRLocalAfericao",
+      "title" : "Local de Aferição",
+      "description" : "ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão arterial.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao"],
+      "uses" : {
+      },
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRModalidadeAssistencial",
+      "title" : "Modalidade Assistencial",
+      "description" : "Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRMotivoDesfecho",
+      "title" : "Motivo do desfecho do Contato assistencial",
+      "description" : "ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRMunicipio",
+      "title" : "Município",
+      "description" : "Municípios brasileiros, entes subnacionais.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRMunicipio-1.0.html" : "Município",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRNacionalidade",
+      "title" : "Nacionalidade",
+      "description" : "Códigos para representação de nacionalidade.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade"],
+      "uses" : {
+      },
+      "StructureDefinition-BRNacionalidade.html" : "Nacionalidade"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNaturezaJuridica-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRNaturezaJuridica",
+      "title" : "Natureza Jurídica",
+      "description" : "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRPessoaJuridicaProfissionalLiberal-1.0.html" : "Pessoa Jurídica e Profissional Liberal"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROcupacao",
+      "title" : "Classificação Brasileira de Ocupações - CBO",
+      "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROrgaoExpedidor",
+      "title" : "Órgão Expedidor",
+      "description" : "Lista de órgãos responsáveis por expedir documentos no Brasil.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRDocumentoIndividuo-1.0.html" : "Documento do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROrigemMedida",
+      "title" : "Origem de Medição",
+      "description" : "ValueSet utilizado para definir o tipo de medição corporal adotada.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-BROrigemMedida.html" : "Origem da Medição"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRPais",
+      "title" : "País",
+      "description" : "Códigos para representação de países.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPais-1.0.html" : "País"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRPapelProblemaDiagnostico",
+      "title" : "Classificação do papel de um problema e diagnóstico.",
+      "description" : "Tradução para o português do brasil da classificação do papel de um problema/diagnóstico.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRParentesco-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRParentesco",
+      "title" : "Parentesco",
+      "description" : "Classificação da relação familiar entre indivíduos.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco"],
+      "uses" : {
+      },
+      "StructureDefinition-BRParentesIndividuo-1.0.html" : "Parentes do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRPosicaoIndividuo",
+      "title" : "Posição do Indivíduo",
+      "description" : "ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
+        "http://loinc.org"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRPrescricaoNaoEstruturada",
+      "title" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
+      "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRProblemaDiagnostico",
+      "title" : "Classificação Internacional de Doenças e Atenção Primária",
+      "description" : "Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedencia-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRProcedencia",
+      "title" : "Procedência do Contato Assistencial",
+      "description" : "Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia"],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRProcedimentosNacionais",
+      "title" : "Procedimento realizado",
+      "description" : "ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRacaCor-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRRacaCor",
+      "title" : "Raça/Cor",
+      "description" : "Códigos para representação de raça/cor no Brasil.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRRacaCor"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRacaCorEtnia-1.0.html" : "Raça/Cor e Etnina"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRReacoesAdversasMedDRA-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRReacoesAdversasMedDRA",
+      "title" : "Reações Adversas da MedDRA",
+      "description" : "Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRResponsabilidadeParticipante-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRResponsabilidadeParticipante",
+      "title" : "Reponsabilidade no Contato Assistencial",
+      "description" : "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRSexo",
+      "title" : "Sexo",
+      "description" : "Sexo de um indivíduo.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTerminologiaMedicamento",
+      "title" : "Terminologia dos medicamentos",
+      "description" : "ValueSet utilizado para definir a terminologia de um dado medicamento.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRMedicamento.html" : "Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAleitamentoMaterno-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTipoAleitamentoMaterno",
+      "title" : "Tipo de Aleitamento Materno",
+      "description" : "Definição do tipo de aleitamento materno realizado a uma criança.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoAtestado",
+      "title" : "Tipo de atestado",
+      "description" : "Tipo de atestado dentro das categorias médico/odontológico",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
+      "uses" : {
+      },
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoDocumento",
+      "title" : "Tipo de Documento",
+      "description" : "Classifica o tipo de documento que está sendo trafegado.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoDocumentoIndividuo",
+      "title" : "Tipo de Documento do Indivíduo",
+      "description" : "Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.",
+      "systems" : [
+        "http://hl7.org/fhir/ValueSet/identifier-type",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRDocumentoIndividuo-1.0.html" : "Documento do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoEstabelecimentoSaude-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoEstabelecimentoSaude",
+      "title" : "Tipo de Estabelecimento de Saúde",
+      "description" : "ValueSet utilizado para classificar o tipo de estabelecimento de saúde.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoIdentificadorProcedimento",
+      "title" : "Tipo de Identificador do Procedimento",
+      "description" : "Classifica o tipo de identificador que está sendo utilizado para o procedimento.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoLogradouro-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoLogradouro",
+      "title" : "Tipo de Logradouro",
+      "description" : "Classifica o tipo de logradouro.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTipoObservacao",
+      "title" : "Tipo de Observação",
+      "description" : "Tipo de Observação.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
+        "http://loinc.org",
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTipoSubstanciaUso",
+      "title" : "Tipo de Substância em Uso",
+      "description" : "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTurno",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTurno",
+      "title" : "Turno do dia",
+      "description" : "ValueSet utilizado para definir o turno de um dia.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRTurno.html" : "Turno do Dia"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRUnidadeConsumo",
+      "title" : "Unidade de Consumo",
+      "description" : "ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeFederativa-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRUnidadeFederativa",
+      "title" : "Unidade Federativa",
+      "description" : "Os estados e o Distrito Federal, entes subnacionais brasileiros.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRUnidadeMedidaMedicamento",
+      "title" : "Unidade de Medida de Medicamento",
+      "description" : "ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida"],
+      "uses" : {
+      },
+      "StructureDefinition-BRMedicamento.html" : "Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRUnidadeTempo",
+      "title" : "Unidade de Tempo",
+      "description" : "ValueSet utilizado para definir uma unidade de tempo.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIntervaloDoses.html" : "Intervalo de Doses",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRViaAdministracao",
+      "title" : "Via de Administração do Imunobiológico",
+      "description" : "Via de administração de um imunobiológico.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RoupasUsadasMedicao",
+      "title" : "Roupas Usadas na Medição",
+      "description" : "ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-BRRoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
+    }
+  ]
+}

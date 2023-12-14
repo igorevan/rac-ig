@@ -1,0 +1,75 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRPosicaoIndividuo",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T18:19:54.794+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRPosicaoIndividuo-1\"> </a></td><td>Em pé</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRPosicaoIndividuo-2\"> </a></td><td>Sentado</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRPosicaoIndividuo-3\"> </a></td><td>Reclinado</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRPosicaoIndividuo-4\"> </a></td><td>Deitado</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRPosicaoIndividuo-5\"> </a></td><td>Deitado com inclinação para esquerda</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
+  "version" : "0.1.0",
+  "name" : "BRPosicaoIndividuo",
+  "title" : "Posição do Indivíduo",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-11T18:20:15.3085069+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Identifica a posição de um indivíduo em um determinado contexto.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "1",
+    "display" : "Em pé"
+  },
+  {
+    "code" : "2",
+    "display" : "Sentado"
+  },
+  {
+    "code" : "3",
+    "display" : "Reclinado"
+  },
+  {
+    "code" : "4",
+    "display" : "Deitado"
+  },
+  {
+    "code" : "5",
+    "display" : "Deitado com inclinação para esquerda"
+  }]
+}

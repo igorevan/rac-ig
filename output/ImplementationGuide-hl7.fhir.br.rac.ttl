@@ -1,0 +1,2118 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hl7.fhir.br.rac"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>RACRNDSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "informative" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1"^^xsd:integer ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "RACRNDSIG"] ; # 
+  fhir:title [ fhir:v "Guia de Implementação do RAC da RNDS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-12-14T12:02:40-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:packageId [ fhir:v "hl7.fhir.br.rac"] ; # 
+  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
+  fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
+     fhir:version [ fhir:v "5.3.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7ext" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:version [ fhir:v "1.0.0" ]
+  ] ) ; # 
+  fhir:definition [
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2023+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CI Build" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "shownav" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://www.saude.gov.br/fhir/r4/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRRegistroAtendimentoClinico" ]
+       ] ;
+       fhir:name [ fhir:v "Registro de Atendimento Clínico" ] ;
+       fhir:description [ fhir:v "Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRContatoAssistencial-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Contato Assistencial" ] ;
+       fhir:description [ fhir:v "Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRIndividuoNaoIdentificado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Informações Complementares de Indivíduos Não Identificados" ] ;
+       fhir:description [ fhir:v "Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BROcupacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Ocupação" ] ;
+       fhir:description [ fhir:v "Ocupação" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRIdentificacaoEquipe-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Identificador Nacional de Equipe" ] ;
+       fhir:description [ fhir:v "Extensão para permitir informar o código do Identificador Nacional de Equipe" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRFinanciamento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Financiamento" ] ;
+       fhir:description [ fhir:v "Extensão utilizada para identificar financiamento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes> ;
+         fhir:reference [ fhir:v "StructureDefinition/BROutrasInformacoes" ]
+       ] ;
+       fhir:name [ fhir:v "Outras Informações" ] ;
+       fhir:description [ fhir:v "Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRIndividuo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Indivíduo" ] ;
+       fhir:description [ fhir:v "O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRQualidadeCadastroIndividuo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Qualidade do Cadastro do Indivíduo" ] ;
+       fhir:description [ fhir:v "Grau de qualidade de um registro de um indivíduo, vai de 0 até 100." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRParentesIndividuo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Parentes do Indivíduo" ] ;
+       fhir:description [ fhir:v "Resource para representar parentescos de indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRRacaCorEtnia-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Raça/Cor e Etnina" ] ;
+       fhir:description [ fhir:v "Extensão para para representar dados relacionados à raça/cor e etnia de um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRMunicipio-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Município" ] ;
+       fhir:description [ fhir:v "Extensão para informar um município." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRPais-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "País" ] ;
+       fhir:description [ fhir:v "Extensão para representar um país." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNacionalidade> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRNacionalidade" ]
+       ] ;
+       fhir:name [ fhir:v "Nacionalidade" ] ;
+       fhir:description [ fhir:v "Extensão para representar uma nacionalidade." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRIndividuoProtegido-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Indivíduo Protegido" ] ;
+       fhir:description [ fhir:v "Extensão utilizada para identificar indivíduos que possuem  maior restrição à disponibilização de seus dados, por possuirem grande exposição pública (ex.: político, esportista, artista famoso etc.), estarem em programa de proteção à testemunha, o objeto de seu trabalho colocá-los em risco (investigadores da inteligência, p.ex.), dentre outros." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNaturalizacao-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRNaturalizacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Dados de Naturalização" ] ;
+       fhir:description [ fhir:v "Extensão para as informações de naturalização de um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRNomeIndividuo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Nome de Indivíduos" ] ;
+       fhir:description [ fhir:v "Padronização de uso de nomes de indivíduo no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BREstabelecimentoSaude-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estabelecimento de Saúde" ] ;
+       fhir:description [ fhir:v "Espaço físico delimitado e permanente onde são realizadas ações e serviços de saúde humana sob responsabilidade técnica." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRLocalAtendimento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Local de Atendimento" ] ;
+       fhir:description [ fhir:v "Uma referência genérica aos locais onde um Contato Assistencial pode acontecer." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRLotacaoProfissional-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Lotação Profissional" ] ;
+       fhir:description [ fhir:v "Lotação de um profissional em um Estabelecimento de Saúde." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Pessoa Jurídica e Profissional Liberal" ] ;
+       fhir:description [ fhir:v "Pessoa jurídica identificada no âmbito da Receita Federal do Brasil pelo Cadastro Nacional da Pessoa Jurídica (CNPJ) ou profissional liberal identificado pelo Cadastro de Pessoas Físicas (CPF)." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRProfissional-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Profissional" ] ;
+       fhir:description [ fhir:v "Indivíduo que realiza atividades profissionais." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRAtendeSUS-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Atende SUS" ] ;
+       fhir:description [ fhir:v "Extensão utilizada para identificar se um profissional ou Estabelecimento de Saúde oferece atendimento pelo Sistema Único de Saúde (SUS)." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAdministradorTerceiro-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRAdministradorTerceiro-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Gerente/Administrador (Terceiro) ou Interveniente" ] ;
+       fhir:description [ fhir:v "Identifica organizações que são gerentes/administradoras (terceiras) ou intervenientes de outras." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMeioContato-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRMeioContato-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Meio de Contato" ] ;
+       fhir:description [ fhir:v "Padronização de meios de contato no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BREndereco-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BREndereco-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Endereço" ] ;
+       fhir:description [ fhir:v "Padronização de endereços no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRDocumentoIndividuo-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRDocumentoIndividuo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Documento do Indivíduo" ] ;
+       fhir:description [ fhir:v "Documento do Indivíduo" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Jurisdição do Órgão Expedidor" ] ;
+       fhir:description [ fhir:v "Jurisdição de Órgãos Expedidores" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRObservacaoDescritiva-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Observação Descritiva" ] ;
+       fhir:description [ fhir:v "Descrições textuais simples sobre um paciente." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRProblemaDiagnostico" ]
+       ] ;
+       fhir:name [ fhir:v "Problema e/ou diagnóstico" ] ;
+       fhir:description [ fhir:v "Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRProcedimentoRealizado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Procedimento Realizado" ] ;
+       fhir:description [ fhir:v "Procedimento realizado em um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRCID10Avaliado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "CID10 Avaliado" ] ;
+       fhir:description [ fhir:v "Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRAlergiaReacaoAdversa-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Alergia ou Reação Adversa" ] ;
+       fhir:description [ fhir:v "Alergia ou Reação Adversa" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRPlanoCuidados-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Plano de Cuidados" ] ;
+       fhir:description [ fhir:v "Descreve o plano de cuidados, instruções e recomendações." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRAtestado" ]
+       ] ;
+       fhir:name [ fhir:v "Atestado Digital" ] ;
+       fhir:description [ fhir:v "Informações de atestado médico/odontológico" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Medicamento" ] ;
+       fhir:description [ fhir:v "Medicamento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRPrescricaoMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Prescrição de Medicamento" ] ;
+       fhir:description [ fhir:v "Prescrição de Medicamento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRQuantidade-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Quantidade" ] ;
+       fhir:description [ fhir:v "Extensão para identificar quantidades." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRCodigoSerialMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Código Serial de Medicamento" ] ;
+       fhir:description [ fhir:v "Código Serial de Medicamento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRIntervaloDoses" ]
+       ] ;
+       fhir:name [ fhir:v "Intervalo de Doses" ] ;
+       fhir:description [ fhir:v "Extensão para descrever uma unidade de tempo referenciada pelo UCUM." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRTurno" ]
+       ] ;
+       fhir:name [ fhir:v "Turno do Dia" ] ;
+       fhir:description [ fhir:v "Extensão para descrever uma unidade de tempo referenciada pelo UCUM." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRRoupasUsadasMedicao" ]
+       ] ;
+       fhir:name [ fhir:v "Roupas Usadas na Medição" ] ;
+       fhir:description [ fhir:v "Descreve o tipo de roupas usadas durante a medição com base no código LOINC 8352-7." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida> ;
+         fhir:reference [ fhir:v "StructureDefinition/BROrigemMedida" ]
+       ] ;
+       fhir:name [ fhir:v "Origem da Medição" ] ;
+       fhir:description [ fhir:v "Extensão para incluir a origem da medição corpórea (altura e peso)." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRMedidaObservada" ]
+       ] ;
+       fhir:name [ fhir:v "Medida Observada" ] ;
+       fhir:description [ fhir:v "Registra as informações relacionadas a um tipo de observação." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRCIAP2Avaliado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "CIAP2 Avaliado" ] ;
+       fhir:description [ fhir:v "Problema atribuído pelo profissional de saúde ao indivíduo no contato assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRRegistroPrescricaoMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Registro de Prescrição de Medicamento" ] ;
+       fhir:description [ fhir:v "Modelo que gera o documento de Registro de Prescrição de Medicamento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA> ;
+         fhir:reference [ fhir:v "CodeSystem/BRAlergenosCBARA" ]
+       ] ;
+       fhir:name [ fhir:v "Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)" ] ;
+       fhir:description [ fhir:v "Classifica as alergias e reações adversas." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento> ;
+         fhir:reference [ fhir:v "CodeSystem/BRCaraterAtendimento" ]
+       ] ;
+       fhir:name [ fhir:v "Caráter de Atendimento" ] ;
+       fhir:description [ fhir:v "Terminologia que classifica a prioridade de realização de um Contato Assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico> ;
+         fhir:reference [ fhir:v "CodeSystem/BRCategoriaDiagnostico" ]
+       ] ;
+       fhir:name [ fhir:v "Categoria do Diagnóstico" ] ;
+       fhir:description [ fhir:v "Códigos para representação do tipo de categoria do diagnóstico realizado." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS> ;
+         fhir:reference [ fhir:v "CodeSystem/BRCBHPMTUSS" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" ] ;
+       fhir:description [ fhir:v "Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO> ;
+         fhir:reference [ fhir:v "CodeSystem/BRCBO" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Brasileira de Ocupações - CBO" ] ;
+       fhir:description [ fhir:v "Classifica as profissões do mercado de trabalho brasileiro." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2> ;
+         fhir:reference [ fhir:v "CodeSystem/BRCIAP2" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2" ] ;
+       fhir:description [ fhir:v "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10> ;
+         fhir:reference [ fhir:v "CodeSystem/BRCID10" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Internacional de Doenças - Décima Revisão - CID-10" ] ;
+       fhir:description [ fhir:v "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido> ;
+         fhir:reference [ fhir:v "CodeSystem/BRDadoAusenteOuDesconhecido" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação de dados ausentes ou desconhecidos - IPS." ] ;
+       fhir:description [ fhir:v "Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil> ;
+         fhir:reference [ fhir:v "CodeSystem/BRDivisaoGeograficaBrasil" ]
+       ] ;
+       fhir:name [ fhir:v "Divisão Geográfica do Brasil" ] ;
+       fhir:description [ fhir:v "As regiões geográficas, estados, distrito federal e municípios do Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena> ;
+         fhir:reference [ fhir:v "CodeSystem/BREtniaIndigena" ]
+       ] ;
+       fhir:name [ fhir:v "Etnia Indígena" ] ;
+       fhir:description [ fhir:v "Códigos para representação de etnias indígenas no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento> ;
+         fhir:reference [ fhir:v "CodeSystem/BRFinanciamento" ]
+       ] ;
+       fhir:name [ fhir:v "Financiamento" ] ;
+       fhir:description [ fhir:v "Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia> ;
+         fhir:reference [ fhir:v "CodeSystem/BRFrequenciaUsoSubstancia" ]
+       ] ;
+       fhir:name [ fhir:v "Frequência de Uso de Substância" ] ;
+       fhir:description [ fhir:v "Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico> ;
+         fhir:reference [ fhir:v "CodeSystem/BRImunobiologico" ]
+       ] ;
+       fhir:name [ fhir:v "Imunobiológico" ] ;
+       fhir:description [ fhir:v "Classifica os tipos de imunobiológicos." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado> ;
+         fhir:reference [ fhir:v "CodeSystem/BRJustificativaIndividuoNaoIdentificado" ]
+       ] ;
+       fhir:name [ fhir:v "Justificativa da Impossibilidade de Identificação do Indivíduo" ] ;
+       fhir:description [ fhir:v "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao> ;
+         fhir:reference [ fhir:v "CodeSystem/BRLocalAfericao" ]
+       ] ;
+       fhir:name [ fhir:v "Local de Aferição" ] ;
+       fhir:description [ fhir:v "Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA> ;
+         fhir:reference [ fhir:v "CodeSystem/BRMedDRA" ]
+       ] ;
+       fhir:name [ fhir:v "Medical Dictionary for Regulatory Activities (MedDRA)" ] ;
+       fhir:description [ fhir:v "Medical Dictionary for Regulatory Activities." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento> ;
+         fhir:reference [ fhir:v "CodeSystem/BRMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Medicamento" ] ;
+       fhir:description [ fhir:v "Drogas dirigidas para uso humano, apresentadas em sua formulação final." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial> ;
+         fhir:reference [ fhir:v "CodeSystem/BRModalidadeAssistencial" ]
+       ] ;
+       fhir:name [ fhir:v "Modalidade Assistencial" ] ;
+       fhir:description [ fhir:v "Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho> ;
+         fhir:reference [ fhir:v "CodeSystem/BRMotivoDesfecho" ]
+       ] ;
+       fhir:name [ fhir:v "Motivo do Desfecho" ] ;
+       fhir:description [ fhir:v "Caracteriza o motivo de conclusão total ou parcial do contato assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade> ;
+         fhir:reference [ fhir:v "CodeSystem/BRNacionalidade" ]
+       ] ;
+       fhir:name [ fhir:v "Nacionalidade" ] ;
+       fhir:description [ fhir:v "Define a nacionalidade de um dado indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica> ;
+         fhir:reference [ fhir:v "CodeSystem/BRNaturezaJuridica" ]
+       ] ;
+       fhir:name [ fhir:v "Natureza Jurídica" ] ;
+       fhir:description [ fhir:v "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP> ;
+         fhir:reference [ fhir:v "CodeSystem/BRObmAMPP" ]
+       ] ;
+       fhir:name [ fhir:v "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" ] ;
+       fhir:description [ fhir:v "Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA> ;
+         fhir:reference [ fhir:v "CodeSystem/BRObmANVISA" ]
+       ] ;
+       fhir:name [ fhir:v "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" ] ;
+       fhir:description [ fhir:v "Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT> ;
+         fhir:reference [ fhir:v "CodeSystem/BRObmCATMAT" ]
+       ] ;
+       fhir:name [ fhir:v "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" ] ;
+       fhir:description [ fhir:v "Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN> ;
+         fhir:reference [ fhir:v "CodeSystem/BRObmEAN" ]
+       ] ;
+       fhir:name [ fhir:v "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org" ] ;
+       fhir:description [ fhir:v "Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP> ;
+         fhir:reference [ fhir:v "CodeSystem/BRObmVMP" ]
+       ] ;
+       fhir:name [ fhir:v "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" ] ;
+       fhir:description [ fhir:v "Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor> ;
+         fhir:reference [ fhir:v "CodeSystem/BROrgaoExpedidor" ]
+       ] ;
+       fhir:name [ fhir:v "Órgão Expedidor" ] ;
+       fhir:description [ fhir:v "Órgãos responsáveis por expedir documentos no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais> ;
+         fhir:reference [ fhir:v "CodeSystem/BRPais" ]
+       ] ;
+       fhir:name [ fhir:v "País" ] ;
+       fhir:description [ fhir:v "Códigos para representação de países." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico> ;
+         fhir:reference [ fhir:v "CodeSystem/BRPapelProblemaDiagnostico" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação do papel de um problema e diagnóstico" ] ;
+       fhir:description [ fhir:v "Classificação do papel de um problema/diagnóstico." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco> ;
+         fhir:reference [ fhir:v "CodeSystem/BRParentesco" ]
+       ] ;
+       fhir:name [ fhir:v "Parentesco" ] ;
+       fhir:description [ fhir:v "Classificação da relação familiar entre indivíduos." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo> ;
+         fhir:reference [ fhir:v "CodeSystem/BRPosicaoIndividuo" ]
+       ] ;
+       fhir:name [ fhir:v "Posição do Indivíduo" ] ;
+       fhir:description [ fhir:v "Identifica a posição de um indivíduo em um determinado contexto." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia> ;
+         fhir:reference [ fhir:v "CodeSystem/BRProcedencia" ]
+       ] ;
+       fhir:name [ fhir:v "Procedência" ] ;
+       fhir:description [ fhir:v "Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRRacaCor> ;
+         fhir:reference [ fhir:v "CodeSystem/BRRacaCor" ]
+       ] ;
+       fhir:name [ fhir:v "Raça/Cor" ] ;
+       fhir:description [ fhir:v "Códigos para representação de raça/cor." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante> ;
+         fhir:reference [ fhir:v "CodeSystem/BRResponsabilidadeParticipante" ]
+       ] ;
+       fhir:name [ fhir:v "Reponsabilidade no Contato Assistencial" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTabelaSUS" ]
+       ] ;
+       fhir:name [ fhir:v "Tabela de procedimentos, medicamentos e OPM do SUS" ] ;
+       fhir:description [ fhir:v "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoAleitamentoMaterno" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Aleitamento Materno" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de aleitamento materno realizado a uma criança." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoDocumento" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Documento" ] ;
+       fhir:description [ fhir:v "Classificação dos tipos de documentos compartilhados no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoEstabelecimentoSaude" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Estabelecimento de Saúde" ] ;
+       fhir:description [ fhir:v "Códigos para representação de tipos de estabelecimentos de saúde, de acordo com codificação já existente para o Cadastro Nacional de Estabelecimentos de Saúde (CNES)." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoIdentificador" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Identificador" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de indicador que está sendo utilizado." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoLogradouro" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Logradouro" ] ;
+       fhir:description [ fhir:v "Classificação os tipos de logradouros existentes para uso em endereços estruturados." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoObservacao" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Observação" ] ;
+       fhir:description [ fhir:v "Tipo de Observação." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTipoSubstanciaUso" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Substância em Uso" ] ;
+       fhir:description [ fhir:v "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno> ;
+         fhir:reference [ fhir:v "CodeSystem/BRTurno" ]
+       ] ;
+       fhir:name [ fhir:v "Turno do dia" ] ;
+       fhir:description [ fhir:v "Code System utilizado para definir o turno de um dia." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida> ;
+         fhir:reference [ fhir:v "CodeSystem/BRUnidadeMedida" ]
+       ] ;
+       fhir:name [ fhir:v "Unidade de Medida" ] ;
+       fhir:description [ fhir:v "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo> ;
+         fhir:reference [ fhir:v "CodeSystem/BRUnidadeTempo" ]
+       ] ;
+       fhir:name [ fhir:v "Unidade de tempo" ] ;
+       fhir:description [ fhir:v "Code System utilizado para definir a classe de unidades de tempo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao> ;
+         fhir:reference [ fhir:v "CodeSystem/BRViaAdministracao" ]
+       ] ;
+       fhir:name [ fhir:v "Via de Administração" ] ;
+       fhir:description [ fhir:v "Classifica a via na qual foi administrada uma substância em um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRAlergenos-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Alérgenos" ] ;
+       fhir:description [ fhir:v "Descreve o agente capaz de causar alergia ou reação adversa em seres humanos." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCIAP2-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRCIAP2-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2" ] ;
+       fhir:description [ fhir:v "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOA." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRCID10-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Internacional de Doenças - Décima Revisão - CID-10" ] ;
+       fhir:description [ fhir:v "Classificação Internacional de Doenças - Décima Revisão - CID-10" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRCaraterAtendimento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Caráter de atendimento do Contato Assistencial" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Categoria do Agente da Alergia ou Reação Adversa" ] ;
+       fhir:description [ fhir:v "Categoriza a substância responsável por causar uma alergia ou reação adversa." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao> ;
+         fhir:reference [ fhir:v "ValueSet/BRCategoriaCondicao" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação de uma condição." ] ;
+       fhir:description [ fhir:v "Tradução para o português do brasil da classificação de uma condição" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico> ;
+         fhir:reference [ fhir:v "ValueSet/BRCategoriaDiagnostico" ]
+       ] ;
+       fhir:name [ fhir:v "Categoria do Diagnóstico" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Criticidade de Alergias e Reações Adversas" ] ;
+       fhir:description [ fhir:v "Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoAfastamentoAtestado" ]
+       ] ;
+       fhir:name [ fhir:v "Status do afastamento descrito no atestado" ] ;
+       fhir:description [ fhir:v "Status do afastamento descrito no atestado médico/odontológico." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoAtestado" ]
+       ] ;
+       fhir:name [ fhir:v "Status do atestado" ] ;
+       fhir:description [ fhir:v "Status do atestado médico/odontológico." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoContatoAssistencial-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoContatoAssistencial-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado do Contato Assistencial" ] ;
+       fhir:description [ fhir:v "Classifica o estado de um Contato Assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoDocumento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado do Documento" ] ;
+       fhir:description [ fhir:v "Classifica o estado do documento que está sendo trafegado." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoEvento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado do Evento" ] ;
+       fhir:description [ fhir:v "Identificação do estado de um evento." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoObservacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado da Observação." ] ;
+       fhir:description [ fhir:v "Tipos de estados de uma observação." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado da Resolução de Diagnóstico ou Problema." ] ;
+       fhir:description [ fhir:v "Estado da resolução de um diagnóstico ou problema." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoSolicitacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado da Solicitação" ] ;
+       fhir:description [ fhir:v "Estado da solicitação." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoSolicitacaoMedicamento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado da Solicitação de Medicamento" ] ;
+       fhir:description [ fhir:v "Estado da Solicitação de Medicamento" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREtniaIndigena-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREtniaIndigena-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Etnia Indígena" ] ;
+       fhir:description [ fhir:v "Códigos para representação de etnias indígenas no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRFinanciamento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Financiamento do procedimento realizado" ] ;
+       fhir:description [ fhir:v "Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia> ;
+         fhir:reference [ fhir:v "ValueSet/BRFrequenciaUsoSubstancia" ]
+       ] ;
+       fhir:name [ fhir:v "Frequência de Uso da Substância" ] ;
+       fhir:description [ fhir:v "Identifica a frequência de uso da substância em uso conforme declaração do indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Grau de Certeza de Alergias e Reações Adversas" ] ;
+       fhir:description [ fhir:v "Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado> ;
+         fhir:reference [ fhir:v "ValueSet/BRIntencaoAtestado" ]
+       ] ;
+       fhir:name [ fhir:v "Intenção do atestado" ] ;
+       fhir:description [ fhir:v "Intenção do atestado médico/odontológico." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Justificativa da Impossibilidade de Identificação do Indivíduo" ] ;
+       fhir:description [ fhir:v "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRLocalAfericao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Local de Aferição" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão arterial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRModalidadeAssistencial-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Modalidade Assistencial" ] ;
+       fhir:description [ fhir:v "Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRMotivoDesfecho-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Motivo do desfecho do Contato assistencial" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRMunicipio-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Município" ] ;
+       fhir:description [ fhir:v "Municípios brasileiros, entes subnacionais." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade> ;
+         fhir:reference [ fhir:v "ValueSet/BRNacionalidade" ]
+       ] ;
+       fhir:name [ fhir:v "Nacionalidade" ] ;
+       fhir:description [ fhir:v "Códigos para representação de nacionalidade." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRNaturezaJuridica-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRNaturezaJuridica-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Natureza Jurídica" ] ;
+       fhir:description [ fhir:v "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BROcupacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Brasileira de Ocupações - CBO" ] ;
+       fhir:description [ fhir:v "Classifica as profissões do mercado de trabalho brasileiro." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BROrgaoExpedidor-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Órgão Expedidor" ] ;
+       fhir:description [ fhir:v "Lista de órgãos responsáveis por expedir documentos no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida> ;
+         fhir:reference [ fhir:v "ValueSet/BROrigemMedida" ]
+       ] ;
+       fhir:name [ fhir:v "Origem de Medição" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir o tipo de medição corporal adotada." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRPais-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "País" ] ;
+       fhir:description [ fhir:v "Códigos para representação de países." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico> ;
+         fhir:reference [ fhir:v "ValueSet/BRPapelProblemaDiagnostico" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação do papel de um problema e diagnóstico." ] ;
+       fhir:description [ fhir:v "Tradução para o português do brasil da classificação do papel de um problema/diagnóstico." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRParentesco-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRParentesco-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Parentesco" ] ;
+       fhir:description [ fhir:v "Classificação da relação familiar entre indivíduos." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo> ;
+         fhir:reference [ fhir:v "ValueSet/BRPosicaoIndividuo" ]
+       ] ;
+       fhir:name [ fhir:v "Posição do Indivíduo" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada> ;
+         fhir:reference [ fhir:v "ValueSet/BRPrescricaoNaoEstruturada" ]
+       ] ;
+       fhir:name [ fhir:v "Indicativo de prescrição não estruturada ou medicamento não identificado." ] ;
+       fhir:description [ fhir:v "Indicativo de prescrição não estruturada ou medicamento não identificado." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico> ;
+         fhir:reference [ fhir:v "ValueSet/BRProblemaDiagnostico" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Internacional de Doenças e Atenção Primária" ] ;
+       fhir:description [ fhir:v "Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedencia-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRProcedencia-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Procedência do Contato Assistencial" ] ;
+       fhir:description [ fhir:v "Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRProcedimentosNacionais-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Procedimento realizado" ] ;
+       fhir:description [ fhir:v "ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRRacaCor-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRRacaCor-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Raça/Cor" ] ;
+       fhir:description [ fhir:v "Códigos para representação de raça/cor no Brasil." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRReacoesAdversasMedDRA-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRReacoesAdversasMedDRA-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Reações Adversas da MedDRA" ] ;
+       fhir:description [ fhir:v "Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRResponsabilidadeParticipante-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRResponsabilidadeParticipante-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Reponsabilidade no Contato Assistencial" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRSexo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo" ] ;
+       fhir:description [ fhir:v "Sexo de um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento> ;
+         fhir:reference [ fhir:v "ValueSet/BRTerminologiaMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Terminologia dos medicamentos" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir a terminologia de um dado medicamento." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAleitamentoMaterno-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoAleitamentoMaterno-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Aleitamento Materno" ] ;
+       fhir:description [ fhir:v "Definição do tipo de aleitamento materno realizado a uma criança." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoAtestado" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de atestado" ] ;
+       fhir:description [ fhir:v "Tipo de atestado dentro das categorias médico/odontológico" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoDocumento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Documento" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de documento que está sendo trafegado." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoDocumentoIndividuo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Documento do Indivíduo" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoEstabelecimentoSaude-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoEstabelecimentoSaude-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Estabelecimento de Saúde" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para classificar o tipo de estabelecimento de saúde." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoIdentificadorProcedimento-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Identificador do Procedimento" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de identificador que está sendo utilizado para o procedimento." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoLogradouro-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoLogradouro-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Logradouro" ] ;
+       fhir:description [ fhir:v "Classifica o tipo de logradouro." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoObservacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Observação" ] ;
+       fhir:description [ fhir:v "Tipo de Observação." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRTipoSubstanciaUso-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Tipo de Substância em Uso" ] ;
+       fhir:description [ fhir:v "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRTurno> ;
+         fhir:reference [ fhir:v "ValueSet/BRTurno" ]
+       ] ;
+       fhir:name [ fhir:v "Turno do dia" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir o turno de um dia." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo> ;
+         fhir:reference [ fhir:v "ValueSet/BRUnidadeConsumo" ]
+       ] ;
+       fhir:name [ fhir:v "Unidade de Consumo" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeFederativa-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRUnidadeFederativa-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Unidade Federativa" ] ;
+       fhir:description [ fhir:v "Os estados e o Distrito Federal, entes subnacionais brasileiros." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento> ;
+         fhir:reference [ fhir:v "ValueSet/BRUnidadeMedidaMedicamento" ]
+       ] ;
+       fhir:name [ fhir:v "Unidade de Medida de Medicamento" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo> ;
+         fhir:reference [ fhir:v "ValueSet/BRUnidadeTempo" ]
+       ] ;
+       fhir:name [ fhir:v "Unidade de Tempo" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir uma unidade de tempo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRViaAdministracao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Via de Administração do Imunobiológico" ] ;
+       fhir:description [ fhir:v "Via de administração de um imunobiológico." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao> ;
+         fhir:reference [ fhir:v "ValueSet/RoupasUsadasMedicao" ]
+       ] ;
+       fhir:name [ fhir:v "Roupas Usadas na Medição" ] ;
+       fhir:description [ fhir:v "ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8." ]
+     ] ) ;
+     fhir:page [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "informative" ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "toc.html"^^xsd:anyURI ]
+       ] ) ;
+       fhir:name [ fhir:v "toc.html"^^xsd:anyURI ] ;
+       fhir:title [ fhir:v "Índice" ] ;
+       fhir:generation [ fhir:v "html" ] ;
+       fhir:page ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Principal" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "seguranca.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "seguranca.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Segurança" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "integracao.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "integracao.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Integração" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "credenciamento.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "credenciamento.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Credenciamento" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "exemplos.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "exemplos.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Exemplos" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "downloads.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Useful Downloads" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "changes.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "changes.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Histórico de mudanças" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] )
+     ] ;
+     fhir:parameter ( [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input\\history" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "input/pagecontent" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/capabilities" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/extensions" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/models" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/operations" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/profiles" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/testing" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/history" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "fsh-generated/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "template/config" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "input/images" ]
+     ] [
+       fhir:code [ fhir:v "path-tx-cache" ] ;
+       fhir:value [ fhir:v "input-cache/txcache" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

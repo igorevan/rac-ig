@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstadoEvento-1.0"/>
+  <meta>
+    <lastUpdated value="2020-04-07T12:14:10.395+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-event-status.html"><code>http://hl7.org/fhir/event-status</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td>Pré-procedimento</td><td>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td>Em andamento</td><td>The event is currently occurring.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td>Não Realizado</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td>Suspenso</td><td>The event has been temporarily stopped but is expected to resume in the future.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td>Cancelado</td><td>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td>Completado</td><td>The event has now concluded.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td>Desconhecido</td><td>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td>Entrada com erro</td><td>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be &quot;stopped&quot; rather than &quot;entered-in-error&quot;.).</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"/>
+  <version value="0.1.0"/>
+  <name value="BREstadoEvento"/>
+  <title value="Estado do Evento"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-07T12:14:07.8417018+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Identificação do estado de um evento."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/event-status"/>
+      <version value="*"/>
+      <concept>
+        <code value="preparation"/>
+        <display value="Pré-procedimento"/>
+      </concept>
+      <concept>
+        <code value="in-progress"/>
+        <display value="Em andamento"/>
+      </concept>
+      <concept>
+        <code value="not-done"/>
+        <display value="Não Realizado"/>
+      </concept>
+      <concept>
+        <code value="on-hold"/>
+        <display value="Suspenso"/>
+      </concept>
+      <concept>
+        <code value="stopped"/>
+        <display value="Cancelado"/>
+      </concept>
+      <concept>
+        <code value="completed"/>
+        <display value="Completado"/>
+      </concept>
+      <concept>
+        <code value="unknown"/>
+        <display value="Desconhecido"/>
+      </concept>
+      <concept>
+        <code value="entered-in-error"/>
+        <display value="Entrada com erro"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

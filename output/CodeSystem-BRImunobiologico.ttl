@@ -1,0 +1,608 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRImunobiologico"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2021-01-20T14:39:24.326+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRImunobiologico-1\"> </a></td><td>IGHT</td><td>Imunoglobulina humana antitétano</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRImunobiologico-2\"> </a></td><td>SAT</td><td>Soro antitetânico</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRImunobiologico-3\"> </a></td><td>SARC</td><td>Soro antiaracnídico</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRImunobiologico-4\"> </a></td><td>SAESCOR</td><td>Soro antiescorpiônico</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRImunobiologico-5\"> </a></td><td>DT</td><td>Vacina difteria e tétano infantil</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRImunobiologico-6\"> </a></td><td>SAELAP</td><td>Soro antielapídico</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRImunobiologico-7\"> </a></td><td>SAR</td><td>Soro antirrábico</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRImunobiologico-8\"> </a></td><td>SABOTR</td><td>Soro antibotrópico (pentavalente)</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRImunobiologico-9\"> </a></td><td>HepB</td><td>Vacina hepatite B</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRImunobiologico-10\"> </a></td><td>SAD</td><td>Soro antidiftérico</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRImunobiologico-11\"> </a></td><td>SABOCR</td><td>Soro antibotrópico (pentavalente) e anticrotálico</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRImunobiologico-12\"> </a></td><td>SABOLA</td><td>Soro antibotrópico (pentavalente) e antilaquético</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRImunobiologico-13\"> </a></td><td>Meningo AC</td><td>Vacina meningocócica AC</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRImunobiologico-14\"> </a></td><td>VFA</td><td>Vacina febre amarela</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRImunobiologico-15\"> </a></td><td>BCG</td><td>Vacina BCG</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRImunobiologico-16\"> </a></td><td>SACROT</td><td>Soro anticrotálico</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRImunobiologico-17\"> </a></td><td>Hib</td><td>Vacina Hib</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"BRImunobiologico-18\"> </a></td><td>VR</td><td>Vacina raiva embrião de galinha</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRImunobiologico-19\"> </a></td><td>IGHV</td><td>Imunoglobulina humana antivaricela</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRImunobiologico-20\"> </a></td><td>IGHHB</td><td>Imunoglobulina humana anti-hepatite B</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRImunobiologico-21\"> </a></td><td>VPP23</td><td>Vacina pneumo 23</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRImunobiologico-22\"> </a></td><td>VIP</td><td>Vacina polio injetável</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRImunobiologico-23\"> </a></td><td>IGHR</td><td>Imunoglobulina humana antirrábica</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRImunobiologico-24\"> </a></td><td>SCR</td><td>Vacina sarampo, caxumba, rubéola</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRImunobiologico-25\"> </a></td><td>dT</td><td>Vacina difteria e tétano adulto</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRImunobiologico-26\"> </a></td><td>VPC10</td><td>Vacina pneumo 10</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRImunobiologico-27\"> </a></td><td>SLATRO</td><td>Soro latrodectus</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRImunobiologico-28\"> </a></td><td>VOP</td><td>Vacina polio oral</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRImunobiologico-29\"> </a></td><td>PENTA acelular</td><td>Vacina penta acelular (DTPa/VIP/Hib)</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRImunobiologico-30\"> </a></td><td>FTp</td><td>Vacina febre tifóide</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRImunobiologico-31\"> </a></td><td>SALOXO</td><td>Soro antiloxoscélico (trivalente)</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRImunobiologico-32\"> </a></td><td>SALONO</td><td>Soro antilonômico</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRImunobiologico-33\"> </a></td><td>INF3</td><td>Vacina influenza trivalente</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRImunobiologico-34\"> </a></td><td>VAR</td><td>Vacina varicela</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRImunobiologico-35\"> </a></td><td>HA</td><td>Vacina hepatite A</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRImunobiologico-36\"> </a></td><td>SR</td><td>Vacina sarampo, rubéola</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRImunobiologico-37\"> </a></td><td>Vero</td><td>Vacina raiva em cultivo celular vero</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRImunobiologico-38\"> </a></td><td>SBOTULTRI</td><td>Soro antibotulínico (trivalente)</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRImunobiologico-39\"> </a></td><td>Tetra</td><td>Vacina DTP/Hib</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRImunobiologico-40\"> </a></td><td>Pncc7V</td><td>Vacina pneumocócica 7V</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRImunobiologico-41\"> </a></td><td>MenC</td><td>Vacina meningo C</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRImunobiologico-42\"> </a></td><td>PENTA</td><td>Vacina penta (DTP/HepB/Hib)</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRImunobiologico-43\"> </a></td><td>HEXA</td><td>Vacina hexa (DTPa/HepB/VIP/Hib)</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRImunobiologico-44\"> </a></td><td>H1N1</td><td>Vacina Influenza H1N1</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRImunobiologico-45\"> </a></td><td>ROTA</td><td>Vacina rotavírus</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRImunobiologico-46\"> </a></td><td>DTP</td><td>Vacina DTP</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRImunobiologico-47\"> </a></td><td>DTPa</td><td>Vacina DTPa infantil</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRImunobiologico-48\"> </a></td><td>DILSRC</td><td>Diluente para vacina sarampo, caxumba, rubéola</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRImunobiologico-49\"> </a></td><td>DILVFA</td><td>Diluente para vacina febre amarela</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRImunobiologico-50\"> </a></td><td>DILHib</td><td>Diluente para vacina haemophilus influenzae B</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRImunobiologico-51\"> </a></td><td>Fta</td><td>Vacina febre tifóide (atenuada)</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRImunobiologico-52\"> </a></td><td>DilMengAC</td><td>Diluente meningo AC</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRImunobiologico-53\"> </a></td><td>DILSR</td><td>Diluente para vacina sarampo, rubéola</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRImunobiologico-54\"> </a></td><td>DILVAR</td><td>Diluente para vacina varicela</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRImunobiologico-55\"> </a></td><td>HepAinf</td><td>Vacina hepatite A infantil</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRImunobiologico-56\"> </a></td><td>SCRV</td><td>Vacina sarampo, caxumba, rubéola e varicela</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRImunobiologico-57\"> </a></td><td>dTpa</td><td>Vacina dTpa adulto</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRImunobiologico-58\"> </a></td><td>TETRA acelular</td><td>Vacina DTPa/VIP</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRImunobiologico-59\"> </a></td><td>VPC13</td><td>Vacina pneumo 13</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRImunobiologico-60\"> </a></td><td>HPV2</td><td>Vacina HPV bivalente</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRImunobiologico-61\"> </a></td><td>TT</td><td>Vacina toxóide tetânico</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRImunobiologico-62\"> </a></td><td>HAeHBped</td><td>Hepatite AeB (pediátrica)</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRImunobiologico-63\"> </a></td><td>HAeHB</td><td>Vacina hepatite AeB (uso adulto)</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRImunobiologico-64\"> </a></td><td>FLU ID</td><td>Vacina influenza ID</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRImunobiologico-65\"> </a></td><td>ROTA5</td><td>Vacina rotavírus pentavalente</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRImunobiologico-66\"> </a></td><td>MEN BC</td><td>Vacina meningocócica B/C</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRImunobiologico-67\"> </a></td><td>HPV4</td><td>Vacina HPV quadrivalente</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRImunobiologico-68\"> </a></td><td>HPV Bi</td><td>Vacina HPV bivalente</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRImunobiologico-69\"> </a></td><td>SABOT</td><td>Soro antibotulínico AB (bivalente)</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRImunobiologico-70\"> </a></td><td>Sarampo</td><td>Vacina sarampo</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRImunobiologico-71\"> </a></td><td>Rubeola</td><td>Vacina rubéola</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRImunobiologico-72\"> </a></td><td>Gripe Sazonal</td><td>Vacina gripe</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRImunobiologico-73\"> </a></td><td>Quadrupla Viral</td><td>Vacina quádrupla viral</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRImunobiologico-74\"> </a></td><td>MenACWY</td><td>Vacina meningo ACWY</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRImunobiologico-75\"> </a></td><td>COLERA</td><td>Vacina cólera</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRImunobiologico-76\"> </a></td><td>VHZ</td><td>Vacina herpes-zóster</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRImunobiologico-77\"> </a></td><td>INF4</td><td>Vacina influenza tetravalente</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRImunobiologico-78\"> </a></td><td>MenB</td><td>Vacina meningo B</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRImunobiologico-79\"> </a></td><td>DILBCG</td><td>Diluente para vacina BCG</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRImunobiologico-80\"> </a></td><td>DILVRvero</td><td>Diluente para vacina raiva cultivo celulas vero</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRImunobiologico-81\"> </a></td><td>DILMenC</td><td>Diluente para vacina meningo C</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRImunobiologico-82\"> </a></td><td>Dengue</td><td>Vacina dengue</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRImunobiologico-83\"> </a></td><td>HEPAad</td><td>Vacina hepatite A adulto</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRImunobiologico-84\"> </a></td><td>VFA-F</td><td>Vacina febre amarela fracionada</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRImunobiologico-85\"> </a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td><td>Vacina Covid-19 ASTRAZENECA/FIOCRUZ - COVISHIELD, recombinante</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"BRImunobiologico-86\"> </a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td><td>Vacina COVID-19 SINOVAC/BUTANTAN - CORONAVAC, inativada</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"BRImunobiologico-87\"> </a></td><td>COVID-19 PFIZER - COMIRNATY</td><td>Vacina COVID-19 PFIZER - COMIRNATY, RNAm</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"BRImunobiologico-88\"> </a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td><td>Vacina COVID-19 JANSSEN - Ad26.COV2.S, recombinante</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"BRImunobiologico-89\"> </a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td><td>Vacina COVID-19 ASTRAZENECA - ChAdOx1-S, recombinante</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"BRImunobiologico-90\"> </a></td><td>DILSCRV</td><td>Diluente para vacina sarampo, caxumba, rubéola e varicela</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"BRImunobiologico-91\"> </a></td><td>DILVR</td><td>Diluente para vacina raiva cultivo embrião de galinha</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"BRImunobiologico-92\"> </a></td><td>VRvero</td><td>Vacina raiva cultivo celulas vero</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"BRImunobiologico-93\"> </a></td><td>HPV9</td><td>Vacina HPV nonavalente</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"BRImunobiologico-94\"> </a></td><td>DILCOV</td><td>Diluente Covid-19</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"BRImunobiologico-95\"> </a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td><td>Vacina COVID-19 GAMALEYA - SPUTNIK V recombinante</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"BRImunobiologico-96\"> </a></td><td>COVID-19 BHARAT - COVAXIN</td><td>Vacina Covid-19 COVID-19 BHARAT - COVAXIN inativada</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"BRImunobiologico-97\"> </a></td><td>COVID-19 MODERNA</td><td>Vacina COVID-19 MODERNA RNAm</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"BRImunobiologico-98\"> </a></td><td>COVID-19 SINOVAC - CORONAVAC</td><td>Vacina COVID-19 SINOVAC - CORONAVAC inativada</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRImunobiologico-99\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td><td>Vacina COVID-19 PFIZER - COMIRNATY PEDIÁTRICA, RNAm</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRImunobiologico-100\"> </a></td><td>VVBN</td><td>Vacina Varíola Bavarian Nordic</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRImunobiologico-101\"> </a></td><td>VZR</td><td>Vacina Herpes-Zoster, recombinante</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRImunobiologico-102\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td><td>Vacina COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS, RNAm</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRImunobiologico-103\"> </a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td><td>Vacina COVID-19 PFIZER - COMIRNATY BIVALENTE, RNAm</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRImunobiologico-104\"> </a></td><td>DNG</td><td>Vacina dengue (atenuada)</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"BRImunobiologico-105\"> </a></td><td>COVID-19 MODERNA - SPIKEVAX BIVALENTE</td><td>Vacina Covid-19-RNAm, Moderna (Spikevax) bivalente</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRImunobiologico-106\"> </a></td><td>VPC15</td><td>Vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>1</td><td></td><td></td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr><tr><td>4</td><td></td><td></td></tr><tr><td>5</td><td></td><td></td></tr><tr><td>6</td><td></td><td></td></tr><tr><td>7</td><td></td><td></td></tr><tr><td>8</td><td></td><td></td></tr><tr><td>9</td><td></td><td></td></tr><tr><td>10</td><td></td><td></td></tr><tr><td>11</td><td></td><td></td></tr><tr><td>12</td><td></td><td></td></tr><tr><td>13</td><td></td><td></td></tr><tr><td>14</td><td></td><td></td></tr><tr><td>15</td><td></td><td></td></tr><tr><td>16</td><td></td><td></td></tr><tr><td>17</td><td></td><td></td></tr><tr><td>18</td><td></td><td></td></tr><tr><td>19</td><td></td><td></td></tr><tr><td>20</td><td></td><td></td></tr><tr><td>21</td><td></td><td></td></tr><tr><td>22</td><td></td><td></td></tr><tr><td>23</td><td></td><td></td></tr><tr><td>24</td><td></td><td></td></tr><tr><td>25</td><td></td><td></td></tr><tr><td>26</td><td></td><td></td></tr><tr><td>27</td><td></td><td></td></tr><tr><td>28</td><td></td><td></td></tr><tr><td>29</td><td></td><td></td></tr><tr><td>30</td><td></td><td></td></tr><tr><td>31</td><td></td><td></td></tr><tr><td>32</td><td></td><td></td></tr><tr><td>33</td><td>Influenza vaccine trivalent</td><td>Vacuna influenza trivalente</td></tr><tr><td>34</td><td></td><td></td></tr><tr><td>35</td><td></td><td></td></tr><tr><td>36</td><td></td><td></td></tr><tr><td>37</td><td></td><td></td></tr><tr><td>38</td><td></td><td></td></tr><tr><td>39</td><td></td><td></td></tr><tr><td>40</td><td></td><td></td></tr><tr><td>41</td><td></td><td></td></tr><tr><td>42</td><td></td><td></td></tr><tr><td>43</td><td></td><td></td></tr><tr><td>44</td><td></td><td></td></tr><tr><td>45</td><td></td><td></td></tr><tr><td>46</td><td></td><td></td></tr><tr><td>47</td><td></td><td></td></tr><tr><td>48</td><td></td><td></td></tr><tr><td>49</td><td></td><td></td></tr><tr><td>50</td><td></td><td></td></tr><tr><td>51</td><td></td><td></td></tr><tr><td>52</td><td></td><td></td></tr><tr><td>53</td><td></td><td></td></tr><tr><td>54</td><td></td><td></td></tr><tr><td>55</td><td></td><td></td></tr><tr><td>56</td><td></td><td></td></tr><tr><td>57</td><td></td><td></td></tr><tr><td>58</td><td></td><td></td></tr><tr><td>59</td><td></td><td></td></tr><tr><td>60</td><td></td><td></td></tr><tr><td>61</td><td></td><td></td></tr><tr><td>62</td><td></td><td></td></tr><tr><td>63</td><td></td><td></td></tr><tr><td>64</td><td></td><td></td></tr><tr><td>65</td><td></td><td></td></tr><tr><td>66</td><td></td><td></td></tr><tr><td>67</td><td></td><td></td></tr><tr><td>68</td><td></td><td></td></tr><tr><td>69</td><td></td><td></td></tr><tr><td>70</td><td></td><td></td></tr><tr><td>71</td><td></td><td></td></tr><tr><td>72</td><td></td><td></td></tr><tr><td>73</td><td></td><td></td></tr><tr><td>74</td><td></td><td></td></tr><tr><td>75</td><td></td><td></td></tr><tr><td>76</td><td></td><td></td></tr><tr><td>77</td><td>Influenza vaccine tetravalent</td><td>Vacuna influenza tetravalente</td></tr><tr><td>78</td><td></td><td></td></tr><tr><td>79</td><td></td><td></td></tr><tr><td>80</td><td></td><td></td></tr><tr><td>81</td><td></td><td></td></tr><tr><td>82</td><td></td><td></td></tr><tr><td>83</td><td></td><td></td></tr><tr><td>84</td><td></td><td></td></tr><tr><td>85</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>86</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>87</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>88</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>89</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>90</td><td></td><td></td></tr><tr><td>91</td><td></td><td></td></tr><tr><td>92</td><td></td><td></td></tr><tr><td>93</td><td></td><td></td></tr><tr><td>94</td><td></td><td></td></tr><tr><td>95</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>96</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>97</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>98</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>99</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>100</td><td></td><td></td></tr><tr><td>101</td><td></td><td></td></tr><tr><td>102</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>103</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>104</td><td></td><td></td></tr><tr><td>105</td><td></td><td></td></tr><tr><td>106</td><td></td><td></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRImunobiologico"] ; # 
+  fhir:title [ fhir:v "Imunobiológico"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-01-12T18:40:15.6103207+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classifica os tipos de imunobiológicos."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "IGHT" ] ;
+     fhir:definition [ fhir:v "Imunoglobulina humana antitétano" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "SAT" ] ;
+     fhir:definition [ fhir:v "Soro antitetânico" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "SARC" ] ;
+     fhir:definition [ fhir:v "Soro antiaracnídico" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "SAESCOR" ] ;
+     fhir:definition [ fhir:v "Soro antiescorpiônico" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "DT" ] ;
+     fhir:definition [ fhir:v "Vacina difteria e tétano infantil" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "SAELAP" ] ;
+     fhir:definition [ fhir:v "Soro antielapídico" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "SAR" ] ;
+     fhir:definition [ fhir:v "Soro antirrábico" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "SABOTR" ] ;
+     fhir:definition [ fhir:v "Soro antibotrópico (pentavalente)" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "HepB" ] ;
+     fhir:definition [ fhir:v "Vacina hepatite B" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "SAD" ] ;
+     fhir:definition [ fhir:v "Soro antidiftérico" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "SABOCR" ] ;
+     fhir:definition [ fhir:v "Soro antibotrópico (pentavalente) e anticrotálico" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "SABOLA" ] ;
+     fhir:definition [ fhir:v "Soro antibotrópico (pentavalente) e antilaquético" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Meningo AC" ] ;
+     fhir:definition [ fhir:v "Vacina meningocócica AC" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "VFA" ] ;
+     fhir:definition [ fhir:v "Vacina febre amarela" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "BCG" ] ;
+     fhir:definition [ fhir:v "Vacina BCG" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "SACROT" ] ;
+     fhir:definition [ fhir:v "Soro anticrotálico" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Hib" ] ;
+     fhir:definition [ fhir:v "Vacina Hib" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "VR" ] ;
+     fhir:definition [ fhir:v "Vacina raiva embrião de galinha" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "inativo" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "IGHV" ] ;
+     fhir:definition [ fhir:v "Imunoglobulina humana antivaricela" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "IGHHB" ] ;
+     fhir:definition [ fhir:v "Imunoglobulina humana anti-hepatite B" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "VPP23" ] ;
+     fhir:definition [ fhir:v "Vacina pneumo 23" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "VIP" ] ;
+     fhir:definition [ fhir:v "Vacina polio injetável" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "IGHR" ] ;
+     fhir:definition [ fhir:v "Imunoglobulina humana antirrábica" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "SCR" ] ;
+     fhir:definition [ fhir:v "Vacina sarampo, caxumba, rubéola" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "dT" ] ;
+     fhir:definition [ fhir:v "Vacina difteria e tétano adulto" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "VPC10" ] ;
+     fhir:definition [ fhir:v "Vacina pneumo 10" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "SLATRO" ] ;
+     fhir:definition [ fhir:v "Soro latrodectus" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "VOP" ] ;
+     fhir:definition [ fhir:v "Vacina polio oral" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "PENTA acelular" ] ;
+     fhir:definition [ fhir:v "Vacina penta acelular (DTPa/VIP/Hib)" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "FTp" ] ;
+     fhir:definition [ fhir:v "Vacina febre tifóide" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "SALOXO" ] ;
+     fhir:definition [ fhir:v "Soro antiloxoscélico (trivalente)" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "SALONO" ] ;
+     fhir:definition [ fhir:v "Soro antilonômico" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "INF3" ] ;
+     fhir:definition [ fhir:v "Vacina influenza trivalente" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Influenza vaccine trivalent" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Vacuna influenza trivalente" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "VAR" ] ;
+     fhir:definition [ fhir:v "Vacina varicela" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "HA" ] ;
+     fhir:definition [ fhir:v "Vacina hepatite A" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "SR" ] ;
+     fhir:definition [ fhir:v "Vacina sarampo, rubéola" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Vero" ] ;
+     fhir:definition [ fhir:v "Vacina raiva em cultivo celular vero" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "SBOTULTRI" ] ;
+     fhir:definition [ fhir:v "Soro antibotulínico (trivalente)" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Tetra" ] ;
+     fhir:definition [ fhir:v "Vacina DTP/Hib" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Pncc7V" ] ;
+     fhir:definition [ fhir:v "Vacina pneumocócica 7V" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "MenC" ] ;
+     fhir:definition [ fhir:v "Vacina meningo C" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "PENTA" ] ;
+     fhir:definition [ fhir:v "Vacina penta (DTP/HepB/Hib)" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "HEXA" ] ;
+     fhir:definition [ fhir:v "Vacina hexa (DTPa/HepB/VIP/Hib)" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "H1N1" ] ;
+     fhir:definition [ fhir:v "Vacina Influenza H1N1" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "ROTA" ] ;
+     fhir:definition [ fhir:v "Vacina rotavírus" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "DTP" ] ;
+     fhir:definition [ fhir:v "Vacina DTP" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "DTPa" ] ;
+     fhir:definition [ fhir:v "Vacina DTPa infantil" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "DILSRC" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina sarampo, caxumba, rubéola" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "DILVFA" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina febre amarela" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "DILHib" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina haemophilus influenzae B" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "Fta" ] ;
+     fhir:definition [ fhir:v "Vacina febre tifóide (atenuada)" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "DilMengAC" ] ;
+     fhir:definition [ fhir:v "Diluente meningo AC" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "DILSR" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina sarampo, rubéola" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "DILVAR" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina varicela" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "HepAinf" ] ;
+     fhir:definition [ fhir:v "Vacina hepatite A infantil" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "SCRV" ] ;
+     fhir:definition [ fhir:v "Vacina sarampo, caxumba, rubéola e varicela" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "dTpa" ] ;
+     fhir:definition [ fhir:v "Vacina dTpa adulto" ]
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "TETRA acelular" ] ;
+     fhir:definition [ fhir:v "Vacina DTPa/VIP" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "VPC13" ] ;
+     fhir:definition [ fhir:v "Vacina pneumo 13" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "HPV2" ] ;
+     fhir:definition [ fhir:v "Vacina HPV bivalente" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "TT" ] ;
+     fhir:definition [ fhir:v "Vacina toxóide tetânico" ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "HAeHBped" ] ;
+     fhir:definition [ fhir:v "Hepatite AeB (pediátrica)" ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "HAeHB" ] ;
+     fhir:definition [ fhir:v "Vacina hepatite AeB (uso adulto)" ]
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "FLU ID" ] ;
+     fhir:definition [ fhir:v "Vacina influenza ID" ]
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:display [ fhir:v "ROTA5" ] ;
+     fhir:definition [ fhir:v "Vacina rotavírus pentavalente" ]
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "MEN BC" ] ;
+     fhir:definition [ fhir:v "Vacina meningocócica B/C" ]
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:display [ fhir:v "HPV4" ] ;
+     fhir:definition [ fhir:v "Vacina HPV quadrivalente" ]
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:display [ fhir:v "HPV Bi" ] ;
+     fhir:definition [ fhir:v "Vacina HPV bivalente" ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "SABOT" ] ;
+     fhir:definition [ fhir:v "Soro antibotulínico AB (bivalente)" ]
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "Sarampo" ] ;
+     fhir:definition [ fhir:v "Vacina sarampo" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Rubeola" ] ;
+     fhir:definition [ fhir:v "Vacina rubéola" ]
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "Gripe Sazonal" ] ;
+     fhir:definition [ fhir:v "Vacina gripe" ]
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "Quadrupla Viral" ] ;
+     fhir:definition [ fhir:v "Vacina quádrupla viral" ]
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "MenACWY" ] ;
+     fhir:definition [ fhir:v "Vacina meningo ACWY" ]
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "COLERA" ] ;
+     fhir:definition [ fhir:v "Vacina cólera" ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "VHZ" ] ;
+     fhir:definition [ fhir:v "Vacina herpes-zóster" ]
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "INF4" ] ;
+     fhir:definition [ fhir:v "Vacina influenza tetravalente" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Influenza vaccine tetravalent" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Vacuna influenza tetravalente" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "MenB" ] ;
+     fhir:definition [ fhir:v "Vacina meningo B" ]
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "DILBCG" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina BCG" ]
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "DILVRvero" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina raiva cultivo celulas vero" ]
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:display [ fhir:v "DILMenC" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina meningo C" ]
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "Dengue" ] ;
+     fhir:definition [ fhir:v "Vacina dengue" ]
+  ] [
+     fhir:code [ fhir:v "83" ] ;
+     fhir:display [ fhir:v "HEPAad" ] ;
+     fhir:definition [ fhir:v "Vacina hepatite A adulto" ]
+  ] [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:display [ fhir:v "VFA-F" ] ;
+     fhir:definition [ fhir:v "Vacina febre amarela fracionada" ]
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:display [ fhir:v "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD" ] ;
+     fhir:definition [ fhir:v "Vacina Covid-19 ASTRAZENECA/FIOCRUZ - COVISHIELD, recombinante" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:display [ fhir:v "COVID-19 SINOVAC/BUTANTAN - CORONAVAC" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 SINOVAC/BUTANTAN - CORONAVAC, inativada" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 PFIZER - COMIRNATY, RNAm" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "COVID-19 JANSSEN - Ad26.COV2.S" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 JANSSEN - Ad26.COV2.S, recombinante" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:display [ fhir:v "COVID-19 ASTRAZENECA - ChAdOx1-S" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 ASTRAZENECA - ChAdOx1-S, recombinante" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:display [ fhir:v "DILSCRV" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina sarampo, caxumba, rubéola e varicela" ]
+  ] [
+     fhir:code [ fhir:v "91" ] ;
+     fhir:display [ fhir:v "DILVR" ] ;
+     fhir:definition [ fhir:v "Diluente para vacina raiva cultivo embrião de galinha" ]
+  ] [
+     fhir:code [ fhir:v "92" ] ;
+     fhir:display [ fhir:v "VRvero" ] ;
+     fhir:definition [ fhir:v "Vacina raiva cultivo celulas vero" ]
+  ] [
+     fhir:code [ fhir:v "93" ] ;
+     fhir:display [ fhir:v "HPV9" ] ;
+     fhir:definition [ fhir:v "Vacina HPV nonavalente" ]
+  ] [
+     fhir:code [ fhir:v "94" ] ;
+     fhir:display [ fhir:v "DILCOV" ] ;
+     fhir:definition [ fhir:v "Diluente Covid-19" ]
+  ] [
+     fhir:code [ fhir:v "95" ] ;
+     fhir:display [ fhir:v "COVID-19 GAMALEYA - SPUTNIK V" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 GAMALEYA - SPUTNIK V recombinante" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "inativo" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "96" ] ;
+     fhir:display [ fhir:v "COVID-19 BHARAT - COVAXIN" ] ;
+     fhir:definition [ fhir:v "Vacina Covid-19 COVID-19 BHARAT - COVAXIN inativada" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "inativo" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "97" ] ;
+     fhir:display [ fhir:v "COVID-19 MODERNA" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 MODERNA RNAm" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "inativo" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "98" ] ;
+     fhir:display [ fhir:v "COVID-19 SINOVAC - CORONAVAC" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 SINOVAC - CORONAVAC inativada" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 PFIZER - COMIRNATY PEDIÁTRICA, RNAm" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:display [ fhir:v "VVBN" ] ;
+     fhir:definition [ fhir:v "Vacina Varíola Bavarian Nordic" ]
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "VZR" ] ;
+     fhir:definition [ fhir:v "Vacina Herpes-Zoster, recombinante" ]
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS, RNAm" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY BIVALENTE" ] ;
+     fhir:definition [ fhir:v "Vacina COVID-19 PFIZER - COMIRNATY BIVALENTE, RNAm" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "DNG" ] ;
+     fhir:definition [ fhir:v "Vacina dengue (atenuada)" ]
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "COVID-19 MODERNA - SPIKEVAX BIVALENTE" ] ;
+     fhir:definition [ fhir:v "Vacina Covid-19-RNAm, Moderna (Spikevax) bivalente" ]
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:display [ fhir:v "VPC15" ] ;
+     fhir:definition [ fhir:v "Vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

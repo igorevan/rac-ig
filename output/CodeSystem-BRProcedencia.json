@@ -1,0 +1,75 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRProcedencia",
+  "meta" : {
+    "lastUpdated" : "2020-04-17T14:46:11.153+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"BRProcedencia-09\"> </a></td><td>Demanda espontânea</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRProcedencia-10\"> </a></td><td>Ordem Judicial</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRProcedencia-11\"> </a></td><td>Retorno</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRProcedencia-12\"> </a></td><td>Demanda referenciada</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRProcedencia-99\"> </a></td><td>Informação ausente no modelo de origem</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia",
+  "version" : "0.1.0",
+  "name" : "BRProcedencia",
+  "title" : "Procedência",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-04-17T14:46:08.158574+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "09",
+    "display" : "Demanda espontânea"
+  },
+  {
+    "code" : "10",
+    "display" : "Ordem Judicial"
+  },
+  {
+    "code" : "11",
+    "display" : "Retorno"
+  },
+  {
+    "code" : "12",
+    "display" : "Demanda referenciada"
+  },
+  {
+    "code" : "99",
+    "display" : "Informação ausente no modelo de origem"
+  }]
+}

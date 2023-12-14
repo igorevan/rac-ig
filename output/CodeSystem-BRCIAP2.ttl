@@ -1,0 +1,2128 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRCIAP2"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-11T19:10:04.975+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">A01<a name=\"BRCIAP2-A01\"> </a></td><td>Dor generalizada /múltipla</td></tr><tr><td style=\"white-space:nowrap\">A02<a name=\"BRCIAP2-A02\"> </a></td><td>Arrepios/ calafrios</td></tr><tr><td style=\"white-space:nowrap\">A03<a name=\"BRCIAP2-A03\"> </a></td><td>Febre</td></tr><tr><td style=\"white-space:nowrap\">A04<a name=\"BRCIAP2-A04\"> </a></td><td>Debilidade/cansaço geral/fadiga</td></tr><tr><td style=\"white-space:nowrap\">A05<a name=\"BRCIAP2-A05\"> </a></td><td>Sentir-se doente</td></tr><tr><td style=\"white-space:nowrap\">A06<a name=\"BRCIAP2-A06\"> </a></td><td>Desmaio/síncope</td></tr><tr><td style=\"white-space:nowrap\">A07<a name=\"BRCIAP2-A07\"> </a></td><td>Coma</td></tr><tr><td style=\"white-space:nowrap\">A08<a name=\"BRCIAP2-A08\"> </a></td><td>Inchaço</td></tr><tr><td style=\"white-space:nowrap\">A09<a name=\"BRCIAP2-A09\"> </a></td><td>Problemas de sudorese</td></tr><tr><td style=\"white-space:nowrap\">A10<a name=\"BRCIAP2-A10\"> </a></td><td>Sangramento/Hemorragia NE</td></tr><tr><td style=\"white-space:nowrap\">A11<a name=\"BRCIAP2-A11\"> </a></td><td>Dores torácicas NE</td></tr><tr><td style=\"white-space:nowrap\">A13<a name=\"BRCIAP2-A13\"> </a></td><td>Receio/Medo do tratamento</td></tr><tr><td style=\"white-space:nowrap\">A16<a name=\"BRCIAP2-A16\"> </a></td><td>Criança irritável</td></tr><tr><td style=\"white-space:nowrap\">A18<a name=\"BRCIAP2-A18\"> </a></td><td>Preocupação com aparência</td></tr><tr><td style=\"white-space:nowrap\">A20<a name=\"BRCIAP2-A20\"> </a></td><td>Pedido/discussão eutanásia</td></tr><tr><td style=\"white-space:nowrap\">A21<a name=\"BRCIAP2-A21\"> </a></td><td>Fator de risco de malignidade</td></tr><tr><td style=\"white-space:nowrap\">A23<a name=\"BRCIAP2-A23\"> </a></td><td>Fator de risco NE</td></tr><tr><td style=\"white-space:nowrap\">A25<a name=\"BRCIAP2-A25\"> </a></td><td>Medo de morrer/medo da morte</td></tr><tr><td style=\"white-space:nowrap\">A26<a name=\"BRCIAP2-A26\"> </a></td><td>Medo de câncer NE</td></tr><tr><td style=\"white-space:nowrap\">A27<a name=\"BRCIAP2-A27\"> </a></td><td>Medo de outra doença NE</td></tr><tr><td style=\"white-space:nowrap\">A28<a name=\"BRCIAP2-A28\"> </a></td><td>Limitação funcional/incapacidade NE</td></tr><tr><td style=\"white-space:nowrap\">A29<a name=\"BRCIAP2-A29\"> </a></td><td>Outros sinais/sintomas gerais</td></tr><tr><td style=\"white-space:nowrap\">A70<a name=\"BRCIAP2-A70\"> </a></td><td>Tuberculose</td></tr><tr><td style=\"white-space:nowrap\">A71<a name=\"BRCIAP2-A71\"> </a></td><td>Sarampo</td></tr><tr><td style=\"white-space:nowrap\">A72<a name=\"BRCIAP2-A72\"> </a></td><td>Varicela</td></tr><tr><td style=\"white-space:nowrap\">A73<a name=\"BRCIAP2-A73\"> </a></td><td>Malária</td></tr><tr><td style=\"white-space:nowrap\">A74<a name=\"BRCIAP2-A74\"> </a></td><td>Rubéola</td></tr><tr><td style=\"white-space:nowrap\">A75<a name=\"BRCIAP2-A75\"> </a></td><td>Mononucleose infecciosa</td></tr><tr><td style=\"white-space:nowrap\">A76<a name=\"BRCIAP2-A76\"> </a></td><td>Outro exantema viral</td></tr><tr><td style=\"white-space:nowrap\">A77<a name=\"BRCIAP2-A77\"> </a></td><td>Dengue e outras doenças virais NE</td></tr><tr><td style=\"white-space:nowrap\">A78<a name=\"BRCIAP2-A78\"> </a></td><td>Hanseníase e outras doenças infecciosas NE</td></tr><tr><td style=\"white-space:nowrap\">A79<a name=\"BRCIAP2-A79\"> </a></td><td>Carcinomatose (localização primária desconhecida)</td></tr><tr><td style=\"white-space:nowrap\">A80<a name=\"BRCIAP2-A80\"> </a></td><td>Lesão traumática/acidente NE</td></tr><tr><td style=\"white-space:nowrap\">A81<a name=\"BRCIAP2-A81\"> </a></td><td>Politraumatismos/ferimentos múltiplos</td></tr><tr><td style=\"white-space:nowrap\">A82<a name=\"BRCIAP2-A82\"> </a></td><td>Efeito secundário de lesão traumática</td></tr><tr><td style=\"white-space:nowrap\">A84<a name=\"BRCIAP2-A84\"> </a></td><td>Intoxicação por medicamento</td></tr><tr><td style=\"white-space:nowrap\">A85<a name=\"BRCIAP2-A85\"> </a></td><td>Efeito adverso de fármaco dose correta</td></tr><tr><td style=\"white-space:nowrap\">A86<a name=\"BRCIAP2-A86\"> </a></td><td>Efeito tóxico de substância não medicinal</td></tr><tr><td style=\"white-space:nowrap\">A87<a name=\"BRCIAP2-A87\"> </a></td><td>Complicações de tratamento médico</td></tr><tr><td style=\"white-space:nowrap\">A88<a name=\"BRCIAP2-A88\"> </a></td><td>Efeito adverso de fator físico</td></tr><tr><td style=\"white-space:nowrap\">A89<a name=\"BRCIAP2-A89\"> </a></td><td>Efeito da prótese</td></tr><tr><td style=\"white-space:nowrap\">A90<a name=\"BRCIAP2-A90\"> </a></td><td>Malformação congênita NE/múltiplas</td></tr><tr><td style=\"white-space:nowrap\">A91<a name=\"BRCIAP2-A91\"> </a></td><td>Investigação com resultado anormal NE</td></tr><tr><td style=\"white-space:nowrap\">A92<a name=\"BRCIAP2-A92\"> </a></td><td>Alergia/reação alérgica NE</td></tr><tr><td style=\"white-space:nowrap\">A93<a name=\"BRCIAP2-A93\"> </a></td><td>Recém nascido prematuro</td></tr><tr><td style=\"white-space:nowrap\">A94<a name=\"BRCIAP2-A94\"> </a></td><td>Morbidade perinatal, outra</td></tr><tr><td style=\"white-space:nowrap\">A95<a name=\"BRCIAP2-A95\"> </a></td><td>Mortalidade perinatal</td></tr><tr><td style=\"white-space:nowrap\">A96<a name=\"BRCIAP2-A96\"> </a></td><td>Morte</td></tr><tr><td style=\"white-space:nowrap\">A97<a name=\"BRCIAP2-A97\"> </a></td><td>Sem doença</td></tr><tr><td style=\"white-space:nowrap\">A98<a name=\"BRCIAP2-A98\"> </a></td><td>Medicina preventiva/manutenção da saúde</td></tr><tr><td style=\"white-space:nowrap\">A99<a name=\"BRCIAP2-A99\"> </a></td><td>Outras doenças gerais NE</td></tr><tr><td style=\"white-space:nowrap\">B02<a name=\"BRCIAP2-B02\"> </a></td><td>Gânglio linfático aumentado/doloroso</td></tr><tr><td style=\"white-space:nowrap\">B04<a name=\"BRCIAP2-B04\"> </a></td><td>Sinais/sintomas sangue</td></tr><tr><td style=\"white-space:nowrap\">B25<a name=\"BRCIAP2-B25\"> </a></td><td>Medo de VIH/ HIV/SIDA/ AIDS</td></tr><tr><td style=\"white-space:nowrap\">B26<a name=\"BRCIAP2-B26\"> </a></td><td>Medo de câncer no sangue/linfático</td></tr><tr><td style=\"white-space:nowrap\">B27<a name=\"BRCIAP2-B27\"> </a></td><td>Medo de outras doenças do sangue /vasos linfáticos</td></tr><tr><td style=\"white-space:nowrap\">B28<a name=\"BRCIAP2-B28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">B29<a name=\"BRCIAP2-B29\"> </a></td><td>Outros sinais/ sintomas do sangue/ sistema linfático/ baço NE</td></tr><tr><td style=\"white-space:nowrap\">B70<a name=\"BRCIAP2-B70\"> </a></td><td>Linfadenite aguda</td></tr><tr><td style=\"white-space:nowrap\">B71<a name=\"BRCIAP2-B71\"> </a></td><td>Linfadenite crónica NE</td></tr><tr><td style=\"white-space:nowrap\">B72<a name=\"BRCIAP2-B72\"> </a></td><td>Doença de Hodgkin/linfomas</td></tr><tr><td style=\"white-space:nowrap\">B73<a name=\"BRCIAP2-B73\"> </a></td><td>Leucemia</td></tr><tr><td style=\"white-space:nowrap\">B74<a name=\"BRCIAP2-B74\"> </a></td><td>Outra neoplasia maligna no sangue</td></tr><tr><td style=\"white-space:nowrap\">B75<a name=\"BRCIAP2-B75\"> </a></td><td>Neoplasia benigna NE</td></tr><tr><td style=\"white-space:nowrap\">B76<a name=\"BRCIAP2-B76\"> </a></td><td>Rotura traumática do baço</td></tr><tr><td style=\"white-space:nowrap\">B77<a name=\"BRCIAP2-B77\"> </a></td><td>Outras lesões traumáticas do sangue/linfa/baço</td></tr><tr><td style=\"white-space:nowrap\">B78<a name=\"BRCIAP2-B78\"> </a></td><td>Anemia hemolítica hereditária</td></tr><tr><td style=\"white-space:nowrap\">B79<a name=\"BRCIAP2-B79\"> </a></td><td>Outra malformação congênita do sangue/linfática</td></tr><tr><td style=\"white-space:nowrap\">B80<a name=\"BRCIAP2-B80\"> </a></td><td>Anemia por deficiência de ferro</td></tr><tr><td style=\"white-space:nowrap\">B81<a name=\"BRCIAP2-B81\"> </a></td><td>Anemia perniciosa/deficiência de folatos</td></tr><tr><td style=\"white-space:nowrap\">B82<a name=\"BRCIAP2-B82\"> </a></td><td>Outras anemias NE</td></tr><tr><td style=\"white-space:nowrap\">B83<a name=\"BRCIAP2-B83\"> </a></td><td>Púrpura/defeitos de coagulação</td></tr><tr><td style=\"white-space:nowrap\">B84<a name=\"BRCIAP2-B84\"> </a></td><td>Glóbulos brancos anormais</td></tr><tr><td style=\"white-space:nowrap\">B87<a name=\"BRCIAP2-B87\"> </a></td><td>Esplenomegalia</td></tr><tr><td style=\"white-space:nowrap\">B90<a name=\"BRCIAP2-B90\"> </a></td><td>Infecção por VIH/ HIV/SIDA/ AIDS</td></tr><tr><td style=\"white-space:nowrap\">B99<a name=\"BRCIAP2-B99\"> </a></td><td>Outra doença do sangue/linfáticos/baço</td></tr><tr><td style=\"white-space:nowrap\">D01<a name=\"BRCIAP2-D01\"> </a></td><td>Dor abdominal generalizada/cólicas</td></tr><tr><td style=\"white-space:nowrap\">D02<a name=\"BRCIAP2-D02\"> </a></td><td>Dores abdominais, epigástricas</td></tr><tr><td style=\"white-space:nowrap\">D03<a name=\"BRCIAP2-D03\"> </a></td><td>Azia/ Queimação</td></tr><tr><td style=\"white-space:nowrap\">D04<a name=\"BRCIAP2-D04\"> </a></td><td>Dor anal/retal</td></tr><tr><td style=\"white-space:nowrap\">D05<a name=\"BRCIAP2-D05\"> </a></td><td>Irritação perianal</td></tr><tr><td style=\"white-space:nowrap\">D06<a name=\"BRCIAP2-D06\"> </a></td><td>Outras dores abdominais localizadas</td></tr><tr><td style=\"white-space:nowrap\">D07<a name=\"BRCIAP2-D07\"> </a></td><td>Dispepsia/indigestão</td></tr><tr><td style=\"white-space:nowrap\">D08<a name=\"BRCIAP2-D08\"> </a></td><td>Flatulência /gases/eructações</td></tr><tr><td style=\"white-space:nowrap\">D09<a name=\"BRCIAP2-D09\"> </a></td><td>Náusea</td></tr><tr><td style=\"white-space:nowrap\">D10<a name=\"BRCIAP2-D10\"> </a></td><td>Vomito</td></tr><tr><td style=\"white-space:nowrap\">D11<a name=\"BRCIAP2-D11\"> </a></td><td>Diarreia</td></tr><tr><td style=\"white-space:nowrap\">D12<a name=\"BRCIAP2-D12\"> </a></td><td>Obstipação</td></tr><tr><td style=\"white-space:nowrap\">D13<a name=\"BRCIAP2-D13\"> </a></td><td>Icterícia</td></tr><tr><td style=\"white-space:nowrap\">D14<a name=\"BRCIAP2-D14\"> </a></td><td>Hematêmese/vómito sangue</td></tr><tr><td style=\"white-space:nowrap\">D15<a name=\"BRCIAP2-D15\"> </a></td><td>Melena</td></tr><tr><td style=\"white-space:nowrap\">D16<a name=\"BRCIAP2-D16\"> </a></td><td>Hemorragia retal</td></tr><tr><td style=\"white-space:nowrap\">D17<a name=\"BRCIAP2-D17\"> </a></td><td>Incontinência fecal</td></tr><tr><td style=\"white-space:nowrap\">D18<a name=\"BRCIAP2-D18\"> </a></td><td>Alterações nas fezes/mov. intestinais</td></tr><tr><td style=\"white-space:nowrap\">D19<a name=\"BRCIAP2-D19\"> </a></td><td>Sinais/sintomas dos dentes/gengivas</td></tr><tr><td style=\"white-space:nowrap\">D20<a name=\"BRCIAP2-D20\"> </a></td><td>Sinais/sintomas da boca/língua/lábios</td></tr><tr><td style=\"white-space:nowrap\">D21<a name=\"BRCIAP2-D21\"> </a></td><td>Problemas de deglutição</td></tr><tr><td style=\"white-space:nowrap\">D23<a name=\"BRCIAP2-D23\"> </a></td><td>Hepatomegalia</td></tr><tr><td style=\"white-space:nowrap\">D24<a name=\"BRCIAP2-D24\"> </a></td><td>Massa abdominal NE</td></tr><tr><td style=\"white-space:nowrap\">D25<a name=\"BRCIAP2-D25\"> </a></td><td>Distensão abdominal</td></tr><tr><td style=\"white-space:nowrap\">D26<a name=\"BRCIAP2-D26\"> </a></td><td>Medo de câncer no aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\">D27<a name=\"BRCIAP2-D27\"> </a></td><td>Medo de outras doenças aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\">D28<a name=\"BRCIAP2-D28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">D29<a name=\"BRCIAP2-D29\"> </a></td><td>Outros sinais/sintomas digestivos</td></tr><tr><td style=\"white-space:nowrap\">D70<a name=\"BRCIAP2-D70\"> </a></td><td>Infecção gastrointestinal</td></tr><tr><td style=\"white-space:nowrap\">D71<a name=\"BRCIAP2-D71\"> </a></td><td>Caxumba/parotidite epidêmica</td></tr><tr><td style=\"white-space:nowrap\">D72<a name=\"BRCIAP2-D72\"> </a></td><td>Hepatite viral</td></tr><tr><td style=\"white-space:nowrap\">D73<a name=\"BRCIAP2-D73\"> </a></td><td>Gastroenterite, presumível infecção</td></tr><tr><td style=\"white-space:nowrap\">D74<a name=\"BRCIAP2-D74\"> </a></td><td>Neoplasia maligna do estômago</td></tr><tr><td style=\"white-space:nowrap\">D75<a name=\"BRCIAP2-D75\"> </a></td><td>Neoplasia maligna do cólon/reto</td></tr><tr><td style=\"white-space:nowrap\">D76<a name=\"BRCIAP2-D76\"> </a></td><td>Neoplasia maligna do pâncreas</td></tr><tr><td style=\"white-space:nowrap\">D77<a name=\"BRCIAP2-D77\"> </a></td><td>Neoplasia maligna do aparelho digestivo NE</td></tr><tr><td style=\"white-space:nowrap\">D78<a name=\"BRCIAP2-D78\"> </a></td><td>Neoplasia benigna do aparelho digestivo/incerta</td></tr><tr><td style=\"white-space:nowrap\">D79<a name=\"BRCIAP2-D79\"> </a></td><td>Corpo estranho no aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\">D80<a name=\"BRCIAP2-D80\"> </a></td><td>Outras lesões traumáticas</td></tr><tr><td style=\"white-space:nowrap\">D81<a name=\"BRCIAP2-D81\"> </a></td><td>Malformações congênitas do aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\">D82<a name=\"BRCIAP2-D82\"> </a></td><td>Doença dos dentes/gengivas</td></tr><tr><td style=\"white-space:nowrap\">D83<a name=\"BRCIAP2-D83\"> </a></td><td>Doença da boca/língua/lábios</td></tr><tr><td style=\"white-space:nowrap\">D84<a name=\"BRCIAP2-D84\"> </a></td><td>Doença do esôfago</td></tr><tr><td style=\"white-space:nowrap\">D85<a name=\"BRCIAP2-D85\"> </a></td><td>Úlcera do duodeno</td></tr><tr><td style=\"white-space:nowrap\">D86<a name=\"BRCIAP2-D86\"> </a></td><td>Úlcera péptica, outra</td></tr><tr><td style=\"white-space:nowrap\">D87<a name=\"BRCIAP2-D87\"> </a></td><td>Alterações funcionais estômago</td></tr><tr><td style=\"white-space:nowrap\">D88<a name=\"BRCIAP2-D88\"> </a></td><td>Apendicite</td></tr><tr><td style=\"white-space:nowrap\">D89<a name=\"BRCIAP2-D89\"> </a></td><td>Hérnia inguinal</td></tr><tr><td style=\"white-space:nowrap\">D90<a name=\"BRCIAP2-D90\"> </a></td><td>Hérnia de hiato /diafragmática</td></tr><tr><td style=\"white-space:nowrap\">D91<a name=\"BRCIAP2-D91\"> </a></td><td>Hérnia abdominal, outras</td></tr><tr><td style=\"white-space:nowrap\">D92<a name=\"BRCIAP2-D92\"> </a></td><td>Doença diverticular intestinal</td></tr><tr><td style=\"white-space:nowrap\">D93<a name=\"BRCIAP2-D93\"> </a></td><td>Síndrome do cólon irritável</td></tr><tr><td style=\"white-space:nowrap\">D94<a name=\"BRCIAP2-D94\"> </a></td><td>Enterite crónica/colite ulcerosa</td></tr><tr><td style=\"white-space:nowrap\">D95<a name=\"BRCIAP2-D95\"> </a></td><td>Fissura anal / abcesso perianal</td></tr><tr><td style=\"white-space:nowrap\">D96<a name=\"BRCIAP2-D96\"> </a></td><td>Lombrigas /outros parasitas</td></tr><tr><td style=\"white-space:nowrap\">D97<a name=\"BRCIAP2-D97\"> </a></td><td>Doenças do fígado /NE</td></tr><tr><td style=\"white-space:nowrap\">D98<a name=\"BRCIAP2-D98\"> </a></td><td>Colecistite, colelitiase</td></tr><tr><td style=\"white-space:nowrap\">D99<a name=\"BRCIAP2-D99\"> </a></td><td>Outra doença do aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\">F01<a name=\"BRCIAP2-F01\"> </a></td><td>Dor no olho</td></tr><tr><td style=\"white-space:nowrap\">F02<a name=\"BRCIAP2-F02\"> </a></td><td>Olho vermelho</td></tr><tr><td style=\"white-space:nowrap\">F03<a name=\"BRCIAP2-F03\"> </a></td><td>Secreção ocular</td></tr><tr><td style=\"white-space:nowrap\">F04<a name=\"BRCIAP2-F04\"> </a></td><td>Moscas volantes/pontos luminosos/escotomas/ manchas</td></tr><tr><td style=\"white-space:nowrap\">F05<a name=\"BRCIAP2-F05\"> </a></td><td>Outras perturbações visuais</td></tr><tr><td style=\"white-space:nowrap\">F13<a name=\"BRCIAP2-F13\"> </a></td><td>Sensações oculares anormais</td></tr><tr><td style=\"white-space:nowrap\">F14<a name=\"BRCIAP2-F14\"> </a></td><td>Movimentos oculares anormais</td></tr><tr><td style=\"white-space:nowrap\">F15<a name=\"BRCIAP2-F15\"> </a></td><td>Aparência anormal nos olhos</td></tr><tr><td style=\"white-space:nowrap\">F16<a name=\"BRCIAP2-F16\"> </a></td><td>Sinais/sintomas das pálpebras</td></tr><tr><td style=\"white-space:nowrap\">F17<a name=\"BRCIAP2-F17\"> </a></td><td>Sinais/sintomas relacionados a óculos</td></tr><tr><td style=\"white-space:nowrap\">F18<a name=\"BRCIAP2-F18\"> </a></td><td>Sinais/sintomas relacionados a lentes de contato</td></tr><tr><td style=\"white-space:nowrap\">F27<a name=\"BRCIAP2-F27\"> </a></td><td>Medo de doença ocular</td></tr><tr><td style=\"white-space:nowrap\">F28<a name=\"BRCIAP2-F28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">F29<a name=\"BRCIAP2-F29\"> </a></td><td>Outros sinais/sintomas oculares</td></tr><tr><td style=\"white-space:nowrap\">F70<a name=\"BRCIAP2-F70\"> </a></td><td>Conjuntivite infecciosa</td></tr><tr><td style=\"white-space:nowrap\">F71<a name=\"BRCIAP2-F71\"> </a></td><td>Conjuntivite alérgica</td></tr><tr><td style=\"white-space:nowrap\">F72<a name=\"BRCIAP2-F72\"> </a></td><td>Blefarite/hordéolo/calázio</td></tr><tr><td style=\"white-space:nowrap\">F73<a name=\"BRCIAP2-F73\"> </a></td><td>Outras infecções/inflamações oculares</td></tr><tr><td style=\"white-space:nowrap\">F74<a name=\"BRCIAP2-F74\"> </a></td><td>Neoplasia do olho/anexos</td></tr><tr><td style=\"white-space:nowrap\">F75<a name=\"BRCIAP2-F75\"> </a></td><td>Contusão/hemorragia ocular</td></tr><tr><td style=\"white-space:nowrap\">F76<a name=\"BRCIAP2-F76\"> </a></td><td>Corpo estranho ocular</td></tr><tr><td style=\"white-space:nowrap\">F79<a name=\"BRCIAP2-F79\"> </a></td><td>Outras lesões traumáticas oculares</td></tr><tr><td style=\"white-space:nowrap\">F80<a name=\"BRCIAP2-F80\"> </a></td><td>Obstrução canal lacrimal da criança</td></tr><tr><td style=\"white-space:nowrap\">F81<a name=\"BRCIAP2-F81\"> </a></td><td>Outras malformações congênitas do olho</td></tr><tr><td style=\"white-space:nowrap\">F82<a name=\"BRCIAP2-F82\"> </a></td><td>Descolamento da retina</td></tr><tr><td style=\"white-space:nowrap\">F83<a name=\"BRCIAP2-F83\"> </a></td><td>Retinopatia</td></tr><tr><td style=\"white-space:nowrap\">F84<a name=\"BRCIAP2-F84\"> </a></td><td>Degeneração macular</td></tr><tr><td style=\"white-space:nowrap\">F85<a name=\"BRCIAP2-F85\"> </a></td><td>Ulcera da córnea</td></tr><tr><td style=\"white-space:nowrap\">F86<a name=\"BRCIAP2-F86\"> </a></td><td>Tracoma</td></tr><tr><td style=\"white-space:nowrap\">F91<a name=\"BRCIAP2-F91\"> </a></td><td>Erro de refração</td></tr><tr><td style=\"white-space:nowrap\">F92<a name=\"BRCIAP2-F92\"> </a></td><td>Catarata</td></tr><tr><td style=\"white-space:nowrap\">F93<a name=\"BRCIAP2-F93\"> </a></td><td>Glaucoma</td></tr><tr><td style=\"white-space:nowrap\">F94<a name=\"BRCIAP2-F94\"> </a></td><td>Cegueira</td></tr><tr><td style=\"white-space:nowrap\">F95<a name=\"BRCIAP2-F95\"> </a></td><td>Estrabismo</td></tr><tr><td style=\"white-space:nowrap\">F99<a name=\"BRCIAP2-F99\"> </a></td><td>Outra doenças oculares/anexos</td></tr><tr><td style=\"white-space:nowrap\">H01<a name=\"BRCIAP2-H01\"> </a></td><td>Dor de ouvidos</td></tr><tr><td style=\"white-space:nowrap\">H02<a name=\"BRCIAP2-H02\"> </a></td><td>Problemas de audição</td></tr><tr><td style=\"white-space:nowrap\">H03<a name=\"BRCIAP2-H03\"> </a></td><td>Acufeno, zumbidos, ruído, assobios</td></tr><tr><td style=\"white-space:nowrap\">H04<a name=\"BRCIAP2-H04\"> </a></td><td>Secreção no ouvido</td></tr><tr><td style=\"white-space:nowrap\">H05<a name=\"BRCIAP2-H05\"> </a></td><td>Hemorragia no ouvido</td></tr><tr><td style=\"white-space:nowrap\">H13<a name=\"BRCIAP2-H13\"> </a></td><td>Sensação de ouvido tapado</td></tr><tr><td style=\"white-space:nowrap\">H15<a name=\"BRCIAP2-H15\"> </a></td><td>Preocupação com a aparência das orelhas</td></tr><tr><td style=\"white-space:nowrap\">H27<a name=\"BRCIAP2-H27\"> </a></td><td>Medo de doença do ouvido</td></tr><tr><td style=\"white-space:nowrap\">H28<a name=\"BRCIAP2-H28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">H29<a name=\"BRCIAP2-H29\"> </a></td><td>Outros sinais/sintomas ouvido</td></tr><tr><td style=\"white-space:nowrap\">H70<a name=\"BRCIAP2-H70\"> </a></td><td>Otite externa</td></tr><tr><td style=\"white-space:nowrap\">H71<a name=\"BRCIAP2-H71\"> </a></td><td>Otite media aguda/miringite</td></tr><tr><td style=\"white-space:nowrap\">H72<a name=\"BRCIAP2-H72\"> </a></td><td>Otite média serosa</td></tr><tr><td style=\"white-space:nowrap\">H73<a name=\"BRCIAP2-H73\"> </a></td><td>Infecção da Trompa de Eustáquio</td></tr><tr><td style=\"white-space:nowrap\">H74<a name=\"BRCIAP2-H74\"> </a></td><td>Otite media crónica</td></tr><tr><td style=\"white-space:nowrap\">H75<a name=\"BRCIAP2-H75\"> </a></td><td>Neoplasia do ouvido</td></tr><tr><td style=\"white-space:nowrap\">H76<a name=\"BRCIAP2-H76\"> </a></td><td>Corpo estranho do ouvido</td></tr><tr><td style=\"white-space:nowrap\">H77<a name=\"BRCIAP2-H77\"> </a></td><td>Perfuração do tímpano</td></tr><tr><td style=\"white-space:nowrap\">H78<a name=\"BRCIAP2-H78\"> </a></td><td>Traumatismo superficial do ouvido</td></tr><tr><td style=\"white-space:nowrap\">H79<a name=\"BRCIAP2-H79\"> </a></td><td>Outros traumatismos do ouvido</td></tr><tr><td style=\"white-space:nowrap\">H80<a name=\"BRCIAP2-H80\"> </a></td><td>Malformações congênitas do ouvido</td></tr><tr><td style=\"white-space:nowrap\">H81<a name=\"BRCIAP2-H81\"> </a></td><td>Cerúmen no ouvido em excesso</td></tr><tr><td style=\"white-space:nowrap\">H82<a name=\"BRCIAP2-H82\"> </a></td><td>Síndrome vertiginosa</td></tr><tr><td style=\"white-space:nowrap\">H83<a name=\"BRCIAP2-H83\"> </a></td><td>Otoesclerose</td></tr><tr><td style=\"white-space:nowrap\">H84<a name=\"BRCIAP2-H84\"> </a></td><td>Presbiacusia</td></tr><tr><td style=\"white-space:nowrap\">H85<a name=\"BRCIAP2-H85\"> </a></td><td>Lesão acústica</td></tr><tr><td style=\"white-space:nowrap\">H86<a name=\"BRCIAP2-H86\"> </a></td><td>Surdez</td></tr><tr><td style=\"white-space:nowrap\">H99<a name=\"BRCIAP2-H99\"> </a></td><td>Outra doença do ouvido/mastóide</td></tr><tr><td style=\"white-space:nowrap\">K01<a name=\"BRCIAP2-K01\"> </a></td><td>Dor atribuída ao coração</td></tr><tr><td style=\"white-space:nowrap\">K02<a name=\"BRCIAP2-K02\"> </a></td><td>Sensação de pressão/aperto atribuída ao coração</td></tr><tr><td style=\"white-space:nowrap\">K03<a name=\"BRCIAP2-K03\"> </a></td><td>Dores atribuídas ao aparelho circulatório NE</td></tr><tr><td style=\"white-space:nowrap\">K04<a name=\"BRCIAP2-K04\"> </a></td><td>Palpitações/percepção dos batimentos cardíacos</td></tr><tr><td style=\"white-space:nowrap\">K05<a name=\"BRCIAP2-K05\"> </a></td><td>Outras irregularidades dos batimentos cardíacos</td></tr><tr><td style=\"white-space:nowrap\">K06<a name=\"BRCIAP2-K06\"> </a></td><td>Veias proeminentes</td></tr><tr><td style=\"white-space:nowrap\">K07<a name=\"BRCIAP2-K07\"> </a></td><td>Tornozelos inchados/edema</td></tr><tr><td style=\"white-space:nowrap\">K22<a name=\"BRCIAP2-K22\"> </a></td><td>Fator de risco para doença cardiovascular</td></tr><tr><td style=\"white-space:nowrap\">K24<a name=\"BRCIAP2-K24\"> </a></td><td>Medo de doença cardíaca</td></tr><tr><td style=\"white-space:nowrap\">K25<a name=\"BRCIAP2-K25\"> </a></td><td>Medo de hipertensão</td></tr><tr><td style=\"white-space:nowrap\">K27<a name=\"BRCIAP2-K27\"> </a></td><td>Medo de outra doença cardiovascular</td></tr><tr><td style=\"white-space:nowrap\">K28<a name=\"BRCIAP2-K28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">K29<a name=\"BRCIAP2-K29\"> </a></td><td>Outros sinais/sintomas cardiovasculares</td></tr><tr><td style=\"white-space:nowrap\">K70<a name=\"BRCIAP2-K70\"> </a></td><td>Doença infecciosa do aparelho circulatório</td></tr><tr><td style=\"white-space:nowrap\">K71<a name=\"BRCIAP2-K71\"> </a></td><td>Febre reumática/cardiopatia</td></tr><tr><td style=\"white-space:nowrap\">K72<a name=\"BRCIAP2-K72\"> </a></td><td>Neoplasia do aparelho circulatório</td></tr><tr><td style=\"white-space:nowrap\">K73<a name=\"BRCIAP2-K73\"> </a></td><td>Malformações congênitas do aparelho circulatório</td></tr><tr><td style=\"white-space:nowrap\">K74<a name=\"BRCIAP2-K74\"> </a></td><td>Doença cardíaca isquémica com angina</td></tr><tr><td style=\"white-space:nowrap\">K75<a name=\"BRCIAP2-K75\"> </a></td><td>Infarto ou Enfarte agudo miocárdio</td></tr><tr><td style=\"white-space:nowrap\">K76<a name=\"BRCIAP2-K76\"> </a></td><td>Doença cardíaca isquémica sem angina</td></tr><tr><td style=\"white-space:nowrap\">K77<a name=\"BRCIAP2-K77\"> </a></td><td>Insuficiência cardíaca</td></tr><tr><td style=\"white-space:nowrap\">K78<a name=\"BRCIAP2-K78\"> </a></td><td>Fibrilação/flutter auricular/ atrial</td></tr><tr><td style=\"white-space:nowrap\">K79<a name=\"BRCIAP2-K79\"> </a></td><td>Taquicardia Paroxística</td></tr><tr><td style=\"white-space:nowrap\">K80<a name=\"BRCIAP2-K80\"> </a></td><td>Arritmia cardíaca NE</td></tr><tr><td style=\"white-space:nowrap\">K81<a name=\"BRCIAP2-K81\"> </a></td><td>Sopro cardíaco/arterial NE</td></tr><tr><td style=\"white-space:nowrap\">K82<a name=\"BRCIAP2-K82\"> </a></td><td>Doença cardiopulmonar</td></tr><tr><td style=\"white-space:nowrap\">K83<a name=\"BRCIAP2-K83\"> </a></td><td>Doença valvular cardíaca NE</td></tr><tr><td style=\"white-space:nowrap\">K84<a name=\"BRCIAP2-K84\"> </a></td><td>Outras doenças cardíacas</td></tr><tr><td style=\"white-space:nowrap\">K85<a name=\"BRCIAP2-K85\"> </a></td><td>Pressão arterial elevada</td></tr><tr><td style=\"white-space:nowrap\">K86<a name=\"BRCIAP2-K86\"> </a></td><td>Hipertensão sem complicações</td></tr><tr><td style=\"white-space:nowrap\">K87<a name=\"BRCIAP2-K87\"> </a></td><td>Hipertensão com complicações</td></tr><tr><td style=\"white-space:nowrap\">K88<a name=\"BRCIAP2-K88\"> </a></td><td>Hipotensão postural</td></tr><tr><td style=\"white-space:nowrap\">K89<a name=\"BRCIAP2-K89\"> </a></td><td>Isquêmia/ acidente cerebral transitória(o)</td></tr><tr><td style=\"white-space:nowrap\">K90<a name=\"BRCIAP2-K90\"> </a></td><td>Trombose/acidente vascular cerebral</td></tr><tr><td style=\"white-space:nowrap\">K91<a name=\"BRCIAP2-K91\"> </a></td><td>Doença vascular cerebral</td></tr><tr><td style=\"white-space:nowrap\">K92<a name=\"BRCIAP2-K92\"> </a></td><td>Aterosclerose/doença vascular periférica</td></tr><tr><td style=\"white-space:nowrap\">K93<a name=\"BRCIAP2-K93\"> </a></td><td>Embolia pulmonar</td></tr><tr><td style=\"white-space:nowrap\">K94<a name=\"BRCIAP2-K94\"> </a></td><td>Flebite/tromboflebite</td></tr><tr><td style=\"white-space:nowrap\">K95<a name=\"BRCIAP2-K95\"> </a></td><td>Veias varicosas da perna</td></tr><tr><td style=\"white-space:nowrap\">K96<a name=\"BRCIAP2-K96\"> </a></td><td>Hemorróidas</td></tr><tr><td style=\"white-space:nowrap\">K99<a name=\"BRCIAP2-K99\"> </a></td><td>Outras doenças do aparelho circulatório</td></tr><tr><td style=\"white-space:nowrap\">L01<a name=\"BRCIAP2-L01\"> </a></td><td>Sinais/sintomas do pescoço</td></tr><tr><td style=\"white-space:nowrap\">L02<a name=\"BRCIAP2-L02\"> </a></td><td>Sinais/sintomas da região dorsal</td></tr><tr><td style=\"white-space:nowrap\">L03<a name=\"BRCIAP2-L03\"> </a></td><td>Sinais/sintomas da região lombar</td></tr><tr><td style=\"white-space:nowrap\">L04<a name=\"BRCIAP2-L04\"> </a></td><td>Sinais/sintomas do tórax</td></tr><tr><td style=\"white-space:nowrap\">L05<a name=\"BRCIAP2-L05\"> </a></td><td>Sinais/sintomas da axila</td></tr><tr><td style=\"white-space:nowrap\">L07<a name=\"BRCIAP2-L07\"> </a></td><td>Sinais/sintomas da mandíbula</td></tr><tr><td style=\"white-space:nowrap\">L08<a name=\"BRCIAP2-L08\"> </a></td><td>Sinais/sintomas dos ombros</td></tr><tr><td style=\"white-space:nowrap\">L09<a name=\"BRCIAP2-L09\"> </a></td><td>Sinais/sintomas dos braços</td></tr><tr><td style=\"white-space:nowrap\">L10<a name=\"BRCIAP2-L10\"> </a></td><td>Sinais/sintomas dos cotovelos</td></tr><tr><td style=\"white-space:nowrap\">L11<a name=\"BRCIAP2-L11\"> </a></td><td>Sinais/sintomas dos punhos</td></tr><tr><td style=\"white-space:nowrap\">L12<a name=\"BRCIAP2-L12\"> </a></td><td>Sinais/sintomas das mãos e dedos</td></tr><tr><td style=\"white-space:nowrap\">L13<a name=\"BRCIAP2-L13\"> </a></td><td>Sinais/sintomas do quadril</td></tr><tr><td style=\"white-space:nowrap\">L14<a name=\"BRCIAP2-L14\"> </a></td><td>Sinais/sintomas da coxa/perna</td></tr><tr><td style=\"white-space:nowrap\">L15<a name=\"BRCIAP2-L15\"> </a></td><td>Sinais/sintomas do joelho</td></tr><tr><td style=\"white-space:nowrap\">L16<a name=\"BRCIAP2-L16\"> </a></td><td>Sinais/sintomas do tornozelo</td></tr><tr><td style=\"white-space:nowrap\">L17<a name=\"BRCIAP2-L17\"> </a></td><td>Sinais/sintomas do pé/dedos pé</td></tr><tr><td style=\"white-space:nowrap\">L18<a name=\"BRCIAP2-L18\"> </a></td><td>Dores musculares</td></tr><tr><td style=\"white-space:nowrap\">L19<a name=\"BRCIAP2-L19\"> </a></td><td>Sinais/sintomas musculares NE</td></tr><tr><td style=\"white-space:nowrap\">L20<a name=\"BRCIAP2-L20\"> </a></td><td>Sinais/sintomas das articulações NE</td></tr><tr><td style=\"white-space:nowrap\">L26<a name=\"BRCIAP2-L26\"> </a></td><td>Medo de câncer no aparelho músculo-esquelético</td></tr><tr><td style=\"white-space:nowrap\">L27<a name=\"BRCIAP2-L27\"> </a></td><td>Medo de doença no aparelho músculo-esquelético, outro</td></tr><tr><td style=\"white-space:nowrap\">L28<a name=\"BRCIAP2-L28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">L29<a name=\"BRCIAP2-L29\"> </a></td><td>Outros sinais/sintomas do aparelho músculo-esquelético</td></tr><tr><td style=\"white-space:nowrap\">L70<a name=\"BRCIAP2-L70\"> </a></td><td>Infecções do aparelho músculo-esquelético</td></tr><tr><td style=\"white-space:nowrap\">L71<a name=\"BRCIAP2-L71\"> </a></td><td>Neoplasia maligna do aparelho músculo-esquelético</td></tr><tr><td style=\"white-space:nowrap\">L72<a name=\"BRCIAP2-L72\"> </a></td><td>Fratura: rádio/cúbito</td></tr><tr><td style=\"white-space:nowrap\">L73<a name=\"BRCIAP2-L73\"> </a></td><td>Fratura: tíbia/perônio/ fíbula</td></tr><tr><td style=\"white-space:nowrap\">L74<a name=\"BRCIAP2-L74\"> </a></td><td>Fratura: osso da mão/pé</td></tr><tr><td style=\"white-space:nowrap\">L75<a name=\"BRCIAP2-L75\"> </a></td><td>Fratura: fémur</td></tr><tr><td style=\"white-space:nowrap\">L76<a name=\"BRCIAP2-L76\"> </a></td><td>Outras fraturas</td></tr><tr><td style=\"white-space:nowrap\">L77<a name=\"BRCIAP2-L77\"> </a></td><td>Entorses e distensões do tornozelo</td></tr><tr><td style=\"white-space:nowrap\">L78<a name=\"BRCIAP2-L78\"> </a></td><td>Entorses e distensões do joelho</td></tr><tr><td style=\"white-space:nowrap\">L79<a name=\"BRCIAP2-L79\"> </a></td><td>Entorses e distensões das articulações NE</td></tr><tr><td style=\"white-space:nowrap\">L80<a name=\"BRCIAP2-L80\"> </a></td><td>Luxação/subluxação</td></tr><tr><td style=\"white-space:nowrap\">L81<a name=\"BRCIAP2-L81\"> </a></td><td>Traumatismos do aparelho musculoesquelético NE</td></tr><tr><td style=\"white-space:nowrap\">L82<a name=\"BRCIAP2-L82\"> </a></td><td>Malformações congênitas do aparelho músculo-esquelético</td></tr><tr><td style=\"white-space:nowrap\">L83<a name=\"BRCIAP2-L83\"> </a></td><td>Doenças ou síndromes da coluna cervical</td></tr><tr><td style=\"white-space:nowrap\">L84<a name=\"BRCIAP2-L84\"> </a></td><td>Doenças ou síndromes da coluna sem irradiação de dor</td></tr><tr><td style=\"white-space:nowrap\">L85<a name=\"BRCIAP2-L85\"> </a></td><td>Deformação adquirida da coluna</td></tr><tr><td style=\"white-space:nowrap\">L86<a name=\"BRCIAP2-L86\"> </a></td><td>Síndrome vertebral com irradiação dor</td></tr><tr><td style=\"white-space:nowrap\">L87<a name=\"BRCIAP2-L87\"> </a></td><td>Bursite/tendinite/sinovite NE</td></tr><tr><td style=\"white-space:nowrap\">L88<a name=\"BRCIAP2-L88\"> </a></td><td>Artrite reumatóide/seropositiva</td></tr><tr><td style=\"white-space:nowrap\">L89<a name=\"BRCIAP2-L89\"> </a></td><td>Osteoartrose do quadril</td></tr><tr><td style=\"white-space:nowrap\">L90<a name=\"BRCIAP2-L90\"> </a></td><td>Osteoartrose do joelho</td></tr><tr><td style=\"white-space:nowrap\">L91<a name=\"BRCIAP2-L91\"> </a></td><td>Outras osteoartroses</td></tr><tr><td style=\"white-space:nowrap\">L92<a name=\"BRCIAP2-L92\"> </a></td><td>Síndrome do ombro doloroso</td></tr><tr><td style=\"white-space:nowrap\">L93<a name=\"BRCIAP2-L93\"> </a></td><td>Cotovelo de tenista</td></tr><tr><td style=\"white-space:nowrap\">L94<a name=\"BRCIAP2-L94\"> </a></td><td>Osteocondrose</td></tr><tr><td style=\"white-space:nowrap\">L95<a name=\"BRCIAP2-L95\"> </a></td><td>Osteoporose</td></tr><tr><td style=\"white-space:nowrap\">L96<a name=\"BRCIAP2-L96\"> </a></td><td>Lesão interna aguda do joelho</td></tr><tr><td style=\"white-space:nowrap\">L97<a name=\"BRCIAP2-L97\"> </a></td><td>Neoplasia benigna/incertas</td></tr><tr><td style=\"white-space:nowrap\">L98<a name=\"BRCIAP2-L98\"> </a></td><td>Malformação adquirida de um membro</td></tr><tr><td style=\"white-space:nowrap\">L99<a name=\"BRCIAP2-L99\"> </a></td><td>Outra doença do aparelho músculo-esquelético</td></tr><tr><td style=\"white-space:nowrap\">N01<a name=\"BRCIAP2-N01\"> </a></td><td>Cefaléia</td></tr><tr><td style=\"white-space:nowrap\">N03<a name=\"BRCIAP2-N03\"> </a></td><td>Dores da face</td></tr><tr><td style=\"white-space:nowrap\">N04<a name=\"BRCIAP2-N04\"> </a></td><td>Síndrome das pernas inquietas</td></tr><tr><td style=\"white-space:nowrap\">N05<a name=\"BRCIAP2-N05\"> </a></td><td>Formigamento/ parestesia nos dedos das mãos/pés</td></tr><tr><td style=\"white-space:nowrap\">N06<a name=\"BRCIAP2-N06\"> </a></td><td>Outras alterações da sensibilidade</td></tr><tr><td style=\"white-space:nowrap\">N07<a name=\"BRCIAP2-N07\"> </a></td><td>Convulsões/ataques</td></tr><tr><td style=\"white-space:nowrap\">N08<a name=\"BRCIAP2-N08\"> </a></td><td>Movimentos involuntários anormais</td></tr><tr><td style=\"white-space:nowrap\">N16<a name=\"BRCIAP2-N16\"> </a></td><td>Alterações do olfato/gosto</td></tr><tr><td style=\"white-space:nowrap\">N17<a name=\"BRCIAP2-N17\"> </a></td><td>Vertigens/tonturas</td></tr><tr><td style=\"white-space:nowrap\">N18<a name=\"BRCIAP2-N18\"> </a></td><td>Paralisia/fraqueza</td></tr><tr><td style=\"white-space:nowrap\">N19<a name=\"BRCIAP2-N19\"> </a></td><td>Perturbações da fala</td></tr><tr><td style=\"white-space:nowrap\">N26<a name=\"BRCIAP2-N26\"> </a></td><td>Medo de câncer do sistema neurológico</td></tr><tr><td style=\"white-space:nowrap\">N27<a name=\"BRCIAP2-N27\"> </a></td><td>Medo de outras doenças neurológicas</td></tr><tr><td style=\"white-space:nowrap\">N28<a name=\"BRCIAP2-N28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">N29<a name=\"BRCIAP2-N29\"> </a></td><td>Sinais/sintomas do sistema neurológico, outros</td></tr><tr><td style=\"white-space:nowrap\">N70<a name=\"BRCIAP2-N70\"> </a></td><td>Poliomielite</td></tr><tr><td style=\"white-space:nowrap\">N71<a name=\"BRCIAP2-N71\"> </a></td><td>Meningite/encefalite</td></tr><tr><td style=\"white-space:nowrap\">N72<a name=\"BRCIAP2-N72\"> </a></td><td>Tétano</td></tr><tr><td style=\"white-space:nowrap\">N73<a name=\"BRCIAP2-N73\"> </a></td><td>Outra infecção neurológica</td></tr><tr><td style=\"white-space:nowrap\">N74<a name=\"BRCIAP2-N74\"> </a></td><td>Neoplasia maligna do sistema neurológico</td></tr><tr><td style=\"white-space:nowrap\">N75<a name=\"BRCIAP2-N75\"> </a></td><td>Neoplasia benigna do sistema neurológico</td></tr><tr><td style=\"white-space:nowrap\">N76<a name=\"BRCIAP2-N76\"> </a></td><td>Neoplasia do sistema neurológico de natureza incerta</td></tr><tr><td style=\"white-space:nowrap\">N79<a name=\"BRCIAP2-N79\"> </a></td><td>Concussão</td></tr><tr><td style=\"white-space:nowrap\">N80<a name=\"BRCIAP2-N80\"> </a></td><td>Outras lesões cranianas</td></tr><tr><td style=\"white-space:nowrap\">N81<a name=\"BRCIAP2-N81\"> </a></td><td>Outra lesão do sistema neurológico</td></tr><tr><td style=\"white-space:nowrap\">N85<a name=\"BRCIAP2-N85\"> </a></td><td>Malformações congênitas</td></tr><tr><td style=\"white-space:nowrap\">N86<a name=\"BRCIAP2-N86\"> </a></td><td>Esclerose múltipla</td></tr><tr><td style=\"white-space:nowrap\">N87<a name=\"BRCIAP2-N87\"> </a></td><td>Parkinsonismo</td></tr><tr><td style=\"white-space:nowrap\">N88<a name=\"BRCIAP2-N88\"> </a></td><td>Epilepsia</td></tr><tr><td style=\"white-space:nowrap\">N89<a name=\"BRCIAP2-N89\"> </a></td><td>Enxaqueca</td></tr><tr><td style=\"white-space:nowrap\">N90<a name=\"BRCIAP2-N90\"> </a></td><td>Cefaléia de cluster</td></tr><tr><td style=\"white-space:nowrap\">N91<a name=\"BRCIAP2-N91\"> </a></td><td>Paralisia facial/paralisia de Bell</td></tr><tr><td style=\"white-space:nowrap\">N92<a name=\"BRCIAP2-N92\"> </a></td><td>Nevralgia do trigémio</td></tr><tr><td style=\"white-space:nowrap\">N93<a name=\"BRCIAP2-N93\"> </a></td><td>Síndrome do túnel do carpo/ Síndrome do canal cárpico</td></tr><tr><td style=\"white-space:nowrap\">N94<a name=\"BRCIAP2-N94\"> </a></td><td>Neurite/ Nevrite/neuropatia periférica</td></tr><tr><td style=\"white-space:nowrap\">N95<a name=\"BRCIAP2-N95\"> </a></td><td>Cefaléia tensional</td></tr><tr><td style=\"white-space:nowrap\">N99<a name=\"BRCIAP2-N99\"> </a></td><td>Outras doenças do sistema neurológico</td></tr><tr><td style=\"white-space:nowrap\">P01<a name=\"BRCIAP2-P01\"> </a></td><td>Sensação de ansiedade/nervosismo/tensão</td></tr><tr><td style=\"white-space:nowrap\">P02<a name=\"BRCIAP2-P02\"> </a></td><td>Reação aguda ao estresse</td></tr><tr><td style=\"white-space:nowrap\">P03<a name=\"BRCIAP2-P03\"> </a></td><td>Tristeza/ Sensação de depressão</td></tr><tr><td style=\"white-space:nowrap\">P04<a name=\"BRCIAP2-P04\"> </a></td><td>Sentir/comportar-se de forma irritável/zangada</td></tr><tr><td style=\"white-space:nowrap\">P05<a name=\"BRCIAP2-P05\"> </a></td><td>Sensação/comportamento senil</td></tr><tr><td style=\"white-space:nowrap\">P06<a name=\"BRCIAP2-P06\"> </a></td><td>Perturbação do sono</td></tr><tr><td style=\"white-space:nowrap\">P07<a name=\"BRCIAP2-P07\"> </a></td><td>Diminuição do desejo sexual</td></tr><tr><td style=\"white-space:nowrap\">P08<a name=\"BRCIAP2-P08\"> </a></td><td>Diminuição da satisfação sexual</td></tr><tr><td style=\"white-space:nowrap\">P09<a name=\"BRCIAP2-P09\"> </a></td><td>Preocupação com a preferência sexual</td></tr><tr><td style=\"white-space:nowrap\">P10<a name=\"BRCIAP2-P10\"> </a></td><td>Gaguejar/balbuciar/tiques</td></tr><tr><td style=\"white-space:nowrap\">P11<a name=\"BRCIAP2-P11\"> </a></td><td>Problemas de alimentação da criança</td></tr><tr><td style=\"white-space:nowrap\">P12<a name=\"BRCIAP2-P12\"> </a></td><td>Molhar a cama/enurese</td></tr><tr><td style=\"white-space:nowrap\">P13<a name=\"BRCIAP2-P13\"> </a></td><td>Encoprese/outros problemas de incontinência fecal</td></tr><tr><td style=\"white-space:nowrap\">P15<a name=\"BRCIAP2-P15\"> </a></td><td>Abuso crônico de álcool</td></tr><tr><td style=\"white-space:nowrap\">P16<a name=\"BRCIAP2-P16\"> </a></td><td>Abuso agudo de álcool</td></tr><tr><td style=\"white-space:nowrap\">P17<a name=\"BRCIAP2-P17\"> </a></td><td>Abuso do tabaco</td></tr><tr><td style=\"white-space:nowrap\">P18<a name=\"BRCIAP2-P18\"> </a></td><td>Abuso de medicação</td></tr><tr><td style=\"white-space:nowrap\">P19<a name=\"BRCIAP2-P19\"> </a></td><td>Abuso de drogas</td></tr><tr><td style=\"white-space:nowrap\">P20<a name=\"BRCIAP2-P20\"> </a></td><td>Alterações da memória</td></tr><tr><td style=\"white-space:nowrap\">P22<a name=\"BRCIAP2-P22\"> </a></td><td>Sinais/sintomas relacionados ao comportamento da criança</td></tr><tr><td style=\"white-space:nowrap\">P23<a name=\"BRCIAP2-P23\"> </a></td><td>Sinais/sintomas relacionados ao comportamento do adolescente</td></tr><tr><td style=\"white-space:nowrap\">P24<a name=\"BRCIAP2-P24\"> </a></td><td>Dificuldades especificas de aprendizagem</td></tr><tr><td style=\"white-space:nowrap\">P25<a name=\"BRCIAP2-P25\"> </a></td><td>Problemas da fase de vida de adulto</td></tr><tr><td style=\"white-space:nowrap\">P27<a name=\"BRCIAP2-P27\"> </a></td><td>Medo de perturbações mentais</td></tr><tr><td style=\"white-space:nowrap\">P28<a name=\"BRCIAP2-P28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">P29<a name=\"BRCIAP2-P29\"> </a></td><td>Sinais/sintomas psicológicos, outros</td></tr><tr><td style=\"white-space:nowrap\">P70<a name=\"BRCIAP2-P70\"> </a></td><td>Demência</td></tr><tr><td style=\"white-space:nowrap\">P71<a name=\"BRCIAP2-P71\"> </a></td><td>Outras psicoses orgânicas NE</td></tr><tr><td style=\"white-space:nowrap\">P72<a name=\"BRCIAP2-P72\"> </a></td><td>Esquizofrenia</td></tr><tr><td style=\"white-space:nowrap\">P73<a name=\"BRCIAP2-P73\"> </a></td><td>Psicose afetiva</td></tr><tr><td style=\"white-space:nowrap\">P74<a name=\"BRCIAP2-P74\"> </a></td><td>Distúrbio ansioso/estado de ansiedade</td></tr><tr><td style=\"white-space:nowrap\">P75<a name=\"BRCIAP2-P75\"> </a></td><td>Somatização</td></tr><tr><td style=\"white-space:nowrap\">P76<a name=\"BRCIAP2-P76\"> </a></td><td>Perturbações depressivas</td></tr><tr><td style=\"white-space:nowrap\">P77<a name=\"BRCIAP2-P77\"> </a></td><td>Suicídio/tentativa de suicídio</td></tr><tr><td style=\"white-space:nowrap\">P78<a name=\"BRCIAP2-P78\"> </a></td><td>Neurastenia</td></tr><tr><td style=\"white-space:nowrap\">P79<a name=\"BRCIAP2-P79\"> </a></td><td>Fobia/perturbação compulsiva</td></tr><tr><td style=\"white-space:nowrap\">P80<a name=\"BRCIAP2-P80\"> </a></td><td>Perturbações de personalidade</td></tr><tr><td style=\"white-space:nowrap\">P81<a name=\"BRCIAP2-P81\"> </a></td><td>Perturbação hipercinética</td></tr><tr><td style=\"white-space:nowrap\">P82<a name=\"BRCIAP2-P82\"> </a></td><td>Estresse pós traumático</td></tr><tr><td style=\"white-space:nowrap\">P85<a name=\"BRCIAP2-P85\"> </a></td><td>Retardo/ Atraso mental</td></tr><tr><td style=\"white-space:nowrap\">P86<a name=\"BRCIAP2-P86\"> </a></td><td>Anorexia nervosa, bulimia</td></tr><tr><td style=\"white-space:nowrap\">P98<a name=\"BRCIAP2-P98\"> </a></td><td>Outras psicoses NE</td></tr><tr><td style=\"white-space:nowrap\">P99<a name=\"BRCIAP2-P99\"> </a></td><td>Outras perturbações psicológicas</td></tr><tr><td style=\"white-space:nowrap\">R01<a name=\"BRCIAP2-R01\"> </a></td><td>Dor atribuída ao aparelho respiratório</td></tr><tr><td style=\"white-space:nowrap\">R02<a name=\"BRCIAP2-R02\"> </a></td><td>Dificuldade respiratória, dispneia</td></tr><tr><td style=\"white-space:nowrap\">R03<a name=\"BRCIAP2-R03\"> </a></td><td>Respiração ruidosa</td></tr><tr><td style=\"white-space:nowrap\">R04<a name=\"BRCIAP2-R04\"> </a></td><td>Outros problemas respiratórios</td></tr><tr><td style=\"white-space:nowrap\">R05<a name=\"BRCIAP2-R05\"> </a></td><td>Tosse</td></tr><tr><td style=\"white-space:nowrap\">R06<a name=\"BRCIAP2-R06\"> </a></td><td>Hemorragia nasal/epistaxe</td></tr><tr><td style=\"white-space:nowrap\">R07<a name=\"BRCIAP2-R07\"> </a></td><td>Espirro/congestão nasal</td></tr><tr><td style=\"white-space:nowrap\">R08<a name=\"BRCIAP2-R08\"> </a></td><td>Outros sinais/sintomas nasais</td></tr><tr><td style=\"white-space:nowrap\">R09<a name=\"BRCIAP2-R09\"> </a></td><td>Sinais/sintomas dos seios paranasais</td></tr><tr><td style=\"white-space:nowrap\">R21<a name=\"BRCIAP2-R21\"> </a></td><td>Sinais/sintomas da garganta</td></tr><tr><td style=\"white-space:nowrap\">R23<a name=\"BRCIAP2-R23\"> </a></td><td>Sinais/sintomas da voz</td></tr><tr><td style=\"white-space:nowrap\">R24<a name=\"BRCIAP2-R24\"> </a></td><td>Hemoptise</td></tr><tr><td style=\"white-space:nowrap\">R25<a name=\"BRCIAP2-R25\"> </a></td><td>Expectoração/mucosidade anormal</td></tr><tr><td style=\"white-space:nowrap\">R26<a name=\"BRCIAP2-R26\"> </a></td><td>Medo de câncer do aparelho respiratório</td></tr><tr><td style=\"white-space:nowrap\">R27<a name=\"BRCIAP2-R27\"> </a></td><td>Medo de outras doenças respiratórias</td></tr><tr><td style=\"white-space:nowrap\">R28<a name=\"BRCIAP2-R28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">R29<a name=\"BRCIAP2-R29\"> </a></td><td>Sinais/sintomas do aparelho respiratório, outros</td></tr><tr><td style=\"white-space:nowrap\">R71<a name=\"BRCIAP2-R71\"> </a></td><td>Tosse convulsa/ pertussis</td></tr><tr><td style=\"white-space:nowrap\">R72<a name=\"BRCIAP2-R72\"> </a></td><td>Infecção estreptocócica da orofaringe</td></tr><tr><td style=\"white-space:nowrap\">R73<a name=\"BRCIAP2-R73\"> </a></td><td>Abcesso/furúnculo no nariz</td></tr><tr><td style=\"white-space:nowrap\">R74<a name=\"BRCIAP2-R74\"> </a></td><td>Infecção aguda do aparelho respiratório superior (IVAS)</td></tr><tr><td style=\"white-space:nowrap\">R75<a name=\"BRCIAP2-R75\"> </a></td><td>Sinusite crónica/aguda</td></tr><tr><td style=\"white-space:nowrap\">R76<a name=\"BRCIAP2-R76\"> </a></td><td>Amigdalite aguda</td></tr><tr><td style=\"white-space:nowrap\">R77<a name=\"BRCIAP2-R77\"> </a></td><td>Laringite/traqueíte aguda</td></tr><tr><td style=\"white-space:nowrap\">R78<a name=\"BRCIAP2-R78\"> </a></td><td>Bronquite/bronquiolite aguda</td></tr><tr><td style=\"white-space:nowrap\">R79<a name=\"BRCIAP2-R79\"> </a></td><td>Bronquite crônica</td></tr><tr><td style=\"white-space:nowrap\">R80<a name=\"BRCIAP2-R80\"> </a></td><td>Gripe</td></tr><tr><td style=\"white-space:nowrap\">R81<a name=\"BRCIAP2-R81\"> </a></td><td>Pneumonia</td></tr><tr><td style=\"white-space:nowrap\">R82<a name=\"BRCIAP2-R82\"> </a></td><td>Pleurite/derrame pleural</td></tr><tr><td style=\"white-space:nowrap\">R83<a name=\"BRCIAP2-R83\"> </a></td><td>Outra infecção respiratória</td></tr><tr><td style=\"white-space:nowrap\">R84<a name=\"BRCIAP2-R84\"> </a></td><td>Neoplasia maligna dos brônquios/pulmão</td></tr><tr><td style=\"white-space:nowrap\">R85<a name=\"BRCIAP2-R85\"> </a></td><td>Outra neoplasia respiratória maligna</td></tr><tr><td style=\"white-space:nowrap\">R86<a name=\"BRCIAP2-R86\"> </a></td><td>Neoplasia benigna respiratória</td></tr><tr><td style=\"white-space:nowrap\">R87<a name=\"BRCIAP2-R87\"> </a></td><td>Corpo estranho nariz/laringe/brônquios</td></tr><tr><td style=\"white-space:nowrap\">R88<a name=\"BRCIAP2-R88\"> </a></td><td>Outra lesão respiratória</td></tr><tr><td style=\"white-space:nowrap\">R89<a name=\"BRCIAP2-R89\"> </a></td><td>Malformação congénita do aparelho respiratório</td></tr><tr><td style=\"white-space:nowrap\">R90<a name=\"BRCIAP2-R90\"> </a></td><td>Hipertrofia das amígdalas/adenóides</td></tr><tr><td style=\"white-space:nowrap\">R92<a name=\"BRCIAP2-R92\"> </a></td><td>Neoplasia respiratória NE</td></tr><tr><td style=\"white-space:nowrap\">R95<a name=\"BRCIAP2-R95\"> </a></td><td>Doença pulmonar obstrutiva crónica</td></tr><tr><td style=\"white-space:nowrap\">R96<a name=\"BRCIAP2-R96\"> </a></td><td>Asma</td></tr><tr><td style=\"white-space:nowrap\">R97<a name=\"BRCIAP2-R97\"> </a></td><td>Rinite alérgica</td></tr><tr><td style=\"white-space:nowrap\">R98<a name=\"BRCIAP2-R98\"> </a></td><td>Síndrome de hiperventilação</td></tr><tr><td style=\"white-space:nowrap\">R99<a name=\"BRCIAP2-R99\"> </a></td><td>Outras doenças respiratórias</td></tr><tr><td style=\"white-space:nowrap\">S01<a name=\"BRCIAP2-S01\"> </a></td><td>Dor/sensibilidade dolorosa da pele</td></tr><tr><td style=\"white-space:nowrap\">S02<a name=\"BRCIAP2-S02\"> </a></td><td>Prurido</td></tr><tr><td style=\"white-space:nowrap\">S03<a name=\"BRCIAP2-S03\"> </a></td><td>Verrugas</td></tr><tr><td style=\"white-space:nowrap\">S04<a name=\"BRCIAP2-S04\"> </a></td><td>Tumor/inchaço localizado</td></tr><tr><td style=\"white-space:nowrap\">S05<a name=\"BRCIAP2-S05\"> </a></td><td>Tumores/inchaços generalizados</td></tr><tr><td style=\"white-space:nowrap\">S06<a name=\"BRCIAP2-S06\"> </a></td><td>Erupção cutânea localizada</td></tr><tr><td style=\"white-space:nowrap\">S07<a name=\"BRCIAP2-S07\"> </a></td><td>Erupção cutânea generalizada</td></tr><tr><td style=\"white-space:nowrap\">S08<a name=\"BRCIAP2-S08\"> </a></td><td>Alterações da cor da pele</td></tr><tr><td style=\"white-space:nowrap\">S09<a name=\"BRCIAP2-S09\"> </a></td><td>Infecção dos dedos das mãos/pés</td></tr><tr><td style=\"white-space:nowrap\">S10<a name=\"BRCIAP2-S10\"> </a></td><td>Furúnculo/carbúnculo</td></tr><tr><td style=\"white-space:nowrap\">S11<a name=\"BRCIAP2-S11\"> </a></td><td>Infecção pós-traumática da pele</td></tr><tr><td style=\"white-space:nowrap\">S12<a name=\"BRCIAP2-S12\"> </a></td><td>Picada ou mordedura de inseto</td></tr><tr><td style=\"white-space:nowrap\">S13<a name=\"BRCIAP2-S13\"> </a></td><td>Mordedura animal/humana</td></tr><tr><td style=\"white-space:nowrap\">S14<a name=\"BRCIAP2-S14\"> </a></td><td>Queimadura/escaldão</td></tr><tr><td style=\"white-space:nowrap\">S15<a name=\"BRCIAP2-S15\"> </a></td><td>Corpo estranho na pele</td></tr><tr><td style=\"white-space:nowrap\">S16<a name=\"BRCIAP2-S16\"> </a></td><td>Traumatismo/contusão</td></tr><tr><td style=\"white-space:nowrap\">S17<a name=\"BRCIAP2-S17\"> </a></td><td>Abrasão/arranhão/bolhas</td></tr><tr><td style=\"white-space:nowrap\">S18<a name=\"BRCIAP2-S18\"> </a></td><td>Laceração/corte</td></tr><tr><td style=\"white-space:nowrap\">S19<a name=\"BRCIAP2-S19\"> </a></td><td>Outra lesão cutânea</td></tr><tr><td style=\"white-space:nowrap\">S20<a name=\"BRCIAP2-S20\"> </a></td><td>Calos/calosidades</td></tr><tr><td style=\"white-space:nowrap\">S21<a name=\"BRCIAP2-S21\"> </a></td><td>Sinais/sintomas da textura da pele</td></tr><tr><td style=\"white-space:nowrap\">S22<a name=\"BRCIAP2-S22\"> </a></td><td>Sinais/sintomas das unhas</td></tr><tr><td style=\"white-space:nowrap\">S23<a name=\"BRCIAP2-S23\"> </a></td><td>Queda de cabelo/calvície</td></tr><tr><td style=\"white-space:nowrap\">S24<a name=\"BRCIAP2-S24\"> </a></td><td>Sinais/sintomas do cabelo/couro cabeludo</td></tr><tr><td style=\"white-space:nowrap\">S26<a name=\"BRCIAP2-S26\"> </a></td><td>Medo de câncer de pele</td></tr><tr><td style=\"white-space:nowrap\">S27<a name=\"BRCIAP2-S27\"> </a></td><td>Medo de outra doença da pele</td></tr><tr><td style=\"white-space:nowrap\">S28<a name=\"BRCIAP2-S28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">S29<a name=\"BRCIAP2-S29\"> </a></td><td>Sinais/sintomas da pele, outros</td></tr><tr><td style=\"white-space:nowrap\">S70<a name=\"BRCIAP2-S70\"> </a></td><td>Herpes zoster</td></tr><tr><td style=\"white-space:nowrap\">S71<a name=\"BRCIAP2-S71\"> </a></td><td>Herpes simples</td></tr><tr><td style=\"white-space:nowrap\">S72<a name=\"BRCIAP2-S72\"> </a></td><td>Escabiose/outras acaríases</td></tr><tr><td style=\"white-space:nowrap\">S73<a name=\"BRCIAP2-S73\"> </a></td><td>Pediculose/outras infecções da pele</td></tr><tr><td style=\"white-space:nowrap\">S74<a name=\"BRCIAP2-S74\"> </a></td><td>Dermatofitose</td></tr><tr><td style=\"white-space:nowrap\">S75<a name=\"BRCIAP2-S75\"> </a></td><td>Monilíase oral/candidíase na pele</td></tr><tr><td style=\"white-space:nowrap\">S76<a name=\"BRCIAP2-S76\"> </a></td><td>Outras infecções da pele</td></tr><tr><td style=\"white-space:nowrap\">S77<a name=\"BRCIAP2-S77\"> </a></td><td>Neoplasias malignas da pele</td></tr><tr><td style=\"white-space:nowrap\">S78<a name=\"BRCIAP2-S78\"> </a></td><td>Lipoma</td></tr><tr><td style=\"white-space:nowrap\">S79<a name=\"BRCIAP2-S79\"> </a></td><td>Neoplasia cutânea benigna/incerta</td></tr><tr><td style=\"white-space:nowrap\">S80<a name=\"BRCIAP2-S80\"> </a></td><td>Ceratose/ Queratose solar/queimadura solar</td></tr><tr><td style=\"white-space:nowrap\">S81<a name=\"BRCIAP2-S81\"> </a></td><td>Hemangioma/linfangioma</td></tr><tr><td style=\"white-space:nowrap\">S82<a name=\"BRCIAP2-S82\"> </a></td><td>Nevos/sinais da pele</td></tr><tr><td style=\"white-space:nowrap\">S83<a name=\"BRCIAP2-S83\"> </a></td><td>Lesões da pele congênitas, outras</td></tr><tr><td style=\"white-space:nowrap\">S84<a name=\"BRCIAP2-S84\"> </a></td><td>Impetigo</td></tr><tr><td style=\"white-space:nowrap\">S85<a name=\"BRCIAP2-S85\"> </a></td><td>Cisto pilonidal/fistula</td></tr><tr><td style=\"white-space:nowrap\">S86<a name=\"BRCIAP2-S86\"> </a></td><td>Dermatite seborreica</td></tr><tr><td style=\"white-space:nowrap\">S87<a name=\"BRCIAP2-S87\"> </a></td><td>Dermatite/eczema atópico</td></tr><tr><td style=\"white-space:nowrap\">S88<a name=\"BRCIAP2-S88\"> </a></td><td>Dermatite de contato/alérgica</td></tr><tr><td style=\"white-space:nowrap\">S89<a name=\"BRCIAP2-S89\"> </a></td><td>Dermatite das fraldas</td></tr><tr><td style=\"white-space:nowrap\">S90<a name=\"BRCIAP2-S90\"> </a></td><td>Pitiríase rosada</td></tr><tr><td style=\"white-space:nowrap\">S91<a name=\"BRCIAP2-S91\"> </a></td><td>Psoríase</td></tr><tr><td style=\"white-space:nowrap\">S92<a name=\"BRCIAP2-S92\"> </a></td><td>Doença das glândulas sudoríparas</td></tr><tr><td style=\"white-space:nowrap\">S93<a name=\"BRCIAP2-S93\"> </a></td><td>Cisto sebáceo</td></tr><tr><td style=\"white-space:nowrap\">S94<a name=\"BRCIAP2-S94\"> </a></td><td>Unha encravada</td></tr><tr><td style=\"white-space:nowrap\">S95<a name=\"BRCIAP2-S95\"> </a></td><td>Molusco contagioso</td></tr><tr><td style=\"white-space:nowrap\">S96<a name=\"BRCIAP2-S96\"> </a></td><td>Acne</td></tr><tr><td style=\"white-space:nowrap\">S97<a name=\"BRCIAP2-S97\"> </a></td><td>Úlcera crónica da pele</td></tr><tr><td style=\"white-space:nowrap\">S98<a name=\"BRCIAP2-S98\"> </a></td><td>Urticária</td></tr><tr><td style=\"white-space:nowrap\">S99<a name=\"BRCIAP2-S99\"> </a></td><td>Outras doenças da pele</td></tr><tr><td style=\"white-space:nowrap\">T01<a name=\"BRCIAP2-T01\"> </a></td><td>Sede excessiva</td></tr><tr><td style=\"white-space:nowrap\">T02<a name=\"BRCIAP2-T02\"> </a></td><td>Apetite excessivo</td></tr><tr><td style=\"white-space:nowrap\">T03<a name=\"BRCIAP2-T03\"> </a></td><td>Perda de apetite</td></tr><tr><td style=\"white-space:nowrap\">T04<a name=\"BRCIAP2-T04\"> </a></td><td>Problemas alimentares de lactente/criança</td></tr><tr><td style=\"white-space:nowrap\">T05<a name=\"BRCIAP2-T05\"> </a></td><td>Problemas alimentares do adulto</td></tr><tr><td style=\"white-space:nowrap\">T07<a name=\"BRCIAP2-T07\"> </a></td><td>Aumento de peso</td></tr><tr><td style=\"white-space:nowrap\">T08<a name=\"BRCIAP2-T08\"> </a></td><td>Perda de peso</td></tr><tr><td style=\"white-space:nowrap\">T10<a name=\"BRCIAP2-T10\"> </a></td><td>Atraso do crescimento</td></tr><tr><td style=\"white-space:nowrap\">T11<a name=\"BRCIAP2-T11\"> </a></td><td>Desidratação</td></tr><tr><td style=\"white-space:nowrap\">T26<a name=\"BRCIAP2-T26\"> </a></td><td>Medo de câncer do sistema endócrino</td></tr><tr><td style=\"white-space:nowrap\">T27<a name=\"BRCIAP2-T27\"> </a></td><td>Medo de outra doença endócrina/metabólica</td></tr><tr><td style=\"white-space:nowrap\">T28<a name=\"BRCIAP2-T28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">T29<a name=\"BRCIAP2-T29\"> </a></td><td>Sinais/sintomas endocrinológicos/metabolicos/nutricionais, outros</td></tr><tr><td style=\"white-space:nowrap\">T70<a name=\"BRCIAP2-T70\"> </a></td><td>Infecção endócrina</td></tr><tr><td style=\"white-space:nowrap\">T71<a name=\"BRCIAP2-T71\"> </a></td><td>Neoplasia maligna da tiróide</td></tr><tr><td style=\"white-space:nowrap\">T72<a name=\"BRCIAP2-T72\"> </a></td><td>Neoplasia benigna da tiróide</td></tr><tr><td style=\"white-space:nowrap\">T73<a name=\"BRCIAP2-T73\"> </a></td><td>Outra neoplasia endócrina NE</td></tr><tr><td style=\"white-space:nowrap\">T78<a name=\"BRCIAP2-T78\"> </a></td><td>Cisto do canal tiroglosso</td></tr><tr><td style=\"white-space:nowrap\">T80<a name=\"BRCIAP2-T80\"> </a></td><td>Malformação congénita endócrina/metabólica</td></tr><tr><td style=\"white-space:nowrap\">T81<a name=\"BRCIAP2-T81\"> </a></td><td>Bócio</td></tr><tr><td style=\"white-space:nowrap\">T82<a name=\"BRCIAP2-T82\"> </a></td><td>Obesidade</td></tr><tr><td style=\"white-space:nowrap\">T83<a name=\"BRCIAP2-T83\"> </a></td><td>Excesso de peso</td></tr><tr><td style=\"white-space:nowrap\">T85<a name=\"BRCIAP2-T85\"> </a></td><td>Hipertiroidismo/tireotoxicose</td></tr><tr><td style=\"white-space:nowrap\">T86<a name=\"BRCIAP2-T86\"> </a></td><td>Hipotiroidismo/mixedema</td></tr><tr><td style=\"white-space:nowrap\">T87<a name=\"BRCIAP2-T87\"> </a></td><td>Hipoglicemia</td></tr><tr><td style=\"white-space:nowrap\">T89<a name=\"BRCIAP2-T89\"> </a></td><td>Diabetes insulino-dependente</td></tr><tr><td style=\"white-space:nowrap\">T90<a name=\"BRCIAP2-T90\"> </a></td><td>Diabetes não insulino-dependente</td></tr><tr><td style=\"white-space:nowrap\">T91<a name=\"BRCIAP2-T91\"> </a></td><td>Deficiência vitamínica/nutricional</td></tr><tr><td style=\"white-space:nowrap\">T92<a name=\"BRCIAP2-T92\"> </a></td><td>Gota</td></tr><tr><td style=\"white-space:nowrap\">T93<a name=\"BRCIAP2-T93\"> </a></td><td>Alteração no metabolismo dos lípidos</td></tr><tr><td style=\"white-space:nowrap\">T99<a name=\"BRCIAP2-T99\"> </a></td><td>Outras doenças endocrinológica/metabólica/nutricionais</td></tr><tr><td style=\"white-space:nowrap\">U01<a name=\"BRCIAP2-U01\"> </a></td><td>Disúria/micção dolorosa</td></tr><tr><td style=\"white-space:nowrap\">U02<a name=\"BRCIAP2-U02\"> </a></td><td>Micção frequente/urgência urinária/ polaciúria</td></tr><tr><td style=\"white-space:nowrap\">U04<a name=\"BRCIAP2-U04\"> </a></td><td>Incontinência urinária</td></tr><tr><td style=\"white-space:nowrap\">U05<a name=\"BRCIAP2-U05\"> </a></td><td>Outros problemas com a micção</td></tr><tr><td style=\"white-space:nowrap\">U06<a name=\"BRCIAP2-U06\"> </a></td><td>Hematúria</td></tr><tr><td style=\"white-space:nowrap\">U07<a name=\"BRCIAP2-U07\"> </a></td><td>Outros sinais/sintomas urinários</td></tr><tr><td style=\"white-space:nowrap\">U08<a name=\"BRCIAP2-U08\"> </a></td><td>Retenção urinária</td></tr><tr><td style=\"white-space:nowrap\">U13<a name=\"BRCIAP2-U13\"> </a></td><td>Sinais/sintomas da bexiga, outros</td></tr><tr><td style=\"white-space:nowrap\">U14<a name=\"BRCIAP2-U14\"> </a></td><td>Sinais/sintomas dos rins</td></tr><tr><td style=\"white-space:nowrap\">U26<a name=\"BRCIAP2-U26\"> </a></td><td>Medo de câncer no aparelho urinário</td></tr><tr><td style=\"white-space:nowrap\">U27<a name=\"BRCIAP2-U27\"> </a></td><td>Medo de outra doença urinária</td></tr><tr><td style=\"white-space:nowrap\">U28<a name=\"BRCIAP2-U28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">U29<a name=\"BRCIAP2-U29\"> </a></td><td>Sinais/sintomas aparelho urinário, outros</td></tr><tr><td style=\"white-space:nowrap\">U70<a name=\"BRCIAP2-U70\"> </a></td><td>Pielonefrite</td></tr><tr><td style=\"white-space:nowrap\">U71<a name=\"BRCIAP2-U71\"> </a></td><td>Cistite/outra infecção urinária</td></tr><tr><td style=\"white-space:nowrap\">U72<a name=\"BRCIAP2-U72\"> </a></td><td>Uretrite</td></tr><tr><td style=\"white-space:nowrap\">U75<a name=\"BRCIAP2-U75\"> </a></td><td>Neoplasia maligna do rim</td></tr><tr><td style=\"white-space:nowrap\">U76<a name=\"BRCIAP2-U76\"> </a></td><td>Neoplasia benigna do rim</td></tr><tr><td style=\"white-space:nowrap\">U77<a name=\"BRCIAP2-U77\"> </a></td><td>Neoplasia maligna do aparelho urinário, outra</td></tr><tr><td style=\"white-space:nowrap\">U78<a name=\"BRCIAP2-U78\"> </a></td><td>Neoplasia benigna do aparelho urinário</td></tr><tr><td style=\"white-space:nowrap\">U79<a name=\"BRCIAP2-U79\"> </a></td><td>Neoplasia do aparelho urinário NE</td></tr><tr><td style=\"white-space:nowrap\">U80<a name=\"BRCIAP2-U80\"> </a></td><td>Lesões traumáticas do aparelho urinário</td></tr><tr><td style=\"white-space:nowrap\">U85<a name=\"BRCIAP2-U85\"> </a></td><td>Malformação congénita do aparelho urinário</td></tr><tr><td style=\"white-space:nowrap\">U88<a name=\"BRCIAP2-U88\"> </a></td><td>Glomerulonefrite/ sindrome nefrótica</td></tr><tr><td style=\"white-space:nowrap\">U90<a name=\"BRCIAP2-U90\"> </a></td><td>Albuminúria/proteinúria ortostática</td></tr><tr><td style=\"white-space:nowrap\">U95<a name=\"BRCIAP2-U95\"> </a></td><td>Cálculo urinário</td></tr><tr><td style=\"white-space:nowrap\">U98<a name=\"BRCIAP2-U98\"> </a></td><td>Análise de urina anormal NE</td></tr><tr><td style=\"white-space:nowrap\">U99<a name=\"BRCIAP2-U99\"> </a></td><td>Outras doenças urinárias</td></tr><tr><td style=\"white-space:nowrap\">W01<a name=\"BRCIAP2-W01\"> </a></td><td>Questão sobre gravidez</td></tr><tr><td style=\"white-space:nowrap\">W02<a name=\"BRCIAP2-W02\"> </a></td><td>Medo de estar grávida</td></tr><tr><td style=\"white-space:nowrap\">W03<a name=\"BRCIAP2-W03\"> </a></td><td>Hemorragia antes do parto</td></tr><tr><td style=\"white-space:nowrap\">W05<a name=\"BRCIAP2-W05\"> </a></td><td>Vómitos/náuseas durante a gravidez</td></tr><tr><td style=\"white-space:nowrap\">W10<a name=\"BRCIAP2-W10\"> </a></td><td>Contracepção pós-coital</td></tr><tr><td style=\"white-space:nowrap\">W11<a name=\"BRCIAP2-W11\"> </a></td><td>Contracepção oral</td></tr><tr><td style=\"white-space:nowrap\">W12<a name=\"BRCIAP2-W12\"> </a></td><td>Contracepção intra-uterina/ Dispositivo Intrauterino/ DIU</td></tr><tr><td style=\"white-space:nowrap\">W13<a name=\"BRCIAP2-W13\"> </a></td><td>Esterilização</td></tr><tr><td style=\"white-space:nowrap\">W14<a name=\"BRCIAP2-W14\"> </a></td><td>Contracepção/outros</td></tr><tr><td style=\"white-space:nowrap\">W15<a name=\"BRCIAP2-W15\"> </a></td><td>Infertilidade/subfertildade</td></tr><tr><td style=\"white-space:nowrap\">W17<a name=\"BRCIAP2-W17\"> </a></td><td>Hemorragia pós-parto</td></tr><tr><td style=\"white-space:nowrap\">W18<a name=\"BRCIAP2-W18\"> </a></td><td>Sinais/sintomas pós-parto</td></tr><tr><td style=\"white-space:nowrap\">W19<a name=\"BRCIAP2-W19\"> </a></td><td>Sinais/sintomas da mama/lactação</td></tr><tr><td style=\"white-space:nowrap\">W21<a name=\"BRCIAP2-W21\"> </a></td><td>Preocupação com a imagem corporal na gravidez</td></tr><tr><td style=\"white-space:nowrap\">W27<a name=\"BRCIAP2-W27\"> </a></td><td>Medo de complicações na gravidez</td></tr><tr><td style=\"white-space:nowrap\">W28<a name=\"BRCIAP2-W28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">W29<a name=\"BRCIAP2-W29\"> </a></td><td>Sinais/sintomas da gravidez, outros</td></tr><tr><td style=\"white-space:nowrap\">W70<a name=\"BRCIAP2-W70\"> </a></td><td>Sepsis/infecção puerperal</td></tr><tr><td style=\"white-space:nowrap\">W71<a name=\"BRCIAP2-W71\"> </a></td><td>Infecções que complicam a gravidez</td></tr><tr><td style=\"white-space:nowrap\">W72<a name=\"BRCIAP2-W72\"> </a></td><td>Neoplasia maligna relacionada com gravidez</td></tr><tr><td style=\"white-space:nowrap\">W73<a name=\"BRCIAP2-W73\"> </a></td><td>Neoplasia benigna/incerta relacionada com a gravidez</td></tr><tr><td style=\"white-space:nowrap\">W75<a name=\"BRCIAP2-W75\"> </a></td><td>Lesões traumáticas que complicam a gravidez</td></tr><tr><td style=\"white-space:nowrap\">W76<a name=\"BRCIAP2-W76\"> </a></td><td>Malformação congénita que complica a gravidez</td></tr><tr><td style=\"white-space:nowrap\">W78<a name=\"BRCIAP2-W78\"> </a></td><td>Gravidez</td></tr><tr><td style=\"white-space:nowrap\">W79<a name=\"BRCIAP2-W79\"> </a></td><td>Gravidez não desejada</td></tr><tr><td style=\"white-space:nowrap\">W80<a name=\"BRCIAP2-W80\"> </a></td><td>Gravidez ectópica</td></tr><tr><td style=\"white-space:nowrap\">W81<a name=\"BRCIAP2-W81\"> </a></td><td>Toxemia gravídica/ DHEG</td></tr><tr><td style=\"white-space:nowrap\">W82<a name=\"BRCIAP2-W82\"> </a></td><td>Aborto espontâneo</td></tr><tr><td style=\"white-space:nowrap\">W83<a name=\"BRCIAP2-W83\"> </a></td><td>Aborto provocado</td></tr><tr><td style=\"white-space:nowrap\">W84<a name=\"BRCIAP2-W84\"> </a></td><td>Gravidez de alto risco</td></tr><tr><td style=\"white-space:nowrap\">W85<a name=\"BRCIAP2-W85\"> </a></td><td>Diabetes gestacional</td></tr><tr><td style=\"white-space:nowrap\">W90<a name=\"BRCIAP2-W90\"> </a></td><td>Parto sem complicações de nascido vivo</td></tr><tr><td style=\"white-space:nowrap\">W91<a name=\"BRCIAP2-W91\"> </a></td><td>Parto sem complicações de natimorto</td></tr><tr><td style=\"white-space:nowrap\">W92<a name=\"BRCIAP2-W92\"> </a></td><td>Parto com complicações de nascido vivo</td></tr><tr><td style=\"white-space:nowrap\">W93<a name=\"BRCIAP2-W93\"> </a></td><td>Parto com complicações de natimorto</td></tr><tr><td style=\"white-space:nowrap\">W94<a name=\"BRCIAP2-W94\"> </a></td><td>Mastite puerperal</td></tr><tr><td style=\"white-space:nowrap\">W95<a name=\"BRCIAP2-W95\"> </a></td><td>Outros problemas da mama durante gravidez/puerpério</td></tr><tr><td style=\"white-space:nowrap\">W96<a name=\"BRCIAP2-W96\"> </a></td><td>Outras complicações do puerpério</td></tr><tr><td style=\"white-space:nowrap\">W99<a name=\"BRCIAP2-W99\"> </a></td><td>Outros problemas da gravidez/parto</td></tr><tr><td style=\"white-space:nowrap\">X01<a name=\"BRCIAP2-X01\"> </a></td><td>Dor genital</td></tr><tr><td style=\"white-space:nowrap\">X02<a name=\"BRCIAP2-X02\"> </a></td><td>Dores menstruais</td></tr><tr><td style=\"white-space:nowrap\">X03<a name=\"BRCIAP2-X03\"> </a></td><td>Dores intermenstruais</td></tr><tr><td style=\"white-space:nowrap\">X04<a name=\"BRCIAP2-X04\"> </a></td><td>Relação sexual dolorosa na mulher</td></tr><tr><td style=\"white-space:nowrap\">X05<a name=\"BRCIAP2-X05\"> </a></td><td>Menstruação escassa/ausente</td></tr><tr><td style=\"white-space:nowrap\">X06<a name=\"BRCIAP2-X06\"> </a></td><td>Menstruação excessiva</td></tr><tr><td style=\"white-space:nowrap\">X07<a name=\"BRCIAP2-X07\"> </a></td><td>Menstruação irregular/frequente</td></tr><tr><td style=\"white-space:nowrap\">X08<a name=\"BRCIAP2-X08\"> </a></td><td>Hemorragia intermenstrual</td></tr><tr><td style=\"white-space:nowrap\">X09<a name=\"BRCIAP2-X09\"> </a></td><td>Sinais/sintomas pré-menstruais</td></tr><tr><td style=\"white-space:nowrap\">X10<a name=\"BRCIAP2-X10\"> </a></td><td>Desejo de alterar a data menstruação</td></tr><tr><td style=\"white-space:nowrap\">X11<a name=\"BRCIAP2-X11\"> </a></td><td>Sinais/sintomas da menopausa/ climatério</td></tr><tr><td style=\"white-space:nowrap\">X12<a name=\"BRCIAP2-X12\"> </a></td><td>Hemorragia pós-menopausa</td></tr><tr><td style=\"white-space:nowrap\">X13<a name=\"BRCIAP2-X13\"> </a></td><td>Hemorragia pós-coital</td></tr><tr><td style=\"white-space:nowrap\">X14<a name=\"BRCIAP2-X14\"> </a></td><td>Secreção vaginal</td></tr><tr><td style=\"white-space:nowrap\">X15<a name=\"BRCIAP2-X15\"> </a></td><td>Sinais/sintomas da vagina</td></tr><tr><td style=\"white-space:nowrap\">X16<a name=\"BRCIAP2-X16\"> </a></td><td>Sinais/sintomas da vulva</td></tr><tr><td style=\"white-space:nowrap\">X17<a name=\"BRCIAP2-X17\"> </a></td><td>Sinais/sintomas da pélvis feminina</td></tr><tr><td style=\"white-space:nowrap\">X18<a name=\"BRCIAP2-X18\"> </a></td><td>Dor na mama feminina</td></tr><tr><td style=\"white-space:nowrap\">X19<a name=\"BRCIAP2-X19\"> </a></td><td>Tumor ou nódulo na mama feminina</td></tr><tr><td style=\"white-space:nowrap\">X20<a name=\"BRCIAP2-X20\"> </a></td><td>Sinais/sintomas do mamilo da mulher</td></tr><tr><td style=\"white-space:nowrap\">X21<a name=\"BRCIAP2-X21\"> </a></td><td>Sinais/sintomas da mama feminina, outros</td></tr><tr><td style=\"white-space:nowrap\">X22<a name=\"BRCIAP2-X22\"> </a></td><td>Preocupação com a aparência da mama feminina</td></tr><tr><td style=\"white-space:nowrap\">X23<a name=\"BRCIAP2-X23\"> </a></td><td>Medo de doença de transmissão sexual</td></tr><tr><td style=\"white-space:nowrap\">X24<a name=\"BRCIAP2-X24\"> </a></td><td>Medo de disfunção sexual</td></tr><tr><td style=\"white-space:nowrap\">X25<a name=\"BRCIAP2-X25\"> </a></td><td>Medo de câncer genital</td></tr><tr><td style=\"white-space:nowrap\">X26<a name=\"BRCIAP2-X26\"> </a></td><td>Medo de câncer na mama</td></tr><tr><td style=\"white-space:nowrap\">X27<a name=\"BRCIAP2-X27\"> </a></td><td>Medo de outra doença genital/mama</td></tr><tr><td style=\"white-space:nowrap\">X28<a name=\"BRCIAP2-X28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">X29<a name=\"BRCIAP2-X29\"> </a></td><td>Sinais/sintomas do aparelho genital feminino, outra</td></tr><tr><td style=\"white-space:nowrap\">X70<a name=\"BRCIAP2-X70\"> </a></td><td>Sífilis feminina</td></tr><tr><td style=\"white-space:nowrap\">X71<a name=\"BRCIAP2-X71\"> </a></td><td>Gonorréia feminina</td></tr><tr><td style=\"white-space:nowrap\">X72<a name=\"BRCIAP2-X72\"> </a></td><td>Candidíase genital feminina</td></tr><tr><td style=\"white-space:nowrap\">X73<a name=\"BRCIAP2-X73\"> </a></td><td>Tricomoníase genital feminina</td></tr><tr><td style=\"white-space:nowrap\">X74<a name=\"BRCIAP2-X74\"> </a></td><td>Doença inflamatória pélvica</td></tr><tr><td style=\"white-space:nowrap\">X75<a name=\"BRCIAP2-X75\"> </a></td><td>Neoplasia maligna do colo</td></tr><tr><td style=\"white-space:nowrap\">X76<a name=\"BRCIAP2-X76\"> </a></td><td>Neoplasia maligna da mama feminina</td></tr><tr><td style=\"white-space:nowrap\">X77<a name=\"BRCIAP2-X77\"> </a></td><td>Neoplasia maligna genital feminina, outra</td></tr><tr><td style=\"white-space:nowrap\">X78<a name=\"BRCIAP2-X78\"> </a></td><td>Fibromioma uterino</td></tr><tr><td style=\"white-space:nowrap\">X79<a name=\"BRCIAP2-X79\"> </a></td><td>Neoplasia benigna da mama feminina/ fibroadenoma</td></tr><tr><td style=\"white-space:nowrap\">X80<a name=\"BRCIAP2-X80\"> </a></td><td>Neoplasia benigna genital</td></tr><tr><td style=\"white-space:nowrap\">X81<a name=\"BRCIAP2-X81\"> </a></td><td>Neoplasia genital feminina, outra/NE</td></tr><tr><td style=\"white-space:nowrap\">X82<a name=\"BRCIAP2-X82\"> </a></td><td>Lesão traumática genital feminina</td></tr><tr><td style=\"white-space:nowrap\">X83<a name=\"BRCIAP2-X83\"> </a></td><td>Malformações congênitas genitais</td></tr><tr><td style=\"white-space:nowrap\">X84<a name=\"BRCIAP2-X84\"> </a></td><td>Vaginite/vulvite NE</td></tr><tr><td style=\"white-space:nowrap\">X85<a name=\"BRCIAP2-X85\"> </a></td><td>Doença do colo NE</td></tr><tr><td style=\"white-space:nowrap\">X86<a name=\"BRCIAP2-X86\"> </a></td><td>Esfregaço de Papanicolau/colpocitologia oncótica anormal</td></tr><tr><td style=\"white-space:nowrap\">X87<a name=\"BRCIAP2-X87\"> </a></td><td>Prolapso utero-vaginal</td></tr><tr><td style=\"white-space:nowrap\">X88<a name=\"BRCIAP2-X88\"> </a></td><td>Doença fibrocística da mama</td></tr><tr><td style=\"white-space:nowrap\">X89<a name=\"BRCIAP2-X89\"> </a></td><td>Síndrome da tensão pré-menstrual</td></tr><tr><td style=\"white-space:nowrap\">X90<a name=\"BRCIAP2-X90\"> </a></td><td>Herpes genital feminino</td></tr><tr><td style=\"white-space:nowrap\">X91<a name=\"BRCIAP2-X91\"> </a></td><td>Condiloma acuminado feminino</td></tr><tr><td style=\"white-space:nowrap\">X92<a name=\"BRCIAP2-X92\"> </a></td><td>Infecção por clamídia</td></tr><tr><td style=\"white-space:nowrap\">X99<a name=\"BRCIAP2-X99\"> </a></td><td>Doença genital feminina, outra</td></tr><tr><td style=\"white-space:nowrap\">Y01<a name=\"BRCIAP2-Y01\"> </a></td><td>Dor no pênis</td></tr><tr><td style=\"white-space:nowrap\">Y02<a name=\"BRCIAP2-Y02\"> </a></td><td>Dor no escroto/testículos</td></tr><tr><td style=\"white-space:nowrap\">Y03<a name=\"BRCIAP2-Y03\"> </a></td><td>Secreção uretral</td></tr><tr><td style=\"white-space:nowrap\">Y04<a name=\"BRCIAP2-Y04\"> </a></td><td>Sinais/sintomas do pênis, outros</td></tr><tr><td style=\"white-space:nowrap\">Y05<a name=\"BRCIAP2-Y05\"> </a></td><td>Sinais/sintomas do escroto/testículos, outros</td></tr><tr><td style=\"white-space:nowrap\">Y06<a name=\"BRCIAP2-Y06\"> </a></td><td>Sinais/sintomas da próstata</td></tr><tr><td style=\"white-space:nowrap\">Y07<a name=\"BRCIAP2-Y07\"> </a></td><td>Impotência NE</td></tr><tr><td style=\"white-space:nowrap\">Y08<a name=\"BRCIAP2-Y08\"> </a></td><td>Sinais/sintomas da função sexual masculina, outros</td></tr><tr><td style=\"white-space:nowrap\">Y10<a name=\"BRCIAP2-Y10\"> </a></td><td>Infertilidade/subfertildade masculina</td></tr><tr><td style=\"white-space:nowrap\">Y13<a name=\"BRCIAP2-Y13\"> </a></td><td>Esterilização masculina</td></tr><tr><td style=\"white-space:nowrap\">Y14<a name=\"BRCIAP2-Y14\"> </a></td><td>Planejamento familiar, outros</td></tr><tr><td style=\"white-space:nowrap\">Y16<a name=\"BRCIAP2-Y16\"> </a></td><td>Sinais/sintomas da mama masculina</td></tr><tr><td style=\"white-space:nowrap\">Y24<a name=\"BRCIAP2-Y24\"> </a></td><td>Medo de disfunção sexual masculina</td></tr><tr><td style=\"white-space:nowrap\">Y25<a name=\"BRCIAP2-Y25\"> </a></td><td>Medo de doença sexualmente transmissível</td></tr><tr><td style=\"white-space:nowrap\">Y26<a name=\"BRCIAP2-Y26\"> </a></td><td>Medo de câncer genital masculino</td></tr><tr><td style=\"white-space:nowrap\">Y27<a name=\"BRCIAP2-Y27\"> </a></td><td>Medo de doença genital masculina, outra</td></tr><tr><td style=\"white-space:nowrap\">Y28<a name=\"BRCIAP2-Y28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">Y29<a name=\"BRCIAP2-Y29\"> </a></td><td>Sinais/sintomas, outros</td></tr><tr><td style=\"white-space:nowrap\">Y70<a name=\"BRCIAP2-Y70\"> </a></td><td>Sífilis masculina</td></tr><tr><td style=\"white-space:nowrap\">Y71<a name=\"BRCIAP2-Y71\"> </a></td><td>Gonorréia masculina</td></tr><tr><td style=\"white-space:nowrap\">Y72<a name=\"BRCIAP2-Y72\"> </a></td><td>Herpes genital</td></tr><tr><td style=\"white-space:nowrap\">Y73<a name=\"BRCIAP2-Y73\"> </a></td><td>Prostatite/vesiculite seminal</td></tr><tr><td style=\"white-space:nowrap\">Y74<a name=\"BRCIAP2-Y74\"> </a></td><td>Orquite/epididimite</td></tr><tr><td style=\"white-space:nowrap\">Y75<a name=\"BRCIAP2-Y75\"> </a></td><td>Balanite/ Balanopostite</td></tr><tr><td style=\"white-space:nowrap\">Y76<a name=\"BRCIAP2-Y76\"> </a></td><td>Condiloma acuminado</td></tr><tr><td style=\"white-space:nowrap\">Y77<a name=\"BRCIAP2-Y77\"> </a></td><td>Neoplasia maligna da próstata</td></tr><tr><td style=\"white-space:nowrap\">Y78<a name=\"BRCIAP2-Y78\"> </a></td><td>Neoplasia maligna genital masculina, outra</td></tr><tr><td style=\"white-space:nowrap\">Y79<a name=\"BRCIAP2-Y79\"> </a></td><td>Neoplasia benigna genital masculina NE</td></tr><tr><td style=\"white-space:nowrap\">Y80<a name=\"BRCIAP2-Y80\"> </a></td><td>Traumatismo genital masculino, outro</td></tr><tr><td style=\"white-space:nowrap\">Y81<a name=\"BRCIAP2-Y81\"> </a></td><td>Fimose/prepúcio redundante</td></tr><tr><td style=\"white-space:nowrap\">Y82<a name=\"BRCIAP2-Y82\"> </a></td><td>Hipospádias</td></tr><tr><td style=\"white-space:nowrap\">Y83<a name=\"BRCIAP2-Y83\"> </a></td><td>Testículo não descido/ Criptorquidia/ Testículo ectópico</td></tr><tr><td style=\"white-space:nowrap\">Y84<a name=\"BRCIAP2-Y84\"> </a></td><td>Malformação genital congénita masculina, outra</td></tr><tr><td style=\"white-space:nowrap\">Y85<a name=\"BRCIAP2-Y85\"> </a></td><td>Hipertrofia benigna da próstata/ hiperplasia prostática benigna</td></tr><tr><td style=\"white-space:nowrap\">Y86<a name=\"BRCIAP2-Y86\"> </a></td><td>Hidrocele</td></tr><tr><td style=\"white-space:nowrap\">Y99<a name=\"BRCIAP2-Y99\"> </a></td><td>Doença genital masculina, outra</td></tr><tr><td style=\"white-space:nowrap\">Z01<a name=\"BRCIAP2-Z01\"> </a></td><td>Pobreza/problemas econômicos</td></tr><tr><td style=\"white-space:nowrap\">Z02<a name=\"BRCIAP2-Z02\"> </a></td><td>Problemas relacionados a água/alimentação</td></tr><tr><td style=\"white-space:nowrap\">Z03<a name=\"BRCIAP2-Z03\"> </a></td><td>Problemas de habitação/vizinhança</td></tr><tr><td style=\"white-space:nowrap\">Z04<a name=\"BRCIAP2-Z04\"> </a></td><td>Problema socio-cultural</td></tr><tr><td style=\"white-space:nowrap\">Z05<a name=\"BRCIAP2-Z05\"> </a></td><td>Problemas com condições de trabalho</td></tr><tr><td style=\"white-space:nowrap\">Z06<a name=\"BRCIAP2-Z06\"> </a></td><td>Problemas de desemprego</td></tr><tr><td style=\"white-space:nowrap\">Z07<a name=\"BRCIAP2-Z07\"> </a></td><td>Problemas relacionados com educação</td></tr><tr><td style=\"white-space:nowrap\">Z08<a name=\"BRCIAP2-Z08\"> </a></td><td>Problema relacionado com sistema de segurança social</td></tr><tr><td style=\"white-space:nowrap\">Z09<a name=\"BRCIAP2-Z09\"> </a></td><td>Problema de ordem legal</td></tr><tr><td style=\"white-space:nowrap\">Z10<a name=\"BRCIAP2-Z10\"> </a></td><td>Problema relacionado com sistema de saúde</td></tr><tr><td style=\"white-space:nowrap\">Z11<a name=\"BRCIAP2-Z11\"> </a></td><td>Problema relacionado com estar doente</td></tr><tr><td style=\"white-space:nowrap\">Z12<a name=\"BRCIAP2-Z12\"> </a></td><td>Problema de relacionamento com parceiro/ conjugal</td></tr><tr><td style=\"white-space:nowrap\">Z13<a name=\"BRCIAP2-Z13\"> </a></td><td>Problema comportamental do parceiro/  companheiro</td></tr><tr><td style=\"white-space:nowrap\">Z14<a name=\"BRCIAP2-Z14\"> </a></td><td>Problema por doença do parceiro/ companheiro</td></tr><tr><td style=\"white-space:nowrap\">Z15<a name=\"BRCIAP2-Z15\"> </a></td><td>Perda ou falecimento do parceiro/ companheiro</td></tr><tr><td style=\"white-space:nowrap\">Z16<a name=\"BRCIAP2-Z16\"> </a></td><td>Problema de relacionamento com criança</td></tr><tr><td style=\"white-space:nowrap\">Z18<a name=\"BRCIAP2-Z18\"> </a></td><td>Problema com criança doente</td></tr><tr><td style=\"white-space:nowrap\">Z19<a name=\"BRCIAP2-Z19\"> </a></td><td>Perda ou falecimento de criança</td></tr><tr><td style=\"white-space:nowrap\">Z20<a name=\"BRCIAP2-Z20\"> </a></td><td>Problema de relacionamento com familiares</td></tr><tr><td style=\"white-space:nowrap\">Z21<a name=\"BRCIAP2-Z21\"> </a></td><td>Problema comportamental de familiar</td></tr><tr><td style=\"white-space:nowrap\">Z22<a name=\"BRCIAP2-Z22\"> </a></td><td>Problema por doença familiar</td></tr><tr><td style=\"white-space:nowrap\">Z23<a name=\"BRCIAP2-Z23\"> </a></td><td>Perda/falecimento de familiar</td></tr><tr><td style=\"white-space:nowrap\">Z24<a name=\"BRCIAP2-Z24\"> </a></td><td>Problema de relacionamento com amigos</td></tr><tr><td style=\"white-space:nowrap\">Z25<a name=\"BRCIAP2-Z25\"> </a></td><td>Ato ou acontecimento violento</td></tr><tr><td style=\"white-space:nowrap\">Z27<a name=\"BRCIAP2-Z27\"> </a></td><td>Medo de problema social</td></tr><tr><td style=\"white-space:nowrap\">Z28<a name=\"BRCIAP2-Z28\"> </a></td><td>Limitação funcional/incapacidade</td></tr><tr><td style=\"white-space:nowrap\">Z29<a name=\"BRCIAP2-Z29\"> </a></td><td>Problema social NE</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRCIAP2"] ; # 
+  fhir:title [ fhir:v "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-11T19:10:21.0842411+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "A01" ] ;
+     fhir:display [ fhir:v "Dor generalizada /múltipla" ]
+  ] [
+     fhir:code [ fhir:v "A02" ] ;
+     fhir:display [ fhir:v "Arrepios/ calafrios" ]
+  ] [
+     fhir:code [ fhir:v "A03" ] ;
+     fhir:display [ fhir:v "Febre" ]
+  ] [
+     fhir:code [ fhir:v "A04" ] ;
+     fhir:display [ fhir:v "Debilidade/cansaço geral/fadiga" ]
+  ] [
+     fhir:code [ fhir:v "A05" ] ;
+     fhir:display [ fhir:v "Sentir-se doente" ]
+  ] [
+     fhir:code [ fhir:v "A06" ] ;
+     fhir:display [ fhir:v "Desmaio/síncope" ]
+  ] [
+     fhir:code [ fhir:v "A07" ] ;
+     fhir:display [ fhir:v "Coma" ]
+  ] [
+     fhir:code [ fhir:v "A08" ] ;
+     fhir:display [ fhir:v "Inchaço" ]
+  ] [
+     fhir:code [ fhir:v "A09" ] ;
+     fhir:display [ fhir:v "Problemas de sudorese" ]
+  ] [
+     fhir:code [ fhir:v "A10" ] ;
+     fhir:display [ fhir:v "Sangramento/Hemorragia NE" ]
+  ] [
+     fhir:code [ fhir:v "A11" ] ;
+     fhir:display [ fhir:v "Dores torácicas NE" ]
+  ] [
+     fhir:code [ fhir:v "A13" ] ;
+     fhir:display [ fhir:v "Receio/Medo do tratamento" ]
+  ] [
+     fhir:code [ fhir:v "A16" ] ;
+     fhir:display [ fhir:v "Criança irritável" ]
+  ] [
+     fhir:code [ fhir:v "A18" ] ;
+     fhir:display [ fhir:v "Preocupação com aparência" ]
+  ] [
+     fhir:code [ fhir:v "A20" ] ;
+     fhir:display [ fhir:v "Pedido/discussão eutanásia" ]
+  ] [
+     fhir:code [ fhir:v "A21" ] ;
+     fhir:display [ fhir:v "Fator de risco de malignidade" ]
+  ] [
+     fhir:code [ fhir:v "A23" ] ;
+     fhir:display [ fhir:v "Fator de risco NE" ]
+  ] [
+     fhir:code [ fhir:v "A25" ] ;
+     fhir:display [ fhir:v "Medo de morrer/medo da morte" ]
+  ] [
+     fhir:code [ fhir:v "A26" ] ;
+     fhir:display [ fhir:v "Medo de câncer NE" ]
+  ] [
+     fhir:code [ fhir:v "A27" ] ;
+     fhir:display [ fhir:v "Medo de outra doença NE" ]
+  ] [
+     fhir:code [ fhir:v "A28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade NE" ]
+  ] [
+     fhir:code [ fhir:v "A29" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas gerais" ]
+  ] [
+     fhir:code [ fhir:v "A70" ] ;
+     fhir:display [ fhir:v "Tuberculose" ]
+  ] [
+     fhir:code [ fhir:v "A71" ] ;
+     fhir:display [ fhir:v "Sarampo" ]
+  ] [
+     fhir:code [ fhir:v "A72" ] ;
+     fhir:display [ fhir:v "Varicela" ]
+  ] [
+     fhir:code [ fhir:v "A73" ] ;
+     fhir:display [ fhir:v "Malária" ]
+  ] [
+     fhir:code [ fhir:v "A74" ] ;
+     fhir:display [ fhir:v "Rubéola" ]
+  ] [
+     fhir:code [ fhir:v "A75" ] ;
+     fhir:display [ fhir:v "Mononucleose infecciosa" ]
+  ] [
+     fhir:code [ fhir:v "A76" ] ;
+     fhir:display [ fhir:v "Outro exantema viral" ]
+  ] [
+     fhir:code [ fhir:v "A77" ] ;
+     fhir:display [ fhir:v "Dengue e outras doenças virais NE" ]
+  ] [
+     fhir:code [ fhir:v "A78" ] ;
+     fhir:display [ fhir:v "Hanseníase e outras doenças infecciosas NE" ]
+  ] [
+     fhir:code [ fhir:v "A79" ] ;
+     fhir:display [ fhir:v "Carcinomatose (localização primária desconhecida)" ]
+  ] [
+     fhir:code [ fhir:v "A80" ] ;
+     fhir:display [ fhir:v "Lesão traumática/acidente NE" ]
+  ] [
+     fhir:code [ fhir:v "A81" ] ;
+     fhir:display [ fhir:v "Politraumatismos/ferimentos múltiplos" ]
+  ] [
+     fhir:code [ fhir:v "A82" ] ;
+     fhir:display [ fhir:v "Efeito secundário de lesão traumática" ]
+  ] [
+     fhir:code [ fhir:v "A84" ] ;
+     fhir:display [ fhir:v "Intoxicação por medicamento" ]
+  ] [
+     fhir:code [ fhir:v "A85" ] ;
+     fhir:display [ fhir:v "Efeito adverso de fármaco dose correta" ]
+  ] [
+     fhir:code [ fhir:v "A86" ] ;
+     fhir:display [ fhir:v "Efeito tóxico de substância não medicinal" ]
+  ] [
+     fhir:code [ fhir:v "A87" ] ;
+     fhir:display [ fhir:v "Complicações de tratamento médico" ]
+  ] [
+     fhir:code [ fhir:v "A88" ] ;
+     fhir:display [ fhir:v "Efeito adverso de fator físico" ]
+  ] [
+     fhir:code [ fhir:v "A89" ] ;
+     fhir:display [ fhir:v "Efeito da prótese" ]
+  ] [
+     fhir:code [ fhir:v "A90" ] ;
+     fhir:display [ fhir:v "Malformação congênita NE/múltiplas" ]
+  ] [
+     fhir:code [ fhir:v "A91" ] ;
+     fhir:display [ fhir:v "Investigação com resultado anormal NE" ]
+  ] [
+     fhir:code [ fhir:v "A92" ] ;
+     fhir:display [ fhir:v "Alergia/reação alérgica NE" ]
+  ] [
+     fhir:code [ fhir:v "A93" ] ;
+     fhir:display [ fhir:v "Recém nascido prematuro" ]
+  ] [
+     fhir:code [ fhir:v "A94" ] ;
+     fhir:display [ fhir:v "Morbidade perinatal, outra" ]
+  ] [
+     fhir:code [ fhir:v "A95" ] ;
+     fhir:display [ fhir:v "Mortalidade perinatal" ]
+  ] [
+     fhir:code [ fhir:v "A96" ] ;
+     fhir:display [ fhir:v "Morte" ]
+  ] [
+     fhir:code [ fhir:v "A97" ] ;
+     fhir:display [ fhir:v "Sem doença" ]
+  ] [
+     fhir:code [ fhir:v "A98" ] ;
+     fhir:display [ fhir:v "Medicina preventiva/manutenção da saúde" ]
+  ] [
+     fhir:code [ fhir:v "A99" ] ;
+     fhir:display [ fhir:v "Outras doenças gerais NE" ]
+  ] [
+     fhir:code [ fhir:v "B02" ] ;
+     fhir:display [ fhir:v "Gânglio linfático aumentado/doloroso" ]
+  ] [
+     fhir:code [ fhir:v "B04" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas sangue" ]
+  ] [
+     fhir:code [ fhir:v "B25" ] ;
+     fhir:display [ fhir:v "Medo de VIH/ HIV/SIDA/ AIDS" ]
+  ] [
+     fhir:code [ fhir:v "B26" ] ;
+     fhir:display [ fhir:v "Medo de câncer no sangue/linfático" ]
+  ] [
+     fhir:code [ fhir:v "B27" ] ;
+     fhir:display [ fhir:v "Medo de outras doenças do sangue /vasos linfáticos" ]
+  ] [
+     fhir:code [ fhir:v "B28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "B29" ] ;
+     fhir:display [ fhir:v "Outros sinais/ sintomas do sangue/ sistema linfático/ baço NE" ]
+  ] [
+     fhir:code [ fhir:v "B70" ] ;
+     fhir:display [ fhir:v "Linfadenite aguda" ]
+  ] [
+     fhir:code [ fhir:v "B71" ] ;
+     fhir:display [ fhir:v "Linfadenite crónica NE" ]
+  ] [
+     fhir:code [ fhir:v "B72" ] ;
+     fhir:display [ fhir:v "Doença de Hodgkin/linfomas" ]
+  ] [
+     fhir:code [ fhir:v "B73" ] ;
+     fhir:display [ fhir:v "Leucemia" ]
+  ] [
+     fhir:code [ fhir:v "B74" ] ;
+     fhir:display [ fhir:v "Outra neoplasia maligna no sangue" ]
+  ] [
+     fhir:code [ fhir:v "B75" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna NE" ]
+  ] [
+     fhir:code [ fhir:v "B76" ] ;
+     fhir:display [ fhir:v "Rotura traumática do baço" ]
+  ] [
+     fhir:code [ fhir:v "B77" ] ;
+     fhir:display [ fhir:v "Outras lesões traumáticas do sangue/linfa/baço" ]
+  ] [
+     fhir:code [ fhir:v "B78" ] ;
+     fhir:display [ fhir:v "Anemia hemolítica hereditária" ]
+  ] [
+     fhir:code [ fhir:v "B79" ] ;
+     fhir:display [ fhir:v "Outra malformação congênita do sangue/linfática" ]
+  ] [
+     fhir:code [ fhir:v "B80" ] ;
+     fhir:display [ fhir:v "Anemia por deficiência de ferro" ]
+  ] [
+     fhir:code [ fhir:v "B81" ] ;
+     fhir:display [ fhir:v "Anemia perniciosa/deficiência de folatos" ]
+  ] [
+     fhir:code [ fhir:v "B82" ] ;
+     fhir:display [ fhir:v "Outras anemias NE" ]
+  ] [
+     fhir:code [ fhir:v "B83" ] ;
+     fhir:display [ fhir:v "Púrpura/defeitos de coagulação" ]
+  ] [
+     fhir:code [ fhir:v "B84" ] ;
+     fhir:display [ fhir:v "Glóbulos brancos anormais" ]
+  ] [
+     fhir:code [ fhir:v "B87" ] ;
+     fhir:display [ fhir:v "Esplenomegalia" ]
+  ] [
+     fhir:code [ fhir:v "B90" ] ;
+     fhir:display [ fhir:v "Infecção por VIH/ HIV/SIDA/ AIDS" ]
+  ] [
+     fhir:code [ fhir:v "B99" ] ;
+     fhir:display [ fhir:v "Outra doença do sangue/linfáticos/baço" ]
+  ] [
+     fhir:code [ fhir:v "D01" ] ;
+     fhir:display [ fhir:v "Dor abdominal generalizada/cólicas" ]
+  ] [
+     fhir:code [ fhir:v "D02" ] ;
+     fhir:display [ fhir:v "Dores abdominais, epigástricas" ]
+  ] [
+     fhir:code [ fhir:v "D03" ] ;
+     fhir:display [ fhir:v "Azia/ Queimação" ]
+  ] [
+     fhir:code [ fhir:v "D04" ] ;
+     fhir:display [ fhir:v "Dor anal/retal" ]
+  ] [
+     fhir:code [ fhir:v "D05" ] ;
+     fhir:display [ fhir:v "Irritação perianal" ]
+  ] [
+     fhir:code [ fhir:v "D06" ] ;
+     fhir:display [ fhir:v "Outras dores abdominais localizadas" ]
+  ] [
+     fhir:code [ fhir:v "D07" ] ;
+     fhir:display [ fhir:v "Dispepsia/indigestão" ]
+  ] [
+     fhir:code [ fhir:v "D08" ] ;
+     fhir:display [ fhir:v "Flatulência /gases/eructações" ]
+  ] [
+     fhir:code [ fhir:v "D09" ] ;
+     fhir:display [ fhir:v "Náusea" ]
+  ] [
+     fhir:code [ fhir:v "D10" ] ;
+     fhir:display [ fhir:v "Vomito" ]
+  ] [
+     fhir:code [ fhir:v "D11" ] ;
+     fhir:display [ fhir:v "Diarreia" ]
+  ] [
+     fhir:code [ fhir:v "D12" ] ;
+     fhir:display [ fhir:v "Obstipação" ]
+  ] [
+     fhir:code [ fhir:v "D13" ] ;
+     fhir:display [ fhir:v "Icterícia" ]
+  ] [
+     fhir:code [ fhir:v "D14" ] ;
+     fhir:display [ fhir:v "Hematêmese/vómito sangue" ]
+  ] [
+     fhir:code [ fhir:v "D15" ] ;
+     fhir:display [ fhir:v "Melena" ]
+  ] [
+     fhir:code [ fhir:v "D16" ] ;
+     fhir:display [ fhir:v "Hemorragia retal" ]
+  ] [
+     fhir:code [ fhir:v "D17" ] ;
+     fhir:display [ fhir:v "Incontinência fecal" ]
+  ] [
+     fhir:code [ fhir:v "D18" ] ;
+     fhir:display [ fhir:v "Alterações nas fezes/mov. intestinais" ]
+  ] [
+     fhir:code [ fhir:v "D19" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos dentes/gengivas" ]
+  ] [
+     fhir:code [ fhir:v "D20" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da boca/língua/lábios" ]
+  ] [
+     fhir:code [ fhir:v "D21" ] ;
+     fhir:display [ fhir:v "Problemas de deglutição" ]
+  ] [
+     fhir:code [ fhir:v "D23" ] ;
+     fhir:display [ fhir:v "Hepatomegalia" ]
+  ] [
+     fhir:code [ fhir:v "D24" ] ;
+     fhir:display [ fhir:v "Massa abdominal NE" ]
+  ] [
+     fhir:code [ fhir:v "D25" ] ;
+     fhir:display [ fhir:v "Distensão abdominal" ]
+  ] [
+     fhir:code [ fhir:v "D26" ] ;
+     fhir:display [ fhir:v "Medo de câncer no aparelho digestivo" ]
+  ] [
+     fhir:code [ fhir:v "D27" ] ;
+     fhir:display [ fhir:v "Medo de outras doenças aparelho digestivo" ]
+  ] [
+     fhir:code [ fhir:v "D28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "D29" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas digestivos" ]
+  ] [
+     fhir:code [ fhir:v "D70" ] ;
+     fhir:display [ fhir:v "Infecção gastrointestinal" ]
+  ] [
+     fhir:code [ fhir:v "D71" ] ;
+     fhir:display [ fhir:v "Caxumba/parotidite epidêmica" ]
+  ] [
+     fhir:code [ fhir:v "D72" ] ;
+     fhir:display [ fhir:v "Hepatite viral" ]
+  ] [
+     fhir:code [ fhir:v "D73" ] ;
+     fhir:display [ fhir:v "Gastroenterite, presumível infecção" ]
+  ] [
+     fhir:code [ fhir:v "D74" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do estômago" ]
+  ] [
+     fhir:code [ fhir:v "D75" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do cólon/reto" ]
+  ] [
+     fhir:code [ fhir:v "D76" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do pâncreas" ]
+  ] [
+     fhir:code [ fhir:v "D77" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do aparelho digestivo NE" ]
+  ] [
+     fhir:code [ fhir:v "D78" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna do aparelho digestivo/incerta" ]
+  ] [
+     fhir:code [ fhir:v "D79" ] ;
+     fhir:display [ fhir:v "Corpo estranho no aparelho digestivo" ]
+  ] [
+     fhir:code [ fhir:v "D80" ] ;
+     fhir:display [ fhir:v "Outras lesões traumáticas" ]
+  ] [
+     fhir:code [ fhir:v "D81" ] ;
+     fhir:display [ fhir:v "Malformações congênitas do aparelho digestivo" ]
+  ] [
+     fhir:code [ fhir:v "D82" ] ;
+     fhir:display [ fhir:v "Doença dos dentes/gengivas" ]
+  ] [
+     fhir:code [ fhir:v "D83" ] ;
+     fhir:display [ fhir:v "Doença da boca/língua/lábios" ]
+  ] [
+     fhir:code [ fhir:v "D84" ] ;
+     fhir:display [ fhir:v "Doença do esôfago" ]
+  ] [
+     fhir:code [ fhir:v "D85" ] ;
+     fhir:display [ fhir:v "Úlcera do duodeno" ]
+  ] [
+     fhir:code [ fhir:v "D86" ] ;
+     fhir:display [ fhir:v "Úlcera péptica, outra" ]
+  ] [
+     fhir:code [ fhir:v "D87" ] ;
+     fhir:display [ fhir:v "Alterações funcionais estômago" ]
+  ] [
+     fhir:code [ fhir:v "D88" ] ;
+     fhir:display [ fhir:v "Apendicite" ]
+  ] [
+     fhir:code [ fhir:v "D89" ] ;
+     fhir:display [ fhir:v "Hérnia inguinal" ]
+  ] [
+     fhir:code [ fhir:v "D90" ] ;
+     fhir:display [ fhir:v "Hérnia de hiato /diafragmática" ]
+  ] [
+     fhir:code [ fhir:v "D91" ] ;
+     fhir:display [ fhir:v "Hérnia abdominal, outras" ]
+  ] [
+     fhir:code [ fhir:v "D92" ] ;
+     fhir:display [ fhir:v "Doença diverticular intestinal" ]
+  ] [
+     fhir:code [ fhir:v "D93" ] ;
+     fhir:display [ fhir:v "Síndrome do cólon irritável" ]
+  ] [
+     fhir:code [ fhir:v "D94" ] ;
+     fhir:display [ fhir:v "Enterite crónica/colite ulcerosa" ]
+  ] [
+     fhir:code [ fhir:v "D95" ] ;
+     fhir:display [ fhir:v "Fissura anal / abcesso perianal" ]
+  ] [
+     fhir:code [ fhir:v "D96" ] ;
+     fhir:display [ fhir:v "Lombrigas /outros parasitas" ]
+  ] [
+     fhir:code [ fhir:v "D97" ] ;
+     fhir:display [ fhir:v "Doenças do fígado /NE" ]
+  ] [
+     fhir:code [ fhir:v "D98" ] ;
+     fhir:display [ fhir:v "Colecistite, colelitiase" ]
+  ] [
+     fhir:code [ fhir:v "D99" ] ;
+     fhir:display [ fhir:v "Outra doença do aparelho digestivo" ]
+  ] [
+     fhir:code [ fhir:v "F01" ] ;
+     fhir:display [ fhir:v "Dor no olho" ]
+  ] [
+     fhir:code [ fhir:v "F02" ] ;
+     fhir:display [ fhir:v "Olho vermelho" ]
+  ] [
+     fhir:code [ fhir:v "F03" ] ;
+     fhir:display [ fhir:v "Secreção ocular" ]
+  ] [
+     fhir:code [ fhir:v "F04" ] ;
+     fhir:display [ fhir:v "Moscas volantes/pontos luminosos/escotomas/ manchas" ]
+  ] [
+     fhir:code [ fhir:v "F05" ] ;
+     fhir:display [ fhir:v "Outras perturbações visuais" ]
+  ] [
+     fhir:code [ fhir:v "F13" ] ;
+     fhir:display [ fhir:v "Sensações oculares anormais" ]
+  ] [
+     fhir:code [ fhir:v "F14" ] ;
+     fhir:display [ fhir:v "Movimentos oculares anormais" ]
+  ] [
+     fhir:code [ fhir:v "F15" ] ;
+     fhir:display [ fhir:v "Aparência anormal nos olhos" ]
+  ] [
+     fhir:code [ fhir:v "F16" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas das pálpebras" ]
+  ] [
+     fhir:code [ fhir:v "F17" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas relacionados a óculos" ]
+  ] [
+     fhir:code [ fhir:v "F18" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas relacionados a lentes de contato" ]
+  ] [
+     fhir:code [ fhir:v "F27" ] ;
+     fhir:display [ fhir:v "Medo de doença ocular" ]
+  ] [
+     fhir:code [ fhir:v "F28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "F29" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas oculares" ]
+  ] [
+     fhir:code [ fhir:v "F70" ] ;
+     fhir:display [ fhir:v "Conjuntivite infecciosa" ]
+  ] [
+     fhir:code [ fhir:v "F71" ] ;
+     fhir:display [ fhir:v "Conjuntivite alérgica" ]
+  ] [
+     fhir:code [ fhir:v "F72" ] ;
+     fhir:display [ fhir:v "Blefarite/hordéolo/calázio" ]
+  ] [
+     fhir:code [ fhir:v "F73" ] ;
+     fhir:display [ fhir:v "Outras infecções/inflamações oculares" ]
+  ] [
+     fhir:code [ fhir:v "F74" ] ;
+     fhir:display [ fhir:v "Neoplasia do olho/anexos" ]
+  ] [
+     fhir:code [ fhir:v "F75" ] ;
+     fhir:display [ fhir:v "Contusão/hemorragia ocular" ]
+  ] [
+     fhir:code [ fhir:v "F76" ] ;
+     fhir:display [ fhir:v "Corpo estranho ocular" ]
+  ] [
+     fhir:code [ fhir:v "F79" ] ;
+     fhir:display [ fhir:v "Outras lesões traumáticas oculares" ]
+  ] [
+     fhir:code [ fhir:v "F80" ] ;
+     fhir:display [ fhir:v "Obstrução canal lacrimal da criança" ]
+  ] [
+     fhir:code [ fhir:v "F81" ] ;
+     fhir:display [ fhir:v "Outras malformações congênitas do olho" ]
+  ] [
+     fhir:code [ fhir:v "F82" ] ;
+     fhir:display [ fhir:v "Descolamento da retina" ]
+  ] [
+     fhir:code [ fhir:v "F83" ] ;
+     fhir:display [ fhir:v "Retinopatia" ]
+  ] [
+     fhir:code [ fhir:v "F84" ] ;
+     fhir:display [ fhir:v "Degeneração macular" ]
+  ] [
+     fhir:code [ fhir:v "F85" ] ;
+     fhir:display [ fhir:v "Ulcera da córnea" ]
+  ] [
+     fhir:code [ fhir:v "F86" ] ;
+     fhir:display [ fhir:v "Tracoma" ]
+  ] [
+     fhir:code [ fhir:v "F91" ] ;
+     fhir:display [ fhir:v "Erro de refração" ]
+  ] [
+     fhir:code [ fhir:v "F92" ] ;
+     fhir:display [ fhir:v "Catarata" ]
+  ] [
+     fhir:code [ fhir:v "F93" ] ;
+     fhir:display [ fhir:v "Glaucoma" ]
+  ] [
+     fhir:code [ fhir:v "F94" ] ;
+     fhir:display [ fhir:v "Cegueira" ]
+  ] [
+     fhir:code [ fhir:v "F95" ] ;
+     fhir:display [ fhir:v "Estrabismo" ]
+  ] [
+     fhir:code [ fhir:v "F99" ] ;
+     fhir:display [ fhir:v "Outra doenças oculares/anexos" ]
+  ] [
+     fhir:code [ fhir:v "H01" ] ;
+     fhir:display [ fhir:v "Dor de ouvidos" ]
+  ] [
+     fhir:code [ fhir:v "H02" ] ;
+     fhir:display [ fhir:v "Problemas de audição" ]
+  ] [
+     fhir:code [ fhir:v "H03" ] ;
+     fhir:display [ fhir:v "Acufeno, zumbidos, ruído, assobios" ]
+  ] [
+     fhir:code [ fhir:v "H04" ] ;
+     fhir:display [ fhir:v "Secreção no ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H05" ] ;
+     fhir:display [ fhir:v "Hemorragia no ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H13" ] ;
+     fhir:display [ fhir:v "Sensação de ouvido tapado" ]
+  ] [
+     fhir:code [ fhir:v "H15" ] ;
+     fhir:display [ fhir:v "Preocupação com a aparência das orelhas" ]
+  ] [
+     fhir:code [ fhir:v "H27" ] ;
+     fhir:display [ fhir:v "Medo de doença do ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "H29" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H70" ] ;
+     fhir:display [ fhir:v "Otite externa" ]
+  ] [
+     fhir:code [ fhir:v "H71" ] ;
+     fhir:display [ fhir:v "Otite media aguda/miringite" ]
+  ] [
+     fhir:code [ fhir:v "H72" ] ;
+     fhir:display [ fhir:v "Otite média serosa" ]
+  ] [
+     fhir:code [ fhir:v "H73" ] ;
+     fhir:display [ fhir:v "Infecção da Trompa de Eustáquio" ]
+  ] [
+     fhir:code [ fhir:v "H74" ] ;
+     fhir:display [ fhir:v "Otite media crónica" ]
+  ] [
+     fhir:code [ fhir:v "H75" ] ;
+     fhir:display [ fhir:v "Neoplasia do ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H76" ] ;
+     fhir:display [ fhir:v "Corpo estranho do ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H77" ] ;
+     fhir:display [ fhir:v "Perfuração do tímpano" ]
+  ] [
+     fhir:code [ fhir:v "H78" ] ;
+     fhir:display [ fhir:v "Traumatismo superficial do ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H79" ] ;
+     fhir:display [ fhir:v "Outros traumatismos do ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H80" ] ;
+     fhir:display [ fhir:v "Malformações congênitas do ouvido" ]
+  ] [
+     fhir:code [ fhir:v "H81" ] ;
+     fhir:display [ fhir:v "Cerúmen no ouvido em excesso" ]
+  ] [
+     fhir:code [ fhir:v "H82" ] ;
+     fhir:display [ fhir:v "Síndrome vertiginosa" ]
+  ] [
+     fhir:code [ fhir:v "H83" ] ;
+     fhir:display [ fhir:v "Otoesclerose" ]
+  ] [
+     fhir:code [ fhir:v "H84" ] ;
+     fhir:display [ fhir:v "Presbiacusia" ]
+  ] [
+     fhir:code [ fhir:v "H85" ] ;
+     fhir:display [ fhir:v "Lesão acústica" ]
+  ] [
+     fhir:code [ fhir:v "H86" ] ;
+     fhir:display [ fhir:v "Surdez" ]
+  ] [
+     fhir:code [ fhir:v "H99" ] ;
+     fhir:display [ fhir:v "Outra doença do ouvido/mastóide" ]
+  ] [
+     fhir:code [ fhir:v "K01" ] ;
+     fhir:display [ fhir:v "Dor atribuída ao coração" ]
+  ] [
+     fhir:code [ fhir:v "K02" ] ;
+     fhir:display [ fhir:v "Sensação de pressão/aperto atribuída ao coração" ]
+  ] [
+     fhir:code [ fhir:v "K03" ] ;
+     fhir:display [ fhir:v "Dores atribuídas ao aparelho circulatório NE" ]
+  ] [
+     fhir:code [ fhir:v "K04" ] ;
+     fhir:display [ fhir:v "Palpitações/percepção dos batimentos cardíacos" ]
+  ] [
+     fhir:code [ fhir:v "K05" ] ;
+     fhir:display [ fhir:v "Outras irregularidades dos batimentos cardíacos" ]
+  ] [
+     fhir:code [ fhir:v "K06" ] ;
+     fhir:display [ fhir:v "Veias proeminentes" ]
+  ] [
+     fhir:code [ fhir:v "K07" ] ;
+     fhir:display [ fhir:v "Tornozelos inchados/edema" ]
+  ] [
+     fhir:code [ fhir:v "K22" ] ;
+     fhir:display [ fhir:v "Fator de risco para doença cardiovascular" ]
+  ] [
+     fhir:code [ fhir:v "K24" ] ;
+     fhir:display [ fhir:v "Medo de doença cardíaca" ]
+  ] [
+     fhir:code [ fhir:v "K25" ] ;
+     fhir:display [ fhir:v "Medo de hipertensão" ]
+  ] [
+     fhir:code [ fhir:v "K27" ] ;
+     fhir:display [ fhir:v "Medo de outra doença cardiovascular" ]
+  ] [
+     fhir:code [ fhir:v "K28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "K29" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas cardiovasculares" ]
+  ] [
+     fhir:code [ fhir:v "K70" ] ;
+     fhir:display [ fhir:v "Doença infecciosa do aparelho circulatório" ]
+  ] [
+     fhir:code [ fhir:v "K71" ] ;
+     fhir:display [ fhir:v "Febre reumática/cardiopatia" ]
+  ] [
+     fhir:code [ fhir:v "K72" ] ;
+     fhir:display [ fhir:v "Neoplasia do aparelho circulatório" ]
+  ] [
+     fhir:code [ fhir:v "K73" ] ;
+     fhir:display [ fhir:v "Malformações congênitas do aparelho circulatório" ]
+  ] [
+     fhir:code [ fhir:v "K74" ] ;
+     fhir:display [ fhir:v "Doença cardíaca isquémica com angina" ]
+  ] [
+     fhir:code [ fhir:v "K75" ] ;
+     fhir:display [ fhir:v "Infarto ou Enfarte agudo miocárdio" ]
+  ] [
+     fhir:code [ fhir:v "K76" ] ;
+     fhir:display [ fhir:v "Doença cardíaca isquémica sem angina" ]
+  ] [
+     fhir:code [ fhir:v "K77" ] ;
+     fhir:display [ fhir:v "Insuficiência cardíaca" ]
+  ] [
+     fhir:code [ fhir:v "K78" ] ;
+     fhir:display [ fhir:v "Fibrilação/flutter auricular/ atrial" ]
+  ] [
+     fhir:code [ fhir:v "K79" ] ;
+     fhir:display [ fhir:v "Taquicardia Paroxística" ]
+  ] [
+     fhir:code [ fhir:v "K80" ] ;
+     fhir:display [ fhir:v "Arritmia cardíaca NE" ]
+  ] [
+     fhir:code [ fhir:v "K81" ] ;
+     fhir:display [ fhir:v "Sopro cardíaco/arterial NE" ]
+  ] [
+     fhir:code [ fhir:v "K82" ] ;
+     fhir:display [ fhir:v "Doença cardiopulmonar" ]
+  ] [
+     fhir:code [ fhir:v "K83" ] ;
+     fhir:display [ fhir:v "Doença valvular cardíaca NE" ]
+  ] [
+     fhir:code [ fhir:v "K84" ] ;
+     fhir:display [ fhir:v "Outras doenças cardíacas" ]
+  ] [
+     fhir:code [ fhir:v "K85" ] ;
+     fhir:display [ fhir:v "Pressão arterial elevada" ]
+  ] [
+     fhir:code [ fhir:v "K86" ] ;
+     fhir:display [ fhir:v "Hipertensão sem complicações" ]
+  ] [
+     fhir:code [ fhir:v "K87" ] ;
+     fhir:display [ fhir:v "Hipertensão com complicações" ]
+  ] [
+     fhir:code [ fhir:v "K88" ] ;
+     fhir:display [ fhir:v "Hipotensão postural" ]
+  ] [
+     fhir:code [ fhir:v "K89" ] ;
+     fhir:display [ fhir:v "Isquêmia/ acidente cerebral transitória(o)" ]
+  ] [
+     fhir:code [ fhir:v "K90" ] ;
+     fhir:display [ fhir:v "Trombose/acidente vascular cerebral" ]
+  ] [
+     fhir:code [ fhir:v "K91" ] ;
+     fhir:display [ fhir:v "Doença vascular cerebral" ]
+  ] [
+     fhir:code [ fhir:v "K92" ] ;
+     fhir:display [ fhir:v "Aterosclerose/doença vascular periférica" ]
+  ] [
+     fhir:code [ fhir:v "K93" ] ;
+     fhir:display [ fhir:v "Embolia pulmonar" ]
+  ] [
+     fhir:code [ fhir:v "K94" ] ;
+     fhir:display [ fhir:v "Flebite/tromboflebite" ]
+  ] [
+     fhir:code [ fhir:v "K95" ] ;
+     fhir:display [ fhir:v "Veias varicosas da perna" ]
+  ] [
+     fhir:code [ fhir:v "K96" ] ;
+     fhir:display [ fhir:v "Hemorróidas" ]
+  ] [
+     fhir:code [ fhir:v "K99" ] ;
+     fhir:display [ fhir:v "Outras doenças do aparelho circulatório" ]
+  ] [
+     fhir:code [ fhir:v "L01" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do pescoço" ]
+  ] [
+     fhir:code [ fhir:v "L02" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da região dorsal" ]
+  ] [
+     fhir:code [ fhir:v "L03" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da região lombar" ]
+  ] [
+     fhir:code [ fhir:v "L04" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do tórax" ]
+  ] [
+     fhir:code [ fhir:v "L05" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da axila" ]
+  ] [
+     fhir:code [ fhir:v "L07" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da mandíbula" ]
+  ] [
+     fhir:code [ fhir:v "L08" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos ombros" ]
+  ] [
+     fhir:code [ fhir:v "L09" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos braços" ]
+  ] [
+     fhir:code [ fhir:v "L10" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos cotovelos" ]
+  ] [
+     fhir:code [ fhir:v "L11" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos punhos" ]
+  ] [
+     fhir:code [ fhir:v "L12" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas das mãos e dedos" ]
+  ] [
+     fhir:code [ fhir:v "L13" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do quadril" ]
+  ] [
+     fhir:code [ fhir:v "L14" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da coxa/perna" ]
+  ] [
+     fhir:code [ fhir:v "L15" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do joelho" ]
+  ] [
+     fhir:code [ fhir:v "L16" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do tornozelo" ]
+  ] [
+     fhir:code [ fhir:v "L17" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do pé/dedos pé" ]
+  ] [
+     fhir:code [ fhir:v "L18" ] ;
+     fhir:display [ fhir:v "Dores musculares" ]
+  ] [
+     fhir:code [ fhir:v "L19" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas musculares NE" ]
+  ] [
+     fhir:code [ fhir:v "L20" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas das articulações NE" ]
+  ] [
+     fhir:code [ fhir:v "L26" ] ;
+     fhir:display [ fhir:v "Medo de câncer no aparelho músculo-esquelético" ]
+  ] [
+     fhir:code [ fhir:v "L27" ] ;
+     fhir:display [ fhir:v "Medo de doença no aparelho músculo-esquelético, outro" ]
+  ] [
+     fhir:code [ fhir:v "L28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "L29" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas do aparelho músculo-esquelético" ]
+  ] [
+     fhir:code [ fhir:v "L70" ] ;
+     fhir:display [ fhir:v "Infecções do aparelho músculo-esquelético" ]
+  ] [
+     fhir:code [ fhir:v "L71" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do aparelho músculo-esquelético" ]
+  ] [
+     fhir:code [ fhir:v "L72" ] ;
+     fhir:display [ fhir:v "Fratura: rádio/cúbito" ]
+  ] [
+     fhir:code [ fhir:v "L73" ] ;
+     fhir:display [ fhir:v "Fratura: tíbia/perônio/ fíbula" ]
+  ] [
+     fhir:code [ fhir:v "L74" ] ;
+     fhir:display [ fhir:v "Fratura: osso da mão/pé" ]
+  ] [
+     fhir:code [ fhir:v "L75" ] ;
+     fhir:display [ fhir:v "Fratura: fémur" ]
+  ] [
+     fhir:code [ fhir:v "L76" ] ;
+     fhir:display [ fhir:v "Outras fraturas" ]
+  ] [
+     fhir:code [ fhir:v "L77" ] ;
+     fhir:display [ fhir:v "Entorses e distensões do tornozelo" ]
+  ] [
+     fhir:code [ fhir:v "L78" ] ;
+     fhir:display [ fhir:v "Entorses e distensões do joelho" ]
+  ] [
+     fhir:code [ fhir:v "L79" ] ;
+     fhir:display [ fhir:v "Entorses e distensões das articulações NE" ]
+  ] [
+     fhir:code [ fhir:v "L80" ] ;
+     fhir:display [ fhir:v "Luxação/subluxação" ]
+  ] [
+     fhir:code [ fhir:v "L81" ] ;
+     fhir:display [ fhir:v "Traumatismos do aparelho musculoesquelético NE" ]
+  ] [
+     fhir:code [ fhir:v "L82" ] ;
+     fhir:display [ fhir:v "Malformações congênitas do aparelho músculo-esquelético" ]
+  ] [
+     fhir:code [ fhir:v "L83" ] ;
+     fhir:display [ fhir:v "Doenças ou síndromes da coluna cervical" ]
+  ] [
+     fhir:code [ fhir:v "L84" ] ;
+     fhir:display [ fhir:v "Doenças ou síndromes da coluna sem irradiação de dor" ]
+  ] [
+     fhir:code [ fhir:v "L85" ] ;
+     fhir:display [ fhir:v "Deformação adquirida da coluna" ]
+  ] [
+     fhir:code [ fhir:v "L86" ] ;
+     fhir:display [ fhir:v "Síndrome vertebral com irradiação dor" ]
+  ] [
+     fhir:code [ fhir:v "L87" ] ;
+     fhir:display [ fhir:v "Bursite/tendinite/sinovite NE" ]
+  ] [
+     fhir:code [ fhir:v "L88" ] ;
+     fhir:display [ fhir:v "Artrite reumatóide/seropositiva" ]
+  ] [
+     fhir:code [ fhir:v "L89" ] ;
+     fhir:display [ fhir:v "Osteoartrose do quadril" ]
+  ] [
+     fhir:code [ fhir:v "L90" ] ;
+     fhir:display [ fhir:v "Osteoartrose do joelho" ]
+  ] [
+     fhir:code [ fhir:v "L91" ] ;
+     fhir:display [ fhir:v "Outras osteoartroses" ]
+  ] [
+     fhir:code [ fhir:v "L92" ] ;
+     fhir:display [ fhir:v "Síndrome do ombro doloroso" ]
+  ] [
+     fhir:code [ fhir:v "L93" ] ;
+     fhir:display [ fhir:v "Cotovelo de tenista" ]
+  ] [
+     fhir:code [ fhir:v "L94" ] ;
+     fhir:display [ fhir:v "Osteocondrose" ]
+  ] [
+     fhir:code [ fhir:v "L95" ] ;
+     fhir:display [ fhir:v "Osteoporose" ]
+  ] [
+     fhir:code [ fhir:v "L96" ] ;
+     fhir:display [ fhir:v "Lesão interna aguda do joelho" ]
+  ] [
+     fhir:code [ fhir:v "L97" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna/incertas" ]
+  ] [
+     fhir:code [ fhir:v "L98" ] ;
+     fhir:display [ fhir:v "Malformação adquirida de um membro" ]
+  ] [
+     fhir:code [ fhir:v "L99" ] ;
+     fhir:display [ fhir:v "Outra doença do aparelho músculo-esquelético" ]
+  ] [
+     fhir:code [ fhir:v "N01" ] ;
+     fhir:display [ fhir:v "Cefaléia" ]
+  ] [
+     fhir:code [ fhir:v "N03" ] ;
+     fhir:display [ fhir:v "Dores da face" ]
+  ] [
+     fhir:code [ fhir:v "N04" ] ;
+     fhir:display [ fhir:v "Síndrome das pernas inquietas" ]
+  ] [
+     fhir:code [ fhir:v "N05" ] ;
+     fhir:display [ fhir:v "Formigamento/ parestesia nos dedos das mãos/pés" ]
+  ] [
+     fhir:code [ fhir:v "N06" ] ;
+     fhir:display [ fhir:v "Outras alterações da sensibilidade" ]
+  ] [
+     fhir:code [ fhir:v "N07" ] ;
+     fhir:display [ fhir:v "Convulsões/ataques" ]
+  ] [
+     fhir:code [ fhir:v "N08" ] ;
+     fhir:display [ fhir:v "Movimentos involuntários anormais" ]
+  ] [
+     fhir:code [ fhir:v "N16" ] ;
+     fhir:display [ fhir:v "Alterações do olfato/gosto" ]
+  ] [
+     fhir:code [ fhir:v "N17" ] ;
+     fhir:display [ fhir:v "Vertigens/tonturas" ]
+  ] [
+     fhir:code [ fhir:v "N18" ] ;
+     fhir:display [ fhir:v "Paralisia/fraqueza" ]
+  ] [
+     fhir:code [ fhir:v "N19" ] ;
+     fhir:display [ fhir:v "Perturbações da fala" ]
+  ] [
+     fhir:code [ fhir:v "N26" ] ;
+     fhir:display [ fhir:v "Medo de câncer do sistema neurológico" ]
+  ] [
+     fhir:code [ fhir:v "N27" ] ;
+     fhir:display [ fhir:v "Medo de outras doenças neurológicas" ]
+  ] [
+     fhir:code [ fhir:v "N28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "N29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do sistema neurológico, outros" ]
+  ] [
+     fhir:code [ fhir:v "N70" ] ;
+     fhir:display [ fhir:v "Poliomielite" ]
+  ] [
+     fhir:code [ fhir:v "N71" ] ;
+     fhir:display [ fhir:v "Meningite/encefalite" ]
+  ] [
+     fhir:code [ fhir:v "N72" ] ;
+     fhir:display [ fhir:v "Tétano" ]
+  ] [
+     fhir:code [ fhir:v "N73" ] ;
+     fhir:display [ fhir:v "Outra infecção neurológica" ]
+  ] [
+     fhir:code [ fhir:v "N74" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do sistema neurológico" ]
+  ] [
+     fhir:code [ fhir:v "N75" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna do sistema neurológico" ]
+  ] [
+     fhir:code [ fhir:v "N76" ] ;
+     fhir:display [ fhir:v "Neoplasia do sistema neurológico de natureza incerta" ]
+  ] [
+     fhir:code [ fhir:v "N79" ] ;
+     fhir:display [ fhir:v "Concussão" ]
+  ] [
+     fhir:code [ fhir:v "N80" ] ;
+     fhir:display [ fhir:v "Outras lesões cranianas" ]
+  ] [
+     fhir:code [ fhir:v "N81" ] ;
+     fhir:display [ fhir:v "Outra lesão do sistema neurológico" ]
+  ] [
+     fhir:code [ fhir:v "N85" ] ;
+     fhir:display [ fhir:v "Malformações congênitas" ]
+  ] [
+     fhir:code [ fhir:v "N86" ] ;
+     fhir:display [ fhir:v "Esclerose múltipla" ]
+  ] [
+     fhir:code [ fhir:v "N87" ] ;
+     fhir:display [ fhir:v "Parkinsonismo" ]
+  ] [
+     fhir:code [ fhir:v "N88" ] ;
+     fhir:display [ fhir:v "Epilepsia" ]
+  ] [
+     fhir:code [ fhir:v "N89" ] ;
+     fhir:display [ fhir:v "Enxaqueca" ]
+  ] [
+     fhir:code [ fhir:v "N90" ] ;
+     fhir:display [ fhir:v "Cefaléia de cluster" ]
+  ] [
+     fhir:code [ fhir:v "N91" ] ;
+     fhir:display [ fhir:v "Paralisia facial/paralisia de Bell" ]
+  ] [
+     fhir:code [ fhir:v "N92" ] ;
+     fhir:display [ fhir:v "Nevralgia do trigémio" ]
+  ] [
+     fhir:code [ fhir:v "N93" ] ;
+     fhir:display [ fhir:v "Síndrome do túnel do carpo/ Síndrome do canal cárpico" ]
+  ] [
+     fhir:code [ fhir:v "N94" ] ;
+     fhir:display [ fhir:v "Neurite/ Nevrite/neuropatia periférica" ]
+  ] [
+     fhir:code [ fhir:v "N95" ] ;
+     fhir:display [ fhir:v "Cefaléia tensional" ]
+  ] [
+     fhir:code [ fhir:v "N99" ] ;
+     fhir:display [ fhir:v "Outras doenças do sistema neurológico" ]
+  ] [
+     fhir:code [ fhir:v "P01" ] ;
+     fhir:display [ fhir:v "Sensação de ansiedade/nervosismo/tensão" ]
+  ] [
+     fhir:code [ fhir:v "P02" ] ;
+     fhir:display [ fhir:v "Reação aguda ao estresse" ]
+  ] [
+     fhir:code [ fhir:v "P03" ] ;
+     fhir:display [ fhir:v "Tristeza/ Sensação de depressão" ]
+  ] [
+     fhir:code [ fhir:v "P04" ] ;
+     fhir:display [ fhir:v "Sentir/comportar-se de forma irritável/zangada" ]
+  ] [
+     fhir:code [ fhir:v "P05" ] ;
+     fhir:display [ fhir:v "Sensação/comportamento senil" ]
+  ] [
+     fhir:code [ fhir:v "P06" ] ;
+     fhir:display [ fhir:v "Perturbação do sono" ]
+  ] [
+     fhir:code [ fhir:v "P07" ] ;
+     fhir:display [ fhir:v "Diminuição do desejo sexual" ]
+  ] [
+     fhir:code [ fhir:v "P08" ] ;
+     fhir:display [ fhir:v "Diminuição da satisfação sexual" ]
+  ] [
+     fhir:code [ fhir:v "P09" ] ;
+     fhir:display [ fhir:v "Preocupação com a preferência sexual" ]
+  ] [
+     fhir:code [ fhir:v "P10" ] ;
+     fhir:display [ fhir:v "Gaguejar/balbuciar/tiques" ]
+  ] [
+     fhir:code [ fhir:v "P11" ] ;
+     fhir:display [ fhir:v "Problemas de alimentação da criança" ]
+  ] [
+     fhir:code [ fhir:v "P12" ] ;
+     fhir:display [ fhir:v "Molhar a cama/enurese" ]
+  ] [
+     fhir:code [ fhir:v "P13" ] ;
+     fhir:display [ fhir:v "Encoprese/outros problemas de incontinência fecal" ]
+  ] [
+     fhir:code [ fhir:v "P15" ] ;
+     fhir:display [ fhir:v "Abuso crônico de álcool" ]
+  ] [
+     fhir:code [ fhir:v "P16" ] ;
+     fhir:display [ fhir:v "Abuso agudo de álcool" ]
+  ] [
+     fhir:code [ fhir:v "P17" ] ;
+     fhir:display [ fhir:v "Abuso do tabaco" ]
+  ] [
+     fhir:code [ fhir:v "P18" ] ;
+     fhir:display [ fhir:v "Abuso de medicação" ]
+  ] [
+     fhir:code [ fhir:v "P19" ] ;
+     fhir:display [ fhir:v "Abuso de drogas" ]
+  ] [
+     fhir:code [ fhir:v "P20" ] ;
+     fhir:display [ fhir:v "Alterações da memória" ]
+  ] [
+     fhir:code [ fhir:v "P22" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas relacionados ao comportamento da criança" ]
+  ] [
+     fhir:code [ fhir:v "P23" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas relacionados ao comportamento do adolescente" ]
+  ] [
+     fhir:code [ fhir:v "P24" ] ;
+     fhir:display [ fhir:v "Dificuldades especificas de aprendizagem" ]
+  ] [
+     fhir:code [ fhir:v "P25" ] ;
+     fhir:display [ fhir:v "Problemas da fase de vida de adulto" ]
+  ] [
+     fhir:code [ fhir:v "P27" ] ;
+     fhir:display [ fhir:v "Medo de perturbações mentais" ]
+  ] [
+     fhir:code [ fhir:v "P28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "P29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas psicológicos, outros" ]
+  ] [
+     fhir:code [ fhir:v "P70" ] ;
+     fhir:display [ fhir:v "Demência" ]
+  ] [
+     fhir:code [ fhir:v "P71" ] ;
+     fhir:display [ fhir:v "Outras psicoses orgânicas NE" ]
+  ] [
+     fhir:code [ fhir:v "P72" ] ;
+     fhir:display [ fhir:v "Esquizofrenia" ]
+  ] [
+     fhir:code [ fhir:v "P73" ] ;
+     fhir:display [ fhir:v "Psicose afetiva" ]
+  ] [
+     fhir:code [ fhir:v "P74" ] ;
+     fhir:display [ fhir:v "Distúrbio ansioso/estado de ansiedade" ]
+  ] [
+     fhir:code [ fhir:v "P75" ] ;
+     fhir:display [ fhir:v "Somatização" ]
+  ] [
+     fhir:code [ fhir:v "P76" ] ;
+     fhir:display [ fhir:v "Perturbações depressivas" ]
+  ] [
+     fhir:code [ fhir:v "P77" ] ;
+     fhir:display [ fhir:v "Suicídio/tentativa de suicídio" ]
+  ] [
+     fhir:code [ fhir:v "P78" ] ;
+     fhir:display [ fhir:v "Neurastenia" ]
+  ] [
+     fhir:code [ fhir:v "P79" ] ;
+     fhir:display [ fhir:v "Fobia/perturbação compulsiva" ]
+  ] [
+     fhir:code [ fhir:v "P80" ] ;
+     fhir:display [ fhir:v "Perturbações de personalidade" ]
+  ] [
+     fhir:code [ fhir:v "P81" ] ;
+     fhir:display [ fhir:v "Perturbação hipercinética" ]
+  ] [
+     fhir:code [ fhir:v "P82" ] ;
+     fhir:display [ fhir:v "Estresse pós traumático" ]
+  ] [
+     fhir:code [ fhir:v "P85" ] ;
+     fhir:display [ fhir:v "Retardo/ Atraso mental" ]
+  ] [
+     fhir:code [ fhir:v "P86" ] ;
+     fhir:display [ fhir:v "Anorexia nervosa, bulimia" ]
+  ] [
+     fhir:code [ fhir:v "P98" ] ;
+     fhir:display [ fhir:v "Outras psicoses NE" ]
+  ] [
+     fhir:code [ fhir:v "P99" ] ;
+     fhir:display [ fhir:v "Outras perturbações psicológicas" ]
+  ] [
+     fhir:code [ fhir:v "R01" ] ;
+     fhir:display [ fhir:v "Dor atribuída ao aparelho respiratório" ]
+  ] [
+     fhir:code [ fhir:v "R02" ] ;
+     fhir:display [ fhir:v "Dificuldade respiratória, dispneia" ]
+  ] [
+     fhir:code [ fhir:v "R03" ] ;
+     fhir:display [ fhir:v "Respiração ruidosa" ]
+  ] [
+     fhir:code [ fhir:v "R04" ] ;
+     fhir:display [ fhir:v "Outros problemas respiratórios" ]
+  ] [
+     fhir:code [ fhir:v "R05" ] ;
+     fhir:display [ fhir:v "Tosse" ]
+  ] [
+     fhir:code [ fhir:v "R06" ] ;
+     fhir:display [ fhir:v "Hemorragia nasal/epistaxe" ]
+  ] [
+     fhir:code [ fhir:v "R07" ] ;
+     fhir:display [ fhir:v "Espirro/congestão nasal" ]
+  ] [
+     fhir:code [ fhir:v "R08" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas nasais" ]
+  ] [
+     fhir:code [ fhir:v "R09" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos seios paranasais" ]
+  ] [
+     fhir:code [ fhir:v "R21" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da garganta" ]
+  ] [
+     fhir:code [ fhir:v "R23" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da voz" ]
+  ] [
+     fhir:code [ fhir:v "R24" ] ;
+     fhir:display [ fhir:v "Hemoptise" ]
+  ] [
+     fhir:code [ fhir:v "R25" ] ;
+     fhir:display [ fhir:v "Expectoração/mucosidade anormal" ]
+  ] [
+     fhir:code [ fhir:v "R26" ] ;
+     fhir:display [ fhir:v "Medo de câncer do aparelho respiratório" ]
+  ] [
+     fhir:code [ fhir:v "R27" ] ;
+     fhir:display [ fhir:v "Medo de outras doenças respiratórias" ]
+  ] [
+     fhir:code [ fhir:v "R28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "R29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do aparelho respiratório, outros" ]
+  ] [
+     fhir:code [ fhir:v "R71" ] ;
+     fhir:display [ fhir:v "Tosse convulsa/ pertussis" ]
+  ] [
+     fhir:code [ fhir:v "R72" ] ;
+     fhir:display [ fhir:v "Infecção estreptocócica da orofaringe" ]
+  ] [
+     fhir:code [ fhir:v "R73" ] ;
+     fhir:display [ fhir:v "Abcesso/furúnculo no nariz" ]
+  ] [
+     fhir:code [ fhir:v "R74" ] ;
+     fhir:display [ fhir:v "Infecção aguda do aparelho respiratório superior (IVAS)" ]
+  ] [
+     fhir:code [ fhir:v "R75" ] ;
+     fhir:display [ fhir:v "Sinusite crónica/aguda" ]
+  ] [
+     fhir:code [ fhir:v "R76" ] ;
+     fhir:display [ fhir:v "Amigdalite aguda" ]
+  ] [
+     fhir:code [ fhir:v "R77" ] ;
+     fhir:display [ fhir:v "Laringite/traqueíte aguda" ]
+  ] [
+     fhir:code [ fhir:v "R78" ] ;
+     fhir:display [ fhir:v "Bronquite/bronquiolite aguda" ]
+  ] [
+     fhir:code [ fhir:v "R79" ] ;
+     fhir:display [ fhir:v "Bronquite crônica" ]
+  ] [
+     fhir:code [ fhir:v "R80" ] ;
+     fhir:display [ fhir:v "Gripe" ]
+  ] [
+     fhir:code [ fhir:v "R81" ] ;
+     fhir:display [ fhir:v "Pneumonia" ]
+  ] [
+     fhir:code [ fhir:v "R82" ] ;
+     fhir:display [ fhir:v "Pleurite/derrame pleural" ]
+  ] [
+     fhir:code [ fhir:v "R83" ] ;
+     fhir:display [ fhir:v "Outra infecção respiratória" ]
+  ] [
+     fhir:code [ fhir:v "R84" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna dos brônquios/pulmão" ]
+  ] [
+     fhir:code [ fhir:v "R85" ] ;
+     fhir:display [ fhir:v "Outra neoplasia respiratória maligna" ]
+  ] [
+     fhir:code [ fhir:v "R86" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna respiratória" ]
+  ] [
+     fhir:code [ fhir:v "R87" ] ;
+     fhir:display [ fhir:v "Corpo estranho nariz/laringe/brônquios" ]
+  ] [
+     fhir:code [ fhir:v "R88" ] ;
+     fhir:display [ fhir:v "Outra lesão respiratória" ]
+  ] [
+     fhir:code [ fhir:v "R89" ] ;
+     fhir:display [ fhir:v "Malformação congénita do aparelho respiratório" ]
+  ] [
+     fhir:code [ fhir:v "R90" ] ;
+     fhir:display [ fhir:v "Hipertrofia das amígdalas/adenóides" ]
+  ] [
+     fhir:code [ fhir:v "R92" ] ;
+     fhir:display [ fhir:v "Neoplasia respiratória NE" ]
+  ] [
+     fhir:code [ fhir:v "R95" ] ;
+     fhir:display [ fhir:v "Doença pulmonar obstrutiva crónica" ]
+  ] [
+     fhir:code [ fhir:v "R96" ] ;
+     fhir:display [ fhir:v "Asma" ]
+  ] [
+     fhir:code [ fhir:v "R97" ] ;
+     fhir:display [ fhir:v "Rinite alérgica" ]
+  ] [
+     fhir:code [ fhir:v "R98" ] ;
+     fhir:display [ fhir:v "Síndrome de hiperventilação" ]
+  ] [
+     fhir:code [ fhir:v "R99" ] ;
+     fhir:display [ fhir:v "Outras doenças respiratórias" ]
+  ] [
+     fhir:code [ fhir:v "S01" ] ;
+     fhir:display [ fhir:v "Dor/sensibilidade dolorosa da pele" ]
+  ] [
+     fhir:code [ fhir:v "S02" ] ;
+     fhir:display [ fhir:v "Prurido" ]
+  ] [
+     fhir:code [ fhir:v "S03" ] ;
+     fhir:display [ fhir:v "Verrugas" ]
+  ] [
+     fhir:code [ fhir:v "S04" ] ;
+     fhir:display [ fhir:v "Tumor/inchaço localizado" ]
+  ] [
+     fhir:code [ fhir:v "S05" ] ;
+     fhir:display [ fhir:v "Tumores/inchaços generalizados" ]
+  ] [
+     fhir:code [ fhir:v "S06" ] ;
+     fhir:display [ fhir:v "Erupção cutânea localizada" ]
+  ] [
+     fhir:code [ fhir:v "S07" ] ;
+     fhir:display [ fhir:v "Erupção cutânea generalizada" ]
+  ] [
+     fhir:code [ fhir:v "S08" ] ;
+     fhir:display [ fhir:v "Alterações da cor da pele" ]
+  ] [
+     fhir:code [ fhir:v "S09" ] ;
+     fhir:display [ fhir:v "Infecção dos dedos das mãos/pés" ]
+  ] [
+     fhir:code [ fhir:v "S10" ] ;
+     fhir:display [ fhir:v "Furúnculo/carbúnculo" ]
+  ] [
+     fhir:code [ fhir:v "S11" ] ;
+     fhir:display [ fhir:v "Infecção pós-traumática da pele" ]
+  ] [
+     fhir:code [ fhir:v "S12" ] ;
+     fhir:display [ fhir:v "Picada ou mordedura de inseto" ]
+  ] [
+     fhir:code [ fhir:v "S13" ] ;
+     fhir:display [ fhir:v "Mordedura animal/humana" ]
+  ] [
+     fhir:code [ fhir:v "S14" ] ;
+     fhir:display [ fhir:v "Queimadura/escaldão" ]
+  ] [
+     fhir:code [ fhir:v "S15" ] ;
+     fhir:display [ fhir:v "Corpo estranho na pele" ]
+  ] [
+     fhir:code [ fhir:v "S16" ] ;
+     fhir:display [ fhir:v "Traumatismo/contusão" ]
+  ] [
+     fhir:code [ fhir:v "S17" ] ;
+     fhir:display [ fhir:v "Abrasão/arranhão/bolhas" ]
+  ] [
+     fhir:code [ fhir:v "S18" ] ;
+     fhir:display [ fhir:v "Laceração/corte" ]
+  ] [
+     fhir:code [ fhir:v "S19" ] ;
+     fhir:display [ fhir:v "Outra lesão cutânea" ]
+  ] [
+     fhir:code [ fhir:v "S20" ] ;
+     fhir:display [ fhir:v "Calos/calosidades" ]
+  ] [
+     fhir:code [ fhir:v "S21" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da textura da pele" ]
+  ] [
+     fhir:code [ fhir:v "S22" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas das unhas" ]
+  ] [
+     fhir:code [ fhir:v "S23" ] ;
+     fhir:display [ fhir:v "Queda de cabelo/calvície" ]
+  ] [
+     fhir:code [ fhir:v "S24" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do cabelo/couro cabeludo" ]
+  ] [
+     fhir:code [ fhir:v "S26" ] ;
+     fhir:display [ fhir:v "Medo de câncer de pele" ]
+  ] [
+     fhir:code [ fhir:v "S27" ] ;
+     fhir:display [ fhir:v "Medo de outra doença da pele" ]
+  ] [
+     fhir:code [ fhir:v "S28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "S29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da pele, outros" ]
+  ] [
+     fhir:code [ fhir:v "S70" ] ;
+     fhir:display [ fhir:v "Herpes zoster" ]
+  ] [
+     fhir:code [ fhir:v "S71" ] ;
+     fhir:display [ fhir:v "Herpes simples" ]
+  ] [
+     fhir:code [ fhir:v "S72" ] ;
+     fhir:display [ fhir:v "Escabiose/outras acaríases" ]
+  ] [
+     fhir:code [ fhir:v "S73" ] ;
+     fhir:display [ fhir:v "Pediculose/outras infecções da pele" ]
+  ] [
+     fhir:code [ fhir:v "S74" ] ;
+     fhir:display [ fhir:v "Dermatofitose" ]
+  ] [
+     fhir:code [ fhir:v "S75" ] ;
+     fhir:display [ fhir:v "Monilíase oral/candidíase na pele" ]
+  ] [
+     fhir:code [ fhir:v "S76" ] ;
+     fhir:display [ fhir:v "Outras infecções da pele" ]
+  ] [
+     fhir:code [ fhir:v "S77" ] ;
+     fhir:display [ fhir:v "Neoplasias malignas da pele" ]
+  ] [
+     fhir:code [ fhir:v "S78" ] ;
+     fhir:display [ fhir:v "Lipoma" ]
+  ] [
+     fhir:code [ fhir:v "S79" ] ;
+     fhir:display [ fhir:v "Neoplasia cutânea benigna/incerta" ]
+  ] [
+     fhir:code [ fhir:v "S80" ] ;
+     fhir:display [ fhir:v "Ceratose/ Queratose solar/queimadura solar" ]
+  ] [
+     fhir:code [ fhir:v "S81" ] ;
+     fhir:display [ fhir:v "Hemangioma/linfangioma" ]
+  ] [
+     fhir:code [ fhir:v "S82" ] ;
+     fhir:display [ fhir:v "Nevos/sinais da pele" ]
+  ] [
+     fhir:code [ fhir:v "S83" ] ;
+     fhir:display [ fhir:v "Lesões da pele congênitas, outras" ]
+  ] [
+     fhir:code [ fhir:v "S84" ] ;
+     fhir:display [ fhir:v "Impetigo" ]
+  ] [
+     fhir:code [ fhir:v "S85" ] ;
+     fhir:display [ fhir:v "Cisto pilonidal/fistula" ]
+  ] [
+     fhir:code [ fhir:v "S86" ] ;
+     fhir:display [ fhir:v "Dermatite seborreica" ]
+  ] [
+     fhir:code [ fhir:v "S87" ] ;
+     fhir:display [ fhir:v "Dermatite/eczema atópico" ]
+  ] [
+     fhir:code [ fhir:v "S88" ] ;
+     fhir:display [ fhir:v "Dermatite de contato/alérgica" ]
+  ] [
+     fhir:code [ fhir:v "S89" ] ;
+     fhir:display [ fhir:v "Dermatite das fraldas" ]
+  ] [
+     fhir:code [ fhir:v "S90" ] ;
+     fhir:display [ fhir:v "Pitiríase rosada" ]
+  ] [
+     fhir:code [ fhir:v "S91" ] ;
+     fhir:display [ fhir:v "Psoríase" ]
+  ] [
+     fhir:code [ fhir:v "S92" ] ;
+     fhir:display [ fhir:v "Doença das glândulas sudoríparas" ]
+  ] [
+     fhir:code [ fhir:v "S93" ] ;
+     fhir:display [ fhir:v "Cisto sebáceo" ]
+  ] [
+     fhir:code [ fhir:v "S94" ] ;
+     fhir:display [ fhir:v "Unha encravada" ]
+  ] [
+     fhir:code [ fhir:v "S95" ] ;
+     fhir:display [ fhir:v "Molusco contagioso" ]
+  ] [
+     fhir:code [ fhir:v "S96" ] ;
+     fhir:display [ fhir:v "Acne" ]
+  ] [
+     fhir:code [ fhir:v "S97" ] ;
+     fhir:display [ fhir:v "Úlcera crónica da pele" ]
+  ] [
+     fhir:code [ fhir:v "S98" ] ;
+     fhir:display [ fhir:v "Urticária" ]
+  ] [
+     fhir:code [ fhir:v "S99" ] ;
+     fhir:display [ fhir:v "Outras doenças da pele" ]
+  ] [
+     fhir:code [ fhir:v "T01" ] ;
+     fhir:display [ fhir:v "Sede excessiva" ]
+  ] [
+     fhir:code [ fhir:v "T02" ] ;
+     fhir:display [ fhir:v "Apetite excessivo" ]
+  ] [
+     fhir:code [ fhir:v "T03" ] ;
+     fhir:display [ fhir:v "Perda de apetite" ]
+  ] [
+     fhir:code [ fhir:v "T04" ] ;
+     fhir:display [ fhir:v "Problemas alimentares de lactente/criança" ]
+  ] [
+     fhir:code [ fhir:v "T05" ] ;
+     fhir:display [ fhir:v "Problemas alimentares do adulto" ]
+  ] [
+     fhir:code [ fhir:v "T07" ] ;
+     fhir:display [ fhir:v "Aumento de peso" ]
+  ] [
+     fhir:code [ fhir:v "T08" ] ;
+     fhir:display [ fhir:v "Perda de peso" ]
+  ] [
+     fhir:code [ fhir:v "T10" ] ;
+     fhir:display [ fhir:v "Atraso do crescimento" ]
+  ] [
+     fhir:code [ fhir:v "T11" ] ;
+     fhir:display [ fhir:v "Desidratação" ]
+  ] [
+     fhir:code [ fhir:v "T26" ] ;
+     fhir:display [ fhir:v "Medo de câncer do sistema endócrino" ]
+  ] [
+     fhir:code [ fhir:v "T27" ] ;
+     fhir:display [ fhir:v "Medo de outra doença endócrina/metabólica" ]
+  ] [
+     fhir:code [ fhir:v "T28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "T29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas endocrinológicos/metabolicos/nutricionais, outros" ]
+  ] [
+     fhir:code [ fhir:v "T70" ] ;
+     fhir:display [ fhir:v "Infecção endócrina" ]
+  ] [
+     fhir:code [ fhir:v "T71" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna da tiróide" ]
+  ] [
+     fhir:code [ fhir:v "T72" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna da tiróide" ]
+  ] [
+     fhir:code [ fhir:v "T73" ] ;
+     fhir:display [ fhir:v "Outra neoplasia endócrina NE" ]
+  ] [
+     fhir:code [ fhir:v "T78" ] ;
+     fhir:display [ fhir:v "Cisto do canal tiroglosso" ]
+  ] [
+     fhir:code [ fhir:v "T80" ] ;
+     fhir:display [ fhir:v "Malformação congénita endócrina/metabólica" ]
+  ] [
+     fhir:code [ fhir:v "T81" ] ;
+     fhir:display [ fhir:v "Bócio" ]
+  ] [
+     fhir:code [ fhir:v "T82" ] ;
+     fhir:display [ fhir:v "Obesidade" ]
+  ] [
+     fhir:code [ fhir:v "T83" ] ;
+     fhir:display [ fhir:v "Excesso de peso" ]
+  ] [
+     fhir:code [ fhir:v "T85" ] ;
+     fhir:display [ fhir:v "Hipertiroidismo/tireotoxicose" ]
+  ] [
+     fhir:code [ fhir:v "T86" ] ;
+     fhir:display [ fhir:v "Hipotiroidismo/mixedema" ]
+  ] [
+     fhir:code [ fhir:v "T87" ] ;
+     fhir:display [ fhir:v "Hipoglicemia" ]
+  ] [
+     fhir:code [ fhir:v "T89" ] ;
+     fhir:display [ fhir:v "Diabetes insulino-dependente" ]
+  ] [
+     fhir:code [ fhir:v "T90" ] ;
+     fhir:display [ fhir:v "Diabetes não insulino-dependente" ]
+  ] [
+     fhir:code [ fhir:v "T91" ] ;
+     fhir:display [ fhir:v "Deficiência vitamínica/nutricional" ]
+  ] [
+     fhir:code [ fhir:v "T92" ] ;
+     fhir:display [ fhir:v "Gota" ]
+  ] [
+     fhir:code [ fhir:v "T93" ] ;
+     fhir:display [ fhir:v "Alteração no metabolismo dos lípidos" ]
+  ] [
+     fhir:code [ fhir:v "T99" ] ;
+     fhir:display [ fhir:v "Outras doenças endocrinológica/metabólica/nutricionais" ]
+  ] [
+     fhir:code [ fhir:v "U01" ] ;
+     fhir:display [ fhir:v "Disúria/micção dolorosa" ]
+  ] [
+     fhir:code [ fhir:v "U02" ] ;
+     fhir:display [ fhir:v "Micção frequente/urgência urinária/ polaciúria" ]
+  ] [
+     fhir:code [ fhir:v "U04" ] ;
+     fhir:display [ fhir:v "Incontinência urinária" ]
+  ] [
+     fhir:code [ fhir:v "U05" ] ;
+     fhir:display [ fhir:v "Outros problemas com a micção" ]
+  ] [
+     fhir:code [ fhir:v "U06" ] ;
+     fhir:display [ fhir:v "Hematúria" ]
+  ] [
+     fhir:code [ fhir:v "U07" ] ;
+     fhir:display [ fhir:v "Outros sinais/sintomas urinários" ]
+  ] [
+     fhir:code [ fhir:v "U08" ] ;
+     fhir:display [ fhir:v "Retenção urinária" ]
+  ] [
+     fhir:code [ fhir:v "U13" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da bexiga, outros" ]
+  ] [
+     fhir:code [ fhir:v "U14" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas dos rins" ]
+  ] [
+     fhir:code [ fhir:v "U26" ] ;
+     fhir:display [ fhir:v "Medo de câncer no aparelho urinário" ]
+  ] [
+     fhir:code [ fhir:v "U27" ] ;
+     fhir:display [ fhir:v "Medo de outra doença urinária" ]
+  ] [
+     fhir:code [ fhir:v "U28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "U29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas aparelho urinário, outros" ]
+  ] [
+     fhir:code [ fhir:v "U70" ] ;
+     fhir:display [ fhir:v "Pielonefrite" ]
+  ] [
+     fhir:code [ fhir:v "U71" ] ;
+     fhir:display [ fhir:v "Cistite/outra infecção urinária" ]
+  ] [
+     fhir:code [ fhir:v "U72" ] ;
+     fhir:display [ fhir:v "Uretrite" ]
+  ] [
+     fhir:code [ fhir:v "U75" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do rim" ]
+  ] [
+     fhir:code [ fhir:v "U76" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna do rim" ]
+  ] [
+     fhir:code [ fhir:v "U77" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do aparelho urinário, outra" ]
+  ] [
+     fhir:code [ fhir:v "U78" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna do aparelho urinário" ]
+  ] [
+     fhir:code [ fhir:v "U79" ] ;
+     fhir:display [ fhir:v "Neoplasia do aparelho urinário NE" ]
+  ] [
+     fhir:code [ fhir:v "U80" ] ;
+     fhir:display [ fhir:v "Lesões traumáticas do aparelho urinário" ]
+  ] [
+     fhir:code [ fhir:v "U85" ] ;
+     fhir:display [ fhir:v "Malformação congénita do aparelho urinário" ]
+  ] [
+     fhir:code [ fhir:v "U88" ] ;
+     fhir:display [ fhir:v "Glomerulonefrite/ sindrome nefrótica" ]
+  ] [
+     fhir:code [ fhir:v "U90" ] ;
+     fhir:display [ fhir:v "Albuminúria/proteinúria ortostática" ]
+  ] [
+     fhir:code [ fhir:v "U95" ] ;
+     fhir:display [ fhir:v "Cálculo urinário" ]
+  ] [
+     fhir:code [ fhir:v "U98" ] ;
+     fhir:display [ fhir:v "Análise de urina anormal NE" ]
+  ] [
+     fhir:code [ fhir:v "U99" ] ;
+     fhir:display [ fhir:v "Outras doenças urinárias" ]
+  ] [
+     fhir:code [ fhir:v "W01" ] ;
+     fhir:display [ fhir:v "Questão sobre gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W02" ] ;
+     fhir:display [ fhir:v "Medo de estar grávida" ]
+  ] [
+     fhir:code [ fhir:v "W03" ] ;
+     fhir:display [ fhir:v "Hemorragia antes do parto" ]
+  ] [
+     fhir:code [ fhir:v "W05" ] ;
+     fhir:display [ fhir:v "Vómitos/náuseas durante a gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W10" ] ;
+     fhir:display [ fhir:v "Contracepção pós-coital" ]
+  ] [
+     fhir:code [ fhir:v "W11" ] ;
+     fhir:display [ fhir:v "Contracepção oral" ]
+  ] [
+     fhir:code [ fhir:v "W12" ] ;
+     fhir:display [ fhir:v "Contracepção intra-uterina/ Dispositivo Intrauterino/ DIU" ]
+  ] [
+     fhir:code [ fhir:v "W13" ] ;
+     fhir:display [ fhir:v "Esterilização" ]
+  ] [
+     fhir:code [ fhir:v "W14" ] ;
+     fhir:display [ fhir:v "Contracepção/outros" ]
+  ] [
+     fhir:code [ fhir:v "W15" ] ;
+     fhir:display [ fhir:v "Infertilidade/subfertildade" ]
+  ] [
+     fhir:code [ fhir:v "W17" ] ;
+     fhir:display [ fhir:v "Hemorragia pós-parto" ]
+  ] [
+     fhir:code [ fhir:v "W18" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas pós-parto" ]
+  ] [
+     fhir:code [ fhir:v "W19" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da mama/lactação" ]
+  ] [
+     fhir:code [ fhir:v "W21" ] ;
+     fhir:display [ fhir:v "Preocupação com a imagem corporal na gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W27" ] ;
+     fhir:display [ fhir:v "Medo de complicações na gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "W29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da gravidez, outros" ]
+  ] [
+     fhir:code [ fhir:v "W70" ] ;
+     fhir:display [ fhir:v "Sepsis/infecção puerperal" ]
+  ] [
+     fhir:code [ fhir:v "W71" ] ;
+     fhir:display [ fhir:v "Infecções que complicam a gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W72" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna relacionada com gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W73" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna/incerta relacionada com a gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W75" ] ;
+     fhir:display [ fhir:v "Lesões traumáticas que complicam a gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W76" ] ;
+     fhir:display [ fhir:v "Malformação congénita que complica a gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W78" ] ;
+     fhir:display [ fhir:v "Gravidez" ]
+  ] [
+     fhir:code [ fhir:v "W79" ] ;
+     fhir:display [ fhir:v "Gravidez não desejada" ]
+  ] [
+     fhir:code [ fhir:v "W80" ] ;
+     fhir:display [ fhir:v "Gravidez ectópica" ]
+  ] [
+     fhir:code [ fhir:v "W81" ] ;
+     fhir:display [ fhir:v "Toxemia gravídica/ DHEG" ]
+  ] [
+     fhir:code [ fhir:v "W82" ] ;
+     fhir:display [ fhir:v "Aborto espontâneo" ]
+  ] [
+     fhir:code [ fhir:v "W83" ] ;
+     fhir:display [ fhir:v "Aborto provocado" ]
+  ] [
+     fhir:code [ fhir:v "W84" ] ;
+     fhir:display [ fhir:v "Gravidez de alto risco" ]
+  ] [
+     fhir:code [ fhir:v "W85" ] ;
+     fhir:display [ fhir:v "Diabetes gestacional" ]
+  ] [
+     fhir:code [ fhir:v "W90" ] ;
+     fhir:display [ fhir:v "Parto sem complicações de nascido vivo" ]
+  ] [
+     fhir:code [ fhir:v "W91" ] ;
+     fhir:display [ fhir:v "Parto sem complicações de natimorto" ]
+  ] [
+     fhir:code [ fhir:v "W92" ] ;
+     fhir:display [ fhir:v "Parto com complicações de nascido vivo" ]
+  ] [
+     fhir:code [ fhir:v "W93" ] ;
+     fhir:display [ fhir:v "Parto com complicações de natimorto" ]
+  ] [
+     fhir:code [ fhir:v "W94" ] ;
+     fhir:display [ fhir:v "Mastite puerperal" ]
+  ] [
+     fhir:code [ fhir:v "W95" ] ;
+     fhir:display [ fhir:v "Outros problemas da mama durante gravidez/puerpério" ]
+  ] [
+     fhir:code [ fhir:v "W96" ] ;
+     fhir:display [ fhir:v "Outras complicações do puerpério" ]
+  ] [
+     fhir:code [ fhir:v "W99" ] ;
+     fhir:display [ fhir:v "Outros problemas da gravidez/parto" ]
+  ] [
+     fhir:code [ fhir:v "X01" ] ;
+     fhir:display [ fhir:v "Dor genital" ]
+  ] [
+     fhir:code [ fhir:v "X02" ] ;
+     fhir:display [ fhir:v "Dores menstruais" ]
+  ] [
+     fhir:code [ fhir:v "X03" ] ;
+     fhir:display [ fhir:v "Dores intermenstruais" ]
+  ] [
+     fhir:code [ fhir:v "X04" ] ;
+     fhir:display [ fhir:v "Relação sexual dolorosa na mulher" ]
+  ] [
+     fhir:code [ fhir:v "X05" ] ;
+     fhir:display [ fhir:v "Menstruação escassa/ausente" ]
+  ] [
+     fhir:code [ fhir:v "X06" ] ;
+     fhir:display [ fhir:v "Menstruação excessiva" ]
+  ] [
+     fhir:code [ fhir:v "X07" ] ;
+     fhir:display [ fhir:v "Menstruação irregular/frequente" ]
+  ] [
+     fhir:code [ fhir:v "X08" ] ;
+     fhir:display [ fhir:v "Hemorragia intermenstrual" ]
+  ] [
+     fhir:code [ fhir:v "X09" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas pré-menstruais" ]
+  ] [
+     fhir:code [ fhir:v "X10" ] ;
+     fhir:display [ fhir:v "Desejo de alterar a data menstruação" ]
+  ] [
+     fhir:code [ fhir:v "X11" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da menopausa/ climatério" ]
+  ] [
+     fhir:code [ fhir:v "X12" ] ;
+     fhir:display [ fhir:v "Hemorragia pós-menopausa" ]
+  ] [
+     fhir:code [ fhir:v "X13" ] ;
+     fhir:display [ fhir:v "Hemorragia pós-coital" ]
+  ] [
+     fhir:code [ fhir:v "X14" ] ;
+     fhir:display [ fhir:v "Secreção vaginal" ]
+  ] [
+     fhir:code [ fhir:v "X15" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da vagina" ]
+  ] [
+     fhir:code [ fhir:v "X16" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da vulva" ]
+  ] [
+     fhir:code [ fhir:v "X17" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da pélvis feminina" ]
+  ] [
+     fhir:code [ fhir:v "X18" ] ;
+     fhir:display [ fhir:v "Dor na mama feminina" ]
+  ] [
+     fhir:code [ fhir:v "X19" ] ;
+     fhir:display [ fhir:v "Tumor ou nódulo na mama feminina" ]
+  ] [
+     fhir:code [ fhir:v "X20" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do mamilo da mulher" ]
+  ] [
+     fhir:code [ fhir:v "X21" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da mama feminina, outros" ]
+  ] [
+     fhir:code [ fhir:v "X22" ] ;
+     fhir:display [ fhir:v "Preocupação com a aparência da mama feminina" ]
+  ] [
+     fhir:code [ fhir:v "X23" ] ;
+     fhir:display [ fhir:v "Medo de doença de transmissão sexual" ]
+  ] [
+     fhir:code [ fhir:v "X24" ] ;
+     fhir:display [ fhir:v "Medo de disfunção sexual" ]
+  ] [
+     fhir:code [ fhir:v "X25" ] ;
+     fhir:display [ fhir:v "Medo de câncer genital" ]
+  ] [
+     fhir:code [ fhir:v "X26" ] ;
+     fhir:display [ fhir:v "Medo de câncer na mama" ]
+  ] [
+     fhir:code [ fhir:v "X27" ] ;
+     fhir:display [ fhir:v "Medo de outra doença genital/mama" ]
+  ] [
+     fhir:code [ fhir:v "X28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "X29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do aparelho genital feminino, outra" ]
+  ] [
+     fhir:code [ fhir:v "X70" ] ;
+     fhir:display [ fhir:v "Sífilis feminina" ]
+  ] [
+     fhir:code [ fhir:v "X71" ] ;
+     fhir:display [ fhir:v "Gonorréia feminina" ]
+  ] [
+     fhir:code [ fhir:v "X72" ] ;
+     fhir:display [ fhir:v "Candidíase genital feminina" ]
+  ] [
+     fhir:code [ fhir:v "X73" ] ;
+     fhir:display [ fhir:v "Tricomoníase genital feminina" ]
+  ] [
+     fhir:code [ fhir:v "X74" ] ;
+     fhir:display [ fhir:v "Doença inflamatória pélvica" ]
+  ] [
+     fhir:code [ fhir:v "X75" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna do colo" ]
+  ] [
+     fhir:code [ fhir:v "X76" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna da mama feminina" ]
+  ] [
+     fhir:code [ fhir:v "X77" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna genital feminina, outra" ]
+  ] [
+     fhir:code [ fhir:v "X78" ] ;
+     fhir:display [ fhir:v "Fibromioma uterino" ]
+  ] [
+     fhir:code [ fhir:v "X79" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna da mama feminina/ fibroadenoma" ]
+  ] [
+     fhir:code [ fhir:v "X80" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna genital" ]
+  ] [
+     fhir:code [ fhir:v "X81" ] ;
+     fhir:display [ fhir:v "Neoplasia genital feminina, outra/NE" ]
+  ] [
+     fhir:code [ fhir:v "X82" ] ;
+     fhir:display [ fhir:v "Lesão traumática genital feminina" ]
+  ] [
+     fhir:code [ fhir:v "X83" ] ;
+     fhir:display [ fhir:v "Malformações congênitas genitais" ]
+  ] [
+     fhir:code [ fhir:v "X84" ] ;
+     fhir:display [ fhir:v "Vaginite/vulvite NE" ]
+  ] [
+     fhir:code [ fhir:v "X85" ] ;
+     fhir:display [ fhir:v "Doença do colo NE" ]
+  ] [
+     fhir:code [ fhir:v "X86" ] ;
+     fhir:display [ fhir:v "Esfregaço de Papanicolau/colpocitologia oncótica anormal" ]
+  ] [
+     fhir:code [ fhir:v "X87" ] ;
+     fhir:display [ fhir:v "Prolapso utero-vaginal" ]
+  ] [
+     fhir:code [ fhir:v "X88" ] ;
+     fhir:display [ fhir:v "Doença fibrocística da mama" ]
+  ] [
+     fhir:code [ fhir:v "X89" ] ;
+     fhir:display [ fhir:v "Síndrome da tensão pré-menstrual" ]
+  ] [
+     fhir:code [ fhir:v "X90" ] ;
+     fhir:display [ fhir:v "Herpes genital feminino" ]
+  ] [
+     fhir:code [ fhir:v "X91" ] ;
+     fhir:display [ fhir:v "Condiloma acuminado feminino" ]
+  ] [
+     fhir:code [ fhir:v "X92" ] ;
+     fhir:display [ fhir:v "Infecção por clamídia" ]
+  ] [
+     fhir:code [ fhir:v "X99" ] ;
+     fhir:display [ fhir:v "Doença genital feminina, outra" ]
+  ] [
+     fhir:code [ fhir:v "Y01" ] ;
+     fhir:display [ fhir:v "Dor no pênis" ]
+  ] [
+     fhir:code [ fhir:v "Y02" ] ;
+     fhir:display [ fhir:v "Dor no escroto/testículos" ]
+  ] [
+     fhir:code [ fhir:v "Y03" ] ;
+     fhir:display [ fhir:v "Secreção uretral" ]
+  ] [
+     fhir:code [ fhir:v "Y04" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do pênis, outros" ]
+  ] [
+     fhir:code [ fhir:v "Y05" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas do escroto/testículos, outros" ]
+  ] [
+     fhir:code [ fhir:v "Y06" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da próstata" ]
+  ] [
+     fhir:code [ fhir:v "Y07" ] ;
+     fhir:display [ fhir:v "Impotência NE" ]
+  ] [
+     fhir:code [ fhir:v "Y08" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da função sexual masculina, outros" ]
+  ] [
+     fhir:code [ fhir:v "Y10" ] ;
+     fhir:display [ fhir:v "Infertilidade/subfertildade masculina" ]
+  ] [
+     fhir:code [ fhir:v "Y13" ] ;
+     fhir:display [ fhir:v "Esterilização masculina" ]
+  ] [
+     fhir:code [ fhir:v "Y14" ] ;
+     fhir:display [ fhir:v "Planejamento familiar, outros" ]
+  ] [
+     fhir:code [ fhir:v "Y16" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas da mama masculina" ]
+  ] [
+     fhir:code [ fhir:v "Y24" ] ;
+     fhir:display [ fhir:v "Medo de disfunção sexual masculina" ]
+  ] [
+     fhir:code [ fhir:v "Y25" ] ;
+     fhir:display [ fhir:v "Medo de doença sexualmente transmissível" ]
+  ] [
+     fhir:code [ fhir:v "Y26" ] ;
+     fhir:display [ fhir:v "Medo de câncer genital masculino" ]
+  ] [
+     fhir:code [ fhir:v "Y27" ] ;
+     fhir:display [ fhir:v "Medo de doença genital masculina, outra" ]
+  ] [
+     fhir:code [ fhir:v "Y28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "Y29" ] ;
+     fhir:display [ fhir:v "Sinais/sintomas, outros" ]
+  ] [
+     fhir:code [ fhir:v "Y70" ] ;
+     fhir:display [ fhir:v "Sífilis masculina" ]
+  ] [
+     fhir:code [ fhir:v "Y71" ] ;
+     fhir:display [ fhir:v "Gonorréia masculina" ]
+  ] [
+     fhir:code [ fhir:v "Y72" ] ;
+     fhir:display [ fhir:v "Herpes genital" ]
+  ] [
+     fhir:code [ fhir:v "Y73" ] ;
+     fhir:display [ fhir:v "Prostatite/vesiculite seminal" ]
+  ] [
+     fhir:code [ fhir:v "Y74" ] ;
+     fhir:display [ fhir:v "Orquite/epididimite" ]
+  ] [
+     fhir:code [ fhir:v "Y75" ] ;
+     fhir:display [ fhir:v "Balanite/ Balanopostite" ]
+  ] [
+     fhir:code [ fhir:v "Y76" ] ;
+     fhir:display [ fhir:v "Condiloma acuminado" ]
+  ] [
+     fhir:code [ fhir:v "Y77" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna da próstata" ]
+  ] [
+     fhir:code [ fhir:v "Y78" ] ;
+     fhir:display [ fhir:v "Neoplasia maligna genital masculina, outra" ]
+  ] [
+     fhir:code [ fhir:v "Y79" ] ;
+     fhir:display [ fhir:v "Neoplasia benigna genital masculina NE" ]
+  ] [
+     fhir:code [ fhir:v "Y80" ] ;
+     fhir:display [ fhir:v "Traumatismo genital masculino, outro" ]
+  ] [
+     fhir:code [ fhir:v "Y81" ] ;
+     fhir:display [ fhir:v "Fimose/prepúcio redundante" ]
+  ] [
+     fhir:code [ fhir:v "Y82" ] ;
+     fhir:display [ fhir:v "Hipospádias" ]
+  ] [
+     fhir:code [ fhir:v "Y83" ] ;
+     fhir:display [ fhir:v "Testículo não descido/ Criptorquidia/ Testículo ectópico" ]
+  ] [
+     fhir:code [ fhir:v "Y84" ] ;
+     fhir:display [ fhir:v "Malformação genital congénita masculina, outra" ]
+  ] [
+     fhir:code [ fhir:v "Y85" ] ;
+     fhir:display [ fhir:v "Hipertrofia benigna da próstata/ hiperplasia prostática benigna" ]
+  ] [
+     fhir:code [ fhir:v "Y86" ] ;
+     fhir:display [ fhir:v "Hidrocele" ]
+  ] [
+     fhir:code [ fhir:v "Y99" ] ;
+     fhir:display [ fhir:v "Doença genital masculina, outra" ]
+  ] [
+     fhir:code [ fhir:v "Z01" ] ;
+     fhir:display [ fhir:v "Pobreza/problemas econômicos" ]
+  ] [
+     fhir:code [ fhir:v "Z02" ] ;
+     fhir:display [ fhir:v "Problemas relacionados a água/alimentação" ]
+  ] [
+     fhir:code [ fhir:v "Z03" ] ;
+     fhir:display [ fhir:v "Problemas de habitação/vizinhança" ]
+  ] [
+     fhir:code [ fhir:v "Z04" ] ;
+     fhir:display [ fhir:v "Problema socio-cultural" ]
+  ] [
+     fhir:code [ fhir:v "Z05" ] ;
+     fhir:display [ fhir:v "Problemas com condições de trabalho" ]
+  ] [
+     fhir:code [ fhir:v "Z06" ] ;
+     fhir:display [ fhir:v "Problemas de desemprego" ]
+  ] [
+     fhir:code [ fhir:v "Z07" ] ;
+     fhir:display [ fhir:v "Problemas relacionados com educação" ]
+  ] [
+     fhir:code [ fhir:v "Z08" ] ;
+     fhir:display [ fhir:v "Problema relacionado com sistema de segurança social" ]
+  ] [
+     fhir:code [ fhir:v "Z09" ] ;
+     fhir:display [ fhir:v "Problema de ordem legal" ]
+  ] [
+     fhir:code [ fhir:v "Z10" ] ;
+     fhir:display [ fhir:v "Problema relacionado com sistema de saúde" ]
+  ] [
+     fhir:code [ fhir:v "Z11" ] ;
+     fhir:display [ fhir:v "Problema relacionado com estar doente" ]
+  ] [
+     fhir:code [ fhir:v "Z12" ] ;
+     fhir:display [ fhir:v "Problema de relacionamento com parceiro/ conjugal" ]
+  ] [
+     fhir:code [ fhir:v "Z13" ] ;
+     fhir:display [ fhir:v "Problema comportamental do parceiro/  companheiro" ]
+  ] [
+     fhir:code [ fhir:v "Z14" ] ;
+     fhir:display [ fhir:v "Problema por doença do parceiro/ companheiro" ]
+  ] [
+     fhir:code [ fhir:v "Z15" ] ;
+     fhir:display [ fhir:v "Perda ou falecimento do parceiro/ companheiro" ]
+  ] [
+     fhir:code [ fhir:v "Z16" ] ;
+     fhir:display [ fhir:v "Problema de relacionamento com criança" ]
+  ] [
+     fhir:code [ fhir:v "Z18" ] ;
+     fhir:display [ fhir:v "Problema com criança doente" ]
+  ] [
+     fhir:code [ fhir:v "Z19" ] ;
+     fhir:display [ fhir:v "Perda ou falecimento de criança" ]
+  ] [
+     fhir:code [ fhir:v "Z20" ] ;
+     fhir:display [ fhir:v "Problema de relacionamento com familiares" ]
+  ] [
+     fhir:code [ fhir:v "Z21" ] ;
+     fhir:display [ fhir:v "Problema comportamental de familiar" ]
+  ] [
+     fhir:code [ fhir:v "Z22" ] ;
+     fhir:display [ fhir:v "Problema por doença familiar" ]
+  ] [
+     fhir:code [ fhir:v "Z23" ] ;
+     fhir:display [ fhir:v "Perda/falecimento de familiar" ]
+  ] [
+     fhir:code [ fhir:v "Z24" ] ;
+     fhir:display [ fhir:v "Problema de relacionamento com amigos" ]
+  ] [
+     fhir:code [ fhir:v "Z25" ] ;
+     fhir:display [ fhir:v "Ato ou acontecimento violento" ]
+  ] [
+     fhir:code [ fhir:v "Z27" ] ;
+     fhir:display [ fhir:v "Medo de problema social" ]
+  ] [
+     fhir:code [ fhir:v "Z28" ] ;
+     fhir:display [ fhir:v "Limitação funcional/incapacidade" ]
+  ] [
+     fhir:code [ fhir:v "Z29" ] ;
+     fhir:display [ fhir:v "Problema social NE" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

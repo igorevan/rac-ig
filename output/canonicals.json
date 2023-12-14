@@ -1,0 +1,1080 @@
+[
+  {
+    "id" : "BRAlergenosCBARA",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
+    "version" : "0.1.0",
+    "name" : "BRAlergenosCBARA"
+  },
+  {
+    "id" : "BRCBHPMTUSS",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS",
+    "version" : "0.1.0",
+    "name" : "BRCBHPMTUSS"
+  },
+  {
+    "id" : "BRCBO",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+    "version" : "0.1.0",
+    "name" : "BRCBO"
+  },
+  {
+    "id" : "BRCIAP2",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",
+    "version" : "0.1.0",
+    "name" : "BRCIAP2"
+  },
+  {
+    "id" : "BRCID10",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+    "version" : "0.1.0",
+    "name" : "BRCID10"
+  },
+  {
+    "id" : "BRCaraterAtendimento",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
+    "version" : "0.1.0",
+    "name" : "BRCaraterAtendimento"
+  },
+  {
+    "id" : "BRCategoriaDiagnostico",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRCategoriaDiagnostico"
+  },
+  {
+    "id" : "BRDadoAusenteOuDesconhecido",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+    "version" : "0.1.0",
+    "name" : "BRDadoAusenteOuDesconhecido"
+  },
+  {
+    "id" : "BRDivisaoGeograficaBrasil",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
+    "version" : "0.1.0",
+    "name" : "BRDivisaoGeograficaBrasil"
+  },
+  {
+    "id" : "BREtniaIndigena",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena",
+    "version" : "0.1.0",
+    "name" : "BREtniaIndigena"
+  },
+  {
+    "id" : "BRFinanciamento",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+    "version" : "0.1.0",
+    "name" : "BRFinanciamento"
+  },
+  {
+    "id" : "BRFrequenciaUsoSubstancia",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia",
+    "version" : "0.1.0",
+    "name" : "BRFrequenciaUsoSubstancia"
+  },
+  {
+    "id" : "BRImunobiologico",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+    "version" : "0.1.0",
+    "name" : "BRImunobiologico"
+  },
+  {
+    "id" : "BRJustificativaIndividuoNaoIdentificado",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+    "version" : "0.1.0",
+    "name" : "BRJustificativaIndividuoNaoIdentificado"
+  },
+  {
+    "id" : "BRLocalAfericao",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
+    "version" : "0.1.0",
+    "name" : "BRLocalAfericao"
+  },
+  {
+    "id" : "BRMedDRA",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
+    "version" : "0.1.0",
+    "name" : "BRMedDRA"
+  },
+  {
+    "id" : "BRMedicamento",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRMedicamento"
+  },
+  {
+    "id" : "BRModalidadeAssistencial",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+    "version" : "0.1.0",
+    "name" : "BRModalidadeAssistencial"
+  },
+  {
+    "id" : "BRMotivoDesfecho",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho",
+    "version" : "0.1.0",
+    "name" : "BRMotivoDesfecho"
+  },
+  {
+    "id" : "BRNacionalidade",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade",
+    "version" : "0.1.0",
+    "name" : "BRNacionalidade"
+  },
+  {
+    "id" : "BRNaturezaJuridica",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica",
+    "version" : "0.1.0",
+    "name" : "BRNaturezaJuridica"
+  },
+  {
+    "id" : "BRObmAMPP",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP",
+    "version" : "0.1.0",
+    "name" : "BRObmAMPP"
+  },
+  {
+    "id" : "BRObmANVISA",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA",
+    "version" : "0.1.0",
+    "name" : "BRObmANVISA"
+  },
+  {
+    "id" : "BRObmCATMAT",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT",
+    "version" : "0.1.0",
+    "name" : "BRObmCATMAT"
+  },
+  {
+    "id" : "BRObmEAN",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN",
+    "version" : "0.1.0",
+    "name" : "BRObmEAN"
+  },
+  {
+    "id" : "BRObmVMP",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP",
+    "version" : "0.1.0",
+    "name" : "BRObmVMP"
+  },
+  {
+    "id" : "BROrgaoExpedidor",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor",
+    "version" : "0.1.0",
+    "name" : "BROrgaoExpedidor"
+  },
+  {
+    "id" : "BRPais",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+    "version" : "0.1.0",
+    "name" : "BRPais"
+  },
+  {
+    "id" : "BRPapelProblemaDiagnostico",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRPapelProblemaDiagnostico"
+  },
+  {
+    "id" : "BRParentesco",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco",
+    "version" : "0.1.0",
+    "name" : "BRParentesco"
+  },
+  {
+    "id" : "BRPosicaoIndividuo",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
+    "version" : "0.1.0",
+    "name" : "BRPosicaoIndividuo"
+  },
+  {
+    "id" : "BRProcedencia",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia",
+    "version" : "0.1.0",
+    "name" : "BRProcedencia"
+  },
+  {
+    "id" : "BRRacaCor",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRacaCor",
+    "version" : "0.1.0",
+    "name" : "BRRacaCor"
+  },
+  {
+    "id" : "BRResponsabilidadeParticipante",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante",
+    "version" : "0.1.0",
+    "name" : "BRResponsabilidadeParticipante"
+  },
+  {
+    "id" : "BRTabelaSUS",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
+    "version" : "0.1.0",
+    "name" : "BRTabelaSUS"
+  },
+  {
+    "id" : "BRTipoAleitamentoMaterno",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
+    "version" : "0.1.0",
+    "name" : "BRTipoAleitamentoMaterno"
+  },
+  {
+    "id" : "BRTipoDocumento",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+    "version" : "0.1.0",
+    "name" : "BRTipoDocumento"
+  },
+  {
+    "id" : "BRTipoEstabelecimentoSaude",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
+    "version" : "0.1.0",
+    "name" : "BRTipoEstabelecimentoSaude"
+  },
+  {
+    "id" : "BRTipoIdentificador",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
+    "version" : "0.1.0",
+    "name" : "BRTipoIdentificador"
+  },
+  {
+    "id" : "BRTipoLogradouro",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
+    "version" : "0.1.0",
+    "name" : "BRTipoLogradouro"
+  },
+  {
+    "id" : "BRTipoObservacao",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
+    "version" : "0.1.0",
+    "name" : "BRTipoObservacao"
+  },
+  {
+    "id" : "BRTipoSubstanciaUso",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
+    "version" : "0.1.0",
+    "name" : "BRTipoSubstanciaUso"
+  },
+  {
+    "id" : "BRTurno",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno",
+    "version" : "0.1.0",
+    "name" : "BRTurno"
+  },
+  {
+    "id" : "BRUnidadeMedida",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
+    "version" : "0.1.0",
+    "name" : "BRUnidadeMedida"
+  },
+  {
+    "id" : "BRUnidadeTempo",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
+    "version" : "0.1.0",
+    "name" : "BRUnidadeTempo"
+  },
+  {
+    "id" : "BRViaAdministracao",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+    "version" : "0.1.0",
+    "name" : "BRViaAdministracao"
+  },
+  {
+    "id" : "hl7.fhir.br.rac",
+    "type" : "ImplementationGuide",
+    "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac",
+    "version" : "0.1.0",
+    "name" : "RACRNDSIG"
+  },
+  {
+    "id" : "BRAdministradorTerceiro-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAdministradorTerceiro-1.0",
+    "version" : "0.1.0",
+    "name" : "BRAdministradorTerceiro"
+  },
+  {
+    "id" : "BRAlergiaReacaoAdversa-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0",
+    "version" : "0.1.0",
+    "name" : "BRAlergiaReacaoAdversa"
+  },
+  {
+    "id" : "BRAtendeSUS-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0",
+    "version" : "0.1.0",
+    "name" : "BRAtendeSUS"
+  },
+  {
+    "id" : "BRAtestado",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado",
+    "version" : "0.1.0",
+    "name" : "BRAtestado"
+  },
+  {
+    "id" : "BRCIAP2Avaliado-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCIAP2Avaliado"
+  },
+  {
+    "id" : "BRCID10Avaliado-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCID10Avaliado"
+  },
+  {
+    "id" : "BRCodigoSerialMedicamento",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRCodigoSerialMedicamento"
+  },
+  {
+    "id" : "BRContatoAssistencial-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0",
+    "version" : "0.1.0",
+    "name" : "BRContatoAssistencial"
+  },
+  {
+    "id" : "BRDocumentoIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRDocumentoIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRDocumentoIndividuo"
+  },
+  {
+    "id" : "BREndereco-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREndereco-1.0",
+    "version" : "0.1.0",
+    "name" : "BREndereco"
+  },
+  {
+    "id" : "BREstabelecimentoSaude-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstabelecimentoSaude"
+  },
+  {
+    "id" : "BRFinanciamento-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRFinanciamento"
+  },
+  {
+    "id" : "BRIdentificacaoEquipe-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIdentificacaoEquipe"
+  },
+  {
+    "id" : "BRIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIndividuo"
+  },
+  {
+    "id" : "BRIndividuoNaoIdentificado-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIndividuoNaoIdentificado"
+  },
+  {
+    "id" : "BRIndividuoProtegido-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIndividuoProtegido"
+  },
+  {
+    "id" : "BRIntervaloDoses",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses",
+    "version" : "0.1.0",
+    "name" : "BRIntervaloDoses"
+  },
+  {
+    "id" : "BRJurisdicaoOrgaoEmissor-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
+    "version" : "0.1.0",
+    "name" : "BRJurisdicaoOrgaoExpedidor"
+  },
+  {
+    "id" : "BRLocalAtendimento-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRLocalAtendimento"
+  },
+  {
+    "id" : "BRLotacaoProfissional-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0",
+    "version" : "0.1.0",
+    "name" : "BRLotacaoProfissional"
+  },
+  {
+    "id" : "BRMedicamento",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRMedicamento"
+  },
+  {
+    "id" : "BRMedidaObservada",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada",
+    "version" : "0.1.0",
+    "name" : "BRMedidaObservada"
+  },
+  {
+    "id" : "BRMeioContato-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMeioContato-1.0",
+    "version" : "0.1.0",
+    "name" : "BRMeioContato"
+  },
+  {
+    "id" : "BRMunicipio-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
+    "version" : "0.1.0",
+    "name" : "BRMunicipio"
+  },
+  {
+    "id" : "BRNacionalidade",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNacionalidade",
+    "version" : "0.1.0",
+    "name" : "BRNacionalidade"
+  },
+  {
+    "id" : "BRNaturalizacao-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNaturalizacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRNaturalizacao"
+  },
+  {
+    "id" : "BRNomeIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRNomeIndividuo"
+  },
+  {
+    "id" : "BRObservacaoDescritiva-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0",
+    "version" : "0.1.0",
+    "name" : "BRObservacaoDescritiva"
+  },
+  {
+    "id" : "BROcupacao-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BROcupacao"
+  },
+  {
+    "id" : "BROrigemMedida",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida",
+    "version" : "0.1.0",
+    "name" : "BROrigemMedida"
+  },
+  {
+    "id" : "BROutrasInformacoes",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes",
+    "version" : "0.1.0",
+    "name" : "BROutrasInformacoes"
+  },
+  {
+    "id" : "BRPais-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0",
+    "version" : "0.1.0",
+    "name" : "BRPais"
+  },
+  {
+    "id" : "BRParentesIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRParentesIndividuo"
+  },
+  {
+    "id" : "BRPessoaJuridicaProfissionalLiberal-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0",
+    "version" : "0.1.0",
+    "name" : "BRPessoaJuridicaProfissionalLiberal"
+  },
+  {
+    "id" : "BRPlanoCuidados-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0",
+    "version" : "0.1.0",
+    "name" : "BRPlanoCuidados"
+  },
+  {
+    "id" : "BRPrescricaoMedicamento",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRPrescricaoMedicamento"
+  },
+  {
+    "id" : "BRProblemaDiagnostico",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRProblemaDiagnostico"
+  },
+  {
+    "id" : "BRProcedimentoRealizado-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRProcedimentoRealizado"
+  },
+  {
+    "id" : "BRProfissional-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0",
+    "version" : "0.1.0",
+    "name" : "BRProfissional"
+  },
+  {
+    "id" : "BRQualidadeCadastroIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRQualidadeCadastroIndividuo"
+  },
+  {
+    "id" : "BRQuantidade-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0",
+    "version" : "0.1.0",
+    "name" : "BRQuantidade"
+  },
+  {
+    "id" : "BRRacaCorEtnia-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0",
+    "version" : "0.1.0",
+    "name" : "BRRacaCorEtnia"
+  },
+  {
+    "id" : "BRRegistroAtendimentoClinico",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
+    "version" : "0.1.0",
+    "name" : "BRRegistroAtendimentoClinico"
+  },
+  {
+    "id" : "BRRegistroPrescricaoMedicamento",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRRegistroPrescricaoMedicamento"
+  },
+  {
+    "id" : "BRRoupasUsadasMedicao",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao",
+    "version" : "0.1.0",
+    "name" : "BRRoupasUsadasMedicao"
+  },
+  {
+    "id" : "BRTurno",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno",
+    "version" : "0.1.0",
+    "name" : "BRTurno"
+  },
+  {
+    "id" : "BRAlergenos-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0",
+    "version" : "0.1.0",
+    "name" : "BRAlergenos"
+  },
+  {
+    "id" : "BRCIAP2-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCIAP2-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCIAP2"
+  },
+  {
+    "id" : "BRCID10-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCID10"
+  },
+  {
+    "id" : "BRCaraterAtendimento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCaraterAtendimento"
+  },
+  {
+    "id" : "BRCategoriaAgenteAlergiasReacoesAdversas-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCategoriaAgenteAlergiasReacoesAdversas"
+  },
+  {
+    "id" : "BRCategoriaCondicao",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao",
+    "version" : "0.1.0",
+    "name" : "BRCategoriaCondicao"
+  },
+  {
+    "id" : "BRCategoriaDiagnostico",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRCategoriaDiagnostico"
+  },
+  {
+    "id" : "BRCriticidadeAlergiasReacoesAdversas-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCriticidadeAlergiasReacoesAdversas"
+  },
+  {
+    "id" : "BREstadoAfastamentoAtestado",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado",
+    "version" : "0.1.0",
+    "name" : "BREstadoAfastamentoAtestado"
+  },
+  {
+    "id" : "BREstadoAtestado",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado",
+    "version" : "0.1.0",
+    "name" : "BREstadoAtestado"
+  },
+  {
+    "id" : "BREstadoContatoAssistencial-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoContatoAssistencial-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoContatoAssistencial"
+  },
+  {
+    "id" : "BREstadoDocumento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoDocumento"
+  },
+  {
+    "id" : "BREstadoEvento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoEvento"
+  },
+  {
+    "id" : "BREstadoObservacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoObservacao"
+  },
+  {
+    "id" : "BREstadoResolucaoDiagnosticoProblema-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoResolucaoDiagnosticoProblema"
+  },
+  {
+    "id" : "BREstadoSolicitacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoSolicitacao"
+  },
+  {
+    "id" : "BREstadoSolicitacaoMedicamento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoSolicitacaoMedicamento"
+  },
+  {
+    "id" : "BREtniaIndigena-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREtniaIndigena-1.0",
+    "version" : "0.1.0",
+    "name" : "BREtniaIndigena"
+  },
+  {
+    "id" : "BRFinanciamento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRFinanciamento"
+  },
+  {
+    "id" : "BRFrequenciaUsoSubstancia",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia",
+    "version" : "0.1.0",
+    "name" : "BRFrequenciaUsoSubstancia"
+  },
+  {
+    "id" : "BRGrauCertezaAlergiasReacoesAdversas-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0",
+    "version" : "0.1.0",
+    "name" : "BRGrauCertezaAlergiasReacoesAdversas"
+  },
+  {
+    "id" : "BRIntencaoAtestado",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado",
+    "version" : "0.1.0",
+    "name" : "BRIntencaoAtestado"
+  },
+  {
+    "id" : "BRJustificativaIndividuoNaoIdentificado-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRJustificativaIndividuoNaoIdentificado"
+  },
+  {
+    "id" : "BRLocalAfericao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRLocalAfericao"
+  },
+  {
+    "id" : "BRModalidadeAssistencial-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0",
+    "version" : "0.1.0",
+    "name" : "BRModalidadeAssistencial"
+  },
+  {
+    "id" : "BRMotivoDesfecho-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
+    "version" : "0.1.0",
+    "name" : "BRMotivoDesfecho"
+  },
+  {
+    "id" : "BRMunicipio-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
+    "version" : "0.1.0",
+    "name" : "BRMunicipio"
+  },
+  {
+    "id" : "BRNacionalidade",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade",
+    "version" : "0.1.0",
+    "name" : "BRNacionalidade"
+  },
+  {
+    "id" : "BRNaturezaJuridica-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNaturezaJuridica-1.0",
+    "version" : "0.1.0",
+    "name" : "BRNaturezaJuridica"
+  },
+  {
+    "id" : "BROcupacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BROcupacao"
+  },
+  {
+    "id" : "BROrgaoExpedidor-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
+    "version" : "0.1.0",
+    "name" : "BROrgaoExpedidor"
+  },
+  {
+    "id" : "BROrigemMedida",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
+    "version" : "0.1.0",
+    "name" : "BROrigemMedida"
+  },
+  {
+    "id" : "BRPais-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
+    "version" : "0.1.0",
+    "name" : "BRPais"
+  },
+  {
+    "id" : "BRPapelProblemaDiagnostico",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRPapelProblemaDiagnostico"
+  },
+  {
+    "id" : "BRParentesco-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRParentesco-1.0",
+    "version" : "0.1.0",
+    "name" : "BRParentesco"
+  },
+  {
+    "id" : "BRPosicaoIndividuo",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
+    "version" : "0.1.0",
+    "name" : "BRPosicaoIndividuo"
+  },
+  {
+    "id" : "BRPrescricaoNaoEstruturada",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
+    "version" : "0.1.0",
+    "name" : "BRPrescricaoNaoEstruturada"
+  },
+  {
+    "id" : "BRProblemaDiagnostico",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRProblemaDiagnostico"
+  },
+  {
+    "id" : "BRProcedencia-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedencia-1.0",
+    "version" : "0.1.0",
+    "name" : "BRProcedencia"
+  },
+  {
+    "id" : "BRProcedimentosNacionais-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0",
+    "version" : "0.1.0",
+    "name" : "BRProcedimentosNacionais"
+  },
+  {
+    "id" : "BRRacaCor-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRacaCor-1.0",
+    "version" : "0.1.0",
+    "name" : "BRRacaCor"
+  },
+  {
+    "id" : "BRReacoesAdversasMedDRA-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRReacoesAdversasMedDRA-1.0",
+    "version" : "0.1.0",
+    "name" : "BRReacoesAdversasMedDRA"
+  },
+  {
+    "id" : "BRResponsabilidadeParticipante-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRResponsabilidadeParticipante-1.0",
+    "version" : "0.1.0",
+    "name" : "BRResponsabilidadeParticipante"
+  },
+  {
+    "id" : "BRSexo-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRSexo"
+  },
+  {
+    "id" : "BRTerminologiaMedicamento",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRTerminologiaMedicamento"
+  },
+  {
+    "id" : "BRTipoAleitamentoMaterno-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAleitamentoMaterno-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoAleitamentoMaterno"
+  },
+  {
+    "id" : "BRTipoAtestado",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado",
+    "version" : "0.1.0",
+    "name" : "BRTipoAtestado"
+  },
+  {
+    "id" : "BRTipoDocumento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoDocumento"
+  },
+  {
+    "id" : "BRTipoDocumentoIndividuo-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoDocumentoIndividuo"
+  },
+  {
+    "id" : "BRTipoEstabelecimentoSaude-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoEstabelecimentoSaude-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoEstabelecimentoSaude"
+  },
+  {
+    "id" : "BRTipoIdentificadorProcedimento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoIdentificadorProcedimento"
+  },
+  {
+    "id" : "BRTipoLogradouro-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoLogradouro-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoLogradouro"
+  },
+  {
+    "id" : "BRTipoObservacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoObservacao"
+  },
+  {
+    "id" : "BRTipoSubstanciaUso-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoSubstanciaUso"
+  },
+  {
+    "id" : "BRTurno",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTurno",
+    "version" : "0.1.0",
+    "name" : "BRTurno"
+  },
+  {
+    "id" : "BRUnidadeConsumo",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
+    "version" : "0.1.0",
+    "name" : "BRUnidadeConsumo"
+  },
+  {
+    "id" : "BRUnidadeFederativa-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeFederativa-1.0",
+    "version" : "0.1.0",
+    "name" : "BRUnidadeFederativa"
+  },
+  {
+    "id" : "BRUnidadeMedidaMedicamento",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",
+    "version" : "0.1.0",
+    "name" : "BRUnidadeMedidaMedicamento"
+  },
+  {
+    "id" : "BRUnidadeTempo",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo",
+    "version" : "0.1.0",
+    "name" : "BRUnidadeTempo"
+  },
+  {
+    "id" : "BRViaAdministracao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRViaAdministracao"
+  },
+  {
+    "id" : "RoupasUsadasMedicao",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao",
+    "version" : "0.1.0",
+    "name" : "RoupasUsadasMedicao"
+  }
+]

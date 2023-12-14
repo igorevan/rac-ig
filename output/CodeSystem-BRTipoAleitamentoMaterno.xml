@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoAleitamentoMaterno"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2020-09-20T22:50:41.993+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">exclusivo<a name="BRTipoAleitamentoMaterno-exclusivo"> </a></td><td>Exclusivo</td></tr><tr><td style="white-space:nowrap">predominante<a name="BRTipoAleitamentoMaterno-predominante"> </a></td><td>Predominante</td></tr><tr><td style="white-space:nowrap">complementado<a name="BRTipoAleitamentoMaterno-complementado"> </a></td><td>Complementado</td></tr><tr><td style="white-space:nowrap">inexistente<a name="BRTipoAleitamentoMaterno-inexistente"> </a></td><td>Inexistente</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno"/>
+  <version value="0.1.0"/>
+  <name value="BRTipoAleitamentoMaterno"/>
+  <title value="Tipo de Aleitamento Materno"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-09-20T22:50:40.2386423+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Classifica o tipo de aleitamento materno realizado a uma criança."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="exclusivo"/>
+    <display value="Exclusivo"/>
+  </concept>
+  <concept>
+    <code value="predominante"/>
+    <display value="Predominante"/>
+  </concept>
+  <concept>
+    <code value="complementado"/>
+    <display value="Complementado"/>
+  </concept>
+  <concept>
+    <code value="inexistente"/>
+    <display value="Inexistente"/>
+  </concept>
+</CodeSystem>

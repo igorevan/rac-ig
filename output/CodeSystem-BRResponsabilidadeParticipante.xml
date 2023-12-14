@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRResponsabilidadeParticipante"/>
+  <meta>
+    <lastUpdated value="2020-03-11T18:20:28.411+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">solicitante<a name="BRResponsabilidadeParticipante-solicitante"> </a></td><td>Profissional que solicitou o Contato Assistencial</td></tr><tr><td style="white-space:nowrap">autorizador<a name="BRResponsabilidadeParticipante-autorizador"> </a></td><td>Profissional que autorizou a realização do Contato Assistencial</td></tr><tr><td style="white-space:nowrap">admissao<a name="BRResponsabilidadeParticipante-admissao"> </a></td><td>Profissional que admitiu do indivíduo no Contato Assistencial</td></tr><tr><td style="white-space:nowrap">alta<a name="BRResponsabilidadeParticipante-alta"> </a></td><td>Profissional que realizou a alta do indivíduo no Contato Assistencial</td></tr><tr><td style="white-space:nowrap">atendimento<a name="BRResponsabilidadeParticipante-atendimento"> </a></td><td>Profissional responsável pelo atendimento clínico Contato Assistencial</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante"/>
+  <version value="0.1.0"/>
+  <name value="BRResponsabilidadeParticipante"/>
+  <title value="Reponsabilidade no Contato Assistencial"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T18:20:48.9276301+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="solicitante"/>
+    <display value="Profissional que solicitou o Contato Assistencial"/>
+  </concept>
+  <concept>
+    <code value="autorizador"/>
+    <display value="Profissional que autorizou a realização do Contato Assistencial"/>
+  </concept>
+  <concept>
+    <code value="admissao"/>
+    <display value="Profissional que admitiu do indivíduo no Contato Assistencial"/>
+  </concept>
+  <concept>
+    <code value="alta"/>
+    <display value="Profissional que realizou a alta do indivíduo no Contato Assistencial"/>
+  </concept>
+  <concept>
+    <code value="atendimento"/>
+    <display value="Profissional responsável pelo atendimento clínico Contato Assistencial"/>
+  </concept>
+</CodeSystem>

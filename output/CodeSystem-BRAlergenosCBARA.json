@@ -1,0 +1,1271 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRAlergenosCBARA",
+  "meta" : {
+    "lastUpdated" : "2022-12-02T15:11:07.348995+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">abelha<a name=\"BRAlergenosCBARA-abelha\"> </a></td><td>Abelha</td></tr><tr><td style=\"white-space:nowrap\">acaro<a name=\"BRAlergenosCBARA-acaro\"> </a></td><td>Ácaros</td></tr><tr><td style=\"white-space:nowrap\">acido-azelaico<a name=\"BRAlergenosCBARA-acido-azelaico\"> </a></td><td>Ácido azelaico</td></tr><tr><td style=\"white-space:nowrap\">adesivo<a name=\"BRAlergenosCBARA-adesivo\"> </a></td><td>Adesivos</td></tr><tr><td style=\"white-space:nowrap\">aditivo-alimentar<a name=\"BRAlergenosCBARA-aditivo-alimentar\"> </a></td><td>Aditivos alimentares</td></tr><tr><td style=\"white-space:nowrap\">agente-fisico<a name=\"BRAlergenosCBARA-agente-fisico\"> </a></td><td>Agentes físicos</td></tr><tr><td style=\"white-space:nowrap\">aipo<a name=\"BRAlergenosCBARA-aipo\"> </a></td><td>Aipo</td></tr><tr><td style=\"white-space:nowrap\">alcool-polivinilico<a name=\"BRAlergenosCBARA-alcool-polivinilico\"> </a></td><td>Álcool polivinílico</td></tr><tr><td style=\"white-space:nowrap\">alho<a name=\"BRAlergenosCBARA-alho\"> </a></td><td>Alho</td></tr><tr><td style=\"white-space:nowrap\">aluminio<a name=\"BRAlergenosCBARA-aluminio\"> </a></td><td>Alumínio</td></tr><tr><td style=\"white-space:nowrap\">ambrosia<a name=\"BRAlergenosCBARA-ambrosia\"> </a></td><td>Ambrósia</td></tr><tr><td style=\"white-space:nowrap\">amendoim<a name=\"BRAlergenosCBARA-amendoim\"> </a></td><td>Amendoim</td></tr><tr><td style=\"white-space:nowrap\">antralina<a name=\"BRAlergenosCBARA-antralina\"> </a></td><td>Antralina</td></tr><tr><td style=\"white-space:nowrap\">aranha<a name=\"BRAlergenosCBARA-aranha\"> </a></td><td>Aranha</td></tr><tr><td style=\"white-space:nowrap\">areia<a name=\"BRAlergenosCBARA-areia\"> </a></td><td>Areia</td></tr><tr><td style=\"white-space:nowrap\">arroz<a name=\"BRAlergenosCBARA-arroz\"> </a></td><td>Arroz</td></tr><tr><td style=\"white-space:nowrap\">arvore<a name=\"BRAlergenosCBARA-arvore\"> </a></td><td>Árvores</td></tr><tr><td style=\"white-space:nowrap\">aspartame<a name=\"BRAlergenosCBARA-aspartame\"> </a></td><td>Aspartame</td></tr><tr><td style=\"white-space:nowrap\">atum<a name=\"BRAlergenosCBARA-atum\"> </a></td><td>Atum</td></tr><tr><td style=\"white-space:nowrap\">aveia<a name=\"BRAlergenosCBARA-aveia\"> </a></td><td>Aveia</td></tr><tr><td style=\"white-space:nowrap\">avela<a name=\"BRAlergenosCBARA-avela\"> </a></td><td>Avelã</td></tr><tr><td style=\"white-space:nowrap\">bacalhau<a name=\"BRAlergenosCBARA-bacalhau\"> </a></td><td>Bacalhau</td></tr><tr><td style=\"white-space:nowrap\">banana<a name=\"BRAlergenosCBARA-banana\"> </a></td><td>Banana</td></tr><tr><td style=\"white-space:nowrap\">barata<a name=\"BRAlergenosCBARA-barata\"> </a></td><td>Barata</td></tr><tr><td style=\"white-space:nowrap\">batata<a name=\"BRAlergenosCBARA-batata\"> </a></td><td>Batata</td></tr><tr><td style=\"white-space:nowrap\">baunilha<a name=\"BRAlergenosCBARA-baunilha\"> </a></td><td>Baunilha</td></tr><tr><td style=\"white-space:nowrap\">borracha<a name=\"BRAlergenosCBARA-borracha\"> </a></td><td>Borracha</td></tr><tr><td style=\"white-space:nowrap\">camarao<a name=\"BRAlergenosCBARA-camarao\"> </a></td><td>Camarão</td></tr><tr><td style=\"white-space:nowrap\">canela<a name=\"BRAlergenosCBARA-canela\"> </a></td><td>Canela</td></tr><tr><td style=\"white-space:nowrap\">caracol<a name=\"BRAlergenosCBARA-caracol\"> </a></td><td>Caracol</td></tr><tr><td style=\"white-space:nowrap\">caranguejo<a name=\"BRAlergenosCBARA-caranguejo\"> </a></td><td>Caranguejo</td></tr><tr><td style=\"white-space:nowrap\">carbaril<a name=\"BRAlergenosCBARA-carbaril\"> </a></td><td>Carbaril</td></tr><tr><td style=\"white-space:nowrap\">carne<a name=\"BRAlergenosCBARA-carne\"> </a></td><td>Carne</td></tr><tr><td style=\"white-space:nowrap\">carne-ave<a name=\"BRAlergenosCBARA-carne-ave\"> </a></td><td>Carne de aves</td></tr><tr><td style=\"white-space:nowrap\">carne-vermelha<a name=\"BRAlergenosCBARA-carne-vermelha\"> </a></td><td>Carne vermelha</td></tr><tr><td style=\"white-space:nowrap\">castanha<a name=\"BRAlergenosCBARA-castanha\"> </a></td><td>Castanhas</td></tr><tr><td style=\"white-space:nowrap\">castanha-caju<a name=\"BRAlergenosCBARA-castanha-caju\"> </a></td><td>Castanha de caju</td></tr><tr><td style=\"white-space:nowrap\">cebola<a name=\"BRAlergenosCBARA-cebola\"> </a></td><td>Cebola</td></tr><tr><td style=\"white-space:nowrap\">cenoura<a name=\"BRAlergenosCBARA-cenoura\"> </a></td><td>Cenoura</td></tr><tr><td style=\"white-space:nowrap\">centeio<a name=\"BRAlergenosCBARA-centeio\"> </a></td><td>Centeio</td></tr><tr><td style=\"white-space:nowrap\">cereal<a name=\"BRAlergenosCBARA-cereal\"> </a></td><td>Cereal</td></tr><tr><td style=\"white-space:nowrap\">cereja<a name=\"BRAlergenosCBARA-cereja\"> </a></td><td>Cereja</td></tr><tr><td style=\"white-space:nowrap\">chocolate<a name=\"BRAlergenosCBARA-chocolate\"> </a></td><td>Chocolate</td></tr><tr><td style=\"white-space:nowrap\">citrato<a name=\"BRAlergenosCBARA-citrato\"> </a></td><td>Citrato</td></tr><tr><td style=\"white-space:nowrap\">clara-ovo<a name=\"BRAlergenosCBARA-clara-ovo\"> </a></td><td>Clara do ovo</td></tr><tr><td style=\"white-space:nowrap\">cloreto-metilbenzetonio<a name=\"BRAlergenosCBARA-cloreto-metilbenzetonio\"> </a></td><td>Cloreto de Metilbenzetônio</td></tr><tr><td style=\"white-space:nowrap\">cobre<a name=\"BRAlergenosCBARA-cobre\"> </a></td><td>Cobre</td></tr><tr><td style=\"white-space:nowrap\">coco<a name=\"BRAlergenosCBARA-coco\"> </a></td><td>Coco</td></tr><tr><td style=\"white-space:nowrap\">coelho<a name=\"BRAlergenosCBARA-coelho\"> </a></td><td>Coelho</td></tr><tr><td style=\"white-space:nowrap\">cogumelo<a name=\"BRAlergenosCBARA-cogumelo\"> </a></td><td>Cogumelos</td></tr><tr><td style=\"white-space:nowrap\">cola<a name=\"BRAlergenosCBARA-cola\"> </a></td><td>Cola</td></tr><tr><td style=\"white-space:nowrap\">contato-metal<a name=\"BRAlergenosCBARA-contato-metal\"> </a></td><td>Contato com Metal</td></tr><tr><td style=\"white-space:nowrap\">cosmetico<a name=\"BRAlergenosCBARA-cosmetico\"> </a></td><td>Cosméticos</td></tr><tr><td style=\"white-space:nowrap\">cravo-india<a name=\"BRAlergenosCBARA-cravo-india\"> </a></td><td>Cravo-da- Índia</td></tr><tr><td style=\"white-space:nowrap\">crustaceo<a name=\"BRAlergenosCBARA-crustaceo\"> </a></td><td>Crustáceos</td></tr><tr><td style=\"white-space:nowrap\">curry<a name=\"BRAlergenosCBARA-curry\"> </a></td><td>Curry</td></tr><tr><td style=\"white-space:nowrap\">enxofre<a name=\"BRAlergenosCBARA-enxofre\"> </a></td><td>Enxofre</td></tr><tr><td style=\"white-space:nowrap\">erva-aromatica-especiaria<a name=\"BRAlergenosCBARA-erva-aromatica-especiaria\"> </a></td><td>Ervas aromáticas e especiarias</td></tr><tr><td style=\"white-space:nowrap\">erva-daninha<a name=\"BRAlergenosCBARA-erva-daninha\"> </a></td><td>Ervas daninhas</td></tr><tr><td style=\"white-space:nowrap\">etanolamina<a name=\"BRAlergenosCBARA-etanolamina\"> </a></td><td>Etanolamina</td></tr><tr><td style=\"white-space:nowrap\">farinha<a name=\"BRAlergenosCBARA-farinha\"> </a></td><td>Farinha</td></tr><tr><td style=\"white-space:nowrap\">feijao<a name=\"BRAlergenosCBARA-feijao\"> </a></td><td>Feijão</td></tr><tr><td style=\"white-space:nowrap\">ferro<a name=\"BRAlergenosCBARA-ferro\"> </a></td><td>Ferro</td></tr><tr><td style=\"white-space:nowrap\">figo<a name=\"BRAlergenosCBARA-figo\"> </a></td><td>Figos</td></tr><tr><td style=\"white-space:nowrap\">framboesa<a name=\"BRAlergenosCBARA-framboesa\"> </a></td><td>Framboesa</td></tr><tr><td style=\"white-space:nowrap\">fruta-citrica<a name=\"BRAlergenosCBARA-fruta-citrica\"> </a></td><td>Frutas cítricas</td></tr><tr><td style=\"white-space:nowrap\">gengibre<a name=\"BRAlergenosCBARA-gengibre\"> </a></td><td>Gengibre</td></tr><tr><td style=\"white-space:nowrap\">glutamato<a name=\"BRAlergenosCBARA-glutamato\"> </a></td><td>Glutamato</td></tr><tr><td style=\"white-space:nowrap\">grama<a name=\"BRAlergenosCBARA-grama\"> </a></td><td>Grama</td></tr><tr><td style=\"white-space:nowrap\">grao<a name=\"BRAlergenosCBARA-grao\"> </a></td><td>Grão</td></tr><tr><td style=\"white-space:nowrap\">grao-soja<a name=\"BRAlergenosCBARA-grao-soja\"> </a></td><td>Grãos de soja</td></tr><tr><td style=\"white-space:nowrap\">kiwi<a name=\"BRAlergenosCBARA-kiwi\"> </a></td><td>Kiwi</td></tr><tr><td style=\"white-space:nowrap\">la<a name=\"BRAlergenosCBARA-la\"> </a></td><td>Lã</td></tr><tr><td style=\"white-space:nowrap\">lagosta<a name=\"BRAlergenosCBARA-lagosta\"> </a></td><td>Lagosta</td></tr><tr><td style=\"white-space:nowrap\">lambreta<a name=\"BRAlergenosCBARA-lambreta\"> </a></td><td>Lambreta</td></tr><tr><td style=\"white-space:nowrap\">lanolina<a name=\"BRAlergenosCBARA-lanolina\"> </a></td><td>Lanolina</td></tr><tr><td style=\"white-space:nowrap\">laranja<a name=\"BRAlergenosCBARA-laranja\"> </a></td><td>Laranja</td></tr><tr><td style=\"white-space:nowrap\">latao<a name=\"BRAlergenosCBARA-latao\"> </a></td><td>Latão</td></tr><tr><td style=\"white-space:nowrap\">latex<a name=\"BRAlergenosCBARA-latex\"> </a></td><td>Látex</td></tr><tr><td style=\"white-space:nowrap\">laticinio<a name=\"BRAlergenosCBARA-laticinio\"> </a></td><td>Laticínios</td></tr><tr><td style=\"white-space:nowrap\">leguminosa<a name=\"BRAlergenosCBARA-leguminosa\"> </a></td><td>Leguminosas</td></tr><tr><td style=\"white-space:nowrap\">lima<a name=\"BRAlergenosCBARA-lima\"> </a></td><td>Lima</td></tr><tr><td style=\"white-space:nowrap\">limao<a name=\"BRAlergenosCBARA-limao\"> </a></td><td>Limão</td></tr><tr><td style=\"white-space:nowrap\">lula<a name=\"BRAlergenosCBARA-lula\"> </a></td><td>Lula</td></tr><tr><td style=\"white-space:nowrap\">maca<a name=\"BRAlergenosCBARA-maca\"> </a></td><td>Maçã</td></tr><tr><td style=\"white-space:nowrap\">madeira<a name=\"BRAlergenosCBARA-madeira\"> </a></td><td>Madeira</td></tr><tr><td style=\"white-space:nowrap\">manga<a name=\"BRAlergenosCBARA-manga\"> </a></td><td>Manga</td></tr><tr><td style=\"white-space:nowrap\">manteiga-cacau<a name=\"BRAlergenosCBARA-manteiga-cacau\"> </a></td><td>Manteiga de cacau</td></tr><tr><td style=\"white-space:nowrap\">marisco<a name=\"BRAlergenosCBARA-marisco\"> </a></td><td>Marisco</td></tr><tr><td style=\"white-space:nowrap\">material-dentario-policarboneto<a name=\"BRAlergenosCBARA-material-dentario-policarboneto\"> </a></td><td>Material dentário em policarboneto</td></tr><tr><td style=\"white-space:nowrap\">material-sutura<a name=\"BRAlergenosCBARA-material-sutura\"> </a></td><td>Material de sutura</td></tr><tr><td style=\"white-space:nowrap\">melancia<a name=\"BRAlergenosCBARA-melancia\"> </a></td><td>Melancia</td></tr><tr><td style=\"white-space:nowrap\">melao<a name=\"BRAlergenosCBARA-melao\"> </a></td><td>Melão</td></tr><tr><td style=\"white-space:nowrap\">mexilhao<a name=\"BRAlergenosCBARA-mexilhao\"> </a></td><td>Mexilhão</td></tr><tr><td style=\"white-space:nowrap\">milho<a name=\"BRAlergenosCBARA-milho\"> </a></td><td>Milho</td></tr><tr><td style=\"white-space:nowrap\">mirtilo<a name=\"BRAlergenosCBARA-mirtilo\"> </a></td><td>Mirtilos</td></tr><tr><td style=\"white-space:nowrap\">morango<a name=\"BRAlergenosCBARA-morango\"> </a></td><td>Morango</td></tr><tr><td style=\"white-space:nowrap\">mostarda<a name=\"BRAlergenosCBARA-mostarda\"> </a></td><td>Mostarda</td></tr><tr><td style=\"white-space:nowrap\">niquel<a name=\"BRAlergenosCBARA-niquel\"> </a></td><td>Níquel</td></tr><tr><td style=\"white-space:nowrap\">noz<a name=\"BRAlergenosCBARA-noz\"> </a></td><td>Nozes</td></tr><tr><td style=\"white-space:nowrap\">noz-moscada<a name=\"BRAlergenosCBARA-noz-moscada\"> </a></td><td>Noz moscada</td></tr><tr><td style=\"white-space:nowrap\">oleo-eucalipto<a name=\"BRAlergenosCBARA-oleo-eucalipto\"> </a></td><td>Óleo de eucalipto</td></tr><tr><td style=\"white-space:nowrap\">oleo-peixe<a name=\"BRAlergenosCBARA-oleo-peixe\"> </a></td><td>Óleo de Peixe</td></tr><tr><td style=\"white-space:nowrap\">organofosfato<a name=\"BRAlergenosCBARA-organofosfato\"> </a></td><td>Organofosfatos</td></tr><tr><td style=\"white-space:nowrap\">ostra<a name=\"BRAlergenosCBARA-ostra\"> </a></td><td>Ostra</td></tr><tr><td style=\"white-space:nowrap\">ouro<a name=\"BRAlergenosCBARA-ouro\"> </a></td><td>Ouro</td></tr><tr><td style=\"white-space:nowrap\">outro-agente-substancia<a name=\"BRAlergenosCBARA-outro-agente-substancia\"> </a></td><td>Outros agentes ou substâncias</td></tr><tr><td style=\"white-space:nowrap\">outro-alimento<a name=\"BRAlergenosCBARA-outro-alimento\"> </a></td><td>Outro alimento</td></tr><tr><td style=\"white-space:nowrap\">paprica<a name=\"BRAlergenosCBARA-paprica\"> </a></td><td>Páprica</td></tr><tr><td style=\"white-space:nowrap\">parafina<a name=\"BRAlergenosCBARA-parafina\"> </a></td><td>Parafina</td></tr><tr><td style=\"white-space:nowrap\">peixe<a name=\"BRAlergenosCBARA-peixe\"> </a></td><td>Peixe</td></tr><tr><td style=\"white-space:nowrap\">peixe-aranha<a name=\"BRAlergenosCBARA-peixe-aranha\"> </a></td><td>Peixe-Aranha</td></tr><tr><td style=\"white-space:nowrap\">pelo-animal<a name=\"BRAlergenosCBARA-pelo-animal\"> </a></td><td>Pelo de animais</td></tr><tr><td style=\"white-space:nowrap\">pelo-cao<a name=\"BRAlergenosCBARA-pelo-cao\"> </a></td><td>Pelo de cão</td></tr><tr><td style=\"white-space:nowrap\">pelo-cavalo<a name=\"BRAlergenosCBARA-pelo-cavalo\"> </a></td><td>Pelo de cavalo</td></tr><tr><td style=\"white-space:nowrap\">pelo-coelho<a name=\"BRAlergenosCBARA-pelo-coelho\"> </a></td><td>Pelo de coelho</td></tr><tr><td style=\"white-space:nowrap\">pelo-gato<a name=\"BRAlergenosCBARA-pelo-gato\"> </a></td><td>Pelo de gato</td></tr><tr><td style=\"white-space:nowrap\">pelo-vaca<a name=\"BRAlergenosCBARA-pelo-vaca\"> </a></td><td>Pelo de vaca</td></tr><tr><td style=\"white-space:nowrap\">pena<a name=\"BRAlergenosCBARA-pena\"> </a></td><td>Penas</td></tr><tr><td style=\"white-space:nowrap\">perfluorinato<a name=\"BRAlergenosCBARA-perfluorinato\"> </a></td><td>Perfluorinato</td></tr><tr><td style=\"white-space:nowrap\">perfume<a name=\"BRAlergenosCBARA-perfume\"> </a></td><td>Perfume</td></tr><tr><td style=\"white-space:nowrap\">peroxido-benzoila<a name=\"BRAlergenosCBARA-peroxido-benzoila\"> </a></td><td>Peróxido de Benzoíla</td></tr><tr><td style=\"white-space:nowrap\">pessego<a name=\"BRAlergenosCBARA-pessego\"> </a></td><td>Pêssego</td></tr><tr><td style=\"white-space:nowrap\">pesticida<a name=\"BRAlergenosCBARA-pesticida\"> </a></td><td>Pesticidas</td></tr><tr><td style=\"white-space:nowrap\">pesticida-organoclorado<a name=\"BRAlergenosCBARA-pesticida-organoclorado\"> </a></td><td>Pesticida organoclorado</td></tr><tr><td style=\"white-space:nowrap\">pimenta<a name=\"BRAlergenosCBARA-pimenta\"> </a></td><td>Pimenta</td></tr><tr><td style=\"white-space:nowrap\">pinhao<a name=\"BRAlergenosCBARA-pinhao\"> </a></td><td>Pinhão</td></tr><tr><td style=\"white-space:nowrap\">pistache<a name=\"BRAlergenosCBARA-pistache\"> </a></td><td>Pistache</td></tr><tr><td style=\"white-space:nowrap\">podofilina<a name=\"BRAlergenosCBARA-podofilina\"> </a></td><td>Podofilina</td></tr><tr><td style=\"white-space:nowrap\">polen<a name=\"BRAlergenosCBARA-polen\"> </a></td><td>Pólen</td></tr><tr><td style=\"white-space:nowrap\">polen-grama<a name=\"BRAlergenosCBARA-polen-grama\"> </a></td><td>Pólen de grama</td></tr><tr><td style=\"white-space:nowrap\">polvo<a name=\"BRAlergenosCBARA-polvo\"> </a></td><td>Polvo</td></tr><tr><td style=\"white-space:nowrap\">porco<a name=\"BRAlergenosCBARA-porco\"> </a></td><td>Porco</td></tr><tr><td style=\"white-space:nowrap\">prata<a name=\"BRAlergenosCBARA-prata\"> </a></td><td>Prata</td></tr><tr><td style=\"white-space:nowrap\">proteina-leite-vaca<a name=\"BRAlergenosCBARA-proteina-leite-vaca\"> </a></td><td>Proteína do leite de vaca</td></tr><tr><td style=\"white-space:nowrap\">proteina-ovo<a name=\"BRAlergenosCBARA-proteina-ovo\"> </a></td><td>Proteína do ovo</td></tr><tr><td style=\"white-space:nowrap\">queijo<a name=\"BRAlergenosCBARA-queijo\"> </a></td><td>Queijo</td></tr><tr><td style=\"white-space:nowrap\">resina-arvore<a name=\"BRAlergenosCBARA-resina-arvore\"> </a></td><td>Resina de árvore</td></tr><tr><td style=\"white-space:nowrap\">samambaia<a name=\"BRAlergenosCBARA-samambaia\"> </a></td><td>Samambaia</td></tr><tr><td style=\"white-space:nowrap\">seda<a name=\"BRAlergenosCBARA-seda\"> </a></td><td>Seda</td></tr><tr><td style=\"white-space:nowrap\">semente<a name=\"BRAlergenosCBARA-semente\"> </a></td><td>Semente</td></tr><tr><td style=\"white-space:nowrap\">sepia<a name=\"BRAlergenosCBARA-sepia\"> </a></td><td>Sépia</td></tr><tr><td style=\"white-space:nowrap\">silicone-derivado<a name=\"BRAlergenosCBARA-silicone-derivado\"> </a></td><td>Silicone e seus derivados</td></tr><tr><td style=\"white-space:nowrap\">sulfito<a name=\"BRAlergenosCBARA-sulfito\"> </a></td><td>Sulfitos</td></tr><tr><td style=\"white-space:nowrap\">terpeno<a name=\"BRAlergenosCBARA-terpeno\"> </a></td><td>Terpeno</td></tr><tr><td style=\"white-space:nowrap\">tinta-cabelo<a name=\"BRAlergenosCBARA-tinta-cabelo\"> </a></td><td>Tinta para o cabelo</td></tr><tr><td style=\"white-space:nowrap\">tinta-textil<a name=\"BRAlergenosCBARA-tinta-textil\"> </a></td><td>Tintas para têxteis</td></tr><tr><td style=\"white-space:nowrap\">tomate<a name=\"BRAlergenosCBARA-tomate\"> </a></td><td>Tomate</td></tr><tr><td style=\"white-space:nowrap\">toxina-botulinica<a name=\"BRAlergenosCBARA-toxina-botulinica\"> </a></td><td>Toxina botulínica</td></tr><tr><td style=\"white-space:nowrap\">trigo<a name=\"BRAlergenosCBARA-trigo\"> </a></td><td>Trigo</td></tr><tr><td style=\"white-space:nowrap\">veneno-escorpiao<a name=\"BRAlergenosCBARA-veneno-escorpiao\"> </a></td><td>Veneno de escorpião</td></tr><tr><td style=\"white-space:nowrap\">veneno-vespa<a name=\"BRAlergenosCBARA-veneno-vespa\"> </a></td><td>Veneno de vespa</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
+  "version" : "0.1.0",
+  "name" : "BRAlergenosCBARA",
+  "title" : "Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-12-02T15:11:07.301430+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Classifica as alergias e reações adversas.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "abelha",
+    "display" : "Abelha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "acaro",
+    "display" : "Ácaros",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "acido-azelaico",
+    "display" : "Ácido azelaico",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "adesivo",
+    "display" : "Adesivos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "aditivo-alimentar",
+    "display" : "Aditivos alimentares",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "agente-fisico",
+    "display" : "Agentes físicos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "aipo",
+    "display" : "Aipo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "alcool-polivinilico",
+    "display" : "Álcool polivinílico",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "alho",
+    "display" : "Alho",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "aluminio",
+    "display" : "Alumínio",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "ambrosia",
+    "display" : "Ambrósia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "amendoim",
+    "display" : "Amendoim",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "antralina",
+    "display" : "Antralina",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "aranha",
+    "display" : "Aranha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "areia",
+    "display" : "Areia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "arroz",
+    "display" : "Arroz",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "arvore",
+    "display" : "Árvores",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "aspartame",
+    "display" : "Aspartame",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "atum",
+    "display" : "Atum",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "aveia",
+    "display" : "Aveia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "avela",
+    "display" : "Avelã",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "bacalhau",
+    "display" : "Bacalhau",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "banana",
+    "display" : "Banana",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "barata",
+    "display" : "Barata",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "batata",
+    "display" : "Batata",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "baunilha",
+    "display" : "Baunilha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "borracha",
+    "display" : "Borracha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "camarao",
+    "display" : "Camarão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "canela",
+    "display" : "Canela",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "caracol",
+    "display" : "Caracol",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "caranguejo",
+    "display" : "Caranguejo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "carbaril",
+    "display" : "Carbaril",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "carne",
+    "display" : "Carne",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "carne-ave",
+    "display" : "Carne de aves",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "carne-vermelha",
+    "display" : "Carne vermelha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "castanha",
+    "display" : "Castanhas",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "castanha-caju",
+    "display" : "Castanha de caju",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cebola",
+    "display" : "Cebola",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cenoura",
+    "display" : "Cenoura",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "centeio",
+    "display" : "Centeio",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cereal",
+    "display" : "Cereal",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cereja",
+    "display" : "Cereja",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "chocolate",
+    "display" : "Chocolate",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "citrato",
+    "display" : "Citrato",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "clara-ovo",
+    "display" : "Clara do ovo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cloreto-metilbenzetonio",
+    "display" : "Cloreto de Metilbenzetônio",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "cobre",
+    "display" : "Cobre",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "coco",
+    "display" : "Coco",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "coelho",
+    "display" : "Coelho",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cogumelo",
+    "display" : "Cogumelos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "cola",
+    "display" : "Cola",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "contato-metal",
+    "display" : "Contato com Metal",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "cosmetico",
+    "display" : "Cosméticos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "cravo-india",
+    "display" : "Cravo-da- Índia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "crustaceo",
+    "display" : "Crustáceos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "curry",
+    "display" : "Curry",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "enxofre",
+    "display" : "Enxofre",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "erva-aromatica-especiaria",
+    "display" : "Ervas aromáticas e especiarias",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "erva-daninha",
+    "display" : "Ervas daninhas",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "etanolamina",
+    "display" : "Etanolamina",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "farinha",
+    "display" : "Farinha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "feijao",
+    "display" : "Feijão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "ferro",
+    "display" : "Ferro",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "figo",
+    "display" : "Figos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "framboesa",
+    "display" : "Framboesa",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "fruta-citrica",
+    "display" : "Frutas cítricas",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "gengibre",
+    "display" : "Gengibre",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "glutamato",
+    "display" : "Glutamato",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "grama",
+    "display" : "Grama",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "grao",
+    "display" : "Grão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "grao-soja",
+    "display" : "Grãos de soja",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "kiwi",
+    "display" : "Kiwi",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "la",
+    "display" : "Lã",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "lagosta",
+    "display" : "Lagosta",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "lambreta",
+    "display" : "Lambreta",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "lanolina",
+    "display" : "Lanolina",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "laranja",
+    "display" : "Laranja",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "latao",
+    "display" : "Latão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "latex",
+    "display" : "Látex",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "laticinio",
+    "display" : "Laticínios",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "leguminosa",
+    "display" : "Leguminosas",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "lima",
+    "display" : "Lima",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "limao",
+    "display" : "Limão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "lula",
+    "display" : "Lula",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "maca",
+    "display" : "Maçã",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "madeira",
+    "display" : "Madeira",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "manga",
+    "display" : "Manga",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "manteiga-cacau",
+    "display" : "Manteiga de cacau",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "marisco",
+    "display" : "Marisco",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "material-dentario-policarboneto",
+    "display" : "Material dentário em policarboneto",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "material-sutura",
+    "display" : "Material de sutura",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "melancia",
+    "display" : "Melancia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "melao",
+    "display" : "Melão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "mexilhao",
+    "display" : "Mexilhão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "milho",
+    "display" : "Milho",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "mirtilo",
+    "display" : "Mirtilos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "morango",
+    "display" : "Morango",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "mostarda",
+    "display" : "Mostarda",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "niquel",
+    "display" : "Níquel",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "noz",
+    "display" : "Nozes",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "noz-moscada",
+    "display" : "Noz moscada",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "oleo-eucalipto",
+    "display" : "Óleo de eucalipto",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "oleo-peixe",
+    "display" : "Óleo de Peixe",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "organofosfato",
+    "display" : "Organofosfatos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "ostra",
+    "display" : "Ostra",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "ouro",
+    "display" : "Ouro",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "outro-agente-substancia",
+    "display" : "Outros agentes ou substâncias",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "outro-alimento",
+    "display" : "Outro alimento",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "paprica",
+    "display" : "Páprica",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "parafina",
+    "display" : "Parafina",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "peixe",
+    "display" : "Peixe",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "peixe-aranha",
+    "display" : "Peixe-Aranha",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pelo-animal",
+    "display" : "Pelo de animais",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pelo-cao",
+    "display" : "Pelo de cão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pelo-cavalo",
+    "display" : "Pelo de cavalo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pelo-coelho",
+    "display" : "Pelo de coelho",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pelo-gato",
+    "display" : "Pelo de gato",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pelo-vaca",
+    "display" : "Pelo de vaca",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pena",
+    "display" : "Penas",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "perfluorinato",
+    "display" : "Perfluorinato",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "perfume",
+    "display" : "Perfume",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "peroxido-benzoila",
+    "display" : "Peróxido de Benzoíla",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pessego",
+    "display" : "Pêssego",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "pesticida",
+    "display" : "Pesticidas",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pesticida-organoclorado",
+    "display" : "Pesticida organoclorado",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "pimenta",
+    "display" : "Pimenta",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "pinhao",
+    "display" : "Pinhão",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "pistache",
+    "display" : "Pistache",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "podofilina",
+    "display" : "Podofilina",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "polen",
+    "display" : "Pólen",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "polen-grama",
+    "display" : "Pólen de grama",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "polvo",
+    "display" : "Polvo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "porco",
+    "display" : "Porco",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "prata",
+    "display" : "Prata",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "proteina-leite-vaca",
+    "display" : "Proteína do leite de vaca",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "proteina-ovo",
+    "display" : "Proteína do ovo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "queijo",
+    "display" : "Queijo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "resina-arvore",
+    "display" : "Resina de árvore",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "samambaia",
+    "display" : "Samambaia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "seda",
+    "display" : "Seda",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "semente",
+    "display" : "Semente",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "sepia",
+    "display" : "Sépia",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "silicone-derivado",
+    "display" : "Silicone e seus derivados",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "sulfito",
+    "display" : "Sulfitos",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "terpeno",
+    "display" : "Terpeno",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "tinta-cabelo",
+    "display" : "Tinta para o cabelo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "tinta-textil",
+    "display" : "Tintas para têxteis",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "tomate",
+    "display" : "Tomate",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "toxina-botulinica",
+    "display" : "Toxina botulínica",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "trigo",
+    "display" : "Trigo",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "food"
+    }]
+  },
+  {
+    "code" : "veneno-escorpiao",
+    "display" : "Veneno de escorpião",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  },
+  {
+    "code" : "veneno-vespa",
+    "display" : "Veneno de vespa",
+    "property" : [{
+      "code" : "category",
+      "valueCode" : "environment"
+    }]
+  }]
+}

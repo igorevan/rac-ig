@@ -1,0 +1,96 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRTipoSubstanciaUso",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2020-09-20T23:04:32.536+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">deriv-tabaco<a name=\"BRTipoSubstanciaUso-deriv-tabaco\"> </a></td><td>Derivados do Tabaco</td></tr><tr><td style=\"white-space:nowrap\">alcool<a name=\"BRTipoSubstanciaUso-alcool\"> </a></td><td>Bebidas Alcóolicas</td></tr><tr><td style=\"white-space:nowrap\">maconha<a name=\"BRTipoSubstanciaUso-maconha\"> </a></td><td>Maconha</td></tr><tr><td style=\"white-space:nowrap\">cocaina<a name=\"BRTipoSubstanciaUso-cocaina\"> </a></td><td>Cocaína</td></tr><tr><td style=\"white-space:nowrap\">crack<a name=\"BRTipoSubstanciaUso-crack\"> </a></td><td>Crack</td></tr><tr><td style=\"white-space:nowrap\">anfetamina<a name=\"BRTipoSubstanciaUso-anfetamina\"> </a></td><td>Anfetaminas ou Êxtase</td></tr><tr><td style=\"white-space:nowrap\">inalante<a name=\"BRTipoSubstanciaUso-inalante\"> </a></td><td>Inalantes</td></tr><tr><td style=\"white-space:nowrap\">hipno-seda<a name=\"BRTipoSubstanciaUso-hipno-seda\"> </a></td><td>Hipnóticos ou Sedativos</td></tr><tr><td style=\"white-space:nowrap\">alucinogeno<a name=\"BRTipoSubstanciaUso-alucinogeno\"> </a></td><td>Alucinógenos</td></tr><tr><td style=\"white-space:nowrap\">opio<a name=\"BRTipoSubstanciaUso-opio\"> </a></td><td>Opióides ou Opiáceos</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
+  "version" : "0.1.0",
+  "name" : "BRTipoSubstanciaUso",
+  "title" : "Tipo de Substância em Uso",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-09-20T23:04:30.8771699+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "deriv-tabaco",
+    "display" : "Derivados do Tabaco"
+  },
+  {
+    "code" : "alcool",
+    "display" : "Bebidas Alcóolicas"
+  },
+  {
+    "code" : "maconha",
+    "display" : "Maconha"
+  },
+  {
+    "code" : "cocaina",
+    "display" : "Cocaína"
+  },
+  {
+    "code" : "crack",
+    "display" : "Crack"
+  },
+  {
+    "code" : "anfetamina",
+    "display" : "Anfetaminas ou Êxtase"
+  },
+  {
+    "code" : "inalante",
+    "display" : "Inalantes"
+  },
+  {
+    "code" : "hipno-seda",
+    "display" : "Hipnóticos ou Sedativos"
+  },
+  {
+    "code" : "alucinogeno",
+    "display" : "Alucinógenos"
+  },
+  {
+    "code" : "opio",
+    "display" : "Opióides ou Opiáceos"
+  }]
+}

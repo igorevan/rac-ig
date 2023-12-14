@@ -1,0 +1,425 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRDivisaoGeograficaBrasil"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-11T19:12:55.862+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>type</td><td>code</td><td>tipo</td></tr><tr><td>ethnical</td><td>string</td><td>Gentílico</td></tr><tr><td>initials</td><td>code</td><td>Sigla</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil</code> defines the following codes in an undefined heirarchy:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>type</b></td><td><b>ethnical</b></td><td><b>initials</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">1<a name=\"BRDivisaoGeograficaBrasil-1\"> </a></td><td>Norte</td><td>region</td><td/><td>N</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  11<a name=\"BRDivisaoGeograficaBrasil-11\"> </a></td><td>Rondônia</td><td>state</td><td/><td>RO</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  12<a name=\"BRDivisaoGeograficaBrasil-12\"> </a></td><td>Acre</td><td>state</td><td/><td>AC</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  13<a name=\"BRDivisaoGeograficaBrasil-13\"> </a></td><td>Amazonas</td><td>state</td><td/><td>AM</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  14<a name=\"BRDivisaoGeograficaBrasil-14\"> </a></td><td>Roraima</td><td>state</td><td/><td>RR</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  15<a name=\"BRDivisaoGeograficaBrasil-15\"> </a></td><td>Pará</td><td>state</td><td/><td>PA</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  16<a name=\"BRDivisaoGeograficaBrasil-16\"> </a></td><td>Amapá</td><td>state</td><td/><td>AP</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  17<a name=\"BRDivisaoGeograficaBrasil-17\"> </a></td><td>Tocantins</td><td>state</td><td/><td>TO</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">2<a name=\"BRDivisaoGeograficaBrasil-2\"> </a></td><td>Nordeste</td><td>region</td><td/><td>NE</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  21<a name=\"BRDivisaoGeograficaBrasil-21\"> </a></td><td>Maranhão</td><td>state</td><td/><td>MA</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  22<a name=\"BRDivisaoGeograficaBrasil-22\"> </a></td><td>Piauí</td><td>state</td><td/><td>PI</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  23<a name=\"BRDivisaoGeograficaBrasil-23\"> </a></td><td>Ceará</td><td>state</td><td/><td>CE</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  24<a name=\"BRDivisaoGeograficaBrasil-24\"> </a></td><td>Rio Grande do Norte</td><td>state</td><td/><td>RN</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  25<a name=\"BRDivisaoGeograficaBrasil-25\"> </a></td><td>Paraíba</td><td>state</td><td/><td>PB</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  26<a name=\"BRDivisaoGeograficaBrasil-26\"> </a></td><td>Pernambuco</td><td>state</td><td/><td>PE</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  27<a name=\"BRDivisaoGeograficaBrasil-27\"> </a></td><td>Alagoas</td><td>state</td><td/><td>AL</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  28<a name=\"BRDivisaoGeograficaBrasil-28\"> </a></td><td>Sergipe</td><td>state</td><td/><td>SE</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  29<a name=\"BRDivisaoGeograficaBrasil-29\"> </a></td><td>Bahia</td><td>state</td><td/><td>BA</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">3<a name=\"BRDivisaoGeograficaBrasil-3\"> </a></td><td>Sudeste</td><td>region</td><td/><td>SE</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  31<a name=\"BRDivisaoGeograficaBrasil-31\"> </a></td><td>Minas Gerais</td><td>state, state</td><td>mineiro</td><td>MG</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    315780<a name=\"BRDivisaoGeograficaBrasil-315780\"> </a></td><td>Santa Luzia</td><td>city</td><td>luziense</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  32<a name=\"BRDivisaoGeograficaBrasil-32\"> </a></td><td>Espírito Santo</td><td>state</td><td/><td>ES</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  33<a name=\"BRDivisaoGeograficaBrasil-33\"> </a></td><td>Rio de Janeiro</td><td>state</td><td/><td>RJ</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  34<a name=\"BRDivisaoGeograficaBrasil-34\"> </a></td><td>São Paulo</td><td>state</td><td/><td>SP</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">4<a name=\"BRDivisaoGeograficaBrasil-4\"> </a></td><td>Sul</td><td>region</td><td/><td>S</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  41<a name=\"BRDivisaoGeograficaBrasil-41\"> </a></td><td>Paraná</td><td>state</td><td/><td>PR</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  42<a name=\"BRDivisaoGeograficaBrasil-42\"> </a></td><td>Santa Catarina</td><td>state</td><td/><td>SC</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  43<a name=\"BRDivisaoGeograficaBrasil-43\"> </a></td><td>Rio Grande do Sul</td><td>state</td><td/><td>RS</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">5<a name=\"BRDivisaoGeograficaBrasil-5\"> </a></td><td>Centro-Oeste</td><td>region</td><td/><td>CO</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  50<a name=\"BRDivisaoGeograficaBrasil-50\"> </a></td><td>Mato Grosso do Sul</td><td>state</td><td/><td>MS</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  51<a name=\"BRDivisaoGeograficaBrasil-51\"> </a></td><td>Mato Grosso</td><td>state</td><td/><td>MT</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  52<a name=\"BRDivisaoGeograficaBrasil-52\"> </a></td><td>Goiás</td><td>state</td><td/><td>GO</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  53<a name=\"BRDivisaoGeograficaBrasil-53\"> </a></td><td>Distrito Federal</td><td>state</td><td/><td>DF</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRDivisaoGeograficaBrasil"] ; # 
+  fhir:title [ fhir:v "Divisão Geográfica do Brasil"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-11T19:13:16.339365+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "As regiões geográficas, estados, distrito federal e municípios do Brasil."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "type" ] ;
+     fhir:description [ fhir:v "tipo" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "ethnical" ] ;
+     fhir:description [ fhir:v "Gentílico" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "initials" ] ;
+     fhir:description [ fhir:v "Sigla" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Norte" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "region" ]
+     ] [
+       fhir:code [ fhir:v "initials" ] ;
+       fhir:value [ fhir:v "N" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "Rondônia" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "RO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "Acre" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "AC" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "Amazonas" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "AM" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "Roraima" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "RR" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "Pará" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "PA" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "16" ] ;
+       fhir:display [ fhir:v "Amapá" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "AP" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "Tocantins" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "TO" ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Nordeste" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "region" ]
+     ] [
+       fhir:code [ fhir:v "initials" ] ;
+       fhir:value [ fhir:v "NE" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "21" ] ;
+       fhir:display [ fhir:v "Maranhão" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "MA" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "22" ] ;
+       fhir:display [ fhir:v "Piauí" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "PI" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "23" ] ;
+       fhir:display [ fhir:v "Ceará" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "CE" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Rio Grande do Norte" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "RN" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "25" ] ;
+       fhir:display [ fhir:v "Paraíba" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "PB" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "26" ] ;
+       fhir:display [ fhir:v "Pernambuco" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "PE" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "Alagoas" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "AL" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "Sergipe" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "SE" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "29" ] ;
+       fhir:display [ fhir:v "Bahia" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "BA" ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Sudeste" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "region" ]
+     ] [
+       fhir:code [ fhir:v "initials" ] ;
+       fhir:value [ fhir:v "SE" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "31" ] ;
+       fhir:display [ fhir:v "Minas Gerais" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "MG" ]
+       ] [
+         fhir:code [ fhir:v "ethnical" ] ;
+         fhir:value [ fhir:v "mineiro" ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "315780" ] ;
+         fhir:display [ fhir:v "Santa Luzia" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "type" ] ;
+           fhir:value [ fhir:v "city" ]
+         ] [
+           fhir:code [ fhir:v "ethnical" ] ;
+           fhir:value [ fhir:v "luziense" ]
+         ] )
+       ] )
+     ] [
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "Espírito Santo" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "ES" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "33" ] ;
+       fhir:display [ fhir:v "Rio de Janeiro" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "RJ" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "34" ] ;
+       fhir:display [ fhir:v "São Paulo" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "SP" ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Sul" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "region" ]
+     ] [
+       fhir:code [ fhir:v "initials" ] ;
+       fhir:value [ fhir:v "S" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "41" ] ;
+       fhir:display [ fhir:v "Paraná" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "PR" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "42" ] ;
+       fhir:display [ fhir:v "Santa Catarina" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "SC" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "43" ] ;
+       fhir:display [ fhir:v "Rio Grande do Sul" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "RS" ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Centro-Oeste" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "region" ]
+     ] [
+       fhir:code [ fhir:v "initials" ] ;
+       fhir:value [ fhir:v "CO" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "50" ] ;
+       fhir:display [ fhir:v "Mato Grosso do Sul" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "MS" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "51" ] ;
+       fhir:display [ fhir:v "Mato Grosso" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "MT" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "52" ] ;
+       fhir:display [ fhir:v "Goiás" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "GO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "53" ] ;
+       fhir:display [ fhir:v "Distrito Federal" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "state" ]
+       ] [
+         fhir:code [ fhir:v "initials" ] ;
+         fhir:value [ fhir:v "DF" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

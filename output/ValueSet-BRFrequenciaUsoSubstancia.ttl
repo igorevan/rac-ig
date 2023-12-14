@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRFrequenciaUsoSubstancia"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2020-09-20T23:02:24.54+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-GTSAbbreviation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO\">MO</a></td><td>Mensalmente</td><td>Monthly at institution specified time.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK\">WK</a></td><td>Semanalmente</td><td>Weekly at institution specified time.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD\">QD</a></td><td>Diariamente</td><td>Every day at institution specified times.</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-BRFrequenciaUsoSubstancia.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia</code></a></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRFrequenciaUsoSubstancia"] ; # 
+  fhir:title [ fhir:v "Frequência de Uso da Substância"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-09-20T23:02:23.9723544+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identifica a frequência de uso da substância em uso conforme declaração do indivíduo."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "*" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "MO" ] ;
+         fhir:display [ fhir:v "Mensalmente" ]
+       ] [
+         fhir:code [ fhir:v "WK" ] ;
+         fhir:display [ fhir:v "Semanalmente" ]
+       ] [
+         fhir:code [ fhir:v "QD" ] ;
+         fhir:display [ fhir:v "Diariamente" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "*" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

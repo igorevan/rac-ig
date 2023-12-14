@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRPapelProblemaDiagnostico"/>
+  <meta>
+    <lastUpdated value="2020-03-11T19:14:51.806+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-BRPapelProblemaDiagnostico.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico</code></a></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html"><code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a></td><td>Admission diagnosis</td><td>Diagnóstico presente na admissão</td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a></td><td>Discharge diagnosis</td><td>Diagnóstico de alta</td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a></td><td>Chief complaint</td><td>Queixa principal.</td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a></td><td>Comorbidity diagnosis</td><td>Diagnóstico de comorbidade</td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a></td><td>pre-op diagnosis</td><td>Diagnóstico pré-operatório</td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a></td><td>post-op diagnosis</td><td>Diagnóstico pós-operatório</td></tr><tr><td><a href="http://terminology.hl7.org/5.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a></td><td>Billing</td><td>Faturamento</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico"/>
+  <version value="0.1.0"/>
+  <name value="BRPapelProblemaDiagnostico"/>
+  <title value="Classificação do papel de um problema e diagnóstico."/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T19:15:12.2909517+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Tradução para o português do brasil da classificação do papel de um problema/diagnóstico."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico"/>
+      <version value="*"/>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/diagnosis-role"/>
+      <version value="*"/>
+      <concept>
+        <code value="AD"/>
+        <display value="Admission diagnosis"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Diagnóstico presente na admissão"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="DD"/>
+        <display value="Discharge diagnosis"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Diagnóstico de alta"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CC"/>
+        <display value="Chief complaint"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Queixa principal."/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CM"/>
+        <display value="Comorbidity diagnosis"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Diagnóstico de comorbidade"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="pre-op"/>
+        <display value="pre-op diagnosis"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Diagnóstico pré-operatório"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="post-op"/>
+        <display value="post-op diagnosis"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Diagnóstico pós-operatório"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="billing"/>
+        <display value="Billing"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Faturamento"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

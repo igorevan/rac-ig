@@ -1,0 +1,73 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRCriticidadeAlergiasReacoesAdversas-1.0",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2020-09-20T20:36:31.553+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html\"><code>http://hl7.org/fhir/allergy-intolerance-criticality</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low\">low</a></td><td>Baixa</td><td>Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high\">high</a></td><td>Alta</td><td>Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess\">unable-to-assess</a></td><td>Indeterminada</td><td>Unable to assess the worst case result of a future exposure.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
+  "version" : "0.1.0",
+  "name" : "BRCriticidadeAlergiasReacoesAdversas",
+  "title" : "Criticidade de Alergias e Reações Adversas",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-09-20T20:36:30.5275401+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida..",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "version" : "*",
+      "concept" : [{
+        "code" : "low",
+        "display" : "Baixa"
+      },
+      {
+        "code" : "high",
+        "display" : "Alta"
+      },
+      {
+        "code" : "unable-to-assess",
+        "display" : "Indeterminada"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoObservacao"/>
+  <meta>
+    <lastUpdated value="2020-03-11T18:25:29.666+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DSIA<a name="BRTipoObservacao-DSIA"> </a></td><td>Declaração Subjetiva do Indivíudo para o Atendimento</td></tr><tr><td style="white-space:nowrap">RECIDI<a name="BRTipoObservacao-RECIDI"> </a></td><td>Resumo da evolução clínica do indivíduo durante a internação</td></tr><tr><td style="white-space:nowrap">DF<a name="BRTipoObservacao-DF"> </a></td><td>Dados do desfecho</td></tr><tr><td style="white-space:nowrap">IAC<a name="BRTipoObservacao-IAC"> </a></td><td>Informações Adicionais/Complementares</td></tr><tr><td style="white-space:nowrap">P<a name="BRTipoObservacao-P"> </a></td><td>Peso</td></tr><tr><td style="white-space:nowrap">A<a name="BRTipoObservacao-A"> </a></td><td>Altura</td></tr><tr><td style="white-space:nowrap">PC<a name="BRTipoObservacao-PC"> </a></td><td>Perímetro Cefálico</td></tr><tr><td style="white-space:nowrap">CA<a name="BRTipoObservacao-CA"> </a></td><td>Circunferência Abdominal</td></tr><tr><td style="white-space:nowrap">PA<a name="BRTipoObservacao-PA"> </a></td><td>Pressão Arterial</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"/>
+  <version value="0.1.0"/>
+  <name value="BRTipoObservacao"/>
+  <title value="Tipo de Observação"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T18:25:50.173869+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Tipo de Observação."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="DSIA"/>
+    <display value="Declaração Subjetiva do Indivíudo para o Atendimento"/>
+  </concept>
+  <concept>
+    <code value="RECIDI"/>
+    <display value="Resumo da evolução clínica do indivíduo durante a internação"/>
+  </concept>
+  <concept>
+    <code value="DF"/>
+    <display value="Dados do desfecho"/>
+  </concept>
+  <concept>
+    <code value="IAC"/>
+    <display value="Informações Adicionais/Complementares"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Peso"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="Altura"/>
+  </concept>
+  <concept>
+    <code value="PC"/>
+    <display value="Perímetro Cefálico"/>
+  </concept>
+  <concept>
+    <code value="CA"/>
+    <display value="Circunferência Abdominal"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Pressão Arterial"/>
+  </concept>
+</CodeSystem>

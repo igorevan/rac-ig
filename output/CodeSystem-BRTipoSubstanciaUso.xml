@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoSubstanciaUso"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2020-09-20T23:04:32.536+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">deriv-tabaco<a name="BRTipoSubstanciaUso-deriv-tabaco"> </a></td><td>Derivados do Tabaco</td></tr><tr><td style="white-space:nowrap">alcool<a name="BRTipoSubstanciaUso-alcool"> </a></td><td>Bebidas Alcóolicas</td></tr><tr><td style="white-space:nowrap">maconha<a name="BRTipoSubstanciaUso-maconha"> </a></td><td>Maconha</td></tr><tr><td style="white-space:nowrap">cocaina<a name="BRTipoSubstanciaUso-cocaina"> </a></td><td>Cocaína</td></tr><tr><td style="white-space:nowrap">crack<a name="BRTipoSubstanciaUso-crack"> </a></td><td>Crack</td></tr><tr><td style="white-space:nowrap">anfetamina<a name="BRTipoSubstanciaUso-anfetamina"> </a></td><td>Anfetaminas ou Êxtase</td></tr><tr><td style="white-space:nowrap">inalante<a name="BRTipoSubstanciaUso-inalante"> </a></td><td>Inalantes</td></tr><tr><td style="white-space:nowrap">hipno-seda<a name="BRTipoSubstanciaUso-hipno-seda"> </a></td><td>Hipnóticos ou Sedativos</td></tr><tr><td style="white-space:nowrap">alucinogeno<a name="BRTipoSubstanciaUso-alucinogeno"> </a></td><td>Alucinógenos</td></tr><tr><td style="white-space:nowrap">opio<a name="BRTipoSubstanciaUso-opio"> </a></td><td>Opióides ou Opiáceos</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso"/>
+  <version value="0.1.0"/>
+  <name value="BRTipoSubstanciaUso"/>
+  <title value="Tipo de Substância em Uso"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-09-20T23:04:30.8771699+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="deriv-tabaco"/>
+    <display value="Derivados do Tabaco"/>
+  </concept>
+  <concept>
+    <code value="alcool"/>
+    <display value="Bebidas Alcóolicas"/>
+  </concept>
+  <concept>
+    <code value="maconha"/>
+    <display value="Maconha"/>
+  </concept>
+  <concept>
+    <code value="cocaina"/>
+    <display value="Cocaína"/>
+  </concept>
+  <concept>
+    <code value="crack"/>
+    <display value="Crack"/>
+  </concept>
+  <concept>
+    <code value="anfetamina"/>
+    <display value="Anfetaminas ou Êxtase"/>
+  </concept>
+  <concept>
+    <code value="inalante"/>
+    <display value="Inalantes"/>
+  </concept>
+  <concept>
+    <code value="hipno-seda"/>
+    <display value="Hipnóticos ou Sedativos"/>
+  </concept>
+  <concept>
+    <code value="alucinogeno"/>
+    <display value="Alucinógenos"/>
+  </concept>
+  <concept>
+    <code value="opio"/>
+    <display value="Opióides ou Opiáceos"/>
+  </concept>
+</CodeSystem>

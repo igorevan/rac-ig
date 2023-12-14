@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRCaraterAtendimento"/>
+  <meta>
+    <lastUpdated value="2020-03-11T11:56:57.326+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="BRCaraterAtendimento-01"> </a></td><td>Eletivo</td></tr><tr><td style="white-space:nowrap">02<a name="BRCaraterAtendimento-02"> </a></td><td>Urgência</td></tr><tr><td style="white-space:nowrap">03<a name="BRCaraterAtendimento-03"> </a></td><td>Consulta agendada</td></tr><tr><td style="white-space:nowrap">04<a name="BRCaraterAtendimento-04"> </a></td><td>Consulta agendada programada: cuidado continuado</td></tr><tr><td style="white-space:nowrap">05<a name="BRCaraterAtendimento-05"> </a></td><td>Demanda espontânea (DE): consulta no dia</td></tr><tr><td style="white-space:nowrap">06<a name="BRCaraterAtendimento-06"> </a></td><td>Demanda espontânea (DE): atendimento de urgência</td></tr><tr><td style="white-space:nowrap">99<a name="BRCaraterAtendimento-99"> </a></td><td>Sem registro no modelo de informação de origem</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento"/>
+  <version value="0.1.0"/>
+  <name value="BRCaraterAtendimento"/>
+  <title value="Caráter de Atendimento"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T11:57:17.2973841+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Terminologia que classifica a prioridade de realização de um Contato Assistencial."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="Eletivo"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Urgência"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Consulta agendada"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Consulta agendada programada: cuidado continuado"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Demanda espontânea (DE): consulta no dia"/>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="Demanda espontânea (DE): atendimento de urgência"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="Sem registro no modelo de informação de origem"/>
+  </concept>
+</CodeSystem>

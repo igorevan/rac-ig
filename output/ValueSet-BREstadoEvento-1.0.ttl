@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BREstadoEvento-1.0"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-04-07T12:14:10.395+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html\"><code>http://hl7.org/fhir/event-status</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation\">preparation</a></td><td>Pré-procedimento</td><td>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress\">in-progress</a></td><td>Em andamento</td><td>The event is currently occurring.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done\">not-done</a></td><td>Não Realizado</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold\">on-hold</a></td><td>Suspenso</td><td>The event has been temporarily stopped but is expected to resume in the future.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped\">stopped</a></td><td>Cancelado</td><td>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed\">completed</a></td><td>Completado</td><td>The event has now concluded.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown\">unknown</a></td><td>Desconhecido</td><td>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error\">entered-in-error</a></td><td>Entrada com erro</td><td>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be &quot;stopped&quot; rather than &quot;entered-in-error&quot;.).</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BREstadoEvento"] ; # 
+  fhir:title [ fhir:v "Estado do Evento"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-04-07T12:14:07.8417018+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identificação do estado de um evento."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/event-status"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "*" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "preparation" ] ;
+         fhir:display [ fhir:v "Pré-procedimento" ]
+       ] [
+         fhir:code [ fhir:v "in-progress" ] ;
+         fhir:display [ fhir:v "Em andamento" ]
+       ] [
+         fhir:code [ fhir:v "not-done" ] ;
+         fhir:display [ fhir:v "Não Realizado" ]
+       ] [
+         fhir:code [ fhir:v "on-hold" ] ;
+         fhir:display [ fhir:v "Suspenso" ]
+       ] [
+         fhir:code [ fhir:v "stopped" ] ;
+         fhir:display [ fhir:v "Cancelado" ]
+       ] [
+         fhir:code [ fhir:v "completed" ] ;
+         fhir:display [ fhir:v "Completado" ]
+       ] [
+         fhir:code [ fhir:v "unknown" ] ;
+         fhir:display [ fhir:v "Desconhecido" ]
+       ] [
+         fhir:code [ fhir:v "entered-in-error" ] ;
+         fhir:display [ fhir:v "Entrada com erro" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

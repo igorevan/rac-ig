@@ -1,0 +1,725 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationrequest Status",
+      "title" : "Medicationrequest  status",
+      "description" : "MedicationRequest Status Codes",
+      "oids" : ["2.16.840.1.113883.4.642.4.1377"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoSolicitacaoMedicamento-1.0.html" : "Estado da Solicitação de Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "ValueSet-BRSexo-1.0.html" : "Sexo"
+    },
+    {
+      "url" : "http://hl7.org/fhir/allergy-intolerance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "AllergyIntoleranceCategory",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "oids" : ["2.16.840.1.113883.4.642.4.134"],
+      "uses" : {
+      },
+      "ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html" : "Categoria do Agente da Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "oids" : ["2.16.840.1.113883.4.642.4.130"],
+      "uses" : {
+      },
+      "ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0.html" : "Criticidade de Alergias e Reações Adversas"
+    },
+    {
+      "url" : "http://hl7.org/fhir/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "oids" : ["2.16.840.1.113883.4.642.4.147"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoAfastamentoAtestado.html" : "Status do afastamento descrito no atestado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/composition-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CompositionStatus",
+      "title" : "CompositionStatus",
+      "description" : "The workflow/clinical status of the composition.",
+      "oids" : ["2.16.840.1.113883.4.642.4.242"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoDocumento-1.0.html" : "Estado do Documento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/encounter-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterStatus",
+      "title" : "EncounterStatus",
+      "description" : "Current state of the encounter.",
+      "oids" : ["2.16.840.1.113883.4.642.4.247"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoContatoAssistencial-1.0.html" : "Estado do Contato Assistencial"
+    },
+    {
+      "url" : "http://hl7.org/fhir/event-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EventStatus",
+      "title" : "EventStatus",
+      "description" : "Codes identifying the lifecycle stage of an event.",
+      "oids" : ["2.16.840.1.113883.4.642.4.110"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoEvento-1.0.html" : "Estado do Evento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "oids" : ["2.16.840.1.113883.4.642.4.401"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoObservacao-1.0.html" : "Estado da Observação."
+    },
+    {
+      "url" : "http://hl7.org/fhir/request-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestIntent",
+      "title" : "RequestIntent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.114"],
+      "uses" : {
+      },
+      "ValueSet-BRIntencaoAtestado.html" : "Intenção do atestado"
+    },
+    {
+      "url" : "http://hl7.org/fhir/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.112"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação",
+      "ValueSet-BREstadoAtestado.html" : "Status do atestado"
+    },
+    {
+      "url" : "http://loinc.org",
+      "version" : "3.1.0",
+      "status" : "active",
+      "name" : "LOINC",
+      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+      "oids" : ["2.16.840.1.113883.6.1"],
+      "uses" : {
+      },
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+      "version" : "0.5.0",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceVerificationStatus",
+      "title" : "AllergyIntolerance Verification Status",
+      "description" : "The verification status to support or decline the clinical status of the allergy or intolerance.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1371"],
+      "uses" : {
+      },
+      "ValueSet-BRGrauCertezaAlergiasReacoesAdversas-1.0.html" : "Grau de Certeza de Alergias e Reações Adversas"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "version" : "0.5.0",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+      "uses" : {
+      },
+      "ValueSet-BRCategoriaCondicao.html" : "Classificação de uma condição."
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+      "uses" : {
+      },
+      "ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html" : "Estado da Resolução de Diagnóstico ou Problema."
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "DiagnosisRole",
+      "title" : "Diagnosis Role",
+      "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1054"],
+      "uses" : {
+      },
+      "ValueSet-BRPapelProblemaDiagnostico.html" : "Classificação do papel de um problema e diagnóstico."
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "GTSAbbreviation",
+      "title" : "GTSAbbreviation",
+      "description" : "*Open Issue:* It appears that the printnames are suboptimal and should be improved for many of the existing codes.",
+      "oids" : ["2.16.840.1.113883.5.1022"],
+      "uses" : {
+      },
+      "ValueSet-BRFrequenciaUsoSubstancia.html" : "Frequência de Uso da Substância"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRAlergenosCBARA",
+      "title" : "Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)",
+      "description" : "Classifica as alergias e reações adversas.",
+      "uses" : {
+      },
+      "ValueSet-BRAlergenos-1.0.html" : "Alérgenos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCBHPMTUSS",
+      "title" : "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS",
+      "description" : "Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS.",
+      "uses" : {
+      },
+      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCBO",
+      "title" : "Classificação Brasileira de Ocupações - CBO",
+      "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+      "uses" : {
+      },
+      "ValueSet-BROcupacao-1.0.html" : "Classificação Brasileira de Ocupações - CBO"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRCIAP2",
+      "title" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+      "description" : "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP.",
+      "uses" : {
+      },
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
+      "ValueSet-BRCIAP2-1.0.html" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRCID10",
+      "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
+      "uses" : {
+      },
+      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRCaraterAtendimento",
+      "title" : "Caráter de Atendimento",
+      "description" : "Terminologia que classifica a prioridade de realização de um Contato Assistencial.",
+      "uses" : {
+      },
+      "ValueSet-BRCaraterAtendimento-1.0.html" : "Caráter de atendimento do Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCategoriaDiagnostico",
+      "title" : "Categoria do Diagnóstico",
+      "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado.",
+      "uses" : {
+      },
+      "ValueSet-BRCategoriaDiagnostico.html" : "Categoria do Diagnóstico"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRDadoAusenteOuDesconhecido",
+      "title" : "Classificação de dados ausentes ou desconhecidos - IPS.",
+      "description" : "Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS.",
+      "uses" : {
+      },
+      "ValueSet-BRPrescricaoNaoEstruturada.html" : "Indicativo de prescrição não estruturada ou medicamento não identificado."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRDivisaoGeograficaBrasil",
+      "title" : "Divisão Geográfica do Brasil",
+      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil.",
+      "uses" : {
+      },
+      "ValueSet-BRMunicipio-1.0.html" : "Município",
+      "ValueSet-BRUnidadeFederativa-1.0.html" : "Unidade Federativa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREtniaIndigena",
+      "title" : "Etnia Indígena",
+      "description" : "Códigos para representação de etnias indígenas no Brasil.",
+      "uses" : {
+      },
+      "ValueSet-BREtniaIndigena-1.0.html" : "Etnia Indígena"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRFinanciamento",
+      "title" : "Financiamento",
+      "description" : "Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.",
+      "uses" : {
+      },
+      "ValueSet-BRFinanciamento-1.0.html" : "Financiamento do procedimento realizado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRFrequenciaUsoSubstancia",
+      "title" : "Frequência de Uso de Substância",
+      "description" : "Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+      "uses" : {
+      },
+      "ValueSet-BRFrequenciaUsoSubstancia.html" : "Frequência de Uso da Substância"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRImunobiologico",
+      "title" : "Imunobiológico",
+      "description" : "Classifica os tipos de imunobiológicos.",
+      "uses" : {
+      },
+      "ValueSet-BRAlergenos-1.0.html" : "Alérgenos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRJustificativaIndividuoNaoIdentificado",
+      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
+      "uses" : {
+      },
+      "ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html" : "Justificativa da Impossibilidade de Identificação do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRLocalAfericao",
+      "title" : "Local de Aferição",
+      "description" : "Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição.",
+      "uses" : {
+      },
+      "ValueSet-BRLocalAfericao-1.0.html" : "Local de Aferição"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRMedDRA",
+      "title" : "Medical Dictionary for Regulatory Activities (MedDRA)",
+      "description" : "Medical Dictionary for Regulatory Activities.",
+      "uses" : {
+      },
+      "ValueSet-BRReacoesAdversasMedDRA-1.0.html" : "Reações Adversas da MedDRA"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRMedicamento",
+      "title" : "Medicamento",
+      "description" : "Drogas dirigidas para uso humano, apresentadas em sua formulação final.",
+      "uses" : {
+      },
+      "ValueSet-BRAlergenos-1.0.html" : "Alérgenos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRModalidadeAssistencial",
+      "title" : "Modalidade Assistencial",
+      "description" : "Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento",
+      "uses" : {
+      },
+      "ValueSet-BRModalidadeAssistencial-1.0.html" : "Modalidade Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRMotivoDesfecho",
+      "title" : "Motivo do Desfecho",
+      "description" : "Caracteriza o motivo de conclusão total ou parcial do contato assistencial.",
+      "uses" : {
+      },
+      "ValueSet-BRMotivoDesfecho-1.0.html" : "Motivo do desfecho do Contato assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRNacionalidade",
+      "title" : "Nacionalidade",
+      "description" : "Define a nacionalidade de um dado indivíduo.",
+      "uses" : {
+      },
+      "ValueSet-BRNacionalidade.html" : "Nacionalidade"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRNaturezaJuridica",
+      "title" : "Natureza Jurídica",
+      "description" : "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.",
+      "uses" : {
+      },
+      "ValueSet-BRNaturezaJuridica-1.0.html" : "Natureza Jurídica"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRObmAMPP",
+      "title" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)",
+      "description" : "Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)",
+      "uses" : {
+      },
+      "ValueSet-BRTerminologiaMedicamento.html" : "Terminologia dos medicamentos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRObmANVISA",
+      "title" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "description" : "Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "uses" : {
+      },
+      "ValueSet-BRTerminologiaMedicamento.html" : "Terminologia dos medicamentos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRObmCATMAT",
+      "title" : "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)",
+      "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)",
+      "uses" : {
+      },
+      "ValueSet-BRTerminologiaMedicamento.html" : "Terminologia dos medicamentos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRObmEAN",
+      "title" : "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
+      "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org",
+      "uses" : {
+      },
+      "ValueSet-BRTerminologiaMedicamento.html" : "Terminologia dos medicamentos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRObmVMP",
+      "title" : "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)",
+      "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)",
+      "uses" : {
+      },
+      "ValueSet-BRTerminologiaMedicamento.html" : "Terminologia dos medicamentos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROrgaoExpedidor",
+      "title" : "Órgão Expedidor",
+      "description" : "Órgãos responsáveis por expedir documentos no Brasil.",
+      "uses" : {
+      },
+      "ValueSet-BROrgaoExpedidor-1.0.html" : "Órgão Expedidor"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRPais",
+      "title" : "País",
+      "description" : "Códigos para representação de países.",
+      "uses" : {
+      },
+      "ValueSet-BRPais-1.0.html" : "País"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRPapelProblemaDiagnostico",
+      "title" : "Classificação do papel de um problema e diagnóstico",
+      "description" : "Classificação do papel de um problema/diagnóstico.",
+      "uses" : {
+      },
+      "ValueSet-BRPapelProblemaDiagnostico.html" : "Classificação do papel de um problema e diagnóstico."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRParentesco",
+      "title" : "Parentesco",
+      "description" : "Classificação da relação familiar entre indivíduos.",
+      "uses" : {
+      },
+      "ValueSet-BRParentesco-1.0.html" : "Parentesco"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRPosicaoIndividuo",
+      "title" : "Posição do Indivíduo",
+      "description" : "Identifica a posição de um indivíduo em um determinado contexto.",
+      "uses" : {
+      },
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRProcedencia",
+      "title" : "Procedência",
+      "description" : "Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde.",
+      "uses" : {
+      },
+      "ValueSet-BRProcedencia-1.0.html" : "Procedência do Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRacaCor",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRRacaCor",
+      "title" : "Raça/Cor",
+      "description" : "Códigos para representação de raça/cor.",
+      "uses" : {
+      },
+      "ValueSet-BRRacaCor-1.0.html" : "Raça/Cor"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRResponsabilidadeParticipante",
+      "title" : "Reponsabilidade no Contato Assistencial",
+      "description" : "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial.",
+      "uses" : {
+      },
+      "ValueSet-BRResponsabilidadeParticipante-1.0.html" : "Reponsabilidade no Contato Assistencial"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTabelaSUS",
+      "title" : "Tabela de procedimentos, medicamentos e OPM do SUS",
+      "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
+      "uses" : {
+      },
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTipoAleitamentoMaterno",
+      "title" : "Tipo de Aleitamento Materno",
+      "description" : "Classifica o tipo de aleitamento materno realizado a uma criança.",
+      "uses" : {
+      },
+      "ValueSet-BRTipoAleitamentoMaterno-1.0.html" : "Tipo de Aleitamento Materno"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoDocumento",
+      "title" : "Tipo de Documento",
+      "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
+      "uses" : {
+      },
+      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
+      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoEstabelecimentoSaude",
+      "title" : "Tipo de Estabelecimento de Saúde",
+      "description" : "Códigos para representação de tipos de estabelecimentos de saúde, de acordo com codificação já existente para o Cadastro Nacional de Estabelecimentos de Saúde (CNES).",
+      "uses" : {
+      },
+      "ValueSet-BRTipoEstabelecimentoSaude-1.0.html" : "Tipo de Estabelecimento de Saúde"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoIdentificador",
+      "title" : "Tipo de Identificador",
+      "description" : "Classifica o tipo de indicador que está sendo utilizado.",
+      "uses" : {
+      },
+      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento",
+      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoLogradouro",
+      "title" : "Tipo de Logradouro",
+      "description" : "Classificação os tipos de logradouros existentes para uso em endereços estruturados.",
+      "uses" : {
+      },
+      "ValueSet-BRTipoLogradouro-1.0.html" : "Tipo de Logradouro"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTipoObservacao",
+      "title" : "Tipo de Observação",
+      "description" : "Tipo de Observação.",
+      "uses" : {
+      },
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTipoSubstanciaUso",
+      "title" : "Tipo de Substância em Uso",
+      "description" : "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+      "uses" : {
+      },
+      "ValueSet-BRTipoSubstanciaUso-1.0.html" : "Tipo de Substância em Uso"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRTurno",
+      "title" : "Turno do dia",
+      "description" : "Code System utilizado para definir o turno de um dia.",
+      "uses" : {
+      },
+      "ValueSet-BRTurno.html" : "Turno do dia"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRUnidadeMedida",
+      "title" : "Unidade de Medida",
+      "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
+      "uses" : {
+      },
+      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
+      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRUnidadeTempo",
+      "title" : "Unidade de tempo",
+      "description" : "Code System utilizado para definir a classe de unidades de tempo.",
+      "uses" : {
+      },
+      "ValueSet-BRUnidadeTempo.html" : "Unidade de Tempo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRViaAdministracao",
+      "title" : "Via de Administração",
+      "description" : "Classifica a via na qual foi administrada uma substância em um indivíduo.",
+      "uses" : {
+      },
+      "ValueSet-BRViaAdministracao-1.0.html" : "Via de Administração do Imunobiológico"
+    }
+  ]
+}

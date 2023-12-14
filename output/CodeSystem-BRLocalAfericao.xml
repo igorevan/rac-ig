@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRLocalAfericao"/>
+  <meta>
+    <lastUpdated value="2020-03-11T18:15:18.190+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="BRLocalAfericao-1"> </a></td><td>Braço direito</td></tr><tr><td style="white-space:nowrap">2<a name="BRLocalAfericao-2"> </a></td><td>Braço esquerdo</td></tr><tr><td style="white-space:nowrap">3<a name="BRLocalAfericao-3"> </a></td><td>Coxa direita</td></tr><tr><td style="white-space:nowrap">4<a name="BRLocalAfericao-4"> </a></td><td>Coxa esquerda</td></tr><tr><td style="white-space:nowrap">5<a name="BRLocalAfericao-5"> </a></td><td>Pulso direito</td></tr><tr><td style="white-space:nowrap">6<a name="BRLocalAfericao-6"> </a></td><td>Pulso esquerdo</td></tr><tr><td style="white-space:nowrap">7<a name="BRLocalAfericao-7"> </a></td><td>Tornozelo direito</td></tr><tr><td style="white-space:nowrap">8<a name="BRLocalAfericao-8"> </a></td><td>Tornozelo esquerdo</td></tr><tr><td style="white-space:nowrap">9<a name="BRLocalAfericao-9"> </a></td><td>Dedo da mão</td></tr><tr><td style="white-space:nowrap">10<a name="BRLocalAfericao-10"> </a></td><td>Dedo do pé</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao"/>
+  <version value="0.1.0"/>
+  <name value="BRLocalAfericao"/>
+  <title value="Local de Aferição"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T18:15:38.6898126+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Braço direito"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Braço esquerdo"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Coxa direita"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Coxa esquerda"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Pulso direito"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Pulso esquerdo"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Tornozelo direito"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Tornozelo esquerdo"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Dedo da mão"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Dedo do pé"/>
+  </concept>
+</CodeSystem>

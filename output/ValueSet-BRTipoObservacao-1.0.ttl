@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRTipoObservacao-1.0"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2022-05-23T10:37:59.848+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-BRTipoObservacao.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao</code></a></li><li>Include these codes as defined in <a href=\"CodeSystem-BRTabelaSUS.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-BRTabelaSUS.html#BRTabelaSUS-0301100039\">0301100039</a></td><td style=\"color: #cccccc\">AFERIÇÃO DE PRESSÃO ARTERIAL</td><td>ESTE PROCEDIMENTO DESTINA-SE A AFERIÇÃO DA PRESSÃO ARTERIAL QUANDO NÃO FAZ PARTE DA CONSULTA.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/8665-2/\">8665-2</a></td><td>Data da Última Menstruação</td></tr><tr><td><a href=\"https://loinc.org/56832-9/\">56832-9</a></td><td>Exposição à Substâncias</td></tr><tr><td><a href=\"https://loinc.org/11996-6/\">11996-6</a></td><td>Quantidade de Gestações</td></tr><tr><td><a href=\"https://loinc.org/63895-7/\">63895-7</a></td><td>Tipo de Aleitamento Materno</td></tr><tr><td><a href=\"https://loinc.org/29463-7/\">29463-7</a></td><td>Peso Corporal</td></tr><tr><td><a href=\"https://loinc.org/8480-6/\">8480-6</a></td><td>Pressão Arterial Sistólica</td></tr><tr><td><a href=\"https://loinc.org/8462-4/\">8462-4</a></td><td>Pressão Arterial Diastólica</td></tr><tr><td><a href=\"https://loinc.org/8280-0/\">8280-0</a></td><td>Circuferência Abdominal</td></tr><tr><td><a href=\"https://loinc.org/9843-4/\">9843-4</a></td><td>Perímetro Cefálico</td></tr><tr><td><a href=\"https://loinc.org/8302-2/\">8302-2</a></td><td>Altura</td></tr><tr><td><a href=\"https://loinc.org/11885-1/\">11885-1</a></td><td>Idade Gestacional</td></tr><tr><td><a href=\"https://loinc.org/11612-9/\">11612-9</a></td><td>Quantidade de Abortos</td></tr><tr><td><a href=\"https://loinc.org/48767-8/\">48767-8</a></td><td>Anotação de Comentário para Narrativa [Interpretação]</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRTipoObservacao"] ; # 
+  fhir:title [ fhir:v "Tipo de Observação"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2022-05-23T10:37:59.848+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Tipo de Observação."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:copyright [ fhir:v "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "*" ]
+     ] [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "*" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "0301100039" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "*" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "8665-2" ] ;
+         fhir:display [ fhir:v "Data da Última Menstruação" ]
+       ] [
+         fhir:code [ fhir:v "56832-9" ] ;
+         fhir:display [ fhir:v "Exposição à Substâncias" ]
+       ] [
+         fhir:code [ fhir:v "11996-6" ] ;
+         fhir:display [ fhir:v "Quantidade de Gestações" ]
+       ] [
+         fhir:code [ fhir:v "63895-7" ] ;
+         fhir:display [ fhir:v "Tipo de Aleitamento Materno" ]
+       ] [
+         fhir:code [ fhir:v "29463-7" ] ;
+         fhir:display [ fhir:v "Peso Corporal" ]
+       ] [
+         fhir:code [ fhir:v "8480-6" ] ;
+         fhir:display [ fhir:v "Pressão Arterial Sistólica" ]
+       ] [
+         fhir:code [ fhir:v "8462-4" ] ;
+         fhir:display [ fhir:v "Pressão Arterial Diastólica" ]
+       ] [
+         fhir:code [ fhir:v "8280-0" ] ;
+         fhir:display [ fhir:v "Circuferência Abdominal" ]
+       ] [
+         fhir:code [ fhir:v "9843-4" ] ;
+         fhir:display [ fhir:v "Perímetro Cefálico" ]
+       ] [
+         fhir:code [ fhir:v "8302-2" ] ;
+         fhir:display [ fhir:v "Altura" ]
+       ] [
+         fhir:code [ fhir:v "11885-1" ] ;
+         fhir:display [ fhir:v "Idade Gestacional" ]
+       ] [
+         fhir:code [ fhir:v "11612-9" ] ;
+         fhir:display [ fhir:v "Quantidade de Abortos" ]
+       ] [
+         fhir:code [ fhir:v "48767-8" ] ;
+         fhir:display [ fhir:v "Anotação de Comentário para Narrativa [Interpretação]" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

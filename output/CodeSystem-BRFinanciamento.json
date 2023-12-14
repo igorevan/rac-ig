@@ -1,0 +1,87 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRFinanciamento",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T18:12:26.041+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRFinanciamento-01\"> </a></td><td>Federal SUS</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRFinanciamento-02\"> </a></td><td>Plano de Saúde Público</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRFinanciamento-03\"> </a></td><td>Plano de Saúde Privado</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRFinanciamento-04\"> </a></td><td>Particular</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRFinanciamento-05\"> </a></td><td>Gratuidade</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRFinanciamento-06\"> </a></td><td>Estadual SUS</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRFinanciamento-07\"> </a></td><td>Municipal SUS</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRFinanciamento-08\"> </a></td><td>Programas e Projetos Federais</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+  "version" : "0.1.0",
+  "name" : "BRFinanciamento",
+  "title" : "Financiamento",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-03-11T18:12:46.5570008+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "01",
+    "display" : "Federal SUS"
+  },
+  {
+    "code" : "02",
+    "display" : "Plano de Saúde Público"
+  },
+  {
+    "code" : "03",
+    "display" : "Plano de Saúde Privado"
+  },
+  {
+    "code" : "04",
+    "display" : "Particular"
+  },
+  {
+    "code" : "05",
+    "display" : "Gratuidade"
+  },
+  {
+    "code" : "06",
+    "display" : "Estadual SUS"
+  },
+  {
+    "code" : "07",
+    "display" : "Municipal SUS"
+  },
+  {
+    "code" : "08",
+    "display" : "Programas e Projetos Federais"
+  }]
+}

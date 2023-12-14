@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="RoupasUsadasMedicao"/>
+  <meta>
+    <lastUpdated value="2022-05-23T09:26:09.8385573+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LA11871-3/">LA11871-3</a></td><td>Roupa íntima ou menos</td></tr><tr><td><a href="https://loinc.org/LA11872-1/">LA11872-1</a></td><td>Roupas de rua, sem sapatos</td></tr><tr><td><a href="https://loinc.org/LA11873-9/">LA11873-9</a></td><td>Roupas e sapatos de rua</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao"/>
+  <version value="0.1.0"/>
+  <name value="RoupasUsadasMedicao"/>
+  <title value="Roupas Usadas na Medição"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2022-05-23T09:26:09.8385573+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <version value="*"/>
+      <concept>
+        <code value="LA11871-3"/>
+        <display value="Roupa íntima ou menos"/>
+      </concept>
+      <concept>
+        <code value="LA11872-1"/>
+        <display value="Roupas de rua, sem sapatos"/>
+      </concept>
+      <concept>
+        <code value="LA11873-9"/>
+        <display value="Roupas e sapatos de rua"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

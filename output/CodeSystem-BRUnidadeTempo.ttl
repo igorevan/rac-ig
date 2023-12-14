@@ -1,0 +1,112 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRUnidadeTempo"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2022-03-22T14:53:00.0000000+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>English (English, en)</b></td></tr><tr><td style=\"white-space:nowrap\">min<a name=\"BRUnidadeTempo-min\"> </a></td><td>minuto(s)</td><td>minute</td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"BRUnidadeTempo-h\"> </a></td><td>hora(s)</td><td>hour</td></tr><tr><td style=\"white-space:nowrap\">d<a name=\"BRUnidadeTempo-d\"> </a></td><td>dia(s)</td><td>day</td></tr><tr><td style=\"white-space:nowrap\">wk<a name=\"BRUnidadeTempo-wk\"> </a></td><td>semana(s)</td><td>week</td></tr><tr><td style=\"white-space:nowrap\">mo<a name=\"BRUnidadeTempo-mo\"> </a></td><td>mês(meses)</td><td>month</td></tr><tr><td style=\"white-space:nowrap\">a<a name=\"BRUnidadeTempo-a\"> </a></td><td>ano(s)</td><td>year</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BRUnidadeTempo"] ; # 
+  fhir:title [ fhir:v "Unidade de tempo"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2022-03-22T14:53:00.0000000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code System utilizado para definir a classe de unidades de tempo."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "min" ] ;
+     fhir:display [ fhir:v "minuto(s)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "minute" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "h" ] ;
+     fhir:display [ fhir:v "hora(s)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "hour" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "d" ] ;
+     fhir:display [ fhir:v "dia(s)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "day" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "wk" ] ;
+     fhir:display [ fhir:v "semana(s)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "week" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "mo" ] ;
+     fhir:display [ fhir:v "mês(meses)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "month" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "a" ] ;
+     fhir:display [ fhir:v "ano(s)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "year" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

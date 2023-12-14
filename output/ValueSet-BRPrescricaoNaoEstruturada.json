@@ -1,0 +1,68 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRPrescricaoNaoEstruturada",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T19:14:51.806+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-BRDadoAusenteOuDesconhecido.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-BRDadoAusenteOuDesconhecido.html#BRDadoAusenteOuDesconhecido-no-medication-info\">no-medication-info</a></td><td>No information about medications</td><td>There is no information available about the subject's medication use or administration.</td></tr><tr><td><a href=\"CodeSystem-BRDadoAusenteOuDesconhecido.html#BRDadoAusenteOuDesconhecido-no-known-medications\">no-known-medications</a></td><td>No known medications</td><td>There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
+  "version" : "0.1.0",
+  "name" : "BRPrescricaoNaoEstruturada",
+  "title" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-06-27T19:15:12.2909517+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+      "version" : "*",
+      "concept" : [{
+        "code" : "no-medication-info",
+        "display" : "No information about medications"
+      },
+      {
+        "code" : "no-known-medications",
+        "display" : "No known medications"
+      }]
+    }]
+  }
+}

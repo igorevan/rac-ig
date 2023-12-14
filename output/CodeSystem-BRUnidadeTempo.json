@@ -1,0 +1,103 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRUnidadeTempo",
+  "meta" : {
+    "lastUpdated" : "2022-03-22T14:53:00.0000000+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>English (English, en)</b></td></tr><tr><td style=\"white-space:nowrap\">min<a name=\"BRUnidadeTempo-min\"> </a></td><td>minuto(s)</td><td>minute</td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"BRUnidadeTempo-h\"> </a></td><td>hora(s)</td><td>hour</td></tr><tr><td style=\"white-space:nowrap\">d<a name=\"BRUnidadeTempo-d\"> </a></td><td>dia(s)</td><td>day</td></tr><tr><td style=\"white-space:nowrap\">wk<a name=\"BRUnidadeTempo-wk\"> </a></td><td>semana(s)</td><td>week</td></tr><tr><td style=\"white-space:nowrap\">mo<a name=\"BRUnidadeTempo-mo\"> </a></td><td>mês(meses)</td><td>month</td></tr><tr><td style=\"white-space:nowrap\">a<a name=\"BRUnidadeTempo-a\"> </a></td><td>ano(s)</td><td>year</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
+  "version" : "0.1.0",
+  "name" : "BRUnidadeTempo",
+  "title" : "Unidade de tempo",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-03-22T14:53:00.0000000+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Code System utilizado para definir a classe de unidades de tempo.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "min",
+    "display" : "minuto(s)",
+    "designation" : [{
+      "language" : "en",
+      "value" : "minute"
+    }]
+  },
+  {
+    "code" : "h",
+    "display" : "hora(s)",
+    "designation" : [{
+      "language" : "en",
+      "value" : "hour"
+    }]
+  },
+  {
+    "code" : "d",
+    "display" : "dia(s)",
+    "designation" : [{
+      "language" : "en",
+      "value" : "day"
+    }]
+  },
+  {
+    "code" : "wk",
+    "display" : "semana(s)",
+    "designation" : [{
+      "language" : "en",
+      "value" : "week"
+    }]
+  },
+  {
+    "code" : "mo",
+    "display" : "mês(meses)",
+    "designation" : [{
+      "language" : "en",
+      "value" : "month"
+    }]
+  },
+  {
+    "code" : "a",
+    "display" : "ano(s)",
+    "designation" : [{
+      "language" : "en",
+      "value" : "year"
+    }]
+  }]
+}
