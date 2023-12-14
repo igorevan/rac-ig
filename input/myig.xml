@@ -19,7 +19,7 @@ including changing realm -->
   overridden -->
   <version value="0.1.0" />
   <name value="RACRNDSIG" />
-  <title value="Guia de Implementação do RAC da RNDS" />
+  <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS" />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="Ministério da Saúde do Brasil" />
@@ -638,10 +638,10 @@ including changing realm -->
       <code value="path-resource" />
       <value value="input\history" />
     </parameter>
-    <!--parameter>
+    <parameter>
       <code value="shownav" />
       <value value="true" />
-    </parameter-->
+    </parameter>
     <parameter>
       <code value="path-resource" />
       <value value="input/resources" />
