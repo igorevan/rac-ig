@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-15T10:15:00-03:00"/>
+  <date value="2023-12-15T17:40:51-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -1305,7 +1305,7 @@
       <reference>
         <reference value="ValueSet/BREstadoObservacao-1.0"/>
       </reference>
-      <name value="Estado da Observação."/>
+      <name value="Estado da Observação"/>
       <description value="Tipos de estados de uma observação."/>
     </resource>
     <resource>
@@ -1315,7 +1315,7 @@
       <reference>
         <reference value="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"/>
       </reference>
-      <name value="Estado da Resolução de Diagnóstico ou Problema."/>
+      <name value="Estado da Resolução de Diagnóstico ou Problema"/>
       <description value="Estado da resolução de um diagnóstico ou problema."/>
     </resource>
     <resource>
@@ -1830,6 +1830,17 @@
         </extension>
         <nameUrl value="credenciamento.html"/>
         <title value="Credenciamento"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="rac.html"/>
+        </extension>
+        <nameUrl value="rac.html"/>
+        <title value="O RAC"/>
         <generation value="html"/>
       </page>
       <page>

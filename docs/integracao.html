@@ -89,6 +89,9 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
+  <li>
+    <a href="rac.html">O RAC</a>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
@@ -107,8 +110,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
-            src="external.png" style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
+            style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -119,7 +122,7 @@
       </li>
     </ul>
   </li>
-</ul>      
+</ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
         </nav>  <!-- /.navbar -->
@@ -193,41 +196,41 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     Registro de Atendimento Clínico.
   </p>
   <p>
-    <table class="grid">
-      <tbody>
-        <tr>
-          <td>
-            <b>Serviço</b>
-          </td>
-          <td>
-            <b>Componente</b>
-          </td>
-          <td>
-            <b>Objetivo</b>
-          </td>
-        </tr>
-        <tr>
-          <td>GET@/fhir/r4/Patient</td>
-          <td>EHR Services</td>
-          <td>Permitir a pesquisa de pacientes</td>
-        </tr>
-        <tr>
-          <td>GET@/fhir/r4/Organization</td>
-          <td>EHR Services</td>
-          <td>Permitir a pesquisa de estabelecimentos de Saúde </td>
-        </tr>
-        <tr>
-          <td>GET@/fhir/r4/Practitioner</td>
-          <td>EHR Services</td>
-          <td>Permitir a pesquisa de profissionais de saúde</td>
-        </tr>
-        <tr>
-          <td>GET@/fhir/r4/PractitionerRole</td>
-          <td>EHR Services</td>
-          <td>Permitir a pesquisa de perfis de profissionais de Saúde</td>
-        </tr>
-      </tbody>
-    </table>
+  <table class="grid">
+    <tbody>
+      <tr>
+        <td>
+          <b>Serviço</b>
+        </td>
+        <td>
+          <b>Componente</b>
+        </td>
+        <td>
+          <b>Objetivo</b>
+        </td>
+      </tr>
+      <tr>
+        <td>GET@/fhir/r4/Patient</td>
+        <td>EHR Services</td>
+        <td>Permitir a pesquisa de pacientes</td>
+      </tr>
+      <tr>
+        <td>GET@/fhir/r4/Organization</td>
+        <td>EHR Services</td>
+        <td>Permitir a pesquisa de estabelecimentos de Saúde </td>
+      </tr>
+      <tr>
+        <td>GET@/fhir/r4/Practitioner</td>
+        <td>EHR Services</td>
+        <td>Permitir a pesquisa de profissionais de saúde</td>
+      </tr>
+      <tr>
+        <td>GET@/fhir/r4/PractitionerRole</td>
+        <td>EHR Services</td>
+        <td>Permitir a pesquisa de perfis de profissionais de Saúde</td>
+      </tr>
+    </tbody>
+  </table>
   </p>
   <p>
     Em relação ao serviço GET@/fhir/r4/Patient, quando não for possível captar o CPF ou CNS do
@@ -245,43 +248,43 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     informação principal, o Registro de Atendimento Clínico.
   </p>
   <p>
-    <table class="grid">
-      <tbody>
-        <tr>
-          <td>
-            <b>Serviço</b>
-          </td>
-          <td>
-            <b>Componente</b>
-          </td>
-          <td>
-            <b>Objetivo</b>
-          </td>
-        </tr>
-        <tr>
-          <td>POST@/token</td>
-          <td>EHR Auth</td>
-          <td>Permitir autenticação com Certificado Digital do tipo e-CNPJ ou e-CPF (ICP Brasil)</td>
-        </tr>
-        <tr>
-          <td>POST@/fhir/r4/Bundle</td>
-          <td>EHR Services</td>
-          <td>Permitir o envio (inclusão) de um documento clínico. Neste caso, é o Registro de
-            Atendimento Clínico</td>
-        </tr>
-        <tr>
-          <td>POST@/contexto-atendimento</td>
-          <td>EHR Services</td>
-          <td>Permitir a geração de um contexto de atendimento. Necessário para consultar documentos
-            clínicos por meio do Conecte SUS Profissional</td>
-        </tr>
-        <tr>
-          <td>DELETE@/fhir/r4/Bundle</td>
-          <td>EHR Services</td>
-          <td>Permitir a exclusão (delete) de um documento clínico</td>
-        </tr>
-      </tbody>
-    </table>
+  <table class="grid">
+    <tbody>
+      <tr>
+        <td>
+          <b>Serviço</b>
+        </td>
+        <td>
+          <b>Componente</b>
+        </td>
+        <td>
+          <b>Objetivo</b>
+        </td>
+      </tr>
+      <tr>
+        <td>POST@/token</td>
+        <td>EHR Auth</td>
+        <td>Permitir autenticação com Certificado Digital do tipo e-CNPJ ou e-CPF (ICP Brasil)</td>
+      </tr>
+      <tr>
+        <td>POST@/fhir/r4/Bundle</td>
+        <td>EHR Services</td>
+        <td>Permitir o envio (inclusão) de um documento clínico. Neste caso, é o Registro de
+          Atendimento Clínico</td>
+      </tr>
+      <tr>
+        <td>POST@/contexto-atendimento</td>
+        <td>EHR Services</td>
+        <td>Permitir a geração de um contexto de atendimento. Necessário para consultar documentos
+          clínicos por meio do Conecte SUS Profissional</td>
+      </tr>
+      <tr>
+        <td>DELETE@/fhir/r4/Bundle</td>
+        <td>EHR Services</td>
+        <td>Permitir a exclusão (delete) de um documento clínico</td>
+      </tr>
+    </tbody>
+  </table>
   </p>
 
   <a name="exclusao"> </a>
@@ -291,13 +294,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     seguintes situações:
   </p>
   <p>
-    <ul>
-      <li><b>1ª situação</b>: Paciente/cidadão errado. As informações registradas e enviadas não se
-        referem ao cidadão vinculado ao documento clínico.</li>
-      <li><b>2ª situação</b>: Registros duplicados. Foi enviado mais de um documento clínico
-        contendo as mesmas informações sobre o mesmo evento e um mesmo paciente/cidadão. Neste caso,
-        cabe ao integrador definir qual dos documentos se mantém e quais serão excluídos.</li>
-    </ul>
+  <ul>
+    <li><b>1ª situação</b>: Paciente/cidadão errado. As informações registradas e enviadas não se
+      referem ao cidadão vinculado ao documento clínico.</li>
+    <li><b>2ª situação</b>: Registros duplicados. Foi enviado mais de um documento clínico
+      contendo as mesmas informações sobre o mesmo evento e um mesmo paciente/cidadão. Neste caso,
+      cabe ao integrador definir qual dos documentos se mantém e quais serão excluídos.</li>
+  </ul>
   </p>
   <p>
     Como critério de segurança para efetivar a exclusão, será mantida a estrutura atual presente no
@@ -344,12 +347,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </div>
   <p>
     <b>Nota</b>: <i>O <a href="https://conectesus.saude.gov.br/">Conecte SUS Profissional</a> é uma
-    plataforma desenvolvida pelo Ministério da Saúde para materializar a Estratégia de Saúde para o
-    Brasil, e tem como objetivo a troca de informações em saúde entre profissionais de saúde de toda
-    a rede de atenção à saúde. Dessa forma, os profissionais acessam as informações de saúde de um
-    determinado paciente a partir de seu histórico já padronizado, sempre dentro de um contexto de
-    atendimento. O contexto de atendimento indica que o paciente passou por atendimento em um
-    estabelecimento de saúde com um profissional de saúde.</i>
+      plataforma desenvolvida pelo Ministério da Saúde para materializar a Estratégia de Saúde para o
+      Brasil, e tem como objetivo a troca de informações em saúde entre profissionais de saúde de toda
+      a rede de atenção à saúde. Dessa forma, os profissionais acessam as informações de saúde de um
+      determinado paciente a partir de seu histórico já padronizado, sempre dentro de um contexto de
+      atendimento. O contexto de atendimento indica que o paciente passou por atendimento em um
+      estabelecimento de saúde com um profissional de saúde.</i>
   </p>
 
   <a name="identificadores"> </a>
@@ -387,11 +390,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <p>
         <b>Identificador atribuído pela RNDS</b>: também denominado de ID RNDS. Quando o registro é
         enviado com sucesso (header de resposta 201) à RNDS, no header location é gerada uma URL que
-        é o identificador do registro na RNDS (ver Exemplos de consumo dos serviços). </p>
+        é o identificador do registro na RNDS (ver Exemplos de consumo dos serviços).
+      </p>
       <p>
         <b>IMPORTANTE</b>: os softwares integradores DEVEM SALVAR o identificador local e o ID RNDS
         para que possam realizar ações futuras como: pesquisa, substituição (ver item Substituição
-        de registro na RNDS) e exclusão. </p>
+        de registro na RNDS) e exclusão.
+      </p>
     </li>
   </ul>
 
@@ -619,7 +624,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 15, 2023 10:15-0300">2023-12-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 15, 2023 17:40-0300">2023-12-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |

@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-15T10:15:00-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-15T17:40:51-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1453,7 +1453,7 @@
          fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0> ;
          fhir:reference [ fhir:v "ValueSet/BREstadoObservacao-1.0" ]
        ] ;
-       fhir:name [ fhir:v "Estado da Observação." ] ;
+       fhir:name [ fhir:v "Estado da Observação" ] ;
        fhir:description [ fhir:v "Tipos de estados de uma observação." ]
      ] [
        fhir:extension ( [
@@ -1464,7 +1464,7 @@
          fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0> ;
          fhir:reference [ fhir:v "ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" ]
        ] ;
-       fhir:name [ fhir:v "Estado da Resolução de Diagnóstico ou Problema." ] ;
+       fhir:name [ fhir:v "Estado da Resolução de Diagnóstico ou Problema" ] ;
        fhir:description [ fhir:v "Estado da resolução de um diagnóstico ou problema." ]
      ] [
        fhir:extension ( [
@@ -2027,6 +2027,17 @@
          ] ) ;
          fhir:name [ fhir:v "credenciamento.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Credenciamento" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "rac.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "rac.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "O RAC" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [

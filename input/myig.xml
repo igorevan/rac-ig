@@ -609,6 +609,11 @@ including changing realm -->
         <generation value="html" />
       </page>
       <page>
+        <nameUrl value="rac.html" />
+        <title value="O RAC" />
+        <generation value="html" />
+      </page>
+      <page>
         <nameUrl value="exemplos.html" />
         <title value="Exemplos" />
         <generation value="markdown" />

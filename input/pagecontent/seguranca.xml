@@ -3,7 +3,7 @@
   <a name="seguranca"></a>
   <h3>Segurança</h3>
   <p> Somente com uma solicitação de acesso aprovada será possível realizar o consumo dos serviços (<i>web
-    services</i>) do EHR Services. </p>
+      services</i>) do EHR Services. </p>
   <p> Após a aprovação, o primeiro passo para realizar o consumo dos serviços é realizar a
     autenticação utilizando o serviço <code>POST@/token</code> no componente EHR Auth. Durante o
     processo de autenticação é verificado se o certificado digital está dentro do período de
@@ -11,7 +11,7 @@
   <p> Caso não ocorra nenhum destes problemas, a operação de autenticação será realizada com sucesso
     e será retornado um <i>token</i> (<code>access_token</code>) com tempo de vida de 30 minutos.
     Este <i>token</i> deverá ser utilizado como token de autenticação nas chamadas dos serviços (<i>web
-    services</i>) do EHR Services. A estrutura do <i>token</i> retornado é a seguinte: </p>
+      services</i>) do EHR Services. A estrutura do <i>token</i> retornado é a seguinte: </p>
   <pre>
     <code>
       {
@@ -32,7 +32,7 @@
     usadas utilizando somente este, não gerando a degradação de performance relacionada ao uso do
     certificado digital. Por isso, recomenda-se reutilizar o "<i>ticket</i>" ao máximo durante seu
     tempo de vida e só então gerar um novo token repetindo a operação de autenticação com “<i>Two-way
-    SSL</i>”.</p>
+      SSL</i>”.</p>
   <p>Na página da RNDS no <a href="https://servicos-datasus.saude.gov.br/">Portal de Serviços do
-    DATASUS</a> há um projeto de exemplo para geração do <i>token</i> utilizando a linguagem Java. </p>
+      DATASUS</a> há um projeto de exemplo para geração do <i>token</i> utilizando a linguagem Java. </p>
 </div>

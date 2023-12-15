@@ -130,7 +130,7 @@
       "version" : "0.1.0",
       "status" : "active",
       "name" : "BREstadoObservacao",
-      "title" : "Estado da Observação.",
+      "title" : "Estado da Observação",
       "description" : "Tipos de estados de uma observação.",
       "systems" : ["http://hl7.org/fhir/observation-status"]
     },
@@ -139,7 +139,7 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "BREstadoResolucaoDiagnosticoProblema",
-      "title" : "Estado da Resolução de Diagnóstico ou Problema.",
+      "title" : "Estado da Resolução de Diagnóstico ou Problema",
       "description" : "Estado da resolução de um diagnóstico ou problema.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"]
     },

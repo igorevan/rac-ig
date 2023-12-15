@@ -90,8 +90,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
@@ -167,27 +167,27 @@
       "version" : "0.1.0",
       "status" : "active",
       "name" : "BREstadoObservacao",
-      "title" : "Estado da Observação.",
+      "title" : "Estado da Observação",
       "description" : "Tipos de estados de uma observação.",
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "BREstadoResolucaoDiagnosticoProblema",
-      "title" : "Estado da Resolução de Diagnóstico ou Problema.",
+      "title" : "Estado da Resolução de Diagnóstico ou Problema",
       "description" : "Estado da resolução de um diagnóstico ou problema.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
       "uses" : {
       },
-      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
@@ -385,8 +385,8 @@
       },
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
-      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional"
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
@@ -572,9 +572,9 @@
       "systems" : ["http://hl7.org/fhir/administrative-gender"],
       "uses" : {
       },
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados",
       "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
@@ -700,8 +700,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",

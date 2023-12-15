@@ -5,8 +5,8 @@
   <h3>Acesso ao Barramento de Serviços</h3>
   <p> A integração com a RNDS dar-se-á por meio dos serviços (web services) mencionados
     anteriormente. Para que seja possível acessar os serviços (web services) disponibilizados no EHR
-    Services é necessário realizar solicitação de acesso no <a
-      href="https://servicos-datasus.saude.gov.br/">Portal de Serviços do
+    Services é necessário realizar solicitação de acesso no <a href="https://servicos-datasus.saude.gov.br/">Portal de
+      Serviços do
       DATASUS</a>. </p>
   <p>
     A solicitação de acesso à RNDS deve ser feita pelo estabelecimento de saúde, seja laboratório,
@@ -20,8 +20,8 @@
   </p>
   <p>
     <b>Nota</b>: <i>Vale contextualizar que o parceiro tecnológico pode acionar a equipe técnica do
-    DATASUS por meio do e-mail de suporte (rnds@saude.gov.br) se tiver dúvidas nos testes ou algum
-    problema no
+      DATASUS por meio do e-mail de suporte (rnds@saude.gov.br) se tiver dúvidas nos testes ou algum
+      problema no
       processo de integração.</i>
   </p>
   <p>
@@ -91,7 +91,7 @@
     lados)
     garantindo assim uma comunicação segura.</p>
   <p><b>Nota</b>: <i>O certificado ficará associado ao estabelecimento de saúde (ou lista de
-    estabelecimentos de
+      estabelecimentos de
       saúde) informado na solicitação de acesso.</i></p>
 
   <a name="estabelecimentos"> </a>
@@ -103,8 +103,7 @@
   </p>
   <div>
 
-    <img height="400" src="estabelecimentosFilhos.png"
-      alt="Identificação de estabelecimentos Filhos" />
+    <img height="400" src="estabelecimentosFilhos.png" alt="Identificação de estabelecimentos Filhos" />
 
   </div>
 
@@ -120,8 +119,7 @@
   </p>
   <div>
 
-    <img height="300" src="gerenciadorCredenciais.png"
-      alt="Gerenciador de Credenciais" />
+    <img height="300" src="gerenciadorCredenciais.png" alt="Gerenciador de Credenciais" />
 
   </div>
   <p>

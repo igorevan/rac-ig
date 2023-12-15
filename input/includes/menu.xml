@@ -11,6 +11,9 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
+  <li>
+    <a href="rac.html">O RAC</a>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
@@ -29,8 +32,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="{{site.data.fhir.path}}index.html"> FHIR Spec <img
-            src="external.png" style="text-align: baseline" />
+        <a target="_blank" href="{{site.data.fhir.path}}index.html"> FHIR Spec <img src="external.png"
+            style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -41,4 +44,4 @@
       </li>
     </ul>
   </li>
-</ul>      
+</ul>

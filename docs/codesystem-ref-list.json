@@ -106,7 +106,7 @@
       "oids" : ["2.16.840.1.113883.4.642.4.401"],
       "uses" : {
       },
-      "ValueSet-BREstadoObservacao-1.0.html" : "Estado da Observação."
+      "ValueSet-BREstadoObservacao-1.0.html" : "Estado da Observação"
     },
     {
       "url" : "http://hl7.org/fhir/request-intent",
@@ -144,9 +144,9 @@
       "uses" : {
       },
       "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
       "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
-      "ValueSet-BROrigemMedida.html" : "Origem de Medição"
+      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -182,7 +182,7 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1074"],
       "uses" : {
       },
-      "ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html" : "Estado da Resolução de Diagnóstico ou Problema."
+      "ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html" : "Estado da Resolução de Diagnóstico ou Problema"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
@@ -617,8 +617,8 @@
       "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
       "uses" : {
       },
-      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
-      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
+      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
+      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
@@ -640,8 +640,8 @@
       "description" : "Classifica o tipo de indicador que está sendo utilizado.",
       "uses" : {
       },
-      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento",
-      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo"
+      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo",
+      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
@@ -696,8 +696,8 @@
       "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
       "uses" : {
       },
-      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
