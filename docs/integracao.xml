@@ -216,4 +216,183 @@
     </li>
   </ul>
 
+  <a name="ambientes"></a>
+  <h3>Ambientes de Integração</h3>
+  <p>Seguindo as boas práticas serão disponibilizados dois ambientes para a integração: homologação
+    e produção.</p>
+
+  <a name="homologacao"></a>
+  <h4>Ambiente de Homologação</h4>
+  <p>O ambiente de homologação tem como finalidade validar a integração, seus parâmetros de
+    entradas,
+    saídas e comportamentos negociais, permitindo a realização de testes antes da efetiva
+    comunicação
+    com o ambiente de produção. O ambiente de homologação é único, ou seja, todos os interessados
+    em realizar o consumo dos serviços (web services) utilizarão o mesmo ambiente. Porém, mesmo
+    usando o mesmo ambiente, as informações trafegadas (incluídas ou consultadas) estarão restritas
+    aos estabelecimentos de saúde (CNES) elencados na etapa de credenciamento (capítulo 6 deste
+    documento). Os endereços dos componentes de integração, no ambiente de homologação, são:</p>
+
+  <ul>
+    <li>
+      <p>Utilizado para obtenção do token em ambiente de homologação:</p>
+      <pre>
+        <code>https://ehr-auth-hmg.saude.gov.br/api/</code>
+      </pre>
+    </li>
+    <li>
+      <p>
+        Utilizado para comunicação com demais serviços do ambiente de Homologação:
+      </p>
+      <pre>
+          <code>
+            https://ehr-services.hmg.saude.gov.br/api/
+          </code>
+      </pre>
+    </li>
+  </ul>
+
+  <a name="evidencias"></a>
+  <h4>Evidências da Homologação</h4>
+  <p>A partir dos testes realizados e da implementação local, serão aceitas como evidências dos
+    testes em
+    homologação um arquivo com:</p>
+  <ul>
+    <li>1 print do validador com sucesso;</li>
+    <li>1 print header de resposta de criação do registro na RNDS;</li>
+    <li>1 print do bundle enviado.</li>
+  </ul>
+  <p>Com essas evidências, o solicitante pode solicitar acesso ao ambiente de produção no Portal de
+    Serviços.</p>
+
+  <a name="producao"></a>
+  <h3>Ambiente de Produção</h3>
+  <p>O ambiente de produção é o ambiente estável e real que provê os serviços (web services) a serem
+    consumidos. Para o ambiente produtivo, os integradores deverão acessar os endereços dos seus
+    estados (UF). Durante o credenciamento (capítulo 6 deste documento), a credencial de acesso
+    (Certificado Digital) será associada a um estabelecimento de saúde (CNES) (ou conjunto de
+    estabelecimentos de saúde) no Portal de Serviços do DATASUS. Com isso, a credencial de acesso
+    pertencerá a um estado (UF) específico. Acessos a estados diferentes não são permitidos e serão
+    bloqueados automaticamente pelos serviços (web services). Os endereços dos componentes de
+    integração, no ambiente de produção, por estado, são:</p>
+
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>Estado</th>
+        <th>Endpoint</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Acre</td>
+        <td>https://ac-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Alagoas</td>
+        <td>https://al-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Amapá</td>
+        <td>https://ap-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Amazonas</td>
+        <td>https://am-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Bahia</td>
+        <td>https://ba-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Ceará</td>
+        <td>https://ce-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Distrito Federal</td>
+        <td>https://df-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Espírito Santo</td>
+        <td>https://es-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Goiás</td>
+        <td>https://go-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Maranhão</td>
+        <td>https://ma-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Mato Grosso</td>
+        <td>https://mt-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Mato Grosso do Sul</td>
+        <td>https://ms-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td>https://mg-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Pará</td>
+        <td>https://pa-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Paraíba</td>
+        <td>https://pb-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Paraná</td>
+        <td>https://pr-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Pernambuco</td>
+        <td>https://pe-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Piauí</td>
+        <td>https://pi-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td>https://rj-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Rio Grande do Norte</td>
+        <td>https://rn-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Rio Grande do Sul</td>
+        <td>https://rs-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Rondônia</td>
+        <td>https://ro-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td>https://rr-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Santa Catarina</td>
+        <td>https://sc-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+        <td>https://sp-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Sergipe</td>
+        <td>https://se-ehr-services.saude.gov.br/api/</td>
+      </tr>
+      <tr>
+        <td>Tocantins</td>
+        <td>https://to-ehr-services.saude.gov.br/api/</td>
+      </tr>
+    </tbody>
+  </table>
+
 </div>
