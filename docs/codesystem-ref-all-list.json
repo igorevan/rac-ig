@@ -22,8 +22,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.1377"],
       "uses" : {
       },
-      "ValueSet-BREstadoSolicitacaoMedicamento-1.0.html" : "Estado da Solicitação de Medicamento",
-      "http://hl7.org/fhir/R4/valueset-medicationrequest-status.html" : "Medicationrequest  status"
+      "http://hl7.org/fhir/R4/valueset-medicationrequest-status.html" : "Medicationrequest  status",
+      "ValueSet-BREstadoSolicitacaoMedicamento-1.0.html" : "Estado da Solicitação de Medicamento"
     },
     {
       "url" : "http://hl7.org/fhir/address-type",
@@ -108,8 +108,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.147"],
       "uses" : {
       },
-      "ValueSet-BREstadoAfastamentoAtestado.html" : "Status do afastamento descrito no atestado",
-      "http://hl7.org/fhir/R4/valueset-care-plan-activity-status.html" : "CarePlanActivityStatus"
+      "http://hl7.org/fhir/R4/valueset-care-plan-activity-status.html" : "CarePlanActivityStatus",
+      "ValueSet-BREstadoAfastamentoAtestado.html" : "Status do afastamento descrito no atestado"
     },
     {
       "url" : "http://hl7.org/fhir/composition-attestation-mode",
@@ -133,8 +133,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.242"],
       "uses" : {
       },
-      "ValueSet-BREstadoDocumento-1.0.html" : "Estado do Documento",
-      "http://hl7.org/fhir/R4/valueset-composition-status.html" : "CompositionStatus"
+      "http://hl7.org/fhir/R4/valueset-composition-status.html" : "CompositionStatus",
+      "ValueSet-BREstadoDocumento-1.0.html" : "Estado do Documento"
     },
     {
       "url" : "http://hl7.org/fhir/contact-point-system",
@@ -206,8 +206,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.247"],
       "uses" : {
       },
-      "ValueSet-BREstadoContatoAssistencial-1.0.html" : "Estado do Contato Assistencial",
-      "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus"
+      "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus",
+      "ValueSet-BREstadoContatoAssistencial-1.0.html" : "Estado do Contato Assistencial"
     },
     {
       "url" : "http://hl7.org/fhir/event-status",
@@ -412,14 +412,14 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
       "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-      "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes",
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+      "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
       "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
       "http://hl7.org/fhir/R4/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
-      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
+      "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -432,33 +432,33 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
-      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
-      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
-      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
       "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
-      "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
-      "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
-      "http://hl7.org/fhir/R4/valueset-administration-method-codes.html" : "SNOMED CT Administration Method Codes",
-      "http://hl7.org/fhir/R4/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
-      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
-      "http://hl7.org/fhir/R4/valueset-care-plan-category.html" : "Care Plan Category",
-      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
       "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-administration-method-codes.html" : "SNOMED CT Administration Method Codes",
+      "http://hl7.org/fhir/R4/valueset-care-plan-category.html" : "Care Plan Category",
       "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
       "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes"
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+      "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
+      "http://hl7.org/fhir/R4/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
+      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+      "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
@@ -554,8 +554,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1054"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-diagnosis-role.html" : "DiagnosisRole",
-      "ValueSet-BRPapelProblemaDiagnostico.html" : "Classificação do papel de um problema e diagnóstico."
+      "ValueSet-BRPapelProblemaDiagnostico.html" : "Classificação do papel de um problema e diagnóstico.",
+      "http://hl7.org/fhir/R4/valueset-diagnosis-role.html" : "DiagnosisRole"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/diet",
@@ -759,8 +759,8 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode",
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+      "http://terminology.hl7.org/5.3.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
+      "http://terminology.hl7.org/5.3.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
@@ -808,8 +808,8 @@
       "oids" : ["2.16.840.1.113883.5.1022"],
       "uses" : {
       },
-      "ValueSet-BRFrequenciaUsoSubstancia.html" : "Frequência de Uso da Substância",
-      "http://hl7.org/fhir/R4/valueset-timing-abbreviation.html" : "TimingAbbreviation"
+      "http://hl7.org/fhir/R4/valueset-timing-abbreviation.html" : "TimingAbbreviation",
+      "ValueSet-BRFrequenciaUsoSubstancia.html" : "Frequência de Uso da Substância"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
@@ -833,8 +833,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-encounter-special-courtesy.html" : "Special courtesy",
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "http://hl7.org/fhir/R4/valueset-encounter-special-courtesy.html" : "Special courtesy"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -950,8 +950,8 @@
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
       "uses" : {
       },
-      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
-      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
+      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
@@ -995,8 +995,8 @@
       "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil.",
       "uses" : {
       },
-      "ValueSet-BRMunicipio-1.0.html" : "Município",
-      "ValueSet-BRUnidadeFederativa-1.0.html" : "Unidade Federativa"
+      "ValueSet-BRUnidadeFederativa-1.0.html" : "Unidade Federativa",
+      "ValueSet-BRMunicipio-1.0.html" : "Município"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena",
@@ -1305,8 +1305,8 @@
       "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
       "uses" : {
       },
-      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
-      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
+      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
+      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
@@ -1328,8 +1328,8 @@
       "description" : "Classifica o tipo de indicador que está sendo utilizado.",
       "uses" : {
       },
-      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo",
-      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento"
+      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento",
+      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",

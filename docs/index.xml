@@ -6,16 +6,19 @@
   <p>
     Este Guia de Implementação (IG) tem o objetivo de orientar Estados, Municípios, Distrito
     Federal, Estabelecimentos de Saúde ou Empresas Privadas que fornecem soluções/software na área
-    de saúde a utilizarem os serviços (web services) que foram desenvolvidos para a Rede Nacional de
-    Dados em Saúde (RNDS),
+    de saúde a utilizarem os serviços (web services) que foram desenvolvidos para a <a
+      href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de
+      Dados em Saúde (RNDS)</a>,
     fornecendo as orientações técnicas necessárias para a integração dos sistemas/soluções locais
-    com a rede, para o envio do Registro de Atendimento Clínico (RAC).
+    com a rede, para o envio do <a href="https://rnds-guia.saude.gov.br/docs/rac/mi-rac/">Registro de Atendimento
+      Clínico (RAC)</a>.
   </p>
   <a name="contextualizacao"></a>
   <h3>Contextualização</h3>
   <p>
     A RNDS é uma plataforma nacional de integração de dados em saúde
-    que faz parte do Conecte SUS, um programa do Governo Federal que tem como principal missão
+    que faz parte do <a href="https://conectesus.saude.gov.br/home">Conecte SUS</a>, um programa do Governo Federal que
+    tem como principal missão
     materializar a Estratégia de Saúde Digital do Brasil.
   </p>
   <p>
@@ -39,11 +42,27 @@
   <h3>Roteiro</h3>
   <ul>
     <li>
-      <a href="credenciamento.html">Credenciamento junto ao DATASUS</a> - Saiba qual é o processo a
-      ser seguido por um estabelecimento de saúde, e requisitos, para a integração com a RNDS. </li>
-    <li><a href="spec.html">Especificação detalhada</a> - Define as operações e os recursos <i>
-      (Resources)</i> a serem atendidos para integração com a RNDS. </li>
+      <a href="credenciamento.html">Credenciamento</a>: Saiba qual é o processo a
+      ser seguido por um estabelecimento de saúde, e requisitos, para a integração com a RNDS.
+    </li>
     <li>
-      <a href="downloads.html">Downloads</a> - Artefatos empregados pelos integradores. </li>
+      <a href="seguranca.html">Segurança</a>:
+    </li>
+    <li>
+      <a href="integracao.html">Integração</a>: Define as operações e os recursos <i>
+        (Resources)</i> a serem atendidos para integração com a RNDS.
+    </li>
+    <li>
+      <a href="rac.html">O RAC</a>:
+    </li>
+    <li>
+      <a href="artifacts.html">Artefatos</a>:
+    </li>
+    <li>
+      <a href="exemplos.html">Exemplos</a>:
+    </li>
+    <li>
+      <a href="downloads.html">Downloads</a>: Artefatos empregados pelos integradores.
+    </li>
   </ul>
 </div>

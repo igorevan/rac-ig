@@ -3,8 +3,8 @@
 
 err = 507, warn = 70, info = 3
 IG Publisher Version: 1.5.6 Out of date - current version is 1.5.8
-Generated Fri Dec 15 18:11:21 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
- Build Errors : 506 / 4 / 0
+Generated Mon Dec 18 10:44:42 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+ Build Errors : 505 / 4 / 0
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -666,7 +666,6 @@ ERROR: ToC: The ToC contains the page CodeSystem-BRUnidadeTempo.ttl.html more th
 ERROR: ToC: The ToC contains the page CodeSystem-BRViaAdministracao.xml.html more than once
 ERROR: ToC: The ToC contains the page CodeSystem-BRViaAdministracao.json.html more than once
 ERROR: ToC: The ToC contains the page CodeSystem-BRViaAdministracao.ttl.html more than once
-ERROR: C:\Users\Igor\rac-ig\output\index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 273, column 10: The link 'spec.html' for "Especificação detalhada" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
