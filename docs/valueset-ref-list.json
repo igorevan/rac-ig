@@ -172,8 +172,8 @@
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -344,8 +344,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
-      "StructureDefinition-BRMunicipio-1.0.html" : "Município"
+      "StructureDefinition-BRMunicipio-1.0.html" : "Município",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade",
@@ -384,9 +384,9 @@
       "uses" : {
       },
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
       "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
-      "StructureDefinition-BRProfissional-1.0.html" : "Profissional"
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
@@ -572,9 +572,9 @@
       "systems" : ["http://hl7.org/fhir/administrative-gender"],
       "uses" : {
       },
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
       "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados",
-      "StructureDefinition-BRProfissional-1.0.html" : "Profissional"
+      "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
@@ -700,8 +700,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
@@ -750,8 +750,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
-      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor"
+      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",

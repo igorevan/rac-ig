@@ -3,9 +3,10 @@
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
   <a name="acesso"> </a>
   <h3>Acesso ao Barramento de Serviços</h3>
-  <p> A integração com a RNDS dar-se-á por meio dos serviços (web services) mencionados
-    anteriormente. Para que seja possível acessar os serviços (web services) disponibilizados no EHR
-    Services é necessário realizar solicitação de acesso no <a href="https://servicos-datasus.saude.gov.br/">Portal de
+  <p> A integração com a RNDS dar-se-á por meio dos serviços (<i>web services</i>) mencionados
+    anteriormente. Para que seja possível acessar esses serviços disponibilizados no <i>EHR
+      Services</i> é necessário realizar solicitação de acesso no <a
+      href="https://servicos-datasus.saude.gov.br/">Portal de
       Serviços do
       DATASUS</a>. </p>
   <p>
@@ -20,21 +21,22 @@
   </p>
   <p>
     <b>Nota</b>: <i>Vale contextualizar que o parceiro tecnológico pode acionar a equipe técnica do
-      DATASUS por meio do e-mail de suporte (rnds@saude.gov.br) se tiver dúvidas nos testes ou algum
-      problema no
-      processo de integração.</i>
+      DATASUS por meio do <a href="mailto:rnds@saude.gov.br">e-mail de suporte</a> se
+      houver dúvidas nos testes ou algum problema no processo de integração.</i>
   </p>
   <p>
     A Figura 3 apresenta uma imagem do portal de serviços do DATASUS.
   </p>
   <p>
-    <b>Figura 3 - Portal de Serviços do DATASUS</b>
+    <center><b>Figura 3 - Portal de Serviços do DATASUS</b></center>
   </p>
-  <div>
+  <center>
+    <div>
 
-    <img height="600" src="portalServicos.png" alt="Portal de Serviços do Datasus" />
+      <img height="400" src="portalServicos.png" alt="Portal de Serviços do Datasus" />
 
-  </div>
+    </div>
+  </center>
   <p>
     Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços
     disponibilizados,
@@ -52,19 +54,20 @@
 
   <a name="conta"> </a>
   <h3>Conta GOV.BR</h3>
+  <p> O acesso aos serviços digitais oferecidos pelo governo deve ser autenticado inicialmente pela
+    plataforma gov.br, a qual exige uma conta que qualquer cidadão pode criar pelo portal <a
+      href="https://acesso.gov.br">https://acesso.gov.br</a>. </p>
   <p>
-    O acesso aos serviços digitais oferecidos pelo governo deve ser autenticado inicialmente pela
-    plataforma gov.br, a qual exige uma conta que qualquer cidadão pode criar pelo portal
-    https://acesso.gov.br.
+    <center><b>Figura 4 - Página de autenticação da plataforma GOV.BR</b></center>
   </p>
-  <p>
-    <b>Figura 5 - Página de autenticação da plataforma GOV.BR</b>
-  </p>
-  <div>
+  <center>
+    <div>
 
-    <img height="600" src="acessoGov.png" alt="Página de autenticação da plataforma GOV.BR" />
+      <img height="400" src="acessoGov.png" alt="Página de autenticação da plataforma GOV.BR" />
 
-  </div>
+    </div>
+  </center>
+
   <p>
     O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma,
     deverá
@@ -99,29 +102,34 @@
   <p>Caso a solicitação envolva uma lista de estabelecimentos de saúde, todos deverão ser listados e
     obrigatoriamente devem ser do mesmo estado (UF).</p>
   <p>
-    <b>Figura 6 - Identificação de estabelecimentos Filhos</b>
+    <center><b>Figura 5 - Identificação de estabelecimentos Filhos</b></center>
   </p>
-  <div>
+  <center>
+    <div>
 
-    <img height="400" src="estabelecimentosFilhos.png" alt="Identificação de estabelecimentos Filhos" />
+      <img height="400" src="estabelecimentosFilhos.png" alt="Identificação de estabelecimentos Filhos" />
 
-  </div>
+    </div>
+  </center>
 
   <a name="solicitante"> </a>
-  <h3>Identificador Solicitante / NamingSystem</h3>
+  <h3>Identificador Solicitante / <i>NamingSystem</i></h3>
   <p>
     O identificador do solicitante é um número fornecido pela RNDS quando a solicitação de acesso à
     RNDS é aprovada, este número é fundamental para iniciar o processo de Homologação e deve ser
     encontrado no menu “Gerenciar Credenciais” conforme a imagem abaixo.
   </p>
   <p>
-    <b>Figura 7 - Gerenciador de Credenciais</b>
+    <center><b>Figura 6 - Gerenciador de Credenciais</b></center>
   </p>
-  <div>
+  <center>
+    <div>
 
-    <img height="300" src="gerenciadorCredenciais.png" alt="Gerenciador de Credenciais" />
+      <img height="300" src="gerenciadorCredenciais.png" alt="Gerenciador de Credenciais" />
 
-  </div>
+    </div>
+  </center>
+
   <p>
     Este número deve ser sempre empregado na construção da identificação de uma requisição submetida
     para a RNDS.

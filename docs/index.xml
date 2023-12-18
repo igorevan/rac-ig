@@ -3,23 +3,21 @@
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
   <a name="intro"> </a>
   <h3>Introdução</h3>
-  <p>
-    Este Guia de Implementação (IG) tem o objetivo de orientar Estados, Municípios, Distrito
+  <p> Este Guia de Implementação (IG) tem o objetivo de orientar Estados, Municípios, Distrito
     Federal, Estabelecimentos de Saúde ou Empresas Privadas que fornecem soluções/software na área
-    de saúde a utilizarem os serviços (web services) que foram desenvolvidos para a <a
+    de saúde a utilizarem os serviços <i>(web services)</i> que foram desenvolvidos para a <a
       href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de
-      Dados em Saúde (RNDS)</a>,
-    fornecendo as orientações técnicas necessárias para a integração dos sistemas/soluções locais
-    com a rede, para o envio do <a href="https://rnds-guia.saude.gov.br/docs/rac/mi-rac/">Registro de Atendimento
-      Clínico (RAC)</a>.
+      Dados em Saúde (RNDS)</a>, fornecendo as orientações técnicas necessárias para a integração
+    dos sistemas/soluções locais com a rede, para o envio do <a
+      href="https://rnds-guia.saude.gov.br/docs/rac/mi-rac/">Registro de Atendimento
+      Clínico (RAC)</a> seguindo as especificações do padrão <a href="https://hl7.org/fhir/R4/">HL7 FHIR versão R4</a>.
   </p>
   <a name="contextualizacao"></a>
   <h3>Contextualização</h3>
-  <p>
-    A RNDS é uma plataforma nacional de integração de dados em saúde
-    que faz parte do <a href="https://conectesus.saude.gov.br/home">Conecte SUS</a>, um programa do Governo Federal que
-    tem como principal missão
-    materializar a Estratégia de Saúde Digital do Brasil.
+  <p> A RNDS é uma plataforma nacional de integração de dados em saúde que faz parte do <a
+      href="https://conectesus.saude.gov.br/home">Conecte SUS</a>, um programa do Governo Federal
+    que tem como principal missão materializar a <a
+      href="https://www.gov.br/saude/pt-br/composicao/seidigi/saude-digital">Estratégia de Saúde Digital do Brasil</a>.
   </p>
   <p>
     A RNDS utiliza computação em nuvem e tecnologias emergentes para criar um repositório de
@@ -36,30 +34,33 @@
   <h3>Interoperabilidade</h3>
   <p> Para garantir a interoperabilidade entre as aplicações de Saúde Digital, em especial
     Prontuário(s) Eletrônico(s) do Paciente, portais e aplicações (<i>web e mobile</i>), a troca de
-    informações ocorre por meio de serviços (<i>web services</i>) RESTful, desenvolvidos de acordo
+    informações ocorre por meio de serviços (<i>web services</i>) <a
+      href="https://pt.wikipedia.org/wiki/REST">RESTful</a>, desenvolvidos de acordo
     com o padrão <a href="https://hl7.org/FHIR/">FHIR R4</a>. </p>
   <a name="walkthrough"></a>
   <h3>Roteiro</h3>
   <ul>
     <li>
-      <a href="credenciamento.html">Credenciamento</a>: Saiba qual é o processo a
-      ser seguido por um estabelecimento de saúde, e requisitos, para a integração com a RNDS.
+      <a href="credenciamento.html">Credenciamento</a>: Saiba qual é o processo e requisitos a serem
+      seguidos por um estabelecimento de saúde para a integração com a RNDS.
     </li>
     <li>
-      <a href="seguranca.html">Segurança</a>:
+      <a href="seguranca.html">Segurança</a>: Orienta como todas as transações devem ser protegidas.
     </li>
     <li>
-      <a href="integracao.html">Integração</a>: Define as operações e os recursos <i>
-        (Resources)</i> a serem atendidos para integração com a RNDS.
+      <a href="integracao.html">Integração</a>: Define as operações a serem atendidas para
+      integração com a RNDS.
     </li>
     <li>
-      <a href="rac.html">O RAC</a>:
+      <a href="rac.html">O RAC</a>: Define o Registro de Atendimento Clínico e os seus Modelos de
+      Informação e Computacional.
     </li>
     <li>
-      <a href="artifacts.html">Artefatos</a>:
+      <a href="artifacts.html">Artefatos</a>: Reúne todos os recursos <i>(Resources)</i> do FHIR
+      para elaboração do Modelo Computacional do RAC.
     </li>
     <li>
-      <a href="exemplos.html">Exemplos</a>:
+      <a href="exemplos.html">Exemplos</a>: Instâncias de exemplos.
     </li>
     <li>
       <a href="downloads.html">Downloads</a>: Artefatos empregados pelos integradores.
