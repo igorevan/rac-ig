@@ -89,9 +89,18 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
-  <li>
-    <a href="rac.html">O RAC</a>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RAC <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="mi.html">Modelo de Informação</a>
+        <a href="rac.html">Modelo Computacional</a>
+      </li>
+    </ul>
   </li>
+
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
@@ -420,14 +429,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <p> No arquivo JSON, o identificador local deve ser informado no profile <i>Bundle</i>,
         propriedade <code>identifier.value</code>. </p>
 
-      <pre>
-          <code>
+      <pre><code>
             "identifier": {
                 "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1111",
                 "value": "3112009-06246116057"
-            }
-          </code>
-      </pre>
+            }</code></pre>
 
       <p> Em "<i>system</i>"", deve-se completar a URI <code>
         http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-</code> com o número do identificador do
@@ -464,19 +470,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <ul>
     <li>
       <p>Utilizado para obtenção do token em ambiente de homologação:</p>
-      <pre>
-        <code>https://ehr-auth-hmg.saude.gov.br/api/</code>
-      </pre>
+      <pre><code>https://ehr-auth-hmg.saude.gov.br/api/</code></pre>
     </li>
     <li>
       <p>
         Utilizado para comunicação com demais serviços do ambiente de Homologação:
       </p>
-      <pre>
-          <code>
-            https://ehr-services.hmg.saude.gov.br/api/
-          </code>
-      </pre>
+      <pre><code>https://ehr-services.hmg.saude.gov.br/api/</code></pre>
     </li>
   </ul>
 
@@ -722,7 +722,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 18, 2023 16:30-0300">2023-12-18</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 19, 2023 10:25-0300">2023-12-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |

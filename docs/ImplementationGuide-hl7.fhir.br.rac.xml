@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-18T16:30:26-03:00"/>
+  <date value="2023-12-19T10:25:02-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -1841,6 +1841,17 @@
         </extension>
         <nameUrl value="rac.html"/>
         <title value="O RAC"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="mi.html"/>
+        </extension>
+        <nameUrl value="mi.html"/>
+        <title value="Modelo de Informação"/>
         <generation value="html"/>
       </page>
       <page>

@@ -89,9 +89,18 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
-  <li>
-    <a href="rac.html">O RAC</a>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RAC <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="mi.html">Modelo de Informação</a>
+        <a href="rac.html">Modelo Computacional</a>
+      </li>
+    </ul>
   </li>
+
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
@@ -185,15 +194,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <a name="seguranca"> </a>
   <h3>Segurança</h3>
   <p> Somente com uma solicitação de acesso aprovada será possível realizar o consumo dos serviços (<i>web
-      services</i>) do <i>EHR Services</i>. </p>
+    services</i>) do <i>EHR Services</i>. </p>
   <p> Após a aprovação, o primeiro passo para realizar o consumo dos serviços é realizar a
-    autenticação utilizando o serviço <code>POST@/token</code> no componente <i>EHR Auth</i>. Durante o
-    processo de autenticação é verificado se o certificado digital está dentro do período de
-    vigência e se ele, ou um de seus superiores na cadeia, foi revogado. </p>
+    autenticação utilizando o serviço <code>POST@/token</code> no componente <i>EHR Auth</i>.
+    Durante o processo de autenticação é verificado se o certificado digital está dentro do período
+    de vigência e se ele, ou um de seus superiores na cadeia, foi revogado. </p>
   <p> Caso não ocorra nenhum destes problemas, a operação de autenticação será realizada com sucesso
     e será retornado um <i>token</i> (<code>access_token</code>) com tempo de vida de 30 minutos.
     Este <i>token</i> deverá ser utilizado como token de autenticação nas chamadas dos serviços (<i>web
-      services</i>) do <i>EHR Services</i>. A estrutura do <i>token</i> retornado é a seguinte: </p>
+    services</i>) do <i>EHR Services</i>. A estrutura do <i>token</i> retornado é a seguinte: </p>
   <pre>
     <code>
       {
@@ -201,9 +210,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         "scope": "read write",
         "token_type": "jwt",
         "expires_in": 1800000
-      }
-    </code>
-</pre>
+      }</code></pre>
   <p>A autenticação com certificado digital da RNDS utiliza a técnica chamada “<i>Two-way SSL</i>”.
     No “<i>Two-way SSL</i>”, além do certificado do servidor, o cliente também deve utilizar um
     certificado válido e que será conferido. Por outro lado, na autenticação SSL (ou “<i>One-way SSL</i>”)
@@ -214,9 +221,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     usadas utilizando somente este, não gerando a degradação de performance relacionada ao uso do
     certificado digital. Por isso, recomenda-se reutilizar o "<i>ticket</i>" ao máximo durante seu
     tempo de vida e só então gerar um novo token repetindo a operação de autenticação com “<i>Two-way
-      SSL</i>”.</p>
+    SSL</i>”.</p>
   <p>Na página da RNDS no <a href="https://servicos-datasus.saude.gov.br/">Portal de Serviços do
-      DATASUS</a> há um projeto de exemplo para geração do <i>token</i> utilizando a linguagem <a href="https://www.java.com/"><i>Java</i></a>. </p>
+    DATASUS</a> há um projeto de exemplo para geração do <i>token</i> utilizando a linguagem <a href="https://www.java.com/">
+      <i>Java</i>
+    </a>. </p>
 </div>
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -262,7 +271,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 18, 2023 16:30-0300">2023-12-18</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 19, 2023 10:25-0300">2023-12-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |

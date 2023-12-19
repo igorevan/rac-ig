@@ -90,8 +90,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado"
+      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
@@ -172,8 +172,8 @@
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -185,9 +185,9 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
       "uses" : {
       },
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
@@ -344,8 +344,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRMunicipio-1.0.html" : "Município",
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BRMunicipio-1.0.html" : "Município"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade",
@@ -383,10 +383,10 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
-      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
@@ -700,8 +700,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
@@ -750,8 +750,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor",
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
+      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",

@@ -11,9 +11,18 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
-  <li>
-    <a href="rac.html">O RAC</a>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RAC <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="mi.html">Modelo de Informação</a>
+        <a href="mc.html">Modelo Computacional</a>
+      </li>
+    </ul>
   </li>
+
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>

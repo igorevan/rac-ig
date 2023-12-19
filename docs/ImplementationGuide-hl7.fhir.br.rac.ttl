@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-18T16:30:26-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-19T10:25:02-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -2038,6 +2038,17 @@
          ] ) ;
          fhir:name [ fhir:v "rac.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "O RAC" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "mi.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "mi.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Modelo de Informação" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [

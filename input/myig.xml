@@ -609,8 +609,13 @@ including changing realm -->
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="rac.html" />
+        <nameUrl value="mc.html" />
         <title value="O RAC" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="mi.html" />
+        <title value="Modelo de Informação" />
         <generation value="html" />
       </page>
       <page>

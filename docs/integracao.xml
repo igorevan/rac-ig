@@ -238,14 +238,11 @@
       <p> No arquivo JSON, o identificador local deve ser informado no profile <i>Bundle</i>,
         propriedade <code>identifier.value</code>. </p>
 
-      <pre>
-          <code>
+      <pre><code>
             "identifier": {
                 "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1111",
                 "value": "3112009-06246116057"
-            }
-          </code>
-      </pre>
+            }</code></pre>
 
       <p> Em "<i>system</i>"", deve-se completar a URI <code>
         http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-</code> com o número do identificador do
@@ -282,19 +279,13 @@
   <ul>
     <li>
       <p>Utilizado para obtenção do token em ambiente de homologação:</p>
-      <pre>
-        <code>https://ehr-auth-hmg.saude.gov.br/api/</code>
-      </pre>
+      <pre><code>https://ehr-auth-hmg.saude.gov.br/api/</code></pre>
     </li>
     <li>
       <p>
         Utilizado para comunicação com demais serviços do ambiente de Homologação:
       </p>
-      <pre>
-          <code>
-            https://ehr-services.hmg.saude.gov.br/api/
-          </code>
-      </pre>
+      <pre><code>https://ehr-services.hmg.saude.gov.br/api/</code></pre>
     </li>
   </ul>
 
