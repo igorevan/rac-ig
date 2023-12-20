@@ -238,8 +238,7 @@
       <p> No arquivo JSON, o identificador local deve ser informado no profile <i>Bundle</i>,
         propriedade <code>identifier.value</code>. </p>
 
-      <pre><code>
-            "identifier": {
+      <pre><code>"identifier": {
                 "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1111",
                 "value": "3112009-06246116057"
             }</code></pre>

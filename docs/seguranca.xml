@@ -12,9 +12,7 @@
     e será retornado um <i>token</i> (<code>access_token</code>) com tempo de vida de 30 minutos.
     Este <i>token</i> deverá ser utilizado como token de autenticação nas chamadas dos serviços (<i>web
     services</i>) do <i>EHR Services</i>. A estrutura do <i>token</i> retornado é a seguinte: </p>
-  <pre>
-    <code>
-      {
+  <pre><code>{
         "access_token": "eyJraWQiOiJybmRzIGF...",
         "scope": "read write",
         "token_type": "jwt",

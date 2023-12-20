@@ -96,7 +96,7 @@
     <ul class="dropdown-menu">
       <li>
         <a href="mi.html">Modelo de Informação</a>
-        <a href="rac.html">Modelo Computacional</a>
+        <a href="mc.html">Modelo Computacional</a>
       </li>
     </ul>
   </li>
@@ -147,7 +147,7 @@
 
           <span style="float:right;">
 
-            <a href="rac.html">&lt;prev</a> | 
+            <a href="mc.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -205,14 +205,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode aparecer:</p>
-      <div>
-        <pre><code>
-          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez;
+      <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode
+        aparecer:</p>
+      <pre><code>[0..1] - O elemento é opcional e, se ocorrer, aparece uma vez;
           [1..1] - O elemento é obrigatório e deve estar presente uma única vez;
           [0..N] - O elemento é opcional e pode ocorrer várias vezes;
           [1..N] - O elemento é obrigatório e pode ocorrer várias vezes;</code></pre>
-      </div>
     </li>
     <li>
       <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada;
@@ -221,17 +219,1388 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
     </li>
     <li>
-      <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra referente ao
-      elemento;
+      <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra
+      referente ao elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os atributos dos
-      artefatos computacionais
+      <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os
+      atributos dos artefatos computacionais
     </li>
   </ul>
   <p>
     Segue abaixo o modelo de informação para o Registro de Atendimento Clínico:
   </p>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <th>1</th>
+        <th>[1..1]</th>
+        <th>Identificação do indivíduo</th>
+        <th>Seção</th>
+        <th>RN01: O documento deve trazer um identificador nacional do indíviduo. Se não houver nenhum
+          dos dois possíveis (CNS ou CPF), dever ser obrigatório o preenchimento do bloco Identificação
+          por dados demográficos.</th>
+        <th>-</th>
+        <th>Implementado, BRIndividuo, profile do Patient</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Identificador Nacional do Indivíduo</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único
+          válido em todo o território nacional, sendo: - Cartão
+          Nacional de Saúde (CNS); - Cadastro de Pessoa Física
+          (CPF). RN01: A validação do identificador
+          nacional do indivíduo deve ser feita junto ao CADSUS. RN02:
+          Se o campo vier preenchido com CPF e o indivíduo não possuir CNS correspondente, necessita
+          ser criado.</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Identificação por dados demográficos</td>
+        <td>-</td>
+        <td>RN03: Na hipótese de não ser possível a identificação por um dos
+          identificadores nacionais acima, os campos do bloco de dados demográficos serão usados
+          como parâmetros de pesquisa para a identificação do indivíduo e
+          eventual atribuição de um CNS.</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Nome completo</td>
+        <td>Sequência de caracteres alfanuméricos</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Nome social</td>
+        <td>Sequência de caracteres alfanuméricos</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Nome completo da mãe</td>
+        <td>Sequência de caracteres alfanuméricos</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Data de nascimento</td>
+        <td>Data</td>
+        <td>Conforme ISO 8601.</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Sexo</td>
+        <td>Texto codificado</td>
+        <td>Masculino; Feminino; Ignorado</td>
+        <td>Value set - Sexo (Simplifier RNDS)</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>País de nascimento</td>
+        <td>Texto codificado</td>
+        <td>RN04: Obrigatório se país estrangeiro.</td>
+        <td>Code System - País (Simplifier RNDS)</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Município de Nascimento</td>
+        <td>Texto codificado</td>
+        <td>RN05: Preenchido somente se o país de nascimento for Brasil.</td>
+        <td>Code System Divisão Geográfica do Brasil (Simplifier RNDS);</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Endereço</td>
+        <td>Sequência de caracteres alfanuméricos</td>
+        <td>RN06: Preenchido somente se o país de nascimento for Brasil.</td>
+        <td>-</td>
+        <td>Implementado, BRDocumentoIndividuo, referenciado em BRIndividuo</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Caracterização do atendimento</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRLocalAtendimento, profile do Location</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Identificador do Estabelecimento de saúde </td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação unívoca do estabelecimento de atendimento, mediante número único válido em todo o território
+          nacional, sendo: - Cadastro Nacional de Estabelecimentos de Saúde (CNES).</td>
+        <td>-</td>
+        <td>Implementado, BREstabelecimentoSaude, profile do Organization</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Procedência</td>
+        <td>Texto codificado: Ordem Judicial Retorno Demanda espontânea Demanda Referenciada</td>
+        <td> </td>
+        <td>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso
+          ao serviço de saúde.</td>
+        <td>Implementado, BRProcedencia (ValueSet) do CodeSystem BRProcedencia na integra</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Identificação da equipe de saúde</td>
+        <td>Caracteres numéricos.</td>
+        <td> </td>
+        <td>Número válido do Identificador Nacional de Equipe (INE) no CNES.</td>
+        <td>Implementado, Extensão BRIdentificacaoEquipe</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Data e hora do atendimento</td>
+        <td>Data e hora</td>
+        <td> </td>
+        <td>Conforme ISO 8601. Data e hora da aceitação do indivíduo para início do atendimento.</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Modalidade assistencial</td>
+        <td>Texto codificado: Atenção Básica Ambulatorial Especializada Atenção Domiciliar Atenção
+          Psicossocial Atenção à Urgência/Emergência</td>
+        <td> </td>
+        <td>Classificação do contato com o serviço de saúde de acordo com as especificidades do modo, local e duração do
+          atendimento.</td>
+        <td>Implementado, BRModalidadeAssistencial (ValueSet) do CodeSystem BRModalidadeAssistencial na integra</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Caráter de atendimento</td>
+        <td>Texto codificado: Consulta agendada Consulta agendada programada: cuidado continuado Demanda
+          espontânea (DE): consulta no dia Demanda espontânea (DE): atendimento de urgência</td>
+        <td> </td>
+        <td>Identifica o contato assistencial de acordo com a prioridade de sua realização.</td>
+        <td>Implementado, BRCaraterAtendimento (ValueSet) do CodeSystem BRCaraterAtendimento na integra</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Profissionais do atendimento</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRProfissional, profile de Practitioner</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..N]</td>
+        <td>Profissional</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, Contido em BRProfissional</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[0..1]</td>
+        <td>Nome do profissional</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, Contido em BRProfissional</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Número do conselho do profissional atendente</td>
+        <td>Caracteres numéricos</td>
+        <td> </td>
+        <td>Indica o número do conselho do profissional atendente</td>
+        <td>Implementado, Contido em BRProfissional</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Conselho do profissional atendente </td>
+        <td>Texto Codificado</td>
+        <td> </td>
+        <td>Indica a entidade de conselho do profissional atendente (CRM, CRF, CRO,...)</td>
+        <td>Implementado, Contido em BRProfissional</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>UF do conselho do profissional atendente</td>
+        <td>Texto Codificado</td>
+        <td> </td>
+        <td>Indica a UF do Conselho do Profissional atendente</td>
+        <td>Implementado, Contido em BRProfissional</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Identificador do profissional atendente</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação unívoca do profissional prescritor, mediante número único válido em todo o território
+          nacional, sendo: - Cadastro de Pessoa Física (CPF). RN08: Validar junto ao CADSUS.</td>
+        <td>-</td>
+        <td>Implementado, BRProfissional, profile de Practitioner</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Ocupação do profissional</td>
+        <td>Texto codificado por terminologia externa: CBO TEM</td>
+        <td> </td>
+        <td>Atividade desempenhada pelo profissional que realizou o atendimento.</td>
+        <td>Implementado, Extensão BROcupacao do CodeSystem BRCBO na integra</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>É o responsável pelo atendimento?</td>
+        <td>Texto codificado: Sim Não</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, extensão BRResponsavelAtendimento</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Motivo do atendimento estruturado</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRCategoriaDiagnostico (ValueSet) do CodeSystem BRCategoriaDiagnostico na integra</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[0..N]</td>
+        <td>Motivo do atendimento estruturado</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, Contido em BRContatoAssistencial</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o motivo do atendimento</td>
+        <td>Texto codificado</td>
+        <td>CID ; CIAP </td>
+        <td>Identificador da terminologia que será utilizada para descrever o motivo de atendimento.</td>
+        <td>Implementado, BRCID10Avaliado e BRCIAP2Avaliado, profiles de Condition estendido</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Código do motivo do atendimento</td>
+        <td>Texto codificado por terminologia externa: cid-9; cid-10; cid-11; ciap-1; Ciap-2 </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRCID10Avaliado e BRCIAP2Avaliado, profiles de Condition estendido</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Declaração subjetiva do indivíduo para o atendimento</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, Contido em BRContatoAssistencial</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Observações</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Sinais vitais</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Pressão Arterial</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Sistólica</td>
+        <td>Caracteres numéricos</td>
+        <td> </td>
+        <td>Quantidade indicada de 0 a 1000</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida da Pressão arterial Sistólica</td>
+        <td>Texto codificado</td>
+        <td> </td>
+        <td>mmHg</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Diastólica</td>
+        <td>Caracteres numéricos</td>
+        <td> </td>
+        <td>Quantidade indicada de 0 a 1000</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida da Pressão arterial Diastólica</td>
+        <td>Texto codificado</td>
+        <td> </td>
+        <td>mmHg</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[0..1]</td>
+        <td>Posição do indivíduo na aferição</td>
+        <td>Texto codificado: Em pé Sentado Reclinado Deitado Deitado com inclinação para esquerda</td>
+        <td> </td>
+        <td>Indica a posição do indivíduo no momento da aferição da pressão arterial.</td>
+        <td>Implementado, BRPosicaoIndividuo (ValueSet) do CodeSystem BRPosicaoIndividuo na integra</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[0..1]</td>
+        <td>Local de aferição</td>
+        <td>Texto codificado: Braço direito Braço esquerdo Coxa direita Coxa esquerda Pulso direito Pulso esquerdo
+          Tornozelo direito Tornozelo esquerdo Dedo da mão Dedo do pé</td>
+        <td> </td>
+        <td>Identifica qual parte do corpo humano foi utilizada para aferir a pressão arterial.</td>
+        <td>Implementado, BRLocalAfericao (ValueSet) do CodeSystem BRLocalAfericao na integra</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Medições</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Peso</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada de 0 a 1000</td>
+        <td>Tipo de mensuração </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida do peso</td>
+        <td>texto codificado por HL7 FHIr (http://hl7.org/fhir/ValueSet/ucum-bodyweight) kg; lb_av; g</td>
+        <td>Kg; g</td>
+        <td>Unidade de medida do peso utilizada para medição. </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Posição em relação à gravidade</td>
+        <td>texto codificado: (LOINC - https://loinc.org/8361-8/ e https://loinc.org/8352-7)</td>
+        <td>De pé, sentado ou deitado </td>
+        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração foi realizada. (de pé,
+          deitado,sentado)</td>
+        <td>Implementado, BRPosicaoIndividuo (ValueSet) do CodeSystem BRPosicaoIndividuo na integra</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Roupas usadas durante a medição</td>
+        <td>texto codificado: loinc.org/8352-7/</td>
+        <td>Roupa íntima ou menos Roupas de rua, sem sapatos Roupas e sapatos de rua</td>
+        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração foi realizada. (roupas
+          usadas durante a medição)</td>
+        <td>Implementado, extensão BRRoupasUsadasMedicao</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Origem da medição</td>
+        <td>texto codificado: </td>
+        <td>Medido (3141-9); Relatado (3142-7)</td>
+        <td>Informar se o peso foi aferido no atendimento ou relatado. </td>
+        <td>Implementado, extensão BROrigemMedida</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Altura</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada de 0 a 1000 </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida da altura</td>
+        <td>Texto codificado: http://hl7.org/fhir/ValueSet/ucum-bodylength </td>
+        <td>cm</td>
+        <td>Unidade de medida da altura utilizada para medição da altura</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[0..1]</td>
+        <td>Posição em relação à gravidade</td>
+        <td>texto codificado: (LOINC - https://loinc.org/8361-8/)</td>
+        <td>De pé, sentado ou deitado</td>
+        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração foi realizada. (de pé,
+          deitado,sentado)</td>
+        <td>Implementado, BRPosicaoIndividuo (ValueSet) do CodeSystem BRPosicaoIndividuo na integra</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[0..1]</td>
+        <td>Origem da medição</td>
+        <td>texto codificado: https://loinc.org/3138-5/</td>
+        <td>Medido (3137-7); Relatado (3138-5) </td>
+        <td>Informar se a altura foi aferido no atendimento ou relatado. </td>
+        <td>Implementado, extensão BROrigemMedida</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Perímetro cefálico</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada de 0 a 100</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida do perímetro cefálico</td>
+        <td>Texto codificado: http://hl7.org/fhir/ValueSet/ucum-bodylength </td>
+        <td>cm</td>
+        <td>Unidade de medida utilizada para medição do perímetro cefálico</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Circunferência abdominal</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada em cm</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida da Circunferência Abdominal</td>
+        <td>Texto codificado: https://loinc.org/8281-8/</td>
+        <td>cm</td>
+        <td>Unidade de medida utilizada para medição da Circunferência Abdominal</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Informações adicionais</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRObservacaoDescritiva, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>DUM (Data da Última Menstruação)</td>
+        <td>Data</td>
+        <td>Conforme ISO 8601</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Idade gestacional</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada em dias ou semanas</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida da Idade Gestacional</td>
+        <td>texto codificado</td>
+        <td>dias ou semanas gestacionais</td>
+        <td>Unidade de medida de tempo usada no campo Idade Gestacional</td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Quantidade de gestas prévias</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada de 0 a 99</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Quantidade de Partos</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada de 0 a 99</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Quantidade de Abortos</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade indicada de 0 a 99</td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Tipo de aleitamento materno para crianças até 2 anos</td>
+        <td>Texto Codificado: Exclusivo Predominante Complementado Inexistente</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRTipoAleitamentoMaterno (ValueSet) do CodeSystem BRTipoAleitamentoMaterno na integra</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..N]</td>
+        <td>Exposição à substâncias</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[0..N]</td>
+        <td>Uso de álcool, tabaco e outras substâncias nos últimos 3 meses</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRMedidaObservada, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[0..1]</td>
+        <td>Substância</td>
+        <td>Texto codificado: Derivados do tabaco Bebidas alcoólicas</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRTipoSubstanciaUso (ValueSet) do CodeSystem BRTipoSubstanciaUso na integra</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[0..1]</td>
+        <td>Outras substâncias não especificadas</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRExposicaoSubstancias, profile de Observation</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[0..1]</td>
+        <td>Frequência nos últimos 3 meses</td>
+        <td>Texto codificado: Nunca Mensalmente 2 ou mais vezes ao mês Semanalmente Diariamente ou quase todos os dias
+        </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRFrequenciaUsoSubstancia (ValueSet) que herda parte do CodeSystem BRFrequenciaUsoSubstancia
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..N]</td>
+        <td>Problemas / diagnósticos avaliados</td>
+        <td> </td>
+        <td> </td>
+        <td>Informações sobre a condição de saúde, lesão, deficiência ou qualquer outra questão que afete o bem-estar
+          físico, mental ou social de um indivíduo . identificadas em um contato assistencial. Para fins de documentação
+          clínica com este dado, o problema e o diagnóstico são considerados como um continuum, com níveis crescentes de
+          detalhes e evidências de suporte geralmente fornecendo peso para o rótulo de 'diagnóstico'. Nesse campo, não é
+          necessário classificar a condição como 'problema' ou 'diagnóstico'.(adaptado do conceito de
+          Problema/Diagnóstico do Clinical Knowledge Manager/OpenEHR)</td>
+        <td>Implementado, BRContatoAssistencial, profile de Encounter</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Código do diagnóstico/Problema</td>
+        <td>Texto codificado por terminologia externa:</td>
+        <td> </td>
+        <td>Código do diagnóstico/Problema detectado (ex: Z47; M52.3;...)</td>
+        <td>Implementado, BRCIAP2Avaliado e BRCID10Avaliado, profiles de Condition</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o diagnóstico / problema</td>
+        <td>texto codificado: </td>
+        <td>CID ; CIAP </td>
+        <td>Identificador da terminologia que será utilizada para informar os problemas/diagnósticos avaliados.</td>
+        <td>Implementado, BRCIAP2Avaliado e BRCID10Avaliado, profiles de Condition</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Categoria do diagnóstico</td>
+        <td>Texto Codificado:</td>
+        <td>Principal. Secundário </td>
+        <td>Condição estabelecida após estudo de forma a esclarecer qual o mais importante ou principal motivo
+          responsável pela demanda do contato assistencial. O diagnóstico primário reflete achados clínicos descobertos
+          durante a permanência do indivíduo no estabelecimento de saúde, podendo, portanto, ser diferente do
+          diagnóstico de admissão. (Port. nº 1.324/SAS/MS/2014)</td>
+        <td>Implementado, BRCategoriaDiagnostico (ValueSet) do CodeSystem BRCategoriaDiagnostico na integra
+          (valueset/codesystem)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Estado de resolução do problema</td>
+        <td>Texto codificado </td>
+        <td>Ativo Recorrente Recidiva Inativo Remissão Resolvido</td>
+        <td> </td>
+        <td>Implementado, BREstadoResolucaoDiagnosticoProblema (ValueSet) do CodeSystem
+          BREstadoResolucaoDiagnosticoProblema na integra</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Nota</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRContatoAssistencial, profile de Encounter</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..N]</td>
+        <td>Alergia e/ou reação adversa</td>
+        <td> </td>
+        <td> </td>
+        <td>Reatividade alterada a um antígeno pode resultar em reações patológicas consequentes à exposição subsequente
+          àquele antígeno particular.</td>
+        <td>Implementado, BRAlergiaReacaoAdversa, profile de AllergyIntolerance (profile)</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Categoria do agente causador da alergia ou reação adversa</td>
+        <td>Texto codificado: </td>
+        <td>Alimento Medicação FatorExterno/Ambiental Biológico</td>
+        <td> </td>
+        <td>Implementado, BRCategoriaAgenteAlergiasReacoesAdversas (ValueSet) do CodeSystem
+          BRCategoriaAgenteAlergiasReacoesAdversas na integra</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Agente/substância específica</td>
+        <td>Texto Codificado CBARA, CATMAT, Lsta vacinas PNI </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRAlergiaReacaoAdversa, profile de AllergyIntolerance (profile)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Manifestação</td>
+        <td>Texto codificado: CBARA</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRReacoesAdversasMedDRA (ValueSet)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Grau de certeza</td>
+        <td>Texto codificado: </td>
+        <td>Não Confirmado Confirmado Refutado Cancelado por informação errada</td>
+        <td> </td>
+        <td>Implementado, BRGrauCertezaAlergiasReacoesAdversas (ValueSet)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Criticidade</td>
+        <td>Texto codificado:</td>
+        <td>Alta Baixa Inderteminada</td>
+        <td>Uma indicação do potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.</td>
+        <td>Implementado, BRCriticidadeAlergiasReacoesAdversas (valueset)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Data da instalação da reação adversa</td>
+        <td>Data</td>
+        <td> </td>
+        <td>Conforme ISO 8601</td>
+        <td>Implementado, BRAlergiaReacaoAdversa, profile de AllergyIntolerance (profile)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Evolução da alergia/reação adversa</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRAlergiaReacaoAdversa, profile de AllergyIntolerance (profile)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..N]</td>
+        <td>Procedimento (s) realizado (s) ou solicitado (s)</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRProcedimentoRealizado, profile de Procedure</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o procedimento</td>
+        <td>Identificador único do Objeto. Texto codificado: SIGTAP, CBHPM ou TUSS</td>
+        <td> </td>
+        <td>Identificador da terminologia que será utilizada para informar procedimento (s) realizado (s) ou solicitado
+          (s).</td>
+        <td>Implementado, BRProcedimentoRealizado, profile de Procedure</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Nome do procedimento</td>
+        <td>Texto codificado por terminologia externa: SIGTAP, CBHPM ou TUSS</td>
+        <td> </td>
+        <td>Ação de saúde realizada no indivíduo durante o contato assistencial. (numero TUSS, ex.)</td>
+        <td>Implementado, BRProcedimentosNacionais (ValueSet)</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Status do procedimento</td>
+        <td>Texto codificado: </td>
+        <td> Pré-procedimento; Em andamento; Não Realizado; Suspenso; Cancelado; Completado; Desconhecido; Entrada com
+          erro. </td>
+        <td>Mais usado para procedimentos médicos de saúde </td>
+        <td>Implementado, BREstadoEvento (ValueSet)</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Resultado ou observações do procedimento</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRProcedimentoRealizado, profile de Procedure</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Prescrição no atendimento</td>
+        <td>Seção</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, BRPrescricaoMedicamento, profile de MedicationRequest</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Medicamentos prescritos no atendimento (não estruturado)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Descrição da prescrição</td>
+        <td>Texto livre</td>
+        <td>Descrição da prescrição de medicamentos de forma livre, em texto, podendo ter vários medicamentos no mesmo
+          texto. O profissional prescritor deverá descrever todos os campos necessários a uma prescrição, entre outros
+          elementos relevantes.</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Medicamentos prescritos no atendimento (estruturado)</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o medicamento</td>
+        <td>Texto codificado</td>
+        <td>Lista de registro de medicamentos da ANVISA Ontologia Brasileira em Saúde (OBS) Catálogo de Materiais do
+          Governo Federal (CATMAT)</td>
+        <td>Criar Code System CS BRTerminologiaMedicamentos</td>
+        <td>Implementado, BRTerminologiaMedicamento (ValueSet)</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..N]</td>
+        <td>Medicamento</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td>Indica o nome do princípio ativo, concentração, unidade de medida e forma farmacêutica do medicamento
+          prescrito.</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[1..1]</td>
+        <td>Via de administração</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td>-</td>
+        <td>Code System - Via de administração (Simplifier RNDS) - está incompleto (incluir lista OBM?)</td>
+        <td>Implementado, BRViaAdministracao (ValueSet) do CodeSystem BRViaAdministracao na integra</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[1..1]</td>
+        <td>Posologia</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>[0..1]</td>
+        <td>Posologia não estruturada</td>
+        <td>Texto livre</td>
+        <td>Descrição da posologia de medicamento de forma livre, em texto. O profissional prescritor deverá descrever
+          todos os campos necessários a uma posologia, entre outros elementos relevantes.</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>[0..1]</td>
+        <td>Posologia estruturada</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[1..1]</td>
+        <td>Quantidade da Dose</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade da unidade de consumo do medicamento prescrito a cada dose.</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[1..1]</td>
+        <td>Unidade de consumo da dose</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td>Unidade de consumo do medicamento prescrito (ex.: comprimido, cápsula, aplicação, mL, gota, copo dosador,
+          infusão etc.).</td>
+        <td>Criar CodeSystem unidade de consumo</td>
+        <td>Implementado, BRUnidadeConsumo (ValueSet) do CodeSystem BRUnidadeConsumo na integra</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[1..1]</td>
+        <td>Frequência de uso do medicamento</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[1..1]</td>
+        <td>Dose única</td>
+        <td>Boleano</td>
+        <td>Sim; Não (verdadeiro/falso)</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[0..1]</td>
+        <td>Uso contínuo</td>
+        <td>-</td>
+        <td>RN09: preenchido obrigatoriamente se "Dose Única" = não/falso.</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Quantidade de medicamento prescrito</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[1..1]</td>
+        <td>Quantidade a ser dispensada por atendimento</td>
+        <td>Caracteres numéricos</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida do medicamento </td>
+        <td>Texto codificado</td>
+        <td>Unidade de medida do medicamento prescrito (ex.: comprimido, cápsula, frasco, caixa etc.).</td>
+        <td>Criar CodeSystem unidade de medida do medicamento</td>
+        <td>Implementado, BRUnidadeMedidaMedicamento (ValueSet) do CodeSystem BRUnidadeMedidaMedicamento na integra</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Duração de uso do medicamento</td>
+        <td>Caracteres alfanuméricos</td>
+        <td>Duração conforme ISO 8601</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Total do tratamento</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade total de medicamento prescrito.</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Orientações sobre o uso do medicamento</td>
+        <td>Texto livre</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Implementado, Contido em BRPrescricaoMedicamento</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..1]</td>
+        <td>Status do uso do medicamento</td>
+        <td>texto codificado: Ativo, Completado, Entrada com erro; Pretendido; Em pausa; Desconhecido; Não realizado
+        </td>
+        <td> </td>
+        <td>Informação sobre o uso da medicação por parte do paciente ou outro profissional. (pode ser auto declarado ou
+          referido).</td>
+        <td>Implementado, BREstadoSolicitacaoMedicamento (ValueSet) do CodeSystem BREstadoSolicitacaoMedicamento na
+          integra</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo deDados</th>
+        <th>Conceito/Observações(Regras de negócio)</th>
+        <th>Conteúdo(Code System / Value Set)</th>
+        <th>ImplementaçãoSimplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Plano decuidados, instruções e recomendações (na alta)</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado,BRPlanoCuidados, profile de CarePlan (profile)</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Descriçãodo plano de cuidados, instruções e recomendações</td>
+        <td>Textolivre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRPlanoCuidados, profile de CarePlan (profile)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Dados do desfecho</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRContatoAssistencial, profile de Encounter</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Desfecho</td>
+        <td>Texto codificado: Alta Clínica; Encaminhamento; Transferência; Retorno; Alta Voluntária; Ordem Judicial;
+          Evasão; Óbito; Permanência</td>
+        <td> </td>
+        <td>Caracteriza o motivo de conclusão do atendimento. </td>
+        <td>Implementado, BRMotivoDesfecho (ValueSet) do CodeSystem BRMotivoDesfecho na integra (codesystem)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Outras informações</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRContatoAssistencial, profile de Encounter</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..N]</td>
+        <td>Atestado Médico/Odontológico</td>
+        <td>Seção</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRAtestado</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Identificação do indivíduo</td>
+        <td> </td>
+        <td> </td>
+        <td>Identificador do indivíduo que recebe o Atestado</td>
+        <td>Implementado, BRIndividuo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..N]</td>
+        <td>Código da Classificação Internacional Doenças - Décima Revisão - CID-10</td>
+        <td>Texto Codificado</td>
+        <td> </td>
+        <td>Diagnóstico ou Problema que justifique o atestado</td>
+        <td>Implementado, BRCID10Avaliado-1.0.code</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Data do início do Diagnóstico/Problema</td>
+        <td>Texto codificado Iso 8601</td>
+        <td> </td>
+        <td>Data do inicio do problema ou Diagnóstico</td>
+        <td>Implementado, BRCID10Avaliado-1.0.onsetDateTime</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Data do inicio do Afastamento</td>
+        <td>Texto codificado Iso 8601</td>
+        <td> </td>
+        <td>Data de inicio do afastamento das atividades</td>
+        <td>Implementado, scheduledTiming.event</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Tempo de afastamento (dias)</td>
+        <td>Caracteres numéricos</td>
+        <td> </td>
+        <td>Número de dias que o paciente deve permanecer afastado das atividades</td>
+        <td>Implementado, scheduledTiming.repeat.count</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Informações Adicionais</td>
+        <td>texto livre</td>
+        <td> </td>
+        <td>Informações adicionais necessárias para documento atestado</td>
+        <td>Implementado, BRAtestado</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações (Regras de negócio)</th>
+        <th>Conteúdo (Code System / Value Set)</th>
+        <th>Implementação Simplifier RNDS / GitLab CGISD</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Informações Adicionais/Complementares</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRInformacoesAdicionaisComplementares, profile de Observation (profile)</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Descrição das informações</td>
+        <td>Texto livre</td>
+        <td> </td>
+        <td> </td>
+        <td>Implementado, BRInformacoesAdicionaisComplementares, profile de Observation (profile)</td>
+      </tr>
+    </tbody>
+  </table>
+
 </div>
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -259,7 +1628,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="rac.html">&lt;prev</a>
+                <a href="mc.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -277,7 +1646,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 19, 2023 10:25-0300">2023-12-19</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 20, 2023 18:19-0300">2023-12-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |

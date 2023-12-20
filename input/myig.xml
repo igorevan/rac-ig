@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG,
 including changing realm -->
-<ImplementationGuide xmlns="http://hl7.org/fhir"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
   <id value="hl7.fhir.br.rac" />
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -85,24 +84,21 @@ including changing realm -->
         <reference value="StructureDefinition/BROcupacao-1.0" />
       </reference>
       <name value="Ocupação" />
-      <description
-        value="Ocupação" />
+      <description value="Ocupação" />
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0" />
       </reference>
       <name value="Identificador Nacional de Equipe" />
-      <description
-        value="Extensão para permitir informar o código do Identificador Nacional de Equipe" />
+      <description value="Extensão para permitir informar o código do Identificador Nacional de Equipe" />
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/BRFinanciamento-1.0" />
       </reference>
       <name value="Financiamento" />
-      <description
-        value="Extensão utilizada para identificar financiamento" />
+      <description value="Extensão utilizada para identificar financiamento" />
     </resource>
     <resource>
       <reference>
