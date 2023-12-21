@@ -190,7 +190,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </table>
 
   
-  <div xmlns="http://www.w3.org/1999/xhtml">
+  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#rac">Modelo de Informação</a></li><li><a href="#identificacao">Identificação do Indivíduo</a></li><li><a href="#caracterizacao">Caracterização do Atendimento</a></li><li><a href="#identificacao">Motivo do Atendimento Estruturado</a></li><li><a href="#observacoes">Observações</a></li><li><a href="#diagnosticos">Problemas/Diagnósticos Avaliados</a></li><li><a href="#alergias">Alergia e/ou Reação Adversa</a></li><li><a href="#procedimentos">Procedimento(s) Realizado(s) ou Solicitado(s)</a></li><li><a href="#prescricao">Prescrição no Atendimento</a></li><li><a href="#plano">Plano de Cuidados, Instruções e Recomendações (Na Alta)</a></li><li><a href="#desfecho">Dados do Desfecho</a></li><li><a href="#atestado">Atestado Médico/Odontológico</a></li><li><a href="#adicionais">Informações Adicionais/Complementares</a></li></ul></div>
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
   <a name="rac">  </a>
   <h3>Modelo de Informação</h3>
@@ -202,34 +202,36 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </p>
   <ul>
     <li>
-      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
-    </li>
+      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação; </li>
     <li>
       <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode
         aparecer:</p>
-      <pre><code>[0..1] - O elemento é opcional e, se ocorrer, aparece uma vez;
+
+      <pre><code>
+          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez;
           [1..1] - O elemento é obrigatório e deve estar presente uma única vez;
           [0..N] - O elemento é opcional e pode ocorrer várias vezes;
-          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes;</code></pre>
+          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes;</code>
+        </pre>
+
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada;
-    </li>
+      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada; </li>
     <li>
-      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
-    </li>
+      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido; </li>
     <li>
       <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra
-      referente ao elemento;
-    </li>
+      referente ao elemento; </li>
     <li>
       <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os
-      atributos dos artefatos computacionais
-    </li>
+      atributos dos artefatos computacionais </li>
   </ul>
   <p>
     Segue abaixo o modelo de informação para o Registro de Atendimento Clínico:
   </p>
+
+  <a name="identificacao">  </a>
+  <h3>Identificação do Indivíduo</h3>
 
   <table class="grid">
     <thead>
@@ -249,8 +251,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <th>[1..1]</th>
         <th>Identificação do indivíduo</th>
         <th>Seção</th>
-        <th>RN01: O documento deve trazer um identificador nacional do indíviduo. Se não houver nenhum
-          dos dois possíveis (CNS ou CPF), dever ser obrigatório o preenchimento do bloco Identificação
+        <th>RN01: O documento deve trazer um identificador nacional do indíviduo. Se não houver
+          nenhum
+          dos dois possíveis (CNS ou CPF), dever ser obrigatório o preenchimento do bloco
+          Identificação
           por dados demográficos.</th>
         <th>-</th>
         <th>Implementado, BRIndividuo, profile do Patient</th>
@@ -359,6 +363,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tbody>
   </table>
 
+  <a name="caracterizacao">  </a>
+  <h3>Caracterização do Atendimento</h3>
+
   <table class="grid">
     <thead>
       <tr style="background-color: #538ce9">
@@ -388,7 +395,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Identificador do Estabelecimento de saúde </td>
         <td>Caracteres numéricos</td>
-        <td>Identificação unívoca do estabelecimento de atendimento, mediante número único válido em todo o território
+        <td>Identificação unívoca do estabelecimento de atendimento, mediante número único válido em
+          todo o território
           nacional, sendo: - Cadastro Nacional de Estabelecimentos de Saúde (CNES).</td>
         <td>-</td>
         <td>Implementado, BREstabelecimentoSaude, profile do Organization</td>
@@ -399,7 +407,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Procedência</td>
         <td>Texto codificado: Ordem Judicial Retorno Demanda espontânea Demanda Referenciada</td>
         <td> </td>
-        <td>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso
+        <td>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável
+          na busca pelo acesso
           ao serviço de saúde.</td>
         <td>Implementado, BRProcedencia (ValueSet) do CodeSystem BRProcedencia na integra</td>
       </tr>
@@ -428,19 +437,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Texto codificado: Atenção Básica Ambulatorial Especializada Atenção Domiciliar Atenção
           Psicossocial Atenção à Urgência/Emergência</td>
         <td> </td>
-        <td>Classificação do contato com o serviço de saúde de acordo com as especificidades do modo, local e duração do
+        <td>Classificação do contato com o serviço de saúde de acordo com as especificidades do
+          modo, local e duração do
           atendimento.</td>
-        <td>Implementado, BRModalidadeAssistencial (ValueSet) do CodeSystem BRModalidadeAssistencial na integra</td>
+        <td>Implementado, BRModalidadeAssistencial (ValueSet) do CodeSystem BRModalidadeAssistencial
+          na integra</td>
       </tr>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
         <td>Caráter de atendimento</td>
-        <td>Texto codificado: Consulta agendada Consulta agendada programada: cuidado continuado Demanda
+        <td>Texto codificado: Consulta agendada Consulta agendada programada: cuidado continuado
+          Demanda
           espontânea (DE): consulta no dia Demanda espontânea (DE): atendimento de urgência</td>
         <td> </td>
         <td>Identifica o contato assistencial de acordo com a prioridade de sua realização.</td>
-        <td>Implementado, BRCaraterAtendimento (ValueSet) do CodeSystem BRCaraterAtendimento na integra</td>
+        <td>Implementado, BRCaraterAtendimento (ValueSet) do CodeSystem BRCaraterAtendimento na
+          integra</td>
       </tr>
       <tr>
         <td>2</td>
@@ -501,7 +514,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Identificador do profissional atendente</td>
         <td>Caracteres numéricos</td>
-        <td>Identificação unívoca do profissional prescritor, mediante número único válido em todo o território
+        <td>Identificação unívoca do profissional prescritor, mediante número único válido em todo o
+          território
           nacional, sendo: - Cadastro de Pessoa Física (CPF). RN08: Validar junto ao CADSUS.</td>
         <td>-</td>
         <td>Implementado, BRProfissional, profile de Practitioner</td>
@@ -527,6 +541,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tbody>
   </table>
 
+  <a name="identificacao">  </a>
+  <h3>Motivo do Atendimento Estruturado</h3>
+
   <table class="grid">
     <thead>
       <tr style="background-color: #538ce9">
@@ -547,7 +564,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
         <td> </td>
-        <td>Implementado, BRCategoriaDiagnostico (ValueSet) do CodeSystem BRCategoriaDiagnostico na integra</td>
+        <td>Implementado, BRCategoriaDiagnostico (ValueSet) do CodeSystem BRCategoriaDiagnostico na
+          integra</td>
       </tr>
     </thead>
     <tbody>
@@ -589,6 +607,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tr>
     </tbody>
   </table>
+
+  <a name="observacoes">  </a>
+  <h3>Observações</h3>
 
   <table class="grid">
     <thead>
@@ -681,7 +702,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[0..1]</td>
         <td>Local de aferição</td>
-        <td>Texto codificado: Braço direito Braço esquerdo Coxa direita Coxa esquerda Pulso direito Pulso esquerdo
+        <td>Texto codificado: Braço direito Braço esquerdo Coxa direita Coxa esquerda Pulso direito
+          Pulso esquerdo
           Tornozelo direito Tornozelo esquerdo Dedo da mão Dedo do pé</td>
         <td> </td>
         <td>Identifica qual parte do corpo humano foi utilizada para aferir a pressão arterial.</td>
@@ -709,7 +731,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Unidade de medida do peso</td>
-        <td>texto codificado por HL7 FHIr (http://hl7.org/fhir/ValueSet/ucum-bodyweight) kg; lb_av; g</td>
+        <td>texto codificado por HL7 FHIr (http://hl7.org/fhir/ValueSet/ucum-bodyweight) kg; lb_av;
+          g</td>
         <td>Kg; g</td>
         <td>Unidade de medida do peso utilizada para medição. </td>
         <td>Implementado, BRMedidaObservada, profile de Observation</td>
@@ -720,7 +743,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Posição em relação à gravidade</td>
         <td>texto codificado: (LOINC - https://loinc.org/8361-8/ e https://loinc.org/8352-7)</td>
         <td>De pé, sentado ou deitado </td>
-        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração foi realizada. (de pé,
+        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração
+          foi realizada. (de pé,
           deitado,sentado)</td>
         <td>Implementado, BRPosicaoIndividuo (ValueSet) do CodeSystem BRPosicaoIndividuo na integra</td>
       </tr>
@@ -730,7 +754,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Roupas usadas durante a medição</td>
         <td>texto codificado: loinc.org/8352-7/</td>
         <td>Roupa íntima ou menos Roupas de rua, sem sapatos Roupas e sapatos de rua</td>
-        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração foi realizada. (roupas
+        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração
+          foi realizada. (roupas
           usadas durante a medição)</td>
         <td>Implementado, extensão BRRoupasUsadasMedicao</td>
       </tr>
@@ -767,7 +792,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Posição em relação à gravidade</td>
         <td>texto codificado: (LOINC - https://loinc.org/8361-8/)</td>
         <td>De pé, sentado ou deitado</td>
-        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração foi realizada. (de pé,
+        <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração
+          foi realizada. (de pé,
           deitado,sentado)</td>
         <td>Implementado, BRPosicaoIndividuo (ValueSet) do CodeSystem BRPosicaoIndividuo na integra</td>
       </tr>
@@ -886,7 +912,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Texto Codificado: Exclusivo Predominante Complementado Inexistente</td>
         <td> </td>
         <td> </td>
-        <td>Implementado, BRTipoAleitamentoMaterno (ValueSet) do CodeSystem BRTipoAleitamentoMaterno na integra</td>
+        <td>Implementado, BRTipoAleitamentoMaterno (ValueSet) do CodeSystem BRTipoAleitamentoMaterno
+          na integra</td>
       </tr>
       <tr>
         <td>3</td>
@@ -913,7 +940,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Texto codificado: Derivados do tabaco Bebidas alcoólicas</td>
         <td> </td>
         <td> </td>
-        <td>Implementado, BRTipoSubstanciaUso (ValueSet) do CodeSystem BRTipoSubstanciaUso na integra</td>
+        <td>Implementado, BRTipoSubstanciaUso (ValueSet) do CodeSystem BRTipoSubstanciaUso na
+          integra</td>
       </tr>
       <tr>
         <td>5</td>
@@ -928,15 +956,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>5</td>
         <td>[0..1]</td>
         <td>Frequência nos últimos 3 meses</td>
-        <td>Texto codificado: Nunca Mensalmente 2 ou mais vezes ao mês Semanalmente Diariamente ou quase todos os dias
+        <td>Texto codificado: Nunca Mensalmente 2 ou mais vezes ao mês Semanalmente Diariamente ou
+          quase todos os dias
         </td>
         <td> </td>
         <td> </td>
-        <td>Implementado, BRFrequenciaUsoSubstancia (ValueSet) que herda parte do CodeSystem BRFrequenciaUsoSubstancia
+        <td>Implementado, BRFrequenciaUsoSubstancia (ValueSet) que herda parte do CodeSystem
+          BRFrequenciaUsoSubstancia
         </td>
       </tr>
     </tbody>
   </table>
+
+  <a name="diagnosticos">  </a>
+  <h3>Problemas/Diagnósticos Avaliados</h3>
 
   <table class="grid">
     <thead>
@@ -957,11 +990,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Problemas / diagnósticos avaliados</td>
         <td> </td>
         <td> </td>
-        <td>Informações sobre a condição de saúde, lesão, deficiência ou qualquer outra questão que afete o bem-estar
-          físico, mental ou social de um indivíduo . identificadas em um contato assistencial. Para fins de documentação
-          clínica com este dado, o problema e o diagnóstico são considerados como um continuum, com níveis crescentes de
-          detalhes e evidências de suporte geralmente fornecendo peso para o rótulo de 'diagnóstico'. Nesse campo, não é
-          necessário classificar a condição como 'problema' ou 'diagnóstico'.(adaptado do conceito de
+        <td>Informações sobre a condição de saúde, lesão, deficiência ou qualquer outra questão que
+          afete o bem-estar
+          físico, mental ou social de um indivíduo . identificadas em um contato assistencial. Para
+          fins de documentação
+          clínica com este dado, o problema e o diagnóstico são considerados como um continuum, com
+          níveis crescentes de
+          detalhes e evidências de suporte geralmente fornecendo peso para o rótulo de
+          'diagnóstico'. Nesse campo, não é
+          necessário classificar a condição como 'problema' ou 'diagnóstico'.(adaptado do conceito
+          de
           Problema/Diagnóstico do Clinical Knowledge Manager/OpenEHR)</td>
         <td>Implementado, BRContatoAssistencial, profile de Encounter</td>
       </tr>
@@ -982,7 +1020,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Terminologia que descreve o diagnóstico / problema</td>
         <td>texto codificado: </td>
         <td>CID ; CIAP </td>
-        <td>Identificador da terminologia que será utilizada para informar os problemas/diagnósticos avaliados.</td>
+        <td>Identificador da terminologia que será utilizada para informar os problemas/diagnósticos
+          avaliados.</td>
         <td>Implementado, BRCIAP2Avaliado e BRCID10Avaliado, profiles de Condition</td>
       </tr>
       <tr>
@@ -991,11 +1030,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Categoria do diagnóstico</td>
         <td>Texto Codificado:</td>
         <td>Principal. Secundário </td>
-        <td>Condição estabelecida após estudo de forma a esclarecer qual o mais importante ou principal motivo
-          responsável pela demanda do contato assistencial. O diagnóstico primário reflete achados clínicos descobertos
-          durante a permanência do indivíduo no estabelecimento de saúde, podendo, portanto, ser diferente do
+        <td>Condição estabelecida após estudo de forma a esclarecer qual o mais importante ou
+          principal motivo
+          responsável pela demanda do contato assistencial. O diagnóstico primário reflete achados
+          clínicos descobertos
+          durante a permanência do indivíduo no estabelecimento de saúde, podendo, portanto, ser
+          diferente do
           diagnóstico de admissão. (Port. nº 1.324/SAS/MS/2014)</td>
-        <td>Implementado, BRCategoriaDiagnostico (ValueSet) do CodeSystem BRCategoriaDiagnostico na integra
+        <td>Implementado, BRCategoriaDiagnostico (ValueSet) do CodeSystem BRCategoriaDiagnostico na
+          integra
           (valueset/codesystem)</td>
       </tr>
       <tr>
@@ -1020,6 +1063,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tbody>
   </table>
 
+  <a name="alergias">  </a>
+  <h3>Alergia e/ou Reação Adversa</h3>
+
   <table class="grid">
     <thead>
       <tr style="background-color: #538ce9">
@@ -1039,7 +1085,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Alergia e/ou reação adversa</td>
         <td> </td>
         <td> </td>
-        <td>Reatividade alterada a um antígeno pode resultar em reações patológicas consequentes à exposição subsequente
+        <td>Reatividade alterada a um antígeno pode resultar em reações patológicas consequentes à
+          exposição subsequente
           àquele antígeno particular.</td>
         <td>Implementado, BRAlergiaReacaoAdversa, profile de AllergyIntolerance (profile)</td>
       </tr>
@@ -1088,7 +1135,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Criticidade</td>
         <td>Texto codificado:</td>
         <td>Alta Baixa Inderteminada</td>
-        <td>Uma indicação do potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.</td>
+        <td>Uma indicação do potencial de danos nos órgãos críticos do sistema ou consequência de
+          ameaça à vida.</td>
         <td>Implementado, BRCriticidadeAlergiasReacoesAdversas (valueset)</td>
       </tr>
       <tr>
@@ -1111,6 +1159,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tr>
     </tbody>
   </table>
+
+  <a name="procedimentos">  </a>
+  <h3>Procedimento(s) Realizado(s) ou Solicitado(s)</h3>
 
   <table class="grid">
     <thead>
@@ -1142,7 +1193,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Terminologia que descreve o procedimento</td>
         <td>Identificador único do Objeto. Texto codificado: SIGTAP, CBHPM ou TUSS</td>
         <td> </td>
-        <td>Identificador da terminologia que será utilizada para informar procedimento (s) realizado (s) ou solicitado
+        <td>Identificador da terminologia que será utilizada para informar procedimento (s)
+          realizado (s) ou solicitado
           (s).</td>
         <td>Implementado, BRProcedimentoRealizado, profile de Procedure</td>
       </tr>
@@ -1160,7 +1212,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Status do procedimento</td>
         <td>Texto codificado: </td>
-        <td> Pré-procedimento; Em andamento; Não Realizado; Suspenso; Cancelado; Completado; Desconhecido; Entrada com
+        <td> Pré-procedimento; Em andamento; Não Realizado; Suspenso; Cancelado; Completado;
+          Desconhecido; Entrada com
           erro. </td>
         <td>Mais usado para procedimentos médicos de saúde </td>
         <td>Implementado, BREstadoEvento (ValueSet)</td>
@@ -1176,6 +1229,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tr>
     </tbody>
   </table>
+
+  <a name="prescricao">  </a>
+  <h3>Prescrição no Atendimento</h3>
 
   <table class="grid">
     <thead>
@@ -1215,8 +1271,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Descrição da prescrição</td>
         <td>Texto livre</td>
-        <td>Descrição da prescrição de medicamentos de forma livre, em texto, podendo ter vários medicamentos no mesmo
-          texto. O profissional prescritor deverá descrever todos os campos necessários a uma prescrição, entre outros
+        <td>Descrição da prescrição de medicamentos de forma livre, em texto, podendo ter vários
+          medicamentos no mesmo
+          texto. O profissional prescritor deverá descrever todos os campos necessários a uma
+          prescrição, entre outros
           elementos relevantes.</td>
         <td>-</td>
         <td>Implementado, Contido em BRPrescricaoMedicamento</td>
@@ -1235,7 +1293,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Terminologia que descreve o medicamento</td>
         <td>Texto codificado</td>
-        <td>Lista de registro de medicamentos da ANVISA Ontologia Brasileira em Saúde (OBS) Catálogo de Materiais do
+        <td>Lista de registro de medicamentos da ANVISA Ontologia Brasileira em Saúde (OBS) Catálogo
+          de Materiais do
           Governo Federal (CATMAT)</td>
         <td>Criar Code System CS BRTerminologiaMedicamentos</td>
         <td>Implementado, BRTerminologiaMedicamento (ValueSet)</td>
@@ -1245,7 +1304,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..N]</td>
         <td>Medicamento</td>
         <td>Texto codificado por terminologia externa</td>
-        <td>Indica o nome do princípio ativo, concentração, unidade de medida e forma farmacêutica do medicamento
+        <td>Indica o nome do princípio ativo, concentração, unidade de medida e forma farmacêutica
+          do medicamento
           prescrito.</td>
         <td>-</td>
         <td>Implementado, Contido em BRPrescricaoMedicamento</td>
@@ -1256,7 +1316,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Via de administração</td>
         <td>Texto codificado por terminologia externa</td>
         <td>-</td>
-        <td>Code System - Via de administração (Simplifier RNDS) - está incompleto (incluir lista OBM?)</td>
+        <td>Code System - Via de administração (Simplifier RNDS) - está incompleto (incluir lista
+          OBM?)</td>
         <td>Implementado, BRViaAdministracao (ValueSet) do CodeSystem BRViaAdministracao na integra</td>
       </tr>
       <tr>
@@ -1273,7 +1334,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[0..1]</td>
         <td>Posologia não estruturada</td>
         <td>Texto livre</td>
-        <td>Descrição da posologia de medicamento de forma livre, em texto. O profissional prescritor deverá descrever
+        <td>Descrição da posologia de medicamento de forma livre, em texto. O profissional
+          prescritor deverá descrever
           todos os campos necessários a uma posologia, entre outros elementos relevantes.</td>
         <td>-</td>
         <td>Implementado, Contido em BRPrescricaoMedicamento</td>
@@ -1301,7 +1363,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Unidade de consumo da dose</td>
         <td>Texto codificado por terminologia externa</td>
-        <td>Unidade de consumo do medicamento prescrito (ex.: comprimido, cápsula, aplicação, mL, gota, copo dosador,
+        <td>Unidade de consumo do medicamento prescrito (ex.: comprimido, cápsula, aplicação, mL,
+          gota, copo dosador,
           infusão etc.).</td>
         <td>Criar CodeSystem unidade de consumo</td>
         <td>Implementado, BRUnidadeConsumo (ValueSet) do CodeSystem BRUnidadeConsumo na integra</td>
@@ -1356,9 +1419,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[1..1]</td>
         <td>Unidade de medida do medicamento </td>
         <td>Texto codificado</td>
-        <td>Unidade de medida do medicamento prescrito (ex.: comprimido, cápsula, frasco, caixa etc.).</td>
+        <td>Unidade de medida do medicamento prescrito (ex.: comprimido, cápsula, frasco, caixa
+          etc.).</td>
         <td>Criar CodeSystem unidade de medida do medicamento</td>
-        <td>Implementado, BRUnidadeMedidaMedicamento (ValueSet) do CodeSystem BRUnidadeMedidaMedicamento na integra</td>
+        <td>Implementado, BRUnidadeMedidaMedicamento (ValueSet) do CodeSystem
+          BRUnidadeMedidaMedicamento na integra</td>
       </tr>
       <tr>
         <td>7</td>
@@ -1391,16 +1456,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Status do uso do medicamento</td>
-        <td>texto codificado: Ativo, Completado, Entrada com erro; Pretendido; Em pausa; Desconhecido; Não realizado
+        <td>texto codificado: Ativo, Completado, Entrada com erro; Pretendido; Em pausa;
+          Desconhecido; Não realizado
         </td>
         <td> </td>
-        <td>Informação sobre o uso da medicação por parte do paciente ou outro profissional. (pode ser auto declarado ou
+        <td>Informação sobre o uso da medicação por parte do paciente ou outro profissional. (pode
+          ser auto declarado ou
           referido).</td>
-        <td>Implementado, BREstadoSolicitacaoMedicamento (ValueSet) do CodeSystem BREstadoSolicitacaoMedicamento na
+        <td>Implementado, BREstadoSolicitacaoMedicamento (ValueSet) do CodeSystem
+          BREstadoSolicitacaoMedicamento na
           integra</td>
       </tr>
     </tbody>
   </table>
+
+  <a name="plano">  </a>
+  <h3>Plano de Cuidados, Instruções e Recomendações (Na Alta)</h3>
 
   <table class="grid">
     <thead>
@@ -1418,7 +1489,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..1]</td>
-        <td>Plano decuidados, instruções e recomendações (na alta)</td>
+        <td>Plano de cuidados, instruções e recomendações (na alta)</td>
         <td> </td>
         <td> </td>
         <td> </td>
@@ -1437,6 +1508,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tr>
     </tbody>
   </table>
+
+  <a name="desfecho">  </a>
+  <h3>Dados do Desfecho</h3>
 
   <table class="grid">
     <thead>
@@ -1466,11 +1540,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[0..1]</td>
         <td>Desfecho</td>
-        <td>Texto codificado: Alta Clínica; Encaminhamento; Transferência; Retorno; Alta Voluntária; Ordem Judicial;
+        <td>Texto codificado: Alta Clínica; Encaminhamento; Transferência; Retorno; Alta Voluntária;
+          Ordem Judicial;
           Evasão; Óbito; Permanência</td>
         <td> </td>
         <td>Caracteriza o motivo de conclusão do atendimento. </td>
-        <td>Implementado, BRMotivoDesfecho (ValueSet) do CodeSystem BRMotivoDesfecho na integra (codesystem)</td>
+        <td>Implementado, BRMotivoDesfecho (ValueSet) do CodeSystem BRMotivoDesfecho na integra
+          (codesystem)</td>
       </tr>
       <tr>
         <td>2</td>
@@ -1483,6 +1559,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tr>
     </tbody>
   </table>
+
+  <a name="atestado">  </a>
+  <h3>Atestado Médico/Odontológico</h3>
 
   <table class="grid">
     <thead>
@@ -1565,6 +1644,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tbody>
   </table>
 
+  <a name="adicionais">  </a>
+  <h3>Informações Adicionais/Complementares</h3>
+
   <table class="grid">
     <thead>
       <tr style="background-color: #538ce9">
@@ -1646,7 +1728,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 20, 2023 18:19-0300">2023-12-20</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 21, 2023 12:24-0300">2023-12-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |
