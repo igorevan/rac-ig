@@ -190,53 +190,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </table>
 
   
-  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#rac">Objetivo</a></li><li><a href="#publico">Público-alvo</a></li><li><a href="#marcos">Marcos Legais</a></li><li><a href="#computacional">Modelo Computacional</a></li><li><a href="#recursos">Recursos FHIR</a></li></ul></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#computacional">Modelo Computacional</a></li><li><a href="#recursos">Recursos FHIR</a></li></ul></div>
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
-  <a name="rac">  </a>
-  <h3>Objetivo</h3>
-  <p>O RAC tem como objetivo estabelecer especificações de informações promovendo um padrão único de
-    consenso nacional e
-    possibilitando a interoperabilidade dos dados em saúde, essenciais entre os provedores de
-    cuidados em saúde. </p>
-  <p>O RAC vai atuar nos níveis da Atenção Primária em Saúde e na atenção especializada,
-    contribuindo para uma atenção
-    coordenada entre os cuidadores e apoiando na continuidade do cuidado ao indivíduo em âmbito
-    laboratorial. </p>
-
-  <a name="publico">  </a>
-  <h3>Público-alvo</h3>
-  <p>Público-alvo proposto pelo RAC:</p>
-  <ul>
-    <li>Profissionais de saúde (que acompanham regularmente o indivíduo e os que venham a atendê-lo
-      em situações de
-      urgência/emergência ou fora de seu atendimento de rotina);</li>
-    <li>Estabelecimentos de saúde em fase de planejamento e implementação ou melhorias de seus
-      sistemas de informação e
-      saúde, visando a interoperabilidade;</li>
-    <li>Vendedores e desenvolvedores de software;</li>
-    <li>Gestores e realizadores de políticas públicas, especialistas clínicos, gerentes de
-      informática em saúde e
-      equipes de suporte, bem como integradores de sistemas;</li>
-    <li>Usuários dos serviços de saúde e suas entidades representativas;</li>
-    <li>Especialistas responsáveis apenas por algum aspecto específico da saúde do indivíduo, tais
-      como diabetes ou
-      gravidez e,</li>
-    <li>O próprio indivíduo e ou seus responsáveis.</li>
-  </ul>
-
-  <a name="marcos">  </a>
-  <h3>Marcos Legais</h3>
-  <ul>
-    <li>
-      <a href="https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215">Portaria
-        no. 234 de
-        18 de julho de 2022</a>
-    </li>
-    <li>
-      <a href="https://rnds-guia.saude.gov.br/docs/rac/mi-rac ">
-        https://rnds-guia.saude.gov.br/docs/rac/mi-rac </a>
-    </li>
-  </ul>
 
   <a name="computacional">  </a>
   <h3>Modelo Computacional</h3>
@@ -516,8 +471,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </table>
   <p>Perfis dos tipos <i>ValueSet</i> e <i>CodeSystem</i> estão associados a recursos
     terminológicos. No contexto de Atendimento Clínico e os domínios utilizados, foram criados <i>
-      CodeSystems</i> específicos definidos pelo <a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
-      Gestor de Saúde Digital (CGSD)</a>.</p>
+    CodeSystems</i> específicos definidos pelo <a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
+    Gestor de Saúde Digital (CGSD)</a>.</p>
 
   <table class="grid">
     <thead>
@@ -746,7 +701,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
     periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
     dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
-      no Simplifier</a>. </p>
+    no Simplifier</a>. </p>
   <p>Note que na estrutura dos perfis há elementos com bindings para <i>ValueSets</i> que apontam
     para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
     indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo
@@ -796,7 +751,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 21, 2023 12:24-0300">2023-12-21</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 22, 2023 10:30-0300">2023-12-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |

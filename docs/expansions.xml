@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ae7007d0-33f0-4ec0-94b9-eddffda90e91"/>
+  <id value="e60771f0-5062-4d45-af4d-11548b64d055"/>
   <meta>
-    <lastUpdated value="2023-12-21T12:24:32.961-03:00"/>
+    <lastUpdated value="2023-12-22T10:30:34.728-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -5539,8 +5539,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c8448db3-39d8-48d5-9274-06fe6848af21"/>
-          <timestamp value="2023-12-21T12:42:46-03:00"/>
+          <identifier value="urn:uuid:0c8fc9dc-4237-43bd-8d12-4417d05af609"/>
+          <timestamp value="2023-12-22T10:48:15-03:00"/>
           <total value="686"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9089,8 +9089,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b6951962-257f-4407-873c-73732cd1b8cf"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:f8704ad7-cfb8-41c8-9dbf-1c5a0dd81148"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9248,8 +9248,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:114d71ef-ec41-4a9c-baeb-65d3a70ea24f"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:3606a7ff-6288-496f-81b1-d6b965532bd9"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9359,8 +9359,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3a2b4125-75c8-4237-afbf-68563f0f11b9"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:fe7cd21d-0ad7-4672-b81e-a66d8ecf9172"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9445,8 +9445,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a62a57be-2bd3-4cf6-b0c2-25e10680d41d"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:5a68bfec-cab2-4131-b445-9cf5fb508a29"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9561,8 +9561,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:98d14f55-4b55-462d-b572-32c7e84b1faa"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:6e8591f6-3bc0-454f-9956-35acdb48ddee"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9657,8 +9657,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ceed2254-b77c-4269-a6b0-b4b36956349c"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:26ae7a92-d633-4267-8b54-a69d450007a6"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9743,8 +9743,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6ecef402-c419-4192-b380-8ace6977006e"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:0ed34d19-0d52-4afe-b687-2f0b05d77d90"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9843,8 +9843,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0d9a2ed7-a66a-4bbc-acd2-0a3815fa2d06"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:f662dfe8-bdd5-4529-ba72-53985612e710"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9976,8 +9976,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ccd60361-7f80-4821-b4c6-b031af307490"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:2f9afc84-629f-407c-bbaa-e29f95c9c140"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10175,8 +10175,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:db439c58-d1df-439e-842b-43a8afe1094f"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:ed5920fc-3d9d-4d78-9ab3-5f39cb941500"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10310,8 +10310,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:4846e48b-1fe9-4096-9ace-2f324eee41e5"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:5afaa7b4-367b-4b26-a760-8cdf74fee4f1"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10467,8 +10467,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:eddf830a-6339-431a-897b-2482c78d6626"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:5e261f43-4062-42dc-8e6c-fee946d4f71c"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10589,8 +10589,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0202d736-1867-4bb4-867a-acd8a6f5d419"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:6f3ab636-2b90-451b-9c74-cad807fc0bdf"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -10764,8 +10764,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:75365eb9-cb24-4da8-a881-d8711b020cbc"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:827d1fb5-1123-4b2a-b952-6d625e6f929d"/>
+          <timestamp value="2023-12-22T10:48:53-03:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14051,8 +14051,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:41bf43a1-713b-460b-bbd7-2bad42a5a371"/>
-          <timestamp value="2023-12-21T12:43:16-03:00"/>
+          <identifier value="urn:uuid:a6e336cb-d3d9-4c6e-b385-aacfb34e96a8"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="399"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16170,8 +16170,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b59fdd63-5515-4729-bc91-a673a1574e28"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:6e13bc17-36cf-43e5-a3bd-12738216f33d"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16350,8 +16350,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:70da03b4-b4e6-4c05-967c-1e52b8579bc8"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:cf6c023a-3a54-4307-8db5-920700ea8302"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16499,8 +16499,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:98974be0-a3cb-44df-8484-4f488cbd0c61"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:f207fe4d-724f-4009-a052-cb89a463485f"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16596,8 +16596,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a2454aa8-d090-4132-b7f3-2ca6b6b28c04"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:8b9583aa-e489-4335-8c75-84bef2a5477a"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16713,8 +16713,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:dea685f3-5320-4780-a5be-25e44ff6c274"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:b0358d91-2d6d-4b8b-9029-e2816f7c83a9"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16883,8 +16883,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e8e806f0-5358-459b-a290-16b52412a1c4"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:33c40eef-7502-40f5-a716-7d9debc37fdf"/>
+          <timestamp value="2023-12-22T10:48:54-03:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17069,8 +17069,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a7d02138-fbb6-4a1e-bd5c-ba5e60c60400"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:9599dbdb-6e18-4a14-8292-e2f4851478c2"/>
+          <timestamp value="2023-12-22T10:48:55-03:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17258,8 +17258,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7e1d6e1f-3b72-4575-bb49-f3246fc9c9de"/>
-          <timestamp value="2023-12-21T12:43:17-03:00"/>
+          <identifier value="urn:uuid:40cefab7-81bd-4efc-8947-28725b7a32f9"/>
+          <timestamp value="2023-12-22T10:48:55-03:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17380,8 +17380,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b721ed79-6479-4e80-a8eb-2417a4c80a27"/>
-          <timestamp value="2023-12-21T12:43:18-03:00"/>
+          <identifier value="urn:uuid:c0a74912-75ec-48c2-a164-3cf6dca18ce6"/>
+          <timestamp value="2023-12-22T10:48:55-03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17469,8 +17469,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1fd22033-f054-4104-a382-62ed5e366861"/>
-          <timestamp value="2023-12-21T12:43:18-03:00"/>
+          <identifier value="urn:uuid:c8d0899a-182d-4160-9aba-4217e4553c26"/>
+          <timestamp value="2023-12-22T10:48:55-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17610,8 +17610,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:17c3c4df-14c5-46bd-84bc-de512ad4915a"/>
-          <timestamp value="2023-12-21T12:43:18-03:00"/>
+          <identifier value="urn:uuid:30b56bd4-24b3-415a-a7f3-d10cb8e4da52"/>
+          <timestamp value="2023-12-22T10:48:55-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -18016,8 +18016,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d2265f4d-d522-4b19-b5a3-967dedb50f0f"/>
-          <timestamp value="2023-12-21T12:43:30-03:00"/>
+          <identifier value="urn:uuid:a7afc2c6-ca1d-4f05-a55c-d4ea1d2bb472"/>
+          <timestamp value="2023-12-22T10:49:11-03:00"/>
           <total value="42"/>
           <parameter>
             <name value="excludeNested"/>
@@ -18306,8 +18306,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:abd36568-91cc-414d-b1e7-43e3e60ef58d"/>
-          <timestamp value="2023-12-21T12:43:30-03:00"/>
+          <identifier value="urn:uuid:451bd7df-236a-468d-8660-bfa0998a62ed"/>
+          <timestamp value="2023-12-22T10:49:11-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -21146,8 +21146,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e349e148-5dd8-4755-9cb6-420c6945933b"/>
-          <timestamp value="2023-12-21T12:43:30-03:00"/>
+          <identifier value="urn:uuid:2ef89f56-08cc-4453-8860-75b79f596745"/>
+          <timestamp value="2023-12-22T10:49:11-03:00"/>
           <total value="345"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23011,8 +23011,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:383c496b-c86b-4eed-8fc4-bc31c8f30573"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:0a607544-b04d-4e9c-aa89-991f2a7f87a9"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23136,8 +23136,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d4f9086b-8ee1-46a3-8965-99110d952f10"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:3419b61f-8f29-4452-a1b3-fcbfebc8f2a5"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23237,8 +23237,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:4602dfb3-c93d-4a50-ad0b-860f0eac275b"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:9343447a-7b7b-406e-8a1b-6e26aa854445"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23347,8 +23347,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9352f97e-8ed7-4a56-bf6d-4faf11802ebb"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:3618843a-ea5a-4ffb-a3a9-b0ee3683d09b"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23484,8 +23484,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:93b896dd-f63c-4a7c-84d2-4c3d3b500c72"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:4046af40-6463-4bef-8aea-9e68f31e1775"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23970,8 +23970,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c5d40b28-aad3-482b-b82d-69a05e0d82e4"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:eea8e0be-352a-4e6e-9b45-2b5dcdaf16e4"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="28"/>
           <parameter>
             <name value="excludeNested"/>
@@ -24210,8 +24210,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:678692e7-8cd9-4f80-b7d5-aacfc69365b1"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:51567ee5-99a2-46ca-849a-f8f36e37c8cc"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -24344,8 +24344,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:542db129-593b-44e1-90ee-bb068b2fbc2c"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:62a8e0cb-8efe-49d4-941f-21477ed7b817"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -24448,8 +24448,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:83d97c18-ac1b-460c-b7ec-344eb4d9d967"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:d1626902-98c1-4354-8b26-13c777bc1586"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -24536,8 +24536,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6764cb1c-b8ee-49c9-9057-8694fb41119f"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:62b030c6-aaee-4028-9387-e1c6050c9444"/>
+          <timestamp value="2023-12-22T10:49:12-03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -24713,8 +24713,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2e1fe2c1-7319-4265-9366-655b2c03a07e"/>
-          <timestamp value="2023-12-21T12:43:31-03:00"/>
+          <identifier value="urn:uuid:8036811c-cea5-4df6-bda8-6e5c088ed9e2"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25130,8 +25130,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ebb8a125-02a3-48e3-b438-842635893d43"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:c5444288-8b8f-4c39-a516-ae1639013785"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="39"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25402,8 +25402,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:813a0a87-1b30-410f-ae6d-a029c9cd627c"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:f9c25ad2-c856-4435-82f4-94161b30b2b4"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25483,8 +25483,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e5d77f25-c150-4892-b5fa-a86115615a4f"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:bc8312ed-5524-49af-8f24-5610bac2d9f6"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25634,8 +25634,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ecb855a6-02ac-4869-9e86-7f7542c64764"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:5c62c668-419e-4615-803e-7dfabd7d938b"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25768,8 +25768,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1f03fd39-b618-4286-9b32-5ec9a3b65e26"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:ebb5220c-e94d-4d00-8700-0fc0b3e4ea60"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26451,8 +26451,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8af87e0d-fe71-4b63-9903-43bd767f00e2"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:d586a793-e9bd-4a4f-bcd8-cb61cca943a3"/>
+          <timestamp value="2023-12-22T10:49:13-03:00"/>
           <total value="76"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27107,8 +27107,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:70e16b47-8233-4883-a3b6-951a928ab8d2"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:010f5bb1-d95f-4376-b183-ca1a0bafb224"/>
+          <timestamp value="2023-12-22T10:49:14-03:00"/>
           <total value="27"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27910,8 +27910,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f8d63e68-fc38-445f-8214-71f920133198"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:f9940939-6904-42c5-a2d7-d558efc33c8b"/>
+          <timestamp value="2023-12-22T10:49:14-03:00"/>
           <total value="76"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28398,8 +28398,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9a7a398d-e848-4b15-b857-195fe1ca6c37"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:566fb763-98c3-49b0-82d8-72d732d9d714"/>
+          <timestamp value="2023-12-22T10:49:14-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29048,8 +29048,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:cc23b7d5-f566-45dc-bbb0-e7a385cf1393"/>
-          <timestamp value="2023-12-21T12:43:32-03:00"/>
+          <identifier value="urn:uuid:9079ff30-43ca-4714-a4f7-649a7596dd94"/>
+          <timestamp value="2023-12-22T10:49:14-03:00"/>
           <total value="70"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29486,8 +29486,8 @@ Esta Natureza Jurídica não compreende:</li>
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:002ad6ae-405c-45d2-bf30-794cc3f8ee7e"/>
-          <timestamp value="2023-12-21T12:43:33-03:00"/>
+          <identifier value="urn:uuid:43be512d-2ac0-4233-a0cf-9a486012ba97"/>
+          <timestamp value="2023-12-22T10:49:14-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

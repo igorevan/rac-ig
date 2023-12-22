@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-21T12:24:32-03:00"/>
+  <date value="2023-12-22T10:30:34-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -257,6 +257,16 @@
       </reference>
       <name value="Registro de Atendimento Clínico"/>
       <description value="Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRConjuntoMinimoDados-1.1"/>
+      </reference>
+      <name value="Conjunto Mínimo de Dados"/>
+      <description value="Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

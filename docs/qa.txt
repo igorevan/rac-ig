@@ -1,10 +1,10 @@
 ﻿RACRNDSIG : Validation Results
 =========================================
 
-err = 507, warn = 70, info = 3
+err = 511, warn = 71, info = 3
 IG Publisher Version: 1.5.8
-Generated Thu Dec 21 12:59:11 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
- Build Errors : 506 / 4 / 0
+Generated Fri Dec 22 11:06:16 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+ Build Errors : 510 / 4 / 0
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -59,6 +59,7 @@ Generated Thu Dec 21 12:59:11 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCIAP2Avaliado-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCID10Avaliado-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCodigoSerialMedicamento : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRConjuntoMinimoDados-1.1 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRContatoAssistencial-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRDocumentoIndividuo-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BREndereco-1.0 : 0 / 1 / 1
@@ -165,6 +166,10 @@ ERROR: ToC: The ToC contains the page StructureDefinition-BRRegistroAtendimentoC
 ERROR: ToC: The ToC contains the page StructureDefinition-BRRegistroAtendimentoClinico.profile.json.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-BRRegistroAtendimentoClinico.profile.ttl.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-BRRegistroAtendimentoClinico-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRConjuntoMinimoDados-1.1.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRConjuntoMinimoDados-1.1.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRConjuntoMinimoDados-1.1.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRConjuntoMinimoDados-1.1-mappings.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-BRContatoAssistencial-1.0.profile.xml.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-BRContatoAssistencial-1.0.profile.json.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-BRContatoAssistencial-1.0.profile.ttl.html more than once
@@ -735,6 +740,8 @@ WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/Struct
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRCodigoSerialMedicamento.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento'): The Implementation Guide contains no examples for this extension
+== input\resources\StructureDefinition-BRConjuntoMinimoDados-1.1.json ==
+WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRContatoAssistencial-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRDocumentoIndividuo-1.0.json ==

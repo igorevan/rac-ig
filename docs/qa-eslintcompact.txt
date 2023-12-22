@@ -8,6 +8,7 @@ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAtestado.json: line 0
 C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCIAP2Avaliado-1.0.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCID10Avaliado-1.0.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCodigoSerialMedicamento.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRConjuntoMinimoDados-1.1.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRContatoAssistencial-1.0.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRDocumentoIndividuo-1.0.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
 C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BREndereco-1.0.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
@@ -73,6 +74,6 @@ C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoObservacao-1.0.json: line 0,
 RACRNDSIG : Validation Results
 =========================================
 
-err = 507, warn = 70, info = 3
+err = 511, warn = 71, info = 3
 IG Publisher Version: 1.5.8
-Generated Thu Dec 21 12:59:11 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+Generated Fri Dec 22 11:06:16 BRT 2023. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)

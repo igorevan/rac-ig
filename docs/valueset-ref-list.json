@@ -148,7 +148,10 @@
       "name" : "BREstadoDocumento",
       "title" : "Estado do Documento",
       "description" : "Classifica o estado do documento que está sendo trafegado.",
-      "systems" : ["http://hl7.org/fhir/composition-status"]
+      "systems" : ["http://hl7.org/fhir/composition-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
@@ -172,8 +175,8 @@
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -186,8 +189,8 @@
       "uses" : {
       },
       "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
@@ -316,6 +319,7 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
@@ -344,8 +348,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
-      "StructureDefinition-BRMunicipio-1.0.html" : "Município"
+      "StructureDefinition-BRMunicipio-1.0.html" : "Município",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade",
@@ -383,10 +387,10 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
-      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
       "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
@@ -572,9 +576,9 @@
       "systems" : ["http://hl7.org/fhir/administrative-gender"],
       "uses" : {
       },
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
       "StructureDefinition-BRProfissional-1.0.html" : "Profissional",
-      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
@@ -627,7 +631,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0",
@@ -700,8 +705,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
@@ -750,8 +755,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço",
-      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor"
+      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor",
+      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",

@@ -529,6 +529,16 @@
         "title": "ProblemaDiagnóstico"
       }
     ],
+    "Composition": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
+        "title": "Registro de Atendimento Clínico"
+      },
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
+        "title": "Registro de Prescrição de Medicamento"
+      }
+    ],
     "Encounter": [
       {
         "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0",
@@ -591,16 +601,6 @@
       {
         "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0",
         "title": "Profissional"
-      }
-    ],
-    "Composition": [
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
-        "title": "Registro de Atendimento Clínico"
-      },
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
-        "title": "Registro de Prescrição de Medicamento"
       }
     ]
   },
@@ -690,6 +690,7 @@
       "Procedure.performer"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
+      "Composition.subject",
       "Condition.subject",
       "Encounter.subject",
       "Procedure.subject"

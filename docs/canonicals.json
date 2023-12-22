@@ -378,6 +378,13 @@
     "name" : "BRCodigoSerialMedicamento"
   },
   {
+    "id" : "BRConjuntoMinimoDados-1.1",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1",
+    "version" : "0.1.0",
+    "name" : "BRConjuntoMinimoDados"
+  },
+  {
     "id" : "BRContatoAssistencial-1.0",
     "type" : "StructureDefinition",
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0",

@@ -43,7 +43,7 @@
   fhir:title [ fhir:v "Medicamento"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-21T12:24:32-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-22T10:30:34-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
