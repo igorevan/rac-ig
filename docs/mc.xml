@@ -4,14 +4,33 @@
 
   <a name="computacional"> </a>
   <h3>Modelo Computacional</h3>
-  <p> Para a modelagem do modelo computacional do registro de atendimento clínico RAC, foram
-    mapeados dos campos do modelo de informação aos recursos internacionais <a
-      href="https://hl7.org/fhir/R4/">FHIR
-      R4</a>, foi realizada a modelagem fechada dos perfis de modo a atender o contexto nacional. </p>
+  <p> Para a modelagem do modelo computacional do Registro de Atendimento Clínico (RAC), foram
+    mapeados os campos do Modelo de Informação (MI) aos recursos internacionais <a href="https://hl7.org/fhir/R4/">FHIR
+      R4</a>. Assim, foi realizada a modelagem fechada dos perfis de modo a atender o contexto nacional. </p>
   <p>Foi criado um <a href="https://simplifier.net/redenacionaldedadosemsaude/">Projeto Rede
       Nacional de Dados em Saúde</a>, na plataforma <a href="https://simplifier.net/">SIMPLIFIER.NET</a>,
     para a publicação e distribuição dos perfis relacionados aos documentos computacionais em
     produção na rede.</p>
+
+  <a name="bundlerac"> </a>
+  <h3>Bundle de Envio do RAC</h3>
+  <p>
+    O diagrama UML abaixo apresenta o pacote <i>Bundle</i> no qual é depositado um Registro de
+    Atendimento Clínico completo, referenciando um Conjunto Mínimo de Dados (CMD) e todos
+    os dados clínicos relevantes para caracterizar um atendimento clínico completo.
+  </p>
+  <p>
+    <center>
+      <b>Figura 1 - Diagrama UML do <i>Bundle</i> do RAC</b>
+    </center>
+  </p>
+  <center>
+    <div>
+
+      <img height="500" src="bundleMC.png" alt="Diagrama UML do Bundle do RAC" />
+
+    </div>
+  </center>
 
   <a name="recursos"> </a>
   <h3>Recursos FHIR</h3>
@@ -37,7 +56,8 @@
       <tr>
         <td>Composition</td>
         <td>
-          <code>BRConjuntoMinimoDados</code>
+          <code>
+            <a href="StructureDefinition-BRConjuntoMinimoDados-1.1.html">BRConjuntoMinimoDados</a></code>
         </td>
       </tr>
       <tr>
@@ -281,9 +301,9 @@
   </table>
   <p>Perfis dos tipos <i>ValueSet</i> e <i>CodeSystem</i> estão associados a recursos
     terminológicos. No contexto de Atendimento Clínico e os domínios utilizados, foram criados <i>
-    CodeSystems</i> específicos definidos pelo <a
+      CodeSystems</i> específicos definidos pelo <a
       href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
-    Gestor de Saúde Digital (CGSD)</a>.</p>
+      Gestor de Saúde Digital (CGSD)</a>.</p>
 
   <table class="grid">
     <thead>
@@ -512,7 +532,7 @@
   <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
     periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
     dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
-    no Simplifier</a>. </p>
+      no Simplifier</a>. </p>
   <p>Note que na estrutura dos perfis há elementos com bindings para <i>ValueSets</i> que apontam
     para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
     indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo
