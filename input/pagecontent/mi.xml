@@ -64,10 +64,10 @@
         aparecer:</p>
 
       <pre><code>
-          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez;
-          [1..1] - O elemento é obrigatório e deve estar presente uma única vez;
-          [0..N] - O elemento é opcional e pode ocorrer várias vezes;
-          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes;</code>
+          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez
+          [1..1] - O elemento é obrigatório e deve estar presente uma única vez
+          [0..N] - O elemento é opcional e pode ocorrer várias vezes
+          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes</code>
         </pre>
 
     </li>

@@ -10,15 +10,15 @@
       Dados em Saúde (RNDS)</a>, fornecendo as orientações técnicas necessárias para a integração
     dos sistemas/soluções locais com a rede, para o envio do <a
       href="https://rnds-guia.saude.gov.br/docs/rac/mi-rac/">Registro de Atendimento
-      Clínico (RAC)</a> seguindo as especificações do padrão <a href="https://hl7.org/fhir/R4/">HL7 FHIR versão R4</a>.
-  </p>
+      Clínico (RAC)</a> seguindo as especificações do padrão <a href="https://hl7.org/fhir/R4/">HL7
+    FHIR versão R4</a>. </p>
   <a name="contextualizacao"></a>
   <h3>Contextualização</h3>
   <p> A RNDS é uma plataforma nacional de integração de dados em saúde que faz parte do <a
       href="https://conectesus.saude.gov.br/home">Conecte SUS</a>, um programa do Governo Federal
     que tem como principal missão materializar a <a
-      href="https://www.gov.br/saude/pt-br/composicao/seidigi/saude-digital">Estratégia de Saúde Digital do Brasil</a>.
-  </p>
+      href="https://www.gov.br/saude/pt-br/composicao/seidigi/saude-digital">Estratégia de Saúde
+    Digital do Brasil</a>. </p>
   <p>
     A RNDS utiliza computação em nuvem e tecnologias emergentes para criar um repositório de
     documentos responsável por armazenar informações de saúde dos cidadãos, mantendo a
@@ -35,35 +35,29 @@
   <p> Para garantir a interoperabilidade entre as aplicações de Saúde Digital, em especial
     Prontuário(s) Eletrônico(s) do Paciente, portais e aplicações (<i>web e mobile</i>), a troca de
     informações ocorre por meio de serviços (<i>web services</i>) <a
-      href="https://pt.wikipedia.org/wiki/REST">RESTful</a>, desenvolvidos de acordo
-    com o padrão <a href="https://hl7.org/FHIR/">FHIR R4</a>. </p>
+      href="https://pt.wikipedia.org/wiki/REST">RESTful</a>, desenvolvidos de acordo com o padrão <a
+      href="https://hl7.org/FHIR/">FHIR R4</a>. </p>
   <a name="walkthrough"></a>
   <h3>Roteiro</h3>
   <ul>
     <li>
       <a href="credenciamento.html">Credenciamento</a>: Saiba qual é o processo e requisitos a serem
-      seguidos por um estabelecimento de saúde para a integração com a RNDS.
-    </li>
+      seguidos por um estabelecimento de saúde para a integração com a RNDS. </li>
     <li>
-      <a href="seguranca.html">Segurança</a>: Orienta como todas as transações devem ser protegidas.
-    </li>
+      <a href="seguranca.html">Segurança</a>: Orienta como todas as transações devem ser protegidas. </li>
     <li>
       <a href="integracao.html">Integração</a>: Define as operações a serem atendidas para
-      integração com a RNDS.
-    </li>
+      integração com a RNDS. </li>
     <li>
-      <a href="rac.html">O RAC</a>: Define o Registro de Atendimento Clínico e os seus Modelos de
-      Informação e Computacional.
-    </li>
+      <a href="mi.html">Modelo de Informação</a>: Define o Modelo de Informação (MI) do RAC. </li>
+    <li>
+      <a href="mc.html">Modelo Computacional</a>: Define o Modelo Computacional (MC) do RAC. </li>
     <li>
       <a href="artifacts.html">Artefatos</a>: Reúne todos os recursos <i>(Resources)</i> do FHIR
-      para elaboração do Modelo Computacional do RAC.
-    </li>
+      para elaboração do Modelo Computacional do RAC. </li>
     <li>
-      <a href="exemplos.html">Exemplos</a>: Instâncias de exemplos.
-    </li>
+      <a href="exemplos.html">Exemplos</a>: Instâncias de exemplos. </li>
     <li>
-      <a href="downloads.html">Downloads</a>: Artefatos empregados pelos integradores.
-    </li>
+      <a href="downloads.html">Downloads</a>: Artefatos empregados pelos integradores. </li>
   </ul>
 </div>
