@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.BR.RAC\Local de Aferição - FHIR v4.0.1</title>
+    <title>Local de Aferição - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -29,10 +29,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -44,6 +44,7 @@
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
@@ -179,8 +180,9 @@
 <ul class="nav nav-tabs">
 
   <li class="active">
-    <a href="#">Conteúdo narrativo</a>
+    <a href="#">Narrative Content</a>
   </li>
+
 
 
   
@@ -214,10 +216,10 @@
   <table class="colstu">
 
     <tr>
-      <td colspan="4"><i>URL oficial</i>: <span class="copy-text">http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0<button title="Clique para copiar a URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0"/></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Clique para copiar a URL versionada" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0|0.1.0"/></span>
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0|0.1.0"/></span>
       </td>
     </tr>
 
@@ -233,20 +235,20 @@
         
           <i>
             
-            Status do padrão:
-          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Status do padrão">Informative</a>
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
           
         
       </td>
 
       <td>
-        <a href="http://hl7.org/fhir/versions.html#maturity">Nível de maturidade do FHIR (FMM)</a>: 1
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 1
         
       </td>
 
 
 
-      <td><i>Nome computável</i>: <span style="font-family: monospace;">BRLocalAfericao</span></td>
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">BRLocalAfericao</span></td>
     </tr>
 
 
@@ -261,7 +263,7 @@
 
 
   <p>
-    <b>Referências</b>
+    <b>References</b>
   </p>
   
 <ul>
@@ -288,33 +290,33 @@
 
   <hr/>
   <p>
-    Explanação das colunas que podem aparecer nesta página:
+    Explanation of the columns that may appear on this page:
   </p>
   <table class="grid">
     <tr>
       <td>Level</td>
-      <td>Alguns códigos que o FHIR define são hierárquivos - cada código recebe um nível.
-          Nesse esquema, alguns códigos estão contidos em outros códigos, e semântica aplicada aos códigos-pai também podem se aplicar aos respectivos códigos-filho</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
     </tr>
     <tr>
       <td>System</td>
-      <td>A fonte de definição de um código (Quanto os conjuntos de valores tem definições obtidas a partir de outras origens)</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
     </tr>
     <tr>
       <td>Code</td>
-      <td>O código que identifica um conceito usado na instância de um recurso</td>
+      <td>The code (used as the code in the resource instance)</td>
     </tr>
     <tr>
       <td>Display</td>
-      <td>Uma descrição sucinta do conceito (Vide especificação do <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). Se não há descrição sucinta no dado, os implementadores não devem apresentar o campo.</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
     </tr>
     <tr>
       <td>Definition</td>
-      <td>Uma definição de uso para o conceito representado.</td>
+      <td>An explanation of the meaning of the concept</td>
     </tr>
     <tr>
       <td>Comments</td>
-      <td>Comentários adicionais sobre o conceito.</td>
+      <td>Additional notes about how to use the code</td>
     </tr>
   </table>
 
@@ -371,11 +373,11 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 4, 2024 13:08-0300">2024-01-04</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package hl7.fhir.br.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 4, 2024 15:48-0300">2024-01-04</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
-                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Relatório de Qualidade</a>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
           </span>
