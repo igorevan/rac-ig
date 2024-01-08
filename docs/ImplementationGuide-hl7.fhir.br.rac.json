@@ -19,7 +19,7 @@
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2024-01-04T15:48:10-03:00",
+  "date" : "2024-01-08T09:39:44-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{
@@ -1656,6 +1656,17 @@
       },
       "name" : "Via de Administração",
       "description" : "Classifica a via na qual foi administrada uma substância em um indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/bundle-example-rac"
+      },
+      "name" : "Registro de Atendimento Clínico (Bundle)",
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0"
     },
     {
       "extension" : [{

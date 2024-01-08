@@ -1,10 +1,11 @@
 ﻿RACRNDSIG : Validation Results
 =========================================
 
-err = 2, warn = 71, info = 3
+err = 43, warn = 118, info = 46
 IG Publisher Version: 1.5.8
-Generated Thu Jan 04 16:22:30 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
- Build Errors : 0 / 4 / 0
+Generated Mon Jan 08 10:16:33 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+ Build Errors : 0 / 5 / 0
+ C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC : 41 / 70 / 83
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -53,52 +54,52 @@ Generated Thu Jan 04 16:22:30 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRUnidadeTempo : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRViaAdministracao : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAdministradorTerceiro-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAlergiaReacaoAdversa-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAlergiaReacaoAdversa-1.0 : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAtendeSUS-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAtestado : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCIAP2Avaliado-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCID10Avaliado-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRAtestado : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCIAP2Avaliado-1.0 : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCID10Avaliado-1.0 : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRCodigoSerialMedicamento : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRConjuntoMinimoDados-1.1 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRContatoAssistencial-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRContatoAssistencial-1.0 : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRDocumentoIndividuo-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BREndereco-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BREstabelecimentoSaude-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRFinanciamento-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIdentificacaoEquipe-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRFinanciamento-1.0 : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIdentificacaoEquipe-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIndividuo-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIndividuoNaoIdentificado-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIndividuoProtegido-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIntervaloDoses : 0 / 2 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIntervaloDoses : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRLocalAtendimento-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRLocalAtendimento-1.0 : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRLotacaoProfissional-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMedicamento : 1 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMedidaObservada : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMedicamento : 1 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMedidaObservada : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMeioContato-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMunicipio-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRNacionalidade : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRNaturalizacao-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRNomeIndividuo-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRObservacaoDescritiva-1.0 : 0 / 2 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BROcupacao-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BROrigemMedida : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BROutrasInformacoes : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRObservacaoDescritiva-1.0 : 0 / 1 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BROcupacao-1.0 : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BROrigemMedida : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BROutrasInformacoes : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRPais-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRParentesIndividuo-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRPessoaJuridicaProfissionalLiberal-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRPlanoCuidados-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRPrescricaoMedicamento : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRProblemaDiagnostico : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRProcedimentoRealizado-1.0 : 0 / 2 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRPlanoCuidados-1.0 : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRPrescricaoMedicamento : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRProblemaDiagnostico : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRProcedimentoRealizado-1.0 : 0 / 1 / 2
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRProfissional-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRQualidadeCadastroIndividuo-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRQuantidade-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRQuantidade-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRacaCorEtnia-1.0 : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRegistroAtendimentoClinico : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRegistroPrescricaoMedicamento : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRoupasUsadasMedicao : 0 / 1 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRTurno : 0 / 2 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRegistroAtendimentoClinico : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRegistroPrescricaoMedicamento : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRRoupasUsadasMedicao : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRTurno : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRAlergenos-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRCIAP2-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRCID10-1.0 : 0 / 1 / 1
@@ -162,10 +163,151 @@ Generated Thu Jan 04 16:22:30 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0
  C:\Users\Igor\rac-ig\input\resources\ValueSet-RoupasUsadasMedicao : 0 / 0 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/bundle-example-rac.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== input\examples\Example-Bundle-RAC.json ==
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#RAC)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[1]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[2]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[3]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[4]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[9]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[10]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/.section[11]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[0].resource/*Composition/e9599dfe-179f-45e7-8c60-7f53add27dfe*/: Composition.section:problemasDiagnosticosAvaliados: minimum required = 1, but only found 0 (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.reasonReference[0].extension[0]: The extension http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndicadorPresencaAdmissao-1.0 could not be found so is not allowed here
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.reasonReference[2]: Details for urn:uuid:c8b867bb-faf0-4da6-8eff-32650f7c82a2 matching against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.diagnosis[0].condition.extension[0]: The extension http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndicadorPresencaAdmissao-1.0 could not be found so is not allowed here
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.diagnosis[1].condition.extension[0].value.ofType(CodeableConcept): Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.diagnosis[2].condition.extension[0].value.ofType(CodeableConcept): Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.hospitalization.admitSource: None of the codings provided are in the value set 'Admit source' (http://hl7.org/fhir/ValueSet/encounter-admit-source|4.0.1), and a coding is recommended to come from this value set) (codes = http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia#99)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.diagnosis[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.diagnosis[1]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/: Encounter.reasonReference: max allowed = 1, but found 3 (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0|0.1.0)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.class: The code provided (http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial#04) was not found in the value set 'Modalidade Assistencial' (http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0|0.1.0), and a code from this value set is required: Unable to check whether the code is in the value set http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.priority: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.participant[0].type[0]: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante|0.1.0
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.reasonReference[0]: Invalid Resource target type. Found Condition, but expected one of ([Observation])
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.reasonReference[1]: Invalid Resource target type. Found Condition, but expected one of ([Observation])
+ERROR: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.reasonReference[2]: Unable to find a match for profile urn:uuid:c8b867bb-faf0-4da6-8eff-32650f7c82a2 among choices: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.reasonReference[2]: Details for urn:uuid:c8b867bb-faf0-4da6-8eff-32650f7c82a2 matching against profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.hospitalization.admitSource: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[1].resource/*Encounter/c6e1abf7-9e0a-47ad-ab42-37b93a40a7d0*/.hospitalization.dischargeDisposition: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[2].resource/*Condition/1bfc75a3-19d7-4b41-8cdd-037bc3fbd35d*/.code: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10|0.1.0
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Condition/d6e7c293-41d6-4235-ae81-3e8a3529c637*/.code: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2|0.1.0
+WARNING: Bundle/bundle-example-rac: Bundle.entry[5].resource/*Observation/c8b867bb-faf0-4da6-8eff-32650f7c82a2*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[5].resource/*Observation/c8b867bb-faf0-4da6-8eff-32650f7c82a2*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Bundle/bundle-example-rac: Bundle.entry[5].resource/*Observation/c8b867bb-faf0-4da6-8eff-32650f7c82a2*/.code.coding.system: Value is 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao' but must be 'http://loinc.org'
+ERROR: Bundle/bundle-example-rac: Bundle.entry[5].resource/*Observation/c8b867bb-faf0-4da6-8eff-32650f7c82a2*/.code.coding.code: Value is 'DSIA' but must be '48767-8'
+WARNING: Bundle/bundle-example-rac: Bundle.entry[7].resource/*Observation/d6aafdfc-9363-4db6-b5a7-f8c9994be143*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[7].resource/*Observation/d6aafdfc-9363-4db6-b5a7-f8c9994be143*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[7].resource/*Observation/d6aafdfc-9363-4db6-b5a7-f8c9994be143*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource: Observation.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource: Observation.category:VSCat: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource: Observation.subject: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource: Observation.effective[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource.code: BodyHeightCode: magic LOINC code 8302-2 required, but not found (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1). Note that other Observation codes are allowed in addition to this required magic code
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource.value.ofType(Quantity): Observation.value[x]:valueQuantity.unit: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource.value.ofType(Quantity).code: The value provided ('m') was not found in the value set 'Body Length Units' (http://hl7.org/fhir/ValueSet/ucum-bodylength|4.0.1), and a code is required from this value set  (error message = The provided code 'http://unitsofmeasure.org#m' is not in the value set 'http://hl7.org/fhir/ValueSet/ucum-bodylength|4.0.1' (from Tx-Server))
+ERROR: Bundle/bundle-example-rac: Bundle.entry[7].resource.code: None of the codings provided are in the value set 'Tipo de Observação' (http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0|0.1.0), and a coding from this value set is required) (codes = http://loinc.org#3137-7)
+WARNING: Bundle/bundle-example-rac: Bundle.entry[8].resource/*Observation/c7cb7f6b-1d2a-47d9-86b1-9eb6149c9e8c*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[8].resource/*Observation/c7cb7f6b-1d2a-47d9-86b1-9eb6149c9e8c*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[8].resource/*Observation/c7cb7f6b-1d2a-47d9-86b1-9eb6149c9e8c*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[9].resource/*Observation/25c1c75c-e4bb-47d7-9e37-607dd5561cb6*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[9].resource/*Observation/25c1c75c-e4bb-47d7-9e37-607dd5561cb6*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[9].resource/*Observation/25c1c75c-e4bb-47d7-9e37-607dd5561cb6*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[10].resource/*Observation/e991d411-0652-4fbb-ae4b-3e2cd8fd2aa6*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[10].resource/*Observation/e991d411-0652-4fbb-ae4b-3e2cd8fd2aa6*/: Best Practice Recommendation: In general, all observations should have a performer
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[10].resource/*Observation/e991d411-0652-4fbb-ae4b-3e2cd8fd2aa6*/.effective.ofType(Timing).code: None of the codings provided are in the value set 'TimingAbbreviation' (http://hl7.org/fhir/ValueSet/timing-abbreviation|4.0.1), and a coding is recommended to come from this value set) (codes = http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia#uma-ou-duas)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[10].resource.effective.ofType(Timing).code: None of the codings provided are in the value set 'TimingAbbreviation' (http://hl7.org/fhir/ValueSet/timing-abbreviation|4.0.1), and a coding is recommended to come from this value set) (codes = http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia#uma-ou-duas)
+WARNING: Bundle/bundle-example-rac: Bundle.entry[11].resource/*Observation/7f7c2fac-780b-412f-a890-893095b0390b*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[11].resource/*Observation/7f7c2fac-780b-412f-a890-893095b0390b*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[11].resource/*Observation/7f7c2fac-780b-412f-a890-893095b0390b*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[12].resource/*Observation/d4d66bd3-f851-4356-9aa4-94ddc70fde68*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[12].resource/*Observation/d4d66bd3-f851-4356-9aa4-94ddc70fde68*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[12].resource/*Observation/d4d66bd3-f851-4356-9aa4-94ddc70fde68*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Bundle/bundle-example-rac: Bundle.entry[12].resource: Observation.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[12].resource: Observation.category:VSCat: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[12].resource: Observation.subject: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[12].resource: Observation.effective[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[12].resource.value.ofType(Quantity): Observation.value[x]:valueQuantity.unit: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1)
+WARNING: Bundle/bundle-example-rac: Bundle.entry[13].resource/*Observation/1edcec17-3dbc-4448-b382-d8d8ffad9e95*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[13].resource/*Observation/1edcec17-3dbc-4448-b382-d8d8ffad9e95*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[13].resource/*Observation/1edcec17-3dbc-4448-b382-d8d8ffad9e95*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Bundle/bundle-example-rac: Bundle.entry[13].resource: Observation.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[13].resource: Observation.category:VSCat: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[13].resource: Observation.subject: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[13].resource: Observation.effective[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[13].resource.value.ofType(Quantity): Observation.value[x]:valueQuantity.unit: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)
+WARNING: Bundle/bundle-example-rac: Bundle.entry[14].resource/*Observation/0b89ad08-c8b2-4863-a158-19f1d829ef97*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[14].resource/*Observation/0b89ad08-c8b2-4863-a158-19f1d829ef97*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[14].resource/*Observation/0b89ad08-c8b2-4863-a158-19f1d829ef97*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource.value.ofType(Quantity): This element does not match any known slice  defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 and slicing is CLOSED: Bundle.entry[14].resource.value.ofType(Quantity): Does not match slice 'valueQuantity' (discriminator: $this.empty())
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.category:VSCat: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.subject: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.effective[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.component: minimum required = 2, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.component:SystolicBP: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource: Observation.component:DiastolicBP: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[14].resource.code: BPCode: magic LOINC code 85354-9 required, but not found (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1). Note that other Observation codes are allowed in addition to this required magic code
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[14].resource.bodySite: Reference to draft item http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao|0.1.0
+WARNING: Bundle/bundle-example-rac: Bundle.entry[15].resource/*Observation/a5a209b7-cbed-48f7-801c-78a4cf72e3f1*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[15].resource/*Observation/a5a209b7-cbed-48f7-801c-78a4cf72e3f1*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[15].resource/*Observation/a5a209b7-cbed-48f7-801c-78a4cf72e3f1*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[16].resource/*Observation/2870566d-ce8c-4eef-af70-6690e538ad21*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[16].resource/*Observation/2870566d-ce8c-4eef-af70-6690e538ad21*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[16].resource/*Observation/2870566d-ce8c-4eef-af70-6690e538ad21*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[17].resource/*Observation/9e56f53e-2074-4d2b-90ab-7a98ae513c48*/: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[17].resource/*Observation/9e56f53e-2074-4d2b-90ab-7a98ae513c48*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[17].resource/*Observation/9e56f53e-2074-4d2b-90ab-7a98ae513c48*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[19].resource/*Composition/601c92a4-96a7-4881-a9c5-8debca8ff558*/.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#RPM)
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[20].resource/*MedicationRequest/a46a0263-142e-46f5-b917-9938b16ebbda*/.medication.ofType(Reference): Details for urn:uuid:d2bb12da-9290-45de-8565-5e8764cf512e matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+WARNING: Bundle/bundle-example-rac: Bundle.entry[20].resource/*MedicationRequest/a46a0263-142e-46f5-b917-9938b16ebbda*/.dosageInstruction[0].timing.repeat.extension[0].value.ofType(code): The value provided ('3') could not be validated because the code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno|* is not known
+WARNING: Bundle/bundle-example-rac: Bundle.entry[20].resource/*MedicationRequest/a46a0263-142e-46f5-b917-9938b16ebbda*/.dosageInstruction[0].timing.repeat.extension[1].extension[0].value.ofType(code): The value provided ('min') could not be validated because the code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo|* is not known
+ERROR: Bundle/bundle-example-rac: Bundle.entry[20].resource/*MedicationRequest/a46a0263-142e-46f5-b917-9938b16ebbda*/.medication.ofType(Reference): Unable to find a match for profile urn:uuid:d2bb12da-9290-45de-8565-5e8764cf512e among choices: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento
+INFORMATION: Bundle/bundle-example-rac: Bundle.entry[20].resource/*MedicationRequest/a46a0263-142e-46f5-b917-9938b16ebbda*/.medication.ofType(Reference): Details for urn:uuid:d2bb12da-9290-45de-8565-5e8764cf512e matching against profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento|0.1.0
+ERROR: Bundle/bundle-example-rac: Bundle.entry[20].resource/*MedicationRequest/a46a0263-142e-46f5-b917-9938b16ebbda*/.dosageInstruction[0].doseAndRate[0].type.coding[0]: The code provided (http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida#13) was not found in the value set 'Unidade de Consumo' (http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo|0.1.0), and a code from this value set is required: Unable to check whether the code is in the value set http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo|0.1.0
+ERROR: Bundle/bundle-example-rac: Bundle.entry[21].resource/*Medication/d2bb12da-9290-45de-8565-5e8764cf512e*/: Medication.id: max allowed = 0, but found 1 (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento|0.1.0)
+ERROR: Bundle/bundle-example-rac: Bundle.entry[21].resource/*Medication/d2bb12da-9290-45de-8565-5e8764cf512e*/: Medication.text: max allowed = 0, but found 1 (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento|0.1.0)
+WARNING: Bundle/bundle-example-rac: Bundle.entry[5].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[5].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[7].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[7].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[7].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[8].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[8].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[8].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[9].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[9].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[9].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[10].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[10].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[11].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[11].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[11].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[12].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[12].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[12].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[13].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[13].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[13].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[14].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[14].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[14].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[15].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[15].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[15].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[16].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[16].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[16].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Bundle/bundle-example-rac: Bundle.entry[17].resource: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Bundle/bundle-example-rac: Bundle.entry[17].resource: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/bundle-example-rac: Bundle.entry[17].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == input\myig.xml ==
 == input\resources\CodeSystem-BRAlergenosCBARA.json ==
 == input\resources\CodeSystem-BRCBHPMTUSS.json ==
@@ -219,21 +361,21 @@ INFORMATION: CodeSystem/BRNaturezaJuridica: CodeSystem: CodeSystems SHOULD have 
 == input\resources\StructureDefinition-BRAdministradorTerceiro-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAdministradorTerceiro-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRAlergiaReacaoAdversa-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRAtendeSUS-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRAtestado.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRCIAP2Avaliado-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRCID10Avaliado-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRCodigoSerialMedicamento.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRConjuntoMinimoDados-1.1.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRContatoAssistencial-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRDocumentoIndividuo-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRDocumentoIndividuo-1.0'): The Implementation Guide contains no examples for this data type profile
 == input\resources\StructureDefinition-BREndereco-1.0.json ==
@@ -241,9 +383,7 @@ WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/Struct
 == input\resources\StructureDefinition-BREstabelecimentoSaude-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRFinanciamento-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRIdentificacaoEquipe-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRIndividuo-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRIndividuoNaoIdentificado-1.0.json ==
@@ -252,18 +392,17 @@ WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/Struct
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRIntervaloDoses.json ==
 WARNING: StructureDefinition/BRIntervaloDoses: StructureDefinition.context[0]: Review the extension type for BRIntervaloDoses: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRLocalAtendimento-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRLotacaoProfissional-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRMedicamento.json ==
 ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRMedidaObservada.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRMeioContato-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMeioContato-1.0'): The Implementation Guide contains no examples for this data type profile
 == input\resources\StructureDefinition-BRMunicipio-1.0.json ==
@@ -276,13 +415,10 @@ WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/Struct
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0'): The Implementation Guide contains no examples for this data type profile
 == input\resources\StructureDefinition-BRObservacaoDescritiva-1.0.json ==
 WARNING: StructureDefinition/BRObservacaoDescritiva-1.0: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BROcupacao-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BROrigemMedida.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BROutrasInformacoes.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRPais-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRParentesIndividuo-1.0.json ==
@@ -290,31 +426,28 @@ WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/Struct
 == input\resources\StructureDefinition-BRPessoaJuridicaProfissionalLiberal-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRPlanoCuidados-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRPrescricaoMedicamento.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRProblemaDiagnostico.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRProcedimentoRealizado-1.0.json ==
 WARNING: StructureDefinition/BRProcedimentoRealizado-1.0: StructureDefinition.snapshot.element[18].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRProfissional-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0'): The Implementation Guide contains no examples for this profile
 == input\resources\StructureDefinition-BRQualidadeCadastroIndividuo-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRQuantidade-1.0.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRRacaCorEtnia-1.0.json ==
 WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRRegistroAtendimentoClinico.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRRegistroPrescricaoMedicamento.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento'): The Implementation Guide contains no explicitly linked examples for this profile
 == input\resources\StructureDefinition-BRRoupasUsadasMedicao.json ==
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao'): The Implementation Guide contains no examples for this extension
 == input\resources\StructureDefinition-BRTurno.json ==
 WARNING: StructureDefinition/BRTurno: StructureDefinition.context[0]: Review the extension type for BRTurno: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno'): The Implementation Guide contains no examples for this extension
 == input\resources\ValueSet-BRAlergenos-1.0.json ==
 WARNING: ValueSet.where(id = 'BRAlergenos-1.0'): The value set http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0 has too many codes to display (>1000) (and Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA version *)
 == input\resources\ValueSet-BRCIAP2-1.0.json ==

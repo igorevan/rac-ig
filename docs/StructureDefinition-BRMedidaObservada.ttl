@@ -43,7 +43,7 @@
   fhir:name [ fhir:v "BRMedidaObservada"] ; # 
   fhir:title [ fhir:v "Medida Observada"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-04T15:48:10-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-08T09:39:44-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

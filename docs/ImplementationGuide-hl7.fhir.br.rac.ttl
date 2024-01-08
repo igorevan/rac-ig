@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-01-04T15:48:10-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-08T09:39:44-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1564,6 +1564,20 @@
        ] ;
        fhir:name [ fhir:v "Via de Administração" ] ;
        fhir:description [ fhir:v "Classifica a via na qual foi administrada uma substância em um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/Bundle/bundle-example-rac> ;
+         fhir:reference [ fhir:v "Bundle/bundle-example-rac" ]
+       ] ;
+       fhir:name [ fhir:v "Registro de Atendimento Clínico (Bundle)" ] ;
+       fhir:example [
+         fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0"^^xsd:anyURI ;
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

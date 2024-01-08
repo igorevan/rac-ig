@@ -683,11 +683,18 @@
       "Medication"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0": [
+      "Bundle.entry.resource.diagnosis.condition",
       "Encounter.diagnosis.condition"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0": [
+      "Bundle.entry.resource.participant",
+      "Bundle.entry.resource.performer",
       "Encounter.participant",
       "Procedure.performer"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndicadorPresencaAdmissao-1.0": [
+      "Bundle.entry.resource.diagnosis.condition",
+      "Bundle.entry.resource.reasonReference"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
       "Composition.subject",
@@ -699,6 +706,7 @@
       "Patient"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses": [
+      "Bundle.entry.resource.dosageInstruction.timing.repeat",
       "MedicationRequest.dosageInstruction.timing.repeat"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0": [
@@ -715,12 +723,15 @@
       "Patient"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0": [
+      "Bundle.entry.resource.participant",
       "Encounter.participant"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida": [
+      "Bundle.entry.resource",
       "Observation"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes": [
+      "Bundle.entry.resource.hospitalization",
       "Encounter.hospitalization"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0": [
@@ -733,15 +744,18 @@
       "Patient"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0": [
+      "Bundle.entry.resource",
       "Procedure"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0": [
       "Patient"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao": [
+      "Bundle.entry.resource",
       "Observation"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno": [
+      "Bundle.entry.resource.dosageInstruction.timing.repeat",
       "MedicationRequest.dosageInstruction.timing.repeat"
     ]
   }
