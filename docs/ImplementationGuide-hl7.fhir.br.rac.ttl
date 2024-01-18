@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-01-08T09:39:44-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-18T12:40:46-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -305,7 +305,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -1575,8 +1575,8 @@
        ] ;
        fhir:name [ fhir:v "Registro de Atendimento Clínico (Bundle)" ] ;
        fhir:example [
-         fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0"^^xsd:anyURI ;
-         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0>
+         fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"^^xsd:anyURI ;
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento>
        ]
      ] [
        fhir:extension ( [

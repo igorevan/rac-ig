@@ -692,10 +692,6 @@
       "Encounter.participant",
       "Procedure.performer"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndicadorPresencaAdmissao-1.0": [
-      "Bundle.entry.resource.diagnosis.condition",
-      "Bundle.entry.resource.reasonReference"
-    ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
       "Composition.subject",
       "Condition.subject",

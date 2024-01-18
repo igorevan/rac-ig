@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2024-01-08T09:39:44-03:00"/>
+  <date value="2024-01-18T12:40:46-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -262,7 +262,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#current"/>
+      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -1410,7 +1410,7 @@
         <reference value="Bundle/bundle-example-rac"/>
       </reference>
       <name value="Registro de Atendimento Clínico (Bundle)"/>
-      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCIAP2Avaliado-1.0"/>
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
