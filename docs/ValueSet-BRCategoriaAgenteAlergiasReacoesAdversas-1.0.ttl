@@ -46,7 +46,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "BRCategoriaAgenteAlergiasReacoesAdversas"] ; # 
   fhir:title [ fhir:v "Categoria do Agente da Alergia ou Reação Adversa"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:date [ fhir:v "2020-09-20T20:37:36.0254538+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 

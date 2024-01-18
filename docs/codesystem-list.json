@@ -27,7 +27,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRCIAP2",
       "title" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
       "description" : "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP."
@@ -35,7 +35,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRCID10",
       "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."
@@ -43,7 +43,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRCaraterAtendimento",
       "title" : "Caráter de Atendimento",
       "description" : "Terminologia que classifica a prioridade de realização de um Contato Assistencial."
@@ -83,7 +83,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRFinanciamento",
       "title" : "Financiamento",
       "description" : "Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."
@@ -91,7 +91,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRFrequenciaUsoSubstancia",
       "title" : "Frequência de Uso de Substância",
       "description" : "Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."
@@ -115,7 +115,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRLocalAfericao",
       "title" : "Local de Aferição",
       "description" : "Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição."
@@ -131,7 +131,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRMedicamento",
       "title" : "Medicamento",
       "description" : "Drogas dirigidas para uso humano, apresentadas em sua formulação final."
@@ -139,7 +139,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRModalidadeAssistencial",
       "title" : "Modalidade Assistencial",
       "description" : "Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento"
@@ -147,7 +147,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRMotivoDesfecho",
       "title" : "Motivo do Desfecho",
       "description" : "Caracteriza o motivo de conclusão total ou parcial do contato assistencial."
@@ -171,7 +171,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRObmAMPP",
       "title" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)",
       "description" : "Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"
@@ -179,7 +179,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRObmANVISA",
       "title" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)",
       "description" : "Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa)"
@@ -187,7 +187,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRObmCATMAT",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)",
       "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)"
@@ -195,7 +195,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRObmEAN",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
       "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org"
@@ -203,7 +203,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRObmVMP",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)",
       "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"
@@ -251,7 +251,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRProcedencia",
       "title" : "Procedência",
       "description" : "Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."
@@ -267,7 +267,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRResponsabilidadeParticipante",
       "title" : "Reponsabilidade no Contato Assistencial",
       "description" : "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."
@@ -283,7 +283,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTipoAleitamentoMaterno",
       "title" : "Tipo de Aleitamento Materno",
       "description" : "Classifica o tipo de aleitamento materno realizado a uma criança."
@@ -323,7 +323,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTipoObservacao",
       "title" : "Tipo de Observação",
       "description" : "Tipo de Observação."
@@ -331,7 +331,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTipoSubstanciaUso",
       "title" : "Tipo de Substância em Uso",
       "description" : "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."
@@ -339,7 +339,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTurno",
       "title" : "Turno do dia",
       "description" : "Code System utilizado para definir o turno de um dia."
@@ -355,7 +355,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRUnidadeTempo",
       "title" : "Unidade de tempo",
       "description" : "Code System utilizado para definir a classe de unidades de tempo."

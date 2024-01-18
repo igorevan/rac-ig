@@ -482,7 +482,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "48767-8"
             }
           ]
@@ -530,7 +530,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://loinc.org/",
+                  "system": "http://loinc.org",
                   "code": "3137-7"
                 }
               ]
@@ -541,12 +541,11 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "29463-7"
             }
           ]
         },
-
         "valueQuantity": {
           "value": 1.83,
           "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
@@ -555,7 +554,7 @@
         "method": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "LA11870-5"
             }
           ]
@@ -576,7 +575,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "8280-0"
             }
           ]
@@ -602,7 +601,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "8665-2"
             }
           ]
@@ -624,7 +623,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "56832-9"
             }
           ]
@@ -668,7 +667,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "11885-1"
             }
           ]
@@ -694,7 +693,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "9843-4"
             }
           ]
@@ -722,7 +721,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://loinc.org/",
+                  "system": "http://loinc.org",
                   "code": "3138-5"
                 }
               ]
@@ -733,7 +732,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://loinc.org/",
+                  "system": "http://loinc.org",
                   "code": "LA11873-9"
                 }
               ]
@@ -744,7 +743,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "29463-7"
             }
           ]
@@ -757,7 +756,7 @@
         "method": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "LA11870-5"
             }
           ]
@@ -778,7 +777,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "8480-6"
             }
           ]
@@ -799,7 +798,7 @@
         "method": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "LA11868-9"
             }
           ]
@@ -820,7 +819,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "11612-9"
             }
           ]
@@ -844,7 +843,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "11996-6"
             }
           ]
@@ -868,7 +867,7 @@
         "code": {
           "coding": [
             {
-              "system": "https://loinc.org/",
+              "system": "http://loinc.org",
               "code": "11996-6"
             }
           ]

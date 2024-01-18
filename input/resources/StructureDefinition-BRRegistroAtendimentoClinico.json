@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "BRRegistroAtendimentoClinico",
   "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
   "language": "pt-BR",
   "version": "2.1",
   "name": "BRRegistroAtendimentoClinico",
   "title": "Registro de Atendimento Clínico",
-  "status": "draft",
+  "status": "active",
   "date": "2023-07-25",
   "publisher": "Ministério da Saúde do Brasil",
   "description": "Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar.",

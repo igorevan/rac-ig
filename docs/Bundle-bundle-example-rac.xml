@@ -379,12 +379,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="c9f83c17-3081-4233-b1e4-f629c58d6813"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;c9f83c17-3081-4233-b1e4-f629c58d6813&quot; Updated &quot;2022-05-09 17:37:55+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">Observação Descritiva</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 48767-8 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#48767-8)</span></p><p><b>subject</b>: <span>id: 819217217061851</span></p><p><b>issued</b>: 9 de mai. de 2022 14:39:08</p><p><b>value</b>: Varizes esofagianas sem sangramento.</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="c9f83c17-3081-4233-b1e4-f629c58d6813"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;c9f83c17-3081-4233-b1e4-f629c58d6813&quot; Updated &quot;2022-05-09 17:37:55+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">Observação Descritiva</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Annotation comment [Interpretation] Narrative <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#48767-8)</span></p><p><b>subject</b>: <span>id: 819217217061851</span></p><p><b>issued</b>: 9 de mai. de 2022 14:39:08</p><p><b>value</b>: Varizes esofagianas sem sangramento.</p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="48767-8"/>
           </coding>
         </code>
@@ -426,12 +426,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="bd2466a4-18af-4c3b-899c-b6cccc51acff"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;bd2466a4-18af-4c3b-899c-b6cccc51acff&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>Origem da Medição</b>: 3137-7 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#3137-7)</span></p><p><b>status</b>: final</p><p><b>code</b>: 29463-7 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#29463-7)</span></p><p><b>value</b>: 1.83(unit m from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code m = 'm')</span></p><p><b>method</b>: LA11870-5 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#LA11870-5)</span></p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="bd2466a4-18af-4c3b-899c-b6cccc51acff"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;bd2466a4-18af-4c3b-899c-b6cccc51acff&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>Origem da Medição</b>: Body height Measured <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#3137-7)</span></p><p><b>status</b>: final</p><p><b>code</b>: Body weight <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#29463-7)</span></p><p><b>value</b>: 1.83(unit m from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code m = 'm')</span></p><p><b>method</b>: Standing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11870-5)</span></p></div>
         </text>
         <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida">
           <valueCodeableConcept>
             <coding>
-              <system value="https://loinc.org/"/>
+              <system value="http://loinc.org"/>
               <code value="3137-7"/>
             </coding>
           </valueCodeableConcept>
@@ -439,7 +439,7 @@
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="29463-7"/>
           </coding>
         </code>
@@ -450,7 +450,7 @@
         </valueQuantity>
         <method>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="LA11870-5"/>
           </coding>
         </method>
@@ -466,12 +466,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="84e657cc-159f-4271-b0a1-38a76e28c624"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;84e657cc-159f-4271-b0a1-38a76e28c624&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 8280-0 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#8280-0)</span></p><p><b>value</b>: 135.5(unit cm from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code cm = 'cm')</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="84e657cc-159f-4271-b0a1-38a76e28c624"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;84e657cc-159f-4271-b0a1-38a76e28c624&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Waist Circumference at umbilicus by Tape measure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8280-0)</span></p><p><b>value</b>: 135.5(unit cm from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code cm = 'cm')</span></p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="8280-0"/>
           </coding>
         </code>
@@ -492,12 +492,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="5302c1a3-2190-44aa-a9a2-382d27fe9230"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;5302c1a3-2190-44aa-a9a2-382d27fe9230&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 8665-2 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#8665-2)</span></p><p><b>value</b>: 2022-05-23</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="5302c1a3-2190-44aa-a9a2-382d27fe9230"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;5302c1a3-2190-44aa-a9a2-382d27fe9230&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Last menstrual period start date <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8665-2)</span></p><p><b>value</b>: 2022-05-23</p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="8665-2"/>
           </coding>
         </code>
@@ -514,12 +514,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="8264b367-cce0-4a76-b8d4-f9dcea39ee3d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;8264b367-cce0-4a76-b8d4-f9dcea39ee3d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 56832-9 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#56832-9)</span></p><p><b>effective</b>: Code: 1 ou 2 vezes</p><p><b>value</b>: Bebidas Alcóolicas <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoSubstanciaUso.html">Tipo de Substância em Uso</a>#alcool)</span></p><p><b>note</b>: Uso ocasional de cannabis.</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="8264b367-cce0-4a76-b8d4-f9dcea39ee3d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;8264b367-cce0-4a76-b8d4-f9dcea39ee3d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Type of substance abused <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#56832-9)</span></p><p><b>effective</b>: Code: 1 ou 2 vezes</p><p><b>value</b>: Bebidas Alcóolicas <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoSubstanciaUso.html">Tipo de Substância em Uso</a>#alcool)</span></p><p><b>note</b>: Uso ocasional de cannabis.</p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="56832-9"/>
           </coding>
         </code>
@@ -552,12 +552,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="0509d090-3594-4f07-b32c-2a97da6a6fed"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;0509d090-3594-4f07-b32c-2a97da6a6fed&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 11885-1 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#11885-1)</span></p><p><b>value</b>: 3.5(unit wk from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code wk = 'wk')</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="0509d090-3594-4f07-b32c-2a97da6a6fed"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;0509d090-3594-4f07-b32c-2a97da6a6fed&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Gestational age Estimated from last menstrual period <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11885-1)</span></p><p><b>value</b>: 3.5(unit wk from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code wk = 'wk')</span></p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="11885-1"/>
           </coding>
         </code>
@@ -578,12 +578,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="059208f1-0083-4f81-a472-87b32140b31d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;059208f1-0083-4f81-a472-87b32140b31d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 9843-4 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#9843-4)</span></p><p><b>value</b>: 45.5(unit cm from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code cm = 'cm')</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="059208f1-0083-4f81-a472-87b32140b31d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;059208f1-0083-4f81-a472-87b32140b31d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Head Occipital-frontal circumference <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#9843-4)</span></p><p><b>value</b>: 45.5(unit cm from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code cm = 'cm')</span></p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="9843-4"/>
           </coding>
         </code>
@@ -604,12 +604,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="98b0e992-9c95-464a-a661-6c42a4bd310c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;98b0e992-9c95-464a-a661-6c42a4bd310c&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>Origem da Medição</b>: 3138-5 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#3138-5)</span></p><p><b>Roupas Usadas na Medição</b>: LA11873-9 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#LA11873-9)</span></p><p><b>status</b>: final</p><p><b>code</b>: 29463-7 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#29463-7)</span></p><p><b>value</b>: 88.15(unit kg from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code kg = 'kg')</span></p><p><b>method</b>: LA11870-5 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#LA11870-5)</span></p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="98b0e992-9c95-464a-a661-6c42a4bd310c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;98b0e992-9c95-464a-a661-6c42a4bd310c&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>Origem da Medição</b>: Body height Stated <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#3138-5)</span></p><p><b>Roupas Usadas na Medição</b>: Street clothes &amp; shoes <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11873-9)</span></p><p><b>status</b>: final</p><p><b>code</b>: Body weight <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#29463-7)</span></p><p><b>value</b>: 88.15(unit kg from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code kg = 'kg')</span></p><p><b>method</b>: Standing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11870-5)</span></p></div>
         </text>
         <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida">
           <valueCodeableConcept>
             <coding>
-              <system value="https://loinc.org/"/>
+              <system value="http://loinc.org"/>
               <code value="3138-5"/>
             </coding>
           </valueCodeableConcept>
@@ -617,7 +617,7 @@
         <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao">
           <valueCodeableConcept>
             <coding>
-              <system value="https://loinc.org/"/>
+              <system value="http://loinc.org"/>
               <code value="LA11873-9"/>
             </coding>
           </valueCodeableConcept>
@@ -625,7 +625,7 @@
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="29463-7"/>
           </coding>
         </code>
@@ -636,7 +636,7 @@
         </valueQuantity>
         <method>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="LA11870-5"/>
           </coding>
         </method>
@@ -652,12 +652,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="efcce484-7226-435f-8c7c-b1d703079444"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;efcce484-7226-435f-8c7c-b1d703079444&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 8480-6 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#8480-6)</span></p><p><b>value</b>: 0.15(unit mm[Hg] from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code mm[Hg] = 'mm[Hg]')</span></p><p><b>bodySite</b>: Pulso esquerdo <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRLocalAfericao.html">Local de Aferição</a>#6)</span></p><p><b>method</b>: LA11868-9 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#LA11868-9)</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="efcce484-7226-435f-8c7c-b1d703079444"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;efcce484-7226-435f-8c7c-b1d703079444&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Systolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6)</span></p><p><b>value</b>: 0.15(unit mm[Hg] from https://www.hl7.org/fhir/valueset-ucum-common.html)<span style="background: LightGoldenRodYellow"> (Details: https://www.hl7.org/fhir/valueset-ucum-common.html code mm[Hg] = 'mm[Hg]')</span></p><p><b>bodySite</b>: Pulso esquerdo <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRLocalAfericao.html">Local de Aferição</a>#6)</span></p><p><b>method</b>: Sitting <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11868-9)</span></p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="8480-6"/>
           </coding>
         </code>
@@ -674,7 +674,7 @@
         </bodySite>
         <method>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="LA11868-9"/>
           </coding>
         </method>
@@ -690,12 +690,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="d78c1159-1473-4bef-9096-5ba98384e950"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;d78c1159-1473-4bef-9096-5ba98384e950&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 11612-9 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#11612-9)</span></p><p><b>value</b>: 1</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="d78c1159-1473-4bef-9096-5ba98384e950"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;d78c1159-1473-4bef-9096-5ba98384e950&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: [#] Abortions <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11612-9)</span></p><p><b>value</b>: 1</p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="11612-9"/>
           </coding>
         </code>
@@ -714,12 +714,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="32e99ca6-4e7d-4d56-8f25-612dd1c51a71"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;32e99ca6-4e7d-4d56-8f25-612dd1c51a71&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 11996-6 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#11996-6)</span></p><p><b>value</b>: 2</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="32e99ca6-4e7d-4d56-8f25-612dd1c51a71"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;32e99ca6-4e7d-4d56-8f25-612dd1c51a71&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: [#] Pregnancies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11996-6)</span></p><p><b>value</b>: 2</p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="11996-6"/>
           </coding>
         </code>
@@ -738,12 +738,12 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="19011496-44a1-4048-8e1b-558b82b1caf1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;19011496-44a1-4048-8e1b-558b82b1caf1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: 11996-6 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#11996-6)</span></p><p><b>value</b>: Predominante <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoAleitamentoMaterno.html">Tipo de Aleitamento Materno</a>#predominante)</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="19011496-44a1-4048-8e1b-558b82b1caf1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;19011496-44a1-4048-8e1b-558b82b1caf1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: [#] Pregnancies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11996-6)</span></p><p><b>value</b>: Predominante <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoAleitamentoMaterno.html">Tipo de Aleitamento Materno</a>#predominante)</span></p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="https://loinc.org/"/>
+            <system value="http://loinc.org"/>
             <code value="11996-6"/>
           </coding>
         </code>

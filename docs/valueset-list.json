@@ -45,7 +45,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRCategoriaAgenteAlergiasReacoesAdversas",
       "title" : "Categoria do Agente da Alergia ou Reação Adversa",
       "description" : "Categoriza a substância responsável por causar uma alergia ou reação adversa.",
@@ -54,7 +54,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRCategoriaCondicao",
       "title" : "Classificação de uma condição.",
       "description" : "Tradução para o português do brasil da classificação de uma condição",
@@ -119,7 +119,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BREstadoEvento",
       "title" : "Estado do Evento",
       "description" : "Identificação do estado de um evento.",
@@ -137,7 +137,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BREstadoResolucaoDiagnosticoProblema",
       "title" : "Estado da Resolução de Diagnóstico ou Problema",
       "description" : "Estado da resolução de um diagnóstico ou problema.",
@@ -155,7 +155,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BREstadoSolicitacaoMedicamento",
       "title" : "Estado da Solicitação de Medicamento",
       "description" : "Estado da Solicitação de Medicamento",
@@ -182,7 +182,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRFrequenciaUsoSubstancia",
       "title" : "Frequência de Uso da Substância",
       "description" : "Identifica a frequência de uso da substância em uso conforme declaração do indivíduo.",
@@ -194,7 +194,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRGrauCertezaAlergiasReacoesAdversas",
       "title" : "Grau de Certeza de Alergias e Reações Adversas",
       "description" : "Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa.",
@@ -325,7 +325,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRPapelProblemaDiagnostico",
       "title" : "Classificação do papel de um problema e diagnóstico.",
       "description" : "Tradução para o português do brasil da classificação do papel de um problema/diagnóstico.",
@@ -346,7 +346,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRPosicaoIndividuo",
       "title" : "Posição do Indivíduo",
       "description" : "ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento.",
@@ -358,7 +358,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRPrescricaoNaoEstruturada",
       "title" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
       "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
@@ -369,7 +369,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRProblemaDiagnostico",
       "title" : "Classificação Internacional de Doenças e Atenção Primária",
       "description" : "Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)",
@@ -390,7 +390,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRProcedimentosNacionais",
       "title" : "Procedimento realizado",
       "description" : "ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS.",
@@ -440,7 +440,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTerminologiaMedicamento",
       "title" : "Terminologia dos medicamentos",
       "description" : "ValueSet utilizado para definir a terminologia de um dado medicamento.",
@@ -455,7 +455,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAleitamentoMaterno-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTipoAleitamentoMaterno",
       "title" : "Tipo de Aleitamento Materno",
       "description" : "Definição do tipo de aleitamento materno realizado a uma criança.",
@@ -529,7 +529,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTipoObservacao",
       "title" : "Tipo de Observação",
       "description" : "Tipo de Observação.",
@@ -542,7 +542,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTipoSubstanciaUso",
       "title" : "Tipo de Substância em Uso",
       "description" : "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
@@ -553,7 +553,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTurno",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRTurno",
       "title" : "Turno do dia",
       "description" : "ValueSet utilizado para definir o turno de um dia.",
@@ -562,7 +562,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRUnidadeConsumo",
       "title" : "Unidade de Consumo",
       "description" : "ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito.",
@@ -582,7 +582,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRUnidadeMedidaMedicamento",
       "title" : "Unidade de Medida de Medicamento",
       "description" : "ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante.",
@@ -591,7 +591,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "BRUnidadeTempo",
       "title" : "Unidade de Tempo",
       "description" : "ValueSet utilizado para definir uma unidade de tempo.",
@@ -611,7 +611,7 @@
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao",
       "version" : "0.1.0",
-      "status" : "draft",
+      "status" : "active",
       "name" : "RoupasUsadasMedicao",
       "title" : "Roupas Usadas na Medição",
       "description" : "ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8.",
