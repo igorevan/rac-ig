@@ -143,10 +143,10 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
       "ValueSet-BROrigemMedida.html" : "Origem de Medição",
       "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
-      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -594,8 +594,8 @@
       "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
       "uses" : {
       },
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
+      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
@@ -640,8 +640,8 @@
       "description" : "Classifica o tipo de indicador que está sendo utilizado.",
       "uses" : {
       },
-      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento",
-      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo"
+      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo",
+      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
@@ -696,8 +696,8 @@
       "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
       "uses" : {
       },
-      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
-      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
+      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
+      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
