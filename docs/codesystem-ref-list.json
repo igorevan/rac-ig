@@ -144,9 +144,9 @@
       "uses" : {
       },
       "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
       "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
-      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-      "ValueSet-BROrigemMedida.html" : "Origem de Medição"
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -250,8 +250,8 @@
       "description" : "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP.",
       "uses" : {
       },
-      "ValueSet-BRCIAP2-1.0.html" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
-      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
+      "ValueSet-BRCIAP2-1.0.html" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
@@ -262,8 +262,8 @@
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
       "uses" : {
       },
-      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
-      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
+      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
@@ -594,8 +594,8 @@
       "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
       "uses" : {
       },
-      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
@@ -640,8 +640,8 @@
       "description" : "Classifica o tipo de indicador que está sendo utilizado.",
       "uses" : {
       },
-      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo",
-      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento"
+      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento",
+      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
@@ -696,8 +696,8 @@
       "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
       "uses" : {
       },
-      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

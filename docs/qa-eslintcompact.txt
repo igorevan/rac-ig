@@ -2,6 +2,7 @@ RACRNDSIG
 =========================================
 
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/bundle-example-rac.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Error - The image source 'racMC.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
@@ -51,6 +52,7 @@ C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 371, 
 C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 371, col 10, Error - A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0] (NOTFOUND)
 C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 405, col 14, Warning - A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated (NOTFOUND)
 C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 405, col 14, Error - A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0] (NOTFOUND)
+C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 417, col 10, Warning - A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' could not be found, so the code cannot be validated (NOTFOUND)
 C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 417, col 10, Error - Error reading Http Response from http://tx.fhir.org/r4: Error parsing JSON source: Unexpected char 'P' in json stream at Line 1 (path=[null]) (CODEINVALID)
 C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 434, col 14, Error - A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0] (NOTFOUND)
 C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo.json: line 472, col 8, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
@@ -279,5 +281,5 @@ C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoDocumentoIndividuo-1.0.json:
 C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoIdentificadorProcedimento-1.0.json: line 0, col 0, Warning - Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]) (BUSINESSRULE)
 C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoObservacao-1.0.json: line 0, col 0, Warning - Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]) (BUSINESSRULE)
 
-err = 74, warn = 146, info = 57
+err = 74, warn = 147, info = 57
 IG Publisher Version: 1.5.13

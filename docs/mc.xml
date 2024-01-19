@@ -5,8 +5,10 @@
   <a name="computacional"> </a>
   <h3>Modelo Computacional</h3>
   <p> Para a modelagem do modelo computacional do Registro de Atendimento Clínico (RAC), foram
-    mapeados os campos do Modelo de Informação (MI) aos recursos internacionais <a href="https://hl7.org/fhir/R4/">FHIR
-      R4</a>. Assim, foi realizada a modelagem fechada dos perfis de modo a atender o contexto nacional. </p>
+    mapeados os campos do Modelo de Informação (MI) aos recursos internacionais <a
+      href="https://hl7.org/fhir/R4/">FHIR
+      R4</a>. Assim, foi realizada a modelagem fechada dos perfis de modo a atender o contexto
+    nacional. </p>
   <p>Foi criado um <a href="https://simplifier.net/redenacionaldedadosemsaude/">Projeto Rede
       Nacional de Dados em Saúde</a>, na plataforma <a href="https://simplifier.net/">SIMPLIFIER.NET</a>,
     para a publicação e distribuição dos perfis relacionados aos documentos computacionais em
@@ -14,20 +16,18 @@
 
   <a name="bundlerac"> </a>
   <h3>Bundle de Envio do RAC</h3>
-  <p>
-    O diagrama UML abaixo apresenta o pacote <i>Bundle</i> no qual é depositado um Registro de
-    Atendimento Clínico completo, referenciando um Conjunto Mínimo de Dados (CMD) e todos
-    os dados clínicos relevantes para caracterizar um atendimento clínico completo.
-  </p>
+  <p> O diagrama abaixo apresenta o pacote <i>Bundle</i> no qual é depositado um Registro de
+    Atendimento Clínico completo, referenciando todos os dados clínicos relevantes para caracterizar
+    um atendimento clínico completo. </p>
   <p>
     <center>
-      <b>Figura 1 - Diagrama UML do <i>Bundle</i> do RAC</b>
+      <b>Figura 1 - Diagrama do <i>Bundle</i> do RAC</b>
     </center>
   </p>
   <center>
     <div>
 
-      <img height="500" src="bundleMC.png" alt="Diagrama UML do Bundle do RAC" />
+      <img height="700" src="racMC.png" alt="Diagrama UML do Bundle do RAC" />
 
     </div>
   </center>
@@ -54,10 +54,44 @@
         </td>
       </tr>
       <tr>
-        <td>Composition</td>
+        <td>Encounter</td>
         <td>
           <code>
-            <a href="StructureDefinition-BRConjuntoMinimoDados-1.1.html">BRConjuntoMinimoDados</a></code>
+            <a href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td>Condition</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRProblemaDiagnostico.html">BRProblemaDiagnostico</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td>Procedure</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">BRProcedimentoRealizado</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td>Observation</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRMedidaObservada.html">BRMedidaObservada</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td>AllergyIntolerance</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">
+              BRAlergiaReacaoAdversa</a>
+          </code>
         </td>
       </tr>
       <tr>
@@ -67,43 +101,14 @@
             <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">
               BRRegistroPrescricaoMedicamento</a>
           </code>
-
         </td>
       </tr>
       <tr>
-        <td>MedicationRequest</td>
+        <td>CarePlan</td>
         <td>
           <code>
-            <a href="StructureDefinition-BRPrescricaoMedicamento.html">BRPrescricaoMedicamento</a>
+            <a href="StructureDefinition-BRPlanoCuidados-1.0.html">BRPlanoCuidados</a>
           </code>
-
-        </td>
-      </tr>
-      <tr>
-        <td>Medication</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRMedicamento.html">BRMedicamento</a>
-          </code>
-
-        </td>
-      </tr>
-      <tr>
-        <td>Practioner</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRProfissional-1.0.html">BRProfissional</a>
-          </code>
-
-        </td>
-      </tr>
-      <tr>
-        <td>Procedure</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">BRProcedimentoRealizado</a>
-          </code>
-
         </td>
       </tr>
       <tr>
@@ -112,26 +117,6 @@
           <code>
             <a href="StructureDefinition-BRAtestado.html">BRAtestado</a>
           </code>
-
-        </td>
-      </tr>
-      <tr>
-        <td>Observation</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">BRObservacaoDescritiva</a>
-          </code>
-
-        </td>
-
-      </tr>
-      <tr>
-        <td>Observation</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRMedidaObservada.html">BRMedidaObservada</a>
-          </code>
-
         </td>
       </tr>
       <tr>
@@ -140,16 +125,30 @@
           <code>
             <a href="StructureDefinition-BRLocalAtendimento-1.0.html">BRLocalAtendimento</a>
           </code>
-
         </td>
       </tr>
       <tr>
-        <td>Encounter</td>
+        <td>Observation</td>
         <td>
           <code>
-            <a href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial</a>
+            <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">BRObservacaoDescritiva</a>
           </code>
-
+        </td>
+      </tr>
+      <tr>
+        <td>MedicationRequest</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRPrescricaoMedicamento.html">BRPrescricaoMedicamento</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td>Medication</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRMedicamento.html">BRMedicamento</a>
+          </code>
         </td>
       </tr>
       <tr>
@@ -158,16 +157,6 @@
           <code>
             <a href="StructureDefinition-BRCID10Avaliado-1.0.html">BRCID10Avaliado</a>
           </code>
-
-        </td>
-      </tr>
-      <tr>
-        <td>Condition</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRProblemaDiagnostico.html">BRProblemaDiagnostico</a>
-          </code>
-
         </td>
       </tr>
     </tbody>
@@ -301,9 +290,9 @@
   </table>
   <p>Perfis dos tipos <i>ValueSet</i> e <i>CodeSystem</i> estão associados a recursos
     terminológicos. No contexto de Atendimento Clínico e os domínios utilizados, foram criados <i>
-      CodeSystems</i> específicos definidos pelo <a
+    CodeSystems</i> específicos definidos pelo <a
       href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
-      Gestor de Saúde Digital (CGSD)</a>.</p>
+    Gestor de Saúde Digital (CGSD)</a>.</p>
 
   <table class="grid">
     <thead>
@@ -532,7 +521,7 @@
   <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
     periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
     dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
-      no Simplifier</a>. </p>
+    no Simplifier</a>. </p>
   <p>Note que na estrutura dos perfis há elementos com bindings para <i>ValueSets</i> que apontam
     para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
     indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo

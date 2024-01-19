@@ -1,11 +1,11 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 74, warn = 146, info = 57
-IG Publisher Version: 1.5.13
-Generated Thu Jan 18 17:44:38 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
- Build Errors : 0 / 5 / 0
- C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo : 73 / 86 / 96
+err = 74, warn = 147, info = 57
+IG Publisher Version: 1.5.13 Out of date - current version is 1.5.14
+Generated Fri Jan 19 17:57:08 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+ Build Errors : 1 / 5 / 0
+ C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo : 73 / 87 / 96
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -164,6 +164,7 @@ Generated Thu Jan 18 17:44:38 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/bundle-example-rac.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\Igor\rac-ig\output\mc.html#/html/body/div/div/div/div/div/div/center/div/img at Line 221, column 8: The image source 'racMC.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -214,6 +215,7 @@ WARNING: Bundle/bundle-example-rac: Bundle.entry[2].resource/*Condition/2af3c6c9
 ERROR: Bundle/bundle-example-rac: Bundle.entry[2].resource/*Condition/2af3c6c9-87ed-4f01-afec-ee8dc7df9951*/.code.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated
 ERROR: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.identifier[0].type.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
+WARNING: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.code.coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' could not be found, so the code cannot be validated
 ERROR: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.code: Error reading Http Response from http://tx.fhir.org/r4: Error parsing JSON source: Unexpected char 'P' in json stream at Line 1 (path=[null])
 ERROR: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.performer[0].function.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac: Bundle.entry[4].resource/*Observation/c9f83c17-3081-4233-b1e4-f629c58d6813*/: Best Practice Recommendation: In general, all observations should have a performer
