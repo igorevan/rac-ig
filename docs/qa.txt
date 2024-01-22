@@ -1,11 +1,11 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 74, warn = 139, info = 65
+err = 74, warn = 141, info = 65
 IG Publisher Version: 1.5.14
-Generated Fri Jan 19 18:40:18 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+Generated Sun Jan 21 18:59:46 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 5 / 0
- C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo : 73 / 85 / 98
+ C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo : 73 / 87 / 98
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -215,6 +215,7 @@ ERROR: Bundle/bundle-example-rac: Bundle.entry[2].resource/*Condition/2af3c6c9-8
 WARNING: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated
 ERROR: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.identifier[0].type.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 INFORMATION: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
+WARNING: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.code.coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' could not be found, so the code cannot be validated
 ERROR: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.code.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 ERROR: Bundle/bundle-example-rac: Bundle.entry[3].resource/*Procedure/1031de4c-be76-48d3-85de-75274dba036c*/.performer[0].function.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac: Bundle.entry[4].resource/*Observation/c9f83c17-3081-4233-b1e4-f629c58d6813*/: Best Practice Recommendation: In general, all observations should have a performer
@@ -333,6 +334,7 @@ INFORMATION: Bundle/bundle-example-rac: Bundle.entry[22].resource.activity[0].de
 INFORMATION: Bundle/bundle-example-rac: Bundle.entry[23].resource/*Condition/6f057e45-34ab-43d6-8fd5-53c1d3aa73b2*/.clinicalStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-clinical|4.0.1
 WARNING: Bundle/bundle-example-rac: Bundle.entry[23].resource/*Condition/6f057e45-34ab-43d6-8fd5-53c1d3aa73b2*/.category[0].coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico' could not be found, so the code cannot be validated
 ERROR: Bundle/bundle-example-rac: Bundle.entry[23].resource/*Condition/6f057e45-34ab-43d6-8fd5-53c1d3aa73b2*/.category[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
+WARNING: Bundle/bundle-example-rac: Bundle.entry[23].resource/*Condition/6f057e45-34ab-43d6-8fd5-53c1d3aa73b2*/.code.coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10' could not be found, so the code cannot be validated
 ERROR: Bundle/bundle-example-rac: Bundle.entry[23].resource/*Condition/6f057e45-34ab-43d6-8fd5-53c1d3aa73b2*/.code.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac: Bundle.entry[4].resource: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Bundle/bundle-example-rac: Bundle.entry[4].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()

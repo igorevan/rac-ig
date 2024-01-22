@@ -130,8 +130,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.112"],
       "uses" : {
       },
-      "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação",
-      "ValueSet-BREstadoAtestado.html" : "Status do atestado"
+      "ValueSet-BREstadoAtestado.html" : "Status do atestado",
+      "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação"
     },
     {
       "url" : "http://loinc.org",
@@ -143,10 +143,10 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
       "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
+      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -262,8 +262,8 @@
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
       "uses" : {
       },
-      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
-      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
+      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
@@ -307,8 +307,8 @@
       "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil.",
       "uses" : {
       },
-      "ValueSet-BRUnidadeFederativa-1.0.html" : "Unidade Federativa",
-      "ValueSet-BRMunicipio-1.0.html" : "Município"
+      "ValueSet-BRMunicipio-1.0.html" : "Município",
+      "ValueSet-BRUnidadeFederativa-1.0.html" : "Unidade Federativa"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena",
@@ -617,8 +617,8 @@
       "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
       "uses" : {
       },
-      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
-      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
+      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
+      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
@@ -640,8 +640,8 @@
       "description" : "Classifica o tipo de indicador que está sendo utilizado.",
       "uses" : {
       },
-      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo",
-      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento"
+      "ValueSet-BRTipoIdentificadorProcedimento-1.0.html" : "Tipo de Identificador do Procedimento",
+      "ValueSet-BRTipoDocumentoIndividuo-1.0.html" : "Tipo de Documento do Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
@@ -696,8 +696,8 @@
       "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
       "uses" : {
       },
-      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

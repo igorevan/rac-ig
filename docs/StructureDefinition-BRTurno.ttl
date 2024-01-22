@@ -44,7 +44,7 @@
   fhir:title [ fhir:v "Turno do Dia"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-01-19T18:12:35-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-21T18:35:12-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
