@@ -81,6 +81,14 @@
       "description" : "Classifica os tipos de imunobiológicos."
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRJustificativaIndividuoNaoIdentificado",
+      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
       "version" : "0.1.0",
       "status" : "active",

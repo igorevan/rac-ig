@@ -84,10 +84,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
@@ -188,8 +188,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.238"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -203,7 +204,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.241"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
       "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
@@ -218,8 +218,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -308,10 +308,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.512"],
       "uses" : {
       },
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
       "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
       "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -367,21 +367,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.237"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "FHIRDocumentTypeCodes",
-      "title" : "FHIR Document Type Codes",
-      "description" : "FHIR Document Codes - all LOINC codes where scale type = 'DOC'.",
-      "systems" : ["http://loinc.org"],
-      "oids" : ["2.16.840.1.113883.4.642.3.240"],
-      "sources" : ["2.16.840.1.113883.4.642.3.240"],
-      "uses" : {
-      },
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
       "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
@@ -396,7 +383,6 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
       "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
@@ -411,8 +397,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.244"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
@@ -532,9 +519,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.75"],
       "uses" : {
       },
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
       "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -548,17 +535,18 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -572,17 +560,18 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -596,20 +585,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-BRMedicamento.html" : "Medicamento",
       "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
       "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRMedicamento.html" : "Medicamento",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -623,8 +613,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.322"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-mode",
@@ -638,8 +629,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.318"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-order",
@@ -653,8 +645,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.324"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -1056,18 +1049,19 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/route-codes",
@@ -1123,8 +1117,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.78"],
       "uses" : {
       },
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/units-of-time",
@@ -1138,9 +1132,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.77"],
       "uses" : {
       },
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
       "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
@@ -1180,8 +1174,9 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
@@ -1225,8 +1220,9 @@
       "sources" : ["2.16.840.1.113883.1.11.10228"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
@@ -1271,6 +1267,18 @@
       "uses" : {
       },
       "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCID10",
+      "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "description" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"],
+      "uses" : {
+      },
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
@@ -1411,6 +1419,18 @@
       "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoSolicitacao",
+      "title" : "Estado da Solicitação",
+      "description" : "Estado da solicitação.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -1476,6 +1496,20 @@
       "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRJustificativaIndividuoNaoIdentificado",
+      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -1499,7 +1533,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
@@ -1639,6 +1675,18 @@
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRSexo",
+      "title" : "Sexo",
+      "description" : "Sexo de um indivíduo.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
       "version" : "0.1.0",
       "status" : "active",
@@ -1689,7 +1737,9 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",
@@ -1743,8 +1793,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno"],
       "uses" : {
       },
-      "StructureDefinition-BRTurno.html" : "Turno",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRTurno.html" : "Turno"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
@@ -1780,8 +1830,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo"],
       "uses" : {
       },
-      "StructureDefinition-BRIntervaloDoses.html" : "Intervalo de Doses",
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRIntervaloDoses.html" : "Intervalo de Doses"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",

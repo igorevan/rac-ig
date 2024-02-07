@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-02-07T09:19:37-03:00"/>
+  <date value="2024-02-07T18:11:02-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -487,6 +487,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/BRConjuntoMinimoDados-1.1"/>
+      </reference>
+      <name value="Conjunto Mínimo de Dados (CMD)"/>
+      <description value="Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/BRLocalAtendimento-1.0"/>
       </reference>
       <name value="Local de Atendimento"/>
@@ -640,6 +650,7 @@
         <reference value="StructureDefinition/BROcupacao-1.0"/>
       </reference>
       <name value="Ocupação"/>
+      <description value="Extensão para incluir a Ocupação"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1073,6 +1084,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado"/>
+      </reference>
+      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo"/>
+      <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -1493,12 +1514,53 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRCID10-1.0"/>
+      </reference>
+      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
+      <description value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoSolicitacao-1.0"/>
+      </reference>
+      <name value="Estado da Solicitação"/>
+      <description value="Estado da solicitação."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"/>
+      </reference>
+      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo"/>
+      <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRSexo-1.0"/>
+      </reference>
+      <name value="Sexo"/>
+      <description value="Sexo de um indivíduo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
         <reference value="Bundle/bundle-example-rac"/>
       </reference>
-      <name value="Registro de Atendimento Clínico (Bundle)"/>
+      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
+      <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
       <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"/>
     </resource>
     <resource>
@@ -1606,7 +1668,7 @@
         </extension>
         <nameUrl value="exemplos.html"/>
         <title value="Exemplos"/>
-        <generation value="markdown"/>
+        <generation value="html"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">

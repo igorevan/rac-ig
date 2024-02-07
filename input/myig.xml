@@ -66,6 +66,12 @@ including changing realm -->
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/BRConjuntoMinimoDados-1.1" />
+      </reference>
+      <name value="Conjunto Mínimo de Dados (CMD)" />
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/BRLocalAtendimento-1.0" />
       </reference>
       <name value="Local de Atendimento" />
@@ -427,6 +433,12 @@ including changing realm -->
       </reference>
       <name value="Unidade de tempo" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado" />
+      </reference>
+      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo" />
+    </resource>
 
     <!-- ValueSet -->
     <resource>
@@ -681,6 +693,39 @@ including changing realm -->
       </reference>
       <name value="Status do afastamento descrito no atestado" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCID10-1.0" />
+      </reference>
+      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoSolicitacao-1.0" />
+      </reference>
+      <name value="Estado da Solicitação" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" />
+      </reference>
+      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRSexo-1.0" />
+      </reference>
+      <name value="Sexo" />
+    </resource>
+
+    <!-- Examples -->
+    <resource>
+      <reference>
+        <reference value="Bundle/bundle-example-rac" />
+      </reference>
+      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
+      <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
+    </resource>
 
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
@@ -720,7 +765,7 @@ including changing realm -->
       <page>
         <nameUrl value="exemplos.html" />
         <title value="Exemplos" />
-        <generation value="markdown" />
+        <generation value="html" />
       </page>
       <page>
         <nameUrl value="downloads.html" />

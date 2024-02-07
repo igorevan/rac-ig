@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-02-07T09:19:37-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-07T18:11:02-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -558,6 +558,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRConjuntoMinimoDados-1.1" ]
+       ] ;
+       fhir:name [ fhir:v "Conjunto Mínimo de Dados (CMD)" ] ;
+       fhir:description [ fhir:v "Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0> ;
          fhir:reference [ fhir:v "StructureDefinition/BRLocalAtendimento-1.0" ]
        ] ;
@@ -726,7 +737,8 @@
          fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0> ;
          fhir:reference [ fhir:v "StructureDefinition/BROcupacao-1.0" ]
        ] ;
-       fhir:name [ fhir:v "Ocupação" ]
+       fhir:name [ fhir:v "Ocupação" ] ;
+       fhir:description [ fhir:v "Extensão para incluir a Ocupação" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1203,6 +1215,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado> ;
+         fhir:reference [ fhir:v "CodeSystem/BRJustificativaIndividuoNaoIdentificado" ]
+       ] ;
+       fhir:name [ fhir:v "Justificativa da Impossibilidade de Identificação do Indivíduo" ] ;
+       fhir:description [ fhir:v "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
@@ -1665,13 +1688,58 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRCID10-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Classificação Internacional de Doenças - Décima Revisão - CID-10" ] ;
+       fhir:description [ fhir:v "Classificação Internacional de Doenças - Décima Revisão - CID-10" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BREstadoSolicitacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estado da Solicitação" ] ;
+       fhir:description [ fhir:v "Estado da solicitação." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Justificativa da Impossibilidade de Identificação do Indivíduo" ] ;
+       fhir:description [ fhir:v "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0> ;
+         fhir:reference [ fhir:v "ValueSet/BRSexo-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo" ] ;
+       fhir:description [ fhir:v "Sexo de um indivíduo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
          fhir:link <http://www.saude.gov.br/fhir/r4/Bundle/bundle-example-rac> ;
          fhir:reference [ fhir:v "Bundle/bundle-example-rac" ]
        ] ;
-       fhir:name [ fhir:v "Registro de Atendimento Clínico (Bundle)" ] ;
+       fhir:name [ fhir:v "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" ] ;
+       fhir:description [ fhir:v "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" ] ;
        fhir:example [
          fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"^^xsd:anyURI ;
          fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento>
@@ -1786,7 +1854,7 @@
          ] ) ;
          fhir:name [ fhir:v "exemplos.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Exemplos" ] ;
-         fhir:generation [ fhir:v "markdown" ]
+         fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;

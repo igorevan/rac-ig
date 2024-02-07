@@ -70,6 +70,13 @@
     "name" : "BRImunobiologico"
   },
   {
+    "id" : "BRJustificativaIndividuoNaoIdentificado",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+    "version" : "0.1.0",
+    "name" : "BRJustificativaIndividuoNaoIdentificado"
+  },
+  {
     "id" : "BRLocalAfericao",
     "type" : "CodeSystem",
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
@@ -273,6 +280,13 @@
     "name" : "BRCodigoSerialMedicamento"
   },
   {
+    "id" : "BRConjuntoMinimoDados-1.1",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1",
+    "version" : "0.1.0",
+    "name" : "BRConjuntoMinimoDados"
+  },
+  {
     "id" : "BRContatoAssistencial-1.0",
     "type" : "StructureDefinition",
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0",
@@ -448,6 +462,13 @@
     "name" : "BRAlergenos"
   },
   {
+    "id" : "BRCID10-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCID10"
+  },
+  {
     "id" : "BRCaraterAtendimento-1.0",
     "type" : "ValueSet",
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
@@ -525,6 +546,13 @@
     "name" : "BREstadoResolucaoDiagnosticoProblema"
   },
   {
+    "id" : "BREstadoSolicitacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoSolicitacao"
+  },
+  {
     "id" : "BREstadoSolicitacaoMedicamento-1.0",
     "type" : "ValueSet",
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
@@ -558,6 +586,13 @@
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado",
     "version" : "0.1.0",
     "name" : "BRIntencaoAtestado"
+  },
+  {
+    "id" : "BRJustificativaIndividuoNaoIdentificado-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRJustificativaIndividuoNaoIdentificado"
   },
   {
     "id" : "BRLocalAfericao-1.0",
@@ -642,6 +677,13 @@
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRResponsabilidadeParticipante-1.0",
     "version" : "0.1.0",
     "name" : "BRResponsabilidadeParticipante"
+  },
+  {
+    "id" : "BRSexo-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRSexo"
   },
   {
     "id" : "BRTerminologiaMedicamento",

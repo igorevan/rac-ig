@@ -19,7 +19,7 @@
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-07T09:19:37-03:00",
+  "date" : "2024-02-07T18:11:02-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{
@@ -651,6 +651,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/BRConjuntoMinimoDados-1.1"
+      },
+      "name" : "Conjunto Mínimo de Dados (CMD)",
+      "description" : "Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/BRLocalAtendimento-1.0"
       },
       "name" : "Local de Atendimento",
@@ -818,7 +829,8 @@
       "reference" : {
         "reference" : "StructureDefinition/BROcupacao-1.0"
       },
-      "name" : "Ocupação"
+      "name" : "Ocupação",
+      "description" : "Extensão para incluir a Ocupação"
     },
     {
       "extension" : [{
@@ -1296,6 +1308,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRJustificativaIndividuoNaoIdentificado"
+      },
+      "name" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1758,12 +1781,57 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRCID10-1.0"
+      },
+      "name" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "description" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoSolicitacao-1.0"
+      },
+      "name" : "Estado da Solicitação",
+      "description" : "Estado da solicitação."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"
+      },
+      "name" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRSexo-1.0"
+      },
+      "name" : "Sexo",
+      "description" : "Sexo de um indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
         "reference" : "Bundle/bundle-example-rac"
       },
-      "name" : "Registro de Atendimento Clínico (Bundle)",
+      "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
+      "description" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
       "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"
     },
     {
@@ -1889,7 +1957,7 @@
         }],
         "nameUrl" : "exemplos.html",
         "title" : "Exemplos",
-        "generation" : "markdown"
+        "generation" : "html"
       },
       {
         "extension" : [{

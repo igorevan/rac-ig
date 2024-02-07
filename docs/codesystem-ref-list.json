@@ -13,6 +13,18 @@
       "ValueSet-BREstadoSolicitacaoMedicamento-1.0.html" : "Estado da Solicitação de Medicamento"
     },
     {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "ValueSet-BRSexo-1.0.html" : "Sexo"
+    },
+    {
       "url" : "http://hl7.org/fhir/allergy-intolerance-category",
       "version" : "4.0.1",
       "status" : "draft",
@@ -106,7 +118,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.112"],
       "uses" : {
       },
-      "ValueSet-BREstadoAtestado.html" : "Status do atestado"
+      "ValueSet-BREstadoAtestado.html" : "Status do atestado",
+      "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação"
     },
     {
       "url" : "http://loinc.org",
@@ -118,9 +131,9 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
       "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
       "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
       "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
     },
     {
@@ -236,6 +249,7 @@
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
       "uses" : {
       },
+      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
       "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
     },
     {
@@ -292,6 +306,17 @@
       "uses" : {
       },
       "ValueSet-BRAlergenos-1.0.html" : "Alérgenos"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRJustificativaIndividuoNaoIdentificado",
+      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
+      "uses" : {
+      },
+      "ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html" : "Justificativa da Impossibilidade de Identificação do Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",

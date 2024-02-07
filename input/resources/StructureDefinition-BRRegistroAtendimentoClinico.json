@@ -14,7 +14,7 @@
   "experimental": false,
   "abstract": false,
   "type": "Composition",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Composition",
+  "baseDefinition": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -23,6 +23,11 @@
         "path": "Composition",
         "short": "Registro Atendimento Clínico",
         "definition": "Documento que representa o Registro Atendimento Clínico"
+      },
+      {
+        "id": "Composition.type.coding.system",
+        "path": "Composition.type.coding.system",
+        "fixedUri": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"
       },
       {
         "id": "Composition.type.coding.code",

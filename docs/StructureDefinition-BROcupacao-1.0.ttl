@@ -54,6 +54,7 @@
        fhir:value [ fhir:v "http://www.saude.gov.br" ]
      ] )
   ] ) ; # 
+  fhir:description [ fhir:v "Extensão para incluir a Ocupação"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

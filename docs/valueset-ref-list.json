@@ -17,6 +17,18 @@
       "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCID10",
+      "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "description" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"],
+      "uses" : {
+      },
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -155,6 +167,18 @@
       "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstadoSolicitacao",
+      "title" : "Estado da Solicitação",
+      "description" : "Estado da solicitação.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -220,6 +244,20 @@
       "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRJustificativaIndividuoNaoIdentificado",
+      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -243,7 +281,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
@@ -383,6 +422,18 @@
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRSexo",
+      "title" : "Sexo",
+      "description" : "Sexo de um indivíduo.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "uses" : {
+      },
+      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
       "version" : "0.1.0",
       "status" : "active",
@@ -433,6 +484,7 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
       "uses" : {
       },
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
       "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
