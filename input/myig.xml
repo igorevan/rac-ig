@@ -57,132 +57,12 @@ including changing realm -->
     need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
 
-    <!-- StructureDefinition -->
+    <!-- Profile -->
     <resource>
       <reference>
         <reference value="StructureDefinition/BRRegistroAtendimentoClinico" />
       </reference>
-      <name value="Registro de Atendimento Clínico" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRConjuntoMinimoDados-1.1" />
-      </reference>
-      <name value="Conjunto Mínimo de Dados" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRContatoAssistencial-1.0" />
-      </reference>
-      <name value="Contato Assistencial" />
-      <description
-        value="Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0" />
-      </reference>
-      <name value="Informações Complementares de Indivíduos Não Identificados" />
-      <description
-        value="Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BROcupacao-1.0" />
-      </reference>
-      <name value="Ocupação" />
-      <description value="Ocupação" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0" />
-      </reference>
-      <name value="Identificador Nacional de Equipe" />
-      <description
-        value="Extensão para permitir informar o código do Identificador Nacional de Equipe" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRFinanciamento-1.0" />
-      </reference>
-      <name value="Financiamento" />
-      <description value="Extensão utilizada para identificar financiamento" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BROutrasInformacoes" />
-      </reference>
-      <name value="Outras Informações" />
-      <description
-        value="Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRIndividuo-1.0" />
-      </reference>
-      <name value="Indivíduo" />
-      <description
-        value="O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional." />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRQualidadeCadastroIndividuo-1.0" />
-      </reference>
-      <name value="Qualidade do Cadastro do Indivíduo" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRParentesIndividuo-1.0" />
-      </reference>
-      <name value="Parentes do Indivíduo" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRRacaCorEtnia-1.0" />
-      </reference>
-      <name value="Raça/Cor e Etnina" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRMunicipio-1.0" />
-      </reference>
-      <name value="Município" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRPais-1.0" />
-      </reference>
-      <name value="País" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRNacionalidade" />
-      </reference>
-      <name value="Nacionalidade" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRIndividuoProtegido-1.0" />
-      </reference>
-      <name value="Indivíduo Protegido" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRNaturalizacao-1.0" />
-      </reference>
-      <name value="Dados de Naturalização" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRNomeIndividuo-1.0" />
-      </reference>
-      <name value="Nome de Indivíduos" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BREstabelecimentoSaude-1.0" />
-      </reference>
-      <name value="Estabelecimento de Saúde" />
+      <name value="Registro de Atendimento Clínico (RAC)" />
     </resource>
     <resource>
       <reference>
@@ -192,57 +72,21 @@ including changing realm -->
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRLotacaoProfissional-1.0" />
+        <reference value="StructureDefinition/BRContatoAssistencial-1.0" />
       </reference>
-      <name value="Lotação Profissional" />
+      <name value="Contato Assistencial" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0" />
+        <reference value="StructureDefinition/BRProblemaDiagnostico" />
       </reference>
-      <name value="Pessoa Jurídica e Profissional Liberal" />
+      <name value="Problema / Diagnóstico" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRProfissional-1.0" />
+        <reference value="StructureDefinition/BRMedidaObservada" />
       </reference>
-      <name value="Profissional" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRAtendeSUS-1.0" />
-      </reference>
-      <name value="Atende SUS" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRAdministradorTerceiro-1.0" />
-      </reference>
-      <name value="Gerente/Administrador (Terceiro) ou Interveniente" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRMeioContato-1.0" />
-      </reference>
-      <name value="Meio de Contato" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BREndereco-1.0" />
-      </reference>
-      <name value="Endereço" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRDocumentoIndividuo-1.0" />
-      </reference>
-      <name value="Documento do Indivíduo" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0" />
-      </reference>
-      <name value="Jurisdição do Órgão Expedidor" />
+      <name value="Medida Observada" />
     </resource>
     <resource>
       <reference>
@@ -252,27 +96,15 @@ including changing realm -->
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRProblemaDiagnostico" />
+        <reference value="StructureDefinition/BRAlergiaReacaoAdversa-1.0" />
       </reference>
-      <name value="Problema e/ou diagnóstico" />
+      <name value="Alergia ou Reação Adversa" />
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/BRProcedimentoRealizado-1.0" />
       </reference>
       <name value="Procedimento Realizado" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRCID10Avaliado-1.0" />
-      </reference>
-      <name value="CID10 Avaliado" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRAlergiaReacaoAdversa-1.0" />
-      </reference>
-      <name value="Alergia ou Reação Adversa" />
     </resource>
     <resource>
       <reference>
@@ -288,9 +120,15 @@ including changing realm -->
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRMedicamento" />
+        <reference value="StructureDefinition/BRCID10Avaliado-1.0" />
       </reference>
-      <name value="Medicamento" />
+      <name value="CID10 Avaliado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRRegistroPrescricaoMedicamento" />
+      </reference>
+      <name value="Registro de Prescrição de Medicamento" />
     </resource>
     <resource>
       <reference>
@@ -300,27 +138,35 @@ including changing realm -->
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRQuantidade-1.0" />
+        <reference value="StructureDefinition/BRMedicamento" />
       </reference>
-      <name value="Quantidade" />
+      <name value="Medicamento" />
+    </resource>
+
+    <!-- Extension -->
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0" />
+      </reference>
+      <name value="Informações Complementares de Indivíduos Não Identificados" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRCodigoSerialMedicamento" />
+        <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0" />
       </reference>
-      <name value="Código Serial de Medicamento" />
+      <name value="Identificador Nacional de Equipe" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRIntervaloDoses" />
+        <reference value="StructureDefinition/BROcupacao-1.0" />
       </reference>
-      <name value="Intervalo de Doses" />
+      <name value="Ocupação" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRTurno" />
+        <reference value="StructureDefinition/BRResponsavelAtendimento" />
       </reference>
-      <name value="Turno do Dia" />
+      <name value="Responsável pelo Atendimento" />
     </resource>
     <resource>
       <reference>
@@ -336,256 +182,505 @@ including changing realm -->
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRMedidaObservada" />
+        <reference value="StructureDefinition/BRFinanciamento-1.0" />
       </reference>
-      <name value="Medida Observada" />
+      <name value="Financiamento" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRCIAP2Avaliado-1.0" />
+        <reference value="StructureDefinition/BROutrasInformacoes" />
       </reference>
-      <name value="CIAP2 Avaliado" />
+      <name value="Outras Informações" />
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRRegistroPrescricaoMedicamento" />
+        <reference value="StructureDefinition/BRQuantidade-1.0" />
       </reference>
-      <name value="Registro de Prescrição de Medicamento" />
+      <name value="Quantidade" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRTurno" />
+      </reference>
+      <name value="Turno" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRIntervaloDoses" />
+      </reference>
+      <name value="Intervalo de Doses" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRCodigoSerialMedicamento" />
+      </reference>
+      <name value="Código Serial de Medicamento" />
     </resource>
 
     <!-- CodeSystem -->
     <resource>
       <reference>
-        <reference value="CodeSystem/BRAlergenosCBARA" />
+        <reference value="CodeSystem/BRProcedencia" />
       </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRCaraterAtendimento" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRCategoriaDiagnostico" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRCBHPMTUSS" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRCBO" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRCIAP2" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRCID10" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRDadoAusenteOuDesconhecido" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRDivisaoGeograficaBrasil" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BREtniaIndigena" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRFinanciamento" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRFrequenciaUsoSubstancia" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRImunobiologico" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRLocalAfericao" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRMedDRA" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRMedicamento" />
-      </reference>
+      <name value="Procedência" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRModalidadeAssistencial" />
       </reference>
+      <name value="Modalidade Assistencial" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRMotivoDesfecho" />
+        <reference value="CodeSystem/BRCaraterAtendimento" />
       </reference>
+      <name value="Caráter de Atendimento" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRNacionalidade" />
+        <reference value="CodeSystem/BRCID10" />
       </reference>
+      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRNaturezaJuridica" />
+        <reference value="CodeSystem/BRCIAP2" />
       </reference>
+      <name value="Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRObmAMPP" />
+        <reference value="CodeSystem/BRCBO" />
       </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRObmANVISA" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRObmCATMAT" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRObmEAN" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRObmVMP" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BROrgaoExpedidor" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRPais" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRPapelProblemaDiagnostico" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRParentesco" />
-      </reference>
+      <name value="Classificação Brasileira de Ocupações - CBO" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRPosicaoIndividuo" />
       </reference>
+      <name value="Posição do Indivíduo" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRProcedencia" />
+        <reference value="CodeSystem/BRLocalAfericao" />
       </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRRacaCor" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRResponsabilidadeParticipante" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRTabelaSUS" />
-      </reference>
+      <name value="Local de Aferição" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRTipoAleitamentoMaterno" />
       </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRTipoDocumento" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRTipoEstabelecimentoSaude" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRTipoIdentificador" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRTipoLogradouro" />
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRTipoObservacao" />
-      </reference>
+      <name value="Tipo de Aleitamento Materno" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRTipoSubstanciaUso" />
       </reference>
+      <name value="Tipo de Substância em Uso" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRTurno" />
+        <reference value="CodeSystem/BRFrequenciaUsoSubstancia" />
       </reference>
+      <name value="Frequência de Uso de Substância" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRUnidadeMedida" />
+        <reference value="CodeSystem/BRCategoriaDiagnostico" />
       </reference>
+      <name value="Categoria do Diagnóstico" />
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/BRUnidadeTempo" />
+        <reference value="CodeSystem/BRMedDRA" />
       </reference>
+      <name value="Medical Dictionary for Regulatory Activities (MedDRA)" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCBHPMTUSS" />
+      </reference>
+      <name
+        value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaSUS" />
+      </reference>
+      <name value="Tabela de procedimentos, medicamentos e OPM do SUS" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmAMPP" />
+      </reference>
+      <name
+        value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmANVISA" />
+      </reference>
+      <name
+        value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmCATMAT" />
+      </reference>
+      <name
+        value="Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmEAN" />
+      </reference>
+      <name value="Terminologia de Produto Medicinal Virtual (VMP) na GS1.org" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRObmVMP" />
+      </reference>
+      <name
+        value="Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRViaAdministracao" />
       </reference>
+      <name value="Via de Administração" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeMedida" />
+      </reference>
+      <name value="Unidade de Medida" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRMotivoDesfecho" />
+      </reference>
+      <name value="Motivo do Desfecho" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoDocumento" />
+      </reference>
+      <name value="Tipo de Documento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRResponsabilidadeParticipante" />
+      </reference>
+      <name value="Reponsabilidade no Contato Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRPapelProblemaDiagnostico" />
+      </reference>
+      <name value="Classificação do papel de um problema e diagnóstico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRFinanciamento" />
+      </reference>
+      <name value="Financiamento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoIdentificador" />
+      </reference>
+      <name value="Tipo de Identificador" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoObservacao" />
+      </reference>
+      <name value="Tipo de Observação" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRAlergenosCBARA" />
+      </reference>
+      <name value="Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRImunobiologico" />
+      </reference>
+      <name value="Imunobiológico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRMedicamento" />
+      </reference>
+      <name value="Medicamento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTurno" />
+      </reference>
+      <name value="Turno do dia" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeTempo" />
+      </reference>
+      <name value="Unidade de tempo" />
     </resource>
 
     <!-- ValueSet -->
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRProcedencia-1.0" />
+      </reference>
+      <name value="Procedência do Contato Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRModalidadeAssistencial-1.0" />
+      </reference>
+      <name value="Modalidade Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCaraterAtendimento-1.0" />
+      </reference>
+      <name value="Caráter de atendimento do Contato Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRProblemaDiagnostico" />
+      </reference>
+      <name value="Classificação Internacional de Doenças e Atenção Primária" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BROcupacao-1.0" />
+      </reference>
+      <name value="Classificação Brasileira de Ocupações - CBO" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRPosicaoIndividuo" />
+      </reference>
+      <name value="Posição do Indivíduo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRLocalAfericao-1.0" />
+      </reference>
+      <name value="Local de Aferição" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/RoupasUsadasMedicao" />
+      </reference>
+      <name value="Roupas Usadas na Medição" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BROrigemMedida" />
+      </reference>
+      <name value="Origem de Medição" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoAleitamentoMaterno-1.0" />
+      </reference>
+      <name value="Tipo de Aleitamento Materno" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoSubstanciaUso-1.0" />
+      </reference>
+      <name value="Tipo de Substância em Uso" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRFrequenciaUsoSubstancia" />
+      </reference>
+      <name value="Frequência de Uso da Substância" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCategoriaDiagnostico" />
+      </reference>
+      <name value="Categoria do Diagnóstico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" />
+      </reference>
+      <name value="Estado da Resolução de Diagnóstico ou Problema" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0" />
+      </reference>
+      <name value="Categoria do Agente da Alergia ou Reação Adversa" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRReacoesAdversasMedDRA-1.0" />
+      </reference>
+      <name value="Reações Adversas da MedDRA" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0" />
+      </reference>
+      <name value="Grau de Certeza de Alergias e Reações Adversas" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0" />
+      </reference>
+      <name value="Criticidade de Alergias e Reações Adversas" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRProcedimentosNacionais-1.0" />
+      </reference>
+      <name value="Procedimento realizado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoEvento-1.0" />
+      </reference>
+      <name value="Estado do Evento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTerminologiaMedicamento" />
+      </reference>
+      <name value="Terminologia dos medicamentos" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRViaAdministracao-1.0" />
+      </reference>
+      <name value="Via de Administração do Imunobiológico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRUnidadeConsumo" />
+      </reference>
+      <name value="Unidade de Consumo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRUnidadeMedidaMedicamento" />
+      </reference>
+      <name value="Unidade de Medida de Medicamento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoSolicitacaoMedicamento-1.0" />
+      </reference>
+      <name value="Estado da Solicitação de Medicamento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRMotivoDesfecho-1.0" />
+      </reference>
+      <name value="Motivo do desfecho do Contato Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoDocumento-1.0" />
+      </reference>
+      <name value="Tipo de Documento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRResponsabilidadeParticipante-1.0" />
+      </reference>
+      <name value="Reponsabilidade no Contato Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRPapelProblemaDiagnostico" />
+      </reference>
+      <name value="Classificação do papel de um problema e diagnóstico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRFinanciamento-1.0" />
+      </reference>
+      <name value="Financiamento do procedimento realizado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoContatoAssistencial-1.0" />
+      </reference>
+      <name value="Estado do Contato Assistencial" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoIdentificadorProcedimento-1.0" />
+      </reference>
+      <name value="Tipo de Identificador do Procedimento" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCategoriaCondicao" />
+      </reference>
+      <name value="Classificação de uma condição" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoObservacao-1.0" />
+      </reference>
+      <name value="Tipo de Observação" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoObservacao-1.0" />
+      </reference>
+      <name value="Estado da Observação" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRAlergenos-1.0" />
+      </reference>
+      <name value="Alérgenos" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTurno" />
+      </reference>
+      <name value="Turno do dia" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRUnidadeTempo" />
+      </reference>
+      <name value="Unidade de Tempo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoAtestado" />
+      </reference>
+      <name value="Status do atestado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRIntencaoAtestado" />
+      </reference>
+      <name value="Intenção do atestado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoAtestado" />
+      </reference>
+      <name value="Tipo de atestado" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoAfastamentoAtestado" />
+      </reference>
+      <name value="Status do afastamento descrito no atestado" />
+    </resource>
 
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->

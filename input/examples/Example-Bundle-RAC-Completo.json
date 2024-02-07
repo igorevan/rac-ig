@@ -548,7 +548,7 @@
         },
         "valueQuantity": {
           "value": 1.83,
-          "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
+          "system": "http://unitsofmeasure.org",
           "code": "m"
         },
         "method": {
@@ -582,7 +582,7 @@
         },
         "valueQuantity": {
           "value": 135.5,
-          "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
+          "system": "http://unitsofmeasure.org",
           "code": "cm"
         }
       }
@@ -674,7 +674,7 @@
         },
         "valueQuantity": {
           "value": 3.5,
-          "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
+          "system": "http://unitsofmeasure.org",
           "code": "wk"
         }
       }
@@ -700,7 +700,7 @@
         },
         "valueQuantity": {
           "value": 45.5,
-          "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
+          "system": "http://unitsofmeasure.org",
           "code": "cm"
         }
       }
@@ -750,7 +750,7 @@
         },
         "valueQuantity": {
           "value": 88.15,
-          "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
+          "system": "http://unitsofmeasure.org",
           "code": "kg"
         },
         "method": {
@@ -784,7 +784,7 @@
         },
         "valueQuantity": {
           "value": 0.15,
-          "system": "https://www.hl7.org/fhir/valueset-ucum-common.html",
+          "system": "http://unitsofmeasure.org",
           "code": "mm[Hg]"
         },
         "bodySite": {

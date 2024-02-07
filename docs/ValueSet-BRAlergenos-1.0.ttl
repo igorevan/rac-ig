@@ -9,7 +9,6 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRAlergenos-1.0"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "1" ] ;
      fhir:lastUpdated [ fhir:v "2020-09-20T20:36:53.436+00:00"^^xsd:dateTime ]
   ] ; # 
   fhir:language [ fhir:v "pt-BR"] ; # 

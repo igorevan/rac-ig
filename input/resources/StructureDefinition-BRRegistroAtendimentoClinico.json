@@ -1,6 +1,5 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "BRRegistroAtendimentoClinico",
   "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
   "language": "pt-BR",
   "version": "2.1",
@@ -413,8 +412,7 @@
       {
         "id": "Composition.section:atestadoMedicoOdontologico",
         "path": "Composition.section",
-        "sliceName": "atestadoMedicoOdontologico",
-        "max": "1"
+        "sliceName": "atestadoMedicoOdontologico"
       },
       {
         "id": "Composition.section:atestadoMedicoOdontologico.title",

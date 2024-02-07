@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-01-21T18:35:12-03:00"/>
+  <date value="2024-02-07T09:19:37-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -479,188 +479,8 @@
       <reference>
         <reference value="StructureDefinition/BRRegistroAtendimentoClinico"/>
       </reference>
-      <name value="Registro de Atendimento Clínico"/>
+      <name value="Registro de Atendimento Clínico (RAC)"/>
       <description value="Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRConjuntoMinimoDados-1.1"/>
-      </reference>
-      <name value="Conjunto Mínimo de Dados"/>
-      <description value="Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRContatoAssistencial-1.0"/>
-      </reference>
-      <name value="Contato Assistencial"/>
-      <description value="Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0"/>
-      </reference>
-      <name value="Informações Complementares de Indivíduos Não Identificados"/>
-      <description value="Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BROcupacao-1.0"/>
-      </reference>
-      <name value="Ocupação"/>
-      <description value="Ocupação"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0"/>
-      </reference>
-      <name value="Identificador Nacional de Equipe"/>
-      <description value="Extensão para permitir informar o código do Identificador Nacional de Equipe"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRFinanciamento-1.0"/>
-      </reference>
-      <name value="Financiamento"/>
-      <description value="Extensão utilizada para identificar financiamento"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BROutrasInformacoes"/>
-      </reference>
-      <name value="Outras Informações"/>
-      <description value="Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRIndividuo-1.0"/>
-      </reference>
-      <name value="Indivíduo"/>
-      <description value="O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRQualidadeCadastroIndividuo-1.0"/>
-      </reference>
-      <name value="Qualidade do Cadastro do Indivíduo"/>
-      <description value="Grau de qualidade de um registro de um indivíduo, vai de 0 até 100."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRParentesIndividuo-1.0"/>
-      </reference>
-      <name value="Parentes do Indivíduo"/>
-      <description value="Resource para representar parentescos de indivíduo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRRacaCorEtnia-1.0"/>
-      </reference>
-      <name value="Raça/Cor e Etnina"/>
-      <description value="Extensão para para representar dados relacionados à raça/cor e etnia de um indivíduo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRMunicipio-1.0"/>
-      </reference>
-      <name value="Município"/>
-      <description value="Extensão para informar um município."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRPais-1.0"/>
-      </reference>
-      <name value="País"/>
-      <description value="Extensão para representar um país."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRNacionalidade"/>
-      </reference>
-      <name value="Nacionalidade"/>
-      <description value="Extensão para representar uma nacionalidade."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRIndividuoProtegido-1.0"/>
-      </reference>
-      <name value="Indivíduo Protegido"/>
-      <description value="Extensão utilizada para identificar indivíduos que possuem  maior restrição à disponibilização de seus dados, por possuirem grande exposição pública (ex.: político, esportista, artista famoso etc.), estarem em programa de proteção à testemunha, o objeto de seu trabalho colocá-los em risco (investigadores da inteligência, p.ex.), dentre outros."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRNaturalizacao-1.0"/>
-      </reference>
-      <name value="Dados de Naturalização"/>
-      <description value="Extensão para as informações de naturalização de um indivíduo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRNomeIndividuo-1.0"/>
-      </reference>
-      <name value="Nome de Indivíduos"/>
-      <description value="Padronização de uso de nomes de indivíduo no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BREstabelecimentoSaude-1.0"/>
-      </reference>
-      <name value="Estabelecimento de Saúde"/>
-      <description value="Espaço físico delimitado e permanente onde são realizadas ações e serviços de saúde humana sob responsabilidade técnica."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -677,90 +497,30 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRLotacaoProfissional-1.0"/>
+        <reference value="StructureDefinition/BRContatoAssistencial-1.0"/>
       </reference>
-      <name value="Lotação Profissional"/>
-      <description value="Lotação de um profissional em um Estabelecimento de Saúde."/>
+      <name value="Contato Assistencial"/>
+      <description value="Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0"/>
+        <reference value="StructureDefinition/BRProblemaDiagnostico"/>
       </reference>
-      <name value="Pessoa Jurídica e Profissional Liberal"/>
-      <description value="Pessoa jurídica identificada no âmbito da Receita Federal do Brasil pelo Cadastro Nacional da Pessoa Jurídica (CNPJ) ou profissional liberal identificado pelo Cadastro de Pessoas Físicas (CPF)."/>
+      <name value="Problema / Diagnóstico"/>
+      <description value="Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRProfissional-1.0"/>
+        <reference value="StructureDefinition/BRMedidaObservada"/>
       </reference>
-      <name value="Profissional"/>
-      <description value="Indivíduo que realiza atividades profissionais."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRAtendeSUS-1.0"/>
-      </reference>
-      <name value="Atende SUS"/>
-      <description value="Extensão utilizada para identificar se um profissional ou Estabelecimento de Saúde oferece atendimento pelo Sistema Único de Saúde (SUS)."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRAdministradorTerceiro-1.0"/>
-      </reference>
-      <name value="Gerente/Administrador (Terceiro) ou Interveniente"/>
-      <description value="Identifica organizações que são gerentes/administradoras (terceiras) ou intervenientes de outras."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRMeioContato-1.0"/>
-      </reference>
-      <name value="Meio de Contato"/>
-      <description value="Padronização de meios de contato no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BREndereco-1.0"/>
-      </reference>
-      <name value="Endereço"/>
-      <description value="Padronização de endereços no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRDocumentoIndividuo-1.0"/>
-      </reference>
-      <name value="Documento do Indivíduo"/>
-      <description value="Documento do Indivíduo"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0"/>
-      </reference>
-      <name value="Jurisdição do Órgão Expedidor"/>
-      <description value="Jurisdição de Órgãos Expedidores"/>
+      <name value="Medida Observada"/>
+      <description value="Registra as informações relacionadas a um tipo de observação."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -777,10 +537,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRProblemaDiagnostico"/>
+        <reference value="StructureDefinition/BRAlergiaReacaoAdversa-1.0"/>
       </reference>
-      <name value="Problema e/ou diagnóstico"/>
-      <description value="Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
+      <name value="Alergia ou Reação Adversa"/>
+      <description value="Alergia ou Reação Adversa"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -791,26 +551,6 @@
       </reference>
       <name value="Procedimento Realizado"/>
       <description value="Procedimento realizado em um indivíduo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRCID10Avaliado-1.0"/>
-      </reference>
-      <name value="CID10 Avaliado"/>
-      <description value="Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRAlergiaReacaoAdversa-1.0"/>
-      </reference>
-      <name value="Alergia ou Reação Adversa"/>
-      <description value="Alergia ou Reação Adversa"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -837,10 +577,20 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRMedicamento"/>
+        <reference value="StructureDefinition/BRCID10Avaliado-1.0"/>
       </reference>
-      <name value="Medicamento"/>
-      <description value="Medicamento"/>
+      <name value="CID10 Avaliado"/>
+      <description value="Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRRegistroPrescricaoMedicamento"/>
+      </reference>
+      <name value="Registro de Prescrição de Medicamento"/>
+      <description value="Modelo que gera o documento de Registro de Prescrição de Medicamento"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -854,43 +604,52 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRQuantidade-1.0"/>
+        <reference value="StructureDefinition/BRMedicamento"/>
       </reference>
-      <name value="Quantidade"/>
-      <description value="Extensão para identificar quantidades."/>
+      <name value="Medicamento"/>
+      <description value="Medicamento"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRCodigoSerialMedicamento"/>
+        <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0"/>
       </reference>
-      <name value="Código Serial de Medicamento"/>
-      <description value="Código Serial de Medicamento"/>
+      <name value="Informações Complementares de Indivíduos Não Identificados"/>
+      <description value="Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRIntervaloDoses"/>
+        <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0"/>
       </reference>
-      <name value="Intervalo de Doses"/>
-      <description value="Extensão para descrever uma unidade de tempo referenciada pelo UCUM."/>
+      <name value="Identificador Nacional de Equipe"/>
+      <description value="Extensão para permitir informar o código do Identificador Nacional de Equipe."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRTurno"/>
+        <reference value="StructureDefinition/BROcupacao-1.0"/>
       </reference>
-      <name value="Turno do Dia"/>
-      <description value="Extensão para descrever uma unidade de tempo referenciada pelo UCUM."/>
+      <name value="Ocupação"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRResponsavelAtendimento"/>
+      </reference>
+      <name value="Responsável pelo Atendimento"/>
+      <description value="Representa se o profissional foi o responsável pelo atendimento registrado."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -914,203 +673,73 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRMedidaObservada"/>
-      </reference>
-      <name value="Medida Observada"/>
-      <description value="Registra as informações relacionadas a um tipo de observação."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRCIAP2Avaliado-1.0"/>
-      </reference>
-      <name value="CIAP2 Avaliado"/>
-      <description value="Problema atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRRegistroPrescricaoMedicamento"/>
-      </reference>
-      <name value="Registro de Prescrição de Medicamento"/>
-      <description value="Modelo que gera o documento de Registro de Prescrição de Medicamento"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRAlergenosCBARA"/>
-      </reference>
-      <name value="Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)"/>
-      <description value="Classifica as alergias e reações adversas."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRCaraterAtendimento"/>
-      </reference>
-      <name value="Caráter de Atendimento"/>
-      <description value="Terminologia que classifica a prioridade de realização de um Contato Assistencial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRCategoriaDiagnostico"/>
-      </reference>
-      <name value="Categoria do Diagnóstico"/>
-      <description value="Códigos para representação do tipo de categoria do diagnóstico realizado."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRCBHPMTUSS"/>
-      </reference>
-      <name value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS"/>
-      <description value="Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRCBO"/>
-      </reference>
-      <name value="Classificação Brasileira de Ocupações - CBO"/>
-      <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRCIAP2"/>
-      </reference>
-      <name value="Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"/>
-      <description value="Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRCID10"/>
-      </reference>
-      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
-      <description value="Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRDadoAusenteOuDesconhecido"/>
-      </reference>
-      <name value="Classificação de dados ausentes ou desconhecidos - IPS."/>
-      <description value="Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRDivisaoGeograficaBrasil"/>
-      </reference>
-      <name value="Divisão Geográfica do Brasil"/>
-      <description value="As regiões geográficas, estados, distrito federal e municípios do Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BREtniaIndigena"/>
-      </reference>
-      <name value="Etnia Indígena"/>
-      <description value="Códigos para representação de etnias indígenas no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRFinanciamento"/>
+        <reference value="StructureDefinition/BRFinanciamento-1.0"/>
       </reference>
       <name value="Financiamento"/>
-      <description value="Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."/>
+      <description value="Extensão utilizada para identificar financiamento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BROutrasInformacoes"/>
+      </reference>
+      <name value="Outras Informações"/>
+      <description value="Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRQuantidade-1.0"/>
+      </reference>
+      <name value="Quantidade"/>
+      <description value="Extensão para identificar quantidades."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRTurno"/>
+      </reference>
+      <name value="Turno"/>
+      <description value="Extensão para descrever uma unidade de tempo referenciada pelo UCUM."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRIntervaloDoses"/>
+      </reference>
+      <name value="Intervalo de Doses"/>
+      <description value="Extensão para descrever uma unidade de tempo referenciada pelo UCUM."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRCodigoSerialMedicamento"/>
+      </reference>
+      <name value="Código Serial de Medicamento"/>
+      <description value="Código Serial de Medicamento"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRFrequenciaUsoSubstancia"/>
+        <reference value="CodeSystem/BRProcedencia"/>
       </reference>
-      <name value="Frequência de Uso de Substância"/>
-      <description value="Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRImunobiologico"/>
-      </reference>
-      <name value="Imunobiológico"/>
-      <description value="Classifica os tipos de imunobiológicos."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado"/>
-      </reference>
-      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo"/>
-      <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRLocalAfericao"/>
-      </reference>
-      <name value="Local de Aferição"/>
-      <description value="Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRMedDRA"/>
-      </reference>
-      <name value="Medical Dictionary for Regulatory Activities (MedDRA)"/>
-      <description value="Medical Dictionary for Regulatory Activities."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRMedicamento"/>
-      </reference>
-      <name value="Medicamento"/>
-      <description value="Drogas dirigidas para uso humano, apresentadas em sua formulação final."/>
+      <name value="Procedência"/>
+      <description value="Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1127,30 +756,130 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRMotivoDesfecho"/>
+        <reference value="CodeSystem/BRCaraterAtendimento"/>
       </reference>
-      <name value="Motivo do Desfecho"/>
-      <description value="Caracteriza o motivo de conclusão total ou parcial do contato assistencial."/>
+      <name value="Caráter de Atendimento"/>
+      <description value="Terminologia que classifica a prioridade de realização de um Contato Assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRNacionalidade"/>
+        <reference value="CodeSystem/BRCID10"/>
       </reference>
-      <name value="Nacionalidade"/>
-      <description value="Define a nacionalidade de um dado indivíduo."/>
+      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
+      <description value="Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRNaturezaJuridica"/>
+        <reference value="CodeSystem/BRCIAP2"/>
       </reference>
-      <name value="Natureza Jurídica"/>
-      <description value="Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil."/>
+      <name value="Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"/>
+      <description value="Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRCBO"/>
+      </reference>
+      <name value="Classificação Brasileira de Ocupações - CBO"/>
+      <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRPosicaoIndividuo"/>
+      </reference>
+      <name value="Posição do Indivíduo"/>
+      <description value="Identifica a posição de um indivíduo em um determinado contexto."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRLocalAfericao"/>
+      </reference>
+      <name value="Local de Aferição"/>
+      <description value="Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRTipoAleitamentoMaterno"/>
+      </reference>
+      <name value="Tipo de Aleitamento Materno"/>
+      <description value="Classifica o tipo de aleitamento materno realizado a uma criança."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRTipoSubstanciaUso"/>
+      </reference>
+      <name value="Tipo de Substância em Uso"/>
+      <description value="Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRFrequenciaUsoSubstancia"/>
+      </reference>
+      <name value="Frequência de Uso de Substância"/>
+      <description value="Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRCategoriaDiagnostico"/>
+      </reference>
+      <name value="Categoria do Diagnóstico"/>
+      <description value="Códigos para representação do tipo de categoria do diagnóstico realizado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRMedDRA"/>
+      </reference>
+      <name value="Medical Dictionary for Regulatory Activities (MedDRA)"/>
+      <description value="Medical Dictionary for Regulatory Activities."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRCBHPMTUSS"/>
+      </reference>
+      <name value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS"/>
+      <description value="Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRTabelaSUS"/>
+      </reference>
+      <name value="Tabela de procedimentos, medicamentos e OPM do SUS"/>
+      <description value="Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1207,170 +936,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BROrgaoExpedidor"/>
+        <reference value="CodeSystem/BRViaAdministracao"/>
       </reference>
-      <name value="Órgão Expedidor"/>
-      <description value="Órgãos responsáveis por expedir documentos no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRPais"/>
-      </reference>
-      <name value="País"/>
-      <description value="Códigos para representação de países."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRPapelProblemaDiagnostico"/>
-      </reference>
-      <name value="Classificação do papel de um problema e diagnóstico"/>
-      <description value="Classificação do papel de um problema/diagnóstico."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRParentesco"/>
-      </reference>
-      <name value="Parentesco"/>
-      <description value="Classificação da relação familiar entre indivíduos."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRPosicaoIndividuo"/>
-      </reference>
-      <name value="Posição do Indivíduo"/>
-      <description value="Identifica a posição de um indivíduo em um determinado contexto."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRProcedencia"/>
-      </reference>
-      <name value="Procedência"/>
-      <description value="Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRRacaCor"/>
-      </reference>
-      <name value="Raça/Cor"/>
-      <description value="Códigos para representação de raça/cor."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRResponsabilidadeParticipante"/>
-      </reference>
-      <name value="Reponsabilidade no Contato Assistencial"/>
-      <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTabelaSUS"/>
-      </reference>
-      <name value="Tabela de procedimentos, medicamentos e OPM do SUS"/>
-      <description value="Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoAleitamentoMaterno"/>
-      </reference>
-      <name value="Tipo de Aleitamento Materno"/>
-      <description value="Classifica o tipo de aleitamento materno realizado a uma criança."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoDocumento"/>
-      </reference>
-      <name value="Tipo de Documento"/>
-      <description value="Classificação dos tipos de documentos compartilhados no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoEstabelecimentoSaude"/>
-      </reference>
-      <name value="Tipo de Estabelecimento de Saúde"/>
-      <description value="Códigos para representação de tipos de estabelecimentos de saúde, de acordo com codificação já existente para o Cadastro Nacional de Estabelecimentos de Saúde (CNES)."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoIdentificador"/>
-      </reference>
-      <name value="Tipo de Identificador"/>
-      <description value="Classifica o tipo de indicador que está sendo utilizado."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoLogradouro"/>
-      </reference>
-      <name value="Tipo de Logradouro"/>
-      <description value="Classificação os tipos de logradouros existentes para uso em endereços estruturados."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoObservacao"/>
-      </reference>
-      <name value="Tipo de Observação"/>
-      <description value="Tipo de Observação."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTipoSubstanciaUso"/>
-      </reference>
-      <name value="Tipo de Substância em Uso"/>
-      <description value="Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRTurno"/>
-      </reference>
-      <name value="Turno do dia"/>
-      <description value="Code System utilizado para definir o turno de um dia."/>
+      <name value="Via de Administração"/>
+      <description value="Classifica a via na qual foi administrada uma substância em um indivíduo."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1387,410 +956,120 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRUnidadeTempo"/>
+        <reference value="CodeSystem/BRMotivoDesfecho"/>
       </reference>
-      <name value="Unidade de tempo"/>
-      <description value="Code System utilizado para definir a classe de unidades de tempo."/>
+      <name value="Motivo do Desfecho"/>
+      <description value="Caracteriza o motivo de conclusão total ou parcial do contato assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRViaAdministracao"/>
+        <reference value="CodeSystem/BRTipoDocumento"/>
       </reference>
-      <name value="Via de Administração"/>
-      <description value="Classifica a via na qual foi administrada uma substância em um indivíduo."/>
+      <name value="Tipo de Documento"/>
+      <description value="Classificação dos tipos de documentos compartilhados no Brasil."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="Bundle/bundle-example-rac"/>
+        <reference value="CodeSystem/BRResponsabilidadeParticipante"/>
       </reference>
-      <name value="Registro de Atendimento Clínico (Bundle)"/>
-      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"/>
+      <name value="Reponsabilidade no Contato Assistencial"/>
+      <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRAlergenos-1.0"/>
+        <reference value="CodeSystem/BRPapelProblemaDiagnostico"/>
       </reference>
-      <name value="Alérgenos"/>
-      <description value="Descreve o agente capaz de causar alergia ou reação adversa em seres humanos."/>
+      <name value="Classificação do papel de um problema e diagnóstico"/>
+      <description value="Classificação do papel de um problema/diagnóstico."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCIAP2-1.0"/>
+        <reference value="CodeSystem/BRFinanciamento"/>
       </reference>
-      <name value="Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"/>
-      <description value="Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOA."/>
+      <name value="Financiamento"/>
+      <description value="Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCID10-1.0"/>
+        <reference value="CodeSystem/BRTipoIdentificador"/>
       </reference>
-      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
-      <description value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
+      <name value="Tipo de Identificador"/>
+      <description value="Classifica o tipo de indicador que está sendo utilizado."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCaraterAtendimento-1.0"/>
+        <reference value="CodeSystem/BRTipoObservacao"/>
       </reference>
-      <name value="Caráter de atendimento do Contato Assistencial"/>
-      <description value="ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial."/>
+      <name value="Tipo de Observação"/>
+      <description value="Tipo de Observação."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"/>
+        <reference value="CodeSystem/BRAlergenosCBARA"/>
       </reference>
-      <name value="Categoria do Agente da Alergia ou Reação Adversa"/>
-      <description value="Categoriza a substância responsável por causar uma alergia ou reação adversa."/>
+      <name value="Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)"/>
+      <description value="Classifica as alergias e reações adversas."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCategoriaCondicao"/>
+        <reference value="CodeSystem/BRImunobiologico"/>
       </reference>
-      <name value="Classificação de uma condição."/>
-      <description value="Tradução para o português do brasil da classificação de uma condição"/>
+      <name value="Imunobiológico"/>
+      <description value="Classifica os tipos de imunobiológicos."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCategoriaDiagnostico"/>
+        <reference value="CodeSystem/BRMedicamento"/>
       </reference>
-      <name value="Categoria do Diagnóstico"/>
-      <description value="ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado."/>
+      <name value="Medicamento"/>
+      <description value="Drogas dirigidas para uso humano, apresentadas em sua formulação final."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0"/>
+        <reference value="CodeSystem/BRTurno"/>
       </reference>
-      <name value="Criticidade de Alergias e Reações Adversas"/>
-      <description value="Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.."/>
+      <name value="Turno do dia"/>
+      <description value="Code System utilizado para definir o turno de um dia."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BREstadoAfastamentoAtestado"/>
+        <reference value="CodeSystem/BRUnidadeTempo"/>
       </reference>
-      <name value="Status do afastamento descrito no atestado"/>
-      <description value="Status do afastamento descrito no atestado médico/odontológico."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoAtestado"/>
-      </reference>
-      <name value="Status do atestado"/>
-      <description value="Status do atestado médico/odontológico."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoContatoAssistencial-1.0"/>
-      </reference>
-      <name value="Estado do Contato Assistencial"/>
-      <description value="Classifica o estado de um Contato Assistencial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoDocumento-1.0"/>
-      </reference>
-      <name value="Estado do Documento"/>
-      <description value="Classifica o estado do documento que está sendo trafegado."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoEvento-1.0"/>
-      </reference>
-      <name value="Estado do Evento"/>
-      <description value="Identificação do estado de um evento."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoObservacao-1.0"/>
-      </reference>
-      <name value="Estado da Observação"/>
-      <description value="Tipos de estados de uma observação."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"/>
-      </reference>
-      <name value="Estado da Resolução de Diagnóstico ou Problema"/>
-      <description value="Estado da resolução de um diagnóstico ou problema."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoSolicitacao-1.0"/>
-      </reference>
-      <name value="Estado da Solicitação"/>
-      <description value="Estado da solicitação."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREstadoSolicitacaoMedicamento-1.0"/>
-      </reference>
-      <name value="Estado da Solicitação de Medicamento"/>
-      <description value="Estado da Solicitação de Medicamento"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BREtniaIndigena-1.0"/>
-      </reference>
-      <name value="Etnia Indígena"/>
-      <description value="Códigos para representação de etnias indígenas no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRFinanciamento-1.0"/>
-      </reference>
-      <name value="Financiamento do procedimento realizado"/>
-      <description value="Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRFrequenciaUsoSubstancia"/>
-      </reference>
-      <name value="Frequência de Uso da Substância"/>
-      <description value="Identifica a frequência de uso da substância em uso conforme declaração do indivíduo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0"/>
-      </reference>
-      <name value="Grau de Certeza de Alergias e Reações Adversas"/>
-      <description value="Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRIntencaoAtestado"/>
-      </reference>
-      <name value="Intenção do atestado"/>
-      <description value="Intenção do atestado médico/odontológico."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"/>
-      </reference>
-      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo"/>
-      <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRLocalAfericao-1.0"/>
-      </reference>
-      <name value="Local de Aferição"/>
-      <description value="ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão arterial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRModalidadeAssistencial-1.0"/>
-      </reference>
-      <name value="Modalidade Assistencial"/>
-      <description value="Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRMotivoDesfecho-1.0"/>
-      </reference>
-      <name value="Motivo do desfecho do Contato assistencial"/>
-      <description value="ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRMunicipio-1.0"/>
-      </reference>
-      <name value="Município"/>
-      <description value="Municípios brasileiros, entes subnacionais."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRNacionalidade"/>
-      </reference>
-      <name value="Nacionalidade"/>
-      <description value="Códigos para representação de nacionalidade."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRNaturezaJuridica-1.0"/>
-      </reference>
-      <name value="Natureza Jurídica"/>
-      <description value="Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BROcupacao-1.0"/>
-      </reference>
-      <name value="Classificação Brasileira de Ocupações - CBO"/>
-      <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BROrgaoExpedidor-1.0"/>
-      </reference>
-      <name value="Órgão Expedidor"/>
-      <description value="Lista de órgãos responsáveis por expedir documentos no Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BROrigemMedida"/>
-      </reference>
-      <name value="Origem de Medição"/>
-      <description value="ValueSet utilizado para definir o tipo de medição corporal adotada."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRPais-1.0"/>
-      </reference>
-      <name value="País"/>
-      <description value="Códigos para representação de países."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRPapelProblemaDiagnostico"/>
-      </reference>
-      <name value="Classificação do papel de um problema e diagnóstico."/>
-      <description value="Tradução para o português do brasil da classificação do papel de um problema/diagnóstico."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRParentesco-1.0"/>
-      </reference>
-      <name value="Parentesco"/>
-      <description value="Classificação da relação familiar entre indivíduos."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRPosicaoIndividuo"/>
-      </reference>
-      <name value="Posição do Indivíduo"/>
-      <description value="ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRPrescricaoNaoEstruturada"/>
-      </reference>
-      <name value="Indicativo de prescrição não estruturada ou medicamento não identificado."/>
-      <description value="Indicativo de prescrição não estruturada ou medicamento não identificado."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRProblemaDiagnostico"/>
-      </reference>
-      <name value="Classificação Internacional de Doenças e Atenção Primária"/>
-      <description value="Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)"/>
+      <name value="Unidade de tempo"/>
+      <description value="Code System utilizado para definir a classe de unidades de tempo."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1807,60 +1086,80 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRProcedimentosNacionais-1.0"/>
+        <reference value="ValueSet/BRModalidadeAssistencial-1.0"/>
       </reference>
-      <name value="Procedimento realizado"/>
-      <description value="ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS."/>
+      <name value="Modalidade Assistencial"/>
+      <description value="Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRRacaCor-1.0"/>
+        <reference value="ValueSet/BRCaraterAtendimento-1.0"/>
       </reference>
-      <name value="Raça/Cor"/>
-      <description value="Códigos para representação de raça/cor no Brasil."/>
+      <name value="Caráter de atendimento do Contato Assistencial"/>
+      <description value="ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRReacoesAdversasMedDRA-1.0"/>
+        <reference value="ValueSet/BRProblemaDiagnostico"/>
       </reference>
-      <name value="Reações Adversas da MedDRA"/>
-      <description value="Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities."/>
+      <name value="Classificação Internacional de Doenças e Atenção Primária"/>
+      <description value="Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRResponsabilidadeParticipante-1.0"/>
+        <reference value="ValueSet/BROcupacao-1.0"/>
       </reference>
-      <name value="Reponsabilidade no Contato Assistencial"/>
-      <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial."/>
+      <name value="Classificação Brasileira de Ocupações - CBO"/>
+      <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRSexo-1.0"/>
+        <reference value="ValueSet/BRPosicaoIndividuo"/>
       </reference>
-      <name value="Sexo"/>
-      <description value="Sexo de um indivíduo."/>
+      <name value="Posição do Indivíduo"/>
+      <description value="ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRTerminologiaMedicamento"/>
+        <reference value="ValueSet/BRLocalAfericao-1.0"/>
       </reference>
-      <name value="Terminologia dos medicamentos"/>
-      <description value="ValueSet utilizado para definir a terminologia de um dado medicamento."/>
+      <name value="Local de Aferição"/>
+      <description value="ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão arterial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RoupasUsadasMedicao"/>
+      </reference>
+      <name value="Roupas Usadas na Medição"/>
+      <description value="ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BROrigemMedida"/>
+      </reference>
+      <name value="Origem de Medição"/>
+      <description value="ValueSet utilizado para definir o tipo de medição corporal adotada."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1877,76 +1176,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRTipoAtestado"/>
-      </reference>
-      <name value="Tipo de atestado"/>
-      <description value="Tipo de atestado dentro das categorias médico/odontológico"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRTipoDocumento-1.0"/>
-      </reference>
-      <name value="Tipo de Documento"/>
-      <description value="Classifica o tipo de documento que está sendo trafegado."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRTipoDocumentoIndividuo-1.0"/>
-      </reference>
-      <name value="Tipo de Documento do Indivíduo"/>
-      <description value="Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRTipoEstabelecimentoSaude-1.0"/>
-      </reference>
-      <name value="Tipo de Estabelecimento de Saúde"/>
-      <description value="ValueSet utilizado para classificar o tipo de estabelecimento de saúde."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRTipoIdentificadorProcedimento-1.0"/>
-      </reference>
-      <name value="Tipo de Identificador do Procedimento"/>
-      <description value="Classifica o tipo de identificador que está sendo utilizado para o procedimento."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRTipoLogradouro-1.0"/>
-      </reference>
-      <name value="Tipo de Logradouro"/>
-      <description value="Classifica o tipo de logradouro."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRTipoObservacao-1.0"/>
-      </reference>
-      <name value="Tipo de Observação"/>
-      <description value="Tipo de Observação."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/BRTipoSubstanciaUso-1.0"/>
       </reference>
       <name value="Tipo de Substância em Uso"/>
@@ -1957,50 +1186,100 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRTurno"/>
+        <reference value="ValueSet/BRFrequenciaUsoSubstancia"/>
       </reference>
-      <name value="Turno do dia"/>
-      <description value="ValueSet utilizado para definir o turno de um dia."/>
+      <name value="Frequência de Uso da Substância"/>
+      <description value="Identifica a frequência de uso da substância em uso conforme declaração do indivíduo."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRUnidadeConsumo"/>
+        <reference value="ValueSet/BRCategoriaDiagnostico"/>
       </reference>
-      <name value="Unidade de Consumo"/>
-      <description value="ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito."/>
+      <name value="Categoria do Diagnóstico"/>
+      <description value="ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRUnidadeFederativa-1.0"/>
+        <reference value="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"/>
       </reference>
-      <name value="Unidade Federativa"/>
-      <description value="Os estados e o Distrito Federal, entes subnacionais brasileiros."/>
+      <name value="Estado da Resolução de Diagnóstico ou Problema"/>
+      <description value="Estado da resolução de um diagnóstico ou problema."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRUnidadeMedidaMedicamento"/>
+        <reference value="ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"/>
       </reference>
-      <name value="Unidade de Medida de Medicamento"/>
-      <description value="ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante."/>
+      <name value="Categoria do Agente da Alergia ou Reação Adversa"/>
+      <description value="Categoriza a substância responsável por causar uma alergia ou reação adversa."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRUnidadeTempo"/>
+        <reference value="ValueSet/BRReacoesAdversasMedDRA-1.0"/>
       </reference>
-      <name value="Unidade de Tempo"/>
-      <description value="ValueSet utilizado para definir uma unidade de tempo."/>
+      <name value="Reações Adversas da MedDRA"/>
+      <description value="Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0"/>
+      </reference>
+      <name value="Grau de Certeza de Alergias e Reações Adversas"/>
+      <description value="Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0"/>
+      </reference>
+      <name value="Criticidade de Alergias e Reações Adversas"/>
+      <description value="Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRProcedimentosNacionais-1.0"/>
+      </reference>
+      <name value="Procedimento realizado"/>
+      <description value="ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoEvento-1.0"/>
+      </reference>
+      <name value="Estado do Evento"/>
+      <description value="Identificação do estado de um evento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTerminologiaMedicamento"/>
+      </reference>
+      <name value="Terminologia dos medicamentos"/>
+      <description value="ValueSet utilizado para definir a terminologia de um dado medicamento."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2017,10 +1296,230 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/RoupasUsadasMedicao"/>
+        <reference value="ValueSet/BRUnidadeConsumo"/>
       </reference>
-      <name value="Roupas Usadas na Medição"/>
-      <description value="ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8."/>
+      <name value="Unidade de Consumo"/>
+      <description value="ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRUnidadeMedidaMedicamento"/>
+      </reference>
+      <name value="Unidade de Medida de Medicamento"/>
+      <description value="ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoSolicitacaoMedicamento-1.0"/>
+      </reference>
+      <name value="Estado da Solicitação de Medicamento"/>
+      <description value="Estado da Solicitação de Medicamento"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRMotivoDesfecho-1.0"/>
+      </reference>
+      <name value="Motivo do desfecho do Contato Assistencial"/>
+      <description value="ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTipoDocumento-1.0"/>
+      </reference>
+      <name value="Tipo de Documento"/>
+      <description value="Classifica o tipo de documento que está sendo trafegado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRResponsabilidadeParticipante-1.0"/>
+      </reference>
+      <name value="Reponsabilidade no Contato Assistencial"/>
+      <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRPapelProblemaDiagnostico"/>
+      </reference>
+      <name value="Classificação do papel de um problema e diagnóstico"/>
+      <description value="Tradução para o português do brasil da classificação do papel de um problema/diagnóstico."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRFinanciamento-1.0"/>
+      </reference>
+      <name value="Financiamento do procedimento realizado"/>
+      <description value="Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoContatoAssistencial-1.0"/>
+      </reference>
+      <name value="Estado do Contato Assistencial"/>
+      <description value="Classifica o estado de um Contato Assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTipoIdentificadorProcedimento-1.0"/>
+      </reference>
+      <name value="Tipo de Identificador do Procedimento"/>
+      <description value="Classifica o tipo de identificador que está sendo utilizado para o procedimento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRCategoriaCondicao"/>
+      </reference>
+      <name value="Classificação de uma condição"/>
+      <description value="Tradução para o português do brasil da classificação de uma condição"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTipoObservacao-1.0"/>
+      </reference>
+      <name value="Tipo de Observação"/>
+      <description value="Tipo de Observação."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoObservacao-1.0"/>
+      </reference>
+      <name value="Estado da Observação"/>
+      <description value="Tipos de estados de uma observação."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRAlergenos-1.0"/>
+      </reference>
+      <name value="Alérgenos"/>
+      <description value="Descreve o agente capaz de causar alergia ou reação adversa em seres humanos."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTurno"/>
+      </reference>
+      <name value="Turno do dia"/>
+      <description value="ValueSet utilizado para definir o turno de um dia."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRUnidadeTempo"/>
+      </reference>
+      <name value="Unidade de Tempo"/>
+      <description value="ValueSet utilizado para definir uma unidade de tempo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoAtestado"/>
+      </reference>
+      <name value="Status do atestado"/>
+      <description value="Status do atestado médico/odontológico."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRIntencaoAtestado"/>
+      </reference>
+      <name value="Intenção do atestado"/>
+      <description value="Intenção do atestado médico/odontológico."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTipoAtestado"/>
+      </reference>
+      <name value="Tipo de atestado"/>
+      <description value="Tipo de atestado dentro das categorias médico/odontológico"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoAfastamentoAtestado"/>
+      </reference>
+      <name value="Status do afastamento descrito no atestado"/>
+      <description value="Status do afastamento descrito no atestado médico/odontológico."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/bundle-example-rac"/>
+      </reference>
+      <name value="Registro de Atendimento Clínico (Bundle)"/>
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRMunicipio-1.0"/>
+      </reference>
+      <name value="Município"/>
+      <description value="Extensão para informar um município."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRPais-1.0"/>
+      </reference>
+      <name value="País"/>
+      <description value="Extensão para representar um país."/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">

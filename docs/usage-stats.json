@@ -5,26 +5,6 @@
   "jurisdiction": "BR",
   "extensions": [
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAdministradorTerceiro-1.0",
-      "title": "Gerente/Administrador (Terceiro) ou Interveniente",
-      "types": [
-        "Reference",
-        "string",
-        "Extension",
-        "string",
-        "uri",
-        "Identifier",
-        "string"
-      ]
-    },
-    {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0",
-      "title": "Atende SUS?",
-      "types": [
-        "boolean"
-      ]
-    },
-    {
       "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento",
       "title": "Código Serial de Medicamento",
       "types": [
@@ -116,13 +96,6 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0",
-      "title": "Indivíduo Protegido?",
-      "types": [
-        "boolean"
-      ]
-    },
-    {
       "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses",
       "title": "Intervalo de Doses",
       "types": [
@@ -183,14 +156,6 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
-      "title": "Jurisdição do Órgão Expedidor",
-      "types": [
-        "positiveInt",
-        "CodeableConcept"
-      ]
-    },
-    {
       "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
       "title": "Município",
       "types": [
@@ -206,83 +171,6 @@
         "string",
         "boolean",
         "string"
-      ]
-    },
-    {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNacionalidade",
-      "title": "Nacionalidade",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
-      ]
-    },
-    {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNaturalizacao-1.0",
-      "title": "Dados de Naturalização",
-      "types": [
-        "date",
-        "date",
-        "string",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
       ]
     },
     {
@@ -340,72 +228,6 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0",
-      "title": "Parentes do Indivíduo",
-      "types": [
-        "code",
-        "HumanName",
-        "Reference",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
-      ]
-    },
-    {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0",
-      "title": "Qualidade do Cadastro do Indivíduo",
-      "types": [
-        "positiveInt"
-      ]
-    },
-    {
       "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0",
       "title": "Quantidade",
       "types": [
@@ -416,83 +238,11 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0",
-      "title": "Raça/Cor e Etnina",
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResponsavelAtendimento",
+      "title": "Responsável pelo Atendimento",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
         "boolean",
-        "string",
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
+        "Coding"
       ]
     },
     {
@@ -504,7 +254,7 @@
     },
     {
       "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno",
-      "title": "Turno do Dia",
+      "title": "Turno",
       "types": [
         "code"
       ]
@@ -526,17 +276,7 @@
     "Condition": [
       {
         "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico",
-        "title": "ProblemaDiagnóstico"
-      }
-    ],
-    "Composition": [
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
-        "title": "Registro de Atendimento Clínico"
-      },
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
-        "title": "Registro de Prescrição de Medicamento"
+        "title": "Problema / Diagnóstico"
       }
     ],
     "Encounter": [
@@ -545,28 +285,10 @@
         "title": "Contato Assistencial"
       }
     ],
-    "Organization": [
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0",
-        "title": "Pessoa Jurídica e Profissional Liberal"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
-        "title": "Indivíduo"
-      }
-    ],
     "Location": [
       {
         "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0",
         "title": "Local de Atendimento"
-      }
-    ],
-    "PractitionerRole": [
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0",
-        "title": "Lotação Profissional"
       }
     ],
     "Medication": [
@@ -597,10 +319,14 @@
         "title": "Procedimento Realizado"
       }
     ],
-    "Practitioner": [
+    "Composition": [
       {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0",
-        "title": "Profissional"
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
+        "title": "Registro de Atendimento Clínico"
+      },
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
+        "title": "Registro de Prescrição de Medicamento"
       }
     ]
   },
@@ -638,7 +364,6 @@
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
-      "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
@@ -652,9 +377,6 @@
       "StructureDefinition",
       "StructureDefinition.differential.element",
       "ValueSet"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
-      "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
@@ -672,13 +394,6 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAdministradorTerceiro-1.0": [
-      "Organization"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0": [
-      "Organization",
-      "PractitionerRole"
-    ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento": [
       "Medication"
     ],
@@ -693,30 +408,13 @@
       "Procedure.performer"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
-      "Composition.subject",
       "Condition.subject",
       "Encounter.subject",
       "Procedure.subject"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0": [
-      "Patient"
-    ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses": [
       "Bundle.entry.resource.dosageInstruction.timing.repeat",
       "MedicationRequest.dosageInstruction.timing.repeat"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0": [
-      "Identifier",
-      "Practitioner.identifier"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0": [
-      "Patient"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNacionalidade": [
-      "Patient"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNaturalizacao-1.0": [
-      "Patient"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0": [
       "Bundle.entry.resource.participant",
@@ -730,21 +428,12 @@
       "Bundle.entry.resource.hospitalization",
       "Encounter.hospitalization"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0": [
-      "Patient"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0": [
-      "Patient"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0": [
-      "Patient"
-    ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0": [
       "Bundle.entry.resource",
       "Procedure"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0": [
-      "Patient"
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResponsavelAtendimento": [
+      "Encounter.participant"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao": [
       "Bundle.entry.resource",

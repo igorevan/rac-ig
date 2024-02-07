@@ -354,6 +354,24 @@
         "mustSupport": true
       },
       {
+        "id": "Encounter.participant.extension:isResponsable",
+        "path": "Encounter.participant.extension",
+        "sliceName": "isResponsable",
+        "short": "Responsável pelo Atendimento",
+        "definition": "Representa se o profissional foi responsável pelo atendimento registrado.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResponsavelAtendimento"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
         "id": "Encounter.participant.type",
         "path": "Encounter.participant.type",
         "short": "Tipo de Participação",

@@ -17,30 +17,6 @@
       "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCIAP2-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRCIAP2",
-      "title" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
-      "description" : "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOA.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2"],
-      "uses" : {
-      },
-      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRCID10",
-      "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
-      "description" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"],
-      "uses" : {
-      },
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -71,12 +47,12 @@
       "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCategoriaCondicao",
-      "title" : "Classificação de uma condição.",
+      "title" : "Classificação de uma condição",
       "description" : "Tradução para o português do brasil da classificação de uma condição",
       "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
       "uses" : {
       },
-      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
@@ -90,8 +66,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado"
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
@@ -142,18 +117,6 @@
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BREstadoDocumento",
-      "title" : "Estado do Documento",
-      "description" : "Classifica o estado do documento que está sendo trafegado.",
-      "systems" : ["http://hl7.org/fhir/composition-status"],
-      "uses" : {
-      },
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -175,8 +138,8 @@
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -188,21 +151,8 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
       "uses" : {
       },
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico",
-      "StructureDefinition-BRCIAP2Avaliado-1.0.html" : "CIAP2 Avaliado"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BREstadoSolicitacao",
-      "title" : "Estado da Solicitação",
-      "description" : "Estado da solicitação.",
-      "systems" : ["http://hl7.org/fhir/request-status"],
-      "uses" : {
-      },
-      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
@@ -215,18 +165,6 @@
       "uses" : {
       },
       "StructureDefinition-BRMedicamento.html" : "Medicamento"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREtniaIndigena-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BREtniaIndigena",
-      "title" : "Etnia Indígena",
-      "description" : "Códigos para representação de etnias indígenas no Brasil.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena"],
-      "uses" : {
-      },
-      "StructureDefinition-BRRacaCorEtnia-1.0.html" : "Raça/Cor e Etnina"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0",
@@ -282,20 +220,6 @@
       "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRJustificativaIndividuoNaoIdentificado",
-      "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
-      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -319,7 +243,6 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
@@ -337,47 +260,6 @@
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRMunicipio",
-      "title" : "Município",
-      "description" : "Municípios brasileiros, entes subnacionais.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRMunicipio-1.0.html" : "Município",
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNacionalidade",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRNacionalidade",
-      "title" : "Nacionalidade",
-      "description" : "Códigos para representação de nacionalidade.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade"],
-      "uses" : {
-      },
-      "StructureDefinition-BRNacionalidade.html" : "Nacionalidade"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRNaturezaJuridica-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRNaturezaJuridica",
-      "title" : "Natureza Jurídica",
-      "description" : "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRPessoaJuridicaProfissionalLiberal-1.0.html" : "Pessoa Jurídica e Profissional Liberal"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -387,24 +269,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BRLotacaoProfissional-1.0.html" : "Lotação Profissional",
-      "StructureDefinition-BRProfissional-1.0.html" : "Profissional"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrgaoExpedidor-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BROrgaoExpedidor",
-      "title" : "Órgão Expedidor",
-      "description" : "Lista de órgãos responsáveis por expedir documentos no Brasil.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRDocumentoIndividuo-1.0.html" : "Documento do Indivíduo"
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
@@ -419,23 +285,11 @@
       "StructureDefinition-BROrigemMedida.html" : "Origem da Medição"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPais",
-      "title" : "País",
-      "description" : "Códigos para representação de países.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"],
-      "uses" : {
-      },
-      "StructureDefinition-BRPais-1.0.html" : "País"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "BRPapelProblemaDiagnostico",
-      "title" : "Classificação do papel de um problema e diagnóstico.",
+      "title" : "Classificação do papel de um problema e diagnóstico",
       "description" : "Tradução para o português do brasil da classificação do papel de um problema/diagnóstico.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/diagnosis-role",
@@ -444,18 +298,6 @@
       "uses" : {
       },
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRParentesco-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRParentesco",
-      "title" : "Parentesco",
-      "description" : "Classificação da relação familiar entre indivíduos.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco"],
-      "uses" : {
-      },
-      "StructureDefinition-BRParentesIndividuo-1.0.html" : "Parentes do Indivíduo"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
@@ -473,20 +315,6 @@
       "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPrescricaoNaoEstruturada",
-      "title" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
-      "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico",
       "version" : "0.1.0",
       "status" : "active",
@@ -499,7 +327,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRProblemaDiagnostico.html" : "ProblemaDiagnóstico"
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedencia-1.0",
@@ -529,18 +357,6 @@
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRacaCor-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRRacaCor",
-      "title" : "Raça/Cor",
-      "description" : "Códigos para representação de raça/cor no Brasil.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRRacaCor"],
-      "uses" : {
-      },
-      "StructureDefinition-BRRacaCorEtnia-1.0.html" : "Raça/Cor e Etnina"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRReacoesAdversasMedDRA-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -565,20 +381,6 @@
       "uses" : {
       },
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRSexo",
-      "title" : "Sexo",
-      "description" : "Sexo de um indivíduo.",
-      "systems" : ["http://hl7.org/fhir/administrative-gender"],
-      "uses" : {
-      },
-      "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html" : "Informações Complementares de Indivíduos Não Identificados",
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-BRProfissional-1.0.html" : "Profissional"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
@@ -631,37 +433,7 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRTipoDocumentoIndividuo",
-      "title" : "Tipo de Documento do Indivíduo",
-      "description" : "Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.",
-      "systems" : [
-        "http://hl7.org/fhir/ValueSet/identifier-type",
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRDocumentoIndividuo-1.0.html" : "Documento do Indivíduo"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoEstabelecimentoSaude-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRTipoEstabelecimentoSaude",
-      "title" : "Tipo de Estabelecimento de Saúde",
-      "description" : "ValueSet utilizado para classificar o tipo de estabelecimento de saúde.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BREstabelecimentoSaude-1.0.html" : "Estabelecimento de Saúde"
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",
@@ -678,20 +450,6 @@
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoLogradouro-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRTipoLogradouro",
-      "title" : "Tipo de Logradouro",
-      "description" : "Classifica o tipo de logradouro.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -705,8 +463,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
@@ -729,7 +487,7 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno"],
       "uses" : {
       },
-      "StructureDefinition-BRTurno.html" : "Turno do Dia"
+      "StructureDefinition-BRTurno.html" : "Turno"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
@@ -742,21 +500,6 @@
       "uses" : {
       },
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeFederativa-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRUnidadeFederativa",
-      "title" : "Unidade Federativa",
-      "description" : "Os estados e o Distrito Federal, entes subnacionais brasileiros.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html" : "Jurisdição do Órgão Expedidor",
-      "StructureDefinition-BREndereco-1.0.html" : "Endereço"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",

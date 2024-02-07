@@ -133,6 +133,7 @@
       <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0']) &gt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResponsavelAtendimento']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResponsavelAtendimento': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:period) &lt;= 0">period: maximum cardinality of 'period' is 0</sch:assert>
