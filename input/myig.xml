@@ -17,7 +17,7 @@ including changing realm -->
   <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac" />
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is
   overridden -->
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="RACRNDSIG" />
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS" />
   <status value="active" />
@@ -753,6 +753,12 @@ including changing realm -->
       </reference>
       <name value="País" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREstadoDocumento-1.0" />
+      </reference>
+      <name value="Estado do Documento" />
+    </resource>
 
     <!-- Examples -->
     <resource>
@@ -761,6 +767,8 @@ including changing realm -->
       </reference>
       <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
     </resource>
 
     <page>

@@ -3,3 +3,21 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # instructions for ignoreWarnings.txt https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
 # (And include comments like this justifying why)
+
+The Implementation Guide contains no examples for this extension
+
+The Implementation Guide contains no explicitly linked examples for this profile
+
+Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0
+
+Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0
+
+Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0
+
+Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0
+
+Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0
+
+Best Practice Recommendation: In general, all observations should have a subject
+
+Best Practice Recommendation: In general, all observations should have a performer

@@ -25,11 +25,6 @@
         "definition": "Documento que representa o Registro Atendimento Clínico"
       },
       {
-        "id": "Composition.type.coding.system",
-        "path": "Composition.type.coding.system",
-        "fixedUri": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"
-      },
-      {
         "id": "Composition.type.coding.code",
         "path": "Composition.type.coding.code",
         "fixedCode": "RAC"
