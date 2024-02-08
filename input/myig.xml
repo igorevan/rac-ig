@@ -222,6 +222,18 @@ including changing realm -->
       </reference>
       <name value="Código Serial de Medicamento" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRMunicipio-1.0" />
+      </reference>
+      <name value="Município" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BRPais-1.0" />
+      </reference>
+      <name value="País" />
+    </resource>
 
     <!-- CodeSystem -->
     <resource>
@@ -438,6 +450,18 @@ including changing realm -->
         <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado" />
       </reference>
       <name value="Justificativa da Impossibilidade de Identificação do Indivíduo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRDivisaoGeograficaBrasil" />
+      </reference>
+      <name value="Divisão Geográfica do Brasil" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRPais" />
+      </reference>
+      <name value="País" />
     </resource>
 
     <!-- ValueSet -->
@@ -716,6 +740,18 @@ including changing realm -->
         <reference value="ValueSet/BRSexo-1.0" />
       </reference>
       <name value="Sexo" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRMunicipio-1.0" />
+      </reference>
+      <name value="Município" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRPais-1.0" />
+      </reference>
+      <name value="País" />
     </resource>
 
     <!-- Examples -->
