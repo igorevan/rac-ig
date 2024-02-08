@@ -398,7 +398,7 @@
       },
       "text" : {
         "status" : "extensions",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"bd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;bd2466a4-18af-4c3b-899c-b6cccc51acff&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>Origem da Medição</b>: Body height Measured <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#3137-7)</span></p><p><b>status</b>: final</p><p><b>code</b>: Weight <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#29463-7)</span></p><p><b>value</b>: 1.83 m<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code m = 'm')</span></p><p><b>method</b>: Standing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA11870-5)</span></p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"bd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;bd2466a4-18af-4c3b-899c-b6cccc51acff&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>Origem da Medição</b>: Body height Measured <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#3137-7)</span></p><p><b>status</b>: final</p><p><b>code</b>: Body height <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8302-2)</span></p><p><b>value</b>: 1.83 m<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code m = 'm')</span></p><p><b>method</b>: Standing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA11870-5)</span></p></div>"
       },
       "extension" : [{
         "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida",
@@ -413,7 +413,7 @@
       "code" : {
         "coding" : [{
           "system" : "http://loinc.org",
-          "code" : "29463-7"
+          "code" : "8302-2"
         }]
       },
       "valueQuantity" : {

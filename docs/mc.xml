@@ -193,7 +193,7 @@
         <td>Extension</td>
         <td>
           <code>
-            <a href="">BRResponsavelAtendimento</a>
+            <a href="StructureDefinition-BRResponsavelAtendimento.html">BRResponsavelAtendimento</a>
           </code>
         </td>
       </tr>
@@ -250,14 +250,6 @@
         <td>Extension</td>
         <td>
           <code>
-            <a href="">BRIndicadorPresencaAdmissao</a>
-          </code>
-        </td>
-      </tr>
-      <tr>
-        <td>Extension</td>
-        <td>
-          <code>
             <a href="StructureDefinition-BRIdentificacaoEquipe-1.0.html">BRIdentificacaoEquipe</a>
           </code>
         </td>
@@ -274,7 +266,7 @@
         <td>Extension</td>
         <td>
           <code>
-            <a href="">BREstadoResolucaoDiagnosticoProblema</a>
+            <a href="StructureDefinition-BRCodigoSerialMedicamento.html">BRCodigoSerialMedicamento</a>
           </code>
         </td>
       </tr>
@@ -282,7 +274,15 @@
         <td>Extension</td>
         <td>
           <code>
-            <a href="StructureDefinition-BRCodigoSerialMedicamento.html">BRCodigoSerialMedicamento</a>
+            <a href="StructureDefinition-BRPais-1.0.html">BRPais</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td>Extension</td>
+        <td>
+          <code>
+            <a href="StructureDefinition-BRMunicipio-1.0.html">BRMunicipio</a>
           </code>
         </td>
       </tr>

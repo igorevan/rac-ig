@@ -13,12 +13,12 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="RACRNDSIG"/>
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-02-07T18:11:02-03:00"/>
+  <date value="2024-02-08T18:05:18-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -744,6 +744,26 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRMunicipio-1.0"/>
+      </reference>
+      <name value="Município"/>
+      <description value="Extensão para informar um município."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRPais-1.0"/>
+      </reference>
+      <name value="País"/>
+      <description value="Extensão para representar um país."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -1091,6 +1111,26 @@
       </reference>
       <name value="Justificativa da Impossibilidade de Identificação do Indivíduo"/>
       <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRDivisaoGeograficaBrasil"/>
+      </reference>
+      <name value="Divisão Geográfica do Brasil"/>
+      <description value="As regiões geográficas, estados, distrito federal e municípios do Brasil."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRPais"/>
+      </reference>
+      <name value="País"/>
+      <description value="Códigos para representação de países."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1554,6 +1594,36 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRMunicipio-1.0"/>
+      </reference>
+      <name value="Município"/>
+      <description value="Municípios brasileiros, entes subnacionais."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRPais-1.0"/>
+      </reference>
+      <name value="País"/>
+      <description value="Códigos para representação de países."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoDocumento-1.0"/>
+      </reference>
+      <name value="Estado do Documento"/>
+      <description value="Classifica o estado do documento que está sendo trafegado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -1561,27 +1631,7 @@
       </reference>
       <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
-      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRMunicipio-1.0"/>
-      </reference>
-      <name value="Município"/>
-      <description value="Extensão para informar um município."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRPais-1.0"/>
-      </reference>
-      <name value="País"/>
-      <description value="Extensão para representar um país."/>
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">

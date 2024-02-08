@@ -42,7 +42,7 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "BRMotivoDesfecho"] ; # 
   fhir:title [ fhir:v "Motivo do Desfecho"] ; # 
   fhir:status [ fhir:v "active"] ; # 

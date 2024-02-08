@@ -14,12 +14,12 @@
     "valueInteger" : 1
   }],
   "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "RACRNDSIG",
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-07T18:11:02-03:00",
+  "date" : "2024-02-08T18:05:18-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{
@@ -934,6 +934,28 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRMunicipio-1.0"
+      },
+      "name" : "Município",
+      "description" : "Extensão para informar um município."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRPais-1.0"
+      },
+      "name" : "País",
+      "description" : "Extensão para representar um país."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1315,6 +1337,28 @@
       },
       "name" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
       "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRDivisaoGeograficaBrasil"
+      },
+      "name" : "Divisão Geográfica do Brasil",
+      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRPais"
+      },
+      "name" : "País",
+      "description" : "Códigos para representação de países."
     },
     {
       "extension" : [{
@@ -1825,6 +1869,39 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRMunicipio-1.0"
+      },
+      "name" : "Município",
+      "description" : "Municípios brasileiros, entes subnacionais."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRPais-1.0"
+      },
+      "name" : "País",
+      "description" : "Códigos para representação de países."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoDocumento-1.0"
+      },
+      "name" : "Estado do Documento",
+      "description" : "Classifica o estado do documento que está sendo trafegado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -1832,29 +1909,7 @@
       },
       "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
       "description" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
-      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BRMunicipio-1.0"
-      },
-      "name" : "Município",
-      "description" : "Extensão para informar um município."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BRPais-1.0"
-      },
-      "name" : "País",
-      "description" : "Extensão para representar um país."
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"
     }],
     "page" : {
       "extension" : [{

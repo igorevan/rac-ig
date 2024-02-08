@@ -79,7 +79,7 @@ intolerance: intolerância">type</a><a name="AllergyIntolerance.type"> </a></td>
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BRAlergiaReacaoAdversa"/>
   <title value="Alergia ou Reação Adversa"/>
   <status value="active"/>

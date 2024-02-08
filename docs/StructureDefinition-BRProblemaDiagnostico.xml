@@ -83,7 +83,7 @@ null: Indeterminado">clinicalStatus</a><a name="Condition.clinicalStatus"> </a><
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BRProblemaDiagnostico"/>
   <title value="Problema / Diagnóstico"/>
   <status value="active"/>
