@@ -44,7 +44,7 @@
   fhir:title [ fhir:v "Origem da Medição"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-02-08T18:05:18-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-09T16:41:20-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

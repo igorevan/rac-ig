@@ -1,9 +1,9 @@
 {
   "resourceType": "Bundle",
-  "id": "bundle-example-rac",
+  "id": "bundle-example-rac-1",
   "identifier": {
-    "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1",
-    "value": "4629213170263-312915-F461111112-IF46111112M312915.EUT-82313"
+    "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602",
+    "value": "94641731210"
   },
   "type": "document",
   "timestamp": "2022-05-09T18:11:19.005486Z",
@@ -862,6 +862,20 @@
         "note": [
           {
             "text": "Soro antitetânico"
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
+                    "code": "10037087"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

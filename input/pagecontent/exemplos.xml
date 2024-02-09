@@ -3,5 +3,12 @@
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
   <a name="exemplos"> </a>
   <h3>Exemplos</h3>
-  <p><a href="Bundle-bundle-example-rac.html">Exemplo de Bundle do Registro de Atendimento Clínico (RAC)</a></p>
+  <p>
+    <a href="Bundle-bundle-example-rac-1.html">Exemplo de Bundle do Registro de Atendimento Clínico
+      (RAC) - Paciente Identificado</a>
+  </p>
+  <p>
+    <a href="Bundle-bundle-example-rac-2.html">Exemplo de Bundle do Registro de Atendimento Clínico
+      (RAC) - Paciente Não Identificado</a>
+  </p>
 </div>

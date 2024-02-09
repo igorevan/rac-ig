@@ -19,7 +19,7 @@
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-08T18:05:18-03:00",
+  "date" : "2024-02-09T16:41:20-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{
@@ -1363,6 +1363,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRDadoAusenteOuDesconhecido"
+      },
+      "name" : "Classificação de dados ausentes ou desconhecidos - IPS",
+      "description" : "Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1902,12 +1913,35 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRPrescricaoNaoEstruturada"
+      },
+      "name" : "Indicativo de prescrição não estruturada ou medicamento não identificado",
+      "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/bundle-example-rac"
+        "reference" : "Bundle/bundle-example-rac-1"
       },
-      "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
+      "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado",
+      "description" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/bundle-example-rac-2"
+      },
+      "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado",
       "description" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
       "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"
     }],

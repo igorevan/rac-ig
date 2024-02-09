@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bundle-example-rac",
+  "id" : "bundle-example-rac-1",
   "meta" : {
     "lastUpdated" : "2022-05-09T18:11:18.946402Z"
   },
   "identifier" : {
-    "system" : "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1",
-    "value" : "4629213170263-312915-F461111112-IF46111112M312915.EUT-82313"
+    "system" : "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602",
+    "value" : "94641731210"
   },
   "type" : "document",
   "timestamp" : "2022-05-09T18:11:19.005486Z",
@@ -740,7 +740,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRImunobiologico.html\">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRImunobiologico.html\">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td>Prurido <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRMedDRA.html\">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -773,6 +773,14 @@
       "onsetDateTime" : "2022-06-01",
       "note" : [{
         "text" : "Soro antitetânico"
+      }],
+      "reaction" : [{
+        "manifestation" : [{
+          "coding" : [{
+            "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
+            "code" : "10037087"
+          }]
+        }]
       }]
     }
   },

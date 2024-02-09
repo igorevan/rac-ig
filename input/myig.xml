@@ -463,6 +463,12 @@ including changing realm -->
       </reference>
       <name value="País" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRDadoAusenteOuDesconhecido" />
+      </reference>
+      <name value="Classificação de dados ausentes ou desconhecidos - IPS" />
+    </resource>
 
     <!-- ValueSet -->
     <resource>
@@ -759,13 +765,30 @@ including changing realm -->
       </reference>
       <name value="Estado do Documento" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRPrescricaoNaoEstruturada" />
+      </reference>
+      <name value="Indicativo de prescrição não estruturada ou medicamento não identificado" />
+    </resource>
 
     <!-- Examples -->
     <resource>
       <reference>
-        <reference value="Bundle/bundle-example-rac" />
+        <reference value="Bundle/bundle-example-rac-1" />
       </reference>
-      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
+      <name
+        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado" />
+      <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/bundle-example-rac-2" />
+      </reference>
+      <name
+        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado" />
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
       <exampleCanonical
         value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />

@@ -49,6 +49,13 @@
     "name" : "BRCategoriaDiagnostico"
   },
   {
+    "id" : "BRDadoAusenteOuDesconhecido",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+    "version" : "1.0.0",
+    "name" : "BRDadoAusenteOuDesconhecido"
+  },
+  {
     "id" : "BRDivisaoGeograficaBrasil",
     "type" : "CodeSystem",
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
@@ -677,6 +684,13 @@
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
     "version" : "1.0.0",
     "name" : "BRPosicaoIndividuo"
+  },
+  {
+    "id" : "BRPrescricaoNaoEstruturada",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
+    "version" : "1.0.0",
+    "name" : "BRPrescricaoNaoEstruturada"
   },
   {
     "id" : "BRProblemaDiagnostico",

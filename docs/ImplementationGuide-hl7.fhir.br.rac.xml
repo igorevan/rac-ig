@@ -18,7 +18,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-02-08T18:05:18-03:00"/>
+  <date value="2024-02-09T16:41:20-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -1134,6 +1134,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRDadoAusenteOuDesconhecido"/>
+      </reference>
+      <name value="Classificação de dados ausentes ou desconhecidos - IPS"/>
+      <description value="Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -1624,12 +1634,33 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRPrescricaoNaoEstruturada"/>
+      </reference>
+      <name value="Indicativo de prescrição não estruturada ou medicamento não identificado"/>
+      <description value="Indicativo de prescrição não estruturada ou medicamento não identificado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/bundle-example-rac"/>
+        <reference value="Bundle/bundle-example-rac-1"/>
       </reference>
-      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
+      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado"/>
+      <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/bundle-example-rac-2"/>
+      </reference>
+      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado"/>
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)"/>
       <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"/>
     </resource>

@@ -510,7 +510,7 @@
         <td> </td>
         <td> </td>
         <td>
-          <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a>
+          <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">Observação Descritiva</a>
         </td>
       </tr>
     </tbody>
@@ -1039,7 +1039,7 @@
           <a href="ValueSet-BRCategoriaDiagnostico.html">Categoria do Diagnóstico</a>
         </td>
         <td>
-          <a href="StructureDefinition-BRProblemaDiagnostico.html">Problema / Diagnóstico</a>
+          <a href="StructureDefinition-BRCID10Avaliado-1.0.html">CID10 Avaliado</a>
         </td>
       </tr>
       <tr>
@@ -1121,7 +1121,9 @@
         <td>Agente/substância específica</td>
         <td>Texto dodificado: CBARA, CATMAT, Lista de vacinas do PNI</td>
         <td> </td>
-        <td> </td>
+        <td>
+          <a href="ValueSet-BRAlergenos-1.0.html">Alérgenos</a>
+        </td>
         <td>
           <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">Alergia ou Reação Adversa</a>
         </td>
@@ -1659,7 +1661,9 @@
         <td> </td>
         <td> </td>
         <td>
-          <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a>
+          <a href="StructureDefinition-BROutrasInformacoes.html">Outras Informações</a>, presente em <a
+            href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato
+            Assistencial</a>
         </td>
       </tr>
     </tbody>

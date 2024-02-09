@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for RACRNDSIG</h1>
- <p>Generated Thu Feb 08 18:29:57 BRT 2024, FHIR version 4.0.1 for hl7.fhir.br.rac#1.0.0 (canonical = <a href="http://www.saude.gov.br/fhir/r4">http://www.saude.gov.br/fhir/r4</a> (<a href="http://www.saude.gov.br/fhir/r4/history.html">history</a>))</p>
+ <p>Generated Fri Feb 09 17:06:43 BRT 2024, FHIR version 4.0.1 for hl7.fhir.br.rac#1.0.0 (canonical = <a href="http://www.saude.gov.br/fhir/r4">http://www.saude.gov.br/fhir/r4</a> (<a href="http://www.saude.gov.br/fhir/r4/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -22,6 +22,7 @@
 </ul>
 <h2>Tx Manager report for 'http://tx.fhir.org/tx-reg'</h2>
 <ul>
+  <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido|*] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
   <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
   <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador|*] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
   <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS|*] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
@@ -29,9 +30,10 @@
   <li>http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0|1.0.0 includes multiple systems [http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento, http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*] best handled by multiple servers: [auth = , candidates=, auth = , candidates=]. Using master @ 'http://tx.fhir.org/r4'</li>
   <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
   <li>http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0|1.0.0 includes multiple systems [http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial, http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial|*] best handled by multiple servers: [auth = , candidates=, auth = , candidates=]. Using master @ 'http://tx.fhir.org/r4'</li>
+  <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
 </ul>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
-<p>Use Count: 10. Code Systems used: </p>
+<p>Use Count: 9. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -48,17 +50,9 @@
     </th>
   </tr>
   <tr>
-    <td>http://hl7.org/fhir/composition-status</td>
+    <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido|*</td>
     <td>0</td>
-    <td>2</td>
-    <td>
-      <a href="http://hl7.org/fhir/R4/codesystem-composition-status.html">CompositionStatus</a>
-    </td>
-  </tr>
-  <tr>
-    <td>http://hl7.org/fhir/composition-status|*</td>
-    <td>0</td>
-    <td>3</td>
+    <td>1</td>
     <td/>
   </tr>
   <tr>
@@ -84,7 +78,7 @@
   <tr>
     <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</td>
     <td>0</td>
-    <td>2</td>
+    <td>3</td>
     <td>
       <a href="CodeSystem-BRTipoDocumento.html">Tipo de Documento</a>
     </td>

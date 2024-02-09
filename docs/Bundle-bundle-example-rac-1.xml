@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="bundle-example-rac-1"/>
+  <meta>
+    <lastUpdated value="2022-05-09T18:11:18.946402Z"/>
+  </meta>
+  <identifier>
+    <system value="http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602"/>
+    <value value="94641731210"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2022-05-09T18:11:19.005486Z"/>
+  <entry>
+    <fullUrl value="urn:uuid:5df38718-3047-4e95-8a90-413ec48e741a"/>
+    <resource>
+      <Composition>
+        <id value="5df38718-3047-4e95-8a90-413ec48e741a"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:28:34.132629Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="5df38718-3047-4e95-8a90-413ec48e741a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;5df38718-3047-4e95-8a90-413ec48e741a&quot; Updated &quot;2022-05-09 17:28:34+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRRegistroAtendimentoClinico.html">Registro de Atendimento Clínico</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Registro de Atendimento Clínico <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoDocumento.html">Tipo de Documento</a>#RAC)</span></p><p><b>category</b>: Atenção Hospitalar <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRModalidadeAssistencial.html">Modalidade Assistencial</a>#04)</span></p><p><b>date</b>: 2022-05-09</p><p><b>author</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</span></p><p><b>title</b>: Registro de Atendimento Clínico</p></div>
+        </text>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
+            <code value="RAC"/>
+          </coding>
+        </type>
+        <category>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"/>
+            <code value="04"/>
+          </coding>
+        </category>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <date value="2022-05-09"/>
+        <author>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+            <value value="3191384"/>
+          </identifier>
+        </author>
+        <title value="Registro de Atendimento Clínico"/>
+        <section>
+          <entry>
+            <reference value="urn:uuid:d12070e4-3461-4fa0-95a6-76fd435cb403"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:2af3c6c9-87ed-4f01-afec-ee8dc7df9951"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:1031de4c-be76-48d3-85de-75274dba036c"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:bd2466a4-18af-4c3b-899c-b6cccc51acff"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:84e657cc-159f-4271-b0a1-38a76e28c624"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:5302c1a3-2190-44aa-a9a2-382d27fe9230"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:8264b367-cce0-4a76-b8d4-f9dcea39ee3d"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:0509d090-3594-4f07-b32c-2a97da6a6fed"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:059208f1-0083-4f81-a472-87b32140b31d"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:98b0e992-9c95-464a-a661-6c42a4bd310c"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:efcce484-7226-435f-8c7c-b1d703079444"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:d78c1159-1473-4bef-9096-5ba98384e950"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:32e99ca6-4e7d-4d56-8f25-612dd1c51a71"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:19011496-44a1-4048-8e1b-558b82b1caf1"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:34fe98d3-e5fc-491e-a125-c90ab2abb83a"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:48e799d2-1087-4461-af34-8ecdd5bce316"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:d2176159-0427-42da-a727-636bbb042d97"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:22f0baea-50d7-429b-8767-3b07c9a8120e"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:d12070e4-3461-4fa0-95a6-76fd435cb403"/>
+    <resource>
+      <Encounter>
+        <id value="d12070e4-3461-4fa0-95a6-76fd435cb403"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:31:16.551205Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Encounter</b><a name="d12070e4-3461-4fa0-95a6-76fd435cb403"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Encounter &quot;d12070e4-3461-4fa0-95a6-76fd435cb403&quot; Updated &quot;2022-05-09 17:31:16+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a></p></div><p><b>status</b>: finished</p><p><b>class</b>: Atenção Hospitalar (Details: http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial code 04 = 'Atenção Hospitalar', stated as 'null')</p><p><b>priority</b>: Eletivo <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRCaraterAtendimento.html">Caráter de Atendimento</a>#01)</span></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td>, </td><td>Profissional que solicitou o Contato Assistencial <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRResponsabilidadeParticipante.html">Reponsabilidade no Contato Assistencial</a>#solicitante)</span></td><td><span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</span></td></tr></table><p><b>period</b>: 2022-04-09 --&gt; 2022-05-09</p><p><b>reasonReference</b>: <a href="#Observation_c9f83c17-3081-4233-b1e4-f629c58d6813">See above (urn:uuid:c9f83c17-3081-4233-b1e4-f629c58d6813)</a></p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="#Condition_2af3c6c9-87ed-4f01-afec-ee8dc7df9951">See above (urn:uuid:2af3c6c9-87ed-4f01-afec-ee8dc7df9951)</a></p><p><b>use</b>: Diagnosis not present on admission <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRPapelProblemaDiagnostico.html">Classificação do papel de um problema e diagnóstico</a>#NAD)</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="#Procedure_1031de4c-be76-48d3-85de-75274dba036c">See above (urn:uuid:1031de4c-be76-48d3-85de-75274dba036c)</a></p></blockquote><h3>Hospitalizations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style="display: none">*</td><td/><td>Informação ausente no modelo de origem <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRProcedencia.html">Procedência</a>#99)</span></td><td>Óbito <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRMotivoDesfecho.html">Motivo do Desfecho</a>#06)</span></td></tr></table><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td></tr><tr><td style="display: none">*</td><td><a href="#Location_6f2180c5-32aa-49cf-8b66-b2581465513c">See above (urn:uuid:6f2180c5-32aa-49cf-8b66-b2581465513c)</a></td></tr></table><p><b>serviceProvider</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</span></p></div>
+        </text>
+        <status value="finished"/>
+        <class>
+          <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"/>
+          <code value="04"/>
+        </class>
+        <priority>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento"/>
+            <code value="01"/>
+          </coding>
+        </priority>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <participant>
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"/>
+                <code value="223505"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0">
+            <valueInteger value="2"/>
+          </extension>
+          <type>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante"/>
+              <code value="solicitante"/>
+            </coding>
+          </type>
+          <individual>
+            <identifier>
+              <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0"/>
+              <value value="815113499149874-3191384"/>
+            </identifier>
+          </individual>
+        </participant>
+        <period>
+          <start value="2022-04-09"/>
+          <end value="2022-05-09"/>
+        </period>
+        <reasonReference>
+          <reference value="urn:uuid:c9f83c17-3081-4233-b1e4-f629c58d6813"/>
+        </reasonReference>
+        <diagnosis>
+          <condition>
+            <reference value="urn:uuid:2af3c6c9-87ed-4f01-afec-ee8dc7df9951"/>
+          </condition>
+          <use>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico"/>
+              <code value="NAD"/>
+            </coding>
+          </use>
+          <rank value="1"/>
+        </diagnosis>
+        <diagnosis>
+          <condition>
+            <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0">
+              <valueCodeableConcept>
+                <coding>
+                  <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento"/>
+                  <code value="01"/>
+                </coding>
+              </valueCodeableConcept>
+            </extension>
+            <reference value="urn:uuid:1031de4c-be76-48d3-85de-75274dba036c"/>
+          </condition>
+        </diagnosis>
+        <hospitalization>
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes">
+            <valueAnnotation>
+              <time value="2022-05-09"/>
+              <text value="Paciente se queixando da presença de sangue na saliva."/>
+            </valueAnnotation>
+          </extension>
+          <admitSource>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia"/>
+              <code value="99"/>
+            </coding>
+          </admitSource>
+          <dischargeDisposition>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho"/>
+              <code value="06"/>
+            </coding>
+          </dischargeDisposition>
+        </hospitalization>
+        <location>
+          <location>
+            <reference value="urn:uuid:6f2180c5-32aa-49cf-8b66-b2581465513c"/>
+          </location>
+        </location>
+        <serviceProvider>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+            <value value="162338254590005"/>
+          </identifier>
+        </serviceProvider>
+      </Encounter>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2af3c6c9-87ed-4f01-afec-ee8dc7df9951"/>
+    <resource>
+      <Condition>
+        <id value="2af3c6c9-87ed-4f01-afec-ee8dc7df9951"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:37:55.000322Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="2af3c6c9-87ed-4f01-afec-ee8dc7df9951"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;2af3c6c9-87ed-4f01-afec-ee8dc7df9951&quot; Updated &quot;2022-05-09 17:37:55+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRProblemaDiagnostico.html">Problema / Diagnóstico</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>category</b>: Encounter Diagnosis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-category.html">Condition Category Codes</a>#encounter-diagnosis)</span></p><p><b>code</b>: Varizes esofagianas sem sangramento <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRCID10.html">Classificação Internacional de Doenças - Décima Revisão - CID-10</a>#I859)</span></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>note</b>: Varizes esofagianas sem sangramento.</p></div>
+        </text>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+          </coding>
+        </clinicalStatus>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="encounter-diagnosis"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"/>
+            <code value="I859"/>
+          </coding>
+        </code>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <note>
+          <text value="Varizes esofagianas sem sangramento."/>
+        </note>
+      </Condition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1031de4c-be76-48d3-85de-75274dba036c"/>
+    <resource>
+      <Procedure>
+        <id value="1031de4c-be76-48d3-85de-75274dba036c"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:39:08.701859Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="1031de4c-be76-48d3-85de-75274dba036c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;1031de4c-be76-48d3-85de-75274dba036c&quot; Updated &quot;2022-05-09 17:39:08+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">Procedimento Realizado</a></p></div><p><b>Quantidade</b>: 23</p><p><b>identifier</b>: Código de Autorização/462921313170263</p><p><b>status</b>: completed</p><p><b>code</b>: CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTabelaSUS.html">Tabela de procedimentos, medicamentos e OPM do SUS</a>#0301010048)</span></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>performed</b>: 2022-05-09</p><h3>Performers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>Function</b></td><td><b>Actor</b></td><td><b>OnBehalfOf</b></td></tr><tr><td style="display: none">*</td><td/><td>FISIOTERAPEUTA GERAL <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRCBO.html">Classificação Brasileira de Ocupações - CBO</a>#223605)</span></td><td><span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</span></td><td><span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</span></td></tr></table></div>
+        </text>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0">
+          <valuePositiveInt value="23"/>
+        </extension>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"/>
+              <code value="AUTH"/>
+            </coding>
+          </type>
+          <value value="462921313170263"/>
+        </identifier>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS"/>
+            <code value="0301010048"/>
+          </coding>
+        </code>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <performedDateTime value="2022-05-09"/>
+        <performer>
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0">
+            <valueInteger value="2"/>
+          </extension>
+          <function>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"/>
+              <code value="223605"/>
+            </coding>
+          </function>
+          <actor>
+            <identifier>
+              <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0"/>
+              <value value="815113499149874-3191384"/>
+            </identifier>
+          </actor>
+          <onBehalfOf>
+            <identifier>
+              <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+              <value value="162338254590005"/>
+            </identifier>
+          </onBehalfOf>
+        </performer>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c9f83c17-3081-4233-b1e4-f629c58d6813"/>
+    <resource>
+      <Observation>
+        <id value="c9f83c17-3081-4233-b1e4-f629c58d6813"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:37:55.000322Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="c9f83c17-3081-4233-b1e4-f629c58d6813"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;c9f83c17-3081-4233-b1e4-f629c58d6813&quot; Updated &quot;2022-05-09 17:37:55+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">Observação Descritiva</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Annotation comment Imp <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#48767-8)</span></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>issued</b>: 9 de mai. de 2022 14:39:08</p><p><b>value</b>: Varizes esofagianas sem sangramento.</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48767-8"/>
+          </coding>
+        </code>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <issued value="2022-05-09T17:39:08.701859Z"/>
+        <valueString value="Varizes esofagianas sem sangramento."/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6f2180c5-32aa-49cf-8b66-b2581465513c"/>
+    <resource>
+      <Location>
+        <id value="6f2180c5-32aa-49cf-8b66-b2581465513c"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:37:55.000322Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Location</b><a name="6f2180c5-32aa-49cf-8b66-b2581465513c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Location &quot;6f2180c5-32aa-49cf-8b66-b2581465513c&quot; Updated &quot;2022-05-09 17:37:55+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRLocalAtendimento-1.0.html">Local de Atendimento</a></p></div><p><b>status</b>: active</p><p><b>name</b>: Estabelecimento de saúde</p><p><b>mode</b>: kind</p></div>
+        </text>
+        <status value="active"/>
+        <name value="Estabelecimento de saúde"/>
+        <mode value="kind"/>
+      </Location>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:bd2466a4-18af-4c3b-899c-b6cccc51acff"/>
+    <resource>
+      <Observation>
+        <id value="bd2466a4-18af-4c3b-899c-b6cccc51acff"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="bd2466a4-18af-4c3b-899c-b6cccc51acff"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;bd2466a4-18af-4c3b-899c-b6cccc51acff&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>Origem da Medição</b>: Body height Measured <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#3137-7)</span></p><p><b>status</b>: final</p><p><b>code</b>: Body height <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8302-2)</span></p><p><b>value</b>: 1.83 m<span style="background: LightGoldenRodYellow"> (Details: UCUM code m = 'm')</span></p><p><b>method</b>: Standing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11870-5)</span></p></div>
+        </text>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="3137-7"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="8302-2"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="1.83"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="m"/>
+        </valueQuantity>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA11870-5"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:84e657cc-159f-4271-b0a1-38a76e28c624"/>
+    <resource>
+      <Observation>
+        <id value="84e657cc-159f-4271-b0a1-38a76e28c624"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="84e657cc-159f-4271-b0a1-38a76e28c624"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;84e657cc-159f-4271-b0a1-38a76e28c624&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Circumf.at umbilicus by Tape measure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8280-0)</span></p><p><b>value</b>: 135.5 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM code cm = 'cm')</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="8280-0"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="135.5"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:5302c1a3-2190-44aa-a9a2-382d27fe9230"/>
+    <resource>
+      <Observation>
+        <id value="5302c1a3-2190-44aa-a9a2-382d27fe9230"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="5302c1a3-2190-44aa-a9a2-382d27fe9230"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;5302c1a3-2190-44aa-a9a2-382d27fe9230&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: LMP Start date <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8665-2)</span></p><p><b>value</b>: 2022-05-23</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="8665-2"/>
+          </coding>
+        </code>
+        <valueDateTime value="2022-05-23"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:8264b367-cce0-4a76-b8d4-f9dcea39ee3d"/>
+    <resource>
+      <Observation>
+        <id value="8264b367-cce0-4a76-b8d4-f9dcea39ee3d"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="8264b367-cce0-4a76-b8d4-f9dcea39ee3d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;8264b367-cce0-4a76-b8d4-f9dcea39ee3d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Type of substance abused <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#56832-9)</span></p><p><b>effective</b>: Code: 1 ou 2 vezes</p><p><b>value</b>: Bebidas Alcóolicas <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoSubstanciaUso.html">Tipo de Substância em Uso</a>#alcool)</span></p><p><b>note</b>: Uso ocasional de cannabis.</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="56832-9"/>
+          </coding>
+        </code>
+        <effectiveTiming>
+          <code>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia"/>
+              <code value="uma-ou-duas"/>
+            </coding>
+          </code>
+        </effectiveTiming>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso"/>
+            <code value="alcool"/>
+          </coding>
+        </valueCodeableConcept>
+        <note>
+          <text value="Uso ocasional de cannabis."/>
+        </note>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:0509d090-3594-4f07-b32c-2a97da6a6fed"/>
+    <resource>
+      <Observation>
+        <id value="0509d090-3594-4f07-b32c-2a97da6a6fed"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="0509d090-3594-4f07-b32c-2a97da6a6fed"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;0509d090-3594-4f07-b32c-2a97da6a6fed&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: GA Est from LMP <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11885-1)</span></p><p><b>value</b>: 3.5 wk<span style="background: LightGoldenRodYellow"> (Details: UCUM code wk = 'wk')</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="11885-1"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="3.5"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="wk"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:059208f1-0083-4f81-a472-87b32140b31d"/>
+    <resource>
+      <Observation>
+        <id value="059208f1-0083-4f81-a472-87b32140b31d"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="059208f1-0083-4f81-a472-87b32140b31d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;059208f1-0083-4f81-a472-87b32140b31d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Head Circumf OFC <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#9843-4)</span></p><p><b>value</b>: 45.5 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM code cm = 'cm')</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="9843-4"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="45.5"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:98b0e992-9c95-464a-a661-6c42a4bd310c"/>
+    <resource>
+      <Observation>
+        <id value="98b0e992-9c95-464a-a661-6c42a4bd310c"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="98b0e992-9c95-464a-a661-6c42a4bd310c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;98b0e992-9c95-464a-a661-6c42a4bd310c&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>Origem da Medição</b>: Body height Stated <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#3138-5)</span></p><p><b>Roupas Usadas na Medição</b>: Street clothes &amp; shoes <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11873-9)</span></p><p><b>status</b>: final</p><p><b>code</b>: Weight <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#29463-7)</span></p><p><b>value</b>: 88.15 kg<span style="background: LightGoldenRodYellow"> (Details: UCUM code kg = 'kg')</span></p><p><b>method</b>: Standing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11870-5)</span></p></div>
+        </text>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="3138-5"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="LA11873-9"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="29463-7"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="88.15"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="kg"/>
+        </valueQuantity>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA11870-5"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:efcce484-7226-435f-8c7c-b1d703079444"/>
+    <resource>
+      <Observation>
+        <id value="efcce484-7226-435f-8c7c-b1d703079444"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="efcce484-7226-435f-8c7c-b1d703079444"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;efcce484-7226-435f-8c7c-b1d703079444&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: BP sys <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6)</span></p><p><b>value</b>: 0.15 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p><p><b>bodySite</b>: Pulso esquerdo <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRLocalAfericao.html">Local de Aferição</a>#6)</span></p><p><b>method</b>: Sitting <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA11868-9)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="8480-6"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="0.15"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="mm[Hg]"/>
+        </valueQuantity>
+        <bodySite>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao"/>
+            <code value="6"/>
+          </coding>
+        </bodySite>
+        <method>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA11868-9"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:d78c1159-1473-4bef-9096-5ba98384e950"/>
+    <resource>
+      <Observation>
+        <id value="d78c1159-1473-4bef-9096-5ba98384e950"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="d78c1159-1473-4bef-9096-5ba98384e950"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;d78c1159-1473-4bef-9096-5ba98384e950&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Abortions <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11612-9)</span></p><p><b>value</b>: 1</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="11612-9"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="1"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:32e99ca6-4e7d-4d56-8f25-612dd1c51a71"/>
+    <resource>
+      <Observation>
+        <id value="32e99ca6-4e7d-4d56-8f25-612dd1c51a71"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="32e99ca6-4e7d-4d56-8f25-612dd1c51a71"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;32e99ca6-4e7d-4d56-8f25-612dd1c51a71&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11996-6)</span></p><p><b>value</b>: 2</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="11996-6"/>
+          </coding>
+        </code>
+        <valueQuantity>
+          <value value="2"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:19011496-44a1-4048-8e1b-558b82b1caf1"/>
+    <resource>
+      <Observation>
+        <id value="19011496-44a1-4048-8e1b-558b82b1caf1"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="19011496-44a1-4048-8e1b-558b82b1caf1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;19011496-44a1-4048-8e1b-558b82b1caf1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11996-6)</span></p><p><b>value</b>: Predominante <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoAleitamentoMaterno.html">Tipo de Aleitamento Materno</a>#predominante)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="11996-6"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno"/>
+            <code value="predominante"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:34fe98d3-e5fc-491e-a125-c90ab2abb83a"/>
+    <resource>
+      <AllergyIntolerance>
+        <id value="34fe98d3-e5fc-491e-a125-c90ab2abb83a"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="34fe98d3-e5fc-491e-a125-c90ab2abb83a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRImunobiologico.html">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Manifestation</b></td></tr><tr><td style="display: none">*</td><td>Prurido <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRMedDRA.html">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>
+        </text>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </clinicalStatus>
+        <verificationStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+            <code value="confirmed"/>
+          </coding>
+        </verificationStatus>
+        <category value="food"/>
+        <criticality value="low"/>
+        <code>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"/>
+            <code value="2"/>
+          </coding>
+          <text value="SAT"/>
+        </code>
+        <patient>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </patient>
+        <onsetDateTime value="2022-06-01"/>
+        <note>
+          <text value="Soro antitetânico"/>
+        </note>
+        <reaction>
+          <manifestation>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA"/>
+              <code value="10037087"/>
+            </coding>
+          </manifestation>
+        </reaction>
+      </AllergyIntolerance>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:48e799d2-1087-4461-af34-8ecdd5bce316"/>
+    <resource>
+      <Composition>
+        <id value="48e799d2-1087-4461-af34-8ecdd5bce316"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="48e799d2-1087-4461-af34-8ecdd5bce316"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;48e799d2-1087-4461-af34-8ecdd5bce316&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">Registro de Prescrição de Medicamento</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Registro de Prescrição de Medicamento <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoDocumento.html">Tipo de Documento</a>#RPM)</span></p><p><b>date</b>: 2022-03-04 14:59:51-0300</p><p><b>author</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</span></p><p><b>title</b>: Registro de Prescrição de Medicamento</p></div>
+        </text>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
+            <code value="RPM"/>
+          </coding>
+        </type>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <date value="2022-03-04T14:59:51-03:00"/>
+        <author>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+            <value value="3191384"/>
+          </identifier>
+        </author>
+        <title value="Registro de Prescrição de Medicamento"/>
+        <section>
+          <entry>
+            <reference value="urn:uuid:6d607d4c-18f4-4647-be8c-d3b40e1659bb"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6d607d4c-18f4-4647-be8c-d3b40e1659bb"/>
+    <resource>
+      <MedicationRequest>
+        <id value="6d607d4c-18f4-4647-be8c-d3b40e1659bb"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationRequest</b><a name="6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationRequest &quot;6d607d4c-18f4-4647-be8c-d3b40e1659bb&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRPrescricaoMedicamento.html">Prescrição de Medicamento</a></p></div><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>medication</b>: <a href="#Medication_8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd">See above (urn:uuid:8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd)</a></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>authoredOn</b>: 2022-03-04</p><p><b>requester</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</span></p><p><b>recorder</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0</code>/162338254590005</span></p><p><b>note</b>: Medicamento necessário para tratamento da febre devido à gripe. (By Dr. Getúlio @2022-03-04)</p><blockquote><p><b>dosageInstruction</b></p><p><b>patientInstruction</b>: Tomar uma vez ao dia via oral.</p><p><b>timing</b>: Count 1 times, 12</p><p><b>asNeeded</b>: true</p><p><b>route</b>: Oral <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRViaAdministracao.html">Via de Administração</a>#10907)</span></p><blockquote><p><b>doseAndRate</b></p></blockquote><p><b>maxDosePerAdministration</b>: 10</p></blockquote><h3>DispenseRequests</h3><table class="grid"><tr><td style="display: none">-</td><td><b>ValidityPeriod</b></td><td><b>Quantity</b></td></tr><tr><td style="display: none">*</td><td>2022-02-24 --&gt; 2022-03-03</td><td>10</td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <intent value="order"/>
+        <medicationReference>
+          <reference value="urn:uuid:8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd"/>
+        </medicationReference>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <authoredOn value="2022-03-04"/>
+        <requester>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+            <value value="3191384"/>
+          </identifier>
+        </requester>
+        <recorder>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0"/>
+            <value value="162338254590005"/>
+          </identifier>
+        </recorder>
+        <note>
+          <authorString value="Dr. Getúlio"/>
+          <time value="2022-03-04"/>
+          <text value="Medicamento necessário para tratamento da febre devido à gripe."/>
+        </note>
+        <dosageInstruction>
+          <patientInstruction value="Tomar uma vez ao dia via oral."/>
+          <timing>
+            <repeat>
+              <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno">
+                <valueCode value="3"/>
+              </extension>
+              <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses">
+                <extension url="periodUnit">
+                  <valueCode value="min"/>
+                </extension>
+                <extension url="period">
+                  <valuePositiveInt value="1"/>
+                </extension>
+              </extension>
+              <count value="1"/>
+              <countMax value="10"/>
+              <frequency value="12"/>
+            </repeat>
+          </timing>
+          <asNeededBoolean value="true"/>
+          <route>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"/>
+              <code value="10907"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <type>
+              <coding>
+                <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida"/>
+                <code value="13"/>
+              </coding>
+            </type>
+            <doseQuantity>
+              <value value="10"/>
+            </doseQuantity>
+          </doseAndRate>
+          <maxDosePerAdministration>
+            <value value="10"/>
+          </maxDosePerAdministration>
+        </dosageInstruction>
+        <dispenseRequest>
+          <validityPeriod>
+            <start value="2022-02-24"/>
+            <end value="2022-03-03"/>
+          </validityPeriod>
+          <quantity>
+            <value value="10"/>
+          </quantity>
+        </dispenseRequest>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd"/>
+    <resource>
+      <Medication>
+        <id value="8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRMedicamento.html">Medicamento</a></p></div><p><b>code</b>: Terminologia segundo CATMAT <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRObmCATMAT.html">Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)</a>#BR0352317)</span></p><p><b>form</b>: Ampola <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRUnidadeMedida.html">Unidade de Medida</a>#2)</span></p></div>
+        </text>
+        <code>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT"/>
+            <code value="BR0352317"/>
+          </coding>
+          <text value="Terminologia segundo CATMAT"/>
+        </code>
+        <form>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida"/>
+            <code value="2"/>
+          </coding>
+        </form>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:d2176159-0427-42da-a727-636bbb042d97"/>
+    <resource>
+      <CarePlan>
+        <id value="d2176159-0427-42da-a727-636bbb042d97"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="d2176159-0427-42da-a727-636bbb042d97"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource CarePlan &quot;d2176159-0427-42da-a727-636bbb042d97&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRPlanoCuidados-1.0.html">Plano de Cuidados</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>description</b>: Repouso pós-medicação intramuscular</p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p></div>
+        </text>
+        <status value="active"/>
+        <intent value="plan"/>
+        <description value="Repouso pós-medicação intramuscular"/>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+      </CarePlan>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:22f0baea-50d7-429b-8767-3b07c9a8120e"/>
+    <resource>
+      <CarePlan>
+        <id value="22f0baea-50d7-429b-8767-3b07c9a8120e"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="22f0baea-50d7-429b-8767-3b07c9a8120e"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource CarePlan &quot;22f0baea-50d7-429b-8767-3b07c9a8120e&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRAtestado.html">Atestado Digital</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>category</b>: Atestado Médico/Odontológico <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRTipoDocumento.html">Tipo de Documento</a>#ATM)</span></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>addresses</b>: <a href="#Condition_6f057e45-34ab-43d6-8fd5-53c1d3aa73b2">See above (urn:uuid:6f057e45-34ab-43d6-8fd5-53c1d3aa73b2)</a></p><blockquote><p><b>activity</b></p><h3>Details</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Description</b></td></tr><tr><td style="display: none">*</td><td>unknown</td><td>Events: 2022-07-25 18:11:19+0000, Count 1 times, Once</td><td>Nada digno de nota.</td></tr></table></blockquote></div>
+        </text>
+        <status value="active"/>
+        <intent value="plan"/>
+        <category>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
+            <code value="ATM"/>
+          </coding>
+        </category>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <addresses>
+          <reference value="urn:uuid:6f057e45-34ab-43d6-8fd5-53c1d3aa73b2"/>
+        </addresses>
+        <activity>
+          <detail>
+            <status value="unknown"/>
+            <scheduledTiming>
+              <event value="2022-07-25T18:11:19.005486Z"/>
+              <repeat>
+                <count value="1"/>
+              </repeat>
+            </scheduledTiming>
+            <description value="Nada digno de nota."/>
+          </detail>
+        </activity>
+      </CarePlan>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6f057e45-34ab-43d6-8fd5-53c1d3aa73b2"/>
+    <resource>
+      <Condition>
+        <id value="6f057e45-34ab-43d6-8fd5-53c1d3aa73b2"/>
+        <meta>
+          <lastUpdated value="2022-05-09T17:37:55.000322Z"/>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="6f057e45-34ab-43d6-8fd5-53c1d3aa73b2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;6f057e45-34ab-43d6-8fd5-53c1d3aa73b2&quot; Updated &quot;2022-05-09 17:37:55+0000&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRCID10Avaliado-1.0.html">CID10 Avaliado</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>category</b>: Principal <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRCategoriaDiagnostico.html">Categoria do Diagnóstico</a>#01)</span></p><p><b>code</b>: Varizes esofagianas sem sangramento <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRCID10.html">Classificação Internacional de Doenças - Décima Revisão - CID-10</a>#I859)</span></p><p><b>subject</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2023-06-16</p><p><b>note</b>: Varizes esofagianas sem sangramento.</p></div>
+        </text>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+          </coding>
+        </clinicalStatus>
+        <category>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"/>
+            <code value="01"/>
+            <display value="Principal"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"/>
+            <code value="I859"/>
+          </coding>
+        </code>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="819217217061851"/>
+          </identifier>
+        </subject>
+        <onsetDateTime value="2023-06-16"/>
+        <note>
+          <text value="Varizes esofagianas sem sangramento."/>
+        </note>
+      </Condition>
+    </resource>
+  </entry>
+</Bundle>

@@ -57,6 +57,14 @@
       "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado."
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRDadoAusenteOuDesconhecido",
+      "title" : "Classificação de dados ausentes ou desconhecidos - IPS",
+      "description" : "Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
       "version" : "1.0.0",
       "status" : "active",

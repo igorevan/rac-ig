@@ -413,6 +413,9 @@
       "Encounter.subject",
       "Procedure.subject"
     ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0": [
+      "Bundle.entry.resource.subject"
+    ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses": [
       "Bundle.entry.resource.dosageInstruction.timing.repeat",
       "MedicationRequest.dosageInstruction.timing.repeat"

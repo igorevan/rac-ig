@@ -4,6 +4,16 @@
 # instructions for ignoreWarnings.txt https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
 # (And include comments like this justifying why)
 
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+The Implementation Guide contains no examples for this profile
+
 The Implementation Guide contains no examples for this extension
 
 The Implementation Guide contains no explicitly linked examples for this profile
@@ -21,3 +31,21 @@ Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BR
 Best Practice Recommendation: In general, all observations should have a subject
 
 Best Practice Recommendation: In general, all observations should have a performer
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on AllergyIntolerance.patient is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on CarePlan.subject is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on Composition.subject is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0 on Composition.author is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on Observation.subject is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on CarePlan.subject is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on MedicationRequest.subject is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0 on MedicationRequest.requester is valid constraint on the base because it is not known
+
+Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0 on MedicationRequest.recorder is valid constraint on the base because it is not known

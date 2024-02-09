@@ -22,12 +22,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1519
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:04:08 GMT
+date:Fri, 09 Feb 2024 19:40:30 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-84618
+x-request-id:99-171922
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.2.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-02-08T21:04:08.652Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.2.3","releaseDate" : "2024-02-08T05:52:57.808Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
+{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.2.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-02-09T19:40:30.639Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.2.3","releaseDate" : "2024-02-08T05:52:57.808Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
 
 </pre><hr/>
 <a name="l2"> </a><h3>2</h3>
@@ -40,7 +40,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"preliminary"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido","version":"*","code":"no-medication-info"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -51,50 +51,18 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:645
+content-length:1149
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:18 GMT
-last-modified:Thu, 08 Feb 2024 21:11:18 GMT
+date:Fri, 09 Feb 2024 19:47:14 GMT
+last-modified:Fri, 09 Feb 2024 19:47:14 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85020
+x-request-id:99-172492
 
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "preliminary"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Preliminary"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido|*"},{"name" : "code","valueCode" : "no-medication-info"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
 <a name="l3"> </a><h3>3</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-
-{"resourceType":"Bundle","type":"batch","entry":[{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"final"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}},{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"amended"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}},{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"entered-in-error"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:2354
-content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:18 GMT
-last-modified:Thu, 08 Feb 2024 21:11:18 GMT
-pragma:no-cache
-server:nginx
-x-request-id:99-85022
-
-{"resourceType" : "Bundle","id" : "d1a44bb7-0b2a-41e0-861c-f3568379a450","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "final"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Final"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-02-08T21:11:18.981Z"}},{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "amended"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Amended"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-02-08T21:11:18.981Z"}},{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "entered-in-error"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Entered in Error"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-02-08T21:11:18.997Z"}}]}
-
-</pre><hr/>
-<a name="l4"> </a><h3>4</h3>
 <pre>
 Request: 
 
@@ -104,7 +72,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*","code":"ATM"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*","code":"ATM"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -117,16 +85,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1086
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:19 GMT
-last-modified:Thu, 08 Feb 2024 21:11:19 GMT
+date:Fri, 09 Feb 2024 19:47:15 GMT
+last-modified:Fri, 09 Feb 2024 19:47:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85023
+x-request-id:99-172493
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*"},{"name" : "code","valueCode" : "ATM"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
-<a name="l5"> </a><h3>5</h3>
+<a name="l4"> </a><h3>4</h3>
 <pre>
 Request: 
 
@@ -136,7 +104,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","version":"*","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","version":"*","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -149,16 +117,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1103
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:19 GMT
-last-modified:Thu, 08 Feb 2024 21:11:19 GMT
+date:Fri, 09 Feb 2024 19:47:15 GMT
+last-modified:Fri, 09 Feb 2024 19:47:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85024
+x-request-id:99-172494
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador|*"},{"name" : "code","valueCode" : "AUTH"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
-<a name="l6"> </a><h3>6</h3>
+<a name="l5"> </a><h3>5</h3>
 <pre>
 Request: 
 
@@ -168,7 +136,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS","version":"*","code":"0301100039"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS","version":"*","code":"0301100039"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -181,48 +149,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1077
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:19 GMT
-last-modified:Thu, 08 Feb 2024 21:11:19 GMT
+date:Fri, 09 Feb 2024 19:47:15 GMT
+last-modified:Fri, 09 Feb 2024 19:47:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85025
+x-request-id:99-172495
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS|*"},{"name" : "code","valueCode" : "0301100039"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
-<a name="l7"> </a><h3>7</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","code":"final"}},{"name":"inferSystem","valueBoolean":true},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BREstadoDocumento-1.0","meta":{"lastUpdated":"2020-03-12T13:26:59.318+00:00"},"language":"pt-BR","text":{"status":"extensions","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html\"><code>http://hl7.org/fhir/composition-status</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-preliminary\">preliminary</a></td><td>Preliminary</td><td>This is a preliminary composition or document (also known as initial or interim). The content may be incomplete or unverified.</td><td>Preliminar</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-final\">final</a></td><td>Final</td><td>This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition.</td><td>Finalizado</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-amended\">amended</a></td><td>Amended</td><td>The composition content or the referenced resources have been modified (edited or added to) subsequent to being released as &quot;final&quot; and the composition is complete and verified by an authorized person.</td><td>Atualizado</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-entered-in-error\">entered-in-error</a></td><td>Entered in error</td><td>The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid.</td><td>Em estado de erro</td></tr></table></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0","version":"1.0.0","name":"BREstadoDocumento","title":"Estado do Documento","status":"active","experimental":false,"date":"2020-03-12T13:26:58.6069366+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica o estado do documento que está sendo trafegado.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://hl7.org/fhir/composition-status","version":"*","concept":[{"code":"preliminary","display":"Preliminary","designation":[{"language":"pt-BR","value":"Preliminar"}]},{"code":"final","display":"Final","designation":[{"language":"pt-BR","value":"Finalizado"}]},{"code":"amended","display":"Amended","designation":[{"language":"pt-BR","value":"Atualizado"}]},{"code":"entered-in-error","display":"Entered in error","designation":[{"language":"pt-BR","value":"Em estado de erro"}]}]}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"composition-status","meta":{"lastUpdated":"2019-11-01T09:29:23.356+11:00"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"sd"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":3}],"url":"http://hl7.org/fhir/composition-status","identifier":[{"system":"urn:ietf:rfc:3986","value":"urn:oid:2.16.840.1.113883.4.642.4.242"}],"version":"4.0.1","name":"CompositionStatus","title":"CompositionStatus","status":"draft","experimental":false,"date":"2019-11-01T09:29:23+11:00","publisher":"HL7 (FHIR Project)","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"},{"system":"email","value":"fhir@lists.hl7.org"}]}],"description":"The workflow/clinical status of the composition.","caseSensitive":true,"valueSet":"http://hl7.org/fhir/ValueSet/composition-status","content":"complete","concept":[{"code":"preliminary","display":"Preliminary","definition":"This is a preliminary composition or document (also known as initial or interim). The content may be incomplete or unverified."},{"code":"final","display":"Final","definition":"This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition."},{"code":"amended","display":"Amended","definition":"The composition content or the referenced resources have been modified (edited or added to) subsequent to being released as \"final\" and the composition is complete and verified by an authorized person."},{"code":"entered-in-error","display":"Entered in Error","definition":"The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid."}]}},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:633
-content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:30 GMT
-last-modified:Thu, 08 Feb 2024 21:11:30 GMT
-pragma:no-cache
-server:nginx
-x-request-id:99-85061
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "final"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Final"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]}
-
-</pre><hr/>
-<a name="l8"> </a><h3>8</h3>
+<a name="l6"> </a><h3>6</h3>
 <pre>
 Request: 
 
@@ -232,7 +168,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -245,16 +181,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:979
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:30 GMT
-last-modified:Thu, 08 Feb 2024 21:11:30 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85063
+x-request-id:99-172497
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "code","valueCode" : "RAC"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
-<a name="l9"> </a><h3>9</h3>
+<a name="l7"> </a><h3>7</h3>
 <pre>
 Request: 
 
@@ -264,7 +200,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRTipoDocumento-1.0","meta":{"versionId":"1","lastUpdated":"2020-03-12T13:26:59.33+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRTipoDocumento.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-12T13:26:58.6069366+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica o tipo de documento que está sendo trafegado.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRTipoDocumento","meta":{"lastUpdated":"2020-03-26T13:19:48.112+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CMD<a name=\"BRTipoDocumento-CMD\"> </a></td><td>Conjunto Mínimo de Dados</td><td>Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial.</td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"BRTipoDocumento-SA\"> </a></td><td>Sumário de Alta</td><td>Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência.</td></tr><tr><td style=\"white-space:nowrap\">RAC<a name=\"BRTipoDocumento-RAC\"> </a></td><td>Registro de Atendimento Clínico</td><td>Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário).</td></tr><tr><td style=\"white-space:nowrap\">RIA<a name=\"BRTipoDocumento-RIA\"> </a></td><td>Registro de Imunobiológico Administrado</td><td/></tr><tr><td style=\"white-space:nowrap\">RPM<a name=\"BRTipoDocumento-RPM\"> </a></td><td>Registro de Prescrição de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">RDM<a name=\"BRTipoDocumento-RDM\"> </a></td><td>Registro de Dispensação de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">REL<a name=\"BRTipoDocumento-REL\"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td><td/></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"BRTipoDocumento-RA\"> </a></td><td>Regulação Assistencial</td><td/></tr><tr><td style=\"white-space:nowrap\">ATM<a name=\"BRTipoDocumento-ATM\"> </a></td><td>Atestado Médico/Odontológico</td><td/></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-26T13:19:46.9743559+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos tipos de documentos compartilhados no Brasil.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"CMD","display":"Conjunto Mínimo de Dados","definition":"Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial."},{"code":"SA","display":"Sumário de Alta","definition":"Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência."},{"code":"RAC","display":"Registro de Atendimento Clínico","definition":"Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)."},{"code":"RIA","display":"Registro de Imunobiológico Administrado"},{"code":"RPM","display":"Registro de Prescrição de Medicamento"},{"code":"RDM","display":"Registro de Dispensação de Medicamento"},{"code":"REL","display":"Resultado de Exame(s) Laboratoriais(s)"},{"code":"RA","display":"Regulação Assistencial"},{"code":"ATM","display":"Atestado Médico/Odontológico"}]}},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRTipoDocumento-1.0","meta":{"versionId":"1","lastUpdated":"2020-03-12T13:26:59.33+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRTipoDocumento.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-12T13:26:58.6069366+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica o tipo de documento que está sendo trafegado.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRTipoDocumento","meta":{"lastUpdated":"2020-03-26T13:19:48.112+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CMD<a name=\"BRTipoDocumento-CMD\"> </a></td><td>Conjunto Mínimo de Dados</td><td>Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial.</td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"BRTipoDocumento-SA\"> </a></td><td>Sumário de Alta</td><td>Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência.</td></tr><tr><td style=\"white-space:nowrap\">RAC<a name=\"BRTipoDocumento-RAC\"> </a></td><td>Registro de Atendimento Clínico</td><td>Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário).</td></tr><tr><td style=\"white-space:nowrap\">RIA<a name=\"BRTipoDocumento-RIA\"> </a></td><td>Registro de Imunobiológico Administrado</td><td/></tr><tr><td style=\"white-space:nowrap\">RPM<a name=\"BRTipoDocumento-RPM\"> </a></td><td>Registro de Prescrição de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">RDM<a name=\"BRTipoDocumento-RDM\"> </a></td><td>Registro de Dispensação de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">REL<a name=\"BRTipoDocumento-REL\"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td><td/></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"BRTipoDocumento-RA\"> </a></td><td>Regulação Assistencial</td><td/></tr><tr><td style=\"white-space:nowrap\">ATM<a name=\"BRTipoDocumento-ATM\"> </a></td><td>Atestado Médico/Odontológico</td><td/></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-26T13:19:46.9743559+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos tipos de documentos compartilhados no Brasil.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"CMD","display":"Conjunto Mínimo de Dados","definition":"Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial."},{"code":"SA","display":"Sumário de Alta","definition":"Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência."},{"code":"RAC","display":"Registro de Atendimento Clínico","definition":"Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)."},{"code":"RIA","display":"Registro de Imunobiológico Administrado"},{"code":"RPM","display":"Registro de Prescrição de Medicamento"},{"code":"RDM","display":"Registro de Dispensação de Medicamento"},{"code":"REL","display":"Resultado de Exame(s) Laboratoriais(s)"},{"code":"RA","display":"Regulação Assistencial"},{"code":"ATM","display":"Atestado Médico/Odontológico"}]}},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -277,16 +213,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1172
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:30 GMT
-last-modified:Thu, 08 Feb 2024 21:11:30 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85064
+x-request-id:99-172498
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "version","valueString" : "1.0.0"},{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*"},{"name" : "code","valueCode" : "RAC"},{"name" : "display","valueString" : "Registro de Atendimento Clínico"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
-<a name="l10"> </a><h3>10</h3>
+<a name="l8"> </a><h3>8</h3>
 <pre>
 Request: 
 
@@ -296,7 +232,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -309,16 +245,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1014
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:31 GMT
-last-modified:Thu, 08 Feb 2024 21:11:31 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85065
+x-request-id:99-172499
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"},{"name" : "code","valueCode" : "04"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
-<a name="l11"> </a><h3>11</h3>
+<a name="l9"> </a><h3>9</h3>
 <pre>
 Request: 
 
@@ -328,7 +264,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRModalidadeAssistencial-1.0","meta":{"lastUpdated":"2020-03-12T13:17:22.715+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRModalidadeAssistencial.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-12T13:17:18.5012669+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRModalidadeAssistencial","meta":{"lastUpdated":"2020-03-11T18:15:59.439+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRModalidadeAssistencial-01\"> </a></td><td>Atenção Básica</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRModalidadeAssistencial-02\"> </a></td><td>Atenção Domiciliar</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRModalidadeAssistencial-03\"> </a></td><td>Atenção Intermediária</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRModalidadeAssistencial-04\"> </a></td><td>Atenção Hospitalar</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRModalidadeAssistencial-05\"> </a></td><td>Atenção Psicossocial</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRModalidadeAssistencial-06\"> </a></td><td>Atenção à Urgência/Emergência</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRModalidadeAssistencial-07\"> </a></td><td>Ambulatorial Especializada</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRModalidadeAssistencial-08\"> </a></td><td>Assistência Farmacêutica</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"BRModalidadeAssistencial-09\"> </a></td><td>Assistência Ambulatorial</td></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-11T18:16:19.9468275+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"01","display":"Atenção Básica"},{"code":"02","display":"Atenção Domiciliar"},{"code":"03","display":"Atenção Intermediária"},{"code":"04","display":"Atenção Hospitalar"},{"code":"05","display":"Atenção Psicossocial"},{"code":"06","display":"Atenção à Urgência/Emergência"},{"code":"07","display":"Ambulatorial Especializada"},{"code":"08","display":"Assistência Farmacêutica"},{"code":"09","display":"Assistência Ambulatorial"}]}},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRModalidadeAssistencial-1.0","meta":{"lastUpdated":"2020-03-12T13:17:22.715+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRModalidadeAssistencial.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-12T13:17:18.5012669+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRModalidadeAssistencial","meta":{"lastUpdated":"2020-03-11T18:15:59.439+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRModalidadeAssistencial-01\"> </a></td><td>Atenção Básica</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRModalidadeAssistencial-02\"> </a></td><td>Atenção Domiciliar</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRModalidadeAssistencial-03\"> </a></td><td>Atenção Intermediária</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRModalidadeAssistencial-04\"> </a></td><td>Atenção Hospitalar</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRModalidadeAssistencial-05\"> </a></td><td>Atenção Psicossocial</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRModalidadeAssistencial-06\"> </a></td><td>Atenção à Urgência/Emergência</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRModalidadeAssistencial-07\"> </a></td><td>Ambulatorial Especializada</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRModalidadeAssistencial-08\"> </a></td><td>Assistência Farmacêutica</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"BRModalidadeAssistencial-09\"> </a></td><td>Assistência Ambulatorial</td></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-11T18:16:19.9468275+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"01","display":"Atenção Básica"},{"code":"02","display":"Atenção Domiciliar"},{"code":"03","display":"Atenção Intermediária"},{"code":"04","display":"Atenção Hospitalar"},{"code":"05","display":"Atenção Psicossocial"},{"code":"06","display":"Atenção à Urgência/Emergência"},{"code":"07","display":"Ambulatorial Especializada"},{"code":"08","display":"Assistência Farmacêutica"},{"code":"09","display":"Assistência Ambulatorial"}]}},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -341,13 +277,45 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1195
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:31 GMT
-last-modified:Thu, 08 Feb 2024 21:11:31 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85067
+x-request-id:99-172500
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "version","valueString" : "1.0.0"},{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial|*"},{"name" : "code","valueCode" : "04"},{"name" : "display","valueString" : "Atenção Hospitalar"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
+
+</pre><hr/>
+<a name="l10"> </a><h3>10</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+Accept-Charset: UTF-8
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:338
+content-type:application/fhir+json
+date:Fri, 09 Feb 2024 19:47:28 GMT
+last-modified:Fri, 09 Feb 2024 19:47:28 GMT
+pragma:no-cache
+server:nginx
+x-request-id:99-172501
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "code","valueCode" : "RAC"},{"name" : "version","valueString" : "1.0.0"},{"name" : "display","valueString" : "Registro de Atendimento Clínico"}]}
 
 --- 1 -----------------
 Request: 
@@ -369,12 +337,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1519
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:04:08 GMT
+date:Fri, 09 Feb 2024 19:40:30 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-84618
+x-request-id:99-171922
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.2.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-02-08T21:04:08.652Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.2.3","releaseDate" : "2024-02-08T05:52:57.808Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
+{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.2.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-02-09T19:40:30.639Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.2.3","releaseDate" : "2024-02-08T05:52:57.808Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
 
 --- 2 -----------------
 Request: 
@@ -385,7 +353,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"preliminary"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido","version":"*","code":"no-medication-info"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -396,47 +364,17 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:645
+content-length:1149
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:18 GMT
-last-modified:Thu, 08 Feb 2024 21:11:18 GMT
+date:Fri, 09 Feb 2024 19:47:14 GMT
+last-modified:Fri, 09 Feb 2024 19:47:14 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85020
+x-request-id:99-172492
 
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "preliminary"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Preliminary"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido|*"},{"name" : "code","valueCode" : "no-medication-info"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 --- 3 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/ HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-
-{"resourceType":"Bundle","type":"batch","entry":[{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"final"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}},{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"amended"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}},{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","version":"*","code":"entered-in-error"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:2354
-content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:18 GMT
-last-modified:Thu, 08 Feb 2024 21:11:18 GMT
-pragma:no-cache
-server:nginx
-x-request-id:99-85022
-
-{"resourceType" : "Bundle","id" : "d1a44bb7-0b2a-41e0-861c-f3568379a450","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "final"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Final"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-02-08T21:11:18.981Z"}},{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "amended"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Amended"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-02-08T21:11:18.981Z"}},{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "entered-in-error"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Entered in Error"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-02-08T21:11:18.997Z"}}]}
-
---- 4 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
@@ -445,7 +383,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*","code":"ATM"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*","code":"ATM"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -458,15 +396,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1086
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:19 GMT
-last-modified:Thu, 08 Feb 2024 21:11:19 GMT
+date:Fri, 09 Feb 2024 19:47:15 GMT
+last-modified:Fri, 09 Feb 2024 19:47:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85023
+x-request-id:99-172493
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*"},{"name" : "code","valueCode" : "ATM"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
---- 5 -----------------
+--- 4 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
@@ -475,7 +413,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","version":"*","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","version":"*","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -488,15 +426,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1103
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:19 GMT
-last-modified:Thu, 08 Feb 2024 21:11:19 GMT
+date:Fri, 09 Feb 2024 19:47:15 GMT
+last-modified:Fri, 09 Feb 2024 19:47:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85024
+x-request-id:99-172494
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador|*"},{"name" : "code","valueCode" : "AUTH"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
---- 6 -----------------
+--- 5 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
@@ -505,7 +443,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS","version":"*","code":"0301100039"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS","version":"*","code":"0301100039"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -518,45 +456,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1077
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:19 GMT
-last-modified:Thu, 08 Feb 2024 21:11:19 GMT
+date:Fri, 09 Feb 2024 19:47:15 GMT
+last-modified:Fri, 09 Feb 2024 19:47:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85025
+x-request-id:99-172495
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS|*"},{"name" : "code","valueCode" : "0301100039"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
---- 7 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/composition-status","code":"final"}},{"name":"inferSystem","valueBoolean":true},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BREstadoDocumento-1.0","meta":{"lastUpdated":"2020-03-12T13:26:59.318+00:00"},"language":"pt-BR","text":{"status":"extensions","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html\"><code>http://hl7.org/fhir/composition-status</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-preliminary\">preliminary</a></td><td>Preliminary</td><td>This is a preliminary composition or document (also known as initial or interim). The content may be incomplete or unverified.</td><td>Preliminar</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-final\">final</a></td><td>Final</td><td>This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition.</td><td>Finalizado</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-amended\">amended</a></td><td>Amended</td><td>The composition content or the referenced resources have been modified (edited or added to) subsequent to being released as &quot;final&quot; and the composition is complete and verified by an authorized person.</td><td>Atualizado</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-entered-in-error\">entered-in-error</a></td><td>Entered in error</td><td>The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid.</td><td>Em estado de erro</td></tr></table></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0","version":"1.0.0","name":"BREstadoDocumento","title":"Estado do Documento","status":"active","experimental":false,"date":"2020-03-12T13:26:58.6069366+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica o estado do documento que está sendo trafegado.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://hl7.org/fhir/composition-status","version":"*","concept":[{"code":"preliminary","display":"Preliminary","designation":[{"language":"pt-BR","value":"Preliminar"}]},{"code":"final","display":"Final","designation":[{"language":"pt-BR","value":"Finalizado"}]},{"code":"amended","display":"Amended","designation":[{"language":"pt-BR","value":"Atualizado"}]},{"code":"entered-in-error","display":"Entered in error","designation":[{"language":"pt-BR","value":"Em estado de erro"}]}]}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"composition-status","meta":{"lastUpdated":"2019-11-01T09:29:23.356+11:00"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"sd"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"trial-use"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":3}],"url":"http://hl7.org/fhir/composition-status","identifier":[{"system":"urn:ietf:rfc:3986","value":"urn:oid:2.16.840.1.113883.4.642.4.242"}],"version":"4.0.1","name":"CompositionStatus","title":"CompositionStatus","status":"draft","experimental":false,"date":"2019-11-01T09:29:23+11:00","publisher":"HL7 (FHIR Project)","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"},{"system":"email","value":"fhir@lists.hl7.org"}]}],"description":"The workflow/clinical status of the composition.","caseSensitive":true,"valueSet":"http://hl7.org/fhir/ValueSet/composition-status","content":"complete","concept":[{"code":"preliminary","display":"Preliminary","definition":"This is a preliminary composition or document (also known as initial or interim). The content may be incomplete or unverified."},{"code":"final","display":"Final","definition":"This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition."},{"code":"amended","display":"Amended","definition":"The composition content or the referenced resources have been modified (edited or added to) subsequent to being released as \"final\" and the composition is complete and verified by an authorized person."},{"code":"entered-in-error","display":"Entered in Error","definition":"The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid."}]}},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:633
-content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:30 GMT
-last-modified:Thu, 08 Feb 2024 21:11:30 GMT
-pragma:no-cache
-server:nginx
-x-request-id:99-85061
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://hl7.org/fhir/composition-status"},{"name" : "code","valueCode" : "final"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "Final"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "status-check"}],"text" : "Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1"}}]}}]}
-
---- 8 -----------------
+--- 6 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
@@ -565,7 +473,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -578,15 +486,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:979
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:30 GMT
-last-modified:Thu, 08 Feb 2024 21:11:30 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85063
+x-request-id:99-172497
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "code","valueCode" : "RAC"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
---- 9 -----------------
+--- 7 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
@@ -595,7 +503,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRTipoDocumento-1.0","meta":{"versionId":"1","lastUpdated":"2020-03-12T13:26:59.33+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRTipoDocumento.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-12T13:26:58.6069366+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica o tipo de documento que está sendo trafegado.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRTipoDocumento","meta":{"lastUpdated":"2020-03-26T13:19:48.112+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CMD<a name=\"BRTipoDocumento-CMD\"> </a></td><td>Conjunto Mínimo de Dados</td><td>Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial.</td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"BRTipoDocumento-SA\"> </a></td><td>Sumário de Alta</td><td>Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência.</td></tr><tr><td style=\"white-space:nowrap\">RAC<a name=\"BRTipoDocumento-RAC\"> </a></td><td>Registro de Atendimento Clínico</td><td>Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário).</td></tr><tr><td style=\"white-space:nowrap\">RIA<a name=\"BRTipoDocumento-RIA\"> </a></td><td>Registro de Imunobiológico Administrado</td><td/></tr><tr><td style=\"white-space:nowrap\">RPM<a name=\"BRTipoDocumento-RPM\"> </a></td><td>Registro de Prescrição de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">RDM<a name=\"BRTipoDocumento-RDM\"> </a></td><td>Registro de Dispensação de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">REL<a name=\"BRTipoDocumento-REL\"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td><td/></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"BRTipoDocumento-RA\"> </a></td><td>Regulação Assistencial</td><td/></tr><tr><td style=\"white-space:nowrap\">ATM<a name=\"BRTipoDocumento-ATM\"> </a></td><td>Atestado Médico/Odontológico</td><td/></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-26T13:19:46.9743559+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos tipos de documentos compartilhados no Brasil.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"CMD","display":"Conjunto Mínimo de Dados","definition":"Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial."},{"code":"SA","display":"Sumário de Alta","definition":"Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência."},{"code":"RAC","display":"Registro de Atendimento Clínico","definition":"Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)."},{"code":"RIA","display":"Registro de Imunobiológico Administrado"},{"code":"RPM","display":"Registro de Prescrição de Medicamento"},{"code":"RDM","display":"Registro de Dispensação de Medicamento"},{"code":"REL","display":"Resultado de Exame(s) Laboratoriais(s)"},{"code":"RA","display":"Regulação Assistencial"},{"code":"ATM","display":"Atestado Médico/Odontológico"}]}},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRTipoDocumento-1.0","meta":{"versionId":"1","lastUpdated":"2020-03-12T13:26:59.33+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRTipoDocumento.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-12T13:26:58.6069366+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica o tipo de documento que está sendo trafegado.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRTipoDocumento","meta":{"lastUpdated":"2020-03-26T13:19:48.112+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CMD<a name=\"BRTipoDocumento-CMD\"> </a></td><td>Conjunto Mínimo de Dados</td><td>Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial.</td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"BRTipoDocumento-SA\"> </a></td><td>Sumário de Alta</td><td>Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência.</td></tr><tr><td style=\"white-space:nowrap\">RAC<a name=\"BRTipoDocumento-RAC\"> </a></td><td>Registro de Atendimento Clínico</td><td>Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário).</td></tr><tr><td style=\"white-space:nowrap\">RIA<a name=\"BRTipoDocumento-RIA\"> </a></td><td>Registro de Imunobiológico Administrado</td><td/></tr><tr><td style=\"white-space:nowrap\">RPM<a name=\"BRTipoDocumento-RPM\"> </a></td><td>Registro de Prescrição de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">RDM<a name=\"BRTipoDocumento-RDM\"> </a></td><td>Registro de Dispensação de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">REL<a name=\"BRTipoDocumento-REL\"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td><td/></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"BRTipoDocumento-RA\"> </a></td><td>Regulação Assistencial</td><td/></tr><tr><td style=\"white-space:nowrap\">ATM<a name=\"BRTipoDocumento-ATM\"> </a></td><td>Atestado Médico/Odontológico</td><td/></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","version":"1.0.0","name":"BRTipoDocumento","title":"Tipo de Documento","status":"active","experimental":false,"date":"2020-03-26T13:19:46.9743559+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos tipos de documentos compartilhados no Brasil.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"CMD","display":"Conjunto Mínimo de Dados","definition":"Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial."},{"code":"SA","display":"Sumário de Alta","definition":"Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência."},{"code":"RAC","display":"Registro de Atendimento Clínico","definition":"Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)."},{"code":"RIA","display":"Registro de Imunobiológico Administrado"},{"code":"RPM","display":"Registro de Prescrição de Medicamento"},{"code":"RDM","display":"Registro de Dispensação de Medicamento"},{"code":"REL","display":"Resultado de Exame(s) Laboratoriais(s)"},{"code":"RA","display":"Regulação Assistencial"},{"code":"ATM","display":"Atestado Médico/Odontológico"}]}},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -608,15 +516,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1172
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:30 GMT
-last-modified:Thu, 08 Feb 2024 21:11:30 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85064
+x-request-id:99-172498
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "version","valueString" : "1.0.0"},{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*"},{"name" : "code","valueCode" : "RAC"},{"name" : "display","valueString" : "Registro de Atendimento Clínico"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
---- 10 -----------------
+--- 8 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
@@ -625,7 +533,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -638,15 +546,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1014
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:31 GMT
-last-modified:Thu, 08 Feb 2024 21:11:31 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85065
+x-request-id:99-172499
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"},{"name" : "code","valueCode" : "04"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
---- 11 -----------------
+--- 9 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
@@ -655,7 +563,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRModalidadeAssistencial-1.0","meta":{"lastUpdated":"2020-03-12T13:17:22.715+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRModalidadeAssistencial.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-12T13:17:18.5012669+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRModalidadeAssistencial","meta":{"lastUpdated":"2020-03-11T18:15:59.439+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRModalidadeAssistencial-01\"> </a></td><td>Atenção Básica</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRModalidadeAssistencial-02\"> </a></td><td>Atenção Domiciliar</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRModalidadeAssistencial-03\"> </a></td><td>Atenção Intermediária</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRModalidadeAssistencial-04\"> </a></td><td>Atenção Hospitalar</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRModalidadeAssistencial-05\"> </a></td><td>Atenção Psicossocial</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRModalidadeAssistencial-06\"> </a></td><td>Atenção à Urgência/Emergência</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRModalidadeAssistencial-07\"> </a></td><td>Ambulatorial Especializada</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRModalidadeAssistencial-08\"> </a></td><td>Assistência Farmacêutica</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"BRModalidadeAssistencial-09\"> </a></td><td>Assistência Ambulatorial</td></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-11T18:16:19.9468275+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"01","display":"Atenção Básica"},{"code":"02","display":"Atenção Domiciliar"},{"code":"03","display":"Atenção Intermediária"},{"code":"04","display":"Atenção Hospitalar"},{"code":"05","display":"Atenção Psicossocial"},{"code":"06","display":"Atenção à Urgência/Emergência"},{"code":"07","display":"Ambulatorial Especializada"},{"code":"08","display":"Assistência Farmacêutica"},{"code":"09","display":"Assistência Ambulatorial"}]}},{"name":"cache-id","valueId":"ee65df0d-e638-41e2-a16b-fd44876c2a4f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","code":"04"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"BRModalidadeAssistencial-1.0","meta":{"lastUpdated":"2020-03-12T13:17:22.715+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRModalidadeAssistencial.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code></a></li></ul></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-12T13:17:18.5012669+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"immutable":false,"compose":{"include":[{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"*"}]}}},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"BRModalidadeAssistencial","meta":{"lastUpdated":"2020-03-11T18:15:59.439+00:00"},"language":"pt-BR","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRModalidadeAssistencial-01\"> </a></td><td>Atenção Básica</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRModalidadeAssistencial-02\"> </a></td><td>Atenção Domiciliar</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRModalidadeAssistencial-03\"> </a></td><td>Atenção Intermediária</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRModalidadeAssistencial-04\"> </a></td><td>Atenção Hospitalar</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRModalidadeAssistencial-05\"> </a></td><td>Atenção Psicossocial</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRModalidadeAssistencial-06\"> </a></td><td>Atenção à Urgência/Emergência</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRModalidadeAssistencial-07\"> </a></td><td>Ambulatorial Especializada</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRModalidadeAssistencial-08\"> </a></td><td>Assistência Farmacêutica</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"BRModalidadeAssistencial-09\"> </a></td><td>Assistência Ambulatorial</td></tr></table></div>"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1,"_valueInteger":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"informative","_valueCode":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom","valueCanonical":"http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"}]}}],"url":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial","version":"1.0.0","name":"BRModalidadeAssistencial","title":"Modalidade Assistencial","status":"active","experimental":false,"date":"2020-03-11T18:16:19.9468275+00:00","publisher":"Ministério da Saúde do Brasil","contact":[{"telecom":[{"system":"url","value":"http://www.saude.gov.br"}]}],"description":"Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"BR"}]}],"caseSensitive":true,"content":"complete","concept":[{"code":"01","display":"Atenção Básica"},{"code":"02","display":"Atenção Domiciliar"},{"code":"03","display":"Atenção Intermediária"},{"code":"04","display":"Atenção Hospitalar"},{"code":"05","display":"Atenção Psicossocial"},{"code":"06","display":"Atenção à Urgência/Emergência"},{"code":"07","display":"Ambulatorial Especializada"},{"code":"08","display":"Assistência Farmacêutica"},{"code":"09","display":"Assistência Ambulatorial"}]}},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -668,11 +576,41 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1195
 content-type:application/fhir+json
-date:Thu, 08 Feb 2024 21:11:31 GMT
-last-modified:Thu, 08 Feb 2024 21:11:31 GMT
+date:Fri, 09 Feb 2024 19:47:27 GMT
+last-modified:Fri, 09 Feb 2024 19:47:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:99-85067
+x-request-id:99-172500
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "version","valueString" : "1.0.0"},{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial|*"},{"name" : "code","valueCode" : "04"},{"name" : "display","valueString" : "Atenção Hospitalar"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
+
+--- 10 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+Accept-Charset: UTF-8
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento","code":"RAC"}},{"name":"displayLanguage","valueString":"pt-BR"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"df088b86-c5b7-4b06-842f-0c52b2f95558"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:338
+content-type:application/fhir+json
+date:Fri, 09 Feb 2024 19:47:28 GMT
+last-modified:Fri, 09 Feb 2024 19:47:28 GMT
+pragma:no-cache
+server:nginx
+x-request-id:99-172501
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"},{"name" : "code","valueCode" : "RAC"},{"name" : "version","valueString" : "1.0.0"},{"name" : "display","valueString" : "Registro de Atendimento Clínico"}]}
 </pre></head></html>

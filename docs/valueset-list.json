@@ -298,6 +298,17 @@
       ]
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRPrescricaoNaoEstruturada",
+      "title" : "Indicativo de prescrição não estruturada ou medicamento não identificado",
+      "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido"
+      ]
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico",
       "version" : "1.0.0",
       "status" : "active",
