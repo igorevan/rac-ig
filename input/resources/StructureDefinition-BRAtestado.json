@@ -137,6 +137,71 @@
         ]
       },
       {
+        "id": "CarePlan.subject.extension",
+        "path": "CarePlan.subject.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "CarePlan.subject.extension:unidentifiedPatient",
+        "path": "CarePlan.subject.extension",
+        "sliceName": "unidentifiedPatient",
+        "short": "Dados do Indivíduo Não Identificado",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CarePlan.subject.extension:unidentifiedPatient.extension",
+        "path": "CarePlan.subject.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 3
+      },
+      {
+        "id": "CarePlan.subject.extension:unidentifiedPatient.extension:gender",
+        "path": "CarePlan.subject.extension.extension",
+        "sliceName": "gender",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "CarePlan.subject.extension:unidentifiedPatient.extension:birthYear",
+        "path": "CarePlan.subject.extension.extension",
+        "sliceName": "birthYear",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "CarePlan.subject.extension:unidentifiedPatient.extension:reason",
+        "path": "CarePlan.subject.extension.extension",
+        "sliceName": "reason",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "CarePlan.subject.reference",
         "path": "CarePlan.subject.reference",
         "max": "0"

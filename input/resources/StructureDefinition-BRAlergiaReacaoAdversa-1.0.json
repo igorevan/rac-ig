@@ -181,6 +181,71 @@
         "mustSupport": true
       },
       {
+        "id": "AllergyIntolerance.patient.extension",
+        "path": "AllergyIntolerance.patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "AllergyIntolerance.patient.extension:unidentifiedPatient",
+        "path": "AllergyIntolerance.patient.extension",
+        "sliceName": "unidentifiedPatient",
+        "short": "Dados do Indivíduo Não Identificado",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "AllergyIntolerance.patient.extension:unidentifiedPatient.extension",
+        "path": "AllergyIntolerance.patient.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 3
+      },
+      {
+        "id": "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:gender",
+        "path": "AllergyIntolerance.patient.extension.extension",
+        "sliceName": "gender",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:birthYear",
+        "path": "AllergyIntolerance.patient.extension.extension",
+        "sliceName": "birthYear",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:reason",
+        "path": "AllergyIntolerance.patient.extension.extension",
+        "sliceName": "reason",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "AllergyIntolerance.patient.reference",
         "path": "AllergyIntolerance.patient.reference",
         "max": "0"

@@ -127,6 +127,71 @@
         ]
       },
       {
+        "id": "Observation.subject.extension",
+        "path": "Observation.subject.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Observation.subject.extension:unidentifiedPatient",
+        "path": "Observation.subject.extension",
+        "sliceName": "unidentifiedPatient",
+        "short": "Dados do Indivíduo Não Identificado",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject.extension:unidentifiedPatient.extension",
+        "path": "Observation.subject.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 3
+      },
+      {
+        "id": "Observation.subject.extension:unidentifiedPatient.extension:gender",
+        "path": "Observation.subject.extension.extension",
+        "sliceName": "gender",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject.extension:unidentifiedPatient.extension:birthYear",
+        "path": "Observation.subject.extension.extension",
+        "sliceName": "birthYear",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject.extension:unidentifiedPatient.extension:reason",
+        "path": "Observation.subject.extension.extension",
+        "sliceName": "reason",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.subject.reference",
         "path": "Observation.subject.reference",
         "max": "0"
