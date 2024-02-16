@@ -37,7 +37,7 @@
           </coding>
         </category>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -145,7 +145,7 @@
           </coding>
         </priority>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -284,7 +284,7 @@
           </coding>
         </code>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -339,7 +339,7 @@
           </coding>
         </code>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -403,7 +403,7 @@
           </coding>
         </code>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -791,7 +791,7 @@
           <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="34fe98d3-e5fc-491e-a125-c90ab2abb83a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRImunobiologico.html">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Manifestation</b></td></tr><tr><td style="display: none">*</td><td>Prurido <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRMedDRA.html">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="34fe98d3-e5fc-491e-a125-c90ab2abb83a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRImunobiologico.html">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span>??</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Manifestation</b></td></tr><tr><td style="display: none">*</td><td>Prurido <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BRMedDRA.html">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>
         </text>
         <clinicalStatus>
           <coding>
@@ -816,10 +816,22 @@
           <text value="SAT"/>
         </code>
         <patient>
-          <identifier>
-            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
-            <value value="819217217061851"/>
-          </identifier>
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
+            <extension url="gender">
+              <valueCode value="male"/>
+            </extension>
+            <extension url="birthYear">
+              <valueDate value="2000"/>
+            </extension>
+            <extension url="reason">
+              <valueCodeableConcept>
+                <coding>
+                  <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado"/>
+                  <code value="01"/>
+                </coding>
+              </valueCodeableConcept>
+            </extension>
+          </extension>
         </patient>
         <onsetDateTime value="2022-06-01"/>
         <note>
@@ -855,7 +867,7 @@
           </coding>
         </type>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -905,7 +917,7 @@
           <reference value="urn:uuid:8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd"/>
         </medicationReference>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -1036,7 +1048,7 @@
         <intent value="plan"/>
         <description value="Repouso pós-medicação intramuscular"/>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -1076,7 +1088,7 @@
           </coding>
         </category>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>
@@ -1143,7 +1155,7 @@
           </coding>
         </code>
         <subject>
-          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0">
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0">
             <extension url="gender">
               <valueCode value="male"/>
             </extension>

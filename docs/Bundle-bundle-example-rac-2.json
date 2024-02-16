@@ -55,7 +55,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "date" : "2022-05-09",
@@ -167,7 +167,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "participant" : [{
@@ -314,7 +314,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "note" : [{
@@ -374,7 +374,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "performedDateTime" : "2022-05-09",
@@ -443,7 +443,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "issued" : "2022-05-09T17:39:08.701859Z",
@@ -820,7 +820,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRImunobiologico.html\">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td>Prurido <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRMedDRA.html\">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRImunobiologico.html\">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span>??</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td>Prurido <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRMedDRA.html\">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -845,10 +845,26 @@
         "text" : "SAT"
       },
       "patient" : {
-        "identifier" : {
-          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
-          "value" : "819217217061851"
-        }
+        "extension" : [{
+          "extension" : [{
+            "url" : "gender",
+            "valueCode" : "male"
+          },
+          {
+            "url" : "birthYear",
+            "valueDate" : "2000"
+          },
+          {
+            "url" : "reason",
+            "valueCodeableConcept" : {
+              "coding" : [{
+                "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+                "code" : "01"
+              }]
+            }
+          }],
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
+        }]
       },
       "onsetDateTime" : "2022-06-01",
       "note" : [{
@@ -902,7 +918,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "date" : "2022-03-04T14:59:51-03:00",
@@ -956,7 +972,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "authoredOn" : "2022-03-04",
@@ -1095,7 +1111,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       }
     }
@@ -1139,7 +1155,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "addresses" : [{
@@ -1210,7 +1226,7 @@
               }]
             }
           }],
-          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
         }]
       },
       "onsetDateTime" : "2023-06-16",

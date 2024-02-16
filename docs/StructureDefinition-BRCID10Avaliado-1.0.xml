@@ -81,7 +81,7 @@ null: Indeterminado">clinicalStatus</a><a name="Condition.clinicalStatus"> </a><
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"/>
-  <version value="1.0.0"/>
+  <version value="0.1.0"/>
   <name value="BRCID10Avaliado"/>
   <title value="CID10 Avaliado"/>
   <status value="active"/>

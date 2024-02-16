@@ -136,7 +136,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:date [ fhir:v "2022-05-09"^^xsd:date] ; # 
@@ -229,7 +229,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:participant ( [
@@ -375,7 +375,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:note ( [
@@ -433,7 +433,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:performed [ fhir:v "2022-05-09"^^xsd:date] ; # 
@@ -501,7 +501,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:issued [ fhir:v "2022-05-09T17:39:08.701859Z"^^xsd:dateTime] ; # 
@@ -895,7 +895,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRImunobiologico.html\">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td>Prurido <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRMedDRA.html\">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;34fe98d3-e5fc-491e-a125-c90ab2abb83a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>category</b>: food</p><p><b>criticality</b>: low</p><p><b>code</b>: SAT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRImunobiologico.html\">Imunobiológico</a>#2)</span></p><p><b>patient</b>: <span>??</span></p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td>Prurido <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRMedDRA.html\">Medical Dictionary for Regulatory Activities (MedDRA)</a>#10037087)</span></td></tr></table></div>"
   ] ; # 
   fhir:clinicalStatus [
      fhir:coding ( [
@@ -920,10 +920,25 @@
      fhir:text [ fhir:v "SAT" ]
   ] ; # 
   fhir:patient [
-     fhir:identifier [
-       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "819217217061851" ]
-     ]
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "gender"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "male" ]
+       ] [
+         fhir:url [ fhir:v "birthYear"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2000"^^xsd:gYear ]
+       ] [
+         fhir:url [ fhir:v "reason"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:CodeableConcept ;
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "01" ]
+           ] )
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
+     ] )
   ] ; # 
   fhir:onset [ fhir:v "2022-06-01"^^xsd:date] ; # 
   fhir:note ( [
@@ -975,7 +990,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:date [ fhir:v "2022-03-04T14:59:51-03:00"^^xsd:dateTime] ; # 
@@ -1028,7 +1043,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:authoredOn [ fhir:v "2022-03-04"^^xsd:date] ; # 
@@ -1163,7 +1178,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] . # 
 
@@ -1205,7 +1220,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:addresses ( [
@@ -1275,7 +1290,7 @@
            ] )
          ]
        ] ) ;
-       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0"^^xsd:anyURI ]
+       fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:onset [ fhir:v "2023-06-16"^^xsd:date] ; # 

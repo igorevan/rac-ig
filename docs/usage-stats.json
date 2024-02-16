@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.br.rac",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "BR",
   "extensions": [
@@ -408,13 +408,15 @@
       "Procedure.performer"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
+      "AllergyIntolerance.patient",
+      "Bundle.entry.resource.patient",
+      "Bundle.entry.resource.subject",
+      "CarePlan.subject",
       "Composition.subject",
       "Condition.subject",
       "Encounter.subject",
+      "Observation.subject",
       "Procedure.subject"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0": [
-      "Bundle.entry.resource.subject"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses": [
       "Bundle.entry.resource.dosageInstruction.timing.repeat",

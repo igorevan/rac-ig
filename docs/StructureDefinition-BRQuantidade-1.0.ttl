@@ -43,7 +43,7 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "BRQuantidade"] ; # 
   fhir:title [ fhir:v "Quantidade"] ; # 
   fhir:status [ fhir:v "active"] ; # 

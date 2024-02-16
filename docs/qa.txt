@@ -1,12 +1,12 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 14, warn = 13, info = 13
+err = 13, warn = 13, info = 12
 IG Publisher Version: 1.5.16
-Generated Fri Feb 09 17:06:43 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#1.0.0 (canonical = http://www.saude.gov.br/fhir/r4)
+Generated Fri Feb 16 17:30:35 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 0 / 0
  C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo : 6 / 1 / 3
- C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 7 / 3 / 4
+ C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 6 / 3 / 3
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -54,7 +54,7 @@ Generated Fri Feb 09 17:06:43 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRContatoAssistencial-1.0 : 0 / 11 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRFinanciamento-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIdentificacaoEquipe-1.0 : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIndividuoNaoIdentificado-1.0 : 0 / 1 / 1
+ C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIndividuoNaoIdentificado-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIntervaloDoses : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRLocalAtendimento-1.0 : 0 / 1 / 1
  C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMedicamento : 1 / 1 / 1
@@ -128,29 +128,27 @@ Generated Fri Feb 09 17:06:43 BRT 2024. FHIR version 4.0.1 for hl7.fhir.br.rac#1
 </table>
 == n/a ==
 == input\examples\Example-Bundle-RAC-Completo.json ==
-INFORMATION: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:procedimentosRealizados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:prescricao': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
+INFORMATION: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:procedimentosRealizados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:prescricao': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
 INFORMATION: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.status: Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.type.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.type.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.category[0].coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.category[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.category[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 == input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json ==
-INFORMATION: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:procedimentosRealizados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:prescricao': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
+INFORMATION: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:procedimentosRealizados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:prescricao': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
 INFORMATION: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.status: Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1
 WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.type.coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.type.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.type.system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.category[0].coding[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.category[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0]
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.category[0].system: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]
 WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: A Reference without an actual reference or identifier should have a display
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject.extension[0]: The extension http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificadoANS-1.0.0 could not be found so is not allowed here
-INFORMATION: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject.extension[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == input\myig.xml ==
 == input\resources\CodeSystem-BRAlergenosCBARA.json ==
 == input\resources\CodeSystem-BRCBHPMTUSS.json ==
@@ -261,7 +259,7 @@ INFORMATION: ValueSet.where(id = 'BROcupacao-1.0'): The value set expansion is i
 == input\resources\ValueSet-BRPapelProblemaDiagnostico.json ==
 == input\resources\ValueSet-BRPosicaoIndividuo.json ==
 == input\resources\ValueSet-BRPrescricaoNaoEstruturada.json ==
-WARNING: ValueSet/BRPrescricaoNaoEstruturada: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0])
+WARNING: ValueSet/BRPrescricaoNaoEstruturada: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0])
 == input\resources\ValueSet-BRProblemaDiagnostico.json ==
 INFORMATION: ValueSet.where(id = 'BRProblemaDiagnostico'): The value set expansion is incomplete
 == input\resources\ValueSet-BRProcedencia-1.0.json ==
@@ -274,12 +272,12 @@ INFORMATION: ValueSet.where(id = 'BRProcedimentosNacionais-1.0'): The value set 
 INFORMATION: ValueSet.where(id = 'BRTerminologiaMedicamento'): The value set expansion is incomplete
 == input\resources\ValueSet-BRTipoAleitamentoMaterno-1.0.json ==
 == input\resources\ValueSet-BRTipoAtestado.json ==
-WARNING: ValueSet/BRTipoAtestado: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0])
+WARNING: ValueSet/BRTipoAtestado: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0])
 == input\resources\ValueSet-BRTipoDocumento-1.0.json ==
 == input\resources\ValueSet-BRTipoIdentificadorProcedimento-1.0.json ==
-WARNING: ValueSet/BRTipoIdentificadorProcedimento-1.0: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0])
+WARNING: ValueSet/BRTipoIdentificadorProcedimento-1.0: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0])
 == input\resources\ValueSet-BRTipoObservacao-1.0.json ==
-WARNING: ValueSet/BRTipoObservacao-1.0: ValueSet.compose.include[1]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: [1.0.0])
+WARNING: ValueSet/BRTipoObservacao-1.0: ValueSet.compose.include[1]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0])
 == input\resources\ValueSet-BRTipoSubstanciaUso-1.0.json ==
 == input\resources\ValueSet-BRTurno.json ==
 == input\resources\ValueSet-BRUnidadeConsumo.json ==

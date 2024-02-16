@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRAlergenosCBARA",
       "title" : "Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)",
@@ -10,7 +10,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCBHPMTUSS",
       "title" : "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS",
@@ -18,7 +18,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCBO",
       "title" : "Classificação Brasileira de Ocupações - CBO",
@@ -26,7 +26,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCIAP2",
       "title" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
@@ -34,7 +34,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCID10",
       "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
@@ -42,7 +42,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCaraterAtendimento",
       "title" : "Caráter de Atendimento",
@@ -50,7 +50,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRCategoriaDiagnostico",
       "title" : "Categoria do Diagnóstico",
@@ -58,7 +58,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRDadoAusenteOuDesconhecido",
       "title" : "Classificação de dados ausentes ou desconhecidos - IPS",
@@ -66,7 +66,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRDivisaoGeograficaBrasil",
       "title" : "Divisão Geográfica do Brasil",
@@ -74,7 +74,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRFinanciamento",
       "title" : "Financiamento",
@@ -82,7 +82,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRFrequenciaUsoSubstancia",
       "title" : "Frequência de Uso de Substância",
@@ -90,7 +90,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRImunobiologico",
       "title" : "Imunobiológico",
@@ -98,7 +98,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRJustificativaIndividuoNaoIdentificado",
       "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
@@ -106,7 +106,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRLocalAfericao",
       "title" : "Local de Aferição",
@@ -114,7 +114,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRMedDRA",
       "title" : "Medical Dictionary for Regulatory Activities (MedDRA)",
@@ -122,7 +122,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRMedicamento",
       "title" : "Medicamento",
@@ -130,7 +130,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRModalidadeAssistencial",
       "title" : "Modalidade Assistencial",
@@ -138,7 +138,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRMotivoDesfecho",
       "title" : "Motivo do Desfecho",
@@ -146,7 +146,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRObmAMPP",
       "title" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)",
@@ -154,7 +154,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRObmANVISA",
       "title" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)",
@@ -162,7 +162,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRObmCATMAT",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)",
@@ -170,7 +170,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRObmEAN",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
@@ -178,7 +178,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRObmVMP",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)",
@@ -186,7 +186,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRPais",
       "title" : "País",
@@ -194,7 +194,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRPapelProblemaDiagnostico",
       "title" : "Classificação do papel de um problema e diagnóstico",
@@ -202,7 +202,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRPosicaoIndividuo",
       "title" : "Posição do Indivíduo",
@@ -210,7 +210,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRProcedencia",
       "title" : "Procedência",
@@ -218,7 +218,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRResponsabilidadeParticipante",
       "title" : "Reponsabilidade no Contato Assistencial",
@@ -226,7 +226,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTabelaSUS",
       "title" : "Tabela de procedimentos, medicamentos e OPM do SUS",
@@ -234,7 +234,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTipoAleitamentoMaterno",
       "title" : "Tipo de Aleitamento Materno",
@@ -242,7 +242,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTipoDocumento",
       "title" : "Tipo de Documento",
@@ -250,7 +250,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTipoIdentificador",
       "title" : "Tipo de Identificador",
@@ -258,7 +258,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTipoObservacao",
       "title" : "Tipo de Observação",
@@ -266,7 +266,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTipoSubstanciaUso",
       "title" : "Tipo de Substância em Uso",
@@ -274,7 +274,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRTurno",
       "title" : "Turno do dia",
@@ -282,7 +282,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRUnidadeMedida",
       "title" : "Unidade de Medida",
@@ -290,7 +290,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRUnidadeTempo",
       "title" : "Unidade de tempo",
@@ -298,7 +298,7 @@
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
-      "version" : "1.0.0",
+      "version" : "0.1.0",
       "status" : "active",
       "name" : "BRViaAdministracao",
       "title" : "Via de Administração",

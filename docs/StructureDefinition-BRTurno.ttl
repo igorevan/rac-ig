@@ -39,12 +39,12 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "BRTurno"] ; # 
   fhir:title [ fhir:v "Turno"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-02-09T16:41:20-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-16T16:56:19-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
