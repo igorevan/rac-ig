@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "bundle-example-rac-1",
   "identifier": {
-    "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602",
+    "system": "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-3061",
     "value": "94641731210"
   },
   "type": "document",
@@ -47,7 +47,7 @@
             "value": "819217217061851"
           }
         },
-        "date": "2022-05-09",
+        "date": "2022-05-09T15:36:40.157-03:00",
         "author": [
           {
             "identifier": {
@@ -187,8 +187,8 @@
           }
         ],
         "period": {
-          "start": "2022-04-09",
-          "end": "2022-05-09"
+          "start": "2022-04-09T15:36:40.157-03:00",
+          "end": "2022-05-09T15:46:48.534-03:00"
         },
         "reasonReference": [
           {
@@ -360,7 +360,7 @@
             "value": "819217217061851"
           }
         },
-        "performedDateTime": "2022-05-09",
+        "performedDateTime": "2022-05-09T15:36:40.157-03:00",
         "performer": [
           {
             "function": {

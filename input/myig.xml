@@ -17,7 +17,7 @@ including changing realm -->
   <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac" />
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is
   overridden -->
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="RACRNDSIG" />
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS" />
   <status value="active" />
