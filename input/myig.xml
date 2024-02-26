@@ -4,7 +4,7 @@ including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
-  <id value="hl7.fhir.br.rac" />
+  <id value="br.gov.saude.rnds.rac" />
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative" />
   </extension>
@@ -14,7 +14,7 @@ including changing realm -->
   <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac" />
+  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac" />
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is
   overridden -->
   <version value="0.1.0" />
@@ -39,7 +39,7 @@ including changing realm -->
       <code value="BR" />
     </coding>
   </jurisdiction>
-  <packageId value="hl7.fhir.br.rac" />
+  <packageId value="br.gov.saude.rnds.rac" />
   <!-- This should be changed to 'not-open-source' or another license if appropriate for
   non-HL7-published content -->
   <license value="CC0-1.0" />
