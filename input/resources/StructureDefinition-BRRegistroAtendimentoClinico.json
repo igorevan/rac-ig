@@ -1,17 +1,18 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
+  "id": "BRRegistroAtendimentoClinico",
   "language": "pt-BR",
+  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
   "version": "2.1",
   "name": "BRRegistroAtendimentoClinico",
   "title": "Registro de Atendimento Clínico",
   "status": "active",
+  "experimental": false,
   "date": "2023-07-25",
   "publisher": "Ministério da Saúde do Brasil",
   "description": "Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
-  "experimental": false,
   "abstract": false,
   "type": "Composition",
   "baseDefinition": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1",
@@ -30,27 +31,21 @@
         "fixedCode": "RAC"
       },
       {
-        "id": "Composition.section",
-        "path": "Composition.section",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "profile",
-              "path": "entry.resolve()"
-            }
-          ],
-          "rules": "open"
-        },
-        "short": "Seções do documento",
-        "definition": "Referencia todas as seções (profiles/resources) contidos neste documento.",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Composition.section:problemasDiagnosticosAvaliados",
         "path": "Composition.section",
         "sliceName": "problemasDiagnosticosAvaliados",
         "min": 1
+      },
+      {
+        "id": "Composition.section:procedimentosRealizados",
+        "path": "Composition.section",
+        "sliceName": "procedimentosRealizados",
+        "min": 0
+      },
+      {
+        "id": "Composition.section:procedimentosRealizados.entry",
+        "path": "Composition.section.entry",
+        "max": "*"
       },
       {
         "id": "Composition.section:observacoes",
@@ -96,7 +91,6 @@
         "id": "Composition.section:observacoes.entry",
         "path": "Composition.section.entry",
         "min": 1,
-        "max": "1",
         "type": [
           {
             "code": "Reference",
@@ -222,7 +216,6 @@
         "id": "Composition.section:prescricao",
         "path": "Composition.section",
         "sliceName": "prescricao",
-        "min": 1,
         "max": "1"
       },
       {
@@ -453,7 +446,6 @@
         "id": "Composition.section:atestadoMedicoOdontologico.entry",
         "path": "Composition.section.entry",
         "min": 1,
-        "max": "1",
         "type": [
           {
             "code": "Reference",
