@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
       }]
     }
   },
@@ -21,7 +21,7 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
       }]
     }
   }],
@@ -31,7 +31,7 @@
   "title" : "Medicamento",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-16T16:56:19-03:00",
+  "date" : "2024-02-27T15:34:29-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{

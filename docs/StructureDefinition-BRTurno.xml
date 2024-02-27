@@ -13,14 +13,14 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
       </extension>
     </valueCode>
   </extension>
@@ -30,7 +30,7 @@
   <title value="Turno"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-02-16T16:56:19-03:00"/>
+  <date value="2024-02-27T15:34:29-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>

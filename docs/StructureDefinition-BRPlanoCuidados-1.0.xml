@@ -54,14 +54,14 @@ entered-in-error: Cancelado por informação errada">status</a><a name="CarePlan
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
       </extension>
     </valueCode>
   </extension>

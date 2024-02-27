@@ -293,8 +293,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
@@ -334,8 +334,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",

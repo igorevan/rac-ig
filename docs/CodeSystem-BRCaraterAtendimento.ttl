@@ -23,8 +23,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
          ]
        ] )
      ]
@@ -35,8 +35,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac>
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
          ]
        ] )
      ]

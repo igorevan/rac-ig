@@ -266,9 +266,9 @@
     "name" : "BRViaAdministracao"
   },
   {
-    "id" : "hl7.fhir.br.rac",
+    "id" : "br.gov.saude.rnds.rac",
     "type" : "ImplementationGuide",
-    "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac",
+    "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac",
     "version" : "0.1.0",
     "name" : "RACRNDSIG"
   },

@@ -1,16 +1,16 @@
 {
-  "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac",
+  "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac",
   "name" : "RACRNDSIG",
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "description" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
-  "package-id" : "hl7.fhir.br.rac",
+  "package-id" : "br.gov.saude.rnds.rac",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 16 Feb, 2024 16:56:19 -0300",
-  "errs" : 13,
+  "date" : "Tue, 27 Feb, 2024 15:34:29 -0300",
+  "errs" : 9,
   "warnings" : 13,
   "hints" : 12,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 6553935440
+  "maxMemory" : 5305794560
 }

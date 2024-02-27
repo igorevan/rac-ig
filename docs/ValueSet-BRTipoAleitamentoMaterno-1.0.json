@@ -12,7 +12,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
       }]
     }
   },
@@ -22,7 +22,7 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/hl7.fhir.br.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
       }]
     }
   }],
