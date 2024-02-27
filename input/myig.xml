@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Start by finding all references to "myig" and updating to appropriate text for your IG,
-including changing realm -->
-<ImplementationGuide xmlns="http://hl7.org/fhir"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="br.gov.saude.rnds.rac" />
+  <language value="pt-BR" />
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative" />
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
   </extension>
-  <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
-    <valueString value="resources-spreadsheet.xml"/>
-  </extension>-->
   <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac" />
-  <!-- This version will propagate to all artifacts unless the "propagate-version" extension is
-  overridden -->
   <version value="0.1.0" />
   <name value="RACRNDSIG" />
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS" />
@@ -25,39 +17,21 @@ including changing realm -->
   <publisher value="Ministério da Saúde do Brasil" />
   <contact>
     <telecom>
-      <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url" />
       <value value="http://www.saude.gov.br" />
     </telecom>
   </contact>
   <description value="Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)" />
   <jurisdiction>
-    <!-- This first repetition will drive SNOMED release used -->
     <coding>
       <system value="urn:iso:std:iso:3166" />
-      <!-- This is the code for universal -->
       <code value="BR" />
     </coding>
   </jurisdiction>
   <packageId value="br.gov.saude.rnds.rac" />
-  <!-- This should be changed to 'not-open-source' or another license if appropriate for
-  non-HL7-published content -->
   <license value="CC0-1.0" />
-  <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this
-  file, which should always be 'current release') -->
   <fhirVersion value="4.0.1" />
-  <!--  <dependsOn>
-    <uri
-  value="https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.fall/0.9.1/files/131317"/>
-    <packageId value="de.medizininformatikinitiative.kerndatensatz.fall"/>
-    <version value="0.9.1"/>
-  </dependsOn>-->
   <definition>
-    <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only
-    need to do so if your IG is 'special' and it's
-      inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-
-    <!-- Profile -->
     <resource>
       <reference>
         <reference value="StructureDefinition/BRRegistroAtendimentoClinico" />
@@ -148,8 +122,6 @@ including changing realm -->
       </reference>
       <name value="Medicamento" />
     </resource>
-
-    <!-- Extension -->
     <resource>
       <reference>
         <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0" />
@@ -234,8 +206,6 @@ including changing realm -->
       </reference>
       <name value="País" />
     </resource>
-
-    <!-- CodeSystem -->
     <resource>
       <reference>
         <reference value="CodeSystem/BRProcedencia" />
@@ -318,8 +288,7 @@ including changing realm -->
       <reference>
         <reference value="CodeSystem/BRCBHPMTUSS" />
       </reference>
-      <name
-        value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" />
+      <name value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" />
     </resource>
     <resource>
       <reference>
@@ -331,22 +300,19 @@ including changing realm -->
       <reference>
         <reference value="CodeSystem/BRObmAMPP" />
       </reference>
-      <name
-        value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" />
+      <name value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRObmANVISA" />
       </reference>
-      <name
-        value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" />
+      <name value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRObmCATMAT" />
       </reference>
-      <name
-        value="Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" />
+      <name value="Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" />
     </resource>
     <resource>
       <reference>
@@ -358,8 +324,7 @@ including changing realm -->
       <reference>
         <reference value="CodeSystem/BRObmVMP" />
       </reference>
-      <name
-        value="Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" />
+      <name value="Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" />
     </resource>
     <resource>
       <reference>
@@ -469,8 +434,6 @@ including changing realm -->
       </reference>
       <name value="Classificação de dados ausentes ou desconhecidos - IPS" />
     </resource>
-
-    <!-- ValueSet -->
     <resource>
       <reference>
         <reference value="ValueSet/BRProcedencia-1.0" />
@@ -771,31 +734,23 @@ including changing realm -->
       </reference>
       <name value="Indicativo de prescrição não estruturada ou medicamento não identificado" />
     </resource>
-
-    <!-- Examples -->
     <resource>
       <reference>
         <reference value="Bundle/bundle-example-rac-1" />
       </reference>
-      <name
-        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado" />
+      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado" />
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
-      <exampleCanonical
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
     </resource>
     <resource>
       <reference>
         <reference value="Bundle/bundle-example-rac-2" />
       </reference>
-      <name
-        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado" />
+      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado" />
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
-      <exampleCanonical
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
     </resource>
-
     <page>
-      <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html" />
       <title value="Índice" />
       <generation value="html" />
@@ -845,12 +800,10 @@ including changing realm -->
         <generation value="html" />
       </page>
     </page>
-    <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear" />
       <value value="2023+" />
     </parameter>
-    <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
       <code value="releaselabel" />
       <value value="CI Build" />
@@ -871,35 +824,5 @@ including changing realm -->
       <code value="path-pages" />
       <value value="input/pagecontent" />
     </parameter>
-    <!--parameter>
-      <code value="find-other-resources" />
-      <value value="true" />
-    </parameter-->
-    <!--parameter>
-      <code value="path-binary" />
-      <value value="input\cql" />
-    </parameter-->
-    <!--parameter>
-      <code value="path-liquid" />
-      <value value="templates\liquid" />
-    </parameter-->
-    <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to
-    disable the display of mappings
-    <parameter>
-      <code value="excludexml"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludejson"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludettl"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludemap"/>
-      <value value="true"/>
-    </parameter>-->
   </definition>
 </ImplementationGuide>
