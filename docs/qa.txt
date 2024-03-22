@@ -1,25 +1,25 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 9, warn = 13, info = 12
-IG Publisher Version: 1.5.16
-Generated Tue Feb 27 16:00:18 BRT 2024. FHIR version 4.0.1 for br.gov.saude.rnds.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+err = 9, warn = 30, info = 19
+IG Publisher Version: 1.6.3
+Generated Fri Mar 22 16:34:39 BRT 2024. FHIR version 4.0.1 for br.gov.saude.rnds.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 0 / 0
  C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo : 4 / 1 / 3
  C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 4 / 3 / 3
  C:\Users\Igor\rac-ig\input\myig : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRAlergenosCBARA : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBO : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCBO : 0 / 0 / 3
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCIAP2 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCID10 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCaraterAtendimento : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRCategoriaDiagnostico : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRDadoAusenteOuDesconhecido : 0 / 0 / 2
- C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRDivisaoGeograficaBrasil : 0 / 0 / 2
+ C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRDadoAusenteOuDesconhecido : 0 / 15 / 2
+ C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRDivisaoGeograficaBrasil : 0 / 0 / 4
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRFinanciamento : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRFrequenciaUsoSubstancia : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRImunobiologico : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRImunobiologico : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRJustificativaIndividuoNaoIdentificado : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRLocalAfericao : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRMedDRA : 0 / 0 / 1
@@ -32,14 +32,14 @@ Generated Tue Feb 27 16:00:18 BRT 2024. FHIR version 4.0.1 for br.gov.saude.rnds
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRObmEAN : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRObmVMP : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRPais : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRPapelProblemaDiagnostico : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRPapelProblemaDiagnostico : 0 / 2 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRPosicaoIndividuo : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRProcedencia : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRResponsabilidadeParticipante : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTabelaSUS : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTipoAleitamentoMaterno : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTipoDocumento : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTipoIdentificador : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTipoIdentificador : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTipoObservacao : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTipoSubstanciaUso : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRTurno : 0 / 0 / 1
@@ -99,7 +99,7 @@ Generated Tue Feb 27 16:00:18 BRT 2024. FHIR version 4.0.1 for br.gov.saude.rnds
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRLocalAfericao-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRModalidadeAssistencial-1.0 : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRMotivoDesfecho-1.0 : 0 / 0 / 1
- C:\Users\Igor\rac-ig\input\resources\ValueSet-BRMunicipio-1.0 : 0 / 0 / 1
+ C:\Users\Igor\rac-ig\input\resources\ValueSet-BRMunicipio-1.0 : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BROcupacao-1.0 : 0 / 0 / 2
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BROrigemMedida : 0 / 0 / 1
  C:\Users\Igor\rac-ig\input\resources\ValueSet-BRPais-1.0 : 0 / 0 / 1
@@ -149,17 +149,37 @@ WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: A Refere
 == input\resources\CodeSystem-BRAlergenosCBARA.json ==
 == input\resources\CodeSystem-BRCBHPMTUSS.json ==
 == input\resources\CodeSystem-BRCBO.json ==
+INFORMATION: CodeSystem/BRCBO: CodeSystem.property[0]: This property has only a code ('healthcare') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/BRCBO: CodeSystem.property[1]: This property has only a code ('regulated') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input\resources\CodeSystem-BRCIAP2.json ==
 == input\resources\CodeSystem-BRCID10.json ==
 == input\resources\CodeSystem-BRCaraterAtendimento.json ==
 == input\resources\CodeSystem-BRCategoriaDiagnostico.json ==
 == input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json ==
 INFORMATION: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[0].designation[0]: The designation 'Nenhuma informação sobre alergias' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about allergies')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[1].designation[0]: The designation 'Nenhuma alergia conhecida.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known allergies')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[1].concept[0].designation[0]: The designation 'Nenhum medicamento para alergia conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known medication allergies')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[1].concept[1].designation[0]: The designation 'Nenhum fator ambiental conhecido para uma dada alergia.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known environmental allergies')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[1].concept[2].designation[0]: The designation 'Nenhuma alergia alimentar conhecida.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known food allergies')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[2].designation[0]: The designation 'Nenhuma informação sobre algum dispositivo.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about devices')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[3].designation[0]: The designation 'Nenhum dispositivo em uso' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known devices in use')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[4].designation[0]: The designation 'Nenhuma informação sobre imunização' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about immunizations')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[5].designation[0]: The designation 'Nenhuma informação sobre imunização.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known immunizations')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[6].designation[0]: The designation 'Sem informação de medicamentos.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about medications')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[7].designation[0]: The designation 'Sem medicação.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known medications')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[8].designation[0]: The designation 'Nenhuma informação sobre o problema.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about problems')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[9].designation[0]: The designation 'Nenhum problema conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known problems')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[10].designation[0]: The designation 'Nenhuma informação sobre procedimento.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about past history of procedures')
+WARNING: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem.concept[11].designation[0]: The designation 'Nenhum procedimento conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known procedures')
 == input\resources\CodeSystem-BRDivisaoGeograficaBrasil.json ==
 INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem.property[0]: This property has only a code ('type') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem.property[1]: This property has only a code ('ethnical') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input\resources\CodeSystem-BRFinanciamento.json ==
 == input\resources\CodeSystem-BRFrequenciaUsoSubstancia.json ==
 == input\resources\CodeSystem-BRImunobiologico.json ==
+INFORMATION: CodeSystem/BRImunobiologico: CodeSystem.property[0]: This property has only a code ('inativo') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input\resources\CodeSystem-BRJustificativaIndividuoNaoIdentificado.json ==
 == input\resources\CodeSystem-BRLocalAfericao.json ==
 == input\resources\CodeSystem-BRMedDRA.json ==
@@ -173,6 +193,8 @@ INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem: CodeSystems SHOUL
 == input\resources\CodeSystem-BRObmVMP.json ==
 == input\resources\CodeSystem-BRPais.json ==
 == input\resources\CodeSystem-BRPapelProblemaDiagnostico.json ==
+WARNING: CodeSystem/BRPapelProblemaDiagnostico: CodeSystem.concept[0].designation[0]: The designation 'Diagnóstico não presente na admissão' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('Diagnosis not present on admission')
+WARNING: CodeSystem/BRPapelProblemaDiagnostico: CodeSystem.concept[1].designation[0]: The designation 'Desconhecido' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('Unknown')
 == input\resources\CodeSystem-BRPosicaoIndividuo.json ==
 == input\resources\CodeSystem-BRProcedencia.json ==
 == input\resources\CodeSystem-BRResponsabilidadeParticipante.json ==
@@ -180,6 +202,7 @@ INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem: CodeSystems SHOUL
 == input\resources\CodeSystem-BRTipoAleitamentoMaterno.json ==
 == input\resources\CodeSystem-BRTipoDocumento.json ==
 == input\resources\CodeSystem-BRTipoIdentificador.json ==
+INFORMATION: CodeSystem/BRTipoIdentificador: CodeSystem.property[0]: This property has only a code ('use') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input\resources\CodeSystem-BRTipoObservacao.json ==
 == input\resources\CodeSystem-BRTipoSubstanciaUso.json ==
 == input\resources\CodeSystem-BRTurno.json ==
@@ -221,12 +244,12 @@ WARNING: StructureDefinition/BRProcedimentoRealizado-1.0: StructureDefinition.sn
 == input\resources\StructureDefinition-BRTurno.json ==
 WARNING: StructureDefinition/BRTurno: StructureDefinition.context[0]: Review the extension type for BRTurno: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == input\resources\ValueSet-BRAlergenos-1.0.json ==
-INFORMATION: ValueSet.where(id = 'BRAlergenos-1.0'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'BRAlergenos-1.0'): The value set expansion is too large, and only a subset has been displayed
 == input\resources\ValueSet-BRCID10-1.0.json ==
-INFORMATION: ValueSet.where(id = 'BRCID10-1.0'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'BRCID10-1.0'): The value set expansion is too large, and only a subset has been displayed
 == input\resources\ValueSet-BRCaraterAtendimento-1.0.json ==
 == input\resources\ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.json ==
-WARNING: ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0: ValueSet.compose.include[0].concept[3]: The code 'other' is not valid in the system http://hl7.org/fhir/allergy-intolerance-category version *
+WARNING: ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0: ValueSet.compose.include[0].concept[3]: The code 'other' is not valid in the system http://hl7.org/fhir/allergy-intolerance-category version * (other)
 == input\resources\ValueSet-BRCategoriaCondicao.json ==
 == input\resources\ValueSet-BRCategoriaDiagnostico.json ==
 == input\resources\ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0.json ==
@@ -248,8 +271,9 @@ WARNING: ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0: ValueSet.compose
 == input\resources\ValueSet-BRModalidadeAssistencial-1.0.json ==
 == input\resources\ValueSet-BRMotivoDesfecho-1.0.json ==
 == input\resources\ValueSet-BRMunicipio-1.0.json ==
+INFORMATION: ValueSet/BRMunicipio-1.0: ValueSet.compose.include[0].filter[0]: No definition can be found for the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil, and the property 'type' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem. In case its useful, the list of generally known properties for all systems is {2}
 == input\resources\ValueSet-BROcupacao-1.0.json ==
-INFORMATION: ValueSet.where(id = 'BROcupacao-1.0'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'BROcupacao-1.0'): The value set expansion is too large, and only a subset has been displayed
 == input\resources\ValueSet-BROrigemMedida.json ==
 == input\resources\ValueSet-BRPais-1.0.json ==
 == input\resources\ValueSet-BRPapelProblemaDiagnostico.json ==
@@ -257,15 +281,15 @@ INFORMATION: ValueSet.where(id = 'BROcupacao-1.0'): The value set expansion is i
 == input\resources\ValueSet-BRPrescricaoNaoEstruturada.json ==
 WARNING: ValueSet/BRPrescricaoNaoEstruturada: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0])
 == input\resources\ValueSet-BRProblemaDiagnostico.json ==
-INFORMATION: ValueSet.where(id = 'BRProblemaDiagnostico'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'BRProblemaDiagnostico'): The value set expansion is too large, and only a subset has been displayed
 == input\resources\ValueSet-BRProcedencia-1.0.json ==
 == input\resources\ValueSet-BRProcedimentosNacionais-1.0.json ==
-INFORMATION: ValueSet.where(id = 'BRProcedimentosNacionais-1.0'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'BRProcedimentosNacionais-1.0'): The value set expansion is too large, and only a subset has been displayed
 == input\resources\ValueSet-BRReacoesAdversasMedDRA-1.0.json ==
 == input\resources\ValueSet-BRResponsabilidadeParticipante-1.0.json ==
 == input\resources\ValueSet-BRSexo-1.0.json ==
 == input\resources\ValueSet-BRTerminologiaMedicamento.json ==
-INFORMATION: ValueSet.where(id = 'BRTerminologiaMedicamento'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'BRTerminologiaMedicamento'): The value set expansion is too large, and only a subset has been displayed
 == input\resources\ValueSet-BRTipoAleitamentoMaterno-1.0.json ==
 == input\resources\ValueSet-BRTipoAtestado.json ==
 WARNING: ValueSet/BRTipoAtestado: ValueSet.compose.include[0]: Unknown System/Version 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#*' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0])

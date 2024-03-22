@@ -1,6 +1,7 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240227153323",
-  "name" : "br.gov.saude.rnds.rac"
+  "date" : "20240322160256",
+  "name" : "br.gov.saude.rnds.rac",
+  "jurisdiction" : "urn:iso:std:iso:3166#BR"
 }

@@ -7,7 +7,7 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>use</td><td>code</td><td>Uso do Tipo do Identificador</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>use</b></td></tr><tr><td style="white-space:nowrap">AUTH<a name="BRTipoIdentificador-AUTH"> </a></td><td>Código de Autorização</td><td>Identificador da permissão para a realização de um procedimento.</td><td>procedure</td></tr><tr><td style="white-space:nowrap">BRACRA<a name="BRTipoIdentificador-BRACRA"> </a></td><td>Número de inscrição no Conselho Regional de Administração (CRA)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRESS<a name="BRTipoIdentificador-BRACRESS"> </a></td><td>Número de inscrição no Conselho Regional de Serviço Social (CRESS)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRB<a name="BRTipoIdentificador-BRACRB"> </a></td><td>Número de inscrição no Conselho Regional de Biblioteconomia (CRB)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRC<a name="BRTipoIdentificador-BRACRC"> </a></td><td>Número de inscrição no Conselho Regional de Contabilidade (CRC)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRECI<a name="BRTipoIdentificador-BRACRECI"> </a></td><td>Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACORECON<a name="BRTipoIdentificador-BRACORECON"> </a></td><td>Número de inscrição no Conselho Regional de Economia (CORECON)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACREA<a name="BRTipoIdentificador-BRACREA"> </a></td><td>Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACONFRE<a name="BRTipoIdentificador-BRACONFRE"> </a></td><td>Número de inscrição no Conselho Regional de Estatística (CONRE)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRF<a name="BRTipoIdentificador-BRACRF"> </a></td><td>Número de inscrição no Conselho Regional de Farmácia (CRF)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACREFITO<a name="BRTipoIdentificador-BRACREFITO"> </a></td><td>Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRMV<a name="BRTipoIdentificador-BRACRMV"> </a></td><td>Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRN<a name="BRTipoIdentificador-BRACRN"> </a></td><td>Número de inscrição no Conselho Regional de Nutrição (CRN)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACONRERP<a name="BRTipoIdentificador-BRACONRERP"> </a></td><td>Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRP<a name="BRTipoIdentificador-BRACRP"> </a></td><td>Número de inscrição no Conselho Regional de Psicologia (CRP)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRQ<a name="BRTipoIdentificador-BRACRQ"> </a></td><td>Número de inscrição no Conselho Regional de Química (CRQ)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACORE<a name="BRTipoIdentificador-BRACORE"> </a></td><td>Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACREF<a name="BRTipoIdentificador-BRACREF"> </a></td><td>Número de inscrição no Conselho Regional de Educação Física (CREF)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACAU<a name="BRTipoIdentificador-BRACAU"> </a></td><td>Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRBIO<a name="BRTipoIdentificador-BRACRBIO"> </a></td><td>Número de inscrição no Conselho Regional de Biologia (CRBio)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRBM<a name="BRTipoIdentificador-BRACRBM"> </a></td><td>Número da inscrição no Conselho Regional de Biomedicina (CRBM)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRFA<a name="BRTipoIdentificador-BRACRFA"> </a></td><td>Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRTR<a name="BRTipoIdentificador-BRACRTR"> </a></td><td>Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACRT<a name="BRTipoIdentificador-BRACRT"> </a></td><td>Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRAOAB<a name="BRTipoIdentificador-BRAOAB"> </a></td><td>Número de inscrição na Ordem dos Advogados do BRAasil (OAB)</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRAIDMIL<a name="BRTipoIdentificador-BRAIDMIL"> </a></td><td>Número da Identidade Militar</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRAIDFUNC<a name="BRTipoIdentificador-BRAIDFUNC"> </a></td><td>Número da Identidade Funcional</td><td/><td>patient</td></tr><tr><td style="white-space:nowrap">BRACNPJ<a name="BRTipoIdentificador-BRACNPJ"> </a></td><td>Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)</td><td/><td>organization</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>use</td><td>Coding</td><td>Uso do Tipo do Identificador</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>use</b></td></tr><tr><td style="white-space:nowrap">AUTH<a name="BRTipoIdentificador-AUTH"> </a></td><td>Código de Autorização</td><td>Identificador da permissão para a realização de um procedimento.</td><td>Procedure</td></tr><tr><td style="white-space:nowrap">BRACRA<a name="BRTipoIdentificador-BRACRA"> </a></td><td>Número de inscrição no Conselho Regional de Administração (CRA)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRESS<a name="BRTipoIdentificador-BRACRESS"> </a></td><td>Número de inscrição no Conselho Regional de Serviço Social (CRESS)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRB<a name="BRTipoIdentificador-BRACRB"> </a></td><td>Número de inscrição no Conselho Regional de Biblioteconomia (CRB)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRC<a name="BRTipoIdentificador-BRACRC"> </a></td><td>Número de inscrição no Conselho Regional de Contabilidade (CRC)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRECI<a name="BRTipoIdentificador-BRACRECI"> </a></td><td>Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACORECON<a name="BRTipoIdentificador-BRACORECON"> </a></td><td>Número de inscrição no Conselho Regional de Economia (CORECON)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACREA<a name="BRTipoIdentificador-BRACREA"> </a></td><td>Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACONFRE<a name="BRTipoIdentificador-BRACONFRE"> </a></td><td>Número de inscrição no Conselho Regional de Estatística (CONRE)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRF<a name="BRTipoIdentificador-BRACRF"> </a></td><td>Número de inscrição no Conselho Regional de Farmácia (CRF)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACREFITO<a name="BRTipoIdentificador-BRACREFITO"> </a></td><td>Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRMV<a name="BRTipoIdentificador-BRACRMV"> </a></td><td>Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRN<a name="BRTipoIdentificador-BRACRN"> </a></td><td>Número de inscrição no Conselho Regional de Nutrição (CRN)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACONRERP<a name="BRTipoIdentificador-BRACONRERP"> </a></td><td>Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRP<a name="BRTipoIdentificador-BRACRP"> </a></td><td>Número de inscrição no Conselho Regional de Psicologia (CRP)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRQ<a name="BRTipoIdentificador-BRACRQ"> </a></td><td>Número de inscrição no Conselho Regional de Química (CRQ)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACORE<a name="BRTipoIdentificador-BRACORE"> </a></td><td>Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACREF<a name="BRTipoIdentificador-BRACREF"> </a></td><td>Número de inscrição no Conselho Regional de Educação Física (CREF)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACAU<a name="BRTipoIdentificador-BRACAU"> </a></td><td>Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRBIO<a name="BRTipoIdentificador-BRACRBIO"> </a></td><td>Número de inscrição no Conselho Regional de Biologia (CRBio)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRBM<a name="BRTipoIdentificador-BRACRBM"> </a></td><td>Número da inscrição no Conselho Regional de Biomedicina (CRBM)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRFA<a name="BRTipoIdentificador-BRACRFA"> </a></td><td>Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRTR<a name="BRTipoIdentificador-BRACRTR"> </a></td><td>Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACRT<a name="BRTipoIdentificador-BRACRT"> </a></td><td>Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRAOAB<a name="BRTipoIdentificador-BRAOAB"> </a></td><td>Número de inscrição na Ordem dos Advogados do BRAasil (OAB)</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRAIDMIL<a name="BRTipoIdentificador-BRAIDMIL"> </a></td><td>Número da Identidade Militar</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRAIDFUNC<a name="BRTipoIdentificador-BRAIDFUNC"> </a></td><td>Número da Identidade Funcional</td><td/><td>Patient</td></tr><tr><td style="white-space:nowrap">BRACNPJ<a name="BRTipoIdentificador-BRACNPJ"> </a></td><td>Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)</td><td/><td>Organization</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
@@ -49,7 +49,7 @@
   <property>
     <code value="use"/>
     <description value="Uso do Tipo do Identificador"/>
-    <type value="code"/>
+    <type value="Coding"/>
   </property>
   <concept>
     <code value="AUTH"/>
@@ -57,7 +57,10 @@
     <definition value="Identificador da permissão para a realização de um procedimento."/>
     <property>
       <code value="use"/>
-      <valueCode value="procedure"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Procedure"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -65,7 +68,10 @@
     <display value="Número de inscrição no Conselho Regional de Administração (CRA)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -73,7 +79,10 @@
     <display value="Número de inscrição no Conselho Regional de Serviço Social (CRESS)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -81,7 +90,10 @@
     <display value="Número de inscrição no Conselho Regional de Biblioteconomia (CRB)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -89,7 +101,10 @@
     <display value="Número de inscrição no Conselho Regional de Contabilidade (CRC)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -97,7 +112,10 @@
     <display value="Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -105,7 +123,10 @@
     <display value="Número de inscrição no Conselho Regional de Economia (CORECON)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -113,7 +134,10 @@
     <display value="Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -121,7 +145,10 @@
     <display value="Número de inscrição no Conselho Regional de Estatística (CONRE)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -129,7 +156,10 @@
     <display value="Número de inscrição no Conselho Regional de Farmácia (CRF)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -137,7 +167,10 @@
     <display value="Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -145,7 +178,10 @@
     <display value="Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -153,7 +189,10 @@
     <display value="Número de inscrição no Conselho Regional de Nutrição (CRN)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -161,7 +200,10 @@
     <display value="Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -169,7 +211,10 @@
     <display value="Número de inscrição no Conselho Regional de Psicologia (CRP)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -177,7 +222,10 @@
     <display value="Número de inscrição no Conselho Regional de Química (CRQ)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -185,7 +233,10 @@
     <display value="Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -193,7 +244,10 @@
     <display value="Número de inscrição no Conselho Regional de Educação Física (CREF)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -201,7 +255,10 @@
     <display value="Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -209,7 +266,10 @@
     <display value="Número de inscrição no Conselho Regional de Biologia (CRBio)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -217,7 +277,10 @@
     <display value="Número da inscrição no Conselho Regional de Biomedicina (CRBM)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -225,7 +288,10 @@
     <display value="Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -233,7 +299,10 @@
     <display value="Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -241,7 +310,10 @@
     <display value="Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -249,7 +321,10 @@
     <display value="Número de inscrição na Ordem dos Advogados do BRAasil (OAB)"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -257,7 +332,10 @@
     <display value="Número da Identidade Militar"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -265,7 +343,10 @@
     <display value="Número da Identidade Funcional"/>
     <property>
       <code value="use"/>
-      <valueCode value="patient"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Patient"/>
+      </valueCoding>
     </property>
   </concept>
   <concept>
@@ -273,7 +354,10 @@
     <display value="Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)"/>
     <property>
       <code value="use"/>
-      <valueCode value="organization"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Organization"/>
+      </valueCoding>
     </property>
   </concept>
 </CodeSystem>
