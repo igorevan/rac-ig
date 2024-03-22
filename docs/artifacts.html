@@ -1,1379 +1,1532 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v0.1.0</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="author" content="http://hl7.org/fhir"/>
+<head>
+   <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+   <title>Artifacts Summary - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v0.1.0</title>
 
-    <link href="fhir.css" rel="stylesheet"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="author" content="http://hl7.org/fhir" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+   <link href="fhir.css" rel="stylesheet" />
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
+   <!-- Bootstrap core CSS -->
+   <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+   <!-- Project extras -->
+   <link href="assets/css/project.css" rel="stylesheet" />
+   <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+   <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+   <link href="assets/css/prism.css" rel="stylesheet" />
+   <!-- Placeholder for child template CSS declarations -->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+   <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
-    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
-  </head>
-  <body onload="document.body.style.opacity='1'">
+   <!-- Favicons -->
+   <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png" />
+   <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png" />
+   <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png" />
+   <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png" />
+   <link rel="shortcut icon" href="assets/ico/favicon.png" />
+</head>
 
-	  <script src="assets/js/prism.js"></script>
+<body onload="document.body.style.opacity='1'">
 
-    <style type="text/css">h2{--heading-prefix:"10"}
-    h3,h4,h5,h6{--heading-prefix:"10.0"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Placeholder for child template header declarations -->
+   <script src="assets/js/prism.js"></script>
+
+   <style type="text/css">
+      h2 {
+         --heading-prefix: "10"
+      }
+
+      h3,
+      h4,
+      h5,
+      h6 {
+         --heading-prefix: "10.0"
+      }
+   </style>
+   <div id="segment-header" class="segment"> <!-- segment-header -->
+      <div class="container"> <!-- container -->
+         <!-- Placeholder for child template header declarations -->
 
 
-        <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
-            <br/>
-            <span style="display:inline-block;">0.1.0 - CI Build
+         <div id="ig-status">
+            <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico
+                  (RAC) da RNDS</span>
+               <br />
+               <span style="display:inline-block;">0.1.0 - CI Build
 
 
 
-  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+                  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil" />
 
+
+               </span>
+            </p>
+         </div>
+      </div> <!-- /container -->
+   </div> <!-- /segment-header -->
+
+   <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container"> <!-- container -->
+         <!-- HEADER CONTENT -->
+
+         <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+               <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse"
+                  type="button">
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+               </button>
+               <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+               <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+                     <li>
+                        <a href="index.html">Principal</a>
+                     </li>
+                     <li>
+                        <a href="credenciamento.html">Credenciamento</a>
+                     </li>
+                     <li>
+                        <a href="seguranca.html">Segurança</a>
+                     </li>
+                     <li>
+                        <a href="integracao.html">Integração</a>
+                     </li>
+
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RAC <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="mi.html">Modelo de Informação</a>
+                              <a href="mc.html">Modelo Computacional</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="artifacts.html">Artefatos</a>
+                              <a href="exemplos.html">Exemplos</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Ajuda <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="toc.html">Índice</a>
+                           </li>
+                           <li>
+                              <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+                                    src="external.png" style="text-align: baseline" />
+                              </a>
+                           </li>
+                           <li>
+                              <a href="changes.html">Histórico de mudanças</a>
+                           </li>
+                           <li>
+                              <a href="downloads.html">Downloads</a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div> <!-- /.nav-collapse -->
+            </div> <!-- /.container -->
+         </nav> <!-- /.navbar -->
+         <!-- /HEADER CONTENT -->
+      </div> <!-- /container -->
+   </div> <!-- /segment-navbar -->
+   <!--status-bar-->
+
+   <div id="segment-breadcrumb" class="segment"> <!-- segment-breadcrumb -->
+      <div class="container"> <!-- container -->
+         <ul class="breadcrumb">
+            <li><a href='toc.html'><b>Índice</b></a></li>
+            <li><b>Artifacts Summary</b></li>
+
+            <span style="float:right;">
+
+               <a href="changes.html">&lt;prev</a> |
+
+               <a href="#bottom">bottom</a>
+
+               | <a href="StructureDefinition-BRRegistroAtendimentoClinico.html">next&gt;</a>
 
             </span>
-          </p>
-        </div>
+
+         </ul>
       </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+   </div> <!-- /segment-breadcrumb -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
-      <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
+   <a name="top"> </a>
+   <div id="segment-content" class="segment"> <!-- segment-content -->
+      <div class="container"> <!-- container -->
+         <div class="row">
+            <div class="inner-wrapper">
 
-        <nav class="navbar navbar-inverse">
-          <!--status-bar-->
-          <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-            </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
-            <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li>
-    <a href="index.html">Principal</a>
-  </li>
-  <li>
-    <a href="credenciamento.html">Credenciamento</a>
-  </li>
-  <li>
-    <a href="seguranca.html">Segurança</a>
-  </li>
-  <li>
-    <a href="integracao.html">Integração</a>
-  </li>
+               <style type="text/css">
+                  h2:before {
+                     color: silver;
+                     counter-increment: section;
+                     content: var(--heading-prefix) " ";
+                  }
 
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RAC <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="mi.html">Modelo de Informação</a>
-        <a href="mc.html">Modelo Computacional</a>
-      </li>
-    </ul>
-  </li>
+                  h3:before {
+                     color: silver;
+                     counter-increment: sub-section;
+                     content: var(--heading-prefix) "." counter(sub-section) " ";
+                  }
 
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="artifacts.html">Artefatos</a>
-        <a href="exemplos.html">Exemplos</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Ajuda <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="toc.html">Índice</a>
-      </li>
-      <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
-        </a>
-      </li>
-      <li>
-        <a href="changes.html">Histórico de mudanças</a>
-      </li>
-      <li>
-        <a href="downloads.html">Downloads</a>
-      </li>
-    </ul>
-  </li>
-</ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
+                  h4:before {
+                     color: silver;
+                     counter-increment: composite;
+                     content: var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";
+                  }
 
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
-        <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Índice</b></a></li><li><b>Artifacts Summary</b></li>
+                  h5:before {
+                     color: silver;
+                     counter-increment: detail;
+                     content: var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";
+                  }
 
-          <span style="float:right;">
+                  h6:before {
+                     color: silver;
+                     counter-increment: more-detail;
+                     content: var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";
+                  }
+               </style>
+               <div class="col-12">
+                  <!--ReleaseHeader-->
+                  <p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Local
+                     Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a
+                        href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p>
+                  <!--EndReleaseHeader-->
+                  <h2>Artifacts Summary</h2>
 
-            <a href="changes.html">&lt;prev</a> | 
 
-            <a href="#bottom">bottom</a>
 
-          | <a href="StructureDefinition-BRRegistroAtendimentoClinico.html">next&gt;</a>
+                  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten-->
+                  <div xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml"
+                     xmlns:f="http://hl7.org/fhir" class="markdown-toc">
+                     <p>Contents:</p>
+                     <ul>
+                        <li>
+                           <a href="#1">Structures: Resource Profiles</a>
+                        </li>
+                        <li>
+                           <a href="#2">Structures: Extension Definitions</a>
+                        </li>
+                        <li>
+                           <a href="#3">Terminology: Value Sets</a>
+                        </li>
+                        <li>
+                           <a href="#4">Terminology: Code Systems</a>
+                        </li>
+                        <li>
+                           <a href="#5">Example: Example Instances</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml"
+                     xmlns:f="http://hl7.org/fhir">
+                     <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.
+                     </p>
+                     <a name="1"> </a>
+                     <h3>Structures: Resource Profiles </h3>
+                     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.
+                     </p>
+                     <table class="grid">
+                        <col style="width:20%" />
+                        <tbody>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html"
+                                    title="StructureDefinition/BRAlergiaReacaoAdversa-1.0">Alergia ou Reação Adversa</a>
+                              </td>
+                              <td>
+                                 <p>Alergia ou Reação Adversa</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRAtestado.html"
+                                    title="StructureDefinition/BRAtestado">Atestado Digital</a>
+                              </td>
+                              <td>
+                                 <p>Informações de atestado médico/odontológico</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRCID10Avaliado-1.0.html"
+                                    title="StructureDefinition/BRCID10Avaliado-1.0">CID10 Avaliado</a>
+                              </td>
+                              <td>
+                                 <p>Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato
+                                    assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRConjuntoMinimoDados-1.1.html"
+                                    title="StructureDefinition/BRConjuntoMinimoDados-1.1">Conjunto Mínimo de Dados
+                                    (CMD)</a>
+                              </td>
+                              <td>
+                                 <p>Documento público que coleta os dados dos atendimentos em saúde realizados em
+                                    qualquer estabelecimento de saúde do país, público ou privado, em cada contato
+                                    assistencial</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRContatoAssistencial-1.0.html"
+                                    title="StructureDefinition/BRContatoAssistencial-1.0">Contato Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo
+                                    em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado
+                                    após a conclusão deste atendimento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRLocalAtendimento-1.0.html"
+                                    title="StructureDefinition/BRLocalAtendimento-1.0">Local de Atendimento</a>
+                              </td>
+                              <td>
+                                 <p>Uma referência genérica aos locais onde um Contato Assistencial pode acontecer.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRMedicamento.html"
+                                    title="StructureDefinition/BRMedicamento">Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>Medicamento</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRMedidaObservada.html"
+                                    title="StructureDefinition/BRMedidaObservada">Medida Observada</a>
+                              </td>
+                              <td>
+                                 <p>Registra as informações relacionadas a um tipo de observação.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html"
+                                    title="StructureDefinition/BRObservacaoDescritiva-1.0">Observação Descritiva</a>
+                              </td>
+                              <td>
+                                 <p>Descrições textuais simples sobre um paciente.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRPlanoCuidados-1.0.html"
+                                    title="StructureDefinition/BRPlanoCuidados-1.0">Plano de Cuidados</a>
+                              </td>
+                              <td>
+                                 <p>Descreve o plano de cuidados, instruções e recomendações.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRPrescricaoMedicamento.html"
+                                    title="StructureDefinition/BRPrescricaoMedicamento">Prescrição de Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>Prescrição de Medicamento</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRProblemaDiagnostico.html"
+                                    title="StructureDefinition/BRProblemaDiagnostico">Problema / Diagnóstico</a>
+                              </td>
+                              <td>
+                                 <p>Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no
+                                    contato assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html"
+                                    title="StructureDefinition/BRProcedimentoRealizado-1.0">Procedimento Realizado</a>
+                              </td>
+                              <td>
+                                 <p>Procedimento realizado em um indivíduo.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRRegistroAtendimentoClinico.html"
+                                    title="StructureDefinition/BRRegistroAtendimentoClinico">Registro de Atendimento
+                                    Clínico (RAC)</a>
+                              </td>
+                              <td>
+                                 <p>Documento destinado a modelar dados essenciais de uma consulta realizada a um
+                                    indivíduo no âmbito da atenção básica, especializada ou domiciliar.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html"
+                                    title="StructureDefinition/BRRegistroPrescricaoMedicamento">Registro de Prescrição
+                                    de Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>Modelo que gera o documento de Registro de Prescrição de Medicamento</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <a name="2"> </a>
+                     <h3>Structures: Extension Definitions </h3>
+                     <p>These define constraints on FHIR data types for systems conforming to this implementation guide.
+                     </p>
+                     <table class="grid">
+                        <col style="width:20%" />
+                        <tbody>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRCodigoSerialMedicamento.html"
+                                    title="StructureDefinition/BRCodigoSerialMedicamento">Código Serial de
+                                    Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>Código Serial de Medicamento</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRFinanciamento-1.0.html"
+                                    title="StructureDefinition/BRFinanciamento-1.0">Financiamento</a>
+                              </td>
+                              <td>
+                                 <p>Extensão utilizada para identificar financiamento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRIdentificacaoEquipe-1.0.html"
+                                    title="StructureDefinition/BRIdentificacaoEquipe-1.0">Identificador Nacional de
+                                    Equipe</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para permitir informar o código do Identificador Nacional de Equipe.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRIndividuoNaoIdentificado-1.0.html"
+                                    title="StructureDefinition/BRIndividuoNaoIdentificado-1.0">Informações
+                                    Complementares de Indivíduos Não Identificados</a>
+                              </td>
+                              <td>
+                                 <p>Informações complementares necessárias ao Contato Assistencial na hipótese do
+                                    indivíduo não poder ser identificado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRIntervaloDoses.html"
+                                    title="StructureDefinition/BRIntervaloDoses">Intervalo de Doses</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para descrever uma unidade de tempo referenciada pelo UCUM.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRMunicipio-1.0.html"
+                                    title="StructureDefinition/BRMunicipio-1.0">Município</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para informar um município.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BROcupacao-1.0.html"
+                                    title="StructureDefinition/BROcupacao-1.0">Ocupação</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para incluir a Ocupação</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BROrigemMedida.html"
+                                    title="StructureDefinition/BROrigemMedida">Origem da Medição</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para incluir a origem da medição corpórea (altura e peso).</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BROutrasInformacoes.html"
+                                    title="StructureDefinition/BROutrasInformacoes">Outras Informações</a>
+                              </td>
+                              <td>
+                                 <p>Representa quaisquer outras informações acerca dos dados de desfecho do atendimento
+                                    registrado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRPais-1.0.html"
+                                    title="StructureDefinition/BRPais-1.0">País</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para representar um país.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRQuantidade-1.0.html"
+                                    title="StructureDefinition/BRQuantidade-1.0">Quantidade</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para identificar quantidades.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRResponsavelAtendimento.html"
+                                    title="StructureDefinition/BRResponsavelAtendimento">Responsável pelo
+                                    Atendimento</a>
+                              </td>
+                              <td>
+                                 <p>Representa se o profissional foi o responsável pelo atendimento registrado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRRoupasUsadasMedicao.html"
+                                    title="StructureDefinition/BRRoupasUsadasMedicao">Roupas Usadas na Medição</a>
+                              </td>
+                              <td>
+                                 <p>Descreve o tipo de roupas usadas durante a medição com base no código LOINC 8352-7.
+                                 </p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="StructureDefinition-BRTurno.html"
+                                    title="StructureDefinition/BRTurno">Turno</a>
+                              </td>
+                              <td>
+                                 <p>Extensão para descrever uma unidade de tempo referenciada pelo UCUM.</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <a name="3"> </a>
+                     <h3>Terminology: Value Sets </h3>
+                     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+                     <table class="grid">
+                        <col style="width:20%" />
+                        <tbody>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRAlergenos-1.0.html" title="ValueSet/BRAlergenos-1.0">Alérgenos</a>
+                              </td>
+                              <td>
+                                 <p>Descreve o agente capaz de causar alergia ou reação adversa em seres humanos.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRCaraterAtendimento-1.0.html"
+                                    title="ValueSet/BRCaraterAtendimento-1.0">Caráter de atendimento do Contato
+                                    Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para classificar a prioridade de realização de um Contato
+                                    Assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html"
+                                    title="ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0">Categoria do Agente da
+                                    Alergia ou Reação Adversa</a>
+                              </td>
+                              <td>
+                                 <p>Categoriza a substância responsável por causar uma alergia ou reação adversa.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRCategoriaDiagnostico.html"
+                                    title="ValueSet/BRCategoriaDiagnostico">Categoria do Diagnóstico</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BROcupacao-1.0.html" title="ValueSet/BROcupacao-1.0">Classificação
+                                    Brasileira de Ocupações - CBO</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as profissões do mercado de trabalho brasileiro.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRCID10-1.0.html" title="ValueSet/BRCID10-1.0">Classificação
+                                    Internacional de Doenças - Décima Revisão - CID-10</a>
+                              </td>
+                              <td>
+                                 <p>Classificação Internacional de Doenças - Décima Revisão - CID-10</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRProblemaDiagnostico.html"
+                                    title="ValueSet/BRProblemaDiagnostico">Classificação Internacional de Doenças e
+                                    Atenção Primária</a>
+                              </td>
+                              <td>
+                                 <p>Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de
+                                    Doenças (CID10)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRCategoriaCondicao.html"
+                                    title="ValueSet/BRCategoriaCondicao">Classificação de uma condição</a>
+                              </td>
+                              <td>
+                                 <p>Tradução para o português do brasil da classificação de uma condição</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRPapelProblemaDiagnostico.html"
+                                    title="ValueSet/BRPapelProblemaDiagnostico">Classificação do papel de um problema e
+                                    diagnóstico</a>
+                              </td>
+                              <td>
+                                 <p>Tradução para o português do brasil da classificação do papel de um
+                                    problema/diagnóstico.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0.html"
+                                    title="ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0">Criticidade de Alergias e
+                                    Reações Adversas</a>
+                              </td>
+                              <td>
+                                 <p>Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça
+                                    à vida..</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoObservacao-1.0.html"
+                                    title="ValueSet/BREstadoObservacao-1.0">Estado da Observação</a>
+                              </td>
+                              <td>
+                                 <p>Tipos de estados de uma observação.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html"
+                                    title="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0">Estado da Resolução de
+                                    Diagnóstico ou Problema</a>
+                              </td>
+                              <td>
+                                 <p>Estado da resolução de um diagnóstico ou problema.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoSolicitacao-1.0.html"
+                                    title="ValueSet/BREstadoSolicitacao-1.0">Estado da Solicitação</a>
+                              </td>
+                              <td>
+                                 <p>Estado da solicitação.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoSolicitacaoMedicamento-1.0.html"
+                                    title="ValueSet/BREstadoSolicitacaoMedicamento-1.0">Estado da Solicitação de
+                                    Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>Estado da Solicitação de Medicamento</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoContatoAssistencial-1.0.html"
+                                    title="ValueSet/BREstadoContatoAssistencial-1.0">Estado do Contato Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o estado de um Contato Assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoDocumento-1.0.html"
+                                    title="ValueSet/BREstadoDocumento-1.0">Estado do Documento</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o estado do documento que está sendo trafegado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoEvento-1.0.html" title="ValueSet/BREstadoEvento-1.0">Estado
+                                    do Evento</a>
+                              </td>
+                              <td>
+                                 <p>Identificação do estado de um evento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRFinanciamento-1.0.html"
+                                    title="ValueSet/BRFinanciamento-1.0">Financiamento do procedimento realizado</a>
+                              </td>
+                              <td>
+                                 <p>Descreve o agente, instituição ou entidade responsável por custear as ações e
+                                    serviços de saúde.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRFrequenciaUsoSubstancia.html"
+                                    title="ValueSet/BRFrequenciaUsoSubstancia">Frequência de Uso da Substância</a>
+                              </td>
+                              <td>
+                                 <p>Identifica a frequência de uso da substância em uso conforme declaração do
+                                    indivíduo.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRGrauCertezaAlergiasReacoesAdversas-1.0.html"
+                                    title="ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0">Grau de Certeza de
+                                    Alergias e Reações Adversas</a>
+                              </td>
+                              <td>
+                                 <p>Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRPrescricaoNaoEstruturada.html"
+                                    title="ValueSet/BRPrescricaoNaoEstruturada">Indicativo de prescrição não estruturada
+                                    ou medicamento não identificado</a>
+                              </td>
+                              <td>
+                                 <p>Indicativo de prescrição não estruturada ou medicamento não identificado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRIntencaoAtestado.html" title="ValueSet/BRIntencaoAtestado">Intenção
+                                    do atestado</a>
+                              </td>
+                              <td>
+                                 <p>Intenção do atestado médico/odontológico.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html"
+                                    title="ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0">Justificativa da
+                                    Impossibilidade de Identificação do Indivíduo</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as razões pelo qual não foi possível obter os dados de identificação do
+                                    indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port.
+                                    nº02/SAS/SGEP/MS/2012)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRLocalAfericao-1.0.html" title="ValueSet/BRLocalAfericao-1.0">Local
+                                    de Aferição</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão
+                                    arterial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRModalidadeAssistencial-1.0.html"
+                                    title="ValueSet/BRModalidadeAssistencial-1.0">Modalidade Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Classificação dos documentos e contatos assistenciais de acordo com as
+                                    especificidades do modo, local e duração do atendimento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRMotivoDesfecho-1.0.html"
+                                    title="ValueSet/BRMotivoDesfecho-1.0">Motivo do desfecho do Contato Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para classificar o motivo de conclusão total ou parcial do
+                                    contato assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRMunicipio-1.0.html" title="ValueSet/BRMunicipio-1.0">Município</a>
+                              </td>
+                              <td>
+                                 <p>Municípios brasileiros, entes subnacionais.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BROrigemMedida.html" title="ValueSet/BROrigemMedida">Origem de
+                                    Medição</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir o tipo de medição corporal adotada.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRPais-1.0.html" title="ValueSet/BRPais-1.0">País</a>
+                              </td>
+                              <td>
+                                 <p>Códigos para representação de países.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRPosicaoIndividuo.html" title="ValueSet/BRPosicaoIndividuo">Posição
+                                    do Indivíduo</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para identificar a posição do indivíduo no momento da ação /
+                                    procedimento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRProcedimentosNacionais-1.0.html"
+                                    title="ValueSet/BRProcedimentosNacionais-1.0">Procedimento realizado</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet das classificações brasileiras para procedimentos adotadas em contexto
+                                    nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de
+                                    competência anterior os códigos devem ser consultados na RTS.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRProcedencia-1.0.html"
+                                    title="ValueSet/BRProcedencia-1.0">Procedência do Contato Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu
+                                    responsável na busca pelo acesso ao serviço de saúde.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRReacoesAdversasMedDRA-1.0.html"
+                                    title="ValueSet/BRReacoesAdversasMedDRA-1.0">Reações Adversas da MedDRA</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory
+                                    Activities.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRResponsabilidadeParticipante-1.0.html"
+                                    title="ValueSet/BRResponsabilidadeParticipante-1.0">Reponsabilidade no Contato
+                                    Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato
+                                    Assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-RoupasUsadasMedicao.html" title="ValueSet/RoupasUsadasMedicao">Roupas
+                                    Usadas na Medição</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com
+                                    base na lista de respostas da LOINC de código LL742-8.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRSexo-1.0.html" title="ValueSet/BRSexo-1.0">Sexo</a>
+                              </td>
+                              <td>
+                                 <p>Sexo de um indivíduo.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoAfastamentoAtestado.html"
+                                    title="ValueSet/BREstadoAfastamentoAtestado">Status do afastamento descrito no
+                                    atestado</a>
+                              </td>
+                              <td>
+                                 <p>Status do afastamento descrito no atestado médico/odontológico.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BREstadoAtestado.html" title="ValueSet/BREstadoAtestado">Status do
+                                    atestado</a>
+                              </td>
+                              <td>
+                                 <p>Status do atestado médico/odontológico.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTerminologiaMedicamento.html"
+                                    title="ValueSet/BRTerminologiaMedicamento">Terminologia dos medicamentos</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir a terminologia de um dado medicamento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTipoAleitamentoMaterno-1.0.html"
+                                    title="ValueSet/BRTipoAleitamentoMaterno-1.0">Tipo de Aleitamento Materno</a>
+                              </td>
+                              <td>
+                                 <p>Definição do tipo de aleitamento materno realizado a uma criança.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTipoDocumento-1.0.html" title="ValueSet/BRTipoDocumento-1.0">Tipo
+                                    de Documento</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o tipo de documento que está sendo trafegado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTipoIdentificadorProcedimento-1.0.html"
+                                    title="ValueSet/BRTipoIdentificadorProcedimento-1.0">Tipo de Identificador do
+                                    Procedimento</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o tipo de identificador que está sendo utilizado para o procedimento.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTipoObservacao-1.0.html" title="ValueSet/BRTipoObservacao-1.0">Tipo
+                                    de Observação</a>
+                              </td>
+                              <td>
+                                 <p>Tipo de Observação.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTipoSubstanciaUso-1.0.html"
+                                    title="ValueSet/BRTipoSubstanciaUso-1.0">Tipo de Substância em Uso</a>
+                              </td>
+                              <td>
+                                 <p>Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo
+                                    com o especificado no modelo de informação do Registro de Atendimento Clínico da
+                                    Resolução CIT nº 33/2018.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTipoAtestado.html" title="ValueSet/BRTipoAtestado">Tipo de
+                                    atestado</a>
+                              </td>
+                              <td>
+                                 <p>Tipo de atestado dentro das categorias médico/odontológico</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRTurno.html" title="ValueSet/BRTurno">Turno do dia</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir o turno de um dia.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRUnidadeConsumo.html" title="ValueSet/BRUnidadeConsumo">Unidade de
+                                    Consumo</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito.
+                                 </p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRUnidadeMedidaMedicamento.html"
+                                    title="ValueSet/BRUnidadeMedidaMedicamento">Unidade de Medida de Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir a unidade de medida de medicamentos sob informações
+                                    do fabricante.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRUnidadeTempo.html" title="ValueSet/BRUnidadeTempo">Unidade de
+                                    Tempo</a>
+                              </td>
+                              <td>
+                                 <p>ValueSet utilizado para definir uma unidade de tempo.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="ValueSet-BRViaAdministracao-1.0.html"
+                                    title="ValueSet/BRViaAdministracao-1.0">Via de Administração do Imunobiológico</a>
+                              </td>
+                              <td>
+                                 <p>Via de administração de um imunobiológico.</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <a name="4"> </a>
+                     <h3>Terminology: Code Systems </h3>
+                     <p>These define new code systems used by systems conforming to this implementation guide.</p>
+                     <table class="grid">
+                        <col style="width:20%" />
+                        <tbody>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRCaraterAtendimento.html"
+                                    title="CodeSystem/BRCaraterAtendimento">Caráter de Atendimento</a>
+                              </td>
+                              <td>
+                                 <p>Terminologia que classifica a prioridade de realização de um Contato Assistencial.
+                                 </p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRCategoriaDiagnostico.html"
+                                    title="CodeSystem/BRCategoriaDiagnostico">Categoria do Diagnóstico</a>
+                              </td>
+                              <td>
+                                 <p>Códigos para representação do tipo de categoria do diagnóstico realizado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRAlergenosCBARA.html" title="CodeSystem/BRAlergenosCBARA">Catálogo
+                                    Brasileiro de Alergias e Reações Adversas (CBARA)</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as alergias e reações adversas.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRCBHPMTUSS.html" title="CodeSystem/BRCBHPMTUSS">Classificação
+                                    Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia
+                                    Unificada da Saúde Suplementar - TUSS</a>
+                              </td>
+                              <td>
+                                 <p>Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à
+                                    saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar
+                                    procedimento inexistente na Tabela SUS.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRCBO.html" title="CodeSystem/BRCBO">Classificação Brasileira de
+                                    Ocupações - CBO</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as profissões do mercado de trabalho brasileiro.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRCIAP2.html" title="CodeSystem/BRCIAP2">Classificação
+                                    Internacional de Atenção Primária - Segunda Edição - CIAP2</a>
+                              </td>
+                              <td>
+                                 <p>Classifica os problemas identificados no contato assistencial pelos profissionais de
+                                    saúde, os motivos da contato assistencial e as respostas propostas pela equipe
+                                    seguindo a sistematização SOAP.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRCID10.html" title="CodeSystem/BRCID10">Classificação
+                                    Internacional de Doenças - Décima Revisão - CID-10</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as doenças e outros problemas em saúde registrados em diversos tipos de
+                                    documentos clínicos.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRDadoAusenteOuDesconhecido.html"
+                                    title="CodeSystem/BRDadoAusenteOuDesconhecido">Classificação de dados ausentes ou
+                                    desconhecidos - IPS</a>
+                              </td>
+                              <td>
+                                 <p>Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do
+                                    International Patient Summary - IPS.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRPapelProblemaDiagnostico.html"
+                                    title="CodeSystem/BRPapelProblemaDiagnostico">Classificação do papel de um problema
+                                    e diagnóstico</a>
+                              </td>
+                              <td>
+                                 <p>Classificação do papel de um problema/diagnóstico.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRDivisaoGeograficaBrasil.html"
+                                    title="CodeSystem/BRDivisaoGeograficaBrasil">Divisão Geográfica do Brasil</a>
+                              </td>
+                              <td>
+                                 <p>As regiões geográficas, estados, distrito federal e municípios do Brasil.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRFinanciamento.html"
+                                    title="CodeSystem/BRFinanciamento">Financiamento</a>
+                              </td>
+                              <td>
+                                 <p>Terminologia que descreve o agente, instituição ou entidade responsável por custear
+                                    as ações e serviços de saúde.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRFrequenciaUsoSubstancia.html"
+                                    title="CodeSystem/BRFrequenciaUsoSubstancia">Frequência de Uso de Substância</a>
+                              </td>
+                              <td>
+                                 <p>Identifica a frequência de uso da substância conforme declaração do indivíduo, de
+                                    acordo com o especificado no modelo de informação do Registro de Atendimento Clínico
+                                    da Resolução CIT nº 33/2018.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRImunobiologico.html"
+                                    title="CodeSystem/BRImunobiologico">Imunobiológico</a>
+                              </td>
+                              <td>
+                                 <p>Classifica os tipos de imunobiológicos.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRJustificativaIndividuoNaoIdentificado.html"
+                                    title="CodeSystem/BRJustificativaIndividuoNaoIdentificado">Justificativa da
+                                    Impossibilidade de Identificação do Indivíduo</a>
+                              </td>
+                              <td>
+                                 <p>Classifica as razões pelo qual não foi possível obter os dados de identificação do
+                                    indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port.
+                                    nº02/SAS/SGEP/MS/2012)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRLocalAfericao.html" title="CodeSystem/BRLocalAfericao">Local de
+                                    Aferição</a>
+                              </td>
+                              <td>
+                                 <p>Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRMedDRA.html" title="CodeSystem/BRMedDRA">Medical Dictionary for
+                                    Regulatory Activities (MedDRA)</a>
+                              </td>
+                              <td>
+                                 <p>Medical Dictionary for Regulatory Activities.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRMedicamento.html"
+                                    title="CodeSystem/BRMedicamento">Medicamento</a>
+                              </td>
+                              <td>
+                                 <p>Drogas dirigidas para uso humano, apresentadas em sua formulação final.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRModalidadeAssistencial.html"
+                                    title="CodeSystem/BRModalidadeAssistencial">Modalidade Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Classifica os contatos assistenciais de acordo com as especificidades do modo, local
+                                    e duração do atendimento</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRMotivoDesfecho.html" title="CodeSystem/BRMotivoDesfecho">Motivo
+                                    do Desfecho</a>
+                              </td>
+                              <td>
+                                 <p>Caracteriza o motivo de conclusão total ou parcial do contato assistencial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRPais.html" title="CodeSystem/BRPais">País</a>
+                              </td>
+                              <td>
+                                 <p>Códigos para representação de países.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRPosicaoIndividuo.html"
+                                    title="CodeSystem/BRPosicaoIndividuo">Posição do Indivíduo</a>
+                              </td>
+                              <td>
+                                 <p>Identifica a posição de um indivíduo em um determinado contexto.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRProcedencia.html"
+                                    title="CodeSystem/BRProcedencia">Procedência</a>
+                              </td>
+                              <td>
+                                 <p>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu
+                                    responsável na busca pelo acesso ao serviço de saúde.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRResponsabilidadeParticipante.html"
+                                    title="CodeSystem/BRResponsabilidadeParticipante">Reponsabilidade no Contato
+                                    Assistencial</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato
+                                    Assisntecial.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTabelaSUS.html" title="CodeSystem/BRTabelaSUS">Tabela de
+                                    procedimentos, medicamentos e OPM do SUS</a>
+                              </td>
+                              <td>
+                                 <p>Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para
+                                    as informações trafegadas no SUS</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRObmANVISA.html" title="CodeSystem/BRObmANVISA">Terminologia de
+                                    Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de
+                                    Vigilância Sanitária (Anvisa)</a>
+                              </td>
+                              <td>
+                                 <p>Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de
+                                    Registro na Agência Nacional de Vigilância Sanitária (Anvisa)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRObmAMPP.html" title="CodeSystem/BRObmAMPP">Terminologia de
+                                    Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de
+                                    Medicamentos (OBM)</a>
+                              </td>
+                              <td>
+                                 <p>Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e
+                                    seu Código na Ontologia Brasileira de Medicamentos (OBM)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRObmEAN.html" title="CodeSystem/BRObmEAN">Terminologia de Produto
+                                    Medicinal Virtual (VMP) na GS1.org</a>
+                              </td>
+                              <td>
+                                 <p>Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na
+                                    GS1.org</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRObmVMP.html" title="CodeSystem/BRObmVMP">Terminologia de Produto
+                                    Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)</a>
+                              </td>
+                              <td>
+                                 <p>Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de
+                                    Medicamentos (OBM)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRObmCATMAT.html" title="CodeSystem/BRObmCATMAT">Terminologia de
+                                    Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)</a>
+                              </td>
+                              <td>
+                                 <p>Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais
+                                    (CATMAT)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTipoAleitamentoMaterno.html"
+                                    title="CodeSystem/BRTipoAleitamentoMaterno">Tipo de Aleitamento Materno</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o tipo de aleitamento materno realizado a uma criança.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTipoDocumento.html" title="CodeSystem/BRTipoDocumento">Tipo de
+                                    Documento</a>
+                              </td>
+                              <td>
+                                 <p>Classificação dos tipos de documentos compartilhados no Brasil.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTipoIdentificador.html"
+                                    title="CodeSystem/BRTipoIdentificador">Tipo de Identificador</a>
+                              </td>
+                              <td>
+                                 <p>Classifica o tipo de indicador que está sendo utilizado.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTipoObservacao.html" title="CodeSystem/BRTipoObservacao">Tipo de
+                                    Observação</a>
+                              </td>
+                              <td>
+                                 <p>Tipo de Observação.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTipoSubstanciaUso.html"
+                                    title="CodeSystem/BRTipoSubstanciaUso">Tipo de Substância em Uso</a>
+                              </td>
+                              <td>
+                                 <p>Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo
+                                    com o especificado no modelo de informação do Registro de Atendimento Clínico da
+                                    Resolução CIT nº 33/2018.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRTurno.html" title="CodeSystem/BRTurno">Turno do dia</a>
+                              </td>
+                              <td>
+                                 <p>Code System utilizado para definir o turno de um dia.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRUnidadeMedida.html" title="CodeSystem/BRUnidadeMedida">Unidade de
+                                    Medida</a>
+                              </td>
+                              <td>
+                                 <p>Code System utilizado para definir a unidade de medida de um medicamento prescrito,
+                                    para consumo ou especificação do fabricante.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRUnidadeTempo.html" title="CodeSystem/BRUnidadeTempo">Unidade de
+                                    tempo</a>
+                              </td>
+                              <td>
+                                 <p>Code System utilizado para definir a classe de unidades de tempo.</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="CodeSystem-BRViaAdministracao.html" title="CodeSystem/BRViaAdministracao">Via
+                                    de Administração</a>
+                              </td>
+                              <td>
+                                 <p>Classifica a via na qual foi administrada uma substância em um indivíduo.</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <a name="5"> </a>
+                     <h3>Example: Example Instances </h3>
+                     <p>These are example instances that show what data produced and consumed by systems conforming with
+                        this implementation guide might look like.</p>
+                     <table class="grid">
+                        <col style="width:20%" />
+                        <tbody>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="Bundle-bundle-example-rac-1.html" title="Bundle/bundle-example-rac-1">Bundle
+                                    de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado</a>
+                              </td>
+                              <td>
+                                 <p>Bundle de Exemplo do Registro de Atendimento Clínico (RAC)</p>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="column-width:30%">
+                                 <a href="Bundle-bundle-example-rac-2.html" title="Bundle/bundle-example-rac-2">Bundle
+                                    de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado</a>
+                              </td>
+                              <td>
+                                 <p>Bundle de Exemplo do Registro de Atendimento Clínico (RAC)</p>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
 
-          </span>
+               </div>
+            </div> <!-- /inner-wrapper -->
+         </div> <!-- /row -->
+      </div> <!-- /container -->
+   </div> <!-- /segment-content -->
 
-        </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+   <script type="text/javascript" src="assets/js/jquery.js"> </script>
+   <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-    <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
-        <div class="row">
-          <div class="inner-wrapper">
+   <script type="text/javascript">
+      $(document).ready(function () {
+         if (window.location.hash != "") {
+            $('a[href="' + window.location.hash + '"]').click()
+         }
+      });
+   </script>
+   <a name="bottom"> </a>
+   <div id="segment-footer" igtool="footer" class="segment"> <!-- segment-footer -->
+      <div class="container"> <!-- container -->
 
-<style type="text/css">
-h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
-h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
-h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
-h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
-h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
-</style>
-<div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Artifacts Summary</h2>
-  
-  
-  
-  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
-     xmlns="http://www.w3.org/1999/xhtml"
-     xmlns:f="http://hl7.org/fhir"
-     class="markdown-toc">
-   <p>Contents:</p>
-   <ul>
-      <li>
-         <a href="#1">Structures: Resource Profiles</a>
-      </li>
-      <li>
-         <a href="#2">Structures: Extension Definitions</a>
-      </li>
-      <li>
-         <a href="#3">Terminology: Value Sets</a>
-      </li>
-      <li>
-         <a href="#4">Terminology: Code Systems</a>
-      </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
-      </li>
-   </ul>
-</div>
-<div xmlns:html="http://www.w3.org/1999/xhtml"
-     xmlns="http://www.w3.org/1999/xhtml"
-     xmlns:f="http://hl7.org/fhir">
-   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
-   <a name="1"> </a>
-   <h3>Structures: Resource Profiles </h3>
-    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html"
-                  title="StructureDefinition/BRAlergiaReacaoAdversa-1.0">Alergia ou Reação Adversa</a>
-            </td>
-            <td>
-<p>Alergia ou Reação Adversa</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRAtestado.html"
-                  title="StructureDefinition/BRAtestado">Atestado Digital</a>
-            </td>
-            <td>
-<p>Informações de atestado médico/odontológico</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRCID10Avaliado-1.0.html"
-                  title="StructureDefinition/BRCID10Avaliado-1.0">CID10 Avaliado</a>
-            </td>
-            <td>
-<p>Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRConjuntoMinimoDados-1.1.html"
-                  title="StructureDefinition/BRConjuntoMinimoDados-1.1">Conjunto Mínimo de Dados (CMD)</a>
-            </td>
-            <td>
-<p>Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRContatoAssistencial-1.0.html"
-                  title="StructureDefinition/BRContatoAssistencial-1.0">Contato Assistencial</a>
-            </td>
-            <td>
-<p>Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRLocalAtendimento-1.0.html"
-                  title="StructureDefinition/BRLocalAtendimento-1.0">Local de Atendimento</a>
-            </td>
-            <td>
-<p>Uma referência genérica aos locais onde um Contato Assistencial pode acontecer.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRMedicamento.html"
-                  title="StructureDefinition/BRMedicamento">Medicamento</a>
-            </td>
-            <td>
-<p>Medicamento</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRMedidaObservada.html"
-                  title="StructureDefinition/BRMedidaObservada">Medida Observada</a>
-            </td>
-            <td>
-<p>Registra as informações relacionadas a um tipo de observação.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html"
-                  title="StructureDefinition/BRObservacaoDescritiva-1.0">Observação Descritiva</a>
-            </td>
-            <td>
-<p>Descrições textuais simples sobre um paciente.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRPlanoCuidados-1.0.html"
-                  title="StructureDefinition/BRPlanoCuidados-1.0">Plano de Cuidados</a>
-            </td>
-            <td>
-<p>Descreve o plano de cuidados, instruções e recomendações.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRPrescricaoMedicamento.html"
-                  title="StructureDefinition/BRPrescricaoMedicamento">Prescrição de Medicamento</a>
-            </td>
-            <td>
-<p>Prescrição de Medicamento</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRProblemaDiagnostico.html"
-                  title="StructureDefinition/BRProblemaDiagnostico">Problema / Diagnóstico</a>
-            </td>
-            <td>
-<p>Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html"
-                  title="StructureDefinition/BRProcedimentoRealizado-1.0">Procedimento Realizado</a>
-            </td>
-            <td>
-<p>Procedimento realizado em um indivíduo.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRRegistroAtendimentoClinico.html"
-                  title="StructureDefinition/BRRegistroAtendimentoClinico">Registro de Atendimento Clínico (RAC)</a>
-            </td>
-            <td>
-<p>Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html"
-                  title="StructureDefinition/BRRegistroPrescricaoMedicamento">Registro de Prescrição de Medicamento</a>
-            </td>
-            <td>
-<p>Modelo que gera o documento de Registro de Prescrição de Medicamento</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="2"> </a>
-   <h3>Structures: Extension Definitions </h3>
-    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRCodigoSerialMedicamento.html"
-                  title="StructureDefinition/BRCodigoSerialMedicamento">Código Serial de Medicamento</a>
-            </td>
-            <td>
-<p>Código Serial de Medicamento</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRFinanciamento-1.0.html"
-                  title="StructureDefinition/BRFinanciamento-1.0">Financiamento</a>
-            </td>
-            <td>
-<p>Extensão utilizada para identificar financiamento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRIdentificacaoEquipe-1.0.html"
-                  title="StructureDefinition/BRIdentificacaoEquipe-1.0">Identificador Nacional de Equipe</a>
-            </td>
-            <td>
-<p>Extensão para permitir informar o código do Identificador Nacional de Equipe.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRIndividuoNaoIdentificado-1.0.html"
-                  title="StructureDefinition/BRIndividuoNaoIdentificado-1.0">Informações Complementares de Indivíduos Não Identificados</a>
-            </td>
-            <td>
-<p>Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRIntervaloDoses.html"
-                  title="StructureDefinition/BRIntervaloDoses">Intervalo de Doses</a>
-            </td>
-            <td>
-<p>Extensão para descrever uma unidade de tempo referenciada pelo UCUM.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRMunicipio-1.0.html"
-                  title="StructureDefinition/BRMunicipio-1.0">Município</a>
-            </td>
-            <td>
-<p>Extensão para informar um município.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BROcupacao-1.0.html"
-                  title="StructureDefinition/BROcupacao-1.0">Ocupação</a>
-            </td>
-            <td>
-<p>Extensão para incluir a Ocupação</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BROrigemMedida.html"
-                  title="StructureDefinition/BROrigemMedida">Origem da Medição</a>
-            </td>
-            <td>
-<p>Extensão para incluir a origem da medição corpórea (altura e peso).</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BROutrasInformacoes.html"
-                  title="StructureDefinition/BROutrasInformacoes">Outras Informações</a>
-            </td>
-            <td>
-<p>Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRPais-1.0.html"
-                  title="StructureDefinition/BRPais-1.0">País</a>
-            </td>
-            <td>
-<p>Extensão para representar um país.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRQuantidade-1.0.html"
-                  title="StructureDefinition/BRQuantidade-1.0">Quantidade</a>
-            </td>
-            <td>
-<p>Extensão para identificar quantidades.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRResponsavelAtendimento.html"
-                  title="StructureDefinition/BRResponsavelAtendimento">Responsável pelo Atendimento</a>
-            </td>
-            <td>
-<p>Representa se o profissional foi o responsável pelo atendimento registrado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRRoupasUsadasMedicao.html"
-                  title="StructureDefinition/BRRoupasUsadasMedicao">Roupas Usadas na Medição</a>
-            </td>
-            <td>
-<p>Descreve o tipo de roupas usadas durante a medição com base no código LOINC 8352-7.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-BRTurno.html"
-                  title="StructureDefinition/BRTurno">Turno</a>
-            </td>
-            <td>
-<p>Extensão para descrever uma unidade de tempo referenciada pelo UCUM.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="3"> </a>
-   <h3>Terminology: Value Sets </h3>
-    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRAlergenos-1.0.html" title="ValueSet/BRAlergenos-1.0">Alérgenos</a>
-            </td>
-            <td>
-<p>Descreve o agente capaz de causar alergia ou reação adversa em seres humanos.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRCaraterAtendimento-1.0.html"
-                  title="ValueSet/BRCaraterAtendimento-1.0">Caráter de atendimento do Contato Assistencial</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html"
-                  title="ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0">Categoria do Agente da Alergia ou Reação Adversa</a>
-            </td>
-            <td>
-<p>Categoriza a substância responsável por causar uma alergia ou reação adversa.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRCategoriaDiagnostico.html"
-                  title="ValueSet/BRCategoriaDiagnostico">Categoria do Diagnóstico</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BROcupacao-1.0.html" title="ValueSet/BROcupacao-1.0">Classificação Brasileira de Ocupações - CBO</a>
-            </td>
-            <td>
-<p>Classifica as profissões do mercado de trabalho brasileiro.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRCID10-1.0.html" title="ValueSet/BRCID10-1.0">Classificação Internacional de Doenças - Décima Revisão - CID-10</a>
-            </td>
-            <td>
-<p>Classificação Internacional de Doenças - Décima Revisão - CID-10</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRProblemaDiagnostico.html"
-                  title="ValueSet/BRProblemaDiagnostico">Classificação Internacional de Doenças e Atenção Primária</a>
-            </td>
-            <td>
-<p>Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRCategoriaCondicao.html"
-                  title="ValueSet/BRCategoriaCondicao">Classificação de uma condição</a>
-            </td>
-            <td>
-<p>Tradução para o português do brasil da classificação de uma condição</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRPapelProblemaDiagnostico.html"
-                  title="ValueSet/BRPapelProblemaDiagnostico">Classificação do papel de um problema e diagnóstico</a>
-            </td>
-            <td>
-<p>Tradução para o português do brasil da classificação do papel de um problema/diagnóstico.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0.html"
-                  title="ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0">Criticidade de Alergias e Reações Adversas</a>
-            </td>
-            <td>
-<p>Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida..</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoObservacao-1.0.html"
-                  title="ValueSet/BREstadoObservacao-1.0">Estado da Observação</a>
-            </td>
-            <td>
-<p>Tipos de estados de uma observação.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html"
-                  title="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0">Estado da Resolução de Diagnóstico ou Problema</a>
-            </td>
-            <td>
-<p>Estado da resolução de um diagnóstico ou problema.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoSolicitacao-1.0.html"
-                  title="ValueSet/BREstadoSolicitacao-1.0">Estado da Solicitação</a>
-            </td>
-            <td>
-<p>Estado da solicitação.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoSolicitacaoMedicamento-1.0.html"
-                  title="ValueSet/BREstadoSolicitacaoMedicamento-1.0">Estado da Solicitação de Medicamento</a>
-            </td>
-            <td>
-<p>Estado da Solicitação de Medicamento</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoContatoAssistencial-1.0.html"
-                  title="ValueSet/BREstadoContatoAssistencial-1.0">Estado do Contato Assistencial</a>
-            </td>
-            <td>
-<p>Classifica o estado de um Contato Assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoDocumento-1.0.html"
-                  title="ValueSet/BREstadoDocumento-1.0">Estado do Documento</a>
-            </td>
-            <td>
-<p>Classifica o estado do documento que está sendo trafegado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoEvento-1.0.html"
-                  title="ValueSet/BREstadoEvento-1.0">Estado do Evento</a>
-            </td>
-            <td>
-<p>Identificação do estado de um evento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRFinanciamento-1.0.html"
-                  title="ValueSet/BRFinanciamento-1.0">Financiamento do procedimento realizado</a>
-            </td>
-            <td>
-<p>Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRFrequenciaUsoSubstancia.html"
-                  title="ValueSet/BRFrequenciaUsoSubstancia">Frequência de Uso da Substância</a>
-            </td>
-            <td>
-<p>Identifica a frequência de uso da substância em uso conforme declaração do indivíduo.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRGrauCertezaAlergiasReacoesAdversas-1.0.html"
-                  title="ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0">Grau de Certeza de Alergias e Reações Adversas</a>
-            </td>
-            <td>
-<p>Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRPrescricaoNaoEstruturada.html"
-                  title="ValueSet/BRPrescricaoNaoEstruturada">Indicativo de prescrição não estruturada ou medicamento não identificado</a>
-            </td>
-            <td>
-<p>Indicativo de prescrição não estruturada ou medicamento não identificado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRIntencaoAtestado.html"
-                  title="ValueSet/BRIntencaoAtestado">Intenção do atestado</a>
-            </td>
-            <td>
-<p>Intenção do atestado médico/odontológico.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html"
-                  title="ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0">Justificativa da Impossibilidade de Identificação do Indivíduo</a>
-            </td>
-            <td>
-<p>Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRLocalAfericao-1.0.html"
-                  title="ValueSet/BRLocalAfericao-1.0">Local de Aferição</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão arterial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRModalidadeAssistencial-1.0.html"
-                  title="ValueSet/BRModalidadeAssistencial-1.0">Modalidade Assistencial</a>
-            </td>
-            <td>
-<p>Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRMotivoDesfecho-1.0.html"
-                  title="ValueSet/BRMotivoDesfecho-1.0">Motivo do desfecho do Contato Assistencial</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRMunicipio-1.0.html" title="ValueSet/BRMunicipio-1.0">Município</a>
-            </td>
-            <td>
-<p>Municípios brasileiros, entes subnacionais.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BROrigemMedida.html" title="ValueSet/BROrigemMedida">Origem de Medição</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir o tipo de medição corporal adotada.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRPais-1.0.html" title="ValueSet/BRPais-1.0">País</a>
-            </td>
-            <td>
-<p>Códigos para representação de países.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRPosicaoIndividuo.html"
-                  title="ValueSet/BRPosicaoIndividuo">Posição do Indivíduo</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRProcedimentosNacionais-1.0.html"
-                  title="ValueSet/BRProcedimentosNacionais-1.0">Procedimento realizado</a>
-            </td>
-            <td>
-<p>ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRProcedencia-1.0.html"
-                  title="ValueSet/BRProcedencia-1.0">Procedência do Contato Assistencial</a>
-            </td>
-            <td>
-<p>Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRReacoesAdversasMedDRA-1.0.html"
-                  title="ValueSet/BRReacoesAdversasMedDRA-1.0">Reações Adversas da MedDRA</a>
-            </td>
-            <td>
-<p>Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRResponsabilidadeParticipante-1.0.html"
-                  title="ValueSet/BRResponsabilidadeParticipante-1.0">Reponsabilidade no Contato Assistencial</a>
-            </td>
-            <td>
-<p>Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-RoupasUsadasMedicao.html"
-                  title="ValueSet/RoupasUsadasMedicao">Roupas Usadas na Medição</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRSexo-1.0.html" title="ValueSet/BRSexo-1.0">Sexo</a>
-            </td>
-            <td>
-<p>Sexo de um indivíduo.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoAfastamentoAtestado.html"
-                  title="ValueSet/BREstadoAfastamentoAtestado">Status do afastamento descrito no atestado</a>
-            </td>
-            <td>
-<p>Status do afastamento descrito no atestado médico/odontológico.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BREstadoAtestado.html" title="ValueSet/BREstadoAtestado">Status do atestado</a>
-            </td>
-            <td>
-<p>Status do atestado médico/odontológico.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTerminologiaMedicamento.html"
-                  title="ValueSet/BRTerminologiaMedicamento">Terminologia dos medicamentos</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir a terminologia de um dado medicamento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTipoAleitamentoMaterno-1.0.html"
-                  title="ValueSet/BRTipoAleitamentoMaterno-1.0">Tipo de Aleitamento Materno</a>
-            </td>
-            <td>
-<p>Definição do tipo de aleitamento materno realizado a uma criança.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTipoDocumento-1.0.html"
-                  title="ValueSet/BRTipoDocumento-1.0">Tipo de Documento</a>
-            </td>
-            <td>
-<p>Classifica o tipo de documento que está sendo trafegado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTipoIdentificadorProcedimento-1.0.html"
-                  title="ValueSet/BRTipoIdentificadorProcedimento-1.0">Tipo de Identificador do Procedimento</a>
-            </td>
-            <td>
-<p>Classifica o tipo de identificador que está sendo utilizado para o procedimento.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTipoObservacao-1.0.html"
-                  title="ValueSet/BRTipoObservacao-1.0">Tipo de Observação</a>
-            </td>
-            <td>
-<p>Tipo de Observação.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTipoSubstanciaUso-1.0.html"
-                  title="ValueSet/BRTipoSubstanciaUso-1.0">Tipo de Substância em Uso</a>
-            </td>
-            <td>
-<p>Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTipoAtestado.html" title="ValueSet/BRTipoAtestado">Tipo de atestado</a>
-            </td>
-            <td>
-<p>Tipo de atestado dentro das categorias médico/odontológico</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRTurno.html" title="ValueSet/BRTurno">Turno do dia</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir o turno de um dia.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRUnidadeConsumo.html" title="ValueSet/BRUnidadeConsumo">Unidade de Consumo</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRUnidadeMedidaMedicamento.html"
-                  title="ValueSet/BRUnidadeMedidaMedicamento">Unidade de Medida de Medicamento</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRUnidadeTempo.html" title="ValueSet/BRUnidadeTempo">Unidade de Tempo</a>
-            </td>
-            <td>
-<p>ValueSet utilizado para definir uma unidade de tempo.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BRViaAdministracao-1.0.html"
-                  title="ValueSet/BRViaAdministracao-1.0">Via de Administração do Imunobiológico</a>
-            </td>
-            <td>
-<p>Via de administração de um imunobiológico.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="4"> </a>
-   <h3>Terminology: Code Systems </h3>
-    <p>These define new code systems used by systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRCaraterAtendimento.html"
-                  title="CodeSystem/BRCaraterAtendimento">Caráter de Atendimento</a>
-            </td>
-            <td>
-<p>Terminologia que classifica a prioridade de realização de um Contato Assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRCategoriaDiagnostico.html"
-                  title="CodeSystem/BRCategoriaDiagnostico">Categoria do Diagnóstico</a>
-            </td>
-            <td>
-<p>Códigos para representação do tipo de categoria do diagnóstico realizado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRAlergenosCBARA.html"
-                  title="CodeSystem/BRAlergenosCBARA">Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)</a>
-            </td>
-            <td>
-<p>Classifica as alergias e reações adversas.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRCBHPMTUSS.html" title="CodeSystem/BRCBHPMTUSS">Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS</a>
-            </td>
-            <td>
-<p>Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRCBO.html" title="CodeSystem/BRCBO">Classificação Brasileira de Ocupações - CBO</a>
-            </td>
-            <td>
-<p>Classifica as profissões do mercado de trabalho brasileiro.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRCIAP2.html" title="CodeSystem/BRCIAP2">Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2</a>
-            </td>
-            <td>
-<p>Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRCID10.html" title="CodeSystem/BRCID10">Classificação Internacional de Doenças - Décima Revisão - CID-10</a>
-            </td>
-            <td>
-<p>Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRDadoAusenteOuDesconhecido.html"
-                  title="CodeSystem/BRDadoAusenteOuDesconhecido">Classificação de dados ausentes ou desconhecidos - IPS</a>
-            </td>
-            <td>
-<p>Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRPapelProblemaDiagnostico.html"
-                  title="CodeSystem/BRPapelProblemaDiagnostico">Classificação do papel de um problema e diagnóstico</a>
-            </td>
-            <td>
-<p>Classificação do papel de um problema/diagnóstico.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRDivisaoGeograficaBrasil.html"
-                  title="CodeSystem/BRDivisaoGeograficaBrasil">Divisão Geográfica do Brasil</a>
-            </td>
-            <td>
-<p>As regiões geográficas, estados, distrito federal e municípios do Brasil.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRFinanciamento.html"
-                  title="CodeSystem/BRFinanciamento">Financiamento</a>
-            </td>
-            <td>
-<p>Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRFrequenciaUsoSubstancia.html"
-                  title="CodeSystem/BRFrequenciaUsoSubstancia">Frequência de Uso de Substância</a>
-            </td>
-            <td>
-<p>Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRImunobiologico.html"
-                  title="CodeSystem/BRImunobiologico">Imunobiológico</a>
-            </td>
-            <td>
-<p>Classifica os tipos de imunobiológicos.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRJustificativaIndividuoNaoIdentificado.html"
-                  title="CodeSystem/BRJustificativaIndividuoNaoIdentificado">Justificativa da Impossibilidade de Identificação do Indivíduo</a>
-            </td>
-            <td>
-<p>Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRLocalAfericao.html"
-                  title="CodeSystem/BRLocalAfericao">Local de Aferição</a>
-            </td>
-            <td>
-<p>Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRMedDRA.html" title="CodeSystem/BRMedDRA">Medical Dictionary for Regulatory Activities (MedDRA)</a>
-            </td>
-            <td>
-<p>Medical Dictionary for Regulatory Activities.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRMedicamento.html" title="CodeSystem/BRMedicamento">Medicamento</a>
-            </td>
-            <td>
-<p>Drogas dirigidas para uso humano, apresentadas em sua formulação final.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRModalidadeAssistencial.html"
-                  title="CodeSystem/BRModalidadeAssistencial">Modalidade Assistencial</a>
-            </td>
-            <td>
-<p>Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRMotivoDesfecho.html"
-                  title="CodeSystem/BRMotivoDesfecho">Motivo do Desfecho</a>
-            </td>
-            <td>
-<p>Caracteriza o motivo de conclusão total ou parcial do contato assistencial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRPais.html" title="CodeSystem/BRPais">País</a>
-            </td>
-            <td>
-<p>Códigos para representação de países.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRPosicaoIndividuo.html"
-                  title="CodeSystem/BRPosicaoIndividuo">Posição do Indivíduo</a>
-            </td>
-            <td>
-<p>Identifica a posição de um indivíduo em um determinado contexto.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRProcedencia.html" title="CodeSystem/BRProcedencia">Procedência</a>
-            </td>
-            <td>
-<p>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRResponsabilidadeParticipante.html"
-                  title="CodeSystem/BRResponsabilidadeParticipante">Reponsabilidade no Contato Assistencial</a>
-            </td>
-            <td>
-<p>Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTabelaSUS.html" title="CodeSystem/BRTabelaSUS">Tabela de procedimentos, medicamentos e OPM do SUS</a>
-            </td>
-            <td>
-<p>Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRObmANVISA.html" title="CodeSystem/BRObmANVISA">Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)</a>
-            </td>
-            <td>
-<p>Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRObmAMPP.html" title="CodeSystem/BRObmAMPP">Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)</a>
-            </td>
-            <td>
-<p>Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRObmEAN.html" title="CodeSystem/BRObmEAN">Terminologia de Produto Medicinal Virtual (VMP) na GS1.org</a>
-            </td>
-            <td>
-<p>Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRObmVMP.html" title="CodeSystem/BRObmVMP">Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)</a>
-            </td>
-            <td>
-<p>Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRObmCATMAT.html" title="CodeSystem/BRObmCATMAT">Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)</a>
-            </td>
-            <td>
-<p>Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTipoAleitamentoMaterno.html"
-                  title="CodeSystem/BRTipoAleitamentoMaterno">Tipo de Aleitamento Materno</a>
-            </td>
-            <td>
-<p>Classifica o tipo de aleitamento materno realizado a uma criança.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTipoDocumento.html"
-                  title="CodeSystem/BRTipoDocumento">Tipo de Documento</a>
-            </td>
-            <td>
-<p>Classificação dos tipos de documentos compartilhados no Brasil.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTipoIdentificador.html"
-                  title="CodeSystem/BRTipoIdentificador">Tipo de Identificador</a>
-            </td>
-            <td>
-<p>Classifica o tipo de indicador que está sendo utilizado.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTipoObservacao.html"
-                  title="CodeSystem/BRTipoObservacao">Tipo de Observação</a>
-            </td>
-            <td>
-<p>Tipo de Observação.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTipoSubstanciaUso.html"
-                  title="CodeSystem/BRTipoSubstanciaUso">Tipo de Substância em Uso</a>
-            </td>
-            <td>
-<p>Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRTurno.html" title="CodeSystem/BRTurno">Turno do dia</a>
-            </td>
-            <td>
-<p>Code System utilizado para definir o turno de um dia.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRUnidadeMedida.html"
-                  title="CodeSystem/BRUnidadeMedida">Unidade de Medida</a>
-            </td>
-            <td>
-<p>Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRUnidadeTempo.html" title="CodeSystem/BRUnidadeTempo">Unidade de tempo</a>
-            </td>
-            <td>
-<p>Code System utilizado para definir a classe de unidades de tempo.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-BRViaAdministracao.html"
-                  title="CodeSystem/BRViaAdministracao">Via de Administração</a>
-            </td>
-            <td>
-<p>Classifica a via na qual foi administrada uma substância em um indivíduo.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="5"> </a>
-   <h3>Example: Example Instances </h3>
-    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Bundle-bundle-example-rac-1.html"
-                  title="Bundle/bundle-example-rac-1">Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado</a>
-            </td>
-            <td>
-<p>Bundle de Exemplo do Registro de Atendimento Clínico (RAC)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Bundle-bundle-example-rac-2.html"
-                  title="Bundle/bundle-example-rac-2">Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado</a>
-            </td>
-            <td>
-<p>Bundle de Exemplo do Registro de Atendimento Clínico (RAC)</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-</div>
+         <div style="background-color:var(--footer-nav-bg-color)">
+            <table style="width:100%">
+               <tbody>
+                  <tr>
+                     <td style="text-align:left">&#xA0;
 
-</div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+                        <a href="changes.html">&lt;prev</a>
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+                     </td>
+                     <td style="text-align:center">
+                        <a href="#top">top</a>
+                     </td>
+                     <td style="text-align:right">&#xA0;
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
-  <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+                        <a href="StructureDefinition-BRRegistroAtendimentoClinico.html">next&gt;</a>
 
-      <div style="background-color:var(--footer-nav-bg-color)">
-        <table style="width:100%">
-          <tbody>
-            <tr>
-              <td style="text-align:left">&#xA0;
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
 
-                <a href="changes.html">&lt;prev</a>
+         <div class="inner-wrapper">
+            <p>
+               IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)"
+                  href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>. Package br.gov.saude.rnds.rac#0.1.0
+               based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR
+                  4.0.1</a>. Generated <span title="Fri, Mar 22, 2024 16:03-0300">2024-03-22</span>
+               <br />
+               <span style="color: var(--footer-highlight-text-color)">
+                  Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
 
-              </td>
-              <td style="text-align:center">
-                <a href="#top">top</a>
-              </td>
-              <td style="text-align:right">&#xA0;
 
-                <a href="StructureDefinition-BRRegistroAtendimentoClinico.html">next&gt;</a>
+               </span>
+            </p>
+         </div> <!-- /inner-wrapper -->
+      </div> <!-- /container -->
+   </div> <!-- /segment-footer -->
 
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+   <div id="segment-post-footer" class="segment hidden"> <!-- segment-post-footer -->
+      <div class="container"> <!-- container -->
+      </div> <!-- /container -->
+   </div> <!-- /segment-post-footer -->
 
-      <div class="inner-wrapper">
-        <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 22, 2024 16:03-0300">2024-03-22</span>
-          <br/>
-          <span style="color: var(--footer-highlight-text-color)">
-                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
-                 
-                
-          </span>
-        </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
-  
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
-  
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+   <!-- JS and analytics only. -->
+   <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
+   <!-- Placed at the end of the document so the pages load faster -->
+   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+   <script>anchors.options.visible = 'hover'
+      anchors.add()</script>
+
+   <!-- feedback form - Google forms -->
+   <!-- v0.1, 2021-01-09 -->
 
 
 
-<!-- / feedback form  -->
+   <!-- / feedback form  -->
 
-  <!-- Analytics Below
+   <!-- Analytics Below
   ================================================== -->
-  </body>
+</body>
+
 </html>
-
