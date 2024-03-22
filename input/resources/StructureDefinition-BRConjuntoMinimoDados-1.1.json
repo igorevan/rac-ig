@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "BRConjuntoMinimoDados-1.1",
   "meta": {
-    "lastUpdated": "2024-02-27T18:23:21.2726199+00:00"
+    "lastUpdated": "2024-02-27T19:28:22.3083936+00:00"
   },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1",
@@ -556,7 +556,6 @@
         "id": "Composition.section:problemasDiagnosticosAvaliados.entry",
         "path": "Composition.section.entry",
         "min": 1,
-        "max": "1",
         "type": [
           {
             "code": "Reference",

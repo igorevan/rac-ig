@@ -37,17 +37,6 @@
         "min": 1
       },
       {
-        "id": "Composition.section:procedimentosRealizados",
-        "path": "Composition.section",
-        "sliceName": "procedimentosRealizados",
-        "min": 0
-      },
-      {
-        "id": "Composition.section:procedimentosRealizados.entry",
-        "path": "Composition.section.entry",
-        "max": "*"
-      },
-      {
         "id": "Composition.section:observacoes",
         "path": "Composition.section",
         "sliceName": "observacoes"
