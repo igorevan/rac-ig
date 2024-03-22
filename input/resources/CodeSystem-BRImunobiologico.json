@@ -16,6 +16,12 @@
   "description": "Classifica os tipos de imunobiológicos.",
   "caseSensitive": true,
   "content": "complete",
+  "property": [
+    {
+      "code": "inativo",
+      "type": "boolean"
+    }
+  ],
   "concept": [
     {
       "code": "1",

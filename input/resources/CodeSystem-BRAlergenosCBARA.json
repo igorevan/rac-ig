@@ -16,6 +16,13 @@
   "description": "Classifica as alergias e reações adversas.",
   "caseSensitive": true,
   "content": "complete",
+  "property": [
+    {
+      "code": "category",
+      "type": "code",
+      "uri": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"
+    }
+  ],
   "concept": [
     {
       "code": "abelha",
