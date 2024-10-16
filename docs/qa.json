@@ -6,14 +6,14 @@
   "status" : "active",
   "package-id" : "br.gov.saude.rnds.rac",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 22 Mar, 2024 16:03:25 -0300",
-  "dateISO8601" : "2024-03-22T16:03:25-03:00",
-  "errs" : 9,
-  "warnings" : 30,
-  "hints" : 19,
+  "date" : "Tue, 15 Oct, 2024 16:51:50 -0300",
+  "dateISO8601" : "2024-10-15T16:51:50-03:00",
+  "errs" : 5,
+  "warnings" : 36,
+  "hints" : 22,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 85,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 5347737600
+  "maxMemory" : 6379206616
 }

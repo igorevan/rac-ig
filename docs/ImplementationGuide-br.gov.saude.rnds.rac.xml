@@ -4,7 +4,7 @@
   <id value="br.gov.saude.rnds.rac"/>
   <language value="pt-BR"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><h2>RACRNDSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide br.gov.saude.rnds.rac</b></p><a name="br.gov.saude.rnds.rac"> </a><a name="hcbr.gov.saude.rnds.rac"> </a><a name="br.gov.saude.rnds.rac-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: pt-BR</p></div><h2>RACRNDSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>
 </div></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -19,7 +19,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-03-22T16:03:25-03:00"/>
+  <date value="2024-10-15T16:51:50-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -43,7 +43,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="6.0.2"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -51,7 +51,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.1.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -263,7 +263,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      <valueCode value="hl7.fhir.uv.tools#0.2.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

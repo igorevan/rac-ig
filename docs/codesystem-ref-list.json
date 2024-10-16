@@ -143,15 +143,15 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
       "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
+      "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-      "version" : "0.5.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "AllergyIntoleranceVerificationStatus",
       "title" : "AllergyIntolerance Verification Status",
       "description" : "The verification status to support or decline the clinical status of the allergy or intolerance.",
@@ -162,8 +162,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
-      "version" : "0.5.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ConditionCategoryCodes",
       "title" : "Condition Category Codes",
       "description" : "Preferred value set for Condition Categories.",
@@ -174,7 +174,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ConditionClinicalStatusCodes",
       "title" : "Condition Clinical Status Codes",
@@ -186,8 +186,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
-      "version" : "0.1.1",
-      "status" : "draft",
+      "version" : "1.1.1",
+      "status" : "active",
       "name" : "DiagnosisRole",
       "title" : "Diagnosis Role",
       "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
@@ -198,7 +198,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "GTSAbbreviation",
       "title" : "GTSAbbreviation",
@@ -526,8 +526,8 @@
       "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
       "uses" : {
       },
-      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",

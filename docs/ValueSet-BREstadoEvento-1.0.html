@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"10.49"}
     h3,h4,h5,h6{--heading-prefix:"10.49"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -280,20 +281,22 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-event-status.html"><code>http://hl7.org/fhir/event-status</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td>Pré-procedimento</td><td>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td>Em andamento</td><td>The event is currently occurring.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td>Não Realizado</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td>Suspenso</td><td>The event has been temporarily stopped but is expected to resume in the future.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td>Cancelado</td><td>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td>Completado</td><td>The event has now concluded.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td>Desconhecido</td><td>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for "other" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td>Entrada com erro</td><td>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be "stopped" rather than "entered-in-error".).</td></tr></table></li></ul></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet BREstadoEvento-1.0</b></p><a name="BREstadoEvento-1.0"> </a><a name="hcBREstadoEvento-1.0"> </a><a name="BREstadoEvento-1.0-und"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2020-04-07 12:14:10+0000; Language: pt-BR</p></div>
+<ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-event-status.html"><code>http://hl7.org/fhir/event-status</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td>Pré-procedimento</td><td>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td>Em andamento</td><td>The event is currently occurring.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td>Não Realizado</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td>Suspenso</td><td>The event has been temporarily stopped but is expected to resume in the future.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td>Cancelado</td><td>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td>Completado</td><td>The event has now concluded.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td>Desconhecido</td><td>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for "other" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td>Entrada com erro</td><td>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be "stopped" rather than "entered-in-error".).</td></tr></table></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://hl7.org/fhir/R4/codesystem-event-status.html">codesystem EventStatus v4.0.1 (CodeSystem)</a></p><p>This value set contains 8 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-preparation"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td>http://hl7.org/fhir/event-status</td><td>Pré-procedimento</td><td><div><p>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-in-progress"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td>http://hl7.org/fhir/event-status</td><td>Em andamento</td><td><div><p>The event is currently occurring.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-not-done"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td>http://hl7.org/fhir/event-status</td><td>Não Realizado</td><td><div><p>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-on-hold"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td>http://hl7.org/fhir/event-status</td><td>Suspenso</td><td><div><p>The event has been temporarily stopped but is expected to resume in the future.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-stopped"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td>http://hl7.org/fhir/event-status</td><td>Cancelado</td><td><div><p>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-completed"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td>http://hl7.org/fhir/event-status</td><td>Completado</td><td><div><p>The event has now concluded.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-unknown"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td>http://hl7.org/fhir/event-status</td><td>Desconhecido</td><td><div><p>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-event-status-entered-in-error"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td>http://hl7.org/fhir/event-status</td><td>Entrada com erro</td><td><div><p>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be &quot;stopped&quot; rather than &quot;entered-in-error&quot;.).</p>
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2020-04-07 12:14:10+0000; Language: pt-BR</p></div><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://hl7.org/fhir/R4/codesystem-event-status.html">codesystem EventStatus v4.0.1 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-preparation"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td>http://hl7.org/fhir/event-status</td><td>Pré-procedimento</td><td><div><p>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-in-progress"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td>http://hl7.org/fhir/event-status</td><td>Em andamento</td><td><div><p>The event is currently occurring.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-not-done"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td>http://hl7.org/fhir/event-status</td><td>Não Realizado</td><td><div><p>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-on-hold"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td>http://hl7.org/fhir/event-status</td><td>Suspenso</td><td><div><p>The event has been temporarily stopped but is expected to resume in the future.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-stopped"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td>http://hl7.org/fhir/event-status</td><td>Cancelado</td><td><div><p>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-completed"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td>http://hl7.org/fhir/event-status</td><td>Completado</td><td><div><p>The event has now concluded.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-unknown"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td>http://hl7.org/fhir/event-status</td><td>Desconhecido</td><td><div><p>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/event-status-entered-in-error"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td>http://hl7.org/fhir/event-status</td><td>Entrada com erro</td><td><div><p>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be &quot;stopped&quot; rather than &quot;entered-in-error&quot;.).</p>
 </div></td></tr></table></div>
 
   <hr/>
@@ -346,13 +349,7 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
@@ -381,7 +378,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 22, 2024 16:03-0300">2024-03-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -398,7 +395,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -408,16 +405,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

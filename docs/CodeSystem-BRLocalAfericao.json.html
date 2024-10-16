@@ -40,7 +40,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"10.87"}
     h3,h4,h5,h6{--heading-prefix:"10.87"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -243,8 +244,7 @@
 
 
 
-  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
-{
+  <pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "BRLocalAfericao",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">meta</a>" : {
@@ -253,7 +253,7 @@
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.language">language</a>" : "pt-BR",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;1&lt;a name=\&quot;BRLocalAfericao-1\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Braço direito&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;2&lt;a name=\&quot;BRLocalAfericao-2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Braço esquerdo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;3&lt;a name=\&quot;BRLocalAfericao-3\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coxa direita&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;4&lt;a name=\&quot;BRLocalAfericao-4\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coxa esquerda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;5&lt;a name=\&quot;BRLocalAfericao-5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pulso direito&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;6&lt;a name=\&quot;BRLocalAfericao-6\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pulso esquerdo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;7&lt;a name=\&quot;BRLocalAfericao-7\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tornozelo direito&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;8&lt;a name=\&quot;BRLocalAfericao-8\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tornozelo esquerdo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;9&lt;a name=\&quot;BRLocalAfericao-9\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dedo da mão&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;10&lt;a name=\&quot;BRLocalAfericao-10\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dedo do pé&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem BRLocalAfericao&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BRLocalAfericao\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBRLocalAfericao\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;BRLocalAfericao-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Last updated: 2020-03-11 18:15:18+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;1&lt;a name=\&quot;BRLocalAfericao-1\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Braço direito&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;2&lt;a name=\&quot;BRLocalAfericao-2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Braço esquerdo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;3&lt;a name=\&quot;BRLocalAfericao-3\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coxa direita&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;4&lt;a name=\&quot;BRLocalAfericao-4\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coxa esquerda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;5&lt;a name=\&quot;BRLocalAfericao-5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pulso direito&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;6&lt;a name=\&quot;BRLocalAfericao-6\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pulso esquerdo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;7&lt;a name=\&quot;BRLocalAfericao-7\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tornozelo direito&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;8&lt;a name=\&quot;BRLocalAfericao-8\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tornozelo esquerdo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;9&lt;a name=\&quot;BRLocalAfericao-9\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dedo da mão&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;10&lt;a name=\&quot;BRLocalAfericao-10\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dedo do pé&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">extension</a>" : [
     {
@@ -371,13 +371,7 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
@@ -406,7 +400,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 22, 2024 16:03-0300">2024-03-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -423,7 +417,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -433,16 +427,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

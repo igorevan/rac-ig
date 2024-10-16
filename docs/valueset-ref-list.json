@@ -293,8 +293,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
@@ -536,8 +536,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",

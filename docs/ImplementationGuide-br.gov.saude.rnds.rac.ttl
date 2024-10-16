@@ -10,8 +10,8 @@
   fhir:id [ fhir:v "br.gov.saude.rnds.rac"] ; # 
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><h2>RACRNDSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide br.gov.saude.rnds.rac</b></p><a name=\"br.gov.saude.rnds.rac\"> </a><a name=\"hcbr.gov.saude.rnds.rac\"> </a><a name=\"br.gov.saude.rnds.rac-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: pt-BR</p></div><h2>RACRNDSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
@@ -26,7 +26,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-03-22T16:03:25-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-15T16:51:50-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -55,7 +55,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.3.0" ]
+     fhir:version [ fhir:v "6.0.2" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -67,7 +67,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "1.0.0" ]
+     fhir:version [ fhir:v "5.1.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -306,7 +306,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;

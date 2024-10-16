@@ -40,7 +40,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"10.44"}
     h3,h4,h5,h6{--heading-prefix:"10.44"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -243,8 +244,7 @@
 
 
 
-  <pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
-
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;BRCategoriaAgenteAlergiasReacoesAdversas-1.0&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.meta">meta</a>&gt;
@@ -254,7 +254,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;pt-BR&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;pt-BR&quot; lang=&quot;pt-BR&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html&quot;&gt;&lt;code&gt;http://hl7.org/fhir/allergy-intolerance-category&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=&quot;none&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-food&quot;&gt;food&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alimento&lt;/td&gt;&lt;td&gt;Any substance consumed to provide nutritional support for the body.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-medication&quot;&gt;medication&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Medicamento&lt;/td&gt;&lt;td&gt;Substances administered to achieve a physiological effect.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-biologic&quot;&gt;biologic&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biológica&lt;/td&gt;&lt;td&gt;A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-other&quot;&gt;other&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Outras substâncias&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-environment&quot;&gt;environment&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fator Externo/Ambiental&lt;/td&gt;&lt;td&gt;Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;pt-BR&quot; lang=&quot;pt-BR&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet BRCategoriaAgenteAlergiasReacoesAdversas-1.0&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;BRCategoriaAgenteAlergiasReacoesAdversas-1.0&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcBRCategoriaAgenteAlergiasReacoesAdversas-1.0&quot;&gt; &lt;/a&gt;&lt;a name=&quot;BRCategoriaAgenteAlergiasReacoesAdversas-1.0-und&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;version: 1; Last updated: 2020-09-20 20:37:36+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html&quot;&gt;&lt;code&gt;http://hl7.org/fhir/allergy-intolerance-category&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=&quot;none&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-food&quot;&gt;food&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alimento&lt;/td&gt;&lt;td&gt;Any substance consumed to provide nutritional support for the body.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-medication&quot;&gt;medication&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Medicamento&lt;/td&gt;&lt;td&gt;Substances administered to achieve a physiological effect.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-biologic&quot;&gt;biologic&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biológica&lt;/td&gt;&lt;td&gt;A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-other&quot;&gt;other&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Outras substâncias&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-environment&quot;&gt;environment&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fator Externo/Ambiental&lt;/td&gt;&lt;td&gt;Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;&gt;
@@ -359,13 +359,7 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
@@ -394,7 +388,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 22, 2024 16:03-0300">2024-03-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -411,7 +405,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -421,16 +415,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

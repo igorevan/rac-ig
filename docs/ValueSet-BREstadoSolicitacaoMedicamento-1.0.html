@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"10.54"}
     h3,h4,h5,h6{--heading-prefix:"10.54"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -280,19 +281,21 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html"><code>http://hl7.org/fhir/CodeSystem/medicationrequest-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-active">active</a></td><td>Ativo</td><td>The prescription is 'actionable', but not all actions that are implied by it have occurred yet.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-completed">completed</a></td><td>Completado</td><td>All actions that are implied by the prescription have occurred.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-entered-in-error">entered-in-error</a></td><td>Entrada com erro</td><td>Some of the actions that are implied by the medication request may have occurred.  For example, the medication may have been dispensed and the patient may have taken some of the medication.  Clinical decision support systems should take this status into account</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-draft">draft</a></td><td>Pretendido</td><td>The prescription is not yet 'actionable', e.g. it is a work in progress, requires sign-off, verification&nbsp;or&nbsp;needs to be run through decision support process.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-on-hold">on-hold</a></td><td>Em pausa</td><td>Actions implied by the prescription are to be temporarily halted, but are expected to continue later.  May also be called 'suspended'.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-unknown">unknown</a></td><td>Desconhecida</td><td>The authoring/source system does not know which of the status values currently applies for this observation. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-cancelled">cancelled</a></td><td>Não realizado</td><td>The prescription has been withdrawn before any administrations have occurred</td></tr></table></li></ul></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet BREstadoSolicitacaoMedicamento-1.0</b></p><a name="BREstadoSolicitacaoMedicamento-1.0"> </a><a name="hcBREstadoSolicitacaoMedicamento-1.0"> </a><a name="BREstadoSolicitacaoMedicamento-1.0-und"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2020-09-20 20:58:17+0000</p></div>
+<ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html"><code>http://hl7.org/fhir/CodeSystem/medicationrequest-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-active">active</a></td><td>Ativo</td><td>The prescription is 'actionable', but not all actions that are implied by it have occurred yet.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-completed">completed</a></td><td>Completado</td><td>All actions that are implied by the prescription have occurred.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-entered-in-error">entered-in-error</a></td><td>Entrada com erro</td><td>Some of the actions that are implied by the medication request may have occurred.  For example, the medication may have been dispensed and the patient may have taken some of the medication.  Clinical decision support systems should take this status into account</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-draft">draft</a></td><td>Pretendido</td><td>The prescription is not yet 'actionable', e.g. it is a work in progress, requires sign-off, verification&nbsp;or&nbsp;needs to be run through decision support process.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-on-hold">on-hold</a></td><td>Em pausa</td><td>Actions implied by the prescription are to be temporarily halted, but are expected to continue later.  May also be called 'suspended'.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-unknown">unknown</a></td><td>Desconhecida</td><td>The authoring/source system does not know which of the status values currently applies for this observation. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-cancelled">cancelled</a></td><td>Não realizado</td><td>The prescription has been withdrawn before any administrations have occurred</td></tr></table></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html">codesystem Medicationrequest  status v4.0.1 (CodeSystem)</a></p><p>This value set contains 7 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-active"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-active">active</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Ativo</td><td><div><p>The prescription is 'actionable', but not all actions that are implied by it have occurred yet.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-completed"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-completed">completed</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Completado</td><td><div><p>All actions that are implied by the prescription have occurred.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-entered-in-error"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-entered-in-error">entered-in-error</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Entrada com erro</td><td><div><p>Some of the actions that are implied by the medication request may have occurred.  For example, the medication may have been dispensed and the patient may have taken some of the medication.  Clinical decision support systems should take this status into account</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-draft"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-draft">draft</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Pretendido</td><td><div><p>The prescription is not yet 'actionable', e.g. it is a work in progress, requires sign-off, verification or needs to be run through decision support process.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-on-hold"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-on-hold">on-hold</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Em pausa</td><td><div><p>Actions implied by the prescription are to be temporarily halted, but are expected to continue later.  May also be called 'suspended'.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-unknown"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-unknown">unknown</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Desconhecida</td><td><div><p>The authoring/source system does not know which of the status values currently applies for this observation. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-CodeSystem-medicationrequest-status-cancelled"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-cancelled">cancelled</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Não realizado</td><td><div><p>The prescription has been withdrawn before any administrations have occurred</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2020-09-20 20:58:17+0000</p></div><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html">codesystem Medicationrequest  status v4.0.1 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-active"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-active">active</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Ativo</td><td><div><p>The prescription is 'actionable', but not all actions that are implied by it have occurred yet.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-completed"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-completed">completed</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Completado</td><td><div><p>All actions that are implied by the prescription have occurred.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-entered-in-error"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-entered-in-error">entered-in-error</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Entrada com erro</td><td><div><p>Some of the actions that are implied by the medication request may have occurred.  For example, the medication may have been dispensed and the patient may have taken some of the medication.  Clinical decision support systems should take this status into account</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-draft"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-draft">draft</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Pretendido</td><td><div><p>The prescription is not yet 'actionable', e.g. it is a work in progress, requires sign-off, verification or needs to be run through decision support process.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-on-hold"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-on-hold">on-hold</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Em pausa</td><td><div><p>Actions implied by the prescription are to be temporarily halted, but are expected to continue later.  May also be called 'suspended'.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-unknown"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-unknown">unknown</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Desconhecida</td><td><div><p>The authoring/source system does not know which of the status values currently applies for this observation. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-cancelled"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-cancelled">cancelled</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Não realizado</td><td><div><p>The prescription has been withdrawn before any administrations have occurred</p>
 </div></td></tr></table></div>
 
   <hr/>
@@ -345,13 +348,7 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
@@ -380,7 +377,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 22, 2024 16:03-0300">2024-03-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -397,7 +394,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -407,16 +404,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>
