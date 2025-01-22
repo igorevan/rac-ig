@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+URL,Version,Status,OIDs,Name,Title,Description,Used
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA,0.1.0,active,,BRAlergenosCBARA,Catálogo Brasileiro de Alergias e Reações Adversas (CBARA),"Classifica as alergias e reações adversas.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS,0.1.0,active,,BRCBHPMTUSS,Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS,"Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO,0.1.0,active,,BRCBO,Classificação Brasileira de Ocupações - CBO,"Classifica as profissões do mercado de trabalho brasileiro.",
@@ -7,7 +7,6 @@ http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10,0.1.0,active,,BRCID10,Classif
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento,0.1.0,active,,BRCaraterAtendimento,Caráter de Atendimento,"Terminologia que classifica a prioridade de realização de um Contato Assistencial.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico,0.1.0,active,,BRCategoriaDiagnostico,Categoria do Diagnóstico,"Códigos para representação do tipo de categoria do diagnóstico realizado.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido,0.1.0,active,,BRDadoAusenteOuDesconhecido,Classificação de dados ausentes ou desconhecidos - IPS,"Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS.",
-http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil,0.1.0,active,,BRDivisaoGeograficaBrasil,Divisão Geográfica do Brasil,"As regiões geográficas, estados, distrito federal e municípios do Brasil.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento,0.1.0,active,,BRFinanciamento,Financiamento,"Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia,0.1.0,active,,BRFrequenciaUsoSubstancia,Frequência de Uso de Substância,"Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico,0.1.0,active,,BRImunobiologico,Imunobiológico,"Classifica os tipos de imunobiológicos.",
@@ -22,7 +21,6 @@ http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA,0.1.0,active,,BRObmANVISA
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT,0.1.0,active,,BRObmCATMAT,Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT),"Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN,0.1.0,active,,BRObmEAN,Terminologia de Produto Medicinal Virtual (VMP) na GS1.org,"Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP,0.1.0,active,,BRObmVMP,Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM),"Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)",
-http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais,0.1.0,active,,BRPais,País,"Códigos para representação de países.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico,0.1.0,active,,BRPapelProblemaDiagnostico,Classificação do papel de um problema e diagnóstico,"Classificação do papel de um problema/diagnóstico.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo,0.1.0,active,,BRPosicaoIndividuo,Posição do Indivíduo,"Identifica a posição de um indivíduo em um determinado contexto.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia,0.1.0,active,,BRProcedencia,Procedência,"Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde.",

@@ -26,7 +26,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-10-15T16:51:50-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-22T17:38:12-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -55,7 +55,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.0.2" ]
+     fhir:version [ fhir:v "6.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -306,7 +306,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools.r4#0.3.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -842,28 +842,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0> ;
-         fhir:reference [ fhir:v "StructureDefinition/BRMunicipio-1.0" ]
-       ] ;
-       fhir:name [ fhir:v "Município" ] ;
-       fhir:description [ fhir:v "Extensão para informar um município." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0> ;
-         fhir:reference [ fhir:v "StructureDefinition/BRPais-1.0" ]
-       ] ;
-       fhir:name [ fhir:v "País" ] ;
-       fhir:description [ fhir:v "Extensão para representar um país." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -1246,28 +1224,6 @@
        ] ;
        fhir:name [ fhir:v "Justificativa da Impossibilidade de Identificação do Indivíduo" ] ;
        fhir:description [ fhir:v "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil> ;
-         fhir:reference [ fhir:v "CodeSystem/BRDivisaoGeograficaBrasil" ]
-       ] ;
-       fhir:name [ fhir:v "Divisão Geográfica do Brasil" ] ;
-       fhir:description [ fhir:v "As regiões geográficas, estados, distrito federal e municípios do Brasil." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais> ;
-         fhir:reference [ fhir:v "CodeSystem/BRPais" ]
-       ] ;
-       fhir:name [ fhir:v "País" ] ;
-       fhir:description [ fhir:v "Códigos para representação de países." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1791,28 +1747,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0> ;
-         fhir:reference [ fhir:v "ValueSet/BRMunicipio-1.0" ]
-       ] ;
-       fhir:name [ fhir:v "Município" ] ;
-       fhir:description [ fhir:v "Municípios brasileiros, entes subnacionais." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0> ;
-         fhir:reference [ fhir:v "ValueSet/BRPais-1.0" ]
-       ] ;
-       fhir:name [ fhir:v "País" ] ;
-       fhir:description [ fhir:v "Códigos para representação de países." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0> ;
          fhir:reference [ fhir:v "ValueSet/BREstadoDocumento-1.0" ]
        ] ;
@@ -1881,6 +1815,17 @@
          ] ) ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Principal" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "abstract.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "abstract.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Abstract" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [

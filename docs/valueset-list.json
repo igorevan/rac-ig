@@ -236,17 +236,6 @@
       ]
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRMunicipio",
-      "title" : "Município",
-      "description" : "Municípios brasileiros, entes subnacionais.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
-      ]
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -263,15 +252,6 @@
       "title" : "Origem de Medição",
       "description" : "ValueSet utilizado para definir o tipo de medição corporal adotada.",
       "systems" : ["http://loinc.org"]
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPais",
-      "title" : "País",
-      "description" : "Códigos para representação de países.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"]
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",

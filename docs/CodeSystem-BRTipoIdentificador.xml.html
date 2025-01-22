@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -42,10 +43,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.107"}
-    h3,h4,h5,h6{--heading-prefix:"10.107"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.103"}
+    h3,h4,h5,h6{--heading-prefix:"11.103"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -83,6 +85,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -123,8 +128,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -247,13 +252,10 @@
   <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;BRTipoIdentificador&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2020-03-11T18:25:18.303+00:00&quot;/&gt;
-  &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;pt-BR&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;pt-BR&quot; lang=&quot;pt-BR&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem BRTipoIdentificador&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;BRTipoIdentificador&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcBRTipoIdentificador&quot;&gt; &lt;/a&gt;&lt;a name=&quot;BRTipoIdentificador-und&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Last updated: 2020-03-11 18:25:18+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;use&lt;/td&gt;&lt;td&gt;use&lt;/td&gt;&lt;td&gt;Coding&lt;/td&gt;&lt;td&gt;Uso do Tipo do Identificador&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;use&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;AUTH&lt;a name=&quot;BRTipoIdentificador-AUTH&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Código de Autorização&lt;/td&gt;&lt;td&gt;Identificador da permissão para a realização de um procedimento.&lt;/td&gt;&lt;td&gt;Procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRA&lt;a name=&quot;BRTipoIdentificador-BRACRA&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Administração (CRA)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRESS&lt;a name=&quot;BRTipoIdentificador-BRACRESS&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Serviço Social (CRESS)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRB&lt;a name=&quot;BRTipoIdentificador-BRACRB&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Biblioteconomia (CRB)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRC&lt;a name=&quot;BRTipoIdentificador-BRACRC&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Contabilidade (CRC)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRECI&lt;a name=&quot;BRTipoIdentificador-BRACRECI&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACORECON&lt;a name=&quot;BRTipoIdentificador-BRACORECON&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Economia (CORECON)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACREA&lt;a name=&quot;BRTipoIdentificador-BRACREA&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACONFRE&lt;a name=&quot;BRTipoIdentificador-BRACONFRE&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Estatística (CONRE)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRF&lt;a name=&quot;BRTipoIdentificador-BRACRF&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Farmácia (CRF)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACREFITO&lt;a name=&quot;BRTipoIdentificador-BRACREFITO&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRMV&lt;a name=&quot;BRTipoIdentificador-BRACRMV&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRN&lt;a name=&quot;BRTipoIdentificador-BRACRN&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Nutrição (CRN)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACONRERP&lt;a name=&quot;BRTipoIdentificador-BRACONRERP&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRP&lt;a name=&quot;BRTipoIdentificador-BRACRP&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Psicologia (CRP)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRQ&lt;a name=&quot;BRTipoIdentificador-BRACRQ&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Química (CRQ)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACORE&lt;a name=&quot;BRTipoIdentificador-BRACORE&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACREF&lt;a name=&quot;BRTipoIdentificador-BRACREF&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Educação Física (CREF)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACAU&lt;a name=&quot;BRTipoIdentificador-BRACAU&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRBIO&lt;a name=&quot;BRTipoIdentificador-BRACRBIO&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Biologia (CRBio)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRBM&lt;a name=&quot;BRTipoIdentificador-BRACRBM&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional de Biomedicina (CRBM)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRFA&lt;a name=&quot;BRTipoIdentificador-BRACRFA&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRTR&lt;a name=&quot;BRTipoIdentificador-BRACRTR&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRT&lt;a name=&quot;BRTipoIdentificador-BRACRT&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRAOAB&lt;a name=&quot;BRTipoIdentificador-BRAOAB&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição na Ordem dos Advogados do BRAasil (OAB)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRAIDMIL&lt;a name=&quot;BRTipoIdentificador-BRAIDMIL&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da Identidade Militar&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRAIDFUNC&lt;a name=&quot;BRTipoIdentificador-BRAIDFUNC&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da Identidade Funcional&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACNPJ&lt;a name=&quot;BRTipoIdentificador-BRACNPJ&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Organization&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;pt-BR&quot; lang=&quot;pt-BR&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem BRTipoIdentificador&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;BRTipoIdentificador&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcBRTipoIdentificador&quot;&gt; &lt;/a&gt;&lt;a name=&quot;BRTipoIdentificador-und&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;use&lt;/td&gt;&lt;td&gt;use&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Uso do Tipo do Identificador&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;use&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;AUTH&lt;a name=&quot;BRTipoIdentificador-AUTH&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Código de Autorização&lt;/td&gt;&lt;td&gt;Identificador da permissão para a realização de um procedimento.&lt;/td&gt;&lt;td&gt;procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRA&lt;a name=&quot;BRTipoIdentificador-BRACRA&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Administração (CRA)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRESS&lt;a name=&quot;BRTipoIdentificador-BRACRESS&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Serviço Social (CRESS)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRB&lt;a name=&quot;BRTipoIdentificador-BRACRB&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Biblioteconomia (CRB)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRC&lt;a name=&quot;BRTipoIdentificador-BRACRC&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Contabilidade (CRC)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRECI&lt;a name=&quot;BRTipoIdentificador-BRACRECI&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACORECON&lt;a name=&quot;BRTipoIdentificador-BRACORECON&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Economia (CORECON)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACREA&lt;a name=&quot;BRTipoIdentificador-BRACREA&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACONFRE&lt;a name=&quot;BRTipoIdentificador-BRACONFRE&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Estatística (CONRE)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRF&lt;a name=&quot;BRTipoIdentificador-BRACRF&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Farmácia (CRF)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACREFITO&lt;a name=&quot;BRTipoIdentificador-BRACREFITO&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRMV&lt;a name=&quot;BRTipoIdentificador-BRACRMV&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRN&lt;a name=&quot;BRTipoIdentificador-BRACRN&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Nutrição (CRN)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACONRERP&lt;a name=&quot;BRTipoIdentificador-BRACONRERP&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRP&lt;a name=&quot;BRTipoIdentificador-BRACRP&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Psicologia (CRP)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRQ&lt;a name=&quot;BRTipoIdentificador-BRACRQ&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Química (CRQ)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACORE&lt;a name=&quot;BRTipoIdentificador-BRACORE&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACREF&lt;a name=&quot;BRTipoIdentificador-BRACREF&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Educação Física (CREF)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACAU&lt;a name=&quot;BRTipoIdentificador-BRACAU&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRBIO&lt;a name=&quot;BRTipoIdentificador-BRACRBIO&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Conselho Regional de Biologia (CRBio)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRBM&lt;a name=&quot;BRTipoIdentificador-BRACRBM&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional de Biomedicina (CRBM)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRFA&lt;a name=&quot;BRTipoIdentificador-BRACRFA&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRTR&lt;a name=&quot;BRTipoIdentificador-BRACRTR&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACRT&lt;a name=&quot;BRTipoIdentificador-BRACRT&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRAOAB&lt;a name=&quot;BRTipoIdentificador-BRAOAB&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição na Ordem dos Advogados do BRAasil (OAB)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRAIDMIL&lt;a name=&quot;BRTipoIdentificador-BRAIDMIL&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da Identidade Militar&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRAIDFUNC&lt;a name=&quot;BRTipoIdentificador-BRAIDFUNC&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número da Identidade Funcional&lt;/td&gt;&lt;td/&gt;&lt;td&gt;patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;BRACNPJ&lt;a name=&quot;BRTipoIdentificador-BRACNPJ&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)&lt;/td&gt;&lt;td/&gt;&lt;td&gt;organization&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;&gt;
@@ -303,7 +305,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Uso do Tipo do Identificador&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Coding&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
   &lt;/property&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;AUTH&quot;/&gt;
@@ -312,10 +314,7 @@
                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Identificador da permissão para a realização de um procedimento.&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Procedure&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;procedure&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -324,10 +323,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Administração (CRA)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -336,10 +332,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Serviço Social (CRESS)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -348,10 +341,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Biblioteconomia (CRB)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -360,10 +350,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Contabilidade (CRC)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -372,10 +359,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -384,10 +368,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Economia (CORECON)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -396,10 +377,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -408,10 +386,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Estatística (CONRE)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -420,10 +395,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Farmácia (CRF)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -432,10 +404,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -444,10 +413,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -456,10 +422,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Nutrição (CRN)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -468,10 +431,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -480,10 +440,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Psicologia (CRP)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -492,10 +449,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Química (CRQ)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -504,10 +458,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -516,10 +467,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Educação Física (CREF)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -528,10 +476,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -540,10 +485,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Conselho Regional de Biologia (CRBio)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -552,10 +494,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número da inscrição no Conselho Regional de Biomedicina (CRBM)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -564,10 +503,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -576,10 +512,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -588,10 +521,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -600,10 +530,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição na Ordem dos Advogados do BRAasil (OAB)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -611,10 +538,7 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número da Identidade Militar&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -622,10 +546,7 @@
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número da Identidade Funcional&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;patient&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
@@ -634,10 +555,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;use&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCoding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/resource-types&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Organization&quot;/&gt;
-      &lt;/valueCoding&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;organization&quot;/&gt;
     &lt;/property&gt;
   &lt;/concept&gt;
 &lt;/CodeSystem&gt;</code></pre>
@@ -686,7 +604,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -5,8 +5,7 @@
   <a name="computacional"> </a>
   <h3>Modelo Computacional</h3>
   <p> Para a modelagem do modelo computacional do Registro de Atendimento Clínico (RAC), foram
-    mapeados os campos do Modelo de Informação (MI) aos recursos internacionais <a
-      href="https://hl7.org/fhir/R4/">FHIR
+    mapeados os campos do Modelo de Informação (MI) aos recursos internacionais <a href="https://hl7.org/fhir/R4/">FHIR
       R4</a>. Assim, foi realizada a modelagem fechada dos perfis de modo a atender o contexto
     nacional. </p>
   <p>Foi criado um <a href="https://simplifier.net/redenacionaldedadosemsaude/">Projeto Rede
@@ -270,29 +269,22 @@
           </code>
         </td>
       </tr>
-      <tr>
-        <td>Extension</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRPais-1.0.html">BRPais</a>
-          </code>
-        </td>
-      </tr>
-      <tr>
-        <td>Extension</td>
-        <td>
-          <code>
-            <a href="StructureDefinition-BRMunicipio-1.0.html">BRMunicipio</a>
-          </code>
-        </td>
-      </tr>
     </tbody>
   </table>
   <p>Perfis dos tipos <i>ValueSet</i> e <i>CodeSystem</i> estão associados a recursos
     terminológicos. No contexto de Atendimento Clínico e os domínios utilizados, foram criados <i>
-    CodeSystems</i> específicos definidos pelo <a
+      CodeSystems</i> específicos definidos pelo <a
       href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
-    Gestor de Saúde Digital (CGSD)</a>.</p>
+      Gestor de Saúde Digital (CGSD)</a>.</p>
+
+  <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
+    periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
+    dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
+      no Simplifier</a>. </p>
+  <p>Note que na estrutura dos perfis há elementos com bindings para <i>ValueSets</i> que apontam
+    para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
+    indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo
+    integrador (autor do registro). </p>
 
   <table class="grid">
     <thead>
@@ -303,227 +295,510 @@
     </thead>
     <tbody>
       <tr>
-        <td>RoupasUsadasMedicao</td>
-        <td>LOINC</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brroupasusadasmedicao">
+            RoupasUsadasMedicao</a>
+        </td>
+        <td>
+          <a href="http://loinc.org">LOINC</a>
+        </td>
       </tr>
       <tr>
-        <td>BRViaAdministracao</td>
-        <td>BRViaAdministracao</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brviaadministracao-1.0">
+            BRViaAdministracao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brviaadministracao">
+            BRViaAdministracao</a>
+        </td>
       </tr>
       <tr>
-        <td>BRUnidadeTempo</td>
-        <td>BRUnidadeTempo</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brunidadetempo">
+            BRUnidadeTempo</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brunidadetempo">
+            BRUnidadeTempo</a>
+        </td>
       </tr>
       <tr>
-        <td>BRUnidadeMedidaMedicamento</td>
-        <td rowspan="2">BRUnidadeMedida</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brunidademedidamedicamento">
+            BRUnidadeMedidaMedicamento</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brunidademedida">
+            BRUnidadeMedida</a>
+        </td>
       </tr>
       <tr>
-        <td>BRUnidadeConsumo</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brunidadeconsumo">
+            BRUnidadeConsumo</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTurno</td>
-        <td>BRTurno</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brturno">BRTurno</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brturno">BRTurno</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTipoAleitamentoMaterno</td>
-        <td>BRTipoAleitamentoMaterno</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipoaleitamentomaterno-1.0">
+            BRTipoAleitamentoMaterno</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtipoaleitamentomaterno">
+            BRTipoAleitamentoMaterno</a>
+        </td>
       </tr>
       <tr>
-        <td rowspan="2">BRTipoObservacao</td>
-        <td>BRTabelaSUS</td>
+        <td rowspan="2">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipoobservacao-1.0">
+            BRTipoObservacao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtabelasus">
+            BRTabelaSUS</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTipoObservacao</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtipoobservacao">
+            BRTipoObservacao</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTipoIdentificadorProcedimento</td>
-        <td>BRTipoIdentificador</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipoidentificadorprocedimento-1.0">
+            BRTipoIdentificadorProcedimento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtipoidentificador">
+            BRTipoIdentificador</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTipoDocumento</td>
-        <td>BRTipoDocumento</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipodocumento-1.0">
+            BRTipoDocumento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtipodocumento">
+            BRTipoDocumento</a>
+        </td>
       </tr>
       <tr>
-        <td rowspan="4">BRTerminologiaMedicamento</td>
-        <td>BRObmCATMAT</td>
+        <td rowspan="4">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brterminologiamedicamento">
+            BRTerminologiaMedicamento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brobmcatmat">
+            BRObmCATMAT</a>
+        </td>
       </tr>
       <tr>
-        <td>BRObmEAN</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brobmean">BRObmEAN</a>
+        </td>
       </tr>
       <tr>
-        <td>BRObmANVISA</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brobmanvisa">
+            BRObmANVISA</a>
+        </td>
       </tr>
       <tr>
-        <td>BRObmAMPP</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brobmampp">BRObmAMPP</a>
+        </td>
       </tr>
       <tr>
-        <td>BRResponsabilidadeParticipante</td>
-        <td>BRResponsabilidadeParticipante</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brresponsabilidadeparticipante-1.0">
+            BRResponsabilidadeParticipante</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brresponsabilidadeparticipante">
+            BRResponsabilidadeParticipante</a>
+        </td>
       </tr>
       <tr>
-        <td rowspan="2">BRProcedimentosNacionais</td>
-        <td>BRCBHPMTUSS</td>
+        <td rowspan="2">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brprocedimentosnacionais-1.0">
+            BRProcedimentosNacionais</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brcbhpmtuss">
+            BRCBHPMTUSS</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTabelaSUS</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtabelasus">
+            BRTabelaSUS</a>
+        </td>
       </tr>
       <tr>
-        <td>BRProcedencia</td>
-        <td>BRProcedencia</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brprocedencia-1.0">
+            BRProcedencia</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brprocedencia">
+            BRProcedencia</a>
+        </td>
       </tr>
       <tr>
-        <td>BRPosicaoIndividuo</td>
-        <td>BRPosicaoIndividuo</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brposicaoindividuo">
+            BRPosicaoIndividuo</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brposicaoindividuo">
+            BRPosicaoIndividuo</a>
+        </td>
       </tr>
       <tr>
-        <td>BROrigemMedida</td>
-        <td>LOINC</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brorigemmedida">
+            BROrigemMedida</a>
+        </td>
+        <td>
+          <a href="">LOINC</a>
+        </td>
       </tr>
       <tr>
-        <td>BROcupacao</td>
-        <td>BRCBO</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brocupacao-1.0">
+            BROcupacao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brcbo">BRCBO</a>
+        </td>
       </tr>
       <tr>
-        <td>BRMotivoDesfechoDocumentos</td>
-        <td rowspan="2">BRMotivoDesfecho</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brmotivodesfechodocumentos-1.0">
+            BRMotivoDesfechoDocumentos</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brmotivodesfecho">
+            BRMotivoDesfecho</a>
+        </td>
       </tr>
       <tr>
-        <td>BRMotivoDesfecho</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brmotivodesfecho-1.0">
+            BRMotivoDesfecho</a>
+        </td>
       </tr>
       <tr>
-        <td>BRModalidadeFinanceira</td>
-        <td>BRModalidadeFinanceira</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brmodalidadefinanceira">
+            BRModalidadeFinanceira</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brmodalidadefinanceira">
+            BRModalidadeFinanceira</a>
+        </td>
       </tr>
       <tr>
-        <td>BRModalidadeAssistencial</td>
-        <td>BRModalidadeAssistencial</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brmodalidadeassistencial-1.0">
+            BRModalidadeAssistencial</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brmodalidadeassistencial">
+            BRModalidadeAssistencial</a>
+        </td>
       </tr>
       <tr>
-        <td>BRLocalAtendimento</td>
-        <td>BRLocalAtendimento</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brlocalatendimento-1.0">
+            BRLocalAtendimento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brlocalatendimento">
+            BRLocalAtendimento</a>
+        </td>
       </tr>
       <tr>
-        <td>BRLocalAfericao</td>
-        <td>BRLocalAfericao</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brlocalafericao-1.0">
+            BRLocalAfericao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brlocalafericao">
+            BRLocalAfericao</a>
+        </td>
       </tr>
       <tr>
-        <td>BRImunobiologico</td>
-        <td>BRImunobiologico</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brimunobiologico-1.0">
+            BRImunobiologico</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brimunobiologico">
+            BRImunobiologico</a>
+        </td>
       </tr>
       <tr>
-        <td>BRGrauCertezaAlergiasReacoesAdversas</td>
-        <td>allergyintolerance-verification</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brgraucertezaalergiasreacoesadversas-1.0">
+            BRGrauCertezaAlergiasReacoesAdversas</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/80047">
+            allergyintolerance-verification</a>
+        </td>
       </tr>
       <tr>
-        <td>BRFrequenciaUsoSubstancia</td>
-        <td>v3-GTSAbbreviation</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brfrequenciausosubstancia">
+            BRFrequenciaUsoSubstancia</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/79475">
+            v3-GTSAbbreviation</a>
+        </td>
       </tr>
       <tr>
-        <td>BRFinanciamento</td>
-        <td>BRFinanciamento</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brfinanciamento-1.0">
+            BRFinanciamento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brfinanciamento">
+            BRFinanciamento</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoSolicitacao</td>
-        <td>request-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadosolicitacaomedicamento-1.0">
+            BREstadoSolicitacao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/83465">
+            request-status</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoResolucaoDiagnosticoProblema</td>
-        <td>condition-clinical</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadoresolucaodiagnosticoproblema-1.0">
+            BREstadoResolucaoDiagnosticoProblema</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/79466">
+            condition-clinical</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoObservacao</td>
-        <td>observation-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadoobservacao-1.0">
+            BREstadoObservacao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/78899">
+            observation-status</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoEvento</td>
-        <td>event-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadoevento-1.0">
+            BREstadoEvento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/80010">event-status</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoDocumento</td>
-        <td>composition-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadodocumento-1.0">
+            BREstadoDocumento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/80407">
+            composition-status</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoContatoAssistencial</td>
-        <td>encounter-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadocontatoassistencial-1.0">
+            BREstadoContatoAssistencial</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/80025">
+            encounter-status</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCriticidadeAlergiasReacoesAdversas</td>
-        <td>allergy-intolerance-criticality</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brcriticidadealergiasreacoesadversas-1.0">
+            BRCriticidadeAlergiasReacoesAdversas</a>
+        </td>
+        <td>
+          <a href="">allergy-intolerance-criticality</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCategoriaDiagnostico</td>
-        <td>BRCategoriaDiagnostico</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brcategoriadiagnostico">
+            BRCategoriaDiagnostico</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brcategoriadiagnostico">
+            BRCategoriaDiagnostico</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCategoriaAgenteAlergiasReacoesAdversas</td>
-        <td>allergy-intolerance-category</td>
+        <td>
+          <a
+            href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brcategoriaagentealergiasreacoesadversas-1.0">
+            BRCategoriaAgenteAlergiasReacoesAdversas</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/81870">
+            allergy-intolerance-category</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCaraterAtendimento</td>
-        <td>BRCaraterAtendimento</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brcarateratendimento-1.0">
+            BRCaraterAtendimento</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brcarateratendimento">
+            BRCaraterAtendimento</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCID10</td>
-        <td>BRCID10</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brcid10-1.0">BRCID10</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brcid10">BRCID10</a>
+        </td>
       </tr>
       <tr>
-        <td rowspan="3">BRAlergenos</td>
-        <td>BRAlergenosCBARA</td>
+        <td rowspan="3">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-bralergenos-1.0">
+            BRAlergenos</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-bralergenoscbara">
+            BRAlergenosCBARA</a>
+        </td>
       </tr>
       <tr>
-        <td>BRImunobiologico</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brimunobiologico">
+            BRImunobiologico</a>
+        </td>
       </tr>
       <tr>
-        <td>BRMedicamento</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brmedicamento">
+            BRMedicamento</a>
+        </td>
       </tr>
       <tr>
-        <td>BRTipoAtestado</td>
-        <td>BRTipoDocumento</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipoatestado">
+            BRTipoAtestado</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brtipodocumento">
+            BRTipoDocumento</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoAfastamentoAtestado</td>
-        <td>care-plan-activity-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadoafastamentoatestado">
+            BREstadoAfastamentoAtestado</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/83364">
+            care-plan-activity-status</a>
+        </td>
       </tr>
       <tr>
-        <td>BRIntencaoAtestado</td>
-        <td>request-intent</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brintencaoatestado">
+            BRIntencaoAtestado</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/81826">
+            request-intent</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoAtestado</td>
-        <td>request-status</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadoatestado">
+            BREstadoAtestado</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/83465">
+            request-status</a>
+        </td>
       </tr>
       <tr>
-        <td rowspan="2">BRPapelProblemaDiagnostico</td>
-        <td>BRPapelProblemaDiagnostico</td>
+        <td rowspan="2">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brpapelproblemadiagnostico">
+            BRPapelProblemaDiagnostico</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brpapelproblemadiagnostico">
+            BRPapelProblemaDiagnostico</a>
+        </td>
       </tr>
       <tr>
-        <td>diagnosis-role</td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/83484">
+            diagnosis-role</a>
+        </td>
       </tr>
       <tr>
-        <td>BREstadoResolucaoDiagnosticoProblema</td>
-        <td>condition-clinical</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brestadoresolucaodiagnosticoproblema-1.0">
+            BREstadoResolucaoDiagnosticoProblema</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/79466">
+            condition-clinical</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCategoriaCondicao</td>
-        <td>condition-category</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brcategoriacondicao">
+            BRCategoriaCondicao</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/79008">
+            condition-category</a>
+        </td>
       </tr>
       <tr>
-        <td rowspan="2">BRProblemaDiagnostico</td>
-        <td>BRCID10</td>
+        <td rowspan="2">
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/valueset-brproblemadiagnostico">
+            BRProblemaDiagnostico</a>
+        </td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brcid10">BRCID10</a>
+        </td>
       </tr>
       <tr>
-        <td>BRCIAP2</td>
+        <td>
+          <a href="https://simplifier.net/redenacionaldedadosemsaude/codesystem-brciap2">BRCIAP2</a>
+        </td>
       </tr>
     </tbody>
   </table>
 
-  <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
-    periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
-    dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
-    no Simplifier</a>. </p>
-  <p>Note que na estrutura dos perfis há elementos com bindings para <i>ValueSets</i> que apontam
-    para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
-    indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo
-    integrador (autor do registro). </p>
 </div>

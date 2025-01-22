@@ -1,9 +1,6 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoIdentificador",
-  "meta": {
-    "lastUpdated": "2020-03-11T18:25:18.303+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
   "version": "201701A",
@@ -20,7 +17,7 @@
     {
       "code": "use",
       "description": "Uso do Tipo do Identificador",
-      "type": "Coding"
+      "type": "code"
     }
   ],
   "concept": [
@@ -31,10 +28,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Procedure"
-          }
+          "valueCode": "procedure"
         }
       ]
     },
@@ -44,10 +38,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -57,10 +48,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -70,10 +58,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -83,10 +68,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -96,10 +78,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -109,10 +88,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -122,10 +98,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -135,10 +108,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -148,10 +118,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -161,10 +128,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -174,10 +138,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -187,10 +148,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -200,10 +158,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -213,10 +168,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -226,10 +178,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -239,10 +188,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -252,10 +198,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -265,10 +208,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -278,10 +218,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -291,10 +228,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -304,10 +238,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -317,10 +248,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -330,10 +258,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -343,10 +268,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -356,10 +278,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -369,10 +288,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Patient"
-          }
+          "valueCode": "patient"
         }
       ]
     },
@@ -382,10 +298,7 @@
       "property": [
         {
           "code": "use",
-          "valueCoding": {
-            "system": "http://hl7.org/fhir/resource-types",
-            "code": "Organization"
-          }
+          "valueCode": "organization"
         }
       ]
     }

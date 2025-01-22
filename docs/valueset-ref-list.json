@@ -162,8 +162,8 @@
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -311,20 +311,6 @@
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRMunicipio",
-      "title" : "Município",
-      "description" : "Municípios brasileiros, entes subnacionais.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRMunicipio-1.0.html" : "Município"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -334,8 +320,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
@@ -348,18 +334,6 @@
       "uses" : {
       },
       "StructureDefinition-BROrigemMedida.html" : "Origem da Medição"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPais",
-      "title" : "País",
-      "description" : "Códigos para representação de países.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"],
-      "uses" : {
-      },
-      "StructureDefinition-BRPais-1.0.html" : "País"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
@@ -567,8 +541,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",

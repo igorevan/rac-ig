@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -42,10 +43,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.41"}
-    h3,h4,h5,h6{--heading-prefix:"10.41"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.39"}
+    h3,h4,h5,h6{--heading-prefix:"11.39"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -83,6 +85,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -123,8 +128,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -262,7 +267,7 @@
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;pt-BR&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet BRFrequenciaUsoSubstancia&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BRFrequenciaUsoSubstancia\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBRFrequenciaUsoSubstancia\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;BRFrequenciaUsoSubstancia-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Last updated: 2020-09-20 23:02:24+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-v3-GTSAbbreviation.html\&quot;&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO\&quot;&gt;MO&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mensalmente&lt;/td&gt;&lt;td&gt;Monthly at institution specified time.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK\&quot;&gt;WK&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Semanalmente&lt;/td&gt;&lt;td&gt;Weekly at institution specified time.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD\&quot;&gt;QD&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Diariamente&lt;/td&gt;&lt;td&gt;Every day at institution specified times.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-BRFrequenciaUsoSubstancia.html\&quot;&gt;&lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet BRFrequenciaUsoSubstancia&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BRFrequenciaUsoSubstancia\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBRFrequenciaUsoSubstancia\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;BRFrequenciaUsoSubstancia-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Last updated: 2020-09-20 23:02:24+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;p&gt;This value set includes codes based on the following rules:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html\&quot;&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO\&quot;&gt;MO&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mensalmente&lt;/td&gt;&lt;td&gt;Monthly at institution specified time.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK\&quot;&gt;WK&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Semanalmente&lt;/td&gt;&lt;td&gt;Weekly at institution specified time.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD\&quot;&gt;QD&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Diariamente&lt;/td&gt;&lt;td&gt;Every day at institution specified times.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-BRFrequenciaUsoSubstancia.html\&quot;&gt;&lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;^^xsd:anyURI ] ;
@@ -365,7 +370,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

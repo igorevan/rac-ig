@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="br.gov.saude.rnds.rac" />
   <language value="pt-BR" />
@@ -196,18 +195,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/BRMunicipio-1.0" />
-      </reference>
-      <name value="Município" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/BRPais-1.0" />
-      </reference>
-      <name value="País" />
-    </resource>
-    <resource>
-      <reference>
         <reference value="CodeSystem/BRProcedencia" />
       </reference>
       <name value="Procedência" />
@@ -288,7 +275,8 @@
       <reference>
         <reference value="CodeSystem/BRCBHPMTUSS" />
       </reference>
-      <name value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" />
+      <name
+        value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" />
     </resource>
     <resource>
       <reference>
@@ -300,19 +288,22 @@
       <reference>
         <reference value="CodeSystem/BRObmAMPP" />
       </reference>
-      <name value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" />
+      <name
+        value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRObmANVISA" />
       </reference>
-      <name value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" />
+      <name
+        value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" />
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/BRObmCATMAT" />
       </reference>
-      <name value="Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" />
+      <name
+        value="Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" />
     </resource>
     <resource>
       <reference>
@@ -324,7 +315,8 @@
       <reference>
         <reference value="CodeSystem/BRObmVMP" />
       </reference>
-      <name value="Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" />
+      <name
+        value="Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" />
     </resource>
     <resource>
       <reference>
@@ -415,18 +407,6 @@
         <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado" />
       </reference>
       <name value="Justificativa da Impossibilidade de Identificação do Indivíduo" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRDivisaoGeograficaBrasil" />
-      </reference>
-      <name value="Divisão Geográfica do Brasil" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/BRPais" />
-      </reference>
-      <name value="País" />
     </resource>
     <resource>
       <reference>
@@ -712,18 +692,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/BRMunicipio-1.0" />
-      </reference>
-      <name value="Município" />
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/BRPais-1.0" />
-      </reference>
-      <name value="País" />
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/BREstadoDocumento-1.0" />
       </reference>
       <name value="Estado do Documento" />
@@ -738,17 +706,21 @@
       <reference>
         <reference value="Bundle/bundle-example-rac-1" />
       </reference>
-      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado" />
+      <name
+        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado" />
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
-      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
     </resource>
     <resource>
       <reference>
         <reference value="Bundle/bundle-example-rac-2" />
       </reference>
-      <name value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado" />
+      <name
+        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado" />
       <description value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC)" />
-      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
     </resource>
     <page>
       <nameUrl value="toc.html" />
@@ -757,6 +729,11 @@
       <page>
         <nameUrl value="index.html" />
         <title value="Principal" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="abstract.html" />
+        <title value="Abstract" />
         <generation value="html" />
       </page>
       <page>

@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -40,10 +41,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.54"}
-    h3,h4,h5,h6{--heading-prefix:"10.54"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.52"}
+    h3,h4,h5,h6{--heading-prefix:"11.52"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -81,6 +83,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -121,8 +126,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -289,7 +294,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2020-09-20 20:58:17+0000</p></div><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html">codesystem Medicationrequest  status v4.0.1 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-active"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-active">active</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Ativo</td><td><div><p>The prescription is 'actionable', but not all actions that are implied by it have occurred yet.</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2020-09-20 20:58:17+0000</p></div><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html">codesystem Medicationrequest  status v4.0.1 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-active"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-active">active</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Ativo</td><td><div><p>The prescription is 'actionable', but not all actions that are implied by it have occurred yet.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-completed"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-completed">completed</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Completado</td><td><div><p>All actions that are implied by the prescription have occurred.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-entered-in-error"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-entered-in-error">entered-in-error</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Entrada com erro</td><td><div><p>Some of the actions that are implied by the medication request may have occurred.  For example, the medication may have been dispensed and the patient may have taken some of the medication.  Clinical decision support systems should take this status into account</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/CodeSystem/medicationrequest-status-draft"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-medicationrequest-status.html#medicationrequest-status-draft">draft</a></td><td>http://hl7.org/fhir/CodeSystem/medicationrequest-status</td><td>Pretendido</td><td><div><p>The prescription is not yet 'actionable', e.g. it is a work in progress, requires sign-off, verification or needs to be run through decision support process.</p>
@@ -377,7 +382,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -40,10 +41,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.117"}
-    h3,h4,h5,h6{--heading-prefix:"10.117"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.111"}
+    h3,h4,h5,h6{--heading-prefix:"11.111"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -81,6 +83,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -121,8 +126,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -149,7 +154,7 @@
 
           <span style="float:right;">
 
-            <a href="CodeSystem-BRPais.ttl.html">&lt;prev</a> | 
+            <a href="CodeSystem-BRJustificativaIndividuoNaoIdentificado.ttl.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -278,69 +283,84 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRDadoAusenteOuDesconhecido</b></p><a name="BRDadoAusenteOuDesconhecido"> </a><a name="hcBRDadoAusenteOuDesconhecido"> </a><a name="BRDadoAusenteOuDesconhecido-und"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2020-03-11 18:16:07+0000; Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido</code> defines the following codes in an undefined hierarchy:</p>
-<table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRDadoAusenteOuDesconhecido</b></p><a name="BRDadoAusenteOuDesconhecido"> </a><a name="hcBRDadoAusenteOuDesconhecido"> </a><a name="BRDadoAusenteOuDesconhecido-und"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2020-03-11 18:16:07+0000; Language: en</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido</code> defines the following codes in an undefined hierarchy:</p>
+<table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-allergy-info<a name="BRDadoAusenteOuDesconhecido-no-allergy-info"> </a></td>
 <td>No information about allergies</td>
-<td>There is no information available regarding the subject's allergy conditions.</td></tr>
+<td>There is no information available regarding the subject's allergy conditions.</td>
+<td>Nenhuma informação sobre alergias</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-known-allergies<a name="BRDadoAusenteOuDesconhecido-no-known-allergies"> </a></td>
 <td>No known allergies</td>
-<td>The subject has no known allergy conditions.</td></tr>
+<td>The subject has no known allergy conditions.</td>
+<td>Nenhuma alergia conhecida.</td></tr>
 <tr><td>2</td>
 <td style="white-space:nowrap">&nbsp;&nbsp;no-known-medication-allergies<a name="BRDadoAusenteOuDesconhecido-no-known-medication-allergies"> </a></td>
 <td>No known medication allergies</td>
-<td>The subject has no known medication allergy conditions.</td></tr>
+<td>The subject has no known medication allergy conditions.</td>
+<td>Nenhum medicamento para alergia conhecido.</td></tr>
 <tr><td>2</td>
 <td style="white-space:nowrap">&nbsp;&nbsp;no-known-environmental-allergies<a name="BRDadoAusenteOuDesconhecido-no-known-environmental-allergies"> </a></td>
 <td>No known environmental allergies</td>
-<td>The subject has no known environmental allergy conditions.</td></tr>
+<td>The subject has no known environmental allergy conditions.</td>
+<td>Nenhum fator ambiental conhecido para uma dada alergia.</td></tr>
 <tr><td>2</td>
 <td style="white-space:nowrap">&nbsp;&nbsp;no-known-food-allergies<a name="BRDadoAusenteOuDesconhecido-no-known-food-allergies"> </a></td>
 <td>No known food allergies</td>
-<td>The subject has no known food allergy conditions.</td></tr>
+<td>The subject has no known food allergy conditions.</td>
+<td>Nenhuma alergia alimentar conhecida.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-device-info<a name="BRDadoAusenteOuDesconhecido-no-device-info"> </a></td>
 <td>No information about devices</td>
-<td>There is no information available regarding implanted or external devices for the subject.</td></tr>
+<td>There is no information available regarding implanted or external devices for the subject.</td>
+<td>Nenhuma informação sobre algum dispositivo.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-known-devices<a name="BRDadoAusenteOuDesconhecido-no-known-devices"> </a></td>
 <td>No known devices in use</td>
-<td>There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr>
+<td>There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td>
+<td>Nenhum dispositivo em uso</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-immunization-info<a name="BRDadoAusenteOuDesconhecido-no-immunization-info"> </a></td>
 <td>No information about immunizations</td>
-<td>The subject's history of previous immunizations is not known.</td></tr>
+<td>The subject's history of previous immunizations is not known.</td>
+<td>Nenhuma informação sobre imunização</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-known-immunizations<a name="BRDadoAusenteOuDesconhecido-no-known-immunizations"> </a></td>
 <td>No known immunizations</td>
-<td>There is no history of previous immunizations for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr>
+<td>There is no history of previous immunizations for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td>
+<td>Nenhuma informação sobre imunização.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-medication-info<a name="BRDadoAusenteOuDesconhecido-no-medication-info"> </a></td>
 <td>No information about medications</td>
-<td>There is no information available about the subject's medication use or administration.</td></tr>
+<td>There is no information available about the subject's medication use or administration.</td>
+<td>Sem informação de medicamentos.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-known-medications<a name="BRDadoAusenteOuDesconhecido-no-known-medications"> </a></td>
 <td>No known medications</td>
-<td>There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr>
+<td>There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td>
+<td>Sem medicação.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-problem-info<a name="BRDadoAusenteOuDesconhecido-no-problem-info"> </a></td>
 <td>No information about problems</td>
-<td>There is no information available about the subject's health problems or disabilities.</td></tr>
+<td>There is no information available about the subject's health problems or disabilities.</td>
+<td>Nenhuma informação sobre o problema.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-known-problems<a name="BRDadoAusenteOuDesconhecido-no-known-problems"> </a></td>
 <td>No known problems</td>
-<td>The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr>
+<td>The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td>
+<td>Nenhum problema conhecido.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-procedure-info<a name="BRDadoAusenteOuDesconhecido-no-procedure-info"> </a></td>
 <td>No information about past history of procedures</td>
-<td>There is no information available about the subject's past history of procedures.</td></tr>
+<td>There is no information available about the subject's past history of procedures.</td>
+<td>Nenhuma informação sobre procedimento.</td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">no-known-procedures<a name="BRDadoAusenteOuDesconhecido-no-known-procedures"> </a></td>
 <td>No known procedures</td>
-<td>The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td></tr></table></div>
+<td>The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record.</td>
+<td>Nenhum procedimento conhecido.</td></tr></table></div>
 
   
 
@@ -371,7 +391,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="CodeSystem-BRPais.ttl.html">&lt;prev</a>
+                <a href="CodeSystem-BRJustificativaIndividuoNaoIdentificado.ttl.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -389,7 +409,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

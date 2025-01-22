@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -40,10 +41,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.110"}
-    h3,h4,h5,h6{--heading-prefix:"10.110"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.106"}
+    h3,h4,h5,h6{--heading-prefix:"11.106"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -81,6 +83,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -121,8 +126,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -279,12 +284,13 @@
 
 
   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRImunobiologico</b></p><a name="BRImunobiologico"> </a><a name="hcBRImunobiologico"> </a><a name="BRImunobiologico-und"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2021-01-20 14:39:24+0000; Language: pt-BR</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
-<table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td></tr>
-<tr><td>inativo</td>
-<td>inativo</td>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: pt-BR</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr>
+<tr><td>Inactive</td>
+<td>inactive</td>
+<td>http://hl7.org/fhir/concept-properties#inactive</td>
 <td>boolean</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>inativo</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Inactive</b></td></tr>
 <tr><td style="white-space:nowrap">1<a name="BRImunobiologico-1"> </a></td>
 <td>IGHT</td>
 <td>Imunoglobulina humana antitétano</td>
@@ -353,7 +359,7 @@
 <td>Hib</td>
 <td>Vacina Hib</td>
 <td></td></tr>
-<tr><td style="white-space:nowrap">18<a name="BRImunobiologico-18"> </a></td>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">18<a name="BRImunobiologico-18"> </a></td>
 <td>VR</td>
 <td>Vacina raiva embrião de galinha</td>
 <td>true</td></tr>
@@ -623,7 +629,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">85<a name="BRImunobiologico-85"> </a></td>
 <td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td>
-<td>Vacina Covid-19 ASTRAZENECA/FIOCRUZ - COVISHIELD, recombinante</td>
+<td>Vacina COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD, recombinante</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">86<a name="BRImunobiologico-86"> </a></td>
 <td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td>
@@ -659,20 +665,20 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">94<a name="BRImunobiologico-94"> </a></td>
 <td>DILCOV</td>
-<td>Diluente Covid-19</td>
+<td>Diluente COVID-19</td>
 <td></td></tr>
-<tr><td style="white-space:nowrap">95<a name="BRImunobiologico-95"> </a></td>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">95<a name="BRImunobiologico-95"> </a></td>
 <td>COVID-19 GAMALEYA - SPUTNIK V</td>
 <td>Vacina COVID-19 GAMALEYA - SPUTNIK V recombinante</td>
 <td>true</td></tr>
-<tr><td style="white-space:nowrap">96<a name="BRImunobiologico-96"> </a></td>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">96<a name="BRImunobiologico-96"> </a></td>
 <td>COVID-19 BHARAT - COVAXIN</td>
-<td>Vacina Covid-19 COVID-19 BHARAT - COVAXIN inativada</td>
+<td>Vacina COVID-19 BHARAT - COVAXIN inativada</td>
 <td>true</td></tr>
 <tr><td style="white-space:nowrap">97<a name="BRImunobiologico-97"> </a></td>
-<td>COVID-19 MODERNA</td>
-<td>Vacina COVID-19 MODERNA RNAm</td>
-<td>true</td></tr>
+<td>COVID-19 MODERNA - SPIKEVAX</td>
+<td>Vacina COVID-19-RNAm, Moderna (Spikevax)</td>
+<td></td></tr>
 <tr><td style="white-space:nowrap">98<a name="BRImunobiologico-98"> </a></td>
 <td>COVID-19 SINOVAC - CORONAVAC</td>
 <td>Vacina COVID-19 SINOVAC - CORONAVAC inativada</td>
@@ -701,13 +707,37 @@
 <td>DNG</td>
 <td>Vacina dengue (atenuada)</td>
 <td></td></tr>
-<tr><td style="white-space:nowrap">105<a name="BRImunobiologico-105"> </a></td>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">105<a name="BRImunobiologico-105"> </a></td>
 <td>COVID-19 MODERNA - SPIKEVAX BIVALENTE</td>
-<td>Vacina Covid-19-RNAm, Moderna (Spikevax) bivalente</td>
-<td></td></tr>
+<td>Vacina COVID-19-RNAm, Moderna (Spikevax) bivalente</td>
+<td>true</td></tr>
 <tr><td style="white-space:nowrap">106<a name="BRImunobiologico-106"> </a></td>
 <td>VPC15</td>
 <td>Vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">107<a name="BRImunobiologico-107"> </a></td>
+<td>VPC20</td>
+<td>Vacina Pneumo 20</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">108<a name="BRImunobiologico-108"> </a></td>
+<td>VVSR-Rec</td>
+<td>Vacina Vírus Sincicial Respiratório A e B (recombinante)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">109<a name="BRImunobiologico-109"> </a></td>
+<td>VVSR-RecAdj</td>
+<td>Vacina Vírus Sincicial Respiratório (recombinante, adjuvada)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">110<a name="BRImunobiologico-110"> </a></td>
+<td>INF4-alta dosagem</td>
+<td>Vacina Influenza Tetravalente - Alta Dosagem</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">111<a name="BRImunobiologico-111"> </a></td>
+<td>dTpa/VIP</td>
+<td>Vacina Tetra Acelular dTpa/VIP</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">112<a name="BRImunobiologico-112"> </a></td>
+<td>COVID-19 SERUM/ZALIKA</td>
+<td>Vacina Covid-19-recombinante, Serum/Zalika</td>
 <td></td></tr></table><p><b>Additional Language Displays</b></p>
 <table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr>
 <tr><td>1</td>
@@ -1027,6 +1057,24 @@
 <td></td></tr>
 <tr><td>106</td>
 <td></td>
+<td></td></tr>
+<tr><td>107</td>
+<td></td>
+<td></td></tr>
+<tr><td>108</td>
+<td></td>
+<td></td></tr>
+<tr><td>109</td>
+<td></td>
+<td></td></tr>
+<tr><td>110</td>
+<td></td>
+<td></td></tr>
+<tr><td>111</td>
+<td></td>
+<td></td></tr>
+<tr><td>112</td>
+<td></td>
 <td></td></tr></table></div>
 
   
@@ -1076,7 +1124,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

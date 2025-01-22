@@ -1,12 +1,16 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 5, warn = 36, info = 22-->
+<!-- broken links = 0, errors = 5, warn = 1, info = 2-->
 <head>
   <title>RACRNDSIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
   <style>
     span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
     span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    button { padding: 0px 8px; font-size: 12px; cursor: pointer; border-radius: 2px; border: 1px solid #ccc; background-color: #f0f0f0 }
+    button:hover { background-color: #e0e0e0; }
+    .code-value { display: inline; }
+    .code-hidden { display: none; }
     span.toggle  { font-size: 10px }
   </style>
   <script>
@@ -32,25 +36,47 @@
         span.innerHTML = 'Show Validation Information';
       }
     }
+    function toggleCodes() {
+      const codes = document.getElementsByClassName('code-value');
+      for (let code of codes) {
+        code.classList.toggle('code-hidden');
+      }
+    }
   </script>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RACRNDSIG</h1>
- <p>Generated Tue Oct 15 17:23:06 BRT 2024, FHIR version 4.0.1 for br.gov.saude.rnds.rac#0.1.0 (canonical = <a href="http://www.saude.gov.br/fhir/r4">http://www.saude.gov.br/fhir/r4</a> (<a href="http://www.saude.gov.br/fhir/r4/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Wed Jan 22 17:52:59 GMT-03:00 2025, FHIR version 4.0.1 for br.gov.saude.rnds.rac#0.1.0 (canonical = <a href="http://www.saude.gov.br/fhir/r4">http://www.saude.gov.br/fhir/r4</a> (<a href="http://www.saude.gov.br/fhir/r4/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.31</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.8.8</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = br.gov.saude.rnds.rac, Canonical = http://www.saude.gov.br/fhir/r4</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
- <tr><td>Publication Request:</td><td><ul><li>Error fetching package-list from http://www.saude.gov.br/fhir/r4: Error parsing JSON source: Unexpected content at start of JSON at Line 1 (path=[null]) from 'http://www.saude.gov.br/fhir/r4/package-list.json' <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+ <tr><td>Language Info:</td><td>Stated Languages: n/a. IG Resource Lang: pt-BR. 107 of 114 (93%) of resources have a language. <a href="https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-resource-language-policy">Population Policy</a>: NONE</td></tr>
+ <tr><td>Publication Request:</td><td><table class="grid">
+ <tr><td>path</d><td>http://www.saude.gov.br/fhir/r4/rac/v1.0.0</td></tr>
+ <tr><td>Pub-Mode</d><td>milestone</td></tr>
+ <tr><td>status</d><td>release</td></tr>
+ <tr><td>Release-Label</d><td>CI Build</td></tr>
+ <tr><td>Sequence (Group)</d><td>Releases</td></tr>
+ <tr><td>desc</d><td>1.0.0 Release</td></tr>
+ <tr><td>first</d><td>true</td></tr>
+ <tr><td>category</d><td>base</td></tr>
+ <tr><td>title</d><td>RAC IG</td></tr>
+ <tr><td>introduction</d><td>Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</td></tr>
+ <tr><td>ci-build</d><td>https://igorevan.github.io/rac-ig/</td></tr>
+</table>
+<ul><li>Error fetching package-list from http://www.saude.gov.br/fhir/r4: Error parsing JSON source: Unexpected content '<' in json format at Line 1 (path=[null]) <img src="icon-error.gif" height="16px" width="16px"/></li>
+<li>Publication Request is for 'br.gov.saude.rac.fhir' but package is br.gov.saude.rnds.rac <img src="icon-error.gif" height="16px" width="16px"/></li>
+<li>Publication Request is for v'1.0.0' but package version is v0.1.0 <img src="icon-error.gif" height="16px" width="16px"/></li>
+<li>Proposed path for this milestone publication should usually be canonical with either sequence or version appended <img src="icon-warning.png" height="16px" width="16px"/></li>
 </ul>
 </td></tr>
- <tr><td>Supressed Messages:</td><td><a href="#suppressed">23 Suppressed Issues</a>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">42 Suppressed Issues</a>
 </td></tr>
- <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Igor\rac-ig\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> br.gov.saude.rnds.rac</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://www.saude.gov.br/fhir/r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Igor\rac-ig\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">6.0.2 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/6.0.2</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Igor\rac-ig\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/5.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-</table><para>Templates: fhir.base.template#current. Tools: 0.2.0</para></div></td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/igor/rac-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> br.gov.saude.rnds.rac</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://www.saude.gov.br/fhir/r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/igor/rac-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">6.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/6.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/igor/rac-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/5.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current. Tools: 0.3.0</para></div></td></tr>
  <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
  <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
  <tr><td>Terminology Server(s):</td><td><a href="http://tx.fhir.org/r4">http://tx.fhir.org/r4</a> (<a href="qa-txservers.html">details</a>)</td></tr>
@@ -59,7 +85,8 @@
  <tr><td>Draft Dependencies:</td><td><ul>
   <li>
 hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-parameter-code.html">GuideParameterCode</a>
- (16 uses),     <a href="http://hl7.org/fhir/R4/allergyintolerance.html">AllergyIntolerance</a>
+ (16 uses),     <a href="http://hl7.org/fhir/R4/codesystem-concept-properties.html">FHIR Defined Concept Properties</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/allergyintolerance.html">AllergyIntolerance</a>
  (3 uses),     <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a>
  (15 uses),     <a href="http://hl7.org/fhir/R4/valueset-allergyintolerance-clinical.html">AllergyIntoleranceClinicalStatusCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-allergy-intolerance-type.html">AllergyIntoleranceType</a>
@@ -186,72 +213,36 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
   </li>
   <li>
 hl7.fhir.uv.extensions.r4#5.1.0:     <a href="http://hl7.org/fhir/extensions/5.1.0/StructureDefinition-structuredefinition-conformance-derivedFrom.html">SDStatusDerivation</a>
- (234 uses)
+ (222 uses)
   </li>
   <li>
-hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureDefinition-resource-sort.html">ResourceSortExt</a>
- (119 uses)
+hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/StructureDefinition-resource-sort.html">ResourceSortExt</a>
+ (113 uses)
   </li>
 </ul>
 </td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://www.saude.gov.br/fhir/r4 (Problem #1 with package-list.json at http://www.saude.gov.br/fhir/r4: Read timed out)</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://www.saude.gov.br/fhir/r4 (Problem #1 with package-list.json at http://www.saude.gov.br/fhir/r4: Error parsing JSON source: Unexpected content '<' in json format at Line 1 (path=[null]))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 5, warn = 36, info = 22, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 5, warn = 1, info = 2, broken links = 0.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Users_Igor_rac-ig_input_examples_Example-Bundle-RAC-Completo"><b>C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>2</b></td>
+     <td><a href="#_home_igor_rac-ig_input_examples_Example-Bundle-RAC-Completo"><b>/home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Users_Igor_rac-ig_input_examples_Example-Bundle-RAC-Completo-IndividuoNaoIdentificado"><b>C:\Users\Igor\rac-ig\input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado</b></a></td><td><b>2</b></td><td><b>3</b></td><td><b>2</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_CodeSystem-BRDadoAusenteOuDesconhecido"><b>C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRDadoAusenteOuDesconhecido</b></a></td><td><b>0</b></td><td><b>15</b></td><td><b>1</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_CodeSystem-BRPapelProblemaDiagnostico"><b>C:\Users\Igor\rac-ig\input\resources\CodeSystem-BRPapelProblemaDiagnostico</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRIntervaloDoses"><b>C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRIntervaloDoses</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_igor_rac-ig_input_examples_Example-Bundle-RAC-Completo-IndividuoNaoIdentificado"><b>/home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRMedicamento"><b>C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRMedicamento</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRObservacaoDescritiva-1.0"><b>C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRObservacaoDescritiva-1.0</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRProcedimentoRealizado-1.0"><b>C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRProcedimentoRealizado-1.0</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRTurno"><b>C:\Users\Igor\rac-ig\input\resources\StructureDefinition-BRTurno</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0"><b>C:\Users\Igor\rac-ig\input\resources\ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_ValueSet-BRMunicipio-1.0"><b>C:\Users\Igor\rac-ig\input\resources\ValueSet-BRMunicipio-1.0</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_ValueSet-BRPrescricaoNaoEstruturada"><b>C:\Users\Igor\rac-ig\input\resources\ValueSet-BRPrescricaoNaoEstruturada</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_ValueSet-BRTipoAtestado"><b>C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoAtestado</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_ValueSet-BRTipoIdentificadorProcedimento-1.0"><b>C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoIdentificadorProcedimento-1.0</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#C__Users_Igor_rac-ig_input_resources_ValueSet-BRTipoObservacao-1.0"><b>C:\Users\Igor\rac-ig\input\resources\ValueSet-BRTipoObservacao-1.0</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_igor_rac-ig_input_resources_StructureDefinition-BRMedicamento"><b>/home/igor/rac-ig/input/resources/StructureDefinition-BRMedicamento</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -259,19 +250,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
-   <tr style="background-color: #ffebcc">
-     <td><b>output\Bundle-bundle-example-rac-1.html</b></td><td><b>warning</b></td><td title=""><b>The html source has duplicate anchor Ids: 5df38718-3047-4e95-8a90-413ec48e741a,5df38718-3047-4e95-8a90-413ec48e741a-und,Composition_5df38718-3047-4e95-8a90-413ec48e741a,hc5df38718-3047-4e95-8a90-413ec48e741a</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>output\Bundle-bundle-example-rac-2.html</b></td><td><b>warning</b></td><td title=""><b>The html source has duplicate anchor Ids: 5df38718-3047-4e95-8a90-413ec48e741a,5df38718-3047-4e95-8a90-413ec48e741a-und,Composition_5df38718-3047-4e95-8a90-413ec48e741a,hc5df38718-3047-4e95-8a90-413ec48e741a</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>output\mi.html</b></td><td><b>warning</b></td><td title=""><b>The html source has duplicate anchor Ids: identificacao</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__Users_Igor_rac-ig_input_examples_Example-Bundle-RAC-Completo"> </a>
-<h2><a href="Bundle-bundle-example-rac-1.html">input\examples\Example-Bundle-RAC-Completo.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+<a name="_home_igor_rac-ig_input_examples_Example-Bundle-RAC-Completo"> </a>
+<h2><a href="Bundle-bundle-example-rac-1.html">input/examples/Example-Bundle-RAC-Completo.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-BRRegistroAtendimentoClinico.html">Registro de Atendimento Clínico</a></li></ul>
 </div>
  <table class="grid">
@@ -279,27 +261,18 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle&#8203;.entry[0]&#8203;.resource&#8203;.section[0] (l61&#8203;/c12)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl3" class="flip" onclick="flip('l3')">Show Reasoning</span><div id="l3" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado')</li></ul></div></td>
+     <td><b><a href="">Bundle&#8203;.entry[0]&#8203;.resource&#8203;.section[0] (l61&#8203;/c12)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl0" class="flip" onclick="flip('l0')">Show Reasoning</span><div id="l0" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado')</li></ul></div> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Details_for__matching_against_Profile_</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
+     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_Minimum_SLICE</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.status (l25&#8203;/c26)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.type&#8203;.coding[0]&#8203;.system (l26&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.category[0]&#8203;.coding[0]&#8203;.system (l35&#8203;/c12)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_Minimum_SLICE</span></td>
    </tr>
 </table>
 <hr/>
-<a name="C__Users_Igor_rac-ig_input_examples_Example-Bundle-RAC-Completo-IndividuoNaoIdentificado"> </a>
-<h2><a href="Bundle-bundle-example-rac-2.html">input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+<a name="_home_igor_rac-ig_input_examples_Example-Bundle-RAC-Completo-IndividuoNaoIdentificado"> </a>
+<h2><a href="Bundle-bundle-example-rac-2.html">input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-BRRegistroAtendimentoClinico.html">Registro de Atendimento Clínico</a></li></ul>
 </div>
  <table class="grid">
@@ -307,365 +280,94 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle&#8203;.entry[0]&#8203;.resource&#8203;.section[0] (l83&#8203;/c12)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl9" class="flip" onclick="flip('l9')">Show Reasoning</span><div id="l9" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado')</li></ul></div></td>
+     <td><b><a href="">Bundle&#8203;.entry[0]&#8203;.resource&#8203;.section[0] (l83&#8203;/c12)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl3" class="flip" onclick="flip('l3')">Show Reasoning</span><div id="l3" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0')</li>, <li>Bundle.entry[0].resource.section[0]: discriminator = true and entry.resolve().conformsTo('http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado')</li></ul></div> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Details_for__matching_against_Profile_</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
+     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_Minimum_SLICE</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.status (l25&#8203;/c26)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://hl7.org/fhir/composition-status|4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Bundle.entry[0].resource (l16/c8)</b></td><td><b>error</b></td><td><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_Minimum_SLICE</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.type&#8203;.coding[0]&#8203;.system (l26&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.category[0]&#8203;.coding[0]&#8203;.system (l35&#8203;/c12)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.subject (l44&#8203;/c10)</b></td><td><b>warning</b></td><td title="Reference_REF_NoDisplay"><b>A Reference without an actual reference or identifier should have a display</b></td>
+     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;.subject (l44&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A Reference without an actual reference or identifier should have a display</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_NoDisplay</span></td>
    </tr>
 </table>
 <hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_CodeSystem-BRDadoAusenteOuDesconhecido"> </a>
-<h2><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>CodeSystem</b></td><td><b>information</b></td><td title=""><b>CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[0]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma informação sobre alergias' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about allergies')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[1]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma alergia conhecida.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known allergies')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[1]&#8203;.concept[0]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhum medicamento para alergia conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known medication allergies')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[1]&#8203;.concept[1]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhum fator ambiental conhecido para uma dada alergia.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known environmental allergies')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[1]&#8203;.concept[2]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma alergia alimentar conhecida.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known food allergies')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[2]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma informação sobre algum dispositivo.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about devices')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[3]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhum dispositivo em uso' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known devices in use')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[4]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma informação sobre imunização' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about immunizations')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[5]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma informação sobre imunização.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known immunizations')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[6]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Sem informação de medicamentos.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about medications')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[7]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Sem medicação.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known medications')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[8]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma informação sobre o problema.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about problems')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[9]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhum problema conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known problems')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[10]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhuma informação sobre procedimento.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about past history of procedures')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[11]&#8203;.designation[0] (l1&#8203;/c11314)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Nenhum procedimento conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known procedures')</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_CodeSystem-BRPapelProblemaDiagnostico"> </a>
-<h2><a href="CodeSystem-BRPapelProblemaDiagnostico.html">input\resources\CodeSystem-BRPapelProblemaDiagnostico.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[0]&#8203;.designation[0] (l1&#8203;/c2753)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Diagnóstico não presente na admissão' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('Diagnosis not present on admission')</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem&#8203;.concept[1]&#8203;.designation[0] (l1&#8203;/c2753)</b></td><td><b>warning</b></td><td title="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"><b>The designation 'Desconhecido' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('Unknown')</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRIntervaloDoses"> </a>
-<h2><a href="StructureDefinition-BRIntervaloDoses.html">input\resources\StructureDefinition-BRIntervaloDoses.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.context[0]</b></td><td><b>warning</b></td><td title=""><b>Review the extension type for BRIntervaloDoses: extensions should not have a context of Element unless it's really intended that they can be used anywhere</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRMedicamento"> </a>
-<h2><a href="StructureDefinition-BRMedicamento.html">input\resources\StructureDefinition-BRMedicamento.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<a name="_home_igor_rac-ig_input_resources_StructureDefinition-BRMedicamento"> </a>
+<h2><a href="StructureDefinition-BRMedicamento.html">input/resources/StructureDefinition-BRMedicamento.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Medicamento.Medication.status</b></td><td><b>error</b></td><td title=""><b>Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRObservacaoDescritiva-1.0"> </a>
-<h2><a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">input\resources\StructureDefinition-BRObservacaoDescritiva-1.0.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.fixed&#8203;.ofType(CodeableConcept)</b></td><td><b>warning</b></td><td title=""><b>For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRProcedimentoRealizado-1.0"> </a>
-<h2><a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">input\resources\StructureDefinition-BRProcedimentoRealizado-1.0.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[18]&#8203;.fixed&#8203;.ofType(CodeableConcept)</b></td><td><b>warning</b></td><td title=""><b>For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_StructureDefinition-BRTurno"> </a>
-<h2><a href="StructureDefinition-BRTurno.html">input\resources\StructureDefinition-BRTurno.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.context[0]</b></td><td><b>warning</b></td><td title=""><b>Review the extension type for BRTurno: extensions should not have a context of Element unless it's really intended that they can be used anywhere</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0"> </a>
-<h2><a href="ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html">input\resources\ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose.include[0].concept[3]</b></td><td><b>warning</b></td><td title=""><b>The code 'other' is not valid in the system http://hl7.org/fhir/allergy-intolerance-category version * (other)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_ValueSet-BRMunicipio-1.0"> </a>
-<h2><a href="ValueSet-BRMunicipio-1.0.html">input\resources\ValueSet-BRMunicipio-1.0.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose.include[0].filter[0]</b></td><td><b>warning</b></td><td title=""><b>The value for a filter based on property 'type' must be a valid code from the system 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil', and 'city' is not (A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: [])</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_ValueSet-BRPrescricaoNaoEstruturada"> </a>
-<h2><a href="ValueSet-BRPrescricaoNaoEstruturada.html">input\resources\ValueSet-BRPrescricaoNaoEstruturada.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[0] (l1&#8203;/c3220)</b></td><td><b>warning</b></td><td title=""><b>The code 'no-medication-info' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-medication-info)</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[0] (l1&#8203;/c3220)</b></td><td><b>information</b></td><td title="A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []"><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose.include[0].concept[1]</b></td><td><b>warning</b></td><td title=""><b>The code 'no-known-medications' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-known-medications)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_ValueSet-BRTipoAtestado"> </a>
-<h2><a href="ValueSet-BRTipoAtestado.html">input\resources\ValueSet-BRTipoAtestado.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[0] (l1&#8203;/c2446)</b></td><td><b>warning</b></td><td title=""><b>The code 'ATM' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento version * (ATM)</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[0] (l1&#8203;/c2446)</b></td><td><b>information</b></td><td title="A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []"><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_ValueSet-BRTipoIdentificadorProcedimento-1.0"> </a>
-<h2><a href="ValueSet-BRTipoIdentificadorProcedimento-1.0.html">input\resources\ValueSet-BRTipoIdentificadorProcedimento-1.0.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[0] (l1&#8203;/c2732)</b></td><td><b>warning</b></td><td title=""><b>The code 'AUTH' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version * (AUTH)</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[0]&#8203;.concept[0] (l1&#8203;/c2732)</b></td><td><b>information</b></td><td title="A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []"><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Users_Igor_rac-ig_input_resources_ValueSet-BRTipoObservacao-1.0"> </a>
-<h2><a href="ValueSet-BRTipoObservacao-1.0.html">input\resources\ValueSet-BRTipoObservacao-1.0.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[1]&#8203;.concept[0] (l1&#8203;/c4762)</b></td><td><b>warning</b></td><td title=""><b>The code '0301100039' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS version * (0301100039)</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>ValueSet&#8203;.compose&#8203;.include[1]&#8203;.concept[0] (l1&#8203;/c4762)</b></td><td><b>information</b></td><td title="A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []"><b>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []</b></td>
+     <td><b>Medicamento.Medication.status</b></td><td><b>error</b></td><td><b>Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1</b><br/><br/><span style="display: block; border: 1px grey solid; border-radius: 5px; background-color: #eeeeee; padding: 3px; margin: 3px "><i><b>Editor's Comment</b>: Errors related to the RNDS CodeSystem specifications</i></span> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
 <p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
 <p><b>(And include comments like this justifying why)</b></p><ul>
  <li>An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide <span style="color: navy">(1 uses)<span></li>
- <li>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide <span style="color: navy">(1 uses)<span></li>
+ <li>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide <span style="color: navy">(1 uses)<span></li>
+ <li>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide <span style="color: maroon">(0 uses)<span></li>
  <li>Best Practice Recommendation: In general, all observations should have a performer <span style="color: maroon">(0 uses)<span></li>
  <li>Best Practice Recommendation: In general, all observations should have a subject <span style="color: maroon">(0 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0 on MedicationRequest.requester is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on AllergyIntolerance.patient is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on CarePlan.subject is valid constraint on the base because it is not known <span style="color: navy">(2 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on CarePlan.subject is valid constraint on the base because it is not known <span style="color: maroon">(0 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on Composition.subject is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on MedicationRequest.subject is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on Observation.subject is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0 on Composition.author is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
- <li>Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0 on MedicationRequest.recorder is valid constraint on the base because it is not known <span style="color: navy">(1 uses)<span></li>
  <li>The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide <span style="color: navy">(1 uses)<span></li>
  <li>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide <span style="color: navy">(1 uses)<span></li>
- <li>The Implementation Guide contains no examples for this extension <span style="color: navy">(4 uses)<span></li>
+ <li>The Implementation Guide contains no examples for this extension <span style="color: navy">(2 uses)<span></li>
  <li>The Implementation Guide contains no examples for this profile <span style="color: navy">(14 uses)<span></li>
  <li>The Implementation Guide contains no explicitly linked examples for this profile <span style="color: maroon">(0 uses)<span></li>
- <li>Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0 <span style="color: navy">(10 uses)<span></li>
- <li>Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 <span style="color: navy">(25 uses)<span></li>
- <li>Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0 <span style="color: navy">(4 uses)<span></li>
- <li>Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0 <span style="color: navy">(11 uses)<span></li>
- <li>Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0 <span style="color: navy">(4 uses)<span></li>
+</ul>
+<p><b>Errors related to the Patient, Practitioner and Organization Resources</b></p><ul>
+ <li>%StructureDefinition/BREstabelecimentoSaude-1.0% <span style="color: navy">(15 uses)<span></li>
+ <li>%StructureDefinition/BRIndividuo-1.0% <span style="color: navy">(37 uses)<span></li>
+ <li>%StructureDefinition/BRLotacaoProfissional-1.0% <span style="color: navy">(6 uses)<span></li>
+ <li>%StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0% <span style="color: navy">(16 uses)<span></li>
+ <li>%StructureDefinition/BRProfissional-1.0% <span style="color: navy">(6 uses)<span></li>
+</ul>
+<p><b>Errors related to the RNDS CodeSystem specifications</b></p><ul>
+ <li>%http://hl7.org/fhir/composition-status% <span style="color: navy">(2 uses)<span></li>
+ <li>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: [] <span style="color: navy">(1 uses)<span></li>
+ <li>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: [] <span style="color: navy">(1 uses)<span></li>
+ <li>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: [] <span style="color: navy">(1 uses)<span></li>
+ <li>A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: [] <span style="color: navy">(1 uses)<span></li>
+ <li>Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 <span style="color: navy">(1 uses)<span></li>
+ <li>CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly <span style="color: navy">(1 uses)<span></li>
+ <li>The code '0301100039' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS version * (0301100039) <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'ATM' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento version * (ATM) <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'AUTH' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version * (AUTH) <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'environment' is not a valid code in this code system <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'food' is not a valid code in this code system <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'no-known-medications' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-known-medications) <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'no-medication-info' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-medication-info) <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'organization' is not a valid code in this code system <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'other' is not valid in the system http://hl7.org/fhir/allergy-intolerance-category version * (other) <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'patient' is not a valid code in this code system <span style="color: navy">(1 uses)<span></li>
+ <li>The code 'procedure' is not a valid code in this code system <span style="color: navy">(1 uses)<span></li>
+ <li>The property uri 'http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references <span style="color: navy">(1 uses)<span></li>
+ <li>The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes <span style="color: navy">(2 uses)<span></li>
+ <li>The value set expansion is too large, and only a subset has been displayed <span style="color: navy">(6 uses)<span></li>
+ <li>This property has only a code ('ethnical') and not a URI, so it has no clearly defined meaning in the terminology ecosystem <span style="color: maroon">(0 uses)<span></li>
+ <li>This property has only a code ('healthcare') and not a URI, so it has no clearly defined meaning in the terminology ecosystem <span style="color: navy">(1 uses)<span></li>
+ <li>This property has only a code ('regulated') and not a URI, so it has no clearly defined meaning in the terminology ecosystem <span style="color: navy">(1 uses)<span></li>
+ <li>This property has only a code ('type') and not a URI, so it has no clearly defined meaning in the terminology ecosystem <span style="color: maroon">(0 uses)<span></li>
+ <li>This property has only a code ('use') and not a URI, so it has no clearly defined meaning in the terminology ecosystem <span style="color: navy">(1 uses)<span></li>
+</ul>
+<p><b>Errors related to the RNDS specifications</b></p><ul>
+ <li>For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance <span style="color: navy">(2 uses)<span></li>
 </ul>
 <a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
-<a name="CODESYSTEM_DESIGNATION_DISP_CLASH_LANG"> </a>
-<h2>CODESYSTEM_DESIGNATION_DISP_CLASH_LANG</h2>
- <table class="grid">
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma informação sobre alergias' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about allergies')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma alergia conhecida.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known allergies')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhum medicamento para alergia conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known medication allergies')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhum fator ambiental conhecido para uma dada alergia.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known environmental allergies')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma alergia alimentar conhecida.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known food allergies')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma informação sobre algum dispositivo.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about devices')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhum dispositivo em uso' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known devices in use')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma informação sobre imunização' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about immunizations')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma informação sobre imunização.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known immunizations')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Sem informação de medicamentos.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about medications')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Sem medicação.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known medications')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma informação sobre o problema.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about problems')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhum problema conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known problems')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhuma informação sobre procedimento.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No information about past history of procedures')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRDadoAusenteOuDesconhecido.html">input\resources\CodeSystem-BRDadoAusenteOuDesconhecido.json</a></td><td><b>The designation 'Nenhum procedimento conhecido.' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('No known procedures')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRPapelProblemaDiagnostico.html">input\resources\CodeSystem-BRPapelProblemaDiagnostico.json</a></td><td><b>The designation 'Diagnóstico não presente na admissão' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('Diagnosis not present on admission')</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="CodeSystem-BRPapelProblemaDiagnostico.html">input\resources\CodeSystem-BRPapelProblemaDiagnostico.json</a></td><td><b>The designation 'Desconhecido' has no use and is in the same language ('pt-BR'), so is not differentiated from the base display ('Unknown')</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="CODESYSTEM_PROPERTY_UNKNOWN_CODE"> </a>
-<h2>CODESYSTEM_PROPERTY_UNKNOWN_CODE</h2>
+<a name="Details_for__matching_against_Profile_"> </a>
+<h2>Details_for__matching_against_Profile_</h2>
  <table class="grid">
    <tr style="background-color: #fffff2">
-     <td><a href="CodeSystem-BRCBO.html">input\resources\CodeSystem-BRCBO.json</a></td><td><b>This property has only a code ('healthcare') and not a URI, so it has no clearly defined meaning in the terminology ecosystem</b></td>
+     <td><a href="Bundle-bundle-example-rac-1.html">input/examples/Example-Bundle-RAC-Completo.json</a></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
    </tr>
    <tr style="background-color: #fffff2">
-     <td><a href="CodeSystem-BRCBO.html">input\resources\CodeSystem-BRCBO.json</a></td><td><b>This property has only a code ('regulated') and not a URI, so it has no clearly defined meaning in the terminology ecosystem</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="CodeSystem-BRDivisaoGeograficaBrasil.html">input\resources\CodeSystem-BRDivisaoGeograficaBrasil.json</a></td><td><b>This property has only a code ('type') and not a URI, so it has no clearly defined meaning in the terminology ecosystem</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="CodeSystem-BRDivisaoGeograficaBrasil.html">input\resources\CodeSystem-BRDivisaoGeograficaBrasil.json</a></td><td><b>This property has only a code ('ethnical') and not a URI, so it has no clearly defined meaning in the terminology ecosystem</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="CodeSystem-BRImunobiologico.html">input\resources\CodeSystem-BRImunobiologico.json</a></td><td><b>This property has only a code ('inativo') and not a URI, so it has no clearly defined meaning in the terminology ecosystem</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="CodeSystem-BRTipoIdentificador.html">input\resources\CodeSystem-BRTipoIdentificador.json</a></td><td><b>This property has only a code ('use') and not a URI, so it has no clearly defined meaning in the terminology ecosystem</b></td>
+     <td><a href="Bundle-bundle-example-rac-2.html">input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
    </tr>
 </table>
 <hr/>
@@ -673,18 +375,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
 <h2>Reference_REF_NoDisplay</h2>
  <table class="grid">
    <tr style="background-color: #fff4ee">
-     <td><a href="Bundle-bundle-example-rac-2.html">input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>A Reference without an actual reference or identifier should have a display</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="This_element_does_not_match_any_known_slice_"> </a>
-<h2>This_element_does_not_match_any_known_slice_</h2>
- <table class="grid">
-   <tr style="background-color: #fffff2">
-     <td><a href="Bundle-bundle-example-rac-1.html">input\examples\Example-Bundle-RAC-Completo.json</a></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="Bundle-bundle-example-rac-2.html">input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
+     <td><a href="Bundle-bundle-example-rac-2.html">input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>A Reference without an actual reference or identifier should have a display</b></td>
    </tr>
 </table>
 <hr/>
@@ -692,16 +383,16 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
 <h2>Validation_VAL_Profile_Minimum_SLICE</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="Bundle-bundle-example-rac-1.html">input\examples\Example-Bundle-RAC-Completo.json</a></td><td><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
+     <td><a href="Bundle-bundle-example-rac-1.html">input/examples/Example-Bundle-RAC-Completo.json</a></td><td><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Bundle-bundle-example-rac-1.html">input\examples\Example-Bundle-RAC-Completo.json</a></td><td><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
+     <td><a href="Bundle-bundle-example-rac-1.html">input/examples/Example-Bundle-RAC-Completo.json</a></td><td><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Bundle-bundle-example-rac-2.html">input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
+     <td><a href="Bundle-bundle-example-rac-2.html">input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Bundle-bundle-example-rac-2.html">input\examples\Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
+     <td><a href="Bundle-bundle-example-rac-2.html">input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json</a></td><td><b>Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice</b></td>
    </tr>
 </table>
 </body>

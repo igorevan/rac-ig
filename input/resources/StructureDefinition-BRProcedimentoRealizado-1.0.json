@@ -640,7 +640,6 @@
       {
         "id": "Procedure.performer:practitioner",
         "path": "Procedure.performer",
-        "sliceName": "practitioner",
         "short": "Executante",
         "definition": "Permite identificar:\n- o(s) profissional(is) lotado(s) em um Estabelecimento de Saúde inscrito no CNES que realizou(aram) o procedimento, sua(s) respectiva(s) ocupação(ões) e o Estabelecimento de Saúde Terceiro (quando aplicável) - OPÇÃO PREFERENCIAL;\n- apenas a(s) ocupação(ões) do(s) profisssional(is) que realizou(aram) o procedimento, seu(s) Estabelecimento(s) de Saúde inscrito(s) no CNES e o Estabelecimento de Saúde Terceiro (quando aplicável) - OPÇÃO ALTERNATIVA quando o profissional não está inscrito no respectivo CNES ou o modelo de origem não disponha dessa informação;\n- apenas a(s) ocupação(ões) do(s) profisssional(is) que realizou(aram) o procedimento, a(s) organização(ões) identificada(s) pelo CNPJ (pessoa jurídica) ou CPF (profissional liberal) onde o procedimento foi realizado e o Estabelecimento de Saúde Terceiro (quando aplicável) - ÚLTIMA OPÇÃO, utilizar apenas quando o estabelecimento de saúde não possui inscrição no CNES ou o modelo de origem não disponha dessa informação.",
         "min": 1,

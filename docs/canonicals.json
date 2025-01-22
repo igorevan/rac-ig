@@ -56,13 +56,6 @@
     "name" : "BRDadoAusenteOuDesconhecido"
   },
   {
-    "id" : "BRDivisaoGeograficaBrasil",
-    "type" : "CodeSystem",
-    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
-    "version" : "0.1.0",
-    "name" : "BRDivisaoGeograficaBrasil"
-  },
-  {
     "id" : "BRFinanciamento",
     "type" : "CodeSystem",
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
@@ -159,13 +152,6 @@
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP",
     "version" : "0.1.0",
     "name" : "BRObmVMP"
-  },
-  {
-    "id" : "BRPais",
-    "type" : "CodeSystem",
-    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
-    "version" : "0.1.0",
-    "name" : "BRPais"
   },
   {
     "id" : "BRPapelProblemaDiagnostico",
@@ -364,13 +350,6 @@
     "name" : "BRMedidaObservada"
   },
   {
-    "id" : "BRMunicipio-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
-    "version" : "0.1.0",
-    "name" : "BRMunicipio"
-  },
-  {
     "id" : "BRObservacaoDescritiva-1.0",
     "type" : "StructureDefinition",
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0",
@@ -397,13 +376,6 @@
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes",
     "version" : "0.1.0",
     "name" : "BROutrasInformacoes"
-  },
-  {
-    "id" : "BRPais-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0",
-    "version" : "0.1.0",
-    "name" : "BRPais"
   },
   {
     "id" : "BRPlanoCuidados-1.0",
@@ -644,13 +616,6 @@
     "name" : "BRMotivoDesfecho"
   },
   {
-    "id" : "BRMunicipio-1.0",
-    "type" : "ValueSet",
-    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
-    "version" : "0.1.0",
-    "name" : "BRMunicipio"
-  },
-  {
     "id" : "BROcupacao-1.0",
     "type" : "ValueSet",
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
@@ -663,13 +628,6 @@
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
     "version" : "0.1.0",
     "name" : "BROrigemMedida"
-  },
-  {
-    "id" : "BRPais-1.0",
-    "type" : "ValueSet",
-    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
-    "version" : "0.1.0",
-    "name" : "BRPais"
   },
   {
     "id" : "BRPapelProblemaDiagnostico",

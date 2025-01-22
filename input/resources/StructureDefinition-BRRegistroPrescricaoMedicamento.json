@@ -1,12 +1,13 @@
 {
   "resourceType": "StructureDefinition",
   "id": "BRRegistroPrescricaoMedicamento",
-  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
   "language": "pt-BR",
+  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento",
   "version": "01.00",
   "name": "BRRegistroPrescricaoMedicamento",
   "title": "Registro de Prescrição de Medicamento",
   "status": "active",
+  "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
   "description": "Modelo que gera o documento de Registro de Prescrição de Medicamento",
   "fhirVersion": "4.0.1",
@@ -104,71 +105,6 @@
         "id": "Composition.subject.display",
         "path": "Composition.subject.display",
         "max": "0"
-      },
-      {
-        "id": "Composition.subject.extension",
-        "path": "Composition.subject.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
-        "id": "Composition.subject.extension:unidentifiedPatient",
-        "path": "Composition.subject.extension",
-        "sliceName": "unidentifiedPatient",
-        "short": "Dados do Indivíduo Não Identificado",
-        "min": 0,
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Composition.subject.extension:unidentifiedPatient.extension",
-        "path": "Composition.subject.extension.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 3
-      },
-      {
-        "id": "Composition.subject.extension:unidentifiedPatient.extension:gender",
-        "path": "Composition.subject.extension.extension",
-        "sliceName": "gender",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Composition.subject.extension:unidentifiedPatient.extension:birthYear",
-        "path": "Composition.subject.extension.extension",
-        "sliceName": "birthYear",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Composition.subject.extension:unidentifiedPatient.extension:reason",
-        "path": "Composition.subject.extension.extension",
-        "sliceName": "reason",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "Composition.encounter",

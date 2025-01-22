@@ -19,7 +19,7 @@
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-10-15T16:51:50-03:00"/>
+  <date value="2025-01-22T17:38:12-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -43,7 +43,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.0.2"/>
+    <version value="6.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -263,7 +263,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.2.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -745,26 +745,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRMunicipio-1.0"/>
-      </reference>
-      <name value="Município"/>
-      <description value="Extensão para informar um município."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRPais-1.0"/>
-      </reference>
-      <name value="País"/>
-      <description value="Extensão para representar um país."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -1112,26 +1092,6 @@
       </reference>
       <name value="Justificativa da Impossibilidade de Identificação do Indivíduo"/>
       <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRDivisaoGeograficaBrasil"/>
-      </reference>
-      <name value="Divisão Geográfica do Brasil"/>
-      <description value="As regiões geográficas, estados, distrito federal e municípios do Brasil."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRPais"/>
-      </reference>
-      <name value="País"/>
-      <description value="Códigos para representação de países."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1608,26 +1568,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRMunicipio-1.0"/>
-      </reference>
-      <name value="Município"/>
-      <description value="Municípios brasileiros, entes subnacionais."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/BRPais-1.0"/>
-      </reference>
-      <name value="País"/>
-      <description value="Códigos para representação de países."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/BREstadoDocumento-1.0"/>
       </reference>
       <name value="Estado do Documento"/>
@@ -1684,6 +1624,17 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Principal"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="abstract.html"/>
+        </extension>
+        <nameUrl value="abstract.html"/>
+        <title value="Abstract"/>
         <generation value="html"/>
       </page>
       <page>

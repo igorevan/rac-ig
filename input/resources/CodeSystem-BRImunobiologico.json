@@ -1,9 +1,6 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRImunobiologico",
-  "meta": {
-    "lastUpdated": "2021-01-20T14:39:24.326+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
   "version": "02.16",
@@ -18,7 +15,8 @@
   "content": "complete",
   "property": [
     {
-      "code": "inativo",
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
       "type": "boolean"
     }
   ],
@@ -114,7 +112,7 @@
       "definition": "Vacina raiva embrião de galinha",
       "property": [
         {
-          "code": "inativo",
+          "code": "inactive",
           "valueBoolean": true
         }
       ]
@@ -472,7 +470,7 @@
     {
       "code": "85",
       "display": "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD",
-      "definition": "Vacina Covid-19 ASTRAZENECA/FIOCRUZ - COVISHIELD, recombinante",
+      "definition": "Vacina COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD, recombinante",
       "designation": [
         {
           "language": "en",
@@ -567,7 +565,7 @@
     {
       "code": "94",
       "display": "DILCOV",
-      "definition": "Diluente Covid-19"
+      "definition": "Diluente COVID-19"
     },
     {
       "code": "95",
@@ -585,7 +583,7 @@
       ],
       "property": [
         {
-          "code": "inativo",
+          "code": "inactive",
           "valueBoolean": true
         }
       ]
@@ -593,7 +591,7 @@
     {
       "code": "96",
       "display": "COVID-19 BHARAT - COVAXIN",
-      "definition": "Vacina Covid-19 COVID-19 BHARAT - COVAXIN inativada",
+      "definition": "Vacina COVID-19 BHARAT - COVAXIN inativada",
       "designation": [
         {
           "language": "en",
@@ -606,15 +604,15 @@
       ],
       "property": [
         {
-          "code": "inativo",
+          "code": "inactive",
           "valueBoolean": true
         }
       ]
     },
     {
       "code": "97",
-      "display": "COVID-19 MODERNA",
-      "definition": "Vacina COVID-19 MODERNA RNAm",
+      "display": "COVID-19 MODERNA - SPIKEVAX",
+      "definition": "Vacina COVID-19-RNAm, Moderna (Spikevax)",
       "designation": [
         {
           "language": "en",
@@ -623,12 +621,6 @@
         {
           "language": "es",
           "value": "XM0GQ8 Vacuna COVID-19, basada en ARN"
-        }
-      ],
-      "property": [
-        {
-          "code": "inativo",
-          "valueBoolean": true
         }
       ]
     },
@@ -710,12 +702,48 @@
     {
       "code": "105",
       "display": "COVID-19 MODERNA - SPIKEVAX BIVALENTE",
-      "definition": "Vacina Covid-19-RNAm, Moderna (Spikevax) bivalente"
+      "definition": "Vacina COVID-19-RNAm, Moderna (Spikevax) bivalente",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
     },
     {
       "code": "106",
       "display": "VPC15",
       "definition": "Vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)"
+    },
+    {
+      "code": "107",
+      "display": "VPC20",
+      "definition": "Vacina Pneumo 20"
+    },
+    {
+      "code": "108",
+      "display": "VVSR-Rec",
+      "definition": "Vacina Vírus Sincicial Respiratório A e B (recombinante)"
+    },
+    {
+      "code": "109",
+      "display": "VVSR-RecAdj",
+      "definition": "Vacina Vírus Sincicial Respiratório (recombinante, adjuvada)"
+    },
+    {
+      "code": "110",
+      "display": "INF4-alta dosagem",
+      "definition": "Vacina Influenza Tetravalente - Alta Dosagem"
+    },
+    {
+      "code": "111",
+      "display": "dTpa/VIP",
+      "definition": "Vacina Tetra Acelular dTpa/VIP"
+    },
+    {
+      "code": "112",
+      "display": "COVID-19 SERUM/ZALIKA",
+      "definition": "Vacina Covid-19-recombinante, Serum/Zalika"
     }
   ]
 }

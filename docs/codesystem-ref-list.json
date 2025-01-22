@@ -143,10 +143,10 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
       "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
-      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-      "ValueSet-BROrigemMedida.html" : "Origem de Medição"
+      "ValueSet-BROrigemMedida.html" : "Origem de Medição",
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+      "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -261,8 +261,8 @@
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
       "uses" : {
       },
-      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
-      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
+      "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+      "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
@@ -296,17 +296,6 @@
       "uses" : {
       },
       "ValueSet-BRPrescricaoNaoEstruturada.html" : "Indicativo de prescrição não estruturada ou medicamento não identificado"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRDivisaoGeograficaBrasil",
-      "title" : "Divisão Geográfica do Brasil",
-      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil.",
-      "uses" : {
-      },
-      "ValueSet-BRMunicipio-1.0.html" : "Município"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
@@ -463,17 +452,6 @@
       "ValueSet-BRTerminologiaMedicamento.html" : "Terminologia dos medicamentos"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPais",
-      "title" : "País",
-      "description" : "Códigos para representação de países.",
-      "uses" : {
-      },
-      "ValueSet-BRPais-1.0.html" : "País"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",
       "version" : "0.1.0",
       "status" : "active",
@@ -526,8 +504,8 @@
       "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
       "uses" : {
       },
-      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
+      "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
+      "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
@@ -549,8 +527,8 @@
       "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
       "uses" : {
       },
-      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
-      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
+      "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
+      "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
@@ -605,8 +583,8 @@
       "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
       "uses" : {
       },
-      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
-      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
+      "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
+      "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

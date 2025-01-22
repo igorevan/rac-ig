@@ -85,9 +85,9 @@
       "uses" : {
       },
       "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
       "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
@@ -293,8 +293,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -309,9 +309,9 @@
       "uses" : {
       },
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
       "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -520,8 +520,8 @@
       "uses" : {
       },
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -536,17 +536,17 @@
       "uses" : {
       },
       "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -561,17 +561,17 @@
       "uses" : {
       },
       "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -585,21 +585,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-BRMedicamento.html" : "Medicamento",
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRMedicamento.html" : "Medicamento",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -677,8 +677,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.328"],
       "uses" : {
       },
-      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+      "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-status",
@@ -812,8 +812,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -827,8 +827,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -844,8 +844,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -1003,8 +1003,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -1020,8 +1020,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -1049,19 +1049,19 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+      "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
       "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico"
+      "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+      "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+      "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+      "StructureDefinition-BRRegistroAtendimentoClinico.html" : "Registro de Atendimento Clínico",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/route-codes",
@@ -1133,8 +1133,8 @@
       "uses" : {
       },
       "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRAtestado.html" : "Atestado Digital",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRAtestado.html" : "Atestado Digital"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
@@ -1415,8 +1415,8 @@
       "systems" : ["http://hl7.org/fhir/observation-status"],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -1565,20 +1565,6 @@
       "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRMunicipio",
-      "title" : "Município",
-      "description" : "Municípios brasileiros, entes subnacionais.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRMunicipio-1.0.html" : "Município"
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
       "version" : "0.1.0",
       "status" : "active",
@@ -1588,8 +1574,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
-      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação",
-      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado"
+      "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
+      "StructureDefinition-BROcupacao-1.0.html" : "Ocupação"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
@@ -1602,18 +1588,6 @@
       "uses" : {
       },
       "StructureDefinition-BROrigemMedida.html" : "Origem da Medição"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPais",
-      "title" : "País",
-      "description" : "Códigos para representação de países.",
-      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"],
-      "uses" : {
-      },
-      "StructureDefinition-BRPais-1.0.html" : "País"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
@@ -1822,8 +1796,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
+      "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
+      "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
@@ -1883,8 +1857,8 @@
       "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo"],
       "uses" : {
       },
-      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-      "StructureDefinition-BRIntervaloDoses.html" : "Intervalo de Doses"
+      "StructureDefinition-BRIntervaloDoses.html" : "Intervalo de Doses",
+      "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",

@@ -156,24 +156,6 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
-      "title": "Município",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
-      ]
-    },
-    {
       "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0",
       "title": "Ocupação",
       "types": [
@@ -207,24 +189,6 @@
       "title": "Outras Informações",
       "types": [
         "Annotation"
-      ]
-    },
-    {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0",
-      "title": "País",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
       ]
     },
     {
@@ -367,7 +331,8 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
-      "StructureDefinition.differential.element"
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "CodeSystem",
@@ -376,6 +341,7 @@
       "ImplementationGuide.definition.page.page",
       "StructureDefinition",
       "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element",
       "ValueSet"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [

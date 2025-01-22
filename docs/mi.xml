@@ -58,7 +58,8 @@
   </p>
   <ul>
     <li>
-      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação; </li>
+      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+    </li>
     <li>
       <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode
         aparecer:</p>
@@ -72,15 +73,19 @@
 
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada; </li>
+      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada;
+    </li>
     <li>
-      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido; </li>
+      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+    </li>
     <li>
       <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra
-      referente ao elemento; </li>
+      referente ao elemento;
+    </li>
     <li>
       <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os
-      atributos dos artefatos computacionais </li>
+      atributos dos artefatos computacionais
+    </li>
   </ul>
 
   <a name="blocos"> </a>
@@ -290,8 +295,8 @@
         <td>Número válido do Identificador Nacional de Equipe (INE) no CNES.</td>
         <td> </td>
         <td><a href="StructureDefinition-BRIdentificacaoEquipe-1.0.html">Identificador Nacional de
-          Equipe</a>, presente em <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato
-          Assistencial</a></td>
+            Equipe</a>, presente em <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato
+            Assistencial</a></td>
       </tr>
       <tr>
         <td>2</td>
@@ -435,13 +440,12 @@
         <td> </td>
         <td> </td>
         <td><a href="StructureDefinition-BRResponsavelAtendimento.html">Responsável pelo Atendimento</a>,
-          presente em <a
-            href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a></td>
+          presente em <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a></td>
       </tr>
     </tbody>
   </table>
 
-  <a name="identificacao"> </a>
+  <a name="atendimento"> </a>
   <h4>Motivo do Atendimento Estruturado</h4>
 
   <table class="grid">
@@ -699,8 +703,7 @@
           <a href="ValueSet-RoupasUsadasMedicao.html">Roupas Usadas na Medição</a>
         </td>
         <td><a href="StructureDefinition-BRRoupasUsadasMedicao.html">Roupas Usadas na Medição</a>,
-          presente em <a
-            href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></td>
+          presente em <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a></td>
       </tr>
       <tr>
         <td>3</td>

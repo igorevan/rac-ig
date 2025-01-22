@@ -5,47 +5,50 @@
 # (And include comments like this justifying why)
 
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-
 An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-
 An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
-
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-
 The Implementation Guide contains no examples for this profile
-
 The Implementation Guide contains no examples for this extension
-
 The Implementation Guide contains no explicitly linked examples for this profile
-
-Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0
-
-Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0
-
-Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0
-
-Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0
-
-Unable to resolve profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0
-
 Best Practice Recommendation: In general, all observations should have a subject
-
 Best Practice Recommendation: In general, all observations should have a performer
 
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on AllergyIntolerance.patient is valid constraint on the base because it is not known
+# Errors related to the Patient, Practitioner and Organization Resources
+%StructureDefinition/BRIndividuo-1.0%
+%StructureDefinition/BRProfissional-1.0%
+%StructureDefinition/BREstabelecimentoSaude-1.0%
+%StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0%
+%StructureDefinition/BRLotacaoProfissional-1.0%
 
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on CarePlan.subject is valid constraint on the base because it is not known
+# Errors related to the RNDS CodeSystem specifications
+The property uri 'http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+This property has only a code ('use') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+The code 'environment' is not a valid code in this code system
+The code 'food' is not a valid code in this code system
+The code 'procedure' is not a valid code in this code system
+The code 'patient' is not a valid code in this code system
+The code 'organization' is not a valid code in this code system
+This property has only a code ('healthcare') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+This property has only a code ('regulated') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+%http://hl7.org/fhir/composition-status%
+Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1
+The value set expansion is too large, and only a subset has been displayed
+The code 'other' is not valid in the system http://hl7.org/fhir/allergy-intolerance-category version * (other)
+CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+This property has only a code ('type') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+This property has only a code ('ethnical') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+The code 'ATM' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento version * (ATM)
+A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []
+The code 'AUTH' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version * (AUTH)
+A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []
+The code '0301100039' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS version * (0301100039)
+A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []
+The code 'no-medication-info' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-medication-info)
+A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []
+The code 'no-known-medications' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-known-medications)
 
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on Composition.subject is valid constraint on the base because it is not known
-
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0 on Composition.author is valid constraint on the base because it is not known
-
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on Observation.subject is valid constraint on the base because it is not known
-
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on CarePlan.subject is valid constraint on the base because it is not known
-
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0 on MedicationRequest.subject is valid constraint on the base because it is not known
-
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0 on MedicationRequest.requester is valid constraint on the base because it is not known
-
-Cannot check whether the target profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0 on MedicationRequest.recorder is valid constraint on the base because it is not known
+# Errors related to the RNDS specifications
+For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance

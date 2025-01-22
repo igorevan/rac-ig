@@ -65,14 +65,6 @@
       "description" : "Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."
     },
     {
-      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRDivisaoGeograficaBrasil",
-      "title" : "Divisão Geográfica do Brasil",
-      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil."
-    },
-    {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
       "version" : "0.1.0",
       "status" : "active",
@@ -183,14 +175,6 @@
       "name" : "BRObmVMP",
       "title" : "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)",
       "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
-      "version" : "0.1.0",
-      "status" : "active",
-      "name" : "BRPais",
-      "title" : "País",
-      "description" : "Códigos para representação de países."
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",

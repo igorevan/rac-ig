@@ -20,7 +20,7 @@
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-10-15T16:51:50-03:00",
+  "date" : "2025-01-22T17:38:12-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{
@@ -46,7 +46,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.0.2"
+    "version" : "6.1.0"
   },
   {
     "id" : "hl7ext",
@@ -347,7 +347,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
     },
     {
       "extension" : [{
@@ -935,28 +935,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BRMunicipio-1.0"
-      },
-      "name" : "Município",
-      "description" : "Extensão para informar um município."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BRPais-1.0"
-      },
-      "name" : "País",
-      "description" : "Extensão para representar um país."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1338,28 +1316,6 @@
       },
       "name" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
       "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/BRDivisaoGeograficaBrasil"
-      },
-      "name" : "Divisão Geográfica do Brasil",
-      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/BRPais"
-      },
-      "name" : "País",
-      "description" : "Códigos para representação de países."
     },
     {
       "extension" : [{
@@ -1884,28 +1840,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRMunicipio-1.0"
-      },
-      "name" : "Município",
-      "description" : "Municípios brasileiros, entes subnacionais."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/BRPais-1.0"
-      },
-      "name" : "País",
-      "description" : "Códigos para representação de países."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/BREstadoDocumento-1.0"
       },
       "name" : "Estado do Documento",
@@ -1969,6 +1903,19 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Principal",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "abstract.html"
+        }],
+        "nameUrl" : "abstract.html",
+        "title" : "Abstract",
         "generation" : "html"
       },
       {

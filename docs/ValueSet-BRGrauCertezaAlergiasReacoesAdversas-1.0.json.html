@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -42,10 +43,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.46"}
-    h3,h4,h5,h6{--heading-prefix:"10.46"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.44"}
+    h3,h4,h5,h6{--heading-prefix:"11.44"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -83,6 +85,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -123,8 +128,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -254,7 +259,7 @@
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.language">language</a>" : "pt-BR",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet BRGrauCertezaAlergiasReacoesAdversas-1.0&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BRGrauCertezaAlergiasReacoesAdversas-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBRGrauCertezaAlergiasReacoesAdversas-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;BRGrauCertezaAlergiasReacoesAdversas-1.0-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Last updated: 2020-09-20 20:38:00+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-allergyintolerance-verification.html\&quot;&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/allergyintolerance-verification&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed\&quot;&gt;unconfirmed&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Não confirmada&lt;/td&gt;&lt;td&gt;The propensity for a reaction to the identified substance has not been objectively verified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed\&quot;&gt;confirmed&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Confirmada&lt;/td&gt;&lt;td&gt;The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted\&quot;&gt;refuted&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Refutada&lt;/td&gt;&lt;td&gt;A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error\&quot;&gt;entered-in-error&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cancelada por informação errada&lt;/td&gt;&lt;td&gt;The statement was entered in error and is not valid.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet BRGrauCertezaAlergiasReacoesAdversas-1.0&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BRGrauCertezaAlergiasReacoesAdversas-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBRGrauCertezaAlergiasReacoesAdversas-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;BRGrauCertezaAlergiasReacoesAdversas-1.0-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Last updated: 2020-09-20 20:38:00+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html\&quot;&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/allergyintolerance-verification&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed\&quot;&gt;unconfirmed&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Não confirmada&lt;/td&gt;&lt;td&gt;The propensity for a reaction to the identified substance has not been objectively verified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed\&quot;&gt;confirmed&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Confirmada&lt;/td&gt;&lt;td&gt;The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted\&quot;&gt;refuted&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Refutada&lt;/td&gt;&lt;td&gt;A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error\&quot;&gt;entered-in-error&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cancelada por informação errada&lt;/td&gt;&lt;td&gt;The statement was entered in error and is not valid.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.extension">extension</a>" : [
     {
@@ -384,7 +389,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

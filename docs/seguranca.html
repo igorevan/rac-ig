@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -40,10 +41,11 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2"}
-    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -81,6 +83,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
   </li>
   <li>
     <a href="credenciamento.html">Credenciamento</a>
@@ -121,8 +126,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img src="external.png"
-            style="text-align: baseline" />
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png" style="text-align: baseline" />
         </a>
       </li>
       <li>
@@ -149,7 +154,7 @@
 
           <span style="float:right;">
 
-            <a href="index.html">&lt;prev</a> | 
+            <a href="abstract.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -196,7 +201,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <a name="seguranca"> </a>
   <h3>Segurança</h3>
   <p> Somente com uma solicitação de acesso aprovada será possível realizar o consumo dos serviços (<i>web
-    services</i>) do <i>EHR Services</i>. </p>
+      services</i>) do <i>EHR Services</i>. </p>
   <p> Após a aprovação, o primeiro passo para realizar o consumo dos serviços é realizar a
     autenticação utilizando o serviço <code>POST@/token</code> no componente <i>EHR Auth</i>.
     Durante o processo de autenticação é verificado se o certificado digital está dentro do período
@@ -204,7 +209,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <p> Caso não ocorra nenhum destes problemas, a operação de autenticação será realizada com sucesso
     e será retornado um <i>token</i> (<code>access_token</code>) com tempo de vida de 30 minutos.
     Este <i>token</i> deverá ser utilizado como token de autenticação nas chamadas dos serviços (<i>web
-    services</i>) do <i>EHR Services</i>. A estrutura do <i>token</i> retornado é a seguinte: </p>
+      services</i>) do <i>EHR Services</i>. A estrutura do <i>token</i> retornado é a seguinte: </p>
 
   <pre><code>{
       "access_token": "eyJraWQiOiJybmRzIGF...",
@@ -224,11 +229,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     usadas utilizando somente este, não gerando a degradação de performance relacionada ao uso do
     certificado digital. Por isso, recomenda-se reutilizar o "<i>ticket</i>" ao máximo durante seu
     tempo de vida e só então obter um novo token repetindo a operação de autenticação com “<i>Two-way
-    SSL</i>”.</p>
+      SSL</i>”.</p>
   <p>Na página da RNDS no <a href="https://servicos-datasus.saude.gov.br/">Portal de Serviços do
-    DATASUS</a> há um projeto de exemplo para obtenção do <i>token</i> utilizando a linguagem <a href="https://www.java.com/">
-      <i>Java</i>
-    </a>. </p>
+      DATASUS</a> há um projeto de exemplo para obtenção do <i>token</i> utilizando a linguagem <a href="https://www.java.com/"><i>Java</i></a>. </p>
 </div>
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -250,7 +253,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="index.html">&lt;prev</a>
+                <a href="abstract.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -268,7 +271,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 15, 2024 16:51-0300">2024-10-15</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
