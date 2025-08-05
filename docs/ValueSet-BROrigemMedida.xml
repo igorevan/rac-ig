@@ -7,24 +7,24 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet BROrigemMedida</b></p><a name="BROrigemMedida"> </a><a name="hcBROrigemMedida"> </a><a name="BROrigemMedida-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2022-05-23 08:50:09+0000; Language: pt-BR</p></div><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/3138-5/">3138-5</a></td><td>Relatado</td></tr><tr><td><a href="https://loinc.org/3137-7/">3137-7</a></td><td>Medido</td></tr></table></li></ul></div>
+    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: ValueSet BROrigemMedida</b></p><a name="BROrigemMedida"> </a><a name="hcBROrigemMedida"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-05-23 08:50:09+0000; Língua: pt-BR</p></div><ul><li>Include estes códigos, tal como definidos em <a href="http://loinc.org"><code>http://loinc.org</code></a> versão <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="https://loinc.org/3138-5/">3138-5</a></td><td>Relatado</td></tr><tr><td><a href="https://loinc.org/3137-7/">3137-7</a></td><td>Medido</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BROrigemMedida"/>
   <title value="Origem de Medição"/>
   <status value="active"/>

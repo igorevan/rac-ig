@@ -1,12 +1,12 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 5, warn = 1, info = 2
-IG Publisher Version: 1.8.8
-Generated Wed Jan 22 17:52:59 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saude.rnds.rac#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+err = 11, warn = 9, info = 10
+IG Publisher Version: 2.0.12
+Generated Tue Aug 05 10:30:54 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saude.rac.fhir#1.0.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 0 / 0
- /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo : 2 / 0 / 3
- /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 2 / 1 / 3
+ /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo : 2 / 2 / 3
+ /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 2 / 2 / 3
  /home/igor/rac-ig/input/myig : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/CodeSystem-BRAlergenosCBARA : 0 / 3 / 2
  /home/igor/rac-ig/input/resources/CodeSystem-BRCBHPMTUSS : 0 / 0 / 1
@@ -44,37 +44,37 @@ Generated Wed Jan 22 17:52:59 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saud
  /home/igor/rac-ig/input/resources/CodeSystem-BRUnidadeMedida : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/CodeSystem-BRUnidadeTempo : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/CodeSystem-BRViaAdministracao : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRAlergiaReacaoAdversa-1.0 : 0 / 4 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRAtestado : 0 / 4 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 0 / 4 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRAlergiaReacaoAdversa-1.0 : 0 / 6 / 2
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRAtestado : 0 / 6 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 0 / 6 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRCodigoSerialMedicamento : 0 / 1 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRConjuntoMinimoDados-1.1 : 0 / 7 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRContatoAssistencial-1.0 : 0 / 16 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRConjuntoMinimoDados-1.1 : 0 / 11 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRContatoAssistencial-1.0 : 0 / 26 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRFinanciamento-1.0 : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRIdentificacaoEquipe-1.0 : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRIndividuoNaoIdentificado-1.0 : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRIntervaloDoses : 0 / 0 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRIntervaloDoses : 0 / 0 / 2
  /home/igor/rac-ig/input/resources/StructureDefinition-BRLocalAtendimento-1.0 : 0 / 1 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRMedicamento : 1 / 1 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRMedidaObservada : 0 / 4 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRObservacaoDescritiva-1.0 : 0 / 5 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRMedidaObservada : 0 / 6 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRObservacaoDescritiva-1.0 : 0 / 7 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BROcupacao-1.0 : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BROrigemMedida : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BROutrasInformacoes : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRPlanoCuidados-1.0 : 0 / 4 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRPrescricaoMedicamento : 0 / 10 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRProblemaDiagnostico : 0 / 4 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRProcedimentoRealizado-1.0 : 0 / 20 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRPlanoCuidados-1.0 : 0 / 6 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRPrescricaoMedicamento : 0 / 16 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRProblemaDiagnostico : 0 / 6 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRProcedimentoRealizado-1.0 : 0 / 32 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRQuantidade-1.0 : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRRegistroAtendimentoClinico : 0 / 2 / 1
- /home/igor/rac-ig/input/resources/StructureDefinition-BRRegistroPrescricaoMedicamento : 0 / 10 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRRegistroAtendimentoClinico : 0 / 4 / 1
+ /home/igor/rac-ig/input/resources/StructureDefinition-BRRegistroPrescricaoMedicamento : 0 / 16 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRResponsavelAtendimento : 0 / 1 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRRoupasUsadasMedicao : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/StructureDefinition-BRTurno : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRAlergenos-1.0 : 0 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRCID10-1.0 : 0 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRCaraterAtendimento-1.0 : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0 : 0 / 1 / 1
+ /home/igor/rac-ig/input/resources/ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0 : 1 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRCategoriaCondicao : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRCategoriaDiagnostico : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0 : 0 / 0 / 1
@@ -99,7 +99,7 @@ Generated Wed Jan 22 17:52:59 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saud
  /home/igor/rac-ig/input/resources/ValueSet-BROrigemMedida : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRPapelProblemaDiagnostico : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRPosicaoIndividuo : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/ValueSet-BRPrescricaoNaoEstruturada : 0 / 2 / 2
+ /home/igor/rac-ig/input/resources/ValueSet-BRPrescricaoNaoEstruturada : 2 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRProblemaDiagnostico : 0 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRProcedencia-1.0 : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRProcedimentosNacionais-1.0 : 0 / 0 / 2
@@ -108,10 +108,10 @@ Generated Wed Jan 22 17:52:59 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saud
  /home/igor/rac-ig/input/resources/ValueSet-BRSexo-1.0 : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRTerminologiaMedicamento : 0 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRTipoAleitamentoMaterno-1.0 : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/ValueSet-BRTipoAtestado : 0 / 1 / 2
+ /home/igor/rac-ig/input/resources/ValueSet-BRTipoAtestado : 1 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 0 / 1
- /home/igor/rac-ig/input/resources/ValueSet-BRTipoIdentificadorProcedimento-1.0 : 0 / 1 / 2
- /home/igor/rac-ig/input/resources/ValueSet-BRTipoObservacao-1.0 : 0 / 1 / 2
+ /home/igor/rac-ig/input/resources/ValueSet-BRTipoIdentificadorProcedimento-1.0 : 1 / 0 / 2
+ /home/igor/rac-ig/input/resources/ValueSet-BRTipoObservacao-1.0 : 1 / 0 / 2
  /home/igor/rac-ig/input/resources/ValueSet-BRTipoSubstanciaUso-1.0 : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRTurno : 0 / 0 / 1
  /home/igor/rac-ig/input/resources/ValueSet-BRUnidadeConsumo : 0 / 0 / 1
@@ -122,23 +122,30 @@ Generated Wed Jan 22 17:52:59 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saud
 </table>
 == n/a ==
 == input/examples/Example-Bundle-RAC-Completo.json ==
-INFORMATION: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
+INFORMATION: Bundle/bundle-example-rac-1: Bundle.entry[0].resource.section[0]: Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0 (isto pode não ser um problema, mas deve verificar se não se destina a corresponder a uma fatia)
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
 == input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json ==
-INFORMATION: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.section[0]: This element does not match any known slice defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|0.1.0). Note that other slices are allowed in addition to this required slice
-WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: A Reference without an actual reference or identifier should have a display
+INFORMATION: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.section[0]: Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0 (isto pode não ser um problema, mas deve verificar se não se destina a corresponder a uma fatia)
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
+WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: Uma referência sem uma referência ou identificador real deve ter um ecrã
 == input/myig.xml ==
 == input/resources/CodeSystem-BRAlergenosCBARA.json ==
+WARNING: CodeSystem/BRAlergenosCBARA: CodeSystem.property[0]: A propriedade uri 'http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0' não é conhecida, pelo que os valores da propriedade não podem ser totalmente validados; a menos que especificado noutro local, os códigos serão tratados como referências internas
+INFORMATION: CodeSystem/BRAlergenosCBARA: CodeSystem.property[0]: O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma informação ValueSet, pelo que os códigos serão validados como códigos internos
+WARNING: CodeSystem/BRAlergenosCBARA: CodeSystem.concept[0].property[0]: O código 'environment' não é um código válido neste sistema de códigos
+WARNING: CodeSystem/BRAlergenosCBARA: CodeSystem.concept[4].property[0]: O código 'food' não é um código válido neste sistema de códigos
 == input/resources/CodeSystem-BRCBHPMTUSS.json ==
 == input/resources/CodeSystem-BRCBO.json ==
+INFORMATION: CodeSystem/BRCBO: CodeSystem.property[0]: Esta propriedade tem apenas um código ('healthcare') e não um URI, pelo que não tem um significado claramente definido no ecossistema terminológico
+INFORMATION: CodeSystem/BRCBO: CodeSystem.property[1]: Esta propriedade tem apenas um código ('regulated') e não um URI, pelo que não tem um significado claramente definido no ecossistema terminológico
 == input/resources/CodeSystem-BRCIAP2.json ==
 == input/resources/CodeSystem-BRCID10.json ==
 == input/resources/CodeSystem-BRCaraterAtendimento.json ==
 == input/resources/CodeSystem-BRCategoriaDiagnostico.json ==
 == input/resources/CodeSystem-BRDadoAusenteOuDesconhecido.json ==
+INFORMATION: CodeSystem/BRDadoAusenteOuDesconhecido: CodeSystem: Os sistemas de códigos DEVEM ter um valor declarado para o elemento hierarchyMeaning para que os utilizadores saibam claramente o estado e o significado do sistema de códigos
 == input/resources/CodeSystem-BRFinanciamento.json ==
 == input/resources/CodeSystem-BRFrequenciaUsoSubstancia.json ==
 == input/resources/CodeSystem-BRImunobiologico.json ==
@@ -161,6 +168,11 @@ WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: A Refere
 == input/resources/CodeSystem-BRTipoAleitamentoMaterno.json ==
 == input/resources/CodeSystem-BRTipoDocumento.json ==
 == input/resources/CodeSystem-BRTipoIdentificador.json ==
+INFORMATION: CodeSystem/BRTipoIdentificador: CodeSystem.property[0]: O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma informação ValueSet, pelo que os códigos serão validados como códigos internos
+INFORMATION: CodeSystem/BRTipoIdentificador: CodeSystem.property[0]: Esta propriedade tem apenas um código ('use') e não um URI, pelo que não tem um significado claramente definido no ecossistema terminológico
+WARNING: CodeSystem/BRTipoIdentificador: CodeSystem.concept[0].property[0]: O código 'procedure' não é um código válido neste sistema de códigos
+WARNING: CodeSystem/BRTipoIdentificador: CodeSystem.concept[1].property[0]: O código 'patient' não é um código válido neste sistema de códigos
+WARNING: CodeSystem/BRTipoIdentificador: CodeSystem.concept[27].property[0]: O código 'organization' não é um código válido neste sistema de códigos
 == input/resources/CodeSystem-BRTipoObservacao.json ==
 == input/resources/CodeSystem-BRTipoSubstanciaUso.json ==
 == input/resources/CodeSystem-BRTurno.json ==
@@ -168,6 +180,7 @@ WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: A Refere
 == input/resources/CodeSystem-BRUnidadeTempo.json ==
 == input/resources/CodeSystem-BRViaAdministracao.json ==
 == input/resources/StructureDefinition-BRAlergiaReacaoAdversa-1.0.json ==
+INFORMATION: StructureDefinition/BRAlergiaReacaoAdversa-1.0: StructureDefinition.snapshot.element[4].binding.extension[0]: O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot-tc1 está obsoleto com a nota Use additionalBinding extension or element instead
 == input/resources/StructureDefinition-BRAtestado.json ==
 == input/resources/StructureDefinition-BRCID10Avaliado-1.0.json ==
 == input/resources/StructureDefinition-BRCodigoSerialMedicamento.json ==
@@ -177,11 +190,13 @@ WARNING: Bundle/bundle-example-rac-2: Bundle.entry[0].resource.subject: A Refere
 == input/resources/StructureDefinition-BRIdentificacaoEquipe-1.0.json ==
 == input/resources/StructureDefinition-BRIndividuoNaoIdentificado-1.0.json ==
 == input/resources/StructureDefinition-BRIntervaloDoses.json ==
+INFORMATION: StructureDefinition/BRIntervaloDoses: StructureDefinition.snapshot.element[10].type[0].extension[1]: O extensão http://hl7.org/fhir/StructureDefinition/regex|5.3.0-ballot-tc1 está obsoleto com a nota This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 == input/resources/StructureDefinition-BRLocalAtendimento-1.0.json ==
 == input/resources/StructureDefinition-BRMedicamento.json ==
-ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1
+ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset
 == input/resources/StructureDefinition-BRMedidaObservada.json ==
 == input/resources/StructureDefinition-BRObservacaoDescritiva-1.0.json ==
+WARNING: StructureDefinition/BRObservacaoDescritiva-1.0: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): Para o tipo complexo CodeableConcept, considere a possibilidade de utilizar um padrão em vez de um valor fixo para evitar restringir demasiado a instância
 == input/resources/StructureDefinition-BROcupacao-1.0.json ==
 == input/resources/StructureDefinition-BROrigemMedida.json ==
 == input/resources/StructureDefinition-BROutrasInformacoes.json ==
@@ -189,6 +204,7 @@ ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/Va
 == input/resources/StructureDefinition-BRPrescricaoMedicamento.json ==
 == input/resources/StructureDefinition-BRProblemaDiagnostico.json ==
 == input/resources/StructureDefinition-BRProcedimentoRealizado-1.0.json ==
+WARNING: StructureDefinition/BRProcedimentoRealizado-1.0: StructureDefinition.snapshot.element[18].fixed.ofType(CodeableConcept): Para o tipo complexo CodeableConcept, considere a possibilidade de utilizar um padrão em vez de um valor fixo para evitar restringir demasiado a instância
 == input/resources/StructureDefinition-BRQuantidade-1.0.json ==
 == input/resources/StructureDefinition-BRRegistroAtendimentoClinico.json ==
 == input/resources/StructureDefinition-BRRegistroPrescricaoMedicamento.json ==
@@ -199,6 +215,7 @@ ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/Va
 == input/resources/ValueSet-BRCID10-1.0.json ==
 == input/resources/ValueSet-BRCaraterAtendimento-1.0.json ==
 == input/resources/ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.json ==
+ERROR: ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0: ValueSet.compose.include[0].concept[3]: O código 'other' não é válido no sistema http://hl7.org/fhir/allergy-intolerance-category versão * (other)
 == input/resources/ValueSet-BRCategoriaCondicao.json ==
 == input/resources/ValueSet-BRCategoriaDiagnostico.json ==
 == input/resources/ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0.json ==
@@ -224,6 +241,8 @@ ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/Va
 == input/resources/ValueSet-BRPapelProblemaDiagnostico.json ==
 == input/resources/ValueSet-BRPosicaoIndividuo.json ==
 == input/resources/ValueSet-BRPrescricaoNaoEstruturada.json ==
+ERROR: ValueSet/BRPrescricaoNaoEstruturada: ValueSet.compose.include[0].concept[0]: O código 'no-medication-info' não é válido no sistema http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido versão * (no-medication-info)
+ERROR: ValueSet/BRPrescricaoNaoEstruturada: ValueSet.compose.include[0].concept[1]: O código 'no-known-medications' não é válido no sistema http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido versão * (no-known-medications)
 == input/resources/ValueSet-BRProblemaDiagnostico.json ==
 == input/resources/ValueSet-BRProcedencia-1.0.json ==
 == input/resources/ValueSet-BRProcedimentosNacionais-1.0.json ==
@@ -233,9 +252,12 @@ ERROR: Medicamento.Medication.status: Binding http://www.saude.gov.br/fhir/r4/Va
 == input/resources/ValueSet-BRTerminologiaMedicamento.json ==
 == input/resources/ValueSet-BRTipoAleitamentoMaterno-1.0.json ==
 == input/resources/ValueSet-BRTipoAtestado.json ==
+ERROR: ValueSet/BRTipoAtestado: ValueSet.compose.include[0].concept[0]: O código 'ATM' não é válido no sistema http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento versão * (ATM)
 == input/resources/ValueSet-BRTipoDocumento-1.0.json ==
 == input/resources/ValueSet-BRTipoIdentificadorProcedimento-1.0.json ==
+ERROR: ValueSet/BRTipoIdentificadorProcedimento-1.0: ValueSet.compose.include[0].concept[0]: O código 'AUTH' não é válido no sistema http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador versão * (AUTH)
 == input/resources/ValueSet-BRTipoObservacao-1.0.json ==
+ERROR: ValueSet/BRTipoObservacao-1.0: ValueSet.compose.include[1].concept[0]: O código '0301100039' não é válido no sistema http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS versão * (0301100039)
 == input/resources/ValueSet-BRTipoSubstanciaUso-1.0.json ==
 == input/resources/ValueSet-BRTurno.json ==
 == input/resources/ValueSet-BRUnidadeConsumo.json ==

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Catálogo Brasileiro de Alergias e Reações Adversas (CBARA) - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v0.1.0</title>
+    <title>Catálogo Brasileiro de Alergias e Reações Adversas (CBARA) - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,11 +52,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - CI Build
+            <span style="display:inline-block;">1.0.0 - CI Build
 
 
 
-  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+  <span title="">BR</span>
 
 
             </span>
@@ -173,7 +173,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">!!Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Compilação de desenvolvimento local (v1.0.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='http://www.saude.gov.br/fhir/r4/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
   
 
 
@@ -220,13 +220,13 @@
 
   </h2>
 
-  <table class="colstu">
+  <table class="colsi">
 
     <tr>
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA|0.1.0"/></span>
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA|1.0.0"/></span>
       </td>
     </tr>
 
@@ -244,6 +244,7 @@
             
             Standards status:
           </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
+          
           
         
       </td>
@@ -283,318 +284,470 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRAlergenosCBARA</b></p><a name="BRAlergenosCBARA"> </a><a name="hcBRAlergenosCBARA"> </a><a name="BRAlergenosCBARA-und"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2022-12-02 15:11:07+0000; Language: pt-BR</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
-<table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr>
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"></p><a name="BRAlergenosCBARA"> </a><a name="hcBRAlergenosCBARA"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-12-02 15:11:07+0000; Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p>
+<table class="grid"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td></tr>
 <tr><td>category</td>
 <td>category</td>
 <td>http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0</td>
-<td>code</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<td>code</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA</code> define o seguinte códigos:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>category</b></td></tr>
 <tr><td style="white-space:nowrap">abelha<a name="BRAlergenosCBARA-abelha"> </a></td>
-<td>Abelha</td></tr>
+<td>Abelha</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">acaro<a name="BRAlergenosCBARA-acaro"> </a></td>
-<td>Ácaros</td></tr>
+<td>Ácaros</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">acido-azelaico<a name="BRAlergenosCBARA-acido-azelaico"> </a></td>
-<td>Ácido azelaico</td></tr>
+<td>Ácido azelaico</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">adesivo<a name="BRAlergenosCBARA-adesivo"> </a></td>
-<td>Adesivos</td></tr>
+<td>Adesivos</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">aditivo-alimentar<a name="BRAlergenosCBARA-aditivo-alimentar"> </a></td>
-<td>Aditivos alimentares</td></tr>
+<td>Aditivos alimentares</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">agente-fisico<a name="BRAlergenosCBARA-agente-fisico"> </a></td>
-<td>Agentes físicos</td></tr>
+<td>Agentes físicos</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">aipo<a name="BRAlergenosCBARA-aipo"> </a></td>
-<td>Aipo</td></tr>
+<td>Aipo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">alcool-polivinilico<a name="BRAlergenosCBARA-alcool-polivinilico"> </a></td>
-<td>Álcool polivinílico</td></tr>
+<td>Álcool polivinílico</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">alho<a name="BRAlergenosCBARA-alho"> </a></td>
-<td>Alho</td></tr>
+<td>Alho</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">aluminio<a name="BRAlergenosCBARA-aluminio"> </a></td>
-<td>Alumínio</td></tr>
+<td>Alumínio</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">ambrosia<a name="BRAlergenosCBARA-ambrosia"> </a></td>
-<td>Ambrósia</td></tr>
+<td>Ambrósia</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">amendoim<a name="BRAlergenosCBARA-amendoim"> </a></td>
-<td>Amendoim</td></tr>
+<td>Amendoim</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">antralina<a name="BRAlergenosCBARA-antralina"> </a></td>
-<td>Antralina</td></tr>
+<td>Antralina</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">aranha<a name="BRAlergenosCBARA-aranha"> </a></td>
-<td>Aranha</td></tr>
+<td>Aranha</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">areia<a name="BRAlergenosCBARA-areia"> </a></td>
-<td>Areia</td></tr>
+<td>Areia</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">arroz<a name="BRAlergenosCBARA-arroz"> </a></td>
-<td>Arroz</td></tr>
+<td>Arroz</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">arvore<a name="BRAlergenosCBARA-arvore"> </a></td>
-<td>Árvores</td></tr>
+<td>Árvores</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">aspartame<a name="BRAlergenosCBARA-aspartame"> </a></td>
-<td>Aspartame</td></tr>
+<td>Aspartame</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">atum<a name="BRAlergenosCBARA-atum"> </a></td>
-<td>Atum</td></tr>
+<td>Atum</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">aveia<a name="BRAlergenosCBARA-aveia"> </a></td>
-<td>Aveia</td></tr>
+<td>Aveia</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">avela<a name="BRAlergenosCBARA-avela"> </a></td>
-<td>Avelã</td></tr>
+<td>Avelã</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">bacalhau<a name="BRAlergenosCBARA-bacalhau"> </a></td>
-<td>Bacalhau</td></tr>
+<td>Bacalhau</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">banana<a name="BRAlergenosCBARA-banana"> </a></td>
-<td>Banana</td></tr>
+<td>Banana</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">barata<a name="BRAlergenosCBARA-barata"> </a></td>
-<td>Barata</td></tr>
+<td>Barata</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">batata<a name="BRAlergenosCBARA-batata"> </a></td>
-<td>Batata</td></tr>
+<td>Batata</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">baunilha<a name="BRAlergenosCBARA-baunilha"> </a></td>
-<td>Baunilha</td></tr>
+<td>Baunilha</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">borracha<a name="BRAlergenosCBARA-borracha"> </a></td>
-<td>Borracha</td></tr>
+<td>Borracha</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">camarao<a name="BRAlergenosCBARA-camarao"> </a></td>
-<td>Camarão</td></tr>
+<td>Camarão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">canela<a name="BRAlergenosCBARA-canela"> </a></td>
-<td>Canela</td></tr>
+<td>Canela</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">caracol<a name="BRAlergenosCBARA-caracol"> </a></td>
-<td>Caracol</td></tr>
+<td>Caracol</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">caranguejo<a name="BRAlergenosCBARA-caranguejo"> </a></td>
-<td>Caranguejo</td></tr>
+<td>Caranguejo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">carbaril<a name="BRAlergenosCBARA-carbaril"> </a></td>
-<td>Carbaril</td></tr>
+<td>Carbaril</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">carne<a name="BRAlergenosCBARA-carne"> </a></td>
-<td>Carne</td></tr>
+<td>Carne</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">carne-ave<a name="BRAlergenosCBARA-carne-ave"> </a></td>
-<td>Carne de aves</td></tr>
+<td>Carne de aves</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">carne-vermelha<a name="BRAlergenosCBARA-carne-vermelha"> </a></td>
-<td>Carne vermelha</td></tr>
+<td>Carne vermelha</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">castanha<a name="BRAlergenosCBARA-castanha"> </a></td>
-<td>Castanhas</td></tr>
+<td>Castanhas</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">castanha-caju<a name="BRAlergenosCBARA-castanha-caju"> </a></td>
-<td>Castanha de caju</td></tr>
+<td>Castanha de caju</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cebola<a name="BRAlergenosCBARA-cebola"> </a></td>
-<td>Cebola</td></tr>
+<td>Cebola</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cenoura<a name="BRAlergenosCBARA-cenoura"> </a></td>
-<td>Cenoura</td></tr>
+<td>Cenoura</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">centeio<a name="BRAlergenosCBARA-centeio"> </a></td>
-<td>Centeio</td></tr>
+<td>Centeio</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cereal<a name="BRAlergenosCBARA-cereal"> </a></td>
-<td>Cereal</td></tr>
+<td>Cereal</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cereja<a name="BRAlergenosCBARA-cereja"> </a></td>
-<td>Cereja</td></tr>
+<td>Cereja</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">chocolate<a name="BRAlergenosCBARA-chocolate"> </a></td>
-<td>Chocolate</td></tr>
+<td>Chocolate</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">citrato<a name="BRAlergenosCBARA-citrato"> </a></td>
-<td>Citrato</td></tr>
+<td>Citrato</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">clara-ovo<a name="BRAlergenosCBARA-clara-ovo"> </a></td>
-<td>Clara do ovo</td></tr>
+<td>Clara do ovo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cloreto-metilbenzetonio<a name="BRAlergenosCBARA-cloreto-metilbenzetonio"> </a></td>
-<td>Cloreto de Metilbenzetônio</td></tr>
+<td>Cloreto de Metilbenzetônio</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">cobre<a name="BRAlergenosCBARA-cobre"> </a></td>
-<td>Cobre</td></tr>
+<td>Cobre</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">coco<a name="BRAlergenosCBARA-coco"> </a></td>
-<td>Coco</td></tr>
+<td>Coco</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">coelho<a name="BRAlergenosCBARA-coelho"> </a></td>
-<td>Coelho</td></tr>
+<td>Coelho</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cogumelo<a name="BRAlergenosCBARA-cogumelo"> </a></td>
-<td>Cogumelos</td></tr>
+<td>Cogumelos</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">cola<a name="BRAlergenosCBARA-cola"> </a></td>
-<td>Cola</td></tr>
+<td>Cola</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">contato-metal<a name="BRAlergenosCBARA-contato-metal"> </a></td>
-<td>Contato com Metal</td></tr>
+<td>Contato com Metal</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">cosmetico<a name="BRAlergenosCBARA-cosmetico"> </a></td>
-<td>Cosméticos</td></tr>
+<td>Cosméticos</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">cravo-india<a name="BRAlergenosCBARA-cravo-india"> </a></td>
-<td>Cravo-da- Índia</td></tr>
+<td>Cravo-da- Índia</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">crustaceo<a name="BRAlergenosCBARA-crustaceo"> </a></td>
-<td>Crustáceos</td></tr>
+<td>Crustáceos</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">curry<a name="BRAlergenosCBARA-curry"> </a></td>
-<td>Curry</td></tr>
+<td>Curry</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">enxofre<a name="BRAlergenosCBARA-enxofre"> </a></td>
-<td>Enxofre</td></tr>
+<td>Enxofre</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">erva-aromatica-especiaria<a name="BRAlergenosCBARA-erva-aromatica-especiaria"> </a></td>
-<td>Ervas aromáticas e especiarias</td></tr>
+<td>Ervas aromáticas e especiarias</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">erva-daninha<a name="BRAlergenosCBARA-erva-daninha"> </a></td>
-<td>Ervas daninhas</td></tr>
+<td>Ervas daninhas</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">etanolamina<a name="BRAlergenosCBARA-etanolamina"> </a></td>
-<td>Etanolamina</td></tr>
+<td>Etanolamina</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">farinha<a name="BRAlergenosCBARA-farinha"> </a></td>
-<td>Farinha</td></tr>
+<td>Farinha</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">feijao<a name="BRAlergenosCBARA-feijao"> </a></td>
-<td>Feijão</td></tr>
+<td>Feijão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">ferro<a name="BRAlergenosCBARA-ferro"> </a></td>
-<td>Ferro</td></tr>
+<td>Ferro</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">figo<a name="BRAlergenosCBARA-figo"> </a></td>
-<td>Figos</td></tr>
+<td>Figos</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">framboesa<a name="BRAlergenosCBARA-framboesa"> </a></td>
-<td>Framboesa</td></tr>
+<td>Framboesa</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">fruta-citrica<a name="BRAlergenosCBARA-fruta-citrica"> </a></td>
-<td>Frutas cítricas</td></tr>
+<td>Frutas cítricas</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">gengibre<a name="BRAlergenosCBARA-gengibre"> </a></td>
-<td>Gengibre</td></tr>
+<td>Gengibre</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">glutamato<a name="BRAlergenosCBARA-glutamato"> </a></td>
-<td>Glutamato</td></tr>
+<td>Glutamato</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">grama<a name="BRAlergenosCBARA-grama"> </a></td>
-<td>Grama</td></tr>
+<td>Grama</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">grao<a name="BRAlergenosCBARA-grao"> </a></td>
-<td>Grão</td></tr>
+<td>Grão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">grao-soja<a name="BRAlergenosCBARA-grao-soja"> </a></td>
-<td>Grãos de soja</td></tr>
+<td>Grãos de soja</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">kiwi<a name="BRAlergenosCBARA-kiwi"> </a></td>
-<td>Kiwi</td></tr>
+<td>Kiwi</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">la<a name="BRAlergenosCBARA-la"> </a></td>
-<td>Lã</td></tr>
+<td>Lã</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">lagosta<a name="BRAlergenosCBARA-lagosta"> </a></td>
-<td>Lagosta</td></tr>
+<td>Lagosta</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">lambreta<a name="BRAlergenosCBARA-lambreta"> </a></td>
-<td>Lambreta</td></tr>
+<td>Lambreta</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">lanolina<a name="BRAlergenosCBARA-lanolina"> </a></td>
-<td>Lanolina</td></tr>
+<td>Lanolina</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">laranja<a name="BRAlergenosCBARA-laranja"> </a></td>
-<td>Laranja</td></tr>
+<td>Laranja</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">latao<a name="BRAlergenosCBARA-latao"> </a></td>
-<td>Latão</td></tr>
+<td>Latão</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">latex<a name="BRAlergenosCBARA-latex"> </a></td>
-<td>Látex</td></tr>
+<td>Látex</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">laticinio<a name="BRAlergenosCBARA-laticinio"> </a></td>
-<td>Laticínios</td></tr>
+<td>Laticínios</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">leguminosa<a name="BRAlergenosCBARA-leguminosa"> </a></td>
-<td>Leguminosas</td></tr>
+<td>Leguminosas</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">lima<a name="BRAlergenosCBARA-lima"> </a></td>
-<td>Lima</td></tr>
+<td>Lima</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">limao<a name="BRAlergenosCBARA-limao"> </a></td>
-<td>Limão</td></tr>
+<td>Limão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">lula<a name="BRAlergenosCBARA-lula"> </a></td>
-<td>Lula</td></tr>
+<td>Lula</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">maca<a name="BRAlergenosCBARA-maca"> </a></td>
-<td>Maçã</td></tr>
+<td>Maçã</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">madeira<a name="BRAlergenosCBARA-madeira"> </a></td>
-<td>Madeira</td></tr>
+<td>Madeira</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">manga<a name="BRAlergenosCBARA-manga"> </a></td>
-<td>Manga</td></tr>
+<td>Manga</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">manteiga-cacau<a name="BRAlergenosCBARA-manteiga-cacau"> </a></td>
-<td>Manteiga de cacau</td></tr>
+<td>Manteiga de cacau</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">marisco<a name="BRAlergenosCBARA-marisco"> </a></td>
-<td>Marisco</td></tr>
+<td>Marisco</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">material-dentario-policarboneto<a name="BRAlergenosCBARA-material-dentario-policarboneto"> </a></td>
-<td>Material dentário em policarboneto</td></tr>
+<td>Material dentário em policarboneto</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">material-sutura<a name="BRAlergenosCBARA-material-sutura"> </a></td>
-<td>Material de sutura</td></tr>
+<td>Material de sutura</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">melancia<a name="BRAlergenosCBARA-melancia"> </a></td>
-<td>Melancia</td></tr>
+<td>Melancia</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">melao<a name="BRAlergenosCBARA-melao"> </a></td>
-<td>Melão</td></tr>
+<td>Melão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">mexilhao<a name="BRAlergenosCBARA-mexilhao"> </a></td>
-<td>Mexilhão</td></tr>
+<td>Mexilhão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">milho<a name="BRAlergenosCBARA-milho"> </a></td>
-<td>Milho</td></tr>
+<td>Milho</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">mirtilo<a name="BRAlergenosCBARA-mirtilo"> </a></td>
-<td>Mirtilos</td></tr>
+<td>Mirtilos</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">morango<a name="BRAlergenosCBARA-morango"> </a></td>
-<td>Morango</td></tr>
+<td>Morango</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">mostarda<a name="BRAlergenosCBARA-mostarda"> </a></td>
-<td>Mostarda</td></tr>
+<td>Mostarda</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">niquel<a name="BRAlergenosCBARA-niquel"> </a></td>
-<td>Níquel</td></tr>
+<td>Níquel</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">noz<a name="BRAlergenosCBARA-noz"> </a></td>
-<td>Nozes</td></tr>
+<td>Nozes</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">noz-moscada<a name="BRAlergenosCBARA-noz-moscada"> </a></td>
-<td>Noz moscada</td></tr>
+<td>Noz moscada</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">oleo-eucalipto<a name="BRAlergenosCBARA-oleo-eucalipto"> </a></td>
-<td>Óleo de eucalipto</td></tr>
+<td>Óleo de eucalipto</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">oleo-peixe<a name="BRAlergenosCBARA-oleo-peixe"> </a></td>
-<td>Óleo de Peixe</td></tr>
+<td>Óleo de Peixe</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">organofosfato<a name="BRAlergenosCBARA-organofosfato"> </a></td>
-<td>Organofosfatos</td></tr>
+<td>Organofosfatos</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">ostra<a name="BRAlergenosCBARA-ostra"> </a></td>
-<td>Ostra</td></tr>
+<td>Ostra</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">ouro<a name="BRAlergenosCBARA-ouro"> </a></td>
-<td>Ouro</td></tr>
+<td>Ouro</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">outro-agente-substancia<a name="BRAlergenosCBARA-outro-agente-substancia"> </a></td>
-<td>Outros agentes ou substâncias</td></tr>
+<td>Outros agentes ou substâncias</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">outro-alimento<a name="BRAlergenosCBARA-outro-alimento"> </a></td>
-<td>Outro alimento</td></tr>
+<td>Outro alimento</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">paprica<a name="BRAlergenosCBARA-paprica"> </a></td>
-<td>Páprica</td></tr>
+<td>Páprica</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">parafina<a name="BRAlergenosCBARA-parafina"> </a></td>
-<td>Parafina</td></tr>
+<td>Parafina</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">peixe<a name="BRAlergenosCBARA-peixe"> </a></td>
-<td>Peixe</td></tr>
+<td>Peixe</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">peixe-aranha<a name="BRAlergenosCBARA-peixe-aranha"> </a></td>
-<td>Peixe-Aranha</td></tr>
+<td>Peixe-Aranha</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pelo-animal<a name="BRAlergenosCBARA-pelo-animal"> </a></td>
-<td>Pelo de animais</td></tr>
+<td>Pelo de animais</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pelo-cao<a name="BRAlergenosCBARA-pelo-cao"> </a></td>
-<td>Pelo de cão</td></tr>
+<td>Pelo de cão</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pelo-cavalo<a name="BRAlergenosCBARA-pelo-cavalo"> </a></td>
-<td>Pelo de cavalo</td></tr>
+<td>Pelo de cavalo</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pelo-coelho<a name="BRAlergenosCBARA-pelo-coelho"> </a></td>
-<td>Pelo de coelho</td></tr>
+<td>Pelo de coelho</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pelo-gato<a name="BRAlergenosCBARA-pelo-gato"> </a></td>
-<td>Pelo de gato</td></tr>
+<td>Pelo de gato</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pelo-vaca<a name="BRAlergenosCBARA-pelo-vaca"> </a></td>
-<td>Pelo de vaca</td></tr>
+<td>Pelo de vaca</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pena<a name="BRAlergenosCBARA-pena"> </a></td>
-<td>Penas</td></tr>
+<td>Penas</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">perfluorinato<a name="BRAlergenosCBARA-perfluorinato"> </a></td>
-<td>Perfluorinato</td></tr>
+<td>Perfluorinato</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">perfume<a name="BRAlergenosCBARA-perfume"> </a></td>
-<td>Perfume</td></tr>
+<td>Perfume</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">peroxido-benzoila<a name="BRAlergenosCBARA-peroxido-benzoila"> </a></td>
-<td>Peróxido de Benzoíla</td></tr>
+<td>Peróxido de Benzoíla</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pessego<a name="BRAlergenosCBARA-pessego"> </a></td>
-<td>Pêssego</td></tr>
+<td>Pêssego</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">pesticida<a name="BRAlergenosCBARA-pesticida"> </a></td>
-<td>Pesticidas</td></tr>
+<td>Pesticidas</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pesticida-organoclorado<a name="BRAlergenosCBARA-pesticida-organoclorado"> </a></td>
-<td>Pesticida organoclorado</td></tr>
+<td>Pesticida organoclorado</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">pimenta<a name="BRAlergenosCBARA-pimenta"> </a></td>
-<td>Pimenta</td></tr>
+<td>Pimenta</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">pinhao<a name="BRAlergenosCBARA-pinhao"> </a></td>
-<td>Pinhão</td></tr>
+<td>Pinhão</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">pistache<a name="BRAlergenosCBARA-pistache"> </a></td>
-<td>Pistache</td></tr>
+<td>Pistache</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">podofilina<a name="BRAlergenosCBARA-podofilina"> </a></td>
-<td>Podofilina</td></tr>
+<td>Podofilina</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">polen<a name="BRAlergenosCBARA-polen"> </a></td>
-<td>Pólen</td></tr>
+<td>Pólen</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">polen-grama<a name="BRAlergenosCBARA-polen-grama"> </a></td>
-<td>Pólen de grama</td></tr>
+<td>Pólen de grama</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">polvo<a name="BRAlergenosCBARA-polvo"> </a></td>
-<td>Polvo</td></tr>
+<td>Polvo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">porco<a name="BRAlergenosCBARA-porco"> </a></td>
-<td>Porco</td></tr>
+<td>Porco</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">prata<a name="BRAlergenosCBARA-prata"> </a></td>
-<td>Prata</td></tr>
+<td>Prata</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">proteina-leite-vaca<a name="BRAlergenosCBARA-proteina-leite-vaca"> </a></td>
-<td>Proteína do leite de vaca</td></tr>
+<td>Proteína do leite de vaca</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">proteina-ovo<a name="BRAlergenosCBARA-proteina-ovo"> </a></td>
-<td>Proteína do ovo</td></tr>
+<td>Proteína do ovo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">queijo<a name="BRAlergenosCBARA-queijo"> </a></td>
-<td>Queijo</td></tr>
+<td>Queijo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">resina-arvore<a name="BRAlergenosCBARA-resina-arvore"> </a></td>
-<td>Resina de árvore</td></tr>
+<td>Resina de árvore</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">samambaia<a name="BRAlergenosCBARA-samambaia"> </a></td>
-<td>Samambaia</td></tr>
+<td>Samambaia</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">seda<a name="BRAlergenosCBARA-seda"> </a></td>
-<td>Seda</td></tr>
+<td>Seda</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">semente<a name="BRAlergenosCBARA-semente"> </a></td>
-<td>Semente</td></tr>
+<td>Semente</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">sepia<a name="BRAlergenosCBARA-sepia"> </a></td>
-<td>Sépia</td></tr>
+<td>Sépia</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">silicone-derivado<a name="BRAlergenosCBARA-silicone-derivado"> </a></td>
-<td>Silicone e seus derivados</td></tr>
+<td>Silicone e seus derivados</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">sulfito<a name="BRAlergenosCBARA-sulfito"> </a></td>
-<td>Sulfitos</td></tr>
+<td>Sulfitos</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">terpeno<a name="BRAlergenosCBARA-terpeno"> </a></td>
-<td>Terpeno</td></tr>
+<td>Terpeno</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">tinta-cabelo<a name="BRAlergenosCBARA-tinta-cabelo"> </a></td>
-<td>Tinta para o cabelo</td></tr>
+<td>Tinta para o cabelo</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">tinta-textil<a name="BRAlergenosCBARA-tinta-textil"> </a></td>
-<td>Tintas para têxteis</td></tr>
+<td>Tintas para têxteis</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">tomate<a name="BRAlergenosCBARA-tomate"> </a></td>
-<td>Tomate</td></tr>
+<td>Tomate</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">toxina-botulinica<a name="BRAlergenosCBARA-toxina-botulinica"> </a></td>
-<td>Toxina botulínica</td></tr>
+<td>Toxina botulínica</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">trigo<a name="BRAlergenosCBARA-trigo"> </a></td>
-<td>Trigo</td></tr>
+<td>Trigo</td>
+<td>food</td></tr>
 <tr><td style="white-space:nowrap">veneno-escorpiao<a name="BRAlergenosCBARA-veneno-escorpiao"> </a></td>
-<td>Veneno de escorpião</td></tr>
+<td>Veneno de escorpião</td>
+<td>environment</td></tr>
 <tr><td style="white-space:nowrap">veneno-vespa<a name="BRAlergenosCBARA-veneno-vespa"> </a></td>
-<td>Veneno de vespa</td></tr></table></div>
+<td>Veneno de vespa</td>
+<td>environment</td></tr></table></div>
 
   
 
@@ -643,7 +796,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rac.fhir#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Aug 5, 2025 10:09-0300">2025-08-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15,39 +16,43 @@
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem BRTipoAleitamentoMaterno</b></p><a name=\"BRTipoAleitamentoMaterno\"> </a><a name=\"hcBRTipoAleitamentoMaterno\"> </a><a name=\"BRTipoAleitamentoMaterno-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2020-09-20 22:50:41+0000; Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">exclusivo<a name=\"BRTipoAleitamentoMaterno-exclusivo\"> </a></td><td>Exclusivo</td></tr><tr><td style=\"white-space:nowrap\">predominante<a name=\"BRTipoAleitamentoMaterno-predominante\"> </a></td><td>Predominante</td></tr><tr><td style=\"white-space:nowrap\">complementado<a name=\"BRTipoAleitamentoMaterno-complementado\"> </a></td><td>Complementado</td></tr><tr><td style=\"white-space:nowrap\">inexistente<a name=\"BRTipoAleitamentoMaterno-inexistente\"> </a></td><td>Inexistente</td></tr></table></div>"
+     fhir:div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTipoAleitamentoMaterno</b></p><a name=\"BRTipoAleitamentoMaterno\"> </a><a name=\"hcBRTipoAleitamentoMaterno\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">versão: 1; Última atualização: 2020-09-20 22:50:41+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">exclusivo<a name=\"BRTipoAleitamentoMaterno-exclusivo\"> </a></td><td>Exclusivo</td></tr><tr><td style=\"white-space:nowrap\">predominante<a name=\"BRTipoAleitamentoMaterno-predominante\"> </a></td><td>Predominante</td></tr><tr><td style=\"white-space:nowrap\">complementado<a name=\"BRTipoAleitamentoMaterno-complementado\"> </a></td><td>Complementado</td></tr><tr><td style=\"white-space:nowrap\">inexistente<a name=\"BRTipoAleitamentoMaterno-inexistente\"> </a></td><td>Inexistente</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "1"^^xsd:integer ;
+       a fhir:integer ;
+       fhir:v 1 ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
+           a fhir:canonical ;
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
+       a fhir:code ;
        fhir:v "informative" ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
+           a fhir:canonical ;
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "BRTipoAleitamentoMaterno"] ; # 
   fhir:title [ fhir:v "Tipo de Aleitamento Materno"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-09-20T22:50:40.2386423+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
@@ -63,7 +68,7 @@
        fhir:code [ fhir:v "BR" ]
      ] )
   ] ) ; # 
-  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "exclusivo" ] ;

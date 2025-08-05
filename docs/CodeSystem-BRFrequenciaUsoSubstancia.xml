@@ -8,24 +8,24 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRFrequenciaUsoSubstancia</b></p><a name="BRFrequenciaUsoSubstancia"> </a><a name="hcBRFrequenciaUsoSubstancia"> </a><a name="BRFrequenciaUsoSubstancia-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2020-09-20 22:59:38+0000; Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">nunca<a name="BRFrequenciaUsoSubstancia-nunca"> </a></td><td>Nunca</td></tr><tr><td style="white-space:nowrap">uma-ou-duas<a name="BRFrequenciaUsoSubstancia-uma-ou-duas"> </a></td><td>1 ou 2 vezes</td></tr></table></div>
+    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRFrequenciaUsoSubstancia</b></p><a name="BRFrequenciaUsoSubstancia"> </a><a name="hcBRFrequenciaUsoSubstancia"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">versão: 1; Última atualização: 2020-09-20 22:59:38+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">nunca<a name="BRFrequenciaUsoSubstancia-nunca"> </a></td><td>Nunca</td></tr><tr><td style="white-space:nowrap">uma-ou-duas<a name="BRFrequenciaUsoSubstancia-uma-ou-duas"> </a></td><td>1 ou 2 vezes</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BRFrequenciaUsoSubstancia"/>
   <title value="Frequência de Uso de Substância"/>
   <status value="active"/>

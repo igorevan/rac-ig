@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Estado da Observação - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v0.1.0</title>
+    <title>Estado da Observação - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,11 +52,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - CI Build
+            <span style="display:inline-block;">1.0.0 - CI Build
 
 
 
-  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+  <span title="">BR</span>
 
 
             </span>
@@ -173,7 +173,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">!!Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Compilação de desenvolvimento local (v1.0.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='http://www.saude.gov.br/fhir/r4/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
   
 
 
@@ -219,13 +219,13 @@
   <h2 id="root">ValueSet: Estado da Observação
 
   </h2>
-  <table class="colstu">
+  <table class="colsi">
 
     <tr>
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0|0.1.0"/></span>
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0|1.0.0"/></span>
       </td>
     </tr>
 
@@ -243,6 +243,7 @@
             
             Standards status:
           </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
+          
           
         
       </td>
@@ -287,15 +288,15 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet BREstadoObservacao-1.0</b></p><a name="BREstadoObservacao-1.0"> </a><a name="hcBREstadoObservacao-1.0"> </a><a name="BREstadoObservacao-1.0-und"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2020-03-12 13:09:43+0000; Language: pt-BR</p></div>
-<ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html"><code>http://hl7.org/fhir/observation-status</code></a> version <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-final">final</a></td><td>Concluída</td><td>The observation is complete and there are no further actions needed. Additional information such "released", "signed", etc would be represented using [Provenance](provenance.html) which provides not only the act but also the actors and dates and other related data. These act states would be associated with an observation status of `preliminary` until they are all completed and then a status of `final` would be applied.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-entered-in-error">entered-in-error</a></td><td>Cancelada por informação errada</td><td>The observation has been withdrawn following previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be "cancelled" rather than "entered-in-error".).</td></tr></table></li></ul></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"></p><a name="BREstadoObservacao-1.0"> </a><a name="hcBREstadoObservacao-1.0"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2020-03-12 13:09:43+0000; Língua: pt-BR</p></div>
+<ul><li>Include estes códigos, tal como definidos em <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html"><code>http://hl7.org/fhir/observation-status</code></a> versão <code>*</code><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-final">final</a></td><td>Concluída</td><td>The observation is complete and there are no further actions needed. Additional information such "released", "signed", etc would be represented using [Provenance](provenance.html) which provides not only the act but also the actors and dates and other related data. These act states would be associated with an observation status of `preliminary` until they are all completed and then a status of `final` would be applied.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-entered-in-error">entered-in-error</a></td><td>Cancelada por informação errada</td><td>The observation has been withdrawn following previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be "cancelled" rather than "entered-in-error".).</td></tr></table></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2020-03-12 13:09:43+0000; Language: pt-BR</p></div><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html">codesystem ObservationStatus v4.0.1 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/observation-status-final"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-final">final</a></td><td>http://hl7.org/fhir/observation-status</td><td>Concluída</td><td><div><p>The observation is complete and there are no further actions needed. Additional information such &quot;released&quot;, &quot;signed&quot;, etc would be represented using <a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a> which provides not only the act but also the actors and dates and other related data. These act states would be associated with an observation status of <code>preliminary</code> until they are all completed and then a status of <code>final</code> would be applied.</p>
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html">codesystem ObservationStatus v4.0.1 (CodeSystem)</a></p><p>Este conjunto de valores contém 2 conceitos</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Sistema</b></td><td><b>Ecrã (pt-BR)</b></td><td><b>Definição</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/observation-status-final"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-final">final</a></td><td>http://hl7.org/fhir/observation-status</td><td>Concluída</td><td><div><p>The observation is complete and there are no further actions needed. Additional information such &quot;released&quot;, &quot;signed&quot;, etc would be represented using <a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a> which provides not only the act but also the actors and dates and other related data. These act states would be associated with an observation status of <code>preliminary</code> until they are all completed and then a status of <code>final</code> would be applied.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://hl7.org/fhir/observation-status-entered-in-error"> </a>  <a href="http://hl7.org/fhir/R4/codesystem-observation-status.html#observation-status-entered-in-error">entered-in-error</a></td><td>http://hl7.org/fhir/observation-status</td><td>Cancelada por informação errada</td><td><div><p>The observation has been withdrawn following previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be &quot;cancelled&quot; rather than &quot;entered-in-error&quot;.).</p>
 </div></td></tr></table></div>
 
@@ -378,7 +379,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rac.fhir#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Aug 5, 2025 10:09-0300">2025-08-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,6 +1,6 @@
 {
-  "package": "br.gov.saude.rnds.rac",
-  "version": "0.1.0",
+  "package": "br.gov.saude.rac.fhir",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "BR",
   "extensions": [
@@ -359,6 +359,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento": [
       "Medication"

@@ -10,6 +10,12 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
+    <sch:title>f:Composition/f:subject</sch:title>
+    <sch:rule context="f:Composition/f:subject">
+      <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:Composition/f:subject/f:extension</sch:title>
     <sch:rule context="f:Composition/f:subject/f:extension">
       <sch:assert test="count(f:extension[@url = 'gender']) &gt;= 1">extension with URL = 'gender': minimum cardinality of 'extension' is 1</sch:assert>

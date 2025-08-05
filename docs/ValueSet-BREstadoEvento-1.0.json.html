@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Estado do Evento - JSON Representation - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v0.1.0</title>
+    <title>Estado do Evento - JSON Representation - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -54,11 +54,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - CI Build
+            <span style="display:inline-block;">1.0.0 - CI Build
 
 
 
-  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+  <span title="">BR</span>
 
 
             </span>
@@ -175,7 +175,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">!!Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Compilação de desenvolvimento local (v1.0.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='http://www.saude.gov.br/fhir/r4/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
 
 
 
@@ -223,7 +223,7 @@
 
 <h2 id="root">: Estado do Evento - JSON Representation</h2>
 
-  <table class="colstu">
+  <table class="colsi">
     <tr>
 
       <td colspan="1">
@@ -258,7 +258,7 @@
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.language">language</a>" : "pt-BR",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;pt-BR\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet BREstadoEvento-1.0&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BREstadoEvento-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBREstadoEvento-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;BREstadoEvento-1.0-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Last updated: 2020-04-07 12:14:10+0000; Language: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html\&quot;&gt;&lt;code&gt;http://hl7.org/fhir/event-status&lt;/code&gt;&lt;/a&gt; version &lt;code&gt;*&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation\&quot;&gt;preparation&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pré-procedimento&lt;/td&gt;&lt;td&gt;The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress\&quot;&gt;in-progress&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Em andamento&lt;/td&gt;&lt;td&gt;The event is currently occurring.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done\&quot;&gt;not-done&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Não Realizado&lt;/td&gt;&lt;td&gt;The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold\&quot;&gt;on-hold&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspenso&lt;/td&gt;&lt;td&gt;The event has been temporarily stopped but is expected to resume in the future.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped\&quot;&gt;stopped&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cancelado&lt;/td&gt;&lt;td&gt;The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed\&quot;&gt;completed&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Completado&lt;/td&gt;&lt;td&gt;The event has now concluded.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown\&quot;&gt;unknown&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Desconhecido&lt;/td&gt;&lt;td&gt;The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for &amp;quot;other&amp;quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error\&quot;&gt;entered-in-error&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entrada com erro&lt;/td&gt;&lt;td&gt;This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be &amp;quot;stopped&amp;quot; rather than &amp;quot;entered-in-error&amp;quot;.).&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\&quot;pt-BR\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narrativa gerada: ValueSet BREstadoEvento-1.0&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BREstadoEvento-1.0\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBREstadoEvento-1.0\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Última atualização: 2020-04-07 12:14:10+0000; Língua: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include estes códigos, tal como definidos em &lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html\&quot;&gt;&lt;code&gt;http://hl7.org/fhir/event-status&lt;/code&gt;&lt;/a&gt; versão &lt;code&gt;*&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Código&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Ecrã&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definição&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation\&quot;&gt;preparation&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pré-procedimento&lt;/td&gt;&lt;td&gt;The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress\&quot;&gt;in-progress&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Em andamento&lt;/td&gt;&lt;td&gt;The event is currently occurring.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done\&quot;&gt;not-done&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Não Realizado&lt;/td&gt;&lt;td&gt;The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold\&quot;&gt;on-hold&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspenso&lt;/td&gt;&lt;td&gt;The event has been temporarily stopped but is expected to resume in the future.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped\&quot;&gt;stopped&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cancelado&lt;/td&gt;&lt;td&gt;The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed\&quot;&gt;completed&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Completado&lt;/td&gt;&lt;td&gt;The event has now concluded.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown\&quot;&gt;unknown&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Desconhecido&lt;/td&gt;&lt;td&gt;The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for &amp;quot;other&amp;quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error\&quot;&gt;entered-in-error&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entrada com erro&lt;/td&gt;&lt;td&gt;This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be &amp;quot;stopped&amp;quot; rather than &amp;quot;entered-in-error&amp;quot;.).&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.extension">extension</a>" : [
     {
@@ -268,7 +268,7 @@
         "<a href="http://hl7.org/fhir/R4/datatypes.html#integer#integer.extension">extension</a>" : [
           {
             "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCanonical</a>" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCanonical</a>" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
           }
         ]
       }
@@ -280,14 +280,14 @@
         "<a href="http://hl7.org/fhir/R4/datatypes.html#code#code.extension">extension</a>" : [
           {
             "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCanonical</a>" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCanonical</a>" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
           }
         ]
       }
     }
   ],
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "1.0.0",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "BREstadoEvento",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Estado do Evento",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
@@ -404,7 +404,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rnds.rac#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 22, 2025 17:38-0300">2025-01-22</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.rac.fhir#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Aug 5, 2025 10:09-0300">2025-08-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

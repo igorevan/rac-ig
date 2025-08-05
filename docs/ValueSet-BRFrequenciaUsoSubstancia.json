@@ -8,7 +8,7 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BRFrequenciaUsoSubstancia</b></p><a name=\"BRFrequenciaUsoSubstancia\"> </a><a name=\"hcBRFrequenciaUsoSubstancia\"> </a><a name=\"BRFrequenciaUsoSubstancia-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2020-09-20 23:02:24+0000; Language: pt-BR</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO\">MO</a></td><td>Mensalmente</td><td>Monthly at institution specified time.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK\">WK</a></td><td>Semanalmente</td><td>Weekly at institution specified time.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD\">QD</a></td><td>Diariamente</td><td>Every day at institution specified times.</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-BRFrequenciaUsoSubstancia.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia</code></a></li></ul></div>"
+    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRFrequenciaUsoSubstancia</b></p><a name=\"BRFrequenciaUsoSubstancia\"> </a><a name=\"hcBRFrequenciaUsoSubstancia\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">versão: 1; Última atualização: 2020-09-20 23:02:24+0000; Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-GTSAbbreviation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code></a> versão <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO\">MO</a></td><td>Mensalmente</td><td>Monthly at institution specified time.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK\">WK</a></td><td>Semanalmente</td><td>Weekly at institution specified time.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD\">QD</a></td><td>Diariamente</td><td>Every day at institution specified times.</td></tr></table></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRFrequenciaUsoSubstancia.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia</code></a></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -16,7 +16,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -26,12 +26,12 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   }],
   "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "BRFrequenciaUsoSubstancia",
   "title" : "Frequência de Uso da Substância",
   "status" : "active",

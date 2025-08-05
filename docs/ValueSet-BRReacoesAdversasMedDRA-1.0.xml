@@ -8,24 +8,24 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet BRReacoesAdversasMedDRA-1.0</b></p><a name="BRReacoesAdversasMedDRA-1.0"> </a><a name="hcBRReacoesAdversasMedDRA-1.0"> </a><a name="BRReacoesAdversasMedDRA-1.0-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2020-09-20 20:38:38+0000; Language: pt-BR</p></div><ul><li>Include all codes defined in <a href="CodeSystem-BRMedDRA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA</code></a></li></ul></div>
+    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRReacoesAdversasMedDRA-1.0</b></p><a name="BRReacoesAdversasMedDRA-1.0"> </a><a name="hcBRReacoesAdversasMedDRA-1.0"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">versão: 1; Última atualização: 2020-09-20 20:38:38+0000; Língua: pt-BR</p></div><ul><li>Include todos os códigos definidos em <a href="CodeSystem-BRMedDRA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRReacoesAdversasMedDRA-1.0"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BRReacoesAdversasMedDRA"/>
   <title value="Reações Adversas da MedDRA"/>
   <status value="active"/>

@@ -7,7 +7,7 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem BRTipoObservacao</b></p><a name=\"BRTipoObservacao\"> </a><a name=\"hcBRTipoObservacao\"> </a><a name=\"BRTipoObservacao-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2020-03-11 18:25:29+0000; Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DSIA<a name=\"BRTipoObservacao-DSIA\"> </a></td><td>Declaração Subjetiva do Indivíudo para o Atendimento</td></tr><tr><td style=\"white-space:nowrap\">RECIDI<a name=\"BRTipoObservacao-RECIDI\"> </a></td><td>Resumo da evolução clínica do indivíduo durante a internação</td></tr><tr><td style=\"white-space:nowrap\">DF<a name=\"BRTipoObservacao-DF\"> </a></td><td>Dados do desfecho</td></tr><tr><td style=\"white-space:nowrap\">IAC<a name=\"BRTipoObservacao-IAC\"> </a></td><td>Informações Adicionais/Complementares</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"BRTipoObservacao-P\"> </a></td><td>Peso</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"BRTipoObservacao-A\"> </a></td><td>Altura</td></tr><tr><td style=\"white-space:nowrap\">PC<a name=\"BRTipoObservacao-PC\"> </a></td><td>Perímetro Cefálico</td></tr><tr><td style=\"white-space:nowrap\">CA<a name=\"BRTipoObservacao-CA\"> </a></td><td>Circunferência Abdominal</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"BRTipoObservacao-PA\"> </a></td><td>Pressão Arterial</td></tr></table></div>"
+    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTipoObservacao</b></p><a name=\"BRTipoObservacao\"> </a><a name=\"hcBRTipoObservacao\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2020-03-11 18:25:29+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">DSIA<a name=\"BRTipoObservacao-DSIA\"> </a></td><td>Declaração Subjetiva do Indivíudo para o Atendimento</td></tr><tr><td style=\"white-space:nowrap\">RECIDI<a name=\"BRTipoObservacao-RECIDI\"> </a></td><td>Resumo da evolução clínica do indivíduo durante a internação</td></tr><tr><td style=\"white-space:nowrap\">DF<a name=\"BRTipoObservacao-DF\"> </a></td><td>Dados do desfecho</td></tr><tr><td style=\"white-space:nowrap\">IAC<a name=\"BRTipoObservacao-IAC\"> </a></td><td>Informações Adicionais/Complementares</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"BRTipoObservacao-P\"> </a></td><td>Peso</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"BRTipoObservacao-A\"> </a></td><td>Altura</td></tr><tr><td style=\"white-space:nowrap\">PC<a name=\"BRTipoObservacao-PC\"> </a></td><td>Perímetro Cefálico</td></tr><tr><td style=\"white-space:nowrap\">CA<a name=\"BRTipoObservacao-CA\"> </a></td><td>Circunferência Abdominal</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"BRTipoObservacao-PA\"> </a></td><td>Pressão Arterial</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -15,7 +15,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -25,12 +25,12 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   }],
   "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "BRTipoObservacao",
   "title" : "Tipo de Observação",
   "status" : "active",

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15,39 +16,43 @@
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BRGrauCertezaAlergiasReacoesAdversas-1.0</b></p><a name=\"BRGrauCertezaAlergiasReacoesAdversas-1.0\"> </a><a name=\"hcBRGrauCertezaAlergiasReacoesAdversas-1.0\"> </a><a name=\"BRGrauCertezaAlergiasReacoesAdversas-1.0-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2020-09-20 20:38:00+0000; Language: pt-BR</p></div><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html\"><code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed\">unconfirmed</a></td><td>Não confirmada</td><td>The propensity for a reaction to the identified substance has not been objectively verified.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed\">confirmed</a></td><td>Confirmada</td><td>The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted\">refuted</a></td><td>Refutada</td><td>A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error\">entered-in-error</a></td><td>Cancelada por informação errada</td><td>The statement was entered in error and is not valid.</td></tr></table></li></ul></div>"
+     fhir:div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRGrauCertezaAlergiasReacoesAdversas-1.0</b></p><a name=\"BRGrauCertezaAlergiasReacoesAdversas-1.0\"> </a><a name=\"hcBRGrauCertezaAlergiasReacoesAdversas-1.0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">versão: 1; Última atualização: 2020-09-20 20:38:00+0000; Língua: pt-BR</p></div><ul><li>Include estes códigos, tal como definidos em <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-allergyintolerance-verification.html\"><code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code></a> versão <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed\">unconfirmed</a></td><td>Não confirmada</td><td>The propensity for a reaction to the identified substance has not been objectively verified.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed\">confirmed</a></td><td>Confirmada</td><td>The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted\">refuted</a></td><td>Refutada</td><td>A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error\">entered-in-error</a></td><td>Cancelada por informação errada</td><td>The statement was entered in error and is not valid.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "1"^^xsd:integer ;
+       a fhir:integer ;
+       fhir:v 1 ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
+           a fhir:canonical ;
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
+       a fhir:code ;
        fhir:v "informative" ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
+           a fhir:canonical ;
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "BRGrauCertezaAlergiasReacoesAdversas"] ; # 
   fhir:title [ fhir:v "Grau de Certeza de Alergias e Reações Adversas"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-09-20T20:38:00.3881645+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
@@ -63,7 +68,7 @@
        fhir:code [ fhir:v "BR" ]
      ] )
   ] ) ; # 
-  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:immutable [ fhir:v false] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"^^xsd:anyURI ] ;

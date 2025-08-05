@@ -7,7 +7,7 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BRUnidadeTempo</b></p><a name=\"BRUnidadeTempo\"> </a><a name=\"hcBRUnidadeTempo\"> </a><a name=\"BRUnidadeTempo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2021-12-01 13:16:09+0000; Language: pt-BR</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-BRUnidadeTempo.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code></a></li></ul></div>"
+    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRUnidadeTempo</b></p><a name=\"BRUnidadeTempo\"> </a><a name=\"hcBRUnidadeTempo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2021-12-01 13:16:09+0000; Língua: pt-BR</p></div><ul><li>Include todos os códigos definidos em <a href=\"CodeSystem-BRUnidadeTempo.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code></a></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -15,7 +15,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -25,12 +25,12 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   }],
   "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "BRUnidadeTempo",
   "title" : "Unidade de Tempo",
   "status" : "active",

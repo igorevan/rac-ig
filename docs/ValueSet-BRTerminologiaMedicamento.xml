@@ -7,24 +7,24 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: ValueSet BRTerminologiaMedicamento</b></p><a name="BRTerminologiaMedicamento"> </a><a name="hcBRTerminologiaMedicamento"> </a><a name="BRTerminologiaMedicamento-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2021-12-01 13:16:09+0000; Language: pt-BR</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-BRObmCATMAT.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmEAN.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmANVISA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmAMPP.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP</code></a></li><li>Include all codes defined in <a href="CodeSystem-BRObmVMP.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP</code></a></li></ul></div>
+    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRTerminologiaMedicamento</b></p><a name="BRTerminologiaMedicamento"> </a><a name="hcBRTerminologiaMedicamento"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2021-12-01 13:16:09+0000; Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRObmCATMAT.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT</code></a></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRObmEAN.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN</code></a></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRObmANVISA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA</code></a></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRObmAMPP.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP</code></a></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRObmVMP.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BRTerminologiaMedicamento"/>
   <title value="Terminologia dos medicamentos"/>
   <status value="active"/>

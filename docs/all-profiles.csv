@@ -141,7 +141,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRAlergiaReacaoAdversa-1.0","AllergyIntolerance.patient.extension:unidentifiedPatient","AllergyIntolerance.patient.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRAlergiaReacaoAdversa-1.0","AllergyIntolerance.patient.extension:unidentifiedPatient","AllergyIntolerance.patient.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRAlergiaReacaoAdversa-1.0","AllergyIntolerance.patient.extension:unidentifiedPatient.id","AllergyIntolerance.patient.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -472,7 +472,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRAtestado","CarePlan.subject.extension:unidentifiedPatient","CarePlan.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRAtestado","CarePlan.subject.extension:unidentifiedPatient","CarePlan.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRAtestado","CarePlan.subject.extension:unidentifiedPatient.id","CarePlan.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -973,7 +973,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRCID10Avaliado-1.0","Condition.subject.extension:unidentifiedPatient","Condition.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRCID10Avaliado-1.0","Condition.subject.extension:unidentifiedPatient","Condition.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRCID10Avaliado-1.0","Condition.subject.extension:unidentifiedPatient.id","Condition.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -1308,7 +1308,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRConjuntoMinimoDados-1.1","Composition.subject.extension:unidentifiedPatient","Composition.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRConjuntoMinimoDados-1.1","Composition.subject.extension:unidentifiedPatient","Composition.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRConjuntoMinimoDados-1.1","Composition.subject.extension:unidentifiedPatient.id","Composition.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -2068,7 +2068,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRContatoAssistencial-1.0","Encounter.subject.extension:unidentifiedPatient","Encounter.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRContatoAssistencial-1.0","Encounter.subject.extension:unidentifiedPatient","Encounter.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRContatoAssistencial-1.0","Encounter.subject.extension:unidentifiedPatient.id","Encounter.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -3332,7 +3332,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRMedidaObservada","Observation.subject.extension:unidentifiedPatient","Observation.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRMedidaObservada","Observation.subject.extension:unidentifiedPatient","Observation.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRMedidaObservada","Observation.subject.extension:unidentifiedPatient.id","Observation.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -4096,7 +4096,7 @@ This element is labeled as a modifier because the status contains the code enter
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRPlanoCuidados-1.0","CarePlan.subject.extension:unidentifiedPatient","CarePlan.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRPlanoCuidados-1.0","CarePlan.subject.extension:unidentifiedPatient","CarePlan.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRPlanoCuidados-1.0","CarePlan.subject.extension:unidentifiedPatient.id","CarePlan.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -5147,7 +5147,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRProblemaDiagnostico","Condition.subject.extension:unidentifiedPatient","Condition.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRProblemaDiagnostico","Condition.subject.extension:unidentifiedPatient","Condition.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRProblemaDiagnostico","Condition.subject.extension:unidentifiedPatient.id","Condition.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -5527,7 +5527,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRProcedimentoRealizado-1.0","Procedure.subject.extension:unidentifiedPatient","Procedure.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRProcedimentoRealizado-1.0","Procedure.subject.extension:unidentifiedPatient","Procedure.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRProcedimentoRealizado-1.0","Procedure.subject.extension:unidentifiedPatient.id","Procedure.subject.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -6031,7 +6031,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"BRRegistroAtendimentoClinico","Composition.subject.extension:unidentifiedPatient","Composition.subject.extension","unidentifiedPatient","","",0,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
+"BRRegistroAtendimentoClinico","Composition.subject.extension:unidentifiedPatient","Composition.subject.extension","unidentifiedPatient","","",0,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0]]} {[]}
 ","Dados do Indivíduo Não Identificado","Informações demográficas básicas e justificativa dos indivíduos que não podem ser identificados por razões clínicas ou sociais, conforme legislação brasileira, com finalidade estatística.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BRRegistroAtendimentoClinico","Composition.subject.extension:unidentifiedPatient.id","Composition.subject.extension.id","","","",0,1,"","","","string {[]} {[]}

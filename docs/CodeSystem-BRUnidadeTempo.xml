@@ -7,24 +7,24 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRUnidadeTempo</b></p><a name="BRUnidadeTempo"> </a><a name="hcBRUnidadeTempo"> </a><a name="BRUnidadeTempo-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2022-03-22 14:53:00+0000; Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>English (English, en)</b></td></tr><tr><td style="white-space:nowrap">min<a name="BRUnidadeTempo-min"> </a></td><td>minuto(s)</td><td>minute</td></tr><tr><td style="white-space:nowrap">h<a name="BRUnidadeTempo-h"> </a></td><td>hora(s)</td><td>hour</td></tr><tr><td style="white-space:nowrap">d<a name="BRUnidadeTempo-d"> </a></td><td>dia(s)</td><td>day</td></tr><tr><td style="white-space:nowrap">wk<a name="BRUnidadeTempo-wk"> </a></td><td>semana(s)</td><td>week</td></tr><tr><td style="white-space:nowrap">mo<a name="BRUnidadeTempo-mo"> </a></td><td>mês(meses)</td><td>month</td></tr><tr><td style="white-space:nowrap">a<a name="BRUnidadeTempo-a"> </a></td><td>ano(s)</td><td>year</td></tr></table></div>
+    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRUnidadeTempo</b></p><a name="BRUnidadeTempo"> </a><a name="hcBRUnidadeTempo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-03-22 14:53:00+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>English (English, en)</b></td></tr><tr><td style="white-space:nowrap">min<a name="BRUnidadeTempo-min"> </a></td><td>minuto(s)</td><td>minute</td></tr><tr><td style="white-space:nowrap">h<a name="BRUnidadeTempo-h"> </a></td><td>hora(s)</td><td>hour</td></tr><tr><td style="white-space:nowrap">d<a name="BRUnidadeTempo-d"> </a></td><td>dia(s)</td><td>day</td></tr><tr><td style="white-space:nowrap">wk<a name="BRUnidadeTempo-wk"> </a></td><td>semana(s)</td><td>week</td></tr><tr><td style="white-space:nowrap">mo<a name="BRUnidadeTempo-mo"> </a></td><td>mês(meses)</td><td>month</td></tr><tr><td style="white-space:nowrap">a<a name="BRUnidadeTempo-a"> </a></td><td>ano(s)</td><td>year</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"/>
+        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BRUnidadeTempo"/>
   <title value="Unidade de tempo"/>
   <status value="active"/>

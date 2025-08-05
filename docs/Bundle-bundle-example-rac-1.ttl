@@ -1,6 +1,7 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -103,7 +104,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_5df38718-3047-4e95-8a90-413ec48e741a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition 5df38718-3047-4e95-8a90-413ec48e741a</b></p><a name=\"5df38718-3047-4e95-8a90-413ec48e741a\"> </a><a name=\"hc5df38718-3047-4e95-8a90-413ec48e741a\"> </a><a name=\"5df38718-3047-4e95-8a90-413ec48e741a-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:28:34+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRRegistroAtendimentoClinico.html\">Registro de Atendimento Clínico</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RAC}\">Registro de Atendimento Clínico</span></p><p><b>category</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial 04}\">Atenção Hospitalar</span></p><p><b>date</b>: 2022-05-09 15:36:40-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>title</b>: Registro de Atendimento Clínico</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_5df38718-3047-4e95-8a90-413ec48e741a\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Composition 5df38718-3047-4e95-8a90-413ec48e741a</b></p><a name=\"5df38718-3047-4e95-8a90-413ec48e741a\"> </a><a name=\"hc5df38718-3047-4e95-8a90-413ec48e741a\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:28:34+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRRegistroAtendimentoClinico.html\">Registro de Atendimento Clínico</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RAC}\">Registro de Atendimento Clínico</span></p><p><b>category</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial 04}\">Atenção Hospitalar</span></p><p><b>date</b>: 2022-05-09 15:36:40-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>title</b>: Registro de Atendimento Clínico</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:type [
@@ -183,7 +184,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_d12070e4-3461-4fa0-95a6-76fd435cb403\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter d12070e4-3461-4fa0-95a6-76fd435cb403</b></p><a name=\"d12070e4-3461-4fa0-95a6-76fd435cb403\"> </a><a name=\"hcd12070e4-3461-4fa0-95a6-76fd435cb403\"> </a><a name=\"d12070e4-3461-4fa0-95a6-76fd435cb403-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:31:16+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRContatoAssistencial-1.0.html\">Contato Assistencial</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"CodeSystem-BRModalidadeAssistencial.html#BRModalidadeAssistencial-04\">Modalidade Assistencial 04</a>: Atenção Hospitalar</p><p><b>priority</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento 01}\">Eletivo</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><blockquote><p><b>participant</b></p><p><b>Ocupação</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 223505}\">ENFERMEIRO</span></p><p><b>Identificador Nacional de Equipe</b>: 2</p><p><b>type</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante solicitante}\">Profissional que solicitou o Contato Assistencial</span></p><p><b>individual</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</p></blockquote><p><b>period</b>: 2022-04-09 15:36:40-0300 --&gt; 2022-05-09 15:46:48-0300</p><p><b>reasonReference</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-c9f83c17-3081-4233-b1e4-f629c58d6813\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-2af3c6c9-87ed-4f01-afec-ee8dc7df9951\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><p><b>use</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico NAD}\">Diagnosis not present on admission</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-1031de4c-be76-48d3-85de-75274dba036c\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p></blockquote><h3>Hospitalizations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia 99}\">Informação ausente no modelo de origem</span></td><td><span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho 06}\">Óbito</span></td></tr></table><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-6f2180c5-32aa-49cf-8b66-b2581465513c\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></td></tr></table><p><b>serviceProvider</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_d12070e4-3461-4fa0-95a6-76fd435cb403\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Encounter d12070e4-3461-4fa0-95a6-76fd435cb403</b></p><a name=\"d12070e4-3461-4fa0-95a6-76fd435cb403\"> </a><a name=\"hcd12070e4-3461-4fa0-95a6-76fd435cb403\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:31:16+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRContatoAssistencial-1.0.html\">Contato Assistencial</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"CodeSystem-BRModalidadeAssistencial.html#BRModalidadeAssistencial-04\">Modalidade Assistencial 04</a>: Atenção Hospitalar</p><p><b>priority</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento 01}\">Eletivo</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><blockquote><p><b>participant</b></p><p><b>Ocupação</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 223505}\">ENFERMEIRO</span></p><p><b>Identificador Nacional de Equipe</b>: 2</p><p><b>type</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante solicitante}\">Profissional que solicitou o Contato Assistencial</span></p><p><b>individual</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</p></blockquote><p><b>period</b>: 2022-04-09 15:36:40-0300 --&gt; 2022-05-09 15:46:48-0300</p><p><b>reasonReference</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-c9f83c17-3081-4233-b1e4-f629c58d6813\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-2af3c6c9-87ed-4f01-afec-ee8dc7df9951\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><p><b>use</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico NAD}\">Diagnóstico não presente na admissão</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-1031de4c-be76-48d3-85de-75274dba036c\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p></blockquote><h3>Hospitalizations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia 99}\">Informação ausente no modelo de origem</span></td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho 06}\">Óbito</span></td></tr></table><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-6f2180c5-32aa-49cf-8b66-b2581465513c\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></td></tr></table><p><b>serviceProvider</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "finished"] ; # 
   fhir:class [
@@ -214,7 +215,10 @@
        ]
      ] [
        fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "2"^^xsd:integer ]
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
      ] ) ;
      fhir:type ( [
        fhir:coding ( [
@@ -307,7 +311,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_2af3c6c9-87ed-4f01-afec-ee8dc7df9951\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition 2af3c6c9-87ed-4f01-afec-ee8dc7df9951</b></p><a name=\"2af3c6c9-87ed-4f01-afec-ee8dc7df9951\"> </a><a name=\"hc2af3c6c9-87ed-4f01-afec-ee8dc7df9951\"> </a><a name=\"2af3c6c9-87ed-4f01-afec-ee8dc7df9951-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRProblemaDiagnostico.html\">Problema / Diagnóstico</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 I859}\">Varizes esofagianas sem sangramento</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>note</b>: Varizes esofagianas sem sangramento.</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_2af3c6c9-87ed-4f01-afec-ee8dc7df9951\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition 2af3c6c9-87ed-4f01-afec-ee8dc7df9951</b></p><a name=\"2af3c6c9-87ed-4f01-afec-ee8dc7df9951\"> </a><a name=\"hc2af3c6c9-87ed-4f01-afec-ee8dc7df9951\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRProblemaDiagnostico.html\">Problema / Diagnóstico</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 I859}\">Varizes esofagianas sem sangramento</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>note</b>: </p><blockquote><div><p>Varizes esofagianas sem sangramento.</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:clinicalStatus [
      fhir:coding ( [
@@ -348,11 +352,14 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Procedure_1031de4c-be76-48d3-85de-75274dba036c\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Procedure 1031de4c-be76-48d3-85de-75274dba036c</b></p><a name=\"1031de4c-be76-48d3-85de-75274dba036c\"> </a><a name=\"hc1031de4c-be76-48d3-85de-75274dba036c\"> </a><a name=\"1031de4c-be76-48d3-85de-75274dba036c-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:39:08+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRProcedimentoRealizado-1.0.html\">Procedimento Realizado</a></p></div><p><b>Quantidade</b>: 23</p><p><b>identifier</b>: Código de Autorização/462921313170263</p><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS 0301010048}\">CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>performed</b>: 2022-05-09 15:36:40-0300</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Function</b></td><td><b>Actor</b></td><td><b>OnBehalfOf</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 223605}\">FISIOTERAPEUTA GERAL</span></td><td>Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</td><td>Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Procedure_1031de4c-be76-48d3-85de-75274dba036c\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Procedure 1031de4c-be76-48d3-85de-75274dba036c</b></p><a name=\"1031de4c-be76-48d3-85de-75274dba036c\"> </a><a name=\"hc1031de4c-be76-48d3-85de-75274dba036c\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:39:08+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRProcedimentoRealizado-1.0.html\">Procedimento Realizado</a></p></div><p><b>Quantidade</b>: 23</p><p><b>identifier</b>: Código de Autorização/462921313170263</p><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS 0301010048}\">CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>performed</b>: 2022-05-09 15:36:40-0300</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Function</b></td><td><b>Actor</b></td><td><b>OnBehalfOf</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 223605}\">FISIOTERAPEUTA GERAL</span></td><td>Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</td><td>Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "23"^^xsd:positiveInteger ]
+     fhir:value [
+       a fhir:positiveInt ;
+       fhir:v "23"^^xsd:positiveInteger
+     ]
   ] ) ; # 
   fhir:identifier ( [
      fhir:type [
@@ -376,11 +383,17 @@
        fhir:value [ fhir:v "819217217061851" ]
      ]
   ] ; # 
-  fhir:performed [ fhir:v "2022-05-09T15:36:40.157-03:00"^^xsd:dateTime] ; # 
+  fhir:performed [
+     a fhir:dateTime ;
+     fhir:v "2022-05-09T15:36:40.157-03:00"^^xsd:dateTime
+  ] ; # 
   fhir:performer ( [
      fhir:extension ( [
        fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "2"^^xsd:integer ]
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
      ] ) ;
      fhir:function [
        fhir:coding ( [
@@ -413,7 +426,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_c9f83c17-3081-4233-b1e4-f629c58d6813\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation c9f83c17-3081-4233-b1e4-f629c58d6813</b></p><a name=\"c9f83c17-3081-4233-b1e4-f629c58d6813\"> </a><a name=\"hcc9f83c17-3081-4233-b1e4-f629c58d6813\"> </a><a name=\"c9f83c17-3081-4233-b1e4-f629c58d6813-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRObservacaoDescritiva-1.0.html\">Observação Descritiva</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 48767-8}\">Annotation comment [Interpretation] Narrative</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>issued</b>: 2022-05-09 17:39:08+0000</p><p><b>value</b>: Varizes esofagianas sem sangramento.</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_c9f83c17-3081-4233-b1e4-f629c58d6813\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation c9f83c17-3081-4233-b1e4-f629c58d6813</b></p><a name=\"c9f83c17-3081-4233-b1e4-f629c58d6813\"> </a><a name=\"hcc9f83c17-3081-4233-b1e4-f629c58d6813\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRObservacaoDescritiva-1.0.html\">Observação Descritiva</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 48767-8}\">Annotation comment [Interpretation] Narrative</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>issued</b>: 2022-05-09 17:39:08+0000</p><p><b>value</b>: Varizes esofagianas sem sangramento.</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -430,7 +443,10 @@
      ]
   ] ; # 
   fhir:issued [ fhir:v "2022-05-09T17:39:08.701859Z"^^xsd:dateTime] ; # 
-  fhir:value [ fhir:v "Varizes esofagianas sem sangramento."] . # 
+  fhir:value [
+     a fhir:string ;
+     fhir:v "Varizes esofagianas sem sangramento."
+  ] . # 
 
 <urn:uuid:6f2180c5-32aa-49cf-8b66-b2581465513c> a fhir:Location ;
   fhir:id [ fhir:v "6f2180c5-32aa-49cf-8b66-b2581465513c"] ; # 
@@ -443,7 +459,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Location_6f2180c5-32aa-49cf-8b66-b2581465513c\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Location 6f2180c5-32aa-49cf-8b66-b2581465513c</b></p><a name=\"6f2180c5-32aa-49cf-8b66-b2581465513c\"> </a><a name=\"hc6f2180c5-32aa-49cf-8b66-b2581465513c\"> </a><a name=\"6f2180c5-32aa-49cf-8b66-b2581465513c-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRLocalAtendimento-1.0.html\">Local de Atendimento</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Estabelecimento de saúde</p><p><b>mode</b>: Kind</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Location_6f2180c5-32aa-49cf-8b66-b2581465513c\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Location 6f2180c5-32aa-49cf-8b66-b2581465513c</b></p><a name=\"6f2180c5-32aa-49cf-8b66-b2581465513c\"> </a><a name=\"hc6f2180c5-32aa-49cf-8b66-b2581465513c\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRLocalAtendimento-1.0.html\">Local de Atendimento</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Estabelecimento de saúde</p><p><b>mode</b>: Kind</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:name [ fhir:v "Estabelecimento de saúde"] ; # 
@@ -459,7 +475,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_bd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation bd2466a4-18af-4c3b-899c-b6cccc51acff</b></p><a name=\"bd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a><a name=\"hcbd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a><a name=\"bd2466a4-18af-4c3b-899c-b6cccc51acff-und\"> </a><p><b>Origem da Medição</b>: <span title=\"Codes:{http://loinc.org 3137-7}\">Body height Measured</span></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8302-2}\">Body height</span></p><p><b>value</b>: 1.83 m<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codem = 'm')</span></p><p><b>method</b>: <span title=\"Codes:{http://loinc.org LA11870-5}\">Standing</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_bd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation bd2466a4-18af-4c3b-899c-b6cccc51acff</b></p><a name=\"bd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a><a name=\"hcbd2466a4-18af-4c3b-899c-b6cccc51acff\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>Origem da Medição</b>: <span title=\"Códigos:{http://loinc.org 3137-7}\">Bdy height Measured</span></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 8302-2}\">Bdy height</span></p><p><b>value</b>: 1.83 m<span style=\"background: LightGoldenRodYellow\"> (Detalhes: UCUM códigom = 'm')</span></p><p><b>method</b>: <span title=\"Códigos:{http://loinc.org LA11870-5}\">Standing</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida"^^xsd:anyURI ] ;
@@ -482,7 +498,7 @@
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "1.83"^^xsd:decimal ] ;
+     fhir:value [ fhir:v 1.83 ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "m" ]
   ] ; # 
@@ -504,7 +520,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_84e657cc-159f-4271-b0a1-38a76e28c624\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 84e657cc-159f-4271-b0a1-38a76e28c624</b></p><a name=\"84e657cc-159f-4271-b0a1-38a76e28c624\"> </a><a name=\"hc84e657cc-159f-4271-b0a1-38a76e28c624\"> </a><a name=\"84e657cc-159f-4271-b0a1-38a76e28c624-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8280-0}\">Waist Circumference at umbilicus by Tape measure</span></p><p><b>value</b>: 135.5 cm<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecm = 'cm')</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_84e657cc-159f-4271-b0a1-38a76e28c624\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 84e657cc-159f-4271-b0a1-38a76e28c624</b></p><a name=\"84e657cc-159f-4271-b0a1-38a76e28c624\"> </a><a name=\"hc84e657cc-159f-4271-b0a1-38a76e28c624\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 8280-0}\">Circumf.at umbilicus by Tape Measure</span></p><p><b>value</b>: 135.5 cm<span style=\"background: LightGoldenRodYellow\"> (Detalhes: UCUM códigocm = 'cm')</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -516,7 +532,7 @@
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "135.5"^^xsd:decimal ] ;
+     fhir:value [ fhir:v 135.5 ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "cm" ]
   ] . # 
@@ -531,7 +547,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_5302c1a3-2190-44aa-a9a2-382d27fe9230\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 5302c1a3-2190-44aa-a9a2-382d27fe9230</b></p><a name=\"5302c1a3-2190-44aa-a9a2-382d27fe9230\"> </a><a name=\"hc5302c1a3-2190-44aa-a9a2-382d27fe9230\"> </a><a name=\"5302c1a3-2190-44aa-a9a2-382d27fe9230-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8665-2}\">Last menstrual period start date</span></p><p><b>value</b>: 2022-05-23</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_5302c1a3-2190-44aa-a9a2-382d27fe9230\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 5302c1a3-2190-44aa-a9a2-382d27fe9230</b></p><a name=\"5302c1a3-2190-44aa-a9a2-382d27fe9230\"> </a><a name=\"hc5302c1a3-2190-44aa-a9a2-382d27fe9230\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 8665-2}\">Date last menstrual period</span></p><p><b>value</b>: 2022-05-23</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -541,7 +557,10 @@
        fhir:code [ fhir:v "8665-2" ]
      ] )
   ] ; # 
-  fhir:value [ fhir:v "2022-05-23"^^xsd:date] . # 
+  fhir:value [
+     a fhir:dateTime ;
+     fhir:v "2022-05-23"^^xsd:date
+  ] . # 
 
 <urn:uuid:8264b367-cce0-4a76-b8d4-f9dcea39ee3d> a fhir:Observation ;
   fhir:id [ fhir:v "8264b367-cce0-4a76-b8d4-f9dcea39ee3d"] ; # 
@@ -553,7 +572,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_8264b367-cce0-4a76-b8d4-f9dcea39ee3d\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 8264b367-cce0-4a76-b8d4-f9dcea39ee3d</b></p><a name=\"8264b367-cce0-4a76-b8d4-f9dcea39ee3d\"> </a><a name=\"hc8264b367-cce0-4a76-b8d4-f9dcea39ee3d\"> </a><a name=\"8264b367-cce0-4a76-b8d4-f9dcea39ee3d-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 56832-9}\">Type of substance abused</span></p><p><b>effective</b>: Code </p><p><b>value</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso alcool}\">Bebidas Alcóolicas</span></p><p><b>note</b>: Uso ocasional de cannabis.</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_8264b367-cce0-4a76-b8d4-f9dcea39ee3d\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 8264b367-cce0-4a76-b8d4-f9dcea39ee3d</b></p><a name=\"8264b367-cce0-4a76-b8d4-f9dcea39ee3d\"> </a><a name=\"hc8264b367-cce0-4a76-b8d4-f9dcea39ee3d\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 56832-9}\">Acused substance</span></p><p><b>effective</b>: Código </p><p><b>value</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso alcool}\">Bebidas Alcóolicas</span></p><p><b>note</b>: </p><blockquote><div><p>Uso ocasional de cannabis.</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -593,7 +612,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_0509d090-3594-4f07-b32c-2a97da6a6fed\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 0509d090-3594-4f07-b32c-2a97da6a6fed</b></p><a name=\"0509d090-3594-4f07-b32c-2a97da6a6fed\"> </a><a name=\"hc0509d090-3594-4f07-b32c-2a97da6a6fed\"> </a><a name=\"0509d090-3594-4f07-b32c-2a97da6a6fed-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 11885-1}\">Gestational age Estimated from last menstrual period</span></p><p><b>value</b>: 3.5 wk<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codewk = 'wk')</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_0509d090-3594-4f07-b32c-2a97da6a6fed\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 0509d090-3594-4f07-b32c-2a97da6a6fed</b></p><a name=\"0509d090-3594-4f07-b32c-2a97da6a6fed\"> </a><a name=\"hc0509d090-3594-4f07-b32c-2a97da6a6fed\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 11885-1}\">GA Est from LMP</span></p><p><b>value</b>: 3.5 wk<span style=\"background: LightGoldenRodYellow\"> (Detalhes: UCUM códigowk = 'wk')</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -605,7 +624,7 @@
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "3.5"^^xsd:decimal ] ;
+     fhir:value [ fhir:v 3.5 ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "wk" ]
   ] . # 
@@ -620,7 +639,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_059208f1-0083-4f81-a472-87b32140b31d\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 059208f1-0083-4f81-a472-87b32140b31d</b></p><a name=\"059208f1-0083-4f81-a472-87b32140b31d\"> </a><a name=\"hc059208f1-0083-4f81-a472-87b32140b31d\"> </a><a name=\"059208f1-0083-4f81-a472-87b32140b31d-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 9843-4}\">Head Occipital-frontal circumference</span></p><p><b>value</b>: 45.5 cm<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecm = 'cm')</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_059208f1-0083-4f81-a472-87b32140b31d\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 059208f1-0083-4f81-a472-87b32140b31d</b></p><a name=\"059208f1-0083-4f81-a472-87b32140b31d\"> </a><a name=\"hc059208f1-0083-4f81-a472-87b32140b31d\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 9843-4}\">Head Circumf OCF</span></p><p><b>value</b>: 45.5 cm<span style=\"background: LightGoldenRodYellow\"> (Detalhes: UCUM códigocm = 'cm')</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -632,7 +651,7 @@
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "45.5"^^xsd:decimal ] ;
+     fhir:value [ fhir:v 45.5 ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "cm" ]
   ] . # 
@@ -647,7 +666,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_98b0e992-9c95-464a-a661-6c42a4bd310c\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 98b0e992-9c95-464a-a661-6c42a4bd310c</b></p><a name=\"98b0e992-9c95-464a-a661-6c42a4bd310c\"> </a><a name=\"hc98b0e992-9c95-464a-a661-6c42a4bd310c\"> </a><a name=\"98b0e992-9c95-464a-a661-6c42a4bd310c-und\"> </a><p><b>Origem da Medição</b>: <span title=\"Codes:{http://loinc.org 3138-5}\">Body height Stated</span></p><p><b>Roupas Usadas na Medição</b>: <span title=\"Codes:{http://loinc.org LA11873-9}\">Street clothes &amp; shoes</span></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></p><p><b>value</b>: 88.15 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p><p><b>method</b>: <span title=\"Codes:{http://loinc.org LA11870-5}\">Standing</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_98b0e992-9c95-464a-a661-6c42a4bd310c\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 98b0e992-9c95-464a-a661-6c42a4bd310c</b></p><a name=\"98b0e992-9c95-464a-a661-6c42a4bd310c\"> </a><a name=\"hc98b0e992-9c95-464a-a661-6c42a4bd310c\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>Origem da Medição</b>: <span title=\"Códigos:{http://loinc.org 3138-5}\">Bdy height Stated</span></p><p><b>Roupas Usadas na Medição</b>: <span title=\"Códigos:{http://loinc.org LA11873-9}\">Street clothes &amp; shoes</span></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 29463-7}\">Weight</span></p><p><b>value</b>: 88.15 kg<span style=\"background: LightGoldenRodYellow\"> (Detalhes: UCUM códigokg = 'kg')</span></p><p><b>method</b>: <span title=\"Códigos:{http://loinc.org LA11870-5}\">Standing</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROrigemMedida"^^xsd:anyURI ] ;
@@ -680,7 +699,7 @@
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "88.15"^^xsd:decimal ] ;
+     fhir:value [ fhir:v 88.15 ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "kg" ]
   ] ; # 
@@ -702,7 +721,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_efcce484-7226-435f-8c7c-b1d703079444\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation efcce484-7226-435f-8c7c-b1d703079444</b></p><a name=\"efcce484-7226-435f-8c7c-b1d703079444\"> </a><a name=\"hcefcce484-7226-435f-8c7c-b1d703079444\"> </a><a name=\"efcce484-7226-435f-8c7c-b1d703079444-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8480-6}\">Systolic blood pressure</span></p><p><b>value</b>: 0.15 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p><p><b>bodySite</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao 6}\">Pulso esquerdo</span></p><p><b>method</b>: <span title=\"Codes:{http://loinc.org LA11868-9}\">Sitting</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_efcce484-7226-435f-8c7c-b1d703079444\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation efcce484-7226-435f-8c7c-b1d703079444</b></p><a name=\"efcce484-7226-435f-8c7c-b1d703079444\"> </a><a name=\"hcefcce484-7226-435f-8c7c-b1d703079444\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 8480-6}\">BP sys</span></p><p><b>value</b>: 0.15 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Detalhes: UCUM códigomm[Hg] = 'mm[Hg]')</span></p><p><b>bodySite</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao 6}\">Pulso esquerdo</span></p><p><b>method</b>: <span title=\"Códigos:{http://loinc.org LA11868-9}\">Sitting</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -714,7 +733,7 @@
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "0.15"^^xsd:decimal ] ;
+     fhir:value [ fhir:v 0.15 ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "mm[Hg]" ]
   ] ; # 
@@ -742,7 +761,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_d78c1159-1473-4bef-9096-5ba98384e950\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation d78c1159-1473-4bef-9096-5ba98384e950</b></p><a name=\"d78c1159-1473-4bef-9096-5ba98384e950\"> </a><a name=\"hcd78c1159-1473-4bef-9096-5ba98384e950\"> </a><a name=\"d78c1159-1473-4bef-9096-5ba98384e950-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 11612-9}\">[#] Abortions</span></p><p><b>value</b>: 1</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_d78c1159-1473-4bef-9096-5ba98384e950\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation d78c1159-1473-4bef-9096-5ba98384e950</b></p><a name=\"d78c1159-1473-4bef-9096-5ba98384e950\"> </a><a name=\"hcd78c1159-1473-4bef-9096-5ba98384e950\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 11612-9}\">Acortions</span></p><p><b>value</b>: 1</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -767,7 +786,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_32e99ca6-4e7d-4d56-8f25-612dd1c51a71\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 32e99ca6-4e7d-4d56-8f25-612dd1c51a71</b></p><a name=\"32e99ca6-4e7d-4d56-8f25-612dd1c51a71\"> </a><a name=\"hc32e99ca6-4e7d-4d56-8f25-612dd1c51a71\"> </a><a name=\"32e99ca6-4e7d-4d56-8f25-612dd1c51a71-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 11996-6}\">[#] Pregnancies</span></p><p><b>value</b>: 2</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_32e99ca6-4e7d-4d56-8f25-612dd1c51a71\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 32e99ca6-4e7d-4d56-8f25-612dd1c51a71</b></p><a name=\"32e99ca6-4e7d-4d56-8f25-612dd1c51a71\"> </a><a name=\"hc32e99ca6-4e7d-4d56-8f25-612dd1c51a71\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 11996-6}\">Pregnancies</span></p><p><b>value</b>: 2</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -792,7 +811,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_19011496-44a1-4048-8e1b-558b82b1caf1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 19011496-44a1-4048-8e1b-558b82b1caf1</b></p><a name=\"19011496-44a1-4048-8e1b-558b82b1caf1\"> </a><a name=\"hc19011496-44a1-4048-8e1b-558b82b1caf1\"> </a><a name=\"19011496-44a1-4048-8e1b-558b82b1caf1-und\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 11996-6}\">[#] Pregnancies</span></p><p><b>value</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno predominante}\">Predominante</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_19011496-44a1-4048-8e1b-558b82b1caf1\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation 19011496-44a1-4048-8e1b-558b82b1caf1</b></p><a name=\"19011496-44a1-4048-8e1b-558b82b1caf1\"> </a><a name=\"hc19011496-44a1-4048-8e1b-558b82b1caf1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedidaObservada.html\">Medida Observada</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 11996-6}\">Pregnancies</span></p><p><b>value</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno predominante}\">Predominante</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -820,7 +839,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AllergyIntolerance_34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AllergyIntolerance 34fe98d3-e5fc-491e-a125-c90ab2abb83a</b></p><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a><a name=\"hc34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a-und\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>category</b>: Food</p><p><b>criticality</b>: Low Risk</p><p><b>code</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 2}\">SAT</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: Soro antitetânico</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA 10037087}\">Prurido</span></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AllergyIntolerance_34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: AllergyIntolerance 34fe98d3-e5fc-491e-a125-c90ab2abb83a</b></p><a name=\"34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a><a name=\"hc34fe98d3-e5fc-491e-a125-c90ab2abb83a\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>category</b>: Food</p><p><b>criticality</b>: Low Risk</p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 2}\">SAT</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>onset</b>: 2022-06-01</p><p><b>note</b>: </p><blockquote><div><p>Soro antitetânico</p>\n</div></blockquote><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA 10037087}\">Prurido</span></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:clinicalStatus [
      fhir:coding ( [
@@ -850,7 +869,10 @@
        fhir:value [ fhir:v "819217217061851" ]
      ]
   ] ; # 
-  fhir:onset [ fhir:v "2022-06-01"^^xsd:date] ; # 
+  fhir:onset [
+     a fhir:dateTime ;
+     fhir:v "2022-06-01"^^xsd:date
+  ] ; # 
   fhir:note ( [
      fhir:text [ fhir:v "Soro antitetânico" ]
   ] ) ; # 
@@ -873,7 +895,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_48e799d2-1087-4461-af34-8ecdd5bce316\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition 48e799d2-1087-4461-af34-8ecdd5bce316</b></p><a name=\"48e799d2-1087-4461-af34-8ecdd5bce316\"> </a><a name=\"hc48e799d2-1087-4461-af34-8ecdd5bce316\"> </a><a name=\"48e799d2-1087-4461-af34-8ecdd5bce316-und\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RPM}\">Registro de Prescrição de Medicamento</span></p><p><b>date</b>: 2022-03-04 14:59:51-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>title</b>: Registro de Prescrição de Medicamento</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_48e799d2-1087-4461-af34-8ecdd5bce316\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Composition 48e799d2-1087-4461-af34-8ecdd5bce316</b></p><a name=\"48e799d2-1087-4461-af34-8ecdd5bce316\"> </a><a name=\"hc48e799d2-1087-4461-af34-8ecdd5bce316\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRRegistroPrescricaoMedicamento.html\">Registro de Prescrição de Medicamento</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RPM}\">Registro de Prescrição de Medicamento</span></p><p><b>date</b>: 2022-03-04 14:59:51-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>title</b>: Registro de Prescrição de Medicamento</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:type [
@@ -912,7 +934,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_6d607d4c-18f4-4647-be8c-d3b40e1659bb\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationRequest 6d607d4c-18f4-4647-be8c-d3b40e1659bb</b></p><a name=\"6d607d4c-18f4-4647-be8c-d3b40e1659bb\"> </a><a name=\"hc6d607d4c-18f4-4647-be8c-d3b40e1659bb\"> </a><a name=\"6d607d4c-18f4-4647-be8c-d3b40e1659bb-und\"> </a><p><b>status</b>: Completed</p><p><b>intent</b>: Order</p><p><b>medication</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>authoredOn</b>: 2022-03-04</p><p><b>requester</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>recorder</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0</code>/162338254590005</p><p><b>note</b>: Medicamento necessário para tratamento da febre devido à gripe. (By Dr. Getúlio @2022-03-04)</p><blockquote><p><b>dosageInstruction</b></p><p><b>patientInstruction</b>: Tomar uma vez ao dia via oral.</p><p><b>timing</b>: Count 1  times, 12</p><p><b>asNeeded</b>: true</p><p><b>route</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao 10907}\">Oral</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 13}\">Cápsula</span></td><td>10</td></tr></table><p><b>maxDosePerAdministration</b>: 10</p></blockquote><h3>DispenseRequests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ValidityPeriod</b></td><td><b>Quantity</b></td></tr><tr><td style=\"display: none\">*</td><td>2022-02-24 --&gt; 2022-03-03</td><td>10</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_6d607d4c-18f4-4647-be8c-d3b40e1659bb\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: MedicationRequest 6d607d4c-18f4-4647-be8c-d3b40e1659bb</b></p><a name=\"6d607d4c-18f4-4647-be8c-d3b40e1659bb\"> </a><a name=\"hc6d607d4c-18f4-4647-be8c-d3b40e1659bb\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRPrescricaoMedicamento.html\">Prescrição de Medicamento</a></p></div><p><b>status</b>: Completed</p><p><b>intent</b>: Order</p><p><b>medication</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>authoredOn</b>: 2022-03-04</p><p><b>requester</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>recorder</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0</code>/162338254590005</p><p><b>note</b>: Por Dr. Getúlio @2022-03-04</p><blockquote><div><p>Medicamento necessário para tratamento da febre devido à gripe.</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>patientInstruction</b>: Tomar uma vez ao dia via oral.</p><p><b>timing</b>: Contagem 1  times, 12</p><p><b>asNeeded</b>: true</p><p><b>route</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao 10907}\">Oral</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 13}\">Cápsula</span></td><td>10</td></tr></table><p><b>maxDosePerAdministration</b>: 10</p></blockquote><h3>DispenseRequests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ValidityPeriod</b></td><td><b>Quantity</b></td></tr><tr><td style=\"display: none\">*</td><td>2022-02-24 --&gt; 2022-03-03</td><td>10</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
@@ -940,7 +962,10 @@
      ]
   ] ; # 
   fhir:note ( [
-     fhir:author [ fhir:v "Dr. Getúlio" ] ;
+     fhir:author [
+       a fhir:string ;
+       fhir:v "Dr. Getúlio"
+     ] ;
      fhir:time [ fhir:v "2022-03-04"^^xsd:date ] ;
      fhir:text [ fhir:v "Medicamento necessário para tratamento da febre devido à gripe." ]
   ] ) ; # 
@@ -950,14 +975,23 @@
        fhir:repeat [
          fhir:extension ( [
            fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "3" ]
+           fhir:value [
+             a fhir:code ;
+             fhir:v "3"
+           ]
          ] [
            fhir:extension ( [
              fhir:url [ fhir:v "periodUnit"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "min" ]
+             fhir:value [
+               a fhir:code ;
+               fhir:v "min"
+             ]
            ] [
              fhir:url [ fhir:v "period"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "1"^^xsd:positiveInteger ]
+             fhir:value [
+               a fhir:positiveInt ;
+               fhir:v "1"^^xsd:positiveInteger
+             ]
            ] ) ;
            fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses"^^xsd:anyURI ]
          ] ) ;
@@ -966,7 +1000,10 @@
          fhir:frequency [ fhir:v "12"^^xsd:positiveInteger ]
        ]
      ] ;
-     fhir:asNeeded [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:asNeeded [
+       a fhir:boolean ;
+       fhir:v true
+     ] ;
      fhir:route [
        fhir:coding ( [
          fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"^^xsd:anyURI ] ;
@@ -1009,7 +1046,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Medication_8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Medication 8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd</b></p><a name=\"8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\"> </a><a name=\"hc8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\"> </a><a name=\"8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd-und\"> </a><p><b>code</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT BR0352317}\">Terminologia segundo CATMAT</span></p><p><b>form</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 2}\">Ampola</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Medication_8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Medication 8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd</b></p><a name=\"8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\"> </a><a name=\"hc8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedicamento.html\">Medicamento</a></p></div><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT BR0352317}\">Terminologia segundo CATMAT</span></p><p><b>form</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 2}\">Ampola</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:code [
      fhir:coding ( [
@@ -1035,7 +1072,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_d2176159-0427-42da-a727-636bbb042d97\"> </a><p class=\"res-header-id\"><b>Generated Narrative: CarePlan d2176159-0427-42da-a727-636bbb042d97</b></p><a name=\"d2176159-0427-42da-a727-636bbb042d97\"> </a><a name=\"hcd2176159-0427-42da-a727-636bbb042d97\"> </a><a name=\"d2176159-0427-42da-a727-636bbb042d97-und\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>description</b>: Repouso pós-medicação intramuscular</p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_d2176159-0427-42da-a727-636bbb042d97\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: CarePlan d2176159-0427-42da-a727-636bbb042d97</b></p><a name=\"d2176159-0427-42da-a727-636bbb042d97\"> </a><a name=\"hcd2176159-0427-42da-a727-636bbb042d97\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRPlanoCuidados-1.0.html\">Plano de Cuidados</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>description</b>: Repouso pós-medicação intramuscular</p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "plan"] ; # 
@@ -1057,7 +1094,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_22f0baea-50d7-429b-8767-3b07c9a8120e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: CarePlan 22f0baea-50d7-429b-8767-3b07c9a8120e</b></p><a name=\"22f0baea-50d7-429b-8767-3b07c9a8120e\"> </a><a name=\"hc22f0baea-50d7-429b-8767-3b07c9a8120e\"> </a><a name=\"22f0baea-50d7-429b-8767-3b07c9a8120e-und\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>category</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento ATM}\">Atestado Médico/Odontológico</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>addresses</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><blockquote><p><b>activity</b></p><h3>Details</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Description</b></td></tr><tr><td style=\"display: none\">*</td><td>Unknown</td><td>Events: 2022-07-25 18:11:19+0000 , Count 1  times, Once</td><td>Nada digno de nota.</td></tr></table></blockquote></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_22f0baea-50d7-429b-8767-3b07c9a8120e\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: CarePlan 22f0baea-50d7-429b-8767-3b07c9a8120e</b></p><a name=\"22f0baea-50d7-429b-8767-3b07c9a8120e\"> </a><a name=\"hc22f0baea-50d7-429b-8767-3b07c9a8120e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRAtestado.html\">Atestado Digital</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>category</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento ATM}\">Atestado Médico/Odontológico</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>addresses</b>: <a href=\"Bundle-bundle-example-rac-2.html#urn-uuid-6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\">Bundle: identifier = http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-18602#94641731211; type = document; timestamp = 2022-05-09 18:11:19+0000</a></p><blockquote><p><b>activity</b></p><h3>Details</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Description</b></td></tr><tr><td style=\"display: none\">*</td><td>Unknown</td><td>Eventos: 2022-07-25 18:11:19+0000 , Contagem 1  times, Uma vez</td><td>Nada digno de nota.</td></tr></table></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "plan"] ; # 
@@ -1101,7 +1138,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition 6f057e45-34ab-43d6-8fd5-53c1d3aa73b2</b></p><a name=\"6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\"> </a><a name=\"hc6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\"> </a><a name=\"6f057e45-34ab-43d6-8fd5-53c1d3aa73b2-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRCID10Avaliado-1.0.html\">CID10 Avaliado</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico 01}\">Principal</span></p><p><b>code</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 I859}\">Varizes esofagianas sem sangramento</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>onset</b>: 2023-06-16</p><p><b>note</b>: Varizes esofagianas sem sangramento.</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition 6f057e45-34ab-43d6-8fd5-53c1d3aa73b2</b></p><a name=\"6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\"> </a><a name=\"hc6f057e45-34ab-43d6-8fd5-53c1d3aa73b2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:37:55+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRCID10Avaliado-1.0.html\">CID10 Avaliado</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico 01}\">Principal</span></p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 I859}\">Varizes esofagianas sem sangramento</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/819217217061851</p><p><b>onset</b>: 2023-06-16</p><p><b>note</b>: </p><blockquote><div><p>Varizes esofagianas sem sangramento.</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:clinicalStatus [
      fhir:coding ( [
@@ -1128,7 +1165,10 @@
        fhir:value [ fhir:v "819217217061851" ]
      ]
   ] ; # 
-  fhir:onset [ fhir:v "2023-06-16"^^xsd:date] ; # 
+  fhir:onset [
+     a fhir:dateTime ;
+     fhir:v "2023-06-16"^^xsd:date
+  ] ; # 
   fhir:note ( [
      fhir:text [ fhir:v "Varizes esofagianas sem sangramento." ]
   ] ) . # 

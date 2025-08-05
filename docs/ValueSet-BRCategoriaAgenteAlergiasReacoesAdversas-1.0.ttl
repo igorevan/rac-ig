@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15,39 +16,43 @@
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BRCategoriaAgenteAlergiasReacoesAdversas-1.0</b></p><a name=\"BRCategoriaAgenteAlergiasReacoesAdversas-1.0\"> </a><a name=\"hcBRCategoriaAgenteAlergiasReacoesAdversas-1.0\"> </a><a name=\"BRCategoriaAgenteAlergiasReacoesAdversas-1.0-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2020-09-20 20:37:36+0000; Language: pt-BR</p></div><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html\"><code>http://hl7.org/fhir/allergy-intolerance-category</code></a> version <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-food\">food</a></td><td>Alimento</td><td>Any substance consumed to provide nutritional support for the body.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-medication\">medication</a></td><td>Medicamento</td><td>Substances administered to achieve a physiological effect.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-biologic\">biologic</a></td><td>Biológica</td><td>A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-other\">other</a></td><td>Outras substâncias</td><td/></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-environment\">environment</a></td><td>Fator Externo/Ambiental</td><td>Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic.</td></tr></table></li></ul></div>"
+     fhir:div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRCategoriaAgenteAlergiasReacoesAdversas-1.0</b></p><a name=\"BRCategoriaAgenteAlergiasReacoesAdversas-1.0\"> </a><a name=\"hcBRCategoriaAgenteAlergiasReacoesAdversas-1.0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">versão: 1; Última atualização: 2020-09-20 20:37:36+0000; Língua: pt-BR</p></div><ul><li>Include estes códigos, tal como definidos em <a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html\"><code>http://hl7.org/fhir/allergy-intolerance-category</code></a> versão <code>*</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-food\">food</a></td><td>Alimento</td><td>Any substance consumed to provide nutritional support for the body.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-medication\">medication</a></td><td>Medicamento</td><td>Substances administered to achieve a physiological effect.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-biologic\">biologic</a></td><td>Biológica</td><td>A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-other\">other</a></td><td>Outras substâncias</td><td/></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-environment\">environment</a></td><td>Fator Externo/Ambiental</td><td>Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "1"^^xsd:integer ;
+       a fhir:integer ;
+       fhir:v 1 ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
+           a fhir:canonical ;
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
+       a fhir:code ;
        fhir:v "informative" ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac>
+           a fhir:canonical ;
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "BRCategoriaAgenteAlergiasReacoesAdversas"] ; # 
   fhir:title [ fhir:v "Categoria do Agente da Alergia ou Reação Adversa"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-09-20T20:37:36.0254538+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
@@ -63,7 +68,7 @@
        fhir:code [ fhir:v "BR" ]
      ] )
   ] ) ; # 
-  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:immutable [ fhir:v false] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://hl7.org/fhir/allergy-intolerance-category"^^xsd:anyURI ] ;

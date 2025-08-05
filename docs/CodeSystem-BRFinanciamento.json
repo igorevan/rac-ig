@@ -7,7 +7,7 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem BRFinanciamento</b></p><a name=\"BRFinanciamento\"> </a><a name=\"hcBRFinanciamento\"> </a><a name=\"BRFinanciamento-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2020-03-11 18:12:26+0000; Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRFinanciamento-01\"> </a></td><td>Federal SUS</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRFinanciamento-02\"> </a></td><td>Plano de Saúde Público</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRFinanciamento-03\"> </a></td><td>Plano de Saúde Privado</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRFinanciamento-04\"> </a></td><td>Particular</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRFinanciamento-05\"> </a></td><td>Gratuidade</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRFinanciamento-06\"> </a></td><td>Estadual SUS</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRFinanciamento-07\"> </a></td><td>Municipal SUS</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRFinanciamento-08\"> </a></td><td>Programas e Projetos Federais</td></tr></table></div>"
+    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRFinanciamento</b></p><a name=\"BRFinanciamento\"> </a><a name=\"hcBRFinanciamento\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2020-03-11 18:12:26+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRFinanciamento-01\"> </a></td><td>Federal SUS</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRFinanciamento-02\"> </a></td><td>Plano de Saúde Público</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRFinanciamento-03\"> </a></td><td>Plano de Saúde Privado</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRFinanciamento-04\"> </a></td><td>Particular</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRFinanciamento-05\"> </a></td><td>Gratuidade</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRFinanciamento-06\"> </a></td><td>Estadual SUS</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRFinanciamento-07\"> </a></td><td>Municipal SUS</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRFinanciamento-08\"> </a></td><td>Programas e Projetos Federais</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -15,7 +15,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -25,12 +25,12 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.rac"
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   }],
   "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "BRFinanciamento",
   "title" : "Financiamento",
   "status" : "active",
