@@ -1,9 +1,6 @@
 {
   "resourceType": "ValueSet",
   "id": "BRAlergenos-1.0",
-  "meta": {
-    "lastUpdated": "2020-09-20T20:36:53.436+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0",
   "version": "1.0",
@@ -18,16 +15,13 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
-        "version": "*"
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA"
       },
       {
-        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
-        "version": "*"
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"
       },
       {
-        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento",
-        "version": "*"
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento"
       }
     ]
   }

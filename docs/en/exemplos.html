@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Exemplos - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"8"}
+    h3,h4,h5,h6{--heading-prefix:"8"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0-release - STU1
+
+
+
+  <img alt="Brazil flag" src="../assets/images/bra.svg" height="16" title="Brazil"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="abstract.html">Abstract</a>
+  </li>
+  <li>
+    <a href="lives.html">Lives</a>
+  </li>
+  <li>
+    <a href="credenciamento.html">Credenciamento</a>
+  </li>
+  <li>
+    <a href="integracao.html">Integração</a>
+  </li>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="mi.html" class="dropdown-toggle"> RAC <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="mi.html">Modelo de Informação</a>
+      </li>
+      <li>
+        <a href="mc.html">Modelo Computacional</a>
+      </li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artefatos</a>
+      </li>
+      <li>
+        <a href="exemplos.html">Exemplos</a>
+      </li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="toc.html" class="dropdown-toggle"> Ajuda <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="toc.html">Índice</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> Especificações do FHIR R4 <img src="external.png"
+            style="text-align: baseline" />
+        </a>
+      </li>
+      <li>
+        <a href="changes.html">Histórico de mudanças</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="forms.html">Feedback</a>
+      </li>
+      <li>
+        <a href="suporte.html">Suporte da RNDS</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Índice</b></a></li><li><b>Exemplos</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="mc.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="changes.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Compilação de desenvolvimento local (v1.0.0-release) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
+  <h2>Exemplos</h2>
+  
+  
+  
+  <table class="colsi" data-fhir="generated">
+    <tr>
+  
+      <td>
+        <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Informative</a>
+        
+      </td>
+  
+  
+      <td id="toggle-change-display" style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </td>
+    </tr>
+  </table>
+
+  
+  <div xmlns="http://www.w3.org/1999/xhtml">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="exemplos">  </a>
+  <h3>Exemplos</h3>
+  <p>
+    <a href="Bundle-bundle-example-rac-1.html">Exemplo de Bundle do Registro de Atendimento Clínico
+      (RAC) - Paciente
+      Identificado</a>
+  </p>
+  <a name="caso-uso-identificado"> </a>
+  <h4>Caso de uso para Paciente Identificado</h4>
+  <p>
+    Em uma tarde de 9 de maio de 2022, por volta das 15:36, um paciente
+    (identificado na API como 819217217061851) chegou a uma unidade de saúde
+    queixando-se da presença de sangue na saliva. O paciente foi prontamente
+    atendido em caráter ambulatorial (modalidade assistencial 04).
+  </p>
+  <pre>{
+      "subject": {
+        "identifier": {
+          "system": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+          "value": "819217217061851"
+        }
+      }
+    }</pre>
+  <pre>{
+        "hospitalization": {
+          "extension": [
+            {
+              "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes",
+              "valueAnnotation": {
+                "text": "Paciente se queixando da presença de sangue na saliva.",
+                "time": "2022-05-09"
+              }
+            }
+          ]
+        },
+        "period": {
+          "start": "2022-04-09T15:36:40.157-03:00",
+          "end": "2022-05-09T15:46:48.534-03:00"
+        }
+      }</pre>
+  <p>
+    Durante a avaliação inicial, foram coletadas diversas medidas do paciente:
+  </p>
+  <ul>
+    <li>Altura: 1,83 metros</li>
+    <li>Perímetro cefálico: 135,5 cm</li>
+    <li>Peso: 88,15 kg (pesado com roupas leves)</li>
+    <li>Pressão arterial: 0,15 mmHg (medida no braço direito)</li>
+  </ul>
+  <pre>{
+      "resourceType": "Observation",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8302-2"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 1.83,
+        "system": "http://unitsofmeasure.org",
+        "code": "m"
+      }
+    }</pre>
+  <pre>{
+        "resourceType": "Observation",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 88.15,
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }</pre>
+  <p>
+    Na anamnese, o profissional identificou que o paciente fazia uso ocasional
+    de álcool ("uma ou duas vezes") e cannabis.
+  </p>
+  <pre>{
+      "resourceType": "Observation",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "56832-9"
+          }
+        ]
+      },
+      "effectiveTiming": {
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia",
+              "code": "uma-ou-duas"
+            }
+          ]
+        }
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
+            "code": "alcool"
+          }
+        ]
+      },
+      "note": [
+        {
+          "text": "Uso ocasional de cannabis."
+        }
+      ]
+    }</pre>
+  <p>
+    Após avaliação, o médico diagnosticou o paciente com varizes esofagianas sem
+    sangramento (CID I859). Foi realizada uma consulta médica (código do
+    procedimento: 0301010048) e prescrito um medicamento via oral, que deveria
+    ser tomado uma vez ao dia, com dosagem de 10 unidades por administração.
+  </p>
+  <pre>{
+      "resourceType": "Condition",
+      "code": {
+        "coding": [
+          {
+            "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+            "code": "I859"
+          }
+        ]
+      },
+      "note": [
+        {
+          "text": "Varizes esofagianas sem sangramento."
+        }
+      ]
+    }</pre>
+  <p>
+    O médico responsável, Dr. Getúlio, deixou instruções específicas para o uso
+    do medicamento, indicando que era necessário para tratamento da febre devido
+    à gripe. A prescrição foi válida por uma semana, de 24 de fevereiro a 3 de
+    março de 2022.
+  </p>
+  <pre>{
+      "resourceType": "MedicationRequest",
+      "note": [
+        {
+          "authorString": "Dr. Getúlio",
+          "time": "2022-03-04",
+          "text": "Medicamento necessário para tratamento da febre devido à gripe."
+        }
+      ],
+      "dosageInstruction": [
+        {
+          "patientInstruction": "Tomar uma vez ao dia via oral.",
+          "timing": {
+            "repeat": {
+              "count": 1,
+              "countMax": 10,
+              "frequency": 12
+            }
+          }
+        }
+      ],
+      "dispenseRequest": {
+        "validityPeriod": {
+          "start": "2022-02-24",
+          "end": "2022-03-03"
+        },
+        "quantity": {
+          "value": 10
+        }
+      }
+    }</pre>
+  <p>
+    Durante o atendimento, também foi identificada uma alergia ao soro
+    antitetânico (SAT), classificada como de baixa criticidade, com reações
+    documentadas.
+  </p>
+  <pre>{
+      "resourceType": "AllergyIntolerance",
+      "criticality": "low",
+      "code": {
+        "coding": [
+          {
+            "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+            "code": "2"
+          }
+        ],
+        "text": "SAT"
+      },
+      "note": [
+        {
+          "text": "Soro antitetânico"
+        }
+      ]
+    }</pre>
+  <p>
+    O paciente recebeu orientações para repouso pós-medicação intramuscular como
+    parte de seu plano de cuidados. O atendimento foi finalizado por volta das
+    15:46, com encaminhamento do paciente (código de desfecho 06).
+  </p>
+  <pre>{
+      "resourceType": "CarePlan",
+      "status": "active",
+      "intent": "plan",
+      "description": "Repouso pós-medicação intramuscular"
+    }</pre>
+  <p>
+    <a href="Bundle-bundle-example-rac-2.html">Exemplo de Bundle do Registro de Atendimento Clínico
+      (RAC) - Paciente Não
+      Identificado</a>
+  </p>
+  <a name="caso-uso-nao-identificado"> </a>
+  <h4>Caso de uso para Paciente Não Identificado</h4>
+  <p>
+    Em essência, as informações, como medidas sintomas e diagnósticos são as
+    mesmas do exemplo do paciente identificado. As principais diferenças são a
+    ausência do horário do atendimento e a coleta de dados que não facilitem sua
+    identificação, sendo considerado apenas um jovem homem de aproximadamente 22
+    anos (nascido em 2000). Na estrutura da API ele pode ser encontrado como:
+  </p>
+  <pre>{
+    "subject": {
+      "extension": [
+        {
+          "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0",
+          "extension": [
+            {
+              "url": "gender",
+              "valueCode": "male"
+            },
+            {
+              "url": "birthYear",
+              "valueDate": "2000"
+            },
+            {
+              "url": "reason",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+                    "code": "01"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }</pre>
+</div>
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="mc.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="changes.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
+          Package br.gov.saude.rac.fhir#1.0.0-release based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-06-16 17:47:00 -0300">
+    2026-06-16
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,11 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRCriticidadeAlergiasReacoesAdversas-1.0",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2020-09-20T20:36:31.553+00:00"
-  },
-  "language": "pt-BR",
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
   "version": "1.0",
   "name": "BRCriticidadeAlergiasReacoesAdversas",
@@ -20,19 +16,36 @@
     "include": [
       {
         "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
-        "version": "*",
         "concept": [
           {
             "code": "low",
-            "display": "Baixa"
+            "display": "Low Risk",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Baixa"
+              }
+            ]
           },
           {
             "code": "high",
-            "display": "Alta"
+            "display": "High Risk",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Alta"
+              }
+            ]
           },
           {
             "code": "unable-to-assess",
-            "display": "Indeterminada"
+            "display": "Unable to Assess Risk",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Indeterminada"
+              }
+            ]
           }
         ]
       }

@@ -1,0 +1,373 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoIdentificador> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRTipoIdentificador"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRTipoIdentificador"] ; # 
+  fhir:title [ fhir:v "Tipo de Identificador"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-03-11T18:25:38.8137622+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classifica o tipo de indicador que está sendo utilizado."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "use" ] ;
+     fhir:description [ fhir:v "Uso do Tipo do Identificador" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AUTH" ] ;
+     fhir:display [ fhir:v "Código de Autorização" ] ;
+     fhir:definition [ fhir:v "Identificador da permissão para a realização de um procedimento." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "procedure"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRA" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Administração (CRA)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRESS" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Serviço Social (CRESS)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRB" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Biblioteconomia (CRB)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRC" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Contabilidade (CRC)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRECI" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACORECON" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Economia (CORECON)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACREA" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACONFRE" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Estatística (CONRE)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRF" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Farmácia (CRF)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACREFITO" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRMV" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRN" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Nutrição (CRN)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACONRERP" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRP" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Psicologia (CRP)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRQ" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Química (CRQ)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACORE" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACREF" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Educação Física (CREF)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACAU" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRBIO" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Conselho Regional de Biologia (CRBio)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRBM" ] ;
+     fhir:display [ fhir:v "Número da inscrição no Conselho Regional de Biomedicina (CRBM)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRFA" ] ;
+     fhir:display [ fhir:v "Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRTR" ] ;
+     fhir:display [ fhir:v "Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACRT" ] ;
+     fhir:display [ fhir:v "Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRAOAB" ] ;
+     fhir:display [ fhir:v "Número de inscrição na Ordem dos Advogados do BRAasil (OAB)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRAIDMIL" ] ;
+     fhir:display [ fhir:v "Número da Identidade Militar" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRAIDFUNC" ] ;
+     fhir:display [ fhir:v "Número da Identidade Funcional" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "patient"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRACNPJ" ] ;
+     fhir:display [ fhir:v "Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "use" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "organization"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

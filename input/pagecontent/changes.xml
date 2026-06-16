@@ -1,13 +1,14 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <p>
-    This provides a list of changes to the MyIG specification since its initial release
+    Lista de mudanças na especificação do IG desde a sua versão inicial:
   </p>
-  <a name="1.0.0"> </a>
+
+  <a name="1.0.0-release"> </a>
   <p>
-    <b>v1.0.0 - RAC IG</b> based on FHIR R4
+    <b>2026-06-10: RAC IG v1.0.0-release</b> baseado no FHIR versão R4.
   </p>
   <ul>
-    <li>Initial version</li>
+    <li>Versão inicial</li>
   </ul>
 </div>

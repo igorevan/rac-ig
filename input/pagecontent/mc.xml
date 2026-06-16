@@ -19,22 +19,19 @@
     Atendimento Clínico completo, referenciando todos os dados clínicos relevantes para caracterizar
     um atendimento clínico completo. </p>
   <p>
-    <center>
-      <b>Figura 1 - Diagrama do <i>Bundle</i> do RAC</b>
-    </center>
+    <b>Figura 1 - Diagrama do <i>Bundle</i> do RAC</b>
   </p>
-  <center>
-    <div>
 
-      <img height="500" src="racMc.png" alt="Diagrama do Bundle do RAC" />
+  <div>
 
-    </div>
-  </center>
+    <img height="500" src="racMc.png" alt="Diagrama do Bundle do RAC" />
+
+  </div>
 
   <a name="recursos"> </a>
   <h3>Recursos FHIR</h3>
-  <p> O modelo computacional do RAC, é definido pelo perfil Registro de Atendimento Clínico (<code>
-    Composition</code>). </p>
+  <p> O modelo computacional do RAC, é definido pelo perfil Registro de Atendimento Clínico (<code>Composition</code>).
+  </p>
   <table class="grid">
     <thead>
       <tr>

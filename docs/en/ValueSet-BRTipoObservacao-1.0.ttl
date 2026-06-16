@@ -1,0 +1,190 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoObservacao-1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRTipoObservacao-1.0"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRTipoObservacao"] ; # 
+  fhir:title [ fhir:v "Tipo de Observação"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2022-05-23T10:37:59.848+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Tipo de Observação."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v false] ; # 
+  fhir:copyright [ fhir:v "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"^^xsd:anyURI ]
+     ] [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "0301100039" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "8665-2" ] ;
+         fhir:display [ fhir:v "Last menstrual period start date" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Data da Última Menstruação" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "56832-9" ] ;
+         fhir:display [ fhir:v "Type of substance abused" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Exposição à Substâncias" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11996-6" ] ;
+         fhir:display [ fhir:v "Pregnancies" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Quantidade de Gestações" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "63895-7" ] ;
+         fhir:display [ fhir:v "Breastfeeding status" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Tipo de Aleitamento Materno" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "29463-7" ] ;
+         fhir:display [ fhir:v "Body weight" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Peso Corporal" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "8480-6" ] ;
+         fhir:display [ fhir:v "Systolic blood pressure" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Pressão Arterial Sistólica" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "8462-4" ] ;
+         fhir:display [ fhir:v "Diastolic blood pressure" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Pressão Arterial Diastólica" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "8280-0" ] ;
+         fhir:display [ fhir:v "Waist Circumference at umbilicus by Tape measure" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Circuferência Abdominal" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "9843-4" ] ;
+         fhir:display [ fhir:v "Head Occipital-frontal circumference" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Perímetro Cefálico" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "8302-2" ] ;
+         fhir:display [ fhir:v "Body height" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Altura" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11885-1" ] ;
+         fhir:display [ fhir:v "Gestational age Estimated from last menstrual period" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Idade Gestacional" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11612-9" ] ;
+         fhir:display [ fhir:v "Abortions" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Quantidade de Abortos" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48767-8" ] ;
+         fhir:display [ fhir:v "Annotation comment [Interpretation] Narrative" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Anotação de Comentário para Narrativa [Interpretação]" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

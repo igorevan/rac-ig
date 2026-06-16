@@ -2,29 +2,32 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="BRAlergenos-1.0"/>
-  <meta>
-    <lastUpdated value="2020-09-20T20:36:53.436+00:00"/>
-  </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRAlergenos-1.0</b></p><a name="BRAlergenos-1.0"> </a><a name="hcBRAlergenos-1.0"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2020-09-20 20:36:53+0000; Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRAlergenosCBARA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA</code></a></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRImunobiologico.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code></a></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRMedicamento.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento</code></a></li></ul></div>
+    <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRAlergenos-1.0</b></p><a name="BRAlergenos-1.0"> </a><a name="hcBRAlergenos-1.0"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRAlergenosCBARA.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRImunobiologico.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href="CodeSystem-BRMedicamento.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.0.0-release</span></li></ul></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr"/>
+  </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
+        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="informative">
+    <valueCode value="normative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"/>
+        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1"/>
+  </extension>
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0"/>
-  <version value="1.0.0"/>
+  <version value="1.0.0-release"/>
   <name value="BRAlergenos"/>
   <title value="Alérgenos"/>
   <status value="active"/>
@@ -32,9 +35,14 @@
   <date value="2020-09-20T20:36:53.3154683+00:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
+    <name value="Ministério da Saúde do Brasil"/>
     <telecom>
       <system value="url"/>
       <value value="http://www.saude.gov.br"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="cgiis.datasus@saude.gov.br"/>
     </telecom>
   </contact>
   <description value="Descreve o agente capaz de causar alergia ou reação adversa em seres humanos."/>
@@ -48,15 +56,12 @@
   <compose>
     <include>
       <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA"/>
-      <version value="*"/>
     </include>
     <include>
       <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"/>
-      <version value="*"/>
     </include>
     <include>
       <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento"/>
-      <version value="*"/>
     </include>
   </compose>
 </ValueSet>

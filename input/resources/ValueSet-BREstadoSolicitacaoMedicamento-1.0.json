@@ -1,10 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BREstadoSolicitacaoMedicamento-1.0",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2020-09-20T20:58:17.103+00:00"
-  },
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
   "version": "01.10",
   "name": "BREstadoSolicitacaoMedicamento",
@@ -22,31 +19,73 @@
         "concept": [
           {
             "code": "active",
-            "display": "Ativo"
+            "display": "Active",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Ativo"
+              }
+            ]
           },
           {
             "code": "completed",
-            "display": "Completado"
+            "display": "Completed",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Completado"
+              }
+            ]
           },
           {
             "code": "entered-in-error",
-            "display": "Entrada com erro"
+            "display": "Entered in Error",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Entrada com erro"
+              }
+            ]
           },
           {
             "code": "draft",
-            "display": "Pretendido"
+            "display": "Draft",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Pretendido"
+              }
+            ]
           },
           {
             "code": "on-hold",
-            "display": "Em pausa"
+            "display": "On Hold",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Em pausa"
+              }
+            ]
           },
           {
             "code": "unknown",
-            "display": "Desconhecida"
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Desconhecida"
+              }
+            ]
           },
           {
             "code": "cancelled",
-            "display": "Não realizado"
+            "display": "Cancelled",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Não realizado"
+              }
+            ]
           }
         ]
       }

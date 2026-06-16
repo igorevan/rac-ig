@@ -1,14 +1,18 @@
 {
   "package-id": "br.gov.saude.rac.fhir",
-  "title": "RAC IG",
-  "category": "base",
-  "introduction": "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
-  "version": "1.0.0",
-  "desc": "1.0.0 Release",
-  "mode": "milestone",
-  "path": "http://www.saude.gov.br/fhir/r4/rac/v1.0.0",
-  "ci-build": "https://igorevan.github.io/rac-ig/",
-  "first": true,
+  "version": "1.0.0-release",
+  "path": "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0",
+  "mode": "working",
   "status": "release",
-  "sequence": "Releases"
+  "sequence": "Releases",
+  "desc": "1.0.0 Release",
+  "changes": "changes.html",
+  "first": true,
+  "title": "RAC IG",
+  "ci-build": "https://igorevan.github.io/rac-ig/",
+  "registry-description": "Primeira versão do Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
+  "registry-country": "BR",
+  "registry-authority": "Ministério da Saúde do Brasil",
+  "category": "base",
+  "introduction": "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"
 }

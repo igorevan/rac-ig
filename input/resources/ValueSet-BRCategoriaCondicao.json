@@ -19,7 +19,6 @@
     "include": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/condition-category",
-        "version": "*",
         "concept": [
           {
             "code": "problem-list-item",

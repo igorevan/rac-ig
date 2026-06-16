@@ -1,10 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BREstadoContatoAssistencial-1.0",
-  "meta": {
-    "lastUpdated": "2020-04-07T21:01:37.692+00:00"
-  },
-  "language": "pt-BR",
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoContatoAssistencial-1.0",
   "version": "1.0",
   "name": "BREstadoContatoAssistencial",
@@ -19,15 +16,26 @@
     "include": [
       {
         "system": "http://hl7.org/fhir/encounter-status",
-        "version": "*",
         "concept": [
           {
             "code": "finished",
-            "display": "Contato Assistencial finalizado ou concluído"
+            "display": "Finished",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Contato Assistencial finalizado ou concluído"
+              }
+            ]
           },
           {
             "code": "entered-in-error",
-            "display": "Contato Assistencial anulado por informação errada"
+            "display": "Entered in Error",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Contato Assistencial anulado por informação errada"
+              }
+            ]
           }
         ]
       }

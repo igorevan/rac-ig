@@ -1,54 +1,36 @@
 == Suppressed Messages ==
 
-# Add warning and/or information messages here after you've confirmed that they aren't really a problem
-# instructions for ignoreWarnings.txt https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
-# (And include comments like this justifying why)
-
-The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
-An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
-The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-The Implementation Guide contains no examples for this profile
-The Implementation Guide contains no examples for this extension
-The Implementation Guide contains no explicitly linked examples for this profile
-Best Practice Recommendation: In general, all observations should have a subject
-Best Practice Recommendation: In general, all observations should have a performer
-
-# Errors related to the Patient, Practitioner and Organization Resources
+# Errors relacionados aos recursos Patient, Practitioner and Organization
 %StructureDefinition/BRIndividuo-1.0%
 %StructureDefinition/BRProfissional-1.0%
 %StructureDefinition/BREstabelecimentoSaude-1.0%
 %StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0%
 %StructureDefinition/BRLotacaoProfissional-1.0%
 
-# Errors related to the RNDS CodeSystem specifications
-The property uri 'http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
-The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-This property has only a code ('use') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-The code 'environment' is not a valid code in this code system
-The code 'food' is not a valid code in this code system
-The code 'procedure' is not a valid code in this code system
-The code 'patient' is not a valid code in this code system
-The code 'organization' is not a valid code in this code system
-This property has only a code ('healthcare') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-This property has only a code ('regulated') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-%http://hl7.org/fhir/composition-status%
-Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1
+# Errors relacionados as particularidades dos CodeSystems e ValueSets da RNDS
 The value set expansion is too large, and only a subset has been displayed
-The code 'other' is not valid in the system http://hl7.org/fhir/allergy-intolerance-category version * (other)
-CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
-This property has only a code ('type') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-This property has only a code ('ethnical') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-The code 'ATM' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento version * (ATM)
-A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: []
-The code 'AUTH' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version * (AUTH)
-A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' version '*' could not be found, so the code cannot be validated. Valid versions: []
-The code '0301100039' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS version * (0301100039)
-A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS' version '*' could not be found, so the code cannot be validated. Valid versions: []
-The code 'no-medication-info' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-medication-info)
-A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido' version '*' could not be found, so the code cannot be validated. Valid versions: []
-The code 'no-known-medications' is not valid in the system http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido version * (no-known-medications)
+%Referência ao projeto CodeSystem%
+%Esta propriedade tem apenas um código%
+%The codes 'OTH' are not in the base valueset%
+%não é um código válido neste sistema de códigos%
+Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset
+O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma informação ValueSet, pelo que os códigos serão validados como códigos internos
+%allergy-intolerance-category%
 
-# Errors related to the RNDS specifications
-For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+# Errors relacionados as especificações da RNDS
+%http://hl7.org/fhir/StructureDefinition/regex%
+O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead
+
+# Erros de validação de exemplos
+%Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico%
+%a matching slice is required, but not found%
+Para o tipo complexo CodeableConcept, considere a possibilidade de utilizar um padrão em vez de um valor fixo para evitar restringir demasiado a instância
+Uma referência sem uma referência ou identificador real deve ter um ecrã
+
+# Outros Erros
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+The Implementation Guide contains no examples for this profile
+The Implementation Guide contains no examples for this extension

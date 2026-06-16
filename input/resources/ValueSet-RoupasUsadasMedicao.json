@@ -1,10 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "RoupasUsadasMedicao",
-  "meta": {
-    "lastUpdated": "2022-05-23T09:26:09.8385573+00:00"
-  },
-  "language": "pt-BR",
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao",
   "version": "01.00",
   "name": "RoupasUsadasMedicao",
@@ -20,19 +17,36 @@
     "include": [
       {
         "system": "http://loinc.org",
-        "version": "*",
         "concept": [
           {
             "code": "LA11871-3",
-            "display": "Roupa íntima ou menos"
+            "display": "Underwear or less",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Roupa íntima ou menos"
+              }
+            ]
           },
           {
             "code": "LA11872-1",
-            "display": "Roupas de rua, sem sapatos"
+            "display": "Street clothes, no shoes",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Roupas de rua, sem sapatos"
+              }
+            ]
           },
           {
             "code": "LA11873-9",
-            "display": "Roupas e sapatos de rua"
+            "display": "Street clothes & shoes",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Roupas e sapatos de rua"
+              }
+            ]
           }
         ]
       }

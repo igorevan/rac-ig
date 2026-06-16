@@ -1,0 +1,145 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRPapelProblemaDiagnostico> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRPapelProblemaDiagnostico"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-11T19:14:51.806+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRPapelProblemaDiagnostico"] ; # 
+  fhir:title [ fhir:v "Classificação do papel de um problema e diagnóstico"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-03-11T19:15:12.2909517+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Tradução para o português do brasil da classificação do papel de um problema/diagnóstico."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v false] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico"^^xsd:anyURI ]
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/diagnosis-role"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AD" ] ;
+         fhir:display [ fhir:v "Admission diagnosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Diagnóstico presente na admissão" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DD" ] ;
+         fhir:display [ fhir:v "Discharge diagnosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Diagnóstico de alta" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "CC" ] ;
+         fhir:display [ fhir:v "Chief complaint" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Queixa principal." ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "CM" ] ;
+         fhir:display [ fhir:v "Comorbidity diagnosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Diagnóstico de comorbidade" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "pre-op" ] ;
+         fhir:display [ fhir:v "pre-op diagnosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Diagnóstico pré-operatório" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "post-op" ] ;
+         fhir:display [ fhir:v "post-op diagnosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Diagnóstico pós-operatório" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "billing" ] ;
+         fhir:display [ fhir:v "Billing" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "pt-BR" ] ;
+           fhir:value [ fhir:v "Faturamento" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

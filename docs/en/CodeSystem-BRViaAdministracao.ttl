@@ -1,0 +1,790 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRViaAdministracao> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRViaAdministracao"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2021-01-11T14:28:22.708+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRViaAdministracao"] ; # 
+  fhir:title [ fhir:v "Via de Administração"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-03-11T18:28:42.5310735+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classifica a via na qual foi administrada uma substância em um indivíduo."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "0" ] ;
+     fhir:display [ fhir:v "Sem registro no sistema de informação de origem" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "No registration in the source information system" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Sin registro en el sistema de información de fuentes" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10862" ] ;
+     fhir:display [ fhir:v "Otológica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Auricular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Auricular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10863" ] ;
+     fhir:display [ fhir:v "Bucal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Buccal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Bucal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10864" ] ;
+     fhir:display [ fhir:v "Dermatológica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Cutaneous" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cutáneo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10865" ] ;
+     fhir:display [ fhir:v "Intracervical" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intracervical" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intracervical" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10866" ] ;
+     fhir:display [ fhir:v "Endosinusial" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Endosinusal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Endosinusal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10867" ] ;
+     fhir:display [ fhir:v "Endotraqueopulmonar" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Endotracheopulmonary" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Endotraqueopulmonar" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10868" ] ;
+     fhir:display [ fhir:v "Epidural" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Epidural" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Epidural" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10869" ] ;
+     fhir:display [ fhir:v "Epilesional" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Epilesional" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Epilesional" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10870" ] ;
+     fhir:display [ fhir:v "Extraminiótica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Extra-amniotic" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Extraamniótico" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10871" ] ;
+     fhir:display [ fhir:v "Gastroenteral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Gastroenteral" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Gastroenteral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10874" ] ;
+     fhir:display [ fhir:v "Inalatória" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Inhalation" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Inhalación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10875" ] ;
+     fhir:display [ fhir:v "Intra-aminiótica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intra-amniotic" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraamniótico" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10876" ] ;
+     fhir:display [ fhir:v "Intra-arterial" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intra-arterial" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraarterial" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10877" ] ;
+     fhir:display [ fhir:v "Intra-articular" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intra-articular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraarticular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10878" ] ;
+     fhir:display [ fhir:v "Intrabursal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intrabursal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intrabursal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10879" ] ;
+     fhir:display [ fhir:v "Intracameral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intracameral" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intracameral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10880" ] ;
+     fhir:display [ fhir:v "Intracardíaca" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intracardiac" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intracardiaco" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10881" ] ;
+     fhir:display [ fhir:v "Intracavernosa" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intracavernous" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intracavernoso" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10882" ] ;
+     fhir:display [ fhir:v "Intracerebroventricular" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intracerebroventricular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intracerebroventricular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10884" ] ;
+     fhir:display [ fhir:v "Intracoronariana" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intracoronary" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intracoronario" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10885" ] ;
+     fhir:display [ fhir:v "Intradérmica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intradermal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intradérmica" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10886" ] ;
+     fhir:display [ fhir:v "Intradiscal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intradiscal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intradiscal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10887" ] ;
+     fhir:display [ fhir:v "Intraepidermal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intraepidermal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraepidérmico" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10888" ] ;
+     fhir:display [ fhir:v "Intralesional" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intra-lesional" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intralesional" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10889" ] ;
+     fhir:display [ fhir:v "Intralinfática" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intra-lymphatic" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intralinfática" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10890" ] ;
+     fhir:display [ fhir:v "Intramuscular" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intramuscular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intramuscular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10891" ] ;
+     fhir:display [ fhir:v "Intraocular" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intraocular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraocular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10892" ] ;
+     fhir:display [ fhir:v "Intraóssea" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intraosseous" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraóseo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10893" ] ;
+     fhir:display [ fhir:v "Intraperitoneal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intraperitoneal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraperitoneal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10894" ] ;
+     fhir:display [ fhir:v "Intrapleural" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intrapleural" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intrapleural" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10895" ] ;
+     fhir:display [ fhir:v "Intraesternal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intra-sternal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraósea Esternal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10896" ] ;
+     fhir:display [ fhir:v "Intratecal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intrathecal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intratecal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10897" ] ;
+     fhir:display [ fhir:v "Intrauterina" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intrauterine" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intrauterino" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10898" ] ;
+     fhir:display [ fhir:v "Intravenosa" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intravenous" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intravenosa" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10899" ] ;
+     fhir:display [ fhir:v "Intraventricular cardíaca" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intraventricular cardiac" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intraventricular cardiaco" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10900" ] ;
+     fhir:display [ fhir:v "Intravesical" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intravesical" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intravesical" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10901" ] ;
+     fhir:display [ fhir:v "Intravitreal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intravitreal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intravítreo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10902" ] ;
+     fhir:display [ fhir:v "Iontoforese" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Iontophoresis" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Iontoforesis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10903" ] ;
+     fhir:display [ fhir:v "Irrigação" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Irrigation" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Irrigación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10904" ] ;
+     fhir:display [ fhir:v "Nasal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Nasal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Nasal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10905" ] ;
+     fhir:display [ fhir:v "Inalatória por Via Nasal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Nasal Inhalation (restricted to nasal admnistration)" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Inhalación Nasal (restringida a la administración nasal)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10906" ] ;
+     fhir:display [ fhir:v "Oftálmica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Ocular (Ophtalmic)" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Ocular (oftálmico)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10907" ] ;
+     fhir:display [ fhir:v "Oral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Oral" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Oral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10908" ] ;
+     fhir:display [ fhir:v "Inalatória por Via Oral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Oral Inhalation (restricted to oral admnistration)" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Inhalación Oral (restringida a la administración oral)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10910" ] ;
+     fhir:display [ fhir:v "Periarticular" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Periarticular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Periarticular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10911" ] ;
+     fhir:display [ fhir:v "Perineural" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Perineural" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Perineural" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10912" ] ;
+     fhir:display [ fhir:v "Retal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Rectal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Rectal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10913" ] ;
+     fhir:display [ fhir:v "Perfusão Regional" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Regional Perfusion" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Perfusión regional" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10915" ] ;
+     fhir:display [ fhir:v "Subconjuntival" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Subconjunctival" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Subconjuntival" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10916" ] ;
+     fhir:display [ fhir:v "Subcutânea" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Subcutaneous" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Subcutáneo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10917" ] ;
+     fhir:display [ fhir:v "Sublingual" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Sublingual" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Sublingual" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10919" ] ;
+     fhir:display [ fhir:v "Transdérmica" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Transdermal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Transdérmico" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10920" ] ;
+     fhir:display [ fhir:v "Uretral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Urethral" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Uretral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10921" ] ;
+     fhir:display [ fhir:v "Vaginal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Vaginal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Vaginal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10922" ] ;
+     fhir:display [ fhir:v "Capilar" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Scalp (Capillary Action)" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cuero Cabelludo (Acción Capilar)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10923" ] ;
+     fhir:display [ fhir:v "Não disponível" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Unavailable" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Indisponible" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10926" ] ;
+     fhir:display [ fhir:v "Local" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Local" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Local" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10928" ] ;
+     fhir:display [ fhir:v "Parenteral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Parenteral" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Parenteral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "244899" ] ;
+     fhir:display [ fhir:v "Peridural" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Peridural" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Peridural" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "459120" ] ;
+     fhir:display [ fhir:v "Espinhal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Spinal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Espinal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "459530" ] ;
+     fhir:display [ fhir:v "Subcapsular" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Subcapsular" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Subcapsular" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "459531" ] ;
+     fhir:display [ fhir:v "Intratraqueal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intratracheal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intratraqueal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "464156" ] ;
+     fhir:display [ fhir:v "Intrabronquial" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intrabronchial" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intrabronquial" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "464157" ] ;
+     fhir:display [ fhir:v "Subtenoniana" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Subtenonian" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Subtenoniano" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "464158" ] ;
+     fhir:display [ fhir:v "Tecidos Moles" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Soft Tissue" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tejido Suave" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "464159" ] ;
+     fhir:display [ fhir:v "Mucosa Oral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Oromucosal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Mucosa Oral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "608807" ] ;
+     fhir:display [ fhir:v "Retrobulbar" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Retrobulbar" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Retrobulbar" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "608808" ] ;
+     fhir:display [ fhir:v "Infiltração" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Infiltration" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Infiltración" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "779038" ] ;
+     fhir:display [ fhir:v "Mucosa" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Mucosal" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Mucosa" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -6,15 +6,21 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador> a fhir:CodeSystem ;
+<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoIdentificador> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRTipoIdentificador"] ; # 
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTipoIdentificador</b></p><a name=\"BRTipoIdentificador\"> </a><a name=\"hcBRTipoIdentificador\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>use</td><td>use</td><td>code</td><td>Uso do Tipo do Identificador</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>use</b></td></tr><tr><td style=\"white-space:nowrap\">AUTH<a name=\"BRTipoIdentificador-AUTH\"> </a></td><td>Código de Autorização</td><td>Identificador da permissão para a realização de um procedimento.</td><td>procedure</td></tr><tr><td style=\"white-space:nowrap\">BRACRA<a name=\"BRTipoIdentificador-BRACRA\"> </a></td><td>Número de inscrição no Conselho Regional de Administração (CRA)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRESS<a name=\"BRTipoIdentificador-BRACRESS\"> </a></td><td>Número de inscrição no Conselho Regional de Serviço Social (CRESS)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRB<a name=\"BRTipoIdentificador-BRACRB\"> </a></td><td>Número de inscrição no Conselho Regional de Biblioteconomia (CRB)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRC<a name=\"BRTipoIdentificador-BRACRC\"> </a></td><td>Número de inscrição no Conselho Regional de Contabilidade (CRC)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRECI<a name=\"BRTipoIdentificador-BRACRECI\"> </a></td><td>Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACORECON<a name=\"BRTipoIdentificador-BRACORECON\"> </a></td><td>Número de inscrição no Conselho Regional de Economia (CORECON)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACREA<a name=\"BRTipoIdentificador-BRACREA\"> </a></td><td>Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACONFRE<a name=\"BRTipoIdentificador-BRACONFRE\"> </a></td><td>Número de inscrição no Conselho Regional de Estatística (CONRE)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRF<a name=\"BRTipoIdentificador-BRACRF\"> </a></td><td>Número de inscrição no Conselho Regional de Farmácia (CRF)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACREFITO<a name=\"BRTipoIdentificador-BRACREFITO\"> </a></td><td>Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRMV<a name=\"BRTipoIdentificador-BRACRMV\"> </a></td><td>Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRN<a name=\"BRTipoIdentificador-BRACRN\"> </a></td><td>Número de inscrição no Conselho Regional de Nutrição (CRN)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACONRERP<a name=\"BRTipoIdentificador-BRACONRERP\"> </a></td><td>Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRP<a name=\"BRTipoIdentificador-BRACRP\"> </a></td><td>Número de inscrição no Conselho Regional de Psicologia (CRP)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRQ<a name=\"BRTipoIdentificador-BRACRQ\"> </a></td><td>Número de inscrição no Conselho Regional de Química (CRQ)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACORE<a name=\"BRTipoIdentificador-BRACORE\"> </a></td><td>Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACREF<a name=\"BRTipoIdentificador-BRACREF\"> </a></td><td>Número de inscrição no Conselho Regional de Educação Física (CREF)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACAU<a name=\"BRTipoIdentificador-BRACAU\"> </a></td><td>Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRBIO<a name=\"BRTipoIdentificador-BRACRBIO\"> </a></td><td>Número de inscrição no Conselho Regional de Biologia (CRBio)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRBM<a name=\"BRTipoIdentificador-BRACRBM\"> </a></td><td>Número da inscrição no Conselho Regional de Biomedicina (CRBM)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRFA<a name=\"BRTipoIdentificador-BRACRFA\"> </a></td><td>Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRTR<a name=\"BRTipoIdentificador-BRACRTR\"> </a></td><td>Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRT<a name=\"BRTipoIdentificador-BRACRT\"> </a></td><td>Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRAOAB<a name=\"BRTipoIdentificador-BRAOAB\"> </a></td><td>Número de inscrição na Ordem dos Advogados do BRAasil (OAB)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRAIDMIL<a name=\"BRTipoIdentificador-BRAIDMIL\"> </a></td><td>Número da Identidade Militar</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRAIDFUNC<a name=\"BRTipoIdentificador-BRAIDFUNC\"> </a></td><td>Número da Identidade Funcional</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACNPJ<a name=\"BRTipoIdentificador-BRACNPJ\"> </a></td><td>Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)</td><td/><td>organization</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTipoIdentificador</b></p><a name=\"BRTipoIdentificador\"> </a><a name=\"hcBRTipoIdentificador\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>use</td><td>use</td><td>string</td><td>Uso do Tipo do Identificador</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>use</b></td></tr><tr><td style=\"white-space:nowrap\">AUTH<a name=\"BRTipoIdentificador-AUTH\"> </a></td><td>Código de Autorização</td><td>Identificador da permissão para a realização de um procedimento.</td><td>procedure</td></tr><tr><td style=\"white-space:nowrap\">BRACRA<a name=\"BRTipoIdentificador-BRACRA\"> </a></td><td>Número de inscrição no Conselho Regional de Administração (CRA)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRESS<a name=\"BRTipoIdentificador-BRACRESS\"> </a></td><td>Número de inscrição no Conselho Regional de Serviço Social (CRESS)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRB<a name=\"BRTipoIdentificador-BRACRB\"> </a></td><td>Número de inscrição no Conselho Regional de Biblioteconomia (CRB)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRC<a name=\"BRTipoIdentificador-BRACRC\"> </a></td><td>Número de inscrição no Conselho Regional de Contabilidade (CRC)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRECI<a name=\"BRTipoIdentificador-BRACRECI\"> </a></td><td>Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACORECON<a name=\"BRTipoIdentificador-BRACORECON\"> </a></td><td>Número de inscrição no Conselho Regional de Economia (CORECON)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACREA<a name=\"BRTipoIdentificador-BRACREA\"> </a></td><td>Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACONFRE<a name=\"BRTipoIdentificador-BRACONFRE\"> </a></td><td>Número de inscrição no Conselho Regional de Estatística (CONRE)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRF<a name=\"BRTipoIdentificador-BRACRF\"> </a></td><td>Número de inscrição no Conselho Regional de Farmácia (CRF)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACREFITO<a name=\"BRTipoIdentificador-BRACREFITO\"> </a></td><td>Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRMV<a name=\"BRTipoIdentificador-BRACRMV\"> </a></td><td>Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRN<a name=\"BRTipoIdentificador-BRACRN\"> </a></td><td>Número de inscrição no Conselho Regional de Nutrição (CRN)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACONRERP<a name=\"BRTipoIdentificador-BRACONRERP\"> </a></td><td>Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRP<a name=\"BRTipoIdentificador-BRACRP\"> </a></td><td>Número de inscrição no Conselho Regional de Psicologia (CRP)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRQ<a name=\"BRTipoIdentificador-BRACRQ\"> </a></td><td>Número de inscrição no Conselho Regional de Química (CRQ)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACORE<a name=\"BRTipoIdentificador-BRACORE\"> </a></td><td>Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACREF<a name=\"BRTipoIdentificador-BRACREF\"> </a></td><td>Número de inscrição no Conselho Regional de Educação Física (CREF)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACAU<a name=\"BRTipoIdentificador-BRACAU\"> </a></td><td>Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRBIO<a name=\"BRTipoIdentificador-BRACRBIO\"> </a></td><td>Número de inscrição no Conselho Regional de Biologia (CRBio)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRBM<a name=\"BRTipoIdentificador-BRACRBM\"> </a></td><td>Número da inscrição no Conselho Regional de Biomedicina (CRBM)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRFA<a name=\"BRTipoIdentificador-BRACRFA\"> </a></td><td>Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRTR<a name=\"BRTipoIdentificador-BRACRTR\"> </a></td><td>Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACRT<a name=\"BRTipoIdentificador-BRACRT\"> </a></td><td>Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRAOAB<a name=\"BRTipoIdentificador-BRAOAB\"> </a></td><td>Número de inscrição na Ordem dos Advogados do BRAasil (OAB)</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRAIDMIL<a name=\"BRTipoIdentificador-BRAIDMIL\"> </a></td><td>Número da Identidade Militar</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRAIDFUNC<a name=\"BRTipoIdentificador-BRAIDFUNC\"> </a></td><td>Número da Identidade Funcional</td><td/><td>patient</td></tr><tr><td style=\"white-space:nowrap\">BRACNPJ<a name=\"BRTipoIdentificador-BRACNPJ\"> </a></td><td>Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)</td><td/><td>organization</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "ehr"
+     ]
+  ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:integer ;
@@ -23,8 +29,8 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:canonical ;
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
@@ -32,19 +38,25 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:code ;
-       fhir:v "informative" ;
+       fhir:v "normative" ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:canonical ;
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "4.0.1"
+     ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
   fhir:name [ fhir:v "BRTipoIdentificador"] ; # 
   fhir:title [ fhir:v "Tipo de Identificador"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -52,9 +64,13 @@
   fhir:date [ fhir:v "2020-03-11T18:25:38.8137622+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Classifica o tipo de indicador que está sendo utilizado."] ; # 
@@ -69,7 +85,7 @@
   fhir:property ( [
      fhir:code [ fhir:v "use" ] ;
      fhir:description [ fhir:v "Uso do Tipo do Identificador" ] ;
-     fhir:type [ fhir:v "code" ]
+     fhir:type [ fhir:v "string" ]
   ] ) ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "AUTH" ] ;
@@ -78,7 +94,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "procedure"
        ]
      ] )
@@ -88,7 +104,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -98,7 +114,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -108,7 +124,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -118,7 +134,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -128,7 +144,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -138,7 +154,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -148,7 +164,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -158,7 +174,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -168,7 +184,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -178,7 +194,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -188,7 +204,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -198,7 +214,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -208,7 +224,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -218,7 +234,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -228,7 +244,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -238,7 +254,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -248,7 +264,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -258,7 +274,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -268,7 +284,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -278,7 +294,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -288,7 +304,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -298,7 +314,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -308,7 +324,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -318,7 +334,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -328,7 +344,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -338,7 +354,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "patient"
        ]
      ] )
@@ -348,7 +364,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "use" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:string ;
          fhir:v "organization"
        ]
      ] )

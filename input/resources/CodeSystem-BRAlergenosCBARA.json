@@ -1,9 +1,6 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRAlergenosCBARA",
-  "meta": {
-    "lastUpdated": "2022-12-02T15:11:07.348995+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
   "version": "1.1.0",
@@ -20,7 +17,7 @@
     {
       "code": "category",
       "type": "code",
-      "uri": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"
+      "uri": "http://hl7.org/fhir/ValueSet/allergy-intolerance-category"
     }
   ],
   "concept": [

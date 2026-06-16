@@ -1,10 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BROrigemMedida",
-  "meta": {
-    "lastUpdated": "2022-05-23T08:50:09.8385573+00:00"
-  },
-  "language": "pt-BR",
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
   "version": "01.00",
   "name": "BROrigemMedida",
@@ -20,15 +17,26 @@
     "include": [
       {
         "system": "http://loinc.org",
-        "version": "*",
         "concept": [
           {
             "code": "3138-5",
-            "display": "Relatado"
+            "display": "Body height Stated",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Relatado"
+              }
+            ]
           },
           {
             "code": "3137-7",
-            "display": "Medido"
+            "display": "Body height Measured",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Medido"
+              }
+            ]
           }
         ]
       }

@@ -1,11 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BREstadoSolicitacao-1.0",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2020-09-20T20:51:02.648+00:00"
-  },
-  "language": "pt-BR",
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
   "version": "1.0",
   "name": "BREstadoSolicitacao",
@@ -20,15 +16,26 @@
     "include": [
       {
         "system": "http://hl7.org/fhir/request-status",
-        "version": "*",
         "concept": [
           {
             "code": "active",
-            "display": "Ativo"
+            "display": "Active",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Ativo"
+              }
+            ]
           },
           {
             "code": "entered-in-error",
-            "display": "Cancelada por informação errada"
+            "display": "Entered in Error",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Cancelada por informação errada"
+              }
+            ]
           }
         ]
       }

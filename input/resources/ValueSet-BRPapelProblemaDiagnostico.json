@@ -18,12 +18,10 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",
-        "version": "*"
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico"
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
-        "version": "*",
         "concept": [
           {
             "code": "AD",

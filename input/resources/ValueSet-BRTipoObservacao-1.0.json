@@ -1,9 +1,6 @@
 {
   "resourceType": "ValueSet",
   "id": "BRTipoObservacao-1.0",
-  "meta": {
-    "lastUpdated": "2022-05-23T10:37:59.848+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0",
   "version": "1.1.0",
@@ -19,12 +16,10 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
-        "version": "*"
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"
       },
       {
         "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
-        "version": "*",
         "concept": [
           {
             "code": "0301100039"
@@ -33,59 +28,136 @@
       },
       {
         "system": "http://loinc.org",
-        "version": "*",
         "concept": [
           {
             "code": "8665-2",
-            "display": "Data da Última Menstruação"
+            "display": "Last menstrual period start date",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Data da Última Menstruação"
+              }
+            ]
           },
           {
             "code": "56832-9",
-            "display": "Exposição à Substâncias"
+            "display": "Type of substance abused",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Exposição à Substâncias"
+              }
+            ]
           },
           {
             "code": "11996-6",
-            "display": "Quantidade de Gestações"
+            "display": "Pregnancies",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Quantidade de Gestações"
+              }
+            ]
           },
           {
             "code": "63895-7",
-            "display": "Tipo de Aleitamento Materno"
+            "display": "Breastfeeding status",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Tipo de Aleitamento Materno"
+              }
+            ]
           },
           {
             "code": "29463-7",
-            "display": "Peso Corporal"
+            "display": "Body weight",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Peso Corporal"
+              }
+            ]
           },
           {
             "code": "8480-6",
-            "display": "Pressão Arterial Sistólica"
+            "display": "Systolic blood pressure",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Pressão Arterial Sistólica"
+              }
+            ]
           },
           {
             "code": "8462-4",
-            "display": "Pressão Arterial Diastólica"
+            "display": "Diastolic blood pressure",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Pressão Arterial Diastólica"
+              }
+            ]
           },
           {
             "code": "8280-0",
-            "display": "Circuferência Abdominal"
+            "display": "Waist Circumference at umbilicus by Tape measure",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Circuferência Abdominal"
+              }
+            ]
           },
           {
             "code": "9843-4",
-            "display": "Perímetro Cefálico"
+            "display": "Head Occipital-frontal circumference",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Perímetro Cefálico"
+              }
+            ]
           },
           {
             "code": "8302-2",
-            "display": "Altura"
+            "display": "Body height",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Altura"
+              }
+            ]
           },
           {
             "code": "11885-1",
-            "display": "Idade Gestacional"
+            "display": "Gestational age Estimated from last menstrual period",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Idade Gestacional"
+              }
+            ]
           },
           {
             "code": "11612-9",
-            "display": "Quantidade de Abortos"
+            "display": "Abortions",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Quantidade de Abortos"
+              }
+            ]
           },
           {
             "code": "48767-8",
-            "display": "Anotação de Comentário para Narrativa [Interpretação]"
+            "display": "Annotation comment [Interpretation] Narrative",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Anotação de Comentário para Narrativa [Interpretação]"
+              }
+            ]
           }
         ]
       }

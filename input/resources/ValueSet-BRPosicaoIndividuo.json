@@ -1,9 +1,6 @@
 {
   "resourceType": "ValueSet",
   "id": "BRPosicaoIndividuo",
-  "meta": {
-    "lastUpdated": "2022-05-23T11:15:35.881+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
   "version": "01.00",
@@ -19,24 +16,40 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
-        "version": "*"
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo"
       },
       {
         "system": "http://loinc.org",
-        "version": "*",
         "concept": [
           {
             "code": "LA11868-9",
-            "display": "Sentado"
+            "display": "Sitting",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Sentado"
+              }
+            ]
           },
           {
             "code": "LA11869-7",
-            "display": "Deitado"
+            "display": "Lying",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Deitado"
+              }
+            ]
           },
           {
             "code": "LA11870-5",
-            "display": "De pé"
+            "display": "Standing",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "De pé"
+              }
+            ]
           }
         ]
       }

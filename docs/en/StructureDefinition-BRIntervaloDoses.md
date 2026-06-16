@@ -1,0 +1,353 @@
+# Intervalo de Doses - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+
+## Extension: Intervalo de Doses 
+
+Extensão para descrever uma unidade de tempo referenciada pelo UCUM.
+
+**Context of Use**
+
+**Usage info**
+
+**Usos:**
+
+* Usa este Extensão: [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md)
+* Exemplos para este Extensão: [Bundle/bundle-example-rac-1](Bundle-bundle-example-rac-1.md) and [Bundle/bundle-example-rac-2](Bundle-bundle-example-rac-2.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/br.gov.saude.rac.fhir|current/StructureDefinition/StructureDefinition-BRIntervaloDoses.json)
+
+### Formal Views of Extension Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-BRIntervaloDoses.csv), [Excel](../StructureDefinition-BRIntervaloDoses.xlsx), [Schematron](../StructureDefinition-BRIntervaloDoses.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BRIntervaloDoses",
+  "language" : "pt-BR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "ehr"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "normative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+    "valueCode" : "4.0.1"
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses",
+  "version" : "1.0.0-release",
+  "name" : "BRIntervaloDoses",
+  "title" : "Intervalo de Doses",
+  "status" : "active",
+  "date" : "2026-06-16T17:47:54-03:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Extensão para descrever uma unidade de tempo referenciada pelo UCUM.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "MedicationRequest"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension"
+    },
+    {
+      "id" : "Extension.id",
+      "path" : "Extension.id",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "rules" : "open"
+      },
+      "min" : 0
+    },
+    {
+      "id" : "Extension.extension:periodUnit",
+      "path" : "Extension.extension",
+      "sliceName" : "periodUnit",
+      "min" : 0,
+      "max" : "1",
+      "binding" : {
+        "strength" : "required",
+        "description" : "Define a unidade de tempo segundo o UCUM",
+        "valueSet" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo"
+      }
+    },
+    {
+      "id" : "Extension.extension:periodUnit.id",
+      "path" : "Extension.extension.id",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:periodUnit.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "periodUnit"
+    },
+    {
+      "id" : "Extension.extension:periodUnit.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "min" : 1,
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "description" : "Define a unidade de tempo segundo o UCUM",
+        "valueSet" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo"
+      }
+    },
+    {
+      "id" : "Extension.extension:periodUnit.value[x].id",
+      "path" : "Extension.extension.value[x].id",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:period",
+      "path" : "Extension.extension",
+      "sliceName" : "period",
+      "short" : "Intervalo entre doses",
+      "definition" : "Descritor quantitativo da unidade de tempo entre doses.",
+      "min" : 0,
+      "max" : "1"
+    },
+    {
+      "id" : "Extension.extension:period.id",
+      "path" : "Extension.extension.id",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:period.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "period"
+    },
+    {
+      "id" : "Extension.extension:period.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Intervalo entre doses",
+      "min" : 1,
+      "type" : [{
+        "code" : "positiveInt"
+      }]
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "max" : "0",
+      "type" : [{
+        "code" : "base64Binary"
+      },
+      {
+        "code" : "boolean"
+      },
+      {
+        "code" : "canonical"
+      },
+      {
+        "code" : "code"
+      },
+      {
+        "code" : "date"
+      },
+      {
+        "code" : "dateTime"
+      },
+      {
+        "code" : "decimal"
+      },
+      {
+        "code" : "id"
+      },
+      {
+        "code" : "instant"
+      },
+      {
+        "code" : "integer"
+      },
+      {
+        "code" : "markdown"
+      },
+      {
+        "code" : "oid"
+      },
+      {
+        "code" : "positiveInt"
+      },
+      {
+        "code" : "string"
+      },
+      {
+        "code" : "time"
+      },
+      {
+        "code" : "unsignedInt"
+      },
+      {
+        "code" : "uri"
+      },
+      {
+        "code" : "url"
+      },
+      {
+        "code" : "uuid"
+      },
+      {
+        "code" : "Address"
+      },
+      {
+        "code" : "Age"
+      },
+      {
+        "code" : "Annotation"
+      },
+      {
+        "code" : "Attachment"
+      },
+      {
+        "code" : "CodeableConcept"
+      },
+      {
+        "code" : "Coding"
+      },
+      {
+        "code" : "ContactPoint"
+      },
+      {
+        "code" : "Count"
+      },
+      {
+        "code" : "Distance"
+      },
+      {
+        "code" : "Duration"
+      },
+      {
+        "code" : "HumanName"
+      },
+      {
+        "code" : "Identifier"
+      },
+      {
+        "code" : "Money"
+      },
+      {
+        "code" : "Period"
+      },
+      {
+        "code" : "Quantity"
+      },
+      {
+        "code" : "Range"
+      },
+      {
+        "code" : "Ratio"
+      },
+      {
+        "code" : "Reference"
+      },
+      {
+        "code" : "SampledData"
+      },
+      {
+        "code" : "Signature"
+      },
+      {
+        "code" : "Timing"
+      },
+      {
+        "code" : "ContactDetail"
+      },
+      {
+        "code" : "Contributor"
+      },
+      {
+        "code" : "DataRequirement"
+      },
+      {
+        "code" : "Expression"
+      },
+      {
+        "code" : "ParameterDefinition"
+      },
+      {
+        "code" : "RelatedArtifact"
+      },
+      {
+        "code" : "TriggerDefinition"
+      },
+      {
+        "code" : "UsageContext"
+      },
+      {
+        "code" : "Dosage"
+      }]
+    }]
+  }
+}
+
+```

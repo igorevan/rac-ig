@@ -1,10 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BREstadoEvento-1.0",
-  "meta": {
-    "lastUpdated": "2020-04-07T12:14:10.395+00:00"
-  },
-  "language": "pt-BR",
+  "language": "en",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
   "version": "01.10",
   "name": "BREstadoEvento",
@@ -19,39 +16,86 @@
     "include": [
       {
         "system": "http://hl7.org/fhir/event-status",
-        "version": "*",
         "concept": [
           {
             "code": "preparation",
-            "display": "Pré-procedimento"
+            "display": "Preparation",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Pré-procedimento"
+              }
+            ]
           },
           {
             "code": "in-progress",
-            "display": "Em andamento"
+            "display": "In Progress",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Em andamento"
+              }
+            ]
           },
           {
             "code": "not-done",
-            "display": "Não Realizado"
+            "display": "Not Done",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Não Realizado"
+              }
+            ]
           },
           {
             "code": "on-hold",
-            "display": "Suspenso"
+            "display": "On Hold",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Suspenso"
+              }
+            ]
           },
           {
             "code": "stopped",
-            "display": "Cancelado"
+            "display": "Stopped",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Cancelado"
+              }
+            ]
           },
           {
             "code": "completed",
-            "display": "Completado"
+            "display": "Completed",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Completado"
+              }
+            ]
           },
           {
             "code": "unknown",
-            "display": "Desconhecido"
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Desconhecido"
+              }
+            ]
           },
           {
             "code": "entered-in-error",
-            "display": "Entrada com erro"
+            "display": "Entered in Error",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Entrada com erro"
+              }
+            ]
           }
         ]
       }

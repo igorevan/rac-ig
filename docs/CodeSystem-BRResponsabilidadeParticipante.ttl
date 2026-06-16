@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante> a fhir:CodeSystem ;
+<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRResponsabilidadeParticipante> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRResponsabilidadeParticipante"] ; # 
   fhir:meta [
@@ -15,9 +15,15 @@
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRResponsabilidadeParticipante</b></p><a name=\"BRResponsabilidadeParticipante\"> </a><a name=\"hcBRResponsabilidadeParticipante\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2020-03-11 18:20:28+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">solicitante<a name=\"BRResponsabilidadeParticipante-solicitante\"> </a></td><td>Profissional que solicitou o Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">autorizador<a name=\"BRResponsabilidadeParticipante-autorizador\"> </a></td><td>Profissional que autorizou a realização do Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">admissao<a name=\"BRResponsabilidadeParticipante-admissao\"> </a></td><td>Profissional que admitiu do indivíduo no Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">alta<a name=\"BRResponsabilidadeParticipante-alta\"> </a></td><td>Profissional que realizou a alta do indivíduo no Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">atendimento<a name=\"BRResponsabilidadeParticipante-atendimento\"> </a></td><td>Profissional responsável pelo atendimento clínico Contato Assistencial</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRResponsabilidadeParticipante</b></p><a name=\"BRResponsabilidadeParticipante\"> </a><a name=\"hcBRResponsabilidadeParticipante\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2020-03-11 18:20:28+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">solicitante<a name=\"BRResponsabilidadeParticipante-solicitante\"> </a></td><td>Profissional que solicitou o Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">autorizador<a name=\"BRResponsabilidadeParticipante-autorizador\"> </a></td><td>Profissional que autorizou a realização do Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">admissao<a name=\"BRResponsabilidadeParticipante-admissao\"> </a></td><td>Profissional que admitiu do indivíduo no Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">alta<a name=\"BRResponsabilidadeParticipante-alta\"> </a></td><td>Profissional que realizou a alta do indivíduo no Contato Assistencial</td></tr><tr><td style=\"white-space:nowrap\">atendimento<a name=\"BRResponsabilidadeParticipante-atendimento\"> </a></td><td>Profissional responsável pelo atendimento clínico Contato Assistencial</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "ehr"
+     ]
+  ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:integer ;
@@ -26,8 +32,8 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:canonical ;
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
@@ -35,29 +41,39 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:code ;
-       fhir:v "informative" ;
+       fhir:v "normative" ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:canonical ;
-           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
-           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"^^xsd:anyURI ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ] )
      ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "4.0.1"
+     ]
   ] ) ; # 
   fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
   fhir:name [ fhir:v "BRResponsabilidadeParticipante"] ; # 
-  fhir:title [ fhir:v "Reponsabilidade no Contato Assistencial"] ; # 
+  fhir:title [ fhir:v "Responsabilidade no Contato Assistencial"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-03-11T18:20:48.9276301+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."] ; # 

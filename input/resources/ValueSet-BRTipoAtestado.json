@@ -1,9 +1,6 @@
 {
   "resourceType": "ValueSet",
   "id": "BRTipoAtestado",
-  "meta": {
-    "lastUpdated": "2023-04-13T13:17:22.715+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado",
   "version": "1.0",
@@ -19,11 +16,9 @@
     "include": [
       {
         "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
-        "version": "*",
         "concept": [
           {
-            "code": "ATM",
-            "display": "Atestado Médico/Odontológico"
+            "code": "ATM"
           }
         ]
       }
