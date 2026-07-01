@@ -1,0 +1,555 @@
+# Registro de Atendimento Clínico (RAC) - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+
+## Resource Profile: Registro de Atendimento Clínico (RAC) 
+
+ 
+Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar. 
+
+**Usos:**
+
+* Este Perfil não é utilizado por nenhum perfil neste guia de implementação
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/br.gov.saude.rac.fhir|current/StructureDefinition/StructureDefinition-BRRegistroAtendimentoClinico.json)
+
+### Formal Views of Profile Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-BRRegistroAtendimentoClinico.csv), [Excel](../StructureDefinition-BRRegistroAtendimentoClinico.xlsx), [Schematron](../StructureDefinition-BRRegistroAtendimentoClinico.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BRRegistroAtendimentoClinico",
+  "language" : "pt-BR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "ehr"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "normative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+    "valueCode" : "4.0.1"
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
+  "version" : "1.0.0-release",
+  "name" : "BRRegistroAtendimentoClinico",
+  "title" : "Registro de Atendimento Clínico",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-07-25",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "cda",
+    "uri" : "http://hl7.org/v3/cda",
+    "name" : "CDA (R2)"
+  },
+  {
+    "identity" : "fhirdocumentreference",
+    "uri" : "http://hl7.org/fhir/documentreference",
+    "name" : "FHIR DocumentReference"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Composition",
+  "baseDefinition" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Composition",
+      "path" : "Composition",
+      "short" : "Registro Atendimento Clínico",
+      "definition" : "Documento que representa o Registro Atendimento Clínico"
+    },
+    {
+      "id" : "Composition.type.coding.code",
+      "path" : "Composition.type.coding.code",
+      "fixedCode" : "RAC"
+    },
+    {
+      "id" : "Composition.section:problemasDiagnosticosAvaliados",
+      "path" : "Composition.section",
+      "sliceName" : "problemasDiagnosticosAvaliados",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:observacoes",
+      "path" : "Composition.section",
+      "sliceName" : "observacoes"
+    },
+    {
+      "id" : "Composition.section:observacoes.title",
+      "path" : "Composition.section.title",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.code",
+      "path" : "Composition.section.code",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.author",
+      "path" : "Composition.section.author",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.focus",
+      "path" : "Composition.section.focus",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.text",
+      "path" : "Composition.section.text",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.mode",
+      "path" : "Composition.section.mode",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.orderedBy",
+      "path" : "Composition.section.orderedBy",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.entry",
+      "path" : "Composition.section.entry",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"]
+      }]
+    },
+    {
+      "id" : "Composition.section:observacoes.entry.reference",
+      "path" : "Composition.section.entry.reference",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:observacoes.entry.type",
+      "path" : "Composition.section.entry.type",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.entry.identifier",
+      "path" : "Composition.section.entry.identifier",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.entry.display",
+      "path" : "Composition.section.entry.display",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.emptyReason",
+      "path" : "Composition.section.emptyReason",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:observacoes.section",
+      "path" : "Composition.section.section",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa",
+      "path" : "Composition.section",
+      "sliceName" : "alergiaReacaoAdversa"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.title",
+      "path" : "Composition.section.title",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.code",
+      "path" : "Composition.section.code",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.author",
+      "path" : "Composition.section.author",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.focus",
+      "path" : "Composition.section.focus",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.text",
+      "path" : "Composition.section.text",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.mode",
+      "path" : "Composition.section.mode",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.orderedBy",
+      "path" : "Composition.section.orderedBy",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.entry",
+      "path" : "Composition.section.entry",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0"]
+      }]
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.entry.reference",
+      "path" : "Composition.section.entry.reference",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.entry.type",
+      "path" : "Composition.section.entry.type",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.entry.identifier",
+      "path" : "Composition.section.entry.identifier",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.entry.display",
+      "path" : "Composition.section.entry.display",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.emptyReason",
+      "path" : "Composition.section.emptyReason",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:alergiaReacaoAdversa.section",
+      "path" : "Composition.section.section",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao",
+      "path" : "Composition.section",
+      "sliceName" : "prescricao",
+      "max" : "1"
+    },
+    {
+      "id" : "Composition.section:prescricao.title",
+      "path" : "Composition.section.title",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.code",
+      "path" : "Composition.section.code",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.author",
+      "path" : "Composition.section.author",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.focus",
+      "path" : "Composition.section.focus",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.text",
+      "path" : "Composition.section.text",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.mode",
+      "path" : "Composition.section.mode",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.orderedBy",
+      "path" : "Composition.section.orderedBy",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.entry",
+      "path" : "Composition.section.entry",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento"]
+      }]
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.type",
+      "path" : "Composition.section.entry.type",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.identifier.use",
+      "path" : "Composition.section.entry.identifier.use",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.identifier.type",
+      "path" : "Composition.section.entry.identifier.type",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.identifier.system",
+      "path" : "Composition.section.entry.identifier.system",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.identifier.value",
+      "path" : "Composition.section.entry.identifier.value",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.identifier.period",
+      "path" : "Composition.section.entry.identifier.period",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.identifier.assigner",
+      "path" : "Composition.section.entry.identifier.assigner",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.entry.display",
+      "path" : "Composition.section.entry.display",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.emptyReason",
+      "path" : "Composition.section.emptyReason",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:prescricao.section",
+      "path" : "Composition.section.section",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados",
+      "path" : "Composition.section",
+      "sliceName" : "planoCuidados",
+      "max" : "1"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.title",
+      "path" : "Composition.section.title",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.code",
+      "path" : "Composition.section.code",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.author",
+      "path" : "Composition.section.author",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.focus",
+      "path" : "Composition.section.focus",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.text",
+      "path" : "Composition.section.text",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.mode",
+      "path" : "Composition.section.mode",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.orderedBy",
+      "path" : "Composition.section.orderedBy",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.entry",
+      "path" : "Composition.section.entry",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0"]
+      }]
+    },
+    {
+      "id" : "Composition.section:planoCuidados.entry.reference",
+      "path" : "Composition.section.entry.reference",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:planoCuidados.entry.type",
+      "path" : "Composition.section.entry.type",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.entry.identifier",
+      "path" : "Composition.section.entry.identifier",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.entry.display",
+      "path" : "Composition.section.entry.display",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.emptyReason",
+      "path" : "Composition.section.emptyReason",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:planoCuidados.section",
+      "path" : "Composition.section.section",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico",
+      "path" : "Composition.section",
+      "sliceName" : "atestadoMedicoOdontologico"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.title",
+      "path" : "Composition.section.title",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.code",
+      "path" : "Composition.section.code",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.author",
+      "path" : "Composition.section.author",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.focus",
+      "path" : "Composition.section.focus",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.text",
+      "path" : "Composition.section.text",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.mode",
+      "path" : "Composition.section.mode",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.orderedBy",
+      "path" : "Composition.section.orderedBy",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.entry",
+      "path" : "Composition.section.entry",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado"]
+      }]
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.entry.reference",
+      "path" : "Composition.section.entry.reference",
+      "min" : 1
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.entry.type",
+      "path" : "Composition.section.entry.type",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.entry.identifier",
+      "path" : "Composition.section.entry.identifier",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.entry.display",
+      "path" : "Composition.section.entry.display",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.emptyReason",
+      "path" : "Composition.section.emptyReason",
+      "max" : "0"
+    },
+    {
+      "id" : "Composition.section:atestadoMedicoOdontologico.section",
+      "path" : "Composition.section.section",
+      "max" : "0"
+    }]
+  }
+}
+
+```

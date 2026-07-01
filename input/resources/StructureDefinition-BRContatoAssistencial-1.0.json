@@ -1,18 +1,26 @@
 {
   "resourceType": "StructureDefinition",
   "id": "BRContatoAssistencial-1.0",
-  "meta": {
-    "lastUpdated": "2023-05-25T18:32:01.5951643+00:00"
-  },
   "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0",
-  "version": "2.0",
+  "version": "2.1.0",
   "name": "BRContatoAssistencial",
   "title": "Contato Assistencial",
   "status": "active",
   "experimental": false,
-  "date": "2020-04-29T19:58:09.2865128+00:00",
+  "date": "2026-06-24T19:58:09.2865128+00:00",
   "publisher": "Ministério da Saúde do Brasil",
+  "contact": [
+    {
+      "name": "COPIS - Coordenação de Padrões e Interoperabilidade em Saúde",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://webatendimento.saude.gov.br/faq/rnds"
+        }
+      ]
+    }
+  ],
   "description": "Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento.",
   "purpose": "Reportar para o Sistema Único de Saúde dados mínimos referentes a um atendimento concluído, de forma a possibilitar seu compartilhamento entre profissionais de saúde, o próprio indivíduo que recebeu o atendimento, assim como possibilitar o uso secundário das informações para atividades faturamento, auditoria, formulação e monitoramento de políticas públicas, por exemplo, nas esferas municipal, estadual e federal.",
   "fhirVersion": "4.0.1",
@@ -65,7 +73,7 @@
         "path": "Encounter.class",
         "label": "Modalidade Assistencial",
         "short": "Modalidade Assistencial",
-        "definition": "Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.\nReferência: https://rts.saude.gov.br/#/modalidade-assistencial",
+        "definition": "Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.\r\nReferência: https://rts.saude.gov.br/#/modalidade-assistencial",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -101,6 +109,47 @@
       {
         "id": "Encounter.type",
         "path": "Encounter.type",
+        "label": "Modalidade de Telessaúde",
+        "short": "Modalidade de Telessaúde",
+        "definition": "Identifica a modalidade de telessaúde associada ao contato assistencial, como teleconsulta, teleinterconsulta, teletriagem, teleatendimento ou outras modalidades definidas nacionalmente.",
+        "comment": "No contexto deste perfil, este elemento é utilizado para representar a modalidade de telessaúde do contato assistencial.",
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "description": "Modalidade de telessaúde associada ao contato assistencial.",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeTelessaude"
+        }
+      },
+      {
+        "id": "Encounter.type.coding",
+        "path": "Encounter.type.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.type.coding.system",
+        "path": "Encounter.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.type.coding.code",
+        "path": "Encounter.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.type.coding.display",
+        "path": "Encounter.type.coding.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.type.coding.userSelected",
+        "path": "Encounter.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.type.text",
+        "path": "Encounter.type.text",
         "max": "0"
       },
       {
@@ -113,7 +162,7 @@
         "path": "Encounter.priority",
         "label": "Caráter do Atendimento",
         "short": "Caráter do Atendimento",
-        "definition": "Identifica o contato assistencial de acordo com a prioridade de sua realização.\nReferência: https://rts.saude.gov.br/#/carater-atendimento",
+        "definition": "Identifica o contato assistencial de acordo com a prioridade de sua realização.\r\nReferência: https://rts.saude.gov.br/#/carater-atendimento",
         "alias": ["Caráter de Atendimento", "Caráter da Internação"],
         "min": 1,
         "mustSupport": true,
@@ -180,15 +229,13 @@
             }
           ],
           "rules": "open"
-        },
-        "min": 0
+        }
       },
       {
         "id": "Encounter.subject.extension:unidentifiedPatient",
         "path": "Encounter.subject.extension",
         "sliceName": "unidentifiedPatient",
         "short": "Dados do Indivíduo Não Identificado",
-        "min": 0,
         "type": [
           {
             "code": "Extension",
@@ -197,41 +244,6 @@
             ]
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "Encounter.subject.extension:unidentifiedPatient.extension",
-        "path": "Encounter.subject.extension.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 3
-      },
-      {
-        "id": "Encounter.subject.extension:unidentifiedPatient.extension:gender",
-        "path": "Encounter.subject.extension.extension",
-        "sliceName": "gender",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Encounter.subject.extension:unidentifiedPatient.extension:birthYear",
-        "path": "Encounter.subject.extension.extension",
-        "sliceName": "birthYear",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Encounter.subject.extension:unidentifiedPatient.extension:reason",
-        "path": "Encounter.subject.extension.extension",
-        "sliceName": "reason",
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -301,29 +313,13 @@
           "Profissionais do Atendimento",
           "Profissional Responsável pela Alta"
         ],
-        "min": 1,
         "mustSupport": true
-      },
-      {
-        "id": "Encounter.participant.extension",
-        "path": "Encounter.participant.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
       },
       {
         "id": "Encounter.participant.extension:function",
         "path": "Encounter.participant.extension",
         "sliceName": "function",
         "definition": "Ocupação do profissional ou indivíduo que participou do contato assistencial.",
-        "min": 1,
         "max": "1",
         "type": [
           {
@@ -341,7 +337,6 @@
         "sliceName": "team",
         "short": "Equipe",
         "definition": "Identifica a equipe de saúde responsável pelo Contato Assistencial utilizando o Identificador Nacional de Equipes.",
-        "min": 0,
         "max": "1",
         "type": [
           {
@@ -354,29 +349,10 @@
         "mustSupport": true
       },
       {
-        "id": "Encounter.participant.extension:isResponsable",
-        "path": "Encounter.participant.extension",
-        "sliceName": "isResponsable",
-        "short": "Responsável pelo Atendimento",
-        "definition": "Representa se o profissional foi responsável pelo atendimento registrado.",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResponsavelAtendimento"
-            ]
-          }
-        ],
-        "isModifier": false
-      },
-      {
         "id": "Encounter.participant.type",
         "path": "Encounter.participant.type",
         "short": "Tipo de Participação",
         "definition": "Responsabilidade que o profissional ou indivíduo teve durante o Contato Assistencial.",
-        "min": 1,
         "max": "1",
         "mustSupport": true,
         "binding": {
@@ -420,13 +396,12 @@
         "path": "Encounter.participant.individual",
         "short": "Participante",
         "definition": "Identifica o profissional ou indivíduo teve alguma participação no Contato Assistencial.",
-        "min": 1,
         "type": [
           {
             "code": "Reference",
             "targetProfile": [
-              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0",
-              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0"
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0",
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0"
             ]
           }
         ],
@@ -514,7 +489,6 @@
         "short": "Momento do Desfecho",
         "definition": "Competência (mês/ano), data ou data e hora do término do Contato Assistencial.",
         "alias": ["Data do Desfecho", "Data e Hora da Saída da Internação"],
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -594,7 +568,7 @@
         "path": "Encounter.diagnosis",
         "sliceName": "problemAndDiagnosis",
         "short": "Diagnósticos/Problemas Avaliados",
-        "definition": "Informações sobre a condição de saúde, lesão, deficiência ou qualquer outra questão que afete o bem-estar físico, mental ou social de um indivíduo identificadas em um contato assistencial. (adaptado do conceito de Problema/Diagnóstico do Clinical Knowledge Manager/OpenEHR)\nDevem ser listados os problemas/diangnósticos avaliados durante um contato.\nDiagnóstico secundário é(são) a(s) condição(ões) que coexiste(m) no momento da admissão, que se desenvolve(m) durante o contato assistencial ou que afeta(m) a atenção recebida e/ou a duração do contato assistencial. (adaptado do conceito disposto no Art. 3º da Portaria SAS/MS nº 1.324, de 27 de novembro de 2014)",
+        "definition": "Informações sobre a condição de saúde, lesão, deficiência ou qualquer outra questão que afete o bem-estar físico, mental ou social de um indivíduo identificadas em um contato assistencial. (adaptado do conceito de Problema/Diagnóstico do Clinical Knowledge Manager/OpenEHR)\r\nDevem ser listados os problemas/diangnósticos avaliados durante um contato.\r\nDiagnóstico secundário é(são) a(s) condição(ões) que coexiste(m) no momento da admissão, que se desenvolve(m) durante o contato assistencial ou que afeta(m) a atenção recebida e/ou a duração do contato assistencial. (adaptado do conceito disposto no Art. 3º da Portaria SAS/MS nº 1.324, de 27 de novembro de 2014)",
         "alias": ["Diagnóstico Secundário"],
         "mustSupport": true
       },
@@ -697,15 +671,6 @@
       {
         "id": "Encounter.diagnosis:procedure.condition.extension",
         "path": "Encounter.diagnosis.condition.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
         "min": 1
       },
       {
@@ -762,26 +727,11 @@
         "mustSupport": true
       },
       {
-        "id": "Encounter.hospitalization.extension",
-        "path": "Encounter.hospitalization.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
         "id": "Encounter.hospitalization.extension:otherInformations",
         "path": "Encounter.hospitalization.extension",
         "sliceName": "otherInformations",
         "short": "Outras Informações",
         "definition": "Representa quaisquer outras informações descritivas relacionadas aos dados de desfecho do atendimento registrado.",
-        "min": 0,
         "max": "1",
         "type": [
           {

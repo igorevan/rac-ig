@@ -734,6 +734,17 @@
       <exampleCanonical
         value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
     </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/bundle-example-rac-tc" />
+      </reference>
+      <name
+        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta" />
+      <description
+        value="Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico" />
+    </resource>
     <page>
       <nameUrl value="toc.html" />
       <title value="Índice" />

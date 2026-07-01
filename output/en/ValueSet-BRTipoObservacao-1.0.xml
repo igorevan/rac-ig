@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoObservacao-1.0"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1"/>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0"/>
+  <version value="1.0.0-release"/>
+  <name value="BRTipoObservacao"/>
+  <title value="Tipo de Observação"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-05-23T10:37:59.848+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério da Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="cgiis.datasus@saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Tipo de Observação."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"/>
+    </include>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS"/>
+      <concept>
+        <code value="0301100039"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="8665-2"/>
+        <display value="Last menstrual period start date"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Data da Última Menstruação"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="56832-9"/>
+        <display value="Type of substance abused"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Exposição à Substâncias"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11996-6"/>
+        <display value="Pregnancies"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Quantidade de Gestações"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="63895-7"/>
+        <display value="Breastfeeding status"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Tipo de Aleitamento Materno"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="29463-7"/>
+        <display value="Body weight"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Peso Corporal"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="8480-6"/>
+        <display value="Systolic blood pressure"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Pressão Arterial Sistólica"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="8462-4"/>
+        <display value="Diastolic blood pressure"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Pressão Arterial Diastólica"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="8280-0"/>
+        <display value="Waist Circumference at umbilicus by Tape measure"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Circuferência Abdominal"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="9843-4"/>
+        <display value="Head Occipital-frontal circumference"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Perímetro Cefálico"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="8302-2"/>
+        <display value="Body height"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Altura"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11885-1"/>
+        <display value="Gestational age Estimated from last menstrual period"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Idade Gestacional"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="11612-9"/>
+        <display value="Abortions"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Quantidade de Abortos"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="48767-8"/>
+        <display value="Annotation comment [Interpretation] Narrative"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Anotação de Comentário para Narrativa [Interpretação]"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

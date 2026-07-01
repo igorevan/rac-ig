@@ -28,7 +28,7 @@
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-16T17:47:54-03:00",
+  "date" : "2026-06-26T11:16:11-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -1936,6 +1936,40 @@
       "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado",
       "description" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC)",
       "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/bundle-example-rac-tc"
+      },
+      "name" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta",
+      "description" : "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta",
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRModalidadeTelessaude"
+      },
+      "name" : "Modalidade de Telessaúde (CodeSystem)",
+      "description" : "Códigos para representação da modalidade de telessaúde realizada."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRModalidadeTelessaude"
+      },
+      "name" : "Modalidade de Telessaúde (ValueSet)",
+      "description" : "Conjunto de códigos utilizados para identificar as modalidades de telessaúde no contexto do atendimento clínico."
     }],
     "page" : {
       "extension" : [{

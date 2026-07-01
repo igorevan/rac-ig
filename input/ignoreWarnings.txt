@@ -20,6 +20,7 @@ O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma infor
 # Errors relacionados as especificações da RNDS
 %http://hl7.org/fhir/StructureDefinition/regex%
 O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead
+%have an OID assigned%
 
 # Erros de validação de exemplos
 %Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico%

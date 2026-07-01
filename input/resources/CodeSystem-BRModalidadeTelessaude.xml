@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRModalidadeTelessaude" />
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude" />
+  <version value="1.0.0" />
+  <name value="BRModalidadeTelessaude" />
+  <title value="Modalidade de Telessaúde (CodeSystem)" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2026-06-24T12:05:18.2868027+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Códigos para representação da modalidade de telessaúde realizada." />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="teleconsulta" />
+    <display value="Teleconsulta" />
+  </concept>
+</CodeSystem>
