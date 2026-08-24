@@ -7,7 +7,7 @@ Caracteriza o motivo de conclusão total ou parcial do contato assistencial.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRMotivoDesfecho](ValueSet-BRMotivoDesfecho-1.0.md)
+* [Motivo do desfecho do Contato assistencial](ValueSet-BRMotivoDesfecho-1.0.md)
 
 -------
 

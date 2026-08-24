@@ -7,7 +7,7 @@ Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu res
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRProcedencia](ValueSet-BRProcedencia-1.0.md)
+* [Procedência do Contato Assistencial](ValueSet-BRProcedencia-1.0.md)
 
 -------
 

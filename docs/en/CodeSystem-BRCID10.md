@@ -7,8 +7,8 @@ Classifica as doenças e outros problemas em saúde registrados em diversos tipo
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRCID10](ValueSet-BRCID10-1.0.md)
-* [BRProblemaDiagnostico](ValueSet-BRProblemaDiagnostico.md)
+* [Classificação Internacional de Doenças - Décima Revisão - CID-10](ValueSet-BRCID10-1.0.md)
+* [Classificação Internacional de Doenças e Atenção Primária](ValueSet-BRProblemaDiagnostico.md)
 
 -------
 

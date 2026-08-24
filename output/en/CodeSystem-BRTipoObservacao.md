@@ -7,7 +7,7 @@ Tipo de Observação.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTipoObservacao](ValueSet-BRTipoObservacao-1.0.md)
+* [Tipo de Observação](ValueSet-BRTipoObservacao-1.0.md)
 
 -------
 

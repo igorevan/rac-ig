@@ -66,7 +66,7 @@ Other representations of profile: [CSV](../StructureDefinition-BROrigemMedida.cs
   "title" : "Origem da Medição",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-26T11:16:11-03:00",
+  "date" : "2026-08-24T11:43:54-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

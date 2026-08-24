@@ -7,7 +7,7 @@ Classifica a via na qual foi administrada uma substância em um indivíduo.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRViaAdministracao](ValueSet-BRViaAdministracao-1.0.md)
+* [Via de Administração do Imunobiológico](ValueSet-BRViaAdministracao-1.0.md)
 
 -------
 

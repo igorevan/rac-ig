@@ -7,7 +7,7 @@ Identifica a parte do corpo utilizada para realizar uma mensuração ou aferiç�
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRLocalAfericao](ValueSet-BRLocalAfericao-1.0.md)
+* [Local de Aferição](ValueSet-BRLocalAfericao-1.0.md)
 
 -------
 

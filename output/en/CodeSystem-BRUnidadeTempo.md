@@ -7,7 +7,7 @@ Code System utilizado para definir a classe de unidades de tempo.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRUnidadeTempo](ValueSet-BRUnidadeTempo.md)
+* [Unidade de Tempo](ValueSet-BRUnidadeTempo.md)
 
 -------
 

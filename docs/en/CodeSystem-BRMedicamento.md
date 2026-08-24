@@ -7,7 +7,7 @@ Drogas dirigidas para uso humano, apresentadas em sua formulação final.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRAlergenos](ValueSet-BRAlergenos-1.0.md)
+* [Alérgenos](ValueSet-BRAlergenos-1.0.md)
 
 -------
 

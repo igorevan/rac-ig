@@ -7,7 +7,7 @@ Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materi
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTerminologiaMedicamento](ValueSet-BRTerminologiaMedicamento.md)
+* [Terminologia dos medicamentos](ValueSet-BRTerminologiaMedicamento.md)
 
 -------
 

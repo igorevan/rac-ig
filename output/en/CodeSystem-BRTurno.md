@@ -7,7 +7,7 @@ Code System utilizado para definir o turno de um dia.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTurno](ValueSet-BRTurno.md)
+* [Turno do dia](ValueSet-BRTurno.md)
 
 -------
 

@@ -156,8 +156,8 @@
     "oids" : ["2.16.840.1.113883.4.642.4.247"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus",
-    "ValueSet-BREstadoContatoAssistencial-1.0.html" : "Estado do Contato Assistencial"
+    "ValueSet-BREstadoContatoAssistencial-1.0.html" : "Estado do Contato Assistencial",
+    "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus"
   },
   {
     "url" : "http://hl7.org/fhir/event-status",
@@ -302,8 +302,8 @@
     "oids" : ["2.16.840.1.113883.4.642.4.112"],
     "uses" : {
     },
-    "ValueSet-BREstadoAtestado.html" : "Status do atestado",
-    "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação"
+    "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação",
+    "ValueSet-BREstadoAtestado.html" : "Status do atestado"
   },
   {
     "url" : "http://hl7.org/fhir/resource-types",
@@ -314,8 +314,8 @@
     "description" : "One of the resource types defined as part of this version of FHIR.",
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind",
-    "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
+    "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType",
+    "http://hl7.org/fhir/R4/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind"
   },
   {
     "url" : "http://loinc.org",
@@ -326,13 +326,13 @@
     "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
-    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
     "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
     "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes",
-    "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes"
+    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+    "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
+    "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set"
   },
   {
     "url" : "http://snomed.info/sct",
@@ -344,33 +344,33 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-    "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
-    "http://hl7.org/fhir/R4/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
     "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
-    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
-    "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
-    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+    "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
     "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
-    "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
-    "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
+    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
     "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-    "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-    "http://hl7.org/fhir/R4/valueset-administration-method-codes.html" : "SNOMED CT Administration Method Codes",
-    "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-    "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
     "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+    "http://hl7.org/fhir/R4/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+    "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-administration-method-codes.html" : "SNOMED CT Administration Method Codes",
+    "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
+    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
     "http://hl7.org/fhir/R4/valueset-care-plan-category.html" : "Care Plan Category",
     "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
     "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
     "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
-    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)"
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
@@ -434,7 +434,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-    "version" : "1.0.0",
+    "version" : "2.0.0",
     "status" : "active",
     "name" : "DataAbsentReason",
     "title" : "DataAbsentReason",
@@ -599,7 +599,7 @@
     "oids" : ["2.16.840.1.113883.18.36"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
@@ -611,7 +611,7 @@
     "oids" : ["2.16.840.1.113883.18.47"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
@@ -627,7 +627,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-    "version" : "10.0.0",
+    "version" : "11.0.0",
     "status" : "active",
     "name" : "ActCode",
     "title" : "ActCode",
@@ -635,8 +635,8 @@
     "oids" : ["2.16.840.1.113883.5.4"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
-    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
@@ -648,11 +648,11 @@
     "oids" : ["2.16.840.1.113883.5.8"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
-    "version" : "4.0.0",
+    "version" : "5.0.0",
     "status" : "active",
     "name" : "Confidentiality",
     "title" : "Confidentiality",
@@ -676,7 +676,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
-    "version" : "4.0.0",
+    "version" : "5.0.0",
     "status" : "active",
     "name" : "GTSAbbreviation",
     "title" : "GTSAbbreviation",
@@ -697,8 +697,8 @@
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
-    "ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html" : "Categoria do Agente da Alergia ou Reação Adversa",
-    "http://hl7.org/fhir/R4/valueset-encounter-special-courtesy.html" : "Special courtesy"
+    "http://hl7.org/fhir/R4/valueset-encounter-special-courtesy.html" : "Special courtesy",
+    "ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html" : "Categoria do Agente da Alergia ou Reação Adversa"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -722,11 +722,11 @@
     "oids" : ["2.16.840.1.113883.5.111"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
-    "version" : "4.0.0",
+    "version" : "5.0.0",
     "status" : "active",
     "name" : "TimingEvent",
     "title" : "TimingEvent",
@@ -738,7 +738,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
-    "version" : "4.0.0",
+    "version" : "5.0.0",
     "status" : "active",
     "name" : "SubstanceAdminSubstitution",
     "title" : "Substance Admin Substitution",
@@ -746,18 +746,7 @@
     "oids" : ["2.16.840.1.113883.5.1070"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
-  },
-  {
-    "url" : "http://unitsofmeasure.org",
-    "version" : "2.2",
-    "status" : "active",
-    "name" : "UCUM",
-    "title" : null,
-    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R4/valueset-units-of-time.html" : "UnitsOfTime"
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA",
@@ -812,8 +801,8 @@
     "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
     "uses" : {
     },
-    "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
-    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
+    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+    "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
@@ -1066,8 +1055,8 @@
     "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
     "uses" : {
     },
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
+    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
@@ -1089,8 +1078,8 @@
     "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
     "uses" : {
     },
-    "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
-    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
+    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
+    "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
@@ -1145,8 +1134,8 @@
     "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
     "uses" : {
     },
-    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

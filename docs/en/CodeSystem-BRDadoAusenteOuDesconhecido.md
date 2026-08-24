@@ -7,7 +7,7 @@ Classificação de dados conhecidos mas ausentes e de dados desconhecidos a part
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRPrescricaoNaoEstruturada](ValueSet-BRPrescricaoNaoEstruturada.md)
+* [Indicativo de prescrição não estruturada ou medicamento não identificado](ValueSet-BRPrescricaoNaoEstruturada.md)
 
 -------
 

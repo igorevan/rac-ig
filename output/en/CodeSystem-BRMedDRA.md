@@ -7,7 +7,7 @@ Medical Dictionary for Regulatory Activities.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRReacoesAdversasMedDRA](ValueSet-BRReacoesAdversasMedDRA-1.0.md)
+* [Reações Adversas da MedDRA](ValueSet-BRReacoesAdversasMedDRA-1.0.md)
 
 -------
 

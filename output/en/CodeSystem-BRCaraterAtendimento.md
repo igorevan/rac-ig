@@ -7,7 +7,7 @@ Terminologia que classifica a prioridade de realização de um Contato Assistenc
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRCaraterAtendimento](ValueSet-BRCaraterAtendimento-1.0.md)
+* [Caráter de atendimento do Contato Assistencial](ValueSet-BRCaraterAtendimento-1.0.md)
 
 -------
 

@@ -7,7 +7,7 @@ Terminologia que descreve o agente, instituição ou entidade responsável por c
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRFinanciamento](ValueSet-BRFinanciamento-1.0.md)
+* [Financiamento do procedimento realizado](ValueSet-BRFinanciamento-1.0.md)
 
 -------
 

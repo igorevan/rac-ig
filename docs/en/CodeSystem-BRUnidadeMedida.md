@@ -7,8 +7,8 @@ Code System utilizado para definir a unidade de medida de um medicamento prescri
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRUnidadeConsumo](ValueSet-BRUnidadeConsumo.md)
-* [BRUnidadeMedidaMedicamento](ValueSet-BRUnidadeMedidaMedicamento.md)
+* [Unidade de Consumo](ValueSet-BRUnidadeConsumo.md)
+* [Unidade de Medida de Medicamento](ValueSet-BRUnidadeMedidaMedicamento.md)
 
 -------
 

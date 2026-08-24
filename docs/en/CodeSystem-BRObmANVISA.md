@@ -7,7 +7,7 @@ Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código 
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTerminologiaMedicamento](ValueSet-BRTerminologiaMedicamento.md)
+* [Terminologia dos medicamentos](ValueSet-BRTerminologiaMedicamento.md)
 
 -------
 

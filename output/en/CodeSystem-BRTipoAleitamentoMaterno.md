@@ -7,7 +7,7 @@ Classifica o tipo de aleitamento materno realizado a uma criança.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTipoAleitamentoMaterno](ValueSet-BRTipoAleitamentoMaterno-1.0.md)
+* [Tipo de Aleitamento Materno](ValueSet-BRTipoAleitamentoMaterno-1.0.md)
 
 -------
 

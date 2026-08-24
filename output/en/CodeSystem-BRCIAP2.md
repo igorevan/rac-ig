@@ -7,7 +7,7 @@ Classifica os problemas identificados no contato assistencial pelos profissionai
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRProblemaDiagnostico](ValueSet-BRProblemaDiagnostico.md)
+* [Classificação Internacional de Doenças e Atenção Primária](ValueSet-BRProblemaDiagnostico.md)
 
 -------
 

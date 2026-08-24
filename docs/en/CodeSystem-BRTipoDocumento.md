@@ -7,8 +7,8 @@ Classificação dos tipos de documentos compartilhados no Brasil.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTipoAtestado](ValueSet-BRTipoAtestado.md)
-* [BRTipoDocumento](ValueSet-BRTipoDocumento-1.0.md)
+* [Tipo de atestado](ValueSet-BRTipoAtestado.md)
+* [Tipo de Documento](ValueSet-BRTipoDocumento-1.0.md)
 
 -------
 

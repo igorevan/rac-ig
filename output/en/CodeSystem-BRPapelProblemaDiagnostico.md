@@ -7,7 +7,7 @@ Classificação do papel de um problema/diagnóstico.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRPapelProblemaDiagnostico](ValueSet-BRPapelProblemaDiagnostico.md)
+* [Classificação do papel de um problema e diagnóstico](ValueSet-BRPapelProblemaDiagnostico.md)
 
 -------
 

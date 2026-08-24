@@ -7,7 +7,7 @@ Identifica o tipo de substância em uso conforme declaração do indivíduo, de 
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRTipoSubstanciaUso](ValueSet-BRTipoSubstanciaUso-1.0.md)
+* [Tipo de Substância em Uso](ValueSet-BRTipoSubstanciaUso-1.0.md)
 
 -------
 

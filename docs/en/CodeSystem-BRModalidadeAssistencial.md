@@ -7,7 +7,7 @@ Classifica os contatos assistenciais de acordo com as especificidades do modo, l
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRModalidadeAssistencial](ValueSet-BRModalidadeAssistencial-1.0.md)
+* [Modalidade Assistencial](ValueSet-BRModalidadeAssistencial-1.0.md)
 
 -------
 

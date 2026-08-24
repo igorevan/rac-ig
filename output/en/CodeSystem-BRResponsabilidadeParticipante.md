@@ -7,7 +7,7 @@ Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRResponsabilidadeParticipante](ValueSet-BRResponsabilidadeParticipante-1.0.md)
+* [Reponsabilidade no Contato Assistencial](ValueSet-BRResponsabilidadeParticipante-1.0.md)
 
 -------
 

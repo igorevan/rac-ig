@@ -7,7 +7,7 @@ Identifica a frequência de uso da substância conforme declaração do indivíd
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRFrequenciaUsoSubstancia](ValueSet-BRFrequenciaUsoSubstancia.md)
+* [Frequência de Uso da Substância](ValueSet-BRFrequenciaUsoSubstancia.md)
 
 -------
 

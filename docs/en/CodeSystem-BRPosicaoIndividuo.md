@@ -7,7 +7,7 @@ Identifica a posição de um indivíduo em um determinado contexto.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRPosicaoIndividuo](ValueSet-BRPosicaoIndividuo.md)
+* [Posição do Indivíduo](ValueSet-BRPosicaoIndividuo.md)
 
 -------
 
