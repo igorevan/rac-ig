@@ -25,13 +25,13 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
     "valueCode" : "4.0.1"
   }],
-  "url" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir",
+  "url" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir",
   "version" : "1.0.0-release",
   "name" : "RACRNDSIG",
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-24T11:43:54-03:00",
+  "date" : "2026-09-15T15:40:41-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -203,7 +203,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/history.html"
+        "valueString" : "https://fhir.saude.gov.br/rac/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -515,7 +515,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/history.html"
+        "valueString" : "https://fhir.saude.gov.br/rac/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

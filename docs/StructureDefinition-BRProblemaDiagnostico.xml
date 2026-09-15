@@ -71,14 +71,14 @@ null: Indeterminado">clinicalStatus</a><a name="Condition.clinicalStatus"> </a><
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"/>
+        <valueCanonical value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="normative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"/>
+        <valueCanonical value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
       </extension>
     </valueCode>
   </extension>

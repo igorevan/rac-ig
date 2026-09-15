@@ -7,7 +7,7 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRTerminologiaMedicamento</b></p><a name=\"BRTerminologiaMedicamento\"> </a><a name=\"hcBRTerminologiaMedicamento\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2021-12-01 13:16:09+0000; Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmCATMAT.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmEAN.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmANVISA.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmAMPP.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmVMP.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRTerminologiaMedicamento</b></p><a name=\"BRTerminologiaMedicamento\"> </a><a name=\"hcBRTerminologiaMedicamento\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2021-12-01 13:16:09+0000; Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmCATMAT.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmEAN.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmANVISA.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmAMPP.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRObmVMP.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -19,7 +19,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -29,7 +29,7 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },

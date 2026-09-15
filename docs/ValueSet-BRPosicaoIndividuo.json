@@ -1,10 +1,10 @@
 {
   "resourceType" : "ValueSet",
   "id" : "BRPosicaoIndividuo",
-  "language" : "pt-BR",
+  "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRPosicaoIndividuo</b></p><a name=\"BRPosicaoIndividuo\"> </a><a name=\"hcBRPosicaoIndividuo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRPosicaoIndividuo.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir estes códigos, tal como definidos em <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href=\"https://loinc.org/LA11868-9/\">LA11868-9</a></td><td>Sitting</td><td>Sentado</td></tr><tr><td><a href=\"https://loinc.org/LA11869-7/\">LA11869-7</a></td><td>Lying</td><td>Deitado</td></tr><tr><td><a href=\"https://loinc.org/LA11870-5/\">LA11870-5</a></td><td>Standing</td><td>De pé</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRPosicaoIndividuo</b></p><a name=\"BRPosicaoIndividuo\"> </a><a name=\"hcBRPosicaoIndividuo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRPosicaoIndividuo.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.0.0-release</span></li><li>Incluir estes códigos, tal como definidos em <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href=\"https://loinc.org/LA11868-9/\">LA11868-9</a></td><td>Sitting</td><td>Sentado</td></tr><tr><td><a href=\"https://loinc.org/LA11869-7/\">LA11869-7</a></td><td>Lying</td><td>Deitado</td></tr><tr><td><a href=\"https://loinc.org/LA11870-5/\">LA11870-5</a></td><td>Standing</td><td>De pé</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -16,7 +16,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -26,7 +26,7 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },

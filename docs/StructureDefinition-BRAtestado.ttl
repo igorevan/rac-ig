@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRAtestado> a fhir:StructureDefinition ;
+<https://fhir.saude.gov.br/rac/StructureDefinition/BRAtestado> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BRAtestado"] ;
   fhir:DomainResource.text [
@@ -25,8 +25,8 @@
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -39,8 +39,8 @@
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -54,7 +54,7 @@
   fhir:StructureDefinition.name [ fhir:value "BRAtestado"] ;
   fhir:StructureDefinition.title [ fhir:value "Atestado Digital"] ;
   fhir:StructureDefinition.status [ fhir:value "active"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-08-24T11:43:54-03:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-09-15T15:40:41-03:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:StructureDefinition.contact [
      fhir:index 0 ;
@@ -7647,7 +7647,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRAtestado.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/StructureDefinition/BRAtestado.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

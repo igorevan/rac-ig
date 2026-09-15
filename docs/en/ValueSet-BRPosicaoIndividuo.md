@@ -27,7 +27,7 @@ ValueSet utilizado para identificar a posição do indivíduo no momento da aç�
 {
   "resourceType" : "ValueSet",
   "id" : "BRPosicaoIndividuo",
-  "language" : "pt-BR",
+  "language" : "en",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
     "valueCode" : "ehr"
@@ -38,7 +38,7 @@ ValueSet utilizado para identificar a posição do indivíduo no momento da aç�
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -48,7 +48,7 @@ ValueSet utilizado para identificar a posição do indivíduo no momento da aç�
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },

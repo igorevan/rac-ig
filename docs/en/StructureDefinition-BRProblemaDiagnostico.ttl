@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRProblemaDiagnostico> a fhir:StructureDefinition ;
+<https://fhir.saude.gov.br/rac/StructureDefinition/BRProblemaDiagnostico> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BRProblemaDiagnostico"] ;
   fhir:Resource.meta [
@@ -28,8 +28,8 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -42,8 +42,8 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -5834,7 +5834,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRProblemaDiagnostico.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/StructureDefinition/BRProblemaDiagnostico.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

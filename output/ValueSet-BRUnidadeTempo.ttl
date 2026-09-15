@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRUnidadeTempo> a fhir:ValueSet ;
+<https://fhir.saude.gov.br/rac/ValueSet/BRUnidadeTempo> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BRUnidadeTempo"] ;
   fhir:Resource.meta [
@@ -29,8 +29,8 @@
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -43,8 +43,8 @@
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -93,7 +93,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRUnidadeTempo.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/ValueSet/BRUnidadeTempo.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

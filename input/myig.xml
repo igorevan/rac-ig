@@ -14,7 +14,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
     <valueCode value="4.0.1" />
   </extension>
-  <url value="https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" />
+  <url value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" />
   <version value="1.0.0-release" />
   <name value="RACRNDSIG" />
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS" />

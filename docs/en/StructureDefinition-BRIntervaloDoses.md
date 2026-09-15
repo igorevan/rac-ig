@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRIntervaloDoses.
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRIntervaloDoses.
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
       }]
     }
   },
@@ -65,7 +65,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRIntervaloDoses.
   "name" : "BRIntervaloDoses",
   "title" : "Intervalo de Doses",
   "status" : "active",
-  "date" : "2026-08-24T11:43:54-03:00",
+  "date" : "2026-09-15T15:40:41-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

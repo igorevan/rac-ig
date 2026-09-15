@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRJustificativaIndividuoNaoIdentificado> a fhir:CodeSystem ;
+<https://fhir.saude.gov.br/rac/CodeSystem/BRJustificativaIndividuoNaoIdentificado> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BRJustificativaIndividuoNaoIdentificado"] ;
   fhir:Resource.meta [
@@ -28,8 +28,8 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -42,8 +42,8 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -112,7 +112,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRJustificativaIndividuoNaoIdentificado.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/CodeSystem/BRJustificativaIndividuoNaoIdentificado.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

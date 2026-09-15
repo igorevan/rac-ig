@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir> a fhir:ImplementationGuide ;
+<https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "br.gov.saude.rac.fhir"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rac.fhir</b></p><a name=\"br.gov.saude.rac.fhir\"> </a><a name=\"hcbr.gov.saude.rac.fhir\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><h2>RACRNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rac.fhir</b></p><a name=\"br.gov.saude.rac.fhir\"> </a><a name=\"hcbr.gov.saude.rac.fhir\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><h2>RACRNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index 0 ;
@@ -30,13 +30,13 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
      fhir:Extension.valueCode [ fhir:value "4.0.1" ]
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir"] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"] ;
   fhir:ImplementationGuide.version [ fhir:value "1.0.0-release"] ;
   fhir:ImplementationGuide.name [ fhir:value "RACRNDSIG"] ;
   fhir:ImplementationGuide.title [ fhir:value "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-24T11:43:54-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-15T15:40:41-03:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -237,7 +237,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/rac/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -577,7 +577,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/rac/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -781,7 +781,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRRegistroAtendimentoClinico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRRegistroAtendimentoClinico> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRRegistroAtendimentoClinico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Registro de Atendimento Clínico (RAC)" ] ;
@@ -794,7 +794,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRConjuntoMinimoDados-1.1> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRConjuntoMinimoDados-1.1> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRConjuntoMinimoDados-1.1" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Conjunto Mínimo de Dados (CMD)" ] ;
@@ -807,7 +807,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRLocalAtendimento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRLocalAtendimento-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRLocalAtendimento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Local de Atendimento" ] ;
@@ -820,7 +820,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRContatoAssistencial-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRContatoAssistencial-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRContatoAssistencial-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Contato Assistencial" ] ;
@@ -833,7 +833,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRProblemaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRProblemaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRProblemaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Problema / Diagnóstico" ] ;
@@ -846,7 +846,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRMedidaObservada> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRMedidaObservada> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRMedidaObservada" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medida Observada" ] ;
@@ -859,7 +859,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRObservacaoDescritiva-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRObservacaoDescritiva-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRObservacaoDescritiva-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observação Descritiva" ] ;
@@ -872,7 +872,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRAlergiaReacaoAdversa-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRAlergiaReacaoAdversa-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRAlergiaReacaoAdversa-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Alergia ou Reação Adversa" ] ;
@@ -885,7 +885,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRProcedimentoRealizado-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRProcedimentoRealizado-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRProcedimentoRealizado-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedimento Realizado" ] ;
@@ -898,7 +898,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRPlanoCuidados-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRPlanoCuidados-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRPlanoCuidados-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Plano de Cuidados" ] ;
@@ -911,7 +911,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRAtestado> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRAtestado> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRAtestado" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Atestado Digital" ] ;
@@ -924,7 +924,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRCID10Avaliado-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRCID10Avaliado-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRCID10Avaliado-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CID10 Avaliado" ] ;
@@ -937,7 +937,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRRegistroPrescricaoMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRRegistroPrescricaoMedicamento> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRRegistroPrescricaoMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Registro de Prescrição de Medicamento" ] ;
@@ -950,7 +950,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRPrescricaoMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRPrescricaoMedicamento> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRPrescricaoMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Prescrição de Medicamento" ] ;
@@ -963,7 +963,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRMedicamento> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicamento" ] ;
@@ -976,7 +976,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRIndividuoNaoIdentificado-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRIndividuoNaoIdentificado-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRIndividuoNaoIdentificado-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Informações Complementares de Indivíduos Não Identificados" ] ;
@@ -989,7 +989,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRIdentificacaoEquipe-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRIdentificacaoEquipe-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRIdentificacaoEquipe-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identificador Nacional de Equipe" ] ;
@@ -1002,7 +1002,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BROcupacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BROcupacao-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BROcupacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ocupação" ] ;
@@ -1015,7 +1015,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRResponsavelAtendimento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRResponsavelAtendimento> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRResponsavelAtendimento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Responsável pelo Atendimento" ] ;
@@ -1028,7 +1028,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRRoupasUsadasMedicao> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRRoupasUsadasMedicao> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRRoupasUsadasMedicao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Roupas Usadas na Medição" ] ;
@@ -1041,7 +1041,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BROrigemMedida> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BROrigemMedida> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BROrigemMedida" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Origem da Medição" ] ;
@@ -1054,7 +1054,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRFinanciamento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRFinanciamento-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRFinanciamento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Financiamento" ] ;
@@ -1067,7 +1067,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BROutrasInformacoes> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BROutrasInformacoes> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BROutrasInformacoes" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Outras Informações" ] ;
@@ -1080,7 +1080,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRQuantidade-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRQuantidade-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRQuantidade-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Quantidade" ] ;
@@ -1093,7 +1093,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRTurno> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRTurno> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRTurno" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Turno" ] ;
@@ -1106,7 +1106,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRIntervaloDoses> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRIntervaloDoses> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRIntervaloDoses" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Intervalo de Doses" ] ;
@@ -1119,7 +1119,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/StructureDefinition/BRCodigoSerialMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/StructureDefinition/BRCodigoSerialMedicamento> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRCodigoSerialMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Código Serial de Medicamento" ] ;
@@ -1132,7 +1132,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRProcedencia> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRProcedencia> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRProcedencia" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedência" ] ;
@@ -1145,7 +1145,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRModalidadeAssistencial> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRModalidadeAssistencial> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRModalidadeAssistencial" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Modalidade Assistencial (CodeSystem)" ] ;
@@ -1158,7 +1158,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRCaraterAtendimento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRCaraterAtendimento> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCaraterAtendimento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Caráter de Atendimento" ] ;
@@ -1171,7 +1171,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRCID10> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRCID10> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCID10" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)" ] ;
@@ -1184,7 +1184,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRCIAP2> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRCIAP2> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCIAP2" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2" ] ;
@@ -1197,7 +1197,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRCBO> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRCBO> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCBO" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira de Ocupações - CBO (CodeSystem)" ] ;
@@ -1210,7 +1210,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRPosicaoIndividuo> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRPosicaoIndividuo> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRPosicaoIndividuo" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Posição do Indivíduo (CodeSystem)" ] ;
@@ -1223,7 +1223,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRLocalAfericao> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRLocalAfericao> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRLocalAfericao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Local de Aferição (CodeSystem)" ] ;
@@ -1236,7 +1236,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoAleitamentoMaterno> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTipoAleitamentoMaterno> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTipoAleitamentoMaterno" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Aleitamento Materno (CodeSystem)" ] ;
@@ -1249,7 +1249,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoSubstanciaUso> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTipoSubstanciaUso> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTipoSubstanciaUso" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Substância em Uso (CodeSystem)" ] ;
@@ -1262,7 +1262,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRFrequenciaUsoSubstancia> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRFrequenciaUsoSubstancia> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRFrequenciaUsoSubstancia" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Frequência de Uso de Substância" ] ;
@@ -1275,7 +1275,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRCategoriaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRCategoriaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCategoriaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Categoria do Diagnóstico (CodeSystem)" ] ;
@@ -1288,7 +1288,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRMedDRA> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRMedDRA> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRMedDRA" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medical Dictionary for Regulatory Activities (MedDRA)" ] ;
@@ -1301,7 +1301,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRCBHPMTUSS> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRCBHPMTUSS> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCBHPMTUSS" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS" ] ;
@@ -1314,7 +1314,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTabelaSUS> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTabelaSUS> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTabelaSUS" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tabela de procedimentos, medicamentos e OPM do SUS" ] ;
@@ -1327,7 +1327,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRObmAMPP> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRObmAMPP> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRObmAMPP" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)" ] ;
@@ -1340,7 +1340,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRObmANVISA> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRObmANVISA> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRObmANVISA" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)" ] ;
@@ -1353,7 +1353,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRObmCATMAT> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRObmCATMAT> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRObmCATMAT" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)" ] ;
@@ -1366,7 +1366,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRObmEAN> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRObmEAN> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRObmEAN" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org" ] ;
@@ -1379,7 +1379,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRObmVMP> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRObmVMP> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRObmVMP" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)" ] ;
@@ -1392,7 +1392,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRViaAdministracao> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRViaAdministracao> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRViaAdministracao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Via de Administração" ] ;
@@ -1405,7 +1405,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRUnidadeMedida> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRUnidadeMedida> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRUnidadeMedida" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unidade de Medida" ] ;
@@ -1418,7 +1418,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRMotivoDesfecho> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRMotivoDesfecho> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRMotivoDesfecho" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Motivo do Desfecho" ] ;
@@ -1431,7 +1431,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoDocumento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTipoDocumento> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTipoDocumento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Documento (CodeSystem)" ] ;
@@ -1444,7 +1444,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRResponsabilidadeParticipante> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRResponsabilidadeParticipante> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRResponsabilidadeParticipante" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Responsabilidade no Contato Assistencial (CodeSystem)" ] ;
@@ -1457,7 +1457,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRPapelProblemaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRPapelProblemaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRPapelProblemaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação do papel de um problema e diagnóstico (CodeSystem)" ] ;
@@ -1470,7 +1470,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRFinanciamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRFinanciamento> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRFinanciamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Financiamento (CodeSystem)" ] ;
@@ -1483,7 +1483,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoIdentificador> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTipoIdentificador> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTipoIdentificador" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Identificador" ] ;
@@ -1496,7 +1496,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTipoObservacao> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTipoObservacao> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTipoObservacao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Observação (CodeSystem)" ] ;
@@ -1509,7 +1509,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRAlergenosCBARA> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRAlergenosCBARA> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRAlergenosCBARA" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)" ] ;
@@ -1522,7 +1522,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRImunobiologico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRImunobiologico> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRImunobiologico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Imunobiológico" ] ;
@@ -1535,7 +1535,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRMedicamento> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicamento (CodeSystem)" ] ;
@@ -1548,7 +1548,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRTurno> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRTurno> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTurno" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Turno do dia (CodeSystem)" ] ;
@@ -1561,7 +1561,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRUnidadeTempo> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRUnidadeTempo> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRUnidadeTempo" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unidade de tempo" ] ;
@@ -1574,7 +1574,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRJustificativaIndividuoNaoIdentificado> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRJustificativaIndividuoNaoIdentificado> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRJustificativaIndividuoNaoIdentificado" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Justificativa da Impossibilidade de Identificação do Indivíduo (CodeSystem)" ] ;
@@ -1587,7 +1587,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRDadoAusenteOuDesconhecido> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRDadoAusenteOuDesconhecido> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRDadoAusenteOuDesconhecido" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação de dados ausentes ou desconhecidos - IPS" ] ;
@@ -1600,7 +1600,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRProcedencia-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRProcedencia-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRProcedencia-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedência do Contato Assistencial" ] ;
@@ -1613,7 +1613,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRModalidadeAssistencial-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRModalidadeAssistencial-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRModalidadeAssistencial-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Modalidade Assistencial (ValueSet)" ] ;
@@ -1626,7 +1626,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRCaraterAtendimento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRCaraterAtendimento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCaraterAtendimento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Caráter de atendimento do Contato Assistencial" ] ;
@@ -1639,7 +1639,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRProblemaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRProblemaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRProblemaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Internacional de Doenças e Atenção Primária" ] ;
@@ -1652,7 +1652,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BROcupacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BROcupacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BROcupacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira de Ocupações - CBO (ValueSet)" ] ;
@@ -1665,7 +1665,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRPosicaoIndividuo> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRPosicaoIndividuo> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRPosicaoIndividuo" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Posição do Indivíduo (ValueSet)" ] ;
@@ -1678,7 +1678,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRLocalAfericao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRLocalAfericao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRLocalAfericao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Local de Aferição (ValueSet)" ] ;
@@ -1691,7 +1691,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/RoupasUsadasMedicao> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/RoupasUsadasMedicao> ;
          fhir:Reference.reference [ fhir:value "ValueSet/RoupasUsadasMedicao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Roupas Usadas na Medição (ValueSet)" ] ;
@@ -1704,7 +1704,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BROrigemMedida> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BROrigemMedida> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BROrigemMedida" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Origem de Medição" ] ;
@@ -1717,7 +1717,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoAleitamentoMaterno-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTipoAleitamentoMaterno-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoAleitamentoMaterno-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Aleitamento Materno (ValueSet)" ] ;
@@ -1730,7 +1730,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoSubstanciaUso-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTipoSubstanciaUso-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoSubstanciaUso-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Substância em Uso (ValueSet)" ] ;
@@ -1743,7 +1743,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRFrequenciaUsoSubstancia> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRFrequenciaUsoSubstancia> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRFrequenciaUsoSubstancia" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Frequência de Uso da Substância" ] ;
@@ -1756,7 +1756,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRCategoriaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRCategoriaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCategoriaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Categoria do Diagnóstico (ValueSet)" ] ;
@@ -1769,7 +1769,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado da Resolução de Diagnóstico ou Problema" ] ;
@@ -1782,7 +1782,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Categoria do Agente da Alergia ou Reação Adversa" ] ;
@@ -1795,7 +1795,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRReacoesAdversasMedDRA-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRReacoesAdversasMedDRA-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRReacoesAdversasMedDRA-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reações Adversas da MedDRA" ] ;
@@ -1808,7 +1808,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Grau de Certeza de Alergias e Reações Adversas" ] ;
@@ -1821,7 +1821,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Criticidade de Alergias e Reações Adversas" ] ;
@@ -1834,7 +1834,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRProcedimentosNacionais-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRProcedimentosNacionais-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRProcedimentosNacionais-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedimento realizado" ] ;
@@ -1847,7 +1847,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoEvento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoEvento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoEvento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado do Evento" ] ;
@@ -1860,7 +1860,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTerminologiaMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTerminologiaMedicamento> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTerminologiaMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminologia dos medicamentos" ] ;
@@ -1873,7 +1873,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRViaAdministracao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRViaAdministracao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRViaAdministracao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Via de Administração do Imunobiológico" ] ;
@@ -1886,7 +1886,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRUnidadeConsumo> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRUnidadeConsumo> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRUnidadeConsumo" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unidade de Consumo" ] ;
@@ -1899,7 +1899,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRUnidadeMedidaMedicamento> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRUnidadeMedidaMedicamento> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRUnidadeMedidaMedicamento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unidade de Medida de Medicamento" ] ;
@@ -1912,7 +1912,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoSolicitacaoMedicamento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoSolicitacaoMedicamento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoSolicitacaoMedicamento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado da Solicitação de Medicamento" ] ;
@@ -1925,7 +1925,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRMotivoDesfecho-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRMotivoDesfecho-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRMotivoDesfecho-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Motivo do desfecho do Contato Assistencial" ] ;
@@ -1938,7 +1938,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoDocumento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTipoDocumento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoDocumento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Documento (ValueSet)" ] ;
@@ -1951,7 +1951,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRResponsabilidadeParticipante-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRResponsabilidadeParticipante-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRResponsabilidadeParticipante-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Responsabilidade no Contato Assistencial (ValueSet)" ] ;
@@ -1964,7 +1964,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRPapelProblemaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRPapelProblemaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRPapelProblemaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação do papel de um problema e diagnóstico (ValueSet)" ] ;
@@ -1977,7 +1977,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRFinanciamento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRFinanciamento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRFinanciamento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Financiamento do procedimento realizado" ] ;
@@ -1990,7 +1990,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoContatoAssistencial-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoContatoAssistencial-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoContatoAssistencial-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado do Contato Assistencial" ] ;
@@ -2003,7 +2003,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoIdentificadorProcedimento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTipoIdentificadorProcedimento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoIdentificadorProcedimento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Identificador do Procedimento" ] ;
@@ -2016,7 +2016,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRCategoriaCondicao> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRCategoriaCondicao> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCategoriaCondicao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação de uma condição" ] ;
@@ -2029,7 +2029,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoObservacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTipoObservacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoObservacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Observação (ValueSet)" ] ;
@@ -2042,7 +2042,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoObservacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoObservacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoObservacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado da Observação" ] ;
@@ -2055,7 +2055,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRAlergenos-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRAlergenos-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRAlergenos-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Alérgenos" ] ;
@@ -2068,7 +2068,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTurno> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTurno> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTurno" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Turno do dia (ValueSet)" ] ;
@@ -2081,7 +2081,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRUnidadeTempo> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRUnidadeTempo> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRUnidadeTempo" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unidade de Tempo" ] ;
@@ -2094,7 +2094,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoAtestado> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoAtestado> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoAtestado" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status do atestado" ] ;
@@ -2107,7 +2107,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRIntencaoAtestado> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRIntencaoAtestado> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRIntencaoAtestado" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Intenção do atestado" ] ;
@@ -2120,7 +2120,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRTipoAtestado> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRTipoAtestado> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoAtestado" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de atestado" ] ;
@@ -2133,7 +2133,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoAfastamentoAtestado> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoAfastamentoAtestado> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoAfastamentoAtestado" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status do afastamento descrito no atestado" ] ;
@@ -2146,7 +2146,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRCID10-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRCID10-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCID10-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)" ] ;
@@ -2159,7 +2159,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoSolicitacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoSolicitacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoSolicitacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado da Solicitação" ] ;
@@ -2172,7 +2172,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Justificativa da Impossibilidade de Identificação do Indivíduo (ValueSet)" ] ;
@@ -2185,7 +2185,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRSexo-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRSexo-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRSexo-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sexo" ] ;
@@ -2198,7 +2198,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BREstadoDocumento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BREstadoDocumento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoDocumento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado do Documento" ] ;
@@ -2211,7 +2211,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRPrescricaoNaoEstruturada> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRPrescricaoNaoEstruturada> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRPrescricaoNaoEstruturada" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Indicativo de prescrição não estruturada ou medicamento não identificado" ] ;
@@ -2224,7 +2224,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/Bundle/bundle-example-rac-1> ;
+         fhir:link <https://fhir.saude.gov.br/rac/Bundle/bundle-example-rac-1> ;
          fhir:Reference.reference [ fhir:value "Bundle/bundle-example-rac-1" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Identificado" ] ;
@@ -2241,7 +2241,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/Bundle/bundle-example-rac-2> ;
+         fhir:link <https://fhir.saude.gov.br/rac/Bundle/bundle-example-rac-2> ;
          fhir:Reference.reference [ fhir:value "Bundle/bundle-example-rac-2" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado" ] ;
@@ -2258,7 +2258,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/Bundle/bundle-example-rac-tc> ;
+         fhir:link <https://fhir.saude.gov.br/rac/Bundle/bundle-example-rac-tc> ;
          fhir:Reference.reference [ fhir:value "Bundle/bundle-example-rac-tc" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta" ] ;
@@ -2275,7 +2275,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/CodeSystem/BRModalidadeTelessaude> ;
+         fhir:link <https://fhir.saude.gov.br/rac/CodeSystem/BRModalidadeTelessaude> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRModalidadeTelessaude" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Modalidade de Telessaúde (CodeSystem)" ] ;
@@ -2288,7 +2288,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRModalidadeTelessaude> ;
+         fhir:link <https://fhir.saude.gov.br/rac/ValueSet/BRModalidadeTelessaude> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRModalidadeTelessaude" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Modalidade de Telessaúde (ValueSet)" ] ;
@@ -2536,7 +2536,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

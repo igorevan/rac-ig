@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/Bundle/bundle-example-rac-1> a fhir:Bundle ;
+<https://fhir.saude.gov.br/rac/Bundle/bundle-example-rac-1> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "bundle-example-rac-1"] ;
   fhir:Resource.meta [
@@ -1278,7 +1278,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/Bundle/bundle-example-rac-1.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/Bundle/bundle-example-rac-1.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

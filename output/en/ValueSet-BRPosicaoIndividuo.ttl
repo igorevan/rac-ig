@@ -5,12 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRPosicaoIndividuo> a fhir:ValueSet ;
+<https://fhir.saude.gov.br/rac/ValueSet/BRPosicaoIndividuo> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BRPosicaoIndividuo"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ]
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRPosicaoIndividuo</b></p><a name=\"BRPosicaoIndividuo\"> </a><a name=\"hcBRPosicaoIndividuo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir todos os códigos definidos em <a href=\"CodeSystem-BRPosicaoIndividuo.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.0.0-release</span></li><li>Incluir estes códigos, tal como definidos em <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href=\"https://loinc.org/LA11868-9/\">LA11868-9</a></td><td>Sitting</td><td>Sentado</td></tr><tr><td><a href=\"https://loinc.org/LA11869-7/\">LA11869-7</a></td><td>Lying</td><td>Deitado</td></tr><tr><td><a href=\"https://loinc.org/LA11870-5/\">LA11870-5</a></td><td>Standing</td><td>De pé</td></tr></table></li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index -1 ;
@@ -25,8 +26,8 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -39,8 +40,8 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
          fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ImplementationGuide/br.gov.saude.rac.fhir>
+           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
          ]
        ]
      ]
@@ -121,7 +122,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/rac/1.0.0/ValueSet/BRPosicaoIndividuo.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/rac/ValueSet/BRPosicaoIndividuo.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

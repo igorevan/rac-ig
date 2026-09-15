@@ -129,8 +129,8 @@
     "oids" : ["2.16.840.1.113883.4.642.4.112"],
     "uses" : {
     },
-    "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação",
-    "ValueSet-BREstadoAtestado.html" : "Status do atestado"
+    "ValueSet-BREstadoAtestado.html" : "Status do atestado",
+    "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação"
   },
   {
     "url" : "http://loinc.org",
@@ -142,8 +142,8 @@
     "uses" : {
     },
     "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
     "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
     "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
   },
   {
@@ -525,8 +525,8 @@
     "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
     "uses" : {
     },
-    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
