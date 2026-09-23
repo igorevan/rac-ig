@@ -141,10 +141,10 @@
     "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
     "uses" : {
     },
-    "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
     "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
+    "ValueSet-BROrigemMedida.html" : "Origem de Medição",
+    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -548,8 +548,8 @@
     "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
     "uses" : {
     },
-    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
-    "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
+    "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
+    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
@@ -604,8 +604,8 @@
     "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
     "uses" : {
     },
-    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
-    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
+    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
+    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

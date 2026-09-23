@@ -776,8 +776,7 @@
       "clinicalStatus" : {
         "coding" : [{
           "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-          "code" : "active",
-          "display" : "Active"
+          "code" : "active"
         }]
       },
       "verificationStatus" : {
@@ -1054,8 +1053,7 @@
       "category" : [{
         "coding" : [{
           "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
-          "code" : "01",
-          "display" : "Principal"
+          "code" : "01"
         }]
       }],
       "code" : {

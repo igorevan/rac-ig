@@ -156,8 +156,8 @@
     "systems" : ["http://hl7.org/fhir/observation-status"],
     "uses" : {
     },
-    "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+    "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -517,8 +517,8 @@
     "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao"],
     "uses" : {
     },
-    "StructureDefinition-BRMedidaObservada.html" : "Medida Observada",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+    "StructureDefinition-BRMedidaObservada.html" : "Medida Observada"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",

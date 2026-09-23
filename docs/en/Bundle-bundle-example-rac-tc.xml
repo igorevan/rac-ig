@@ -781,7 +781,6 @@
           <coding>
             <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
             <code value="active"/>
-            <display value="Active"/>
           </coding>
         </clinicalStatus>
         <verificationStatus>
@@ -1063,7 +1062,6 @@
           <coding>
             <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"/>
             <code value="01"/>
-            <display value="Principal"/>
           </coding>
         </category>
         <code>

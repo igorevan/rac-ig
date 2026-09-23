@@ -31,7 +31,7 @@
   "title" : "Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-15T15:40:41-03:00",
+  "date" : "2026-09-23T09:07:03-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -62,7 +62,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.3.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7ext",
