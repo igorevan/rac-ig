@@ -30,7 +30,7 @@ Tradução para o português do brasil da classificação de uma condição
   "meta" : {
     "lastUpdated" : "2020-03-11T19:14:51.806+00:00"
   },
-  "language" : "pt-BR",
+  "language" : "en",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
     "valueCode" : "ehr"

@@ -27,7 +27,7 @@ Sexo de um indivíduo.
 {
   "resourceType" : "ValueSet",
   "id" : "BRSexo-1.0",
-  "language" : "pt-BR",
+  "language" : "en",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
     "valueCode" : "ehr"

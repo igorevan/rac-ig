@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "657a802d-c834-48f0-8735-017af2f8a35c",
+  "id" : "ca7b5482-2a2d-4bf5-a599-8aff0b315998",
   "meta" : {
-    "lastUpdated" : "2026-09-23T09:07:03.057-03:00"
+    "lastUpdated" : "2026-09-30T18:22:16.471-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -29,8 +29,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d1ddb104-7499-4dac-a7ca-9993421c9382",
-        "timestamp" : "2026-09-23T09:16:10-03:00",
+        "identifier" : "urn:uuid:358941ea-72a6-48ce-a638-198183946788",
+        "timestamp" : "2026-09-30T18:31:06-03:00",
         "total" : 4551,
         "offset" : 0,
         "parameter" : [{
@@ -5112,8 +5112,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:21513c83-a985-43c9-8a2a-7f3ca7c0c078",
-        "timestamp" : "2026-09-23T09:16:10-03:00",
+        "identifier" : "urn:uuid:cea70634-5d8b-4702-a2dd-db038a48ba99",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 4551,
         "offset" : 0,
         "parameter" : [{
@@ -10198,8 +10198,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:45649791-b312-4906-a934-f82c05dc909a",
-        "timestamp" : "2026-09-23T09:16:10-03:00",
+        "identifier" : "urn:uuid:cc68c8b3-6c5b-4ea1-a9aa-4777f1827397",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 14230,
         "offset" : 0,
         "parameter" : [{
@@ -15252,8 +15252,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:dfbcb94f-2006-469b-b38f-880dee1946df",
-        "timestamp" : "2026-09-23T09:16:10-03:00",
+        "identifier" : "urn:uuid:2de4fcff-5eed-4ad7-bc8a-626c0e28a5ca",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 14230,
         "offset" : 0,
         "parameter" : [{
@@ -20303,8 +20303,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b4e4750f-218a-44ee-a7c9-f7dc9655510c",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:14a6b9b4-d81e-4a12-ba3e-8101db2888b1",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -20389,8 +20389,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4c82f43d-4a20-4338-8133-dfa0fc01ec16",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:07b46a53-32a4-4fe0-a057-b0b238fc7a3f",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -20475,8 +20475,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d21e8659-a3ca-4033-ada0-b23ed16d49a9",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:1f82d1fc-fc01-4c6e-8f5c-cbe64d4a6ff3",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -20559,8 +20559,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6372318c-fbbb-4cc4-802b-59b78d9485e9",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:ab319f47-a8b5-4655-9574-71876a489234",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -20626,10 +20626,10 @@
       "meta" : {
         "lastUpdated" : "2020-03-11T19:14:51.806+00:00"
       },
-      "language" : "pt-BR",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html\">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-category|2.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 2 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (pt-BR)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-problem-list-item\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item\">problem-list-item</a></td><td>Problem List Item</td><td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;problem-list-item&quot;, &quot;display&quot;: &quot;Problem List Item&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;problem-list-item&quot;&gt;&lt;display value=&quot;Problem List Item&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-encounter-diagnosis\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis\">encounter-diagnosis</a></td><td>Encounter Diagnosis</td><td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;encounter-diagnosis&quot;, &quot;display&quot;: &quot;Encounter Diagnosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;encounter-diagnosis&quot;&gt;&lt;display value=&quot;Encounter Diagnosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html\">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-category|2.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 2 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-problem-list-item\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item\">problem-list-item</a></td><td>Problem List Item</td><td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;problem-list-item&quot;, &quot;display&quot;: &quot;Problem List Item&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;problem-list-item&quot;&gt;&lt;display value=&quot;Problem List Item&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-encounter-diagnosis\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis\">encounter-diagnosis</a></td><td>Encounter Diagnosis</td><td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;encounter-diagnosis&quot;, &quot;display&quot;: &quot;Encounter Diagnosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;encounter-diagnosis&quot;&gt;&lt;display value=&quot;Encounter Diagnosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao",
       "version" : "1.0.0-release",
@@ -20646,8 +20646,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d48d7808-4328-42e6-b2c3-3c1f11f2b55f",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:143cdeb7-599a-40a0-9091-78f8ab58365f",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -20690,10 +20690,10 @@
       "meta" : {
         "lastUpdated" : "2020-03-11T19:14:51.806+00:00"
       },
-      "language" : "pt-BR",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html\">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-category|2.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 2 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (pt-BR)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-problem-list-item\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item\">problem-list-item</a></td><td>Problem List Item</td><td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;problem-list-item&quot;, &quot;display&quot;: &quot;Problem List Item&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;problem-list-item&quot;&gt;&lt;display value=&quot;Problem List Item&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-encounter-diagnosis\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis\">encounter-diagnosis</a></td><td>Encounter Diagnosis</td><td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;encounter-diagnosis&quot;, &quot;display&quot;: &quot;Encounter Diagnosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;encounter-diagnosis&quot;&gt;&lt;display value=&quot;Encounter Diagnosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html\">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-category|2.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 2 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-problem-list-item\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item\">problem-list-item</a></td><td>Problem List Item</td><td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;problem-list-item&quot;, &quot;display&quot;: &quot;Problem List Item&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;problem-list-item&quot;&gt;&lt;display value=&quot;Problem List Item&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-category-encounter-diagnosis\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis\">encounter-diagnosis</a></td><td>Encounter Diagnosis</td><td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;encounter-diagnosis&quot;, &quot;display&quot;: &quot;Encounter Diagnosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;encounter-diagnosis&quot;&gt;&lt;display value=&quot;Encounter Diagnosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao",
       "version" : "1.0.0-release",
@@ -20710,8 +20710,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:12d17b98-cc29-4263-a49a-7e62be2b79b8",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:4177a148-5bbc-49bf-aa2b-af0d4914da5a",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -20774,8 +20774,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:2bb8a8ac-f29a-4ca5-b4ad-39a0dfc41796",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:81512c56-4d54-4ae0-96ec-1791961ad211",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -20838,8 +20838,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:5c7f5ad1-5c7f-4625-a151-8877e45e64cf",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:c1939ea8-cb16-4fce-9eea-1a817aeef9f4",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -20899,8 +20899,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:79dfd85c-bf31-4995-b720-30e7464ec7a3",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:1035beec-821b-4b2a-a46e-e8ca8afe9cb4",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -20969,8 +20969,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:e7a0e141-4e96-4a92-ad06-2121d87e44cf",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:6cb560a4-33dc-4ceb-be01-23eec31bd9c9",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -21042,8 +21042,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6d714ae5-dfdf-4754-a1dd-fde4fc6bf214",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:290ab36b-d586-47d1-b824-a72b8daab8ca",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -21105,8 +21105,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8b03e5ff-ec3f-421e-aded-909f9f5eaede",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:a09fe622-4469-4652-9216-0608b0ce76f2",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -21168,8 +21168,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:68e735e2-453c-47a2-9046-3ffa36bcec71",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:8d9ce700-2653-4629-951f-a514a3f01914",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -21231,8 +21231,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:52861c90-1481-41a1-a87b-707f20d765c2",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:3bc8d2b0-ca1d-4aba-a520-39829c2538d4",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -21291,8 +21291,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:20aa2d26-3c1f-433b-8728-b96548570812",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:30d15963-7ffd-4307-98f1-fdc751a21ebd",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -21356,8 +21356,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b9a153c7-670a-48bd-97f9-a15f72c8f908",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:4ca3ed1b-1d71-4a08-b94f-964ea9a6bb15",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -21421,8 +21421,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:f954ff9e-ce01-4cc8-bab6-7fd2ea640850",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:bd327aa3-ac18-43d2-88d8-b2b104d9622f",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -21496,8 +21496,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:05d6e258-9dc0-484e-8ac5-04728a4cd325",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:eb38c7aa-6ca8-4a6e-ade3-b31846e675e5",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -21571,8 +21571,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:46b53092-fdd8-40cf-afd0-e9bba7a8a704",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:201976bf-ff2e-4b03-8255-e2cef1dfe98c",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -21666,8 +21666,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:95c2fe0f-2b84-475c-a5e3-c4f761ce147d",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:65fc3388-b644-4327-b81f-04e2e53992b8",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -21761,8 +21761,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:9bf7181f-78be-4dd1-ba0f-80dc69719e2e",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:c4cfa8e6-519f-4c6a-b27b-9ac5cf5d167c",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -21822,8 +21822,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c3ca3fbc-3ea5-43cd-bf41-319746371544",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:dc0e07b1-b995-401d-91d3-5a8b10ac9743",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -21883,8 +21883,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:36664dbc-45df-4dc9-b570-17549bd4d2f8",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:bbe421da-dce9-4ea3-8593-25cc8595d1fc",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -21964,8 +21964,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4432ca84-3ae9-4eb8-afbe-a9b4cd8a2f84",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:2e4aad95-f77a-4fd5-86f5-9a53c3ce41ac",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -22045,8 +22045,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c667f0d0-5755-48b3-8602-bb188505baec",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:e545c82d-53b0-4bf1-ad17-df00d515afde",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -22110,8 +22110,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:0a54b369-c287-4907-8b4c-94a38ae1e165",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:f4e6202b-073a-47da-ac29-ff8fe0c3a36e",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -22175,8 +22175,8 @@
       }],
       "immutable" : true,
       "expansion" : {
-        "identifier" : "urn:uuid:ab37a450-6b49-4576-b9a3-8e498a7cf8a9",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:969c5eeb-963e-44c1-bb39-b696f53de83a",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -22265,8 +22265,8 @@
       }],
       "immutable" : true,
       "expansion" : {
-        "identifier" : "urn:uuid:85b6fe99-e77d-4aa3-8104-6dd87e4c02b9",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:14b365b6-1339-479c-a593-759777b7c795",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -22358,8 +22358,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:2c2459a5-8176-425a-a88d-ca447ddc6662",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:00da5c37-b177-490c-a06b-0970a7bdc3ff",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -22452,8 +22452,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:21f2bb28-8b46-45a4-9e03-f3644e34d3fb",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:bc731629-d433-4238-98d5-1200341916a1",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -22543,8 +22543,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:5316f89c-e362-49fc-a122-e81b9b6db4e6",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:17a6acba-cdfa-4882-aef3-c72903203100",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -22623,8 +22623,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d00e181a-9678-49a2-804c-63b3a4b8b671",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:42e8ac53-0772-4839-a3b2-7b9234615c32",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -22703,8 +22703,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:42c90cf2-59eb-435d-8c3b-885ccbdbf90e",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:6e42e54e-fdc6-46b6-92e7-e67a92c62fc3",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -22774,8 +22774,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:f810485f-c1f1-4fc1-88f4-c64bd8fc3030",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:b11ec489-2dc5-4ce1-a877-470463839712",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -22848,8 +22848,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:2c80030a-218b-4f55-a7fd-94136f0f5e40",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:213a3bc2-5bb3-4146-b6ed-7c86cb4b8891",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -22911,8 +22911,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:72f25329-2362-47cb-9a17-887a4275fd75",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:2e5b1685-9917-4eb2-a293-9dabd8740786",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -22974,8 +22974,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8806cfa5-4c61-4789-82ff-9e24831e74aa",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:f490a386-8d0d-4195-9d5d-99f3b2f1a5d1",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -23058,8 +23058,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:ae8ea509-6288-4d10-9def-c2962d393579",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:f9e3a8f1-46be-4e7d-b1d2-eddb7bffcdf0",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -23142,8 +23142,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:203e6f00-6ff1-4650-b619-f556629c2def",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:2d550cc3-d119-44b5-9bb7-3b8df5e9b439",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -23246,8 +23246,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a77dce7e-cd4f-4962-94a3-7594508e9e4d",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:d341489e-c5c6-49f1-8a80-1c7ec17b9752",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -23350,8 +23350,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b8d78f4d-7d71-4b32-bc11-f4c6b04adb9a",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:769ae87a-3a8a-4ab4-89c7-8ad051f0ecc4",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -23449,8 +23449,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d3e7b571-63bf-433e-b507-c86b5c4db981",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:e63e906f-9b43-4471-a005-60fa65e12119",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -23544,8 +23544,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c68bc23c-47ea-4ca2-9d21-afafeba7884d",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:1afc8a06-35c7-4b4f-be63-691cf7c5c846",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -23599,8 +23599,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:afa1ba24-1272-4b43-9cba-16ba953c937b",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:eb9d5535-c30e-4753-8ede-4edb1925ed5c",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -23658,8 +23658,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a24742ec-d460-42b9-b8d2-f6400da39e43",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:b66db598-da4a-496b-9056-fed057e9174b",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -23762,8 +23762,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d8f55442-8e42-4251-94a7-a4f8bb478b57",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:f754353d-3d5c-4b54-afb1-d88de6118d47",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -23866,8 +23866,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:0a225feb-0c5c-46b5-b048-1fd39a5d7ce2",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:546f154c-8419-46fd-a5e9-e67356884915",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2714,
         "offset" : 0,
         "parameter" : [{
@@ -28920,8 +28920,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:9d122523-4eb0-4a6a-8390-48fdaa8dcaf5",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:82f80265-4ac3-40a7-bcd6-a93ab0d16a96",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2714,
         "offset" : 0,
         "parameter" : [{
@@ -33971,8 +33971,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:91dc8327-45ea-44d7-989b-cd2b5b13fb08",
-        "timestamp" : "2026-09-23T09:16:11-03:00",
+        "identifier" : "urn:uuid:cd96fdf6-a1a1-41e3-84d7-18e84a738328",
+        "timestamp" : "2026-09-30T18:31:07-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -34040,8 +34040,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8a9fbaa9-5c7e-490d-bc6e-f98794ea82ca",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:66618b91-8ed4-4bca-b85c-99f412eb2e86",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -34112,8 +34112,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:add082cc-0d8e-49c1-a0d7-018c958a29f6",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:de960c49-1b6e-4f62-a4ab-3c33a458eb39",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -34215,8 +34215,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:274b99e3-1d2c-4dbf-a91a-6969b22ec432",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:b7ff8fa3-a6f4-4074-ba2f-ca4d9035b38c",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -34315,8 +34315,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:7f7e60ba-0bdb-4f6f-9e41-2cd4b9c2bffd",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:093f1cbe-6385-48c6-8ee8-5887dce7ca54",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -34422,8 +34422,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d649150a-194b-4325-b879-666be6ea0f35",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:767999e6-8f3f-4db8-9e52-893ac153de17",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -34532,8 +34532,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4492b0a4-092f-44f5-8001-ca1b77a39b70",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:348ad78e-c830-4d57-ad36-5067100f6cd1",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -34596,8 +34596,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:3ce4824e-9e54-4816-a921-3cc756f918bb",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:7dced2a6-c97d-4d9b-aa56-53ed047ac1f4",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -34660,8 +34660,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b8eadf14-96d0-4cdd-851f-767c27084887",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:911e38ee-9f6a-4e5d-aebb-b98431da3b5b",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 14916,
         "offset" : 0,
         "parameter" : [{
@@ -39718,8 +39718,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6d84c57c-3dd4-4411-bf46-bdb487343fee",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:0ff3ac86-a68c-4073-a81e-72b625740eb7",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 14916,
         "offset" : 0,
         "parameter" : [{
@@ -44776,8 +44776,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:823a328c-0aeb-45a2-ae56-f041d49829f7",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:bc113c63-d3c5-443f-a8eb-c65bbc668964",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -44855,8 +44855,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:46c3b324-69a3-40ad-9770-e0594a0dd0b2",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:8495461d-7413-4800-bf83-9dfabf41c7fe",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -44934,8 +44934,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:64219fb1-55d8-4d89-aa62-a41c0c86fb2a",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:5dccef81-717e-4654-ae14-c725a1618335",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 55698,
         "offset" : 0,
         "parameter" : [{
@@ -49992,8 +49992,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:dbe1a359-3ee3-470d-b14a-fdbfd24a5311",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:ef80bc2a-4472-4a9d-9734-8525de0c995e",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 55698,
         "offset" : 0,
         "parameter" : [{
@@ -55051,8 +55051,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:e794eae8-6b3c-48fa-980b-a3c68da08e73",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:b95bad05-5608-4731-b5dd-748487599683",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 28,
         "offset" : 0,
         "parameter" : [{
@@ -55246,8 +55246,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6fdec773-28e1-4955-9b32-3868797c0776",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:540090cd-d062-4162-821e-b780a9ba908f",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 28,
         "offset" : 0,
         "parameter" : [{
@@ -55440,8 +55440,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6f5c8167-6fbe-4e75-9bf6-ba608d641c5d",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:179f04c2-2b3f-4d6d-ade7-44322ff91184",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -55519,8 +55519,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:0b19fa50-253c-45fc-9676-7075f28b414c",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:42fe6950-0b25-42e6-bf6e-3fc5cbf93a5c",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -55575,10 +55575,10 @@
     "fullUrl" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
     "resource" : {
       "resourceType" : "ValueSet",
-      "language" : "pt-BR",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 3 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (pt-BR)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 3 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
       "version" : "1.0.0-release",
@@ -55595,8 +55595,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:ebc164c1-2dee-45d1-bea8-ddf601d6f14d",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:34b5bcdd-01a7-4700-8a6d-864cecb223a5",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -55641,10 +55641,10 @@
     "fullUrl" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
     "resource" : {
       "resourceType" : "ValueSet",
-      "language" : "pt-BR",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 3 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (pt-BR)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 3 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-unknown\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a></td><td>Unknown</td><td>Unknown.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
       "version" : "1.0.0-release",
@@ -55661,8 +55661,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6f99c1f6-ea95-4951-b94b-2205cfc2bd07",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:70ca0043-55f1-4443-94e3-7a8399fba2f1",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -55730,8 +55730,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:5bfc4a3c-598f-4487-aaa3-70b74f993f0b",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:cc22e781-0596-4d55-af3b-c4bdfe003d0e",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 32610,
         "offset" : 0,
         "parameter" : [{
@@ -60800,8 +60800,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b046b914-aee9-401b-8f7b-680427e8c88a",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:acd46b46-cf97-40d8-a1b3-74288fa95305",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 32610,
         "offset" : 0,
         "parameter" : [{
@@ -65867,8 +65867,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a0c26d94-80f7-4632-be1e-7f8ed553ae4a",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:d85e252e-a6a7-4a6c-91e9-7afa13b783db",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -65938,8 +65938,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:cbe3b4ed-75a7-4a3b-8034-89c640d25c21",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:1e0c52cf-73a5-48d6-afce-55cc3557ebaf",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -66009,8 +66009,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:1ff05caa-2da2-46c9-a52d-6b70e23ba337",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:c0724e3f-de57-4107-b3c9-359770d309e4",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -66065,8 +66065,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4363d1cc-edf9-4f6e-a9a0-48574d4d124d",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:95ed1de2-99b8-4c22-92f6-77ed4ecec4f2",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -66125,8 +66125,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:295bd479-5f1c-4460-9af9-63bf440588d4",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:ca80b72e-84c3-469a-a5e5-a00683ea401c",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -66225,8 +66225,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:94f192c3-57f3-4ee4-a904-236765af44d7",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:352f0167-2ce9-47a3-9057-7f3c3578b340",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -66324,8 +66324,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:65546684-198d-461c-964b-16b661fd531f",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:8eb31488-f2df-46ef-8aa3-2a39e5b97464",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -66383,8 +66383,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:32e0b4ad-5532-490e-80c2-82481a99e36a",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:6db3b65d-eebf-4aec-9b5c-f2a159993a26",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -66439,8 +66439,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:3babd10a-e401-4add-9c22-a0823ecd8cb2",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:8d588bcb-4883-4a1f-a514-47b03db36eec",
+        "timestamp" : "2026-09-30T18:31:08-03:00",
         "total" : 23,
         "offset" : 0,
         "parameter" : [{
@@ -66625,8 +66625,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:65dc8a50-8f43-4f85-9893-acab183923f3",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:f61b7ba3-5631-45e0-b563-8f437c5eeb83",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 23,
         "offset" : 0,
         "parameter" : [{
@@ -66815,8 +66815,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:bf627442-d3fe-42dd-9649-a7698f25e682",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:577059ba-dc56-40b2-b3a2-3e41f408fabd",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -66920,8 +66920,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:9c6314c4-3718-4790-8418-3f4d04602062",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:a8e73a1f-3715-417c-a93d-dedf69c089f3",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -67024,8 +67024,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a60aeed0-4058-409d-9b0f-44670383cbbe",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:7f878411-16d7-4645-8450-e83a2e9529a4",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -67093,8 +67093,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:5d46ec41-c2f9-41ef-8ca5-1e065b8e8522",
-        "timestamp" : "2026-09-23T09:16:12-03:00",
+        "identifier" : "urn:uuid:9ac7df2a-291c-41f2-ada5-fc2378c69cbd",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -67162,8 +67162,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:543e7467-f8b9-4b9d-89ab-8a62a54e789e",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:c93545fa-ec7b-4aa3-b179-48574f074648",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 76,
         "offset" : 0,
         "parameter" : [{
@@ -67596,8 +67596,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:25212c2d-cce8-4058-b572-6baaee6eb412",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:f4e13ccf-fb0c-408b-a955-c6279a24b0fb",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 76,
         "offset" : 0,
         "parameter" : [{
@@ -68030,8 +68030,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:7e77ff2f-0161-4127-a12a-a03644375f26",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:411cc700-a645-486b-9917-38389efb2077",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 76,
         "offset" : 0,
         "parameter" : [{
@@ -68464,8 +68464,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:07ba7466-3ab0-4361-a366-28358fcfea4a",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:5eccd5f4-251d-4994-a1c9-298733cba52d",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 76,
         "offset" : 0,
         "parameter" : [{
@@ -68898,8 +68898,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a7f32c91-12ff-452f-bb2c-379b8c21e27b",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:89eaded9-7925-42bd-81b6-fabde414b061",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -68982,8 +68982,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:50e0e86f-a3c7-4bca-a70d-eccd7f84b5ec",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:0b1c97ac-dca8-4e76-9326-847b748e7a52",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -69066,8 +69066,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:f4d16324-345c-49ec-a263-98c647118f2d",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:c22b0718-be15-4a8e-80a6-d6852ec11b67",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 70,
         "offset" : 0,
         "parameter" : [{
@@ -69470,8 +69470,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:7642fc31-bf60-42de-bd13-9bca4bd2079c",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:3ca25fa6-4307-4ec6-8556-dd4a7accc65f",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 70,
         "offset" : 0,
         "parameter" : [{
@@ -69871,8 +69871,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:2134f735-3334-4911-859d-b0fbe4c6812f",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:44c99b2e-374e-40a5-a59d-ffb278ec65a9",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -69945,8 +69945,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4824b731-e9e4-4954-b9e3-037909dddc5a",
-        "timestamp" : "2026-09-23T09:16:13-03:00",
+        "identifier" : "urn:uuid:4d9de945-2fde-403d-9596-702253251565",
+        "timestamp" : "2026-09-30T18:31:09-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
