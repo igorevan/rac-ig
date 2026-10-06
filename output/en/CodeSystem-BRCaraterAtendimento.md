@@ -2,9 +2,6 @@
 
 ## CodeSystem: Caráter de Atendimento 
 
- 
-Terminologia que classifica a prioridade de realização de um Contato Assistencial. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Caráter de atendimento do Contato Assistencial](ValueSet-BRCaraterAtendimento-1.0.md)

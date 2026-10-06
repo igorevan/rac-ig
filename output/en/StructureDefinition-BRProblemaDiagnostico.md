@@ -2,9 +2,6 @@
 
 ## Resource Profile: Problema / Diagnóstico 
 
- 
-Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial. 
-
 **Usos:**
 
 * Refere a este Perfil: [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md) and [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

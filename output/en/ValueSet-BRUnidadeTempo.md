@@ -2,9 +2,6 @@
 
 ## ValueSet: Unidade de Tempo 
 
- 
-ValueSet utilizado para definir uma unidade de tempo. 
-
  **References** 
 
 * [Intervalo de Doses](StructureDefinition-BRIntervaloDoses.md)

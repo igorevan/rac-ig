@@ -2,9 +2,6 @@
 
 ## CodeSystem: Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM) 
 
- 
-Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM) 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Terminologia dos medicamentos](ValueSet-BRTerminologiaMedicamento.md)

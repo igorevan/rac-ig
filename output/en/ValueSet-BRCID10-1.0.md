@@ -2,9 +2,6 @@
 
 ## ValueSet: Classificação Internacional de Doenças - Décima Revisão - CID-10 
 
- 
-Classificação Internacional de Doenças - Décima Revisão - CID-10 
-
  **References** 
 
 * [CID10 Avaliado](StructureDefinition-BRCID10Avaliado-1.0.md)

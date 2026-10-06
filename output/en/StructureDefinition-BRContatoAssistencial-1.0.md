@@ -2,9 +2,6 @@
 
 ## Resource Profile: Contato Assistencial 
 
- 
-Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento. 
-
 **Usos:**
 
 * Refere a este Perfil: [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md) and [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

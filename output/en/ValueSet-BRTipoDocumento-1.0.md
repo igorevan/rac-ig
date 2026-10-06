@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de Documento 
 
- 
-Classifica o tipo de documento que está sendo trafegado. 
-
  **References** 
 
 * [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)

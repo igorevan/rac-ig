@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado da Solicitação 
 
- 
-Estado da solicitação. 
-
  **References** 
 
 * [Plano de Cuidados](StructureDefinition-BRPlanoCuidados-1.0.md)

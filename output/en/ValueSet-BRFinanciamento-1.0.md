@@ -2,9 +2,6 @@
 
 ## ValueSet: Financiamento do procedimento realizado 
 
- 
-Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde. 
-
  **References** 
 
 * [Financiamento](StructureDefinition-BRFinanciamento-1.0.md)

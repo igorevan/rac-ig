@@ -2,8 +2,6 @@
 
 ## Extension: Origem da Medição 
 
-Extensão para incluir a origem da medição corpórea (altura e peso).
-
 **Context of Use**
 
 **Usage info**
@@ -66,7 +64,7 @@ Other representations of profile: [CSV](../StructureDefinition-BROrigemMedida.cs
   "title" : "Origem da Medição",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-30T18:22:16-03:00",
+  "date" : "2026-10-06T15:47:25-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

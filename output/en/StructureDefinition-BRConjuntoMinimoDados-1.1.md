@@ -2,9 +2,6 @@
 
 ## Resource Profile: Conjunto Mínimo de Dados (CMD) 
 
- 
-Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial 
-
 **Usos:**
 
 * Derivado deste Perfil: [Registro de Atendimento Clínico](StructureDefinition-BRRegistroAtendimentoClinico.md)

@@ -2,9 +2,6 @@
 
 ## Resource Profile: Medida Observada 
 
- 
-Registra as informações relacionadas a um tipo de observação. 
-
 **Usos:**
 
 * Refere a este Perfil: [Registro de Atendimento Clínico](StructureDefinition-BRRegistroAtendimentoClinico.md)
@@ -61,7 +58,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRMedidaObservada
   "name" : "BRMedidaObservada",
   "title" : "Medida Observada",
   "status" : "active",
-  "date" : "2026-09-30T18:22:16-03:00",
+  "date" : "2026-10-06T15:47:25-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

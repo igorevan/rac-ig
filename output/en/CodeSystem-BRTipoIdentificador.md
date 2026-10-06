@@ -2,9 +2,6 @@
 
 ## CodeSystem: Tipo de Identificador 
 
- 
-Classifica o tipo de indicador que está sendo utilizado. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Tipo de Identificador do Procedimento](ValueSet-BRTipoIdentificadorProcedimento-1.0.md)

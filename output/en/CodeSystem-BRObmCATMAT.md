@@ -2,9 +2,6 @@
 
 ## CodeSystem: Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT) 
 
- 
-Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT) 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Terminologia dos medicamentos](ValueSet-BRTerminologiaMedicamento.md)

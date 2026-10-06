@@ -2,9 +2,6 @@
 
 ## Resource Profile: Registro de Atendimento Clínico (RAC) 
 
- 
-Documento destinado a modelar dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar. 
-
 **Usos:**
 
 * Este Perfil não é utilizado por nenhum perfil neste guia de implementação

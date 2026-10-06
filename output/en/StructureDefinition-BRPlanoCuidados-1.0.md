@@ -2,9 +2,6 @@
 
 ## Resource Profile: Plano de Cuidados 
 
- 
-Descreve o plano de cuidados, instruções e recomendações. 
-
 **Usos:**
 
 * Refere a este Perfil: [Registro de Atendimento Clínico](StructureDefinition-BRRegistroAtendimentoClinico.md)

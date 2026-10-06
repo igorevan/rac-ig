@@ -2,8 +2,6 @@
 
 ## Extension: Financiamento 
 
-Extensão utilizada para identificar financiamento.
-
 **Context of Use**
 
 **Usage info**

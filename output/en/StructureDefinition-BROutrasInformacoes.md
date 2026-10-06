@@ -2,8 +2,6 @@
 
 ## Extension: Outras Informações 
 
-Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado.
-
 **Context of Use**
 
 **Usage info**

@@ -2,9 +2,6 @@
 
 ## ValueSet: Unidade de Consumo 
 
- 
-ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito. 
-
  **References** 
 
 * [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md)

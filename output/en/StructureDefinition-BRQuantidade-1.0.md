@@ -2,8 +2,6 @@
 
 ## Extension: Quantidade 
 
-Extensão para identificar quantidades.
-
 **Context of Use**
 
 **Usage info**

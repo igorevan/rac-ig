@@ -2,9 +2,6 @@
 
 ## CodeSystem: Motivo do Desfecho 
 
- 
-Caracteriza o motivo de conclusão total ou parcial do contato assistencial. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Motivo do desfecho do Contato assistencial](ValueSet-BRMotivoDesfecho-1.0.md)

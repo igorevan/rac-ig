@@ -2,9 +2,6 @@
 
 ## Resource Profile: Medicamento 
 
- 
-Medicamento 
-
 **Usos:**
 
 * Refere a este Perfil: [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md) and [Registro de Prescrição de Medicamento](StructureDefinition-BRRegistroPrescricaoMedicamento.md)
@@ -61,7 +58,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRMedicamento.csv
   "title" : "Medicamento",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-30T18:22:16-03:00",
+  "date" : "2026-10-06T15:47:25-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

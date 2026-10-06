@@ -2,9 +2,6 @@
 
 ## ValueSet: Terminologia dos medicamentos 
 
- 
-ValueSet utilizado para definir a terminologia de um dado medicamento. 
-
  **References** 
 
 * [Medicamento](StructureDefinition-BRMedicamento.md)

@@ -2,9 +2,6 @@
 
 ## ValueSet: Modalidade Assistencial 
 
- 
-Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento. 
-
  **References** 
 
 * [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)

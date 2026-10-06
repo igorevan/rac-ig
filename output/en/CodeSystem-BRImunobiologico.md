@@ -2,9 +2,6 @@
 
 ## CodeSystem: Imunobiológico 
 
- 
-Classifica os tipos de imunobiológicos. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Alérgenos](ValueSet-BRAlergenos-1.0.md)

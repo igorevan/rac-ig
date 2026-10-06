@@ -2,8 +2,6 @@
 
 ## Extension: Intervalo de Doses 
 
-Extensão para descrever uma unidade de tempo referenciada pelo UCUM.
-
 **Context of Use**
 
 **Usage info**
@@ -65,7 +63,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRIntervaloDoses.
   "name" : "BRIntervaloDoses",
   "title" : "Intervalo de Doses",
   "status" : "active",
-  "date" : "2026-09-30T18:22:16-03:00",
+  "date" : "2026-10-06T15:47:25-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

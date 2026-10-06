@@ -2,9 +2,6 @@
 
 ## ValueSet: Origem de Medição 
 
- 
-ValueSet utilizado para definir o tipo de medição corporal adotada. 
-
  **References** 
 
 * [Origem da Medição](StructureDefinition-BROrigemMedida.md)

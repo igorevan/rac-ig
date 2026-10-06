@@ -2,9 +2,6 @@
 
 ## ValueSet: Intenção do atestado 
 
- 
-Intenção do atestado médico/odontológico. 
-
  **References** 
 
 * [Atestado Digital](StructureDefinition-BRAtestado.md)

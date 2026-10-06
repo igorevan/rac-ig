@@ -2,9 +2,6 @@
 
 ## CodeSystem: Procedência 
 
- 
-Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Procedência do Contato Assistencial](ValueSet-BRProcedencia-1.0.md)

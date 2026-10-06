@@ -2,9 +2,6 @@
 
 ## CodeSystem: Local de Aferição (CodeSystem) 
 
- 
-Identifica a parte do corpo utilizada para realizar uma mensuração ou aferição. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Local de Aferição](ValueSet-BRLocalAfericao-1.0.md)

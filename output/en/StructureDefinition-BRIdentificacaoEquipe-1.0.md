@@ -2,8 +2,6 @@
 
 ## Extension: Identificador Nacional de Equipe 
 
-Extensão para permitir informar o código do Identificador Nacional de Equipe.
-
 **Context of Use**
 
 **Usage info**

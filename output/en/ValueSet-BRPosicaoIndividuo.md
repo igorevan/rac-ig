@@ -2,9 +2,6 @@
 
 ## ValueSet: Posição do Indivíduo 
 
- 
-ValueSet utilizado para identificar a posição do indivíduo no momento da ação / procedimento. 
-
  **References** 
 
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)

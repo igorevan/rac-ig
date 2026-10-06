@@ -2,9 +2,6 @@
 
 ## Resource Profile: Local de Atendimento 
 
- 
-Uma referência genérica aos locais onde um Contato Assistencial pode acontecer. 
-
 **Usos:**
 
 * Refere a este Perfil: [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

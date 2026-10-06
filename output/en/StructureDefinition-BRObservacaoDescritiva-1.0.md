@@ -2,9 +2,6 @@
 
 ## Resource Profile: Observação Descritiva 
 
- 
-Descrições textuais simples sobre um paciente. 
-
 **Usos:**
 
 * Refere a este Perfil: [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

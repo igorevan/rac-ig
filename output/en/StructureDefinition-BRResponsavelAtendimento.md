@@ -2,8 +2,6 @@
 
 ## Extension: Responsável pelo Atendimento 
 
-Representa se o profissional foi o responsável pelo atendimento registrado.
-
 **Context of Use**
 
 **Usage info**

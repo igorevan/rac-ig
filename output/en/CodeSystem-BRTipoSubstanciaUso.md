@@ -2,9 +2,6 @@
 
 ## CodeSystem: Tipo de Substância em Uso (CodeSystem) 
 
- 
-Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Tipo de Substância em Uso](ValueSet-BRTipoSubstanciaUso-1.0.md)

@@ -2,9 +2,6 @@
 
 ## CodeSystem: Tipo de Observação (CodeSystem) 
 
- 
-Tipo de Observação. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Tipo de Observação](ValueSet-BRTipoObservacao-1.0.md)

@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado do Contato Assistencial 
 
- 
-Classifica o estado de um Contato Assistencial. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

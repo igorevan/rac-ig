@@ -2,9 +2,6 @@
 
 ## Resource Profile: Procedimento Realizado 
 
- 
-Procedimento realizado em um indivíduo. 
-
 **Usos:**
 
 * Refere a este Perfil: [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md) and [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

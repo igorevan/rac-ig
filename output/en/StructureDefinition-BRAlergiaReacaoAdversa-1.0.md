@@ -2,9 +2,6 @@
 
 ## Resource Profile: Alergia ou Reação Adversa 
 
- 
-Alergia ou Reação Adversa 
-
 **Usos:**
 
 * Refere a este Perfil: [Registro de Atendimento Clínico](StructureDefinition-BRRegistroAtendimentoClinico.md)

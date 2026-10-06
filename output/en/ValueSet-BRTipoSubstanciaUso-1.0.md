@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de Substância em Uso 
 
- 
-Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018. 
-
  **References** 
 
 Este conjunto de valores não é utilizado aqui; pode ser utilizado noutro local (por exemplo, especificações e/ou implementações que utilizem este conteúdo)

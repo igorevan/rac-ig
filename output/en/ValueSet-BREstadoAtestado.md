@@ -2,9 +2,6 @@
 
 ## ValueSet: Status do atestado 
 
- 
-Status do atestado médico/odontológico. 
-
  **References** 
 
 * [Atestado Digital](StructureDefinition-BRAtestado.md)

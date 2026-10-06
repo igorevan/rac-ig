@@ -2,8 +2,6 @@
 
 ## Extension: Ocupação 
 
-Extensão para incluir a Ocupação
-
 **Context of Use**
 
 **Usage info**

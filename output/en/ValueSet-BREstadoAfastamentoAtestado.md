@@ -2,9 +2,6 @@
 
 ## ValueSet: Status do afastamento descrito no atestado 
 
- 
-Status do afastamento descrito no atestado médico/odontológico. 
-
  **References** 
 
 * [Atestado Digital](StructureDefinition-BRAtestado.md)

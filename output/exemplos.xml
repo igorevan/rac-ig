@@ -6,11 +6,13 @@
 
   <a name="caso-uso-identificado"></a>
   <h4>Caso de uso para Paciente Identificado</h4>
-  <p>
-    <a href="Bundle-bundle-example-rac-1.html">Exemplo de Bundle do Registro de Atendimento Clínico
-      (RAC) - Paciente
-      Identificado</a>
-  </p>
+
+  <ul>
+    <li><a href="Bundle-bundle-example-rac-1.html">Exemplo de Bundle do Registro de Atendimento Clínico
+        (RAC) - Paciente
+        Identificado</a></li>
+  </ul>
+
   <p>
     Em uma tarde de 9 de maio de 2022, por volta das 15:36, um paciente
     (identificado na API como 819217217061851) chegou a uma unidade de saúde
@@ -217,18 +219,21 @@
 
   <a name="caso-uso-teleconsulta"></a>
   <h4>Caso de uso para Modalidade de Teleconsulta</h4>
-  <p>
-    <a href="Bundle-bundle-example-rac-tc.html">Exemplo de Bundle do Registro de Atendimento Clínico
-      (RAC) - Modalidade de Teleconsulta</a>
-  </p>
+
+  <ul>
+    <li><a href="Bundle-bundle-example-rac-tc.html">Exemplo de Bundle do Registro de Atendimento Clínico
+        (RAC) - Modalidade de Teleconsulta</a></li>
+  </ul>
 
   <a name="caso-uso-nao-identificado"></a>
   <h4>Caso de uso para Paciente Não Identificado</h4>
-  <p>
-    <a href="Bundle-bundle-example-rac-2.html">Exemplo de Bundle do Registro de Atendimento Clínico
-      (RAC) - Paciente Não
-      Identificado</a>
-  </p>
+
+  <ul>
+    <li><a href="Bundle-bundle-example-rac-2.html">Exemplo de Bundle do Registro de Atendimento Clínico
+        (RAC) - Paciente Não
+        Identificado</a></li>
+  </ul>
+
   <p>
     Em essência, as informações, como medidas sintomas e diagnósticos são as
     mesmas do exemplo do paciente identificado. As principais diferenças são a

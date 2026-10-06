@@ -2,9 +2,6 @@
 
 ## CodeSystem: Classificação de dados ausentes ou desconhecidos - IPS 
 
- 
-Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Indicativo de prescrição não estruturada ou medicamento não identificado](ValueSet-BRPrescricaoNaoEstruturada.md)

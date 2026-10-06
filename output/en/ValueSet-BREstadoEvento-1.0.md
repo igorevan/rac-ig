@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado do Evento 
 
- 
-Identificação do estado de um evento. 
-
  **References** 
 
 * [Procedimento Realizado](StructureDefinition-BRProcedimentoRealizado-1.0.md)

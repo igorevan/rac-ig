@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de Observação 
 
- 
-Tipo de Observação. 
-
  **References** 
 
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)

@@ -2,9 +2,6 @@
 
 ## CodeSystem: Responsabilidade no Contato Assistencial (CodeSystem) 
 
- 
-Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Reponsabilidade no Contato Assistencial](ValueSet-BRResponsabilidadeParticipante-1.0.md)

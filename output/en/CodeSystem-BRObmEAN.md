@@ -2,9 +2,6 @@
 
 ## CodeSystem: Terminologia de Produto Medicinal Virtual (VMP) na GS1.org 
 
- 
-Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Terminologia dos medicamentos](ValueSet-BRTerminologiaMedicamento.md)

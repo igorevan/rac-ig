@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado da Solicitação de Medicamento 
 
- 
-Estado da Solicitação de Medicamento 
-
  **References** 
 
 * [Medicamento](StructureDefinition-BRMedicamento.md)

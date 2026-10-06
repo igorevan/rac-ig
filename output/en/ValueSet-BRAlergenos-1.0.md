@@ -2,9 +2,6 @@
 
 ## ValueSet: Alérgenos 
 
- 
-Descreve o agente capaz de causar alergia ou reação adversa em seres humanos. 
-
  **References** 
 
 * [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)

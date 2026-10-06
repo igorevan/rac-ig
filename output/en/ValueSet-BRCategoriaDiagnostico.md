@@ -2,9 +2,6 @@
 
 ## ValueSet: Categoria do Diagnóstico 
 
- 
-ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado. 
-
  **References** 
 
 * [CID10 Avaliado](StructureDefinition-BRCID10Avaliado-1.0.md)

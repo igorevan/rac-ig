@@ -2,9 +2,6 @@
 
 ## ValueSet: Criticidade de Alergias e Reações Adversas 
 
- 
-Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.. 
-
  **References** 
 
 * [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)

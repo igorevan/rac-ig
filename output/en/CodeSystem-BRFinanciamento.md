@@ -2,9 +2,6 @@
 
 ## CodeSystem: Financiamento (CodeSystem) 
 
- 
-Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Financiamento do procedimento realizado](ValueSet-BRFinanciamento-1.0.md)

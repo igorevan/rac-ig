@@ -2,9 +2,6 @@
 
 ## CodeSystem: Frequência de Uso de Substância 
 
- 
-Identifica a frequência de uso da substância conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Frequência de Uso da Substância](ValueSet-BRFrequenciaUsoSubstancia.md)

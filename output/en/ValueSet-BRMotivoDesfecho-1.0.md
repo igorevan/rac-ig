@@ -2,9 +2,6 @@
 
 ## ValueSet: Motivo do desfecho do Contato assistencial 
 
- 
-ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)

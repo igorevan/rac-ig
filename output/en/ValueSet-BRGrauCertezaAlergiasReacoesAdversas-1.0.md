@@ -2,9 +2,6 @@
 
 ## ValueSet: Grau de Certeza de Alergias e Reações Adversas 
 
- 
-Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa. 
-
  **References** 
 
 * [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)

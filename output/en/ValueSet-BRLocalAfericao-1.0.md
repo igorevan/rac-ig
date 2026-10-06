@@ -2,9 +2,6 @@
 
 ## ValueSet: Local de Aferição 
 
- 
-ValueSet utilizado para identificar a parte do corpo utilizada para aferir a pressão arterial. 
-
  **References** 
 
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)

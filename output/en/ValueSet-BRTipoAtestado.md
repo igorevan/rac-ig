@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de atestado 
 
- 
-Tipo de atestado dentro das categorias médico/odontológico 
-
  **References** 
 
 * [Atestado Digital](StructureDefinition-BRAtestado.md)

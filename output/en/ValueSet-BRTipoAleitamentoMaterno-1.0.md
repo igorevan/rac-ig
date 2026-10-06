@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de Aleitamento Materno 
 
- 
-Definição do tipo de aleitamento materno realizado a uma criança. 
-
  **References** 
 
 Este conjunto de valores não é utilizado aqui; pode ser utilizado noutro local (por exemplo, especificações e/ou implementações que utilizem este conteúdo)

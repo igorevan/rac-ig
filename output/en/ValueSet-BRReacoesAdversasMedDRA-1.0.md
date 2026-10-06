@@ -2,9 +2,6 @@
 
 ## ValueSet: Reações Adversas da MedDRA 
 
- 
-Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities. 
-
  **References** 
 
 * [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)

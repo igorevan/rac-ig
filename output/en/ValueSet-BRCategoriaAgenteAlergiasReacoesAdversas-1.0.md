@@ -2,9 +2,6 @@
 
 ## ValueSet: Categoria do Agente da Alergia ou Reação Adversa 
 
- 
-Categoriza a substância responsável por causar uma alergia ou reação adversa. 
-
  **References** 
 
 * [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)

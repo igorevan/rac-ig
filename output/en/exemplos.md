@@ -6,7 +6,7 @@
 
 #### Caso de uso para Paciente Identificado
 
- [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Paciente Identificado](Bundle-bundle-example-rac-1.md) 
+* [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Paciente Identificado](Bundle-bundle-example-rac-1.md)
 
  Em uma tarde de 9 de maio de 2022, por volta das 15:36, um paciente (identificado na API como 819217217061851) chegou a uma unidade de saúde queixando-se da presença de sangue na saliva. O paciente foi prontamente atendido em caráter ambulatorial (modalidade assistencial 04). 
 
@@ -218,11 +218,11 @@
 
 #### Caso de uso para Modalidade de Teleconsulta
 
- [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta](Bundle-bundle-example-rac-tc.md) 
+* [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta](Bundle-bundle-example-rac-tc.md)
 
 #### Caso de uso para Paciente Não Identificado
 
- [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado](Bundle-bundle-example-rac-2.md) 
+* [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado](Bundle-bundle-example-rac-2.md)
 
  Em essência, as informações, como medidas sintomas e diagnósticos são as mesmas do exemplo do paciente identificado. As principais diferenças são a ausência do horário do atendimento e a coleta de dados que não facilitem sua identificação, sendo considerado apenas um jovem homem de aproximadamente 22 anos (nascido em 2000). Na estrutura da API ele pode ser encontrado como: 
 

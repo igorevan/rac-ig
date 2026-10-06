@@ -2,9 +2,6 @@
 
 ## ValueSet: Roupas Usadas na Medição 
 
- 
-ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8. 
-
  **References** 
 
 * [Roupas Usadas na Medição](StructureDefinition-BRRoupasUsadasMedicao.md)

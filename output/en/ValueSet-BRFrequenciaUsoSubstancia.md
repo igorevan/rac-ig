@@ -2,9 +2,6 @@
 
 ## ValueSet: Frequência de Uso da Substância 
 
- 
-Identifica a frequência de uso da substância em uso conforme declaração do indivíduo. 
-
  **References** 
 
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)

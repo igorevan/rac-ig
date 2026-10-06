@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado do Documento 
 
- 
-Classifica o estado do documento que está sendo trafegado. 
-
  **References** 
 
 * [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)

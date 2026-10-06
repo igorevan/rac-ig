@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado da Observação 
 
- 
-Tipos de estados de uma observação. 
-
  **References** 
 
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)

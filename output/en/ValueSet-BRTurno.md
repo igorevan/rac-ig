@@ -2,9 +2,6 @@
 
 ## ValueSet: Turno do dia 
 
- 
-ValueSet utilizado para definir o turno de um dia. 
-
  **References** 
 
 * [Turno](StructureDefinition-BRTurno.md)

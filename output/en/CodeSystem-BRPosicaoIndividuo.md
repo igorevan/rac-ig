@@ -2,9 +2,6 @@
 
 ## CodeSystem: Posição do Indivíduo (CodeSystem) 
 
- 
-Identifica a posição de um indivíduo em um determinado contexto. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Posição do Indivíduo](ValueSet-BRPosicaoIndividuo.md)

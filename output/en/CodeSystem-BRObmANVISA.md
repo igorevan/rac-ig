@@ -2,9 +2,6 @@
 
 ## CodeSystem: Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa) 
 
- 
-Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa) 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Terminologia dos medicamentos](ValueSet-BRTerminologiaMedicamento.md)

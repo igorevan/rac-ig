@@ -2,9 +2,6 @@
 
 ## CodeSystem: Catálogo Brasileiro de Alergias e Reações Adversas (CBARA) 
 
- 
-Classifica as alergias e reações adversas. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Alérgenos](ValueSet-BRAlergenos-1.0.md)

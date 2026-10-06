@@ -2,9 +2,6 @@
 
 ## CodeSystem: Modalidade de Telessaúde (CodeSystem) 
 
- 
-Códigos para representação da modalidade de telessaúde realizada. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Modalidade de Telessaúde (ValueSet)](ValueSet-BRModalidadeTelessaude.md)
