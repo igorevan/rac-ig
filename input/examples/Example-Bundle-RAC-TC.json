@@ -15,6 +15,7 @@
       "fullUrl": "urn:uuid:transient-0",
       "resource": {
         "resourceType": "Composition",
+        "id": "transient-0",
         "meta": {
           "lastUpdated": "2022-05-09T17:28:34.132629Z",
           "profile": [
@@ -190,6 +191,7 @@
       "fullUrl": "urn:uuid:transient-1",
       "resource": {
         "resourceType": "Encounter",
+        "id": "transient-1",
         "meta": {
           "lastUpdated": "2022-05-09T17:31:16.551205Z",
           "profile": [
@@ -351,6 +353,7 @@
       "fullUrl": "urn:uuid:transient-2",
       "resource": {
         "resourceType": "Condition",
+        "id": "transient-2",
         "meta": {
           "lastUpdated": "2022-05-09T17:37:55.000322Z",
           "profile": [
@@ -400,6 +403,7 @@
       "fullUrl": "urn:uuid:transient-3",
       "resource": {
         "resourceType": "Procedure",
+        "id": "transient-3",
         "meta": {
           "lastUpdated": "2022-05-09T17:39:08.701859Z",
           "profile": [
@@ -477,6 +481,7 @@
       "fullUrl": "urn:uuid:transient-4",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-4",
         "meta": {
           "lastUpdated": "2022-05-09T17:37:55.000322Z",
           "profile": [
@@ -506,6 +511,7 @@
       "fullUrl": "urn:uuid:transient-5",
       "resource": {
         "resourceType": "Location",
+        "id": "transient-5",
         "meta": {
           "lastUpdated": "2022-05-09T17:37:55.000322Z",
           "profile": [
@@ -521,6 +527,7 @@
       "fullUrl": "urn:uuid:transient-6",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-6",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -567,6 +574,7 @@
       "fullUrl": "urn:uuid:transient-7",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-7",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -592,6 +600,7 @@
       "fullUrl": "urn:uuid:transient-8",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-8",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -613,6 +622,7 @@
       "fullUrl": "urn:uuid:transient-9",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-9",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -656,6 +666,7 @@
       "fullUrl": "urn:uuid:transient-10",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-10",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -681,6 +692,7 @@
       "fullUrl": "urn:uuid:transient-11",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-11",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -706,6 +718,7 @@
       "fullUrl": "urn:uuid:transient-12",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-12",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -763,6 +776,7 @@
       "fullUrl": "urn:uuid:transient-13",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-13",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -804,6 +818,7 @@
       "fullUrl": "urn:uuid:transient-14",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-14",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -827,6 +842,7 @@
       "fullUrl": "urn:uuid:transient-15",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-15",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -850,6 +866,7 @@
       "fullUrl": "urn:uuid:transient-16",
       "resource": {
         "resourceType": "Observation",
+        "id": "transient-16",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedidaObservada"
@@ -878,6 +895,7 @@
       "fullUrl": "urn:uuid:transient-17",
       "resource": {
         "resourceType": "AllergyIntolerance",
+        "id": "transient-17",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0"
@@ -928,6 +946,7 @@
       "fullUrl": "urn:uuid:transient-18",
       "resource": {
         "resourceType": "Composition",
+        "id": "transient-18",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroPrescricaoMedicamento"
@@ -973,6 +992,7 @@
       "fullUrl": "urn:uuid:transient-19",
       "resource": {
         "resourceType": "MedicationRequest",
+        "id": "transient-19",
         "meta": {
           "profile": [
             "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento"
@@ -1081,6 +1101,7 @@
     {
       "fullUrl": "urn:uuid:transient-20",
       "resource": {
+        "id": "transient-20",
         "resourceType": "Medication",
         "meta": {
           "profile": [
@@ -1109,6 +1130,7 @@
     {
       "fullUrl": "urn:uuid:transient-21",
       "resource": {
+        "id": "transient-21",
         "resourceType": "CarePlan",
         "meta": {
           "profile": [
@@ -1129,6 +1151,7 @@
     {
       "fullUrl": "urn:uuid:transient-22",
       "resource": {
+        "id": "transient-22",
         "resourceType": "CarePlan",
         "meta": {
           "profile": [
@@ -1177,6 +1200,7 @@
     {
       "fullUrl": "urn:uuid:transient-23",
       "resource": {
+        "id": "transient-23",
         "resourceType": "Condition",
         "meta": {
           "lastUpdated": "2022-05-09T17:37:55.000322Z",

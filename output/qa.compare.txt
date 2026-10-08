@@ -1,12 +1,12 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 8, warn = 0, info = 0
+err = 6, warn = 0, info = 0
 $--
 Generated $--. FHIR version $-- for br.gov.saude.rac.fhir#$-- (canonical = https://fhir.saude.gov.br/rac)
  Build Errors : 0 / 0 / 0
- /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo : 2 / 2 / 3
- /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 2 / 2 / 3
+ /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo : 0 / 2 / 7
+ /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 2 / 2 / 12
  /home/igor/rac-ig/input/examples/Example-Bundle-RAC-TC : 1 / 2 / 15
  /home/igor/rac-ig/input/myig : 0 / 0 / 2
  /home/igor/rac-ig/input/resources/CodeSystem-BRAlergenosCBARA : 1 / 4 / 2
@@ -125,8 +125,6 @@ Generated $--. FHIR version $-- for br.gov.saude.rac.fhir#$-- (canonical = https
 </table>
 == n/a ==
 == input/examples/Example-Bundle-RAC-Completo.json ==
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-1: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice
 == input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json ==
 ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice
 ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice

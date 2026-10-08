@@ -2590,7 +2590,13 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "full"
+          }]
+        }]
       }],
       "condition" : ["obs-3"],
       "constraint" : [{
@@ -2600,6 +2606,13 @@
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "sqty-1",
+        "severity" : "error",
+        "human" : "The comparator is not used on a SimpleQuantity",
+        "expression" : "comparator.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"
       }],
       "isModifier" : false,
       "isSummary" : false,
@@ -2626,7 +2639,13 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "full"
+          }]
+        }]
       }],
       "condition" : ["obs-3"],
       "constraint" : [{
@@ -2636,6 +2655,13 @@
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "sqty-1",
+        "severity" : "error",
+        "human" : "The comparator is not used on a SimpleQuantity",
+        "expression" : "comparator.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"
       }],
       "isModifier" : false,
       "isSummary" : false,

@@ -1065,8 +1065,8 @@
     <element id="CarePlan.subject.extension:unidentifiedPatient.extension:gender">
       <path value="CarePlan.subject.extension.extension"/>
       <sliceName value="gender"/>
-      <short value="Extension"/>
-      <definition value="An Extension"/>
+      <short value="Sexo"/>
+      <definition value="Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1096,6 +1096,10 @@
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0"/>
+      </binding>
     </element>
     <element id="CarePlan.subject.extension:unidentifiedPatient.extension:gender.id">
       <path value="CarePlan.subject.extension.extension.id"/>
@@ -1229,8 +1233,8 @@
     <element id="CarePlan.subject.extension:unidentifiedPatient.extension:birthYear">
       <path value="CarePlan.subject.extension.extension"/>
       <sliceName value="birthYear"/>
-      <short value="Extension"/>
-      <definition value="An Extension"/>
+      <short value="Ano de nascimento estimado"/>
+      <definition value="Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação.."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1393,8 +1397,8 @@
     <element id="CarePlan.subject.extension:unidentifiedPatient.extension:reason">
       <path value="CarePlan.subject.extension.extension"/>
       <sliceName value="reason"/>
-      <short value="Extension"/>
-      <definition value="An Extension"/>
+      <short value="Justificativa da impossibilidade de identificação do indivíduo"/>
+      <definition value="Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1424,6 +1428,10 @@
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"/>
+      </binding>
     </element>
     <element id="CarePlan.subject.extension:unidentifiedPatient.extension:reason.id">
       <path value="CarePlan.subject.extension.extension.id"/>
@@ -3566,7 +3574,11 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="full"/>
+          </extension>
+        </profile>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3575,6 +3587,13 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="sqty-1"/>
+        <severity value="error"/>
+        <human value="The comparator is not used on a SimpleQuantity"/>
+        <expression value="comparator.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -3600,7 +3619,11 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="full"/>
+          </extension>
+        </profile>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3609,6 +3632,13 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="sqty-1"/>
+        <severity value="error"/>
+        <human value="The comparator is not used on a SimpleQuantity"/>
+        <expression value="comparator.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>

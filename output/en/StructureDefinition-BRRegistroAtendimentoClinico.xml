@@ -1708,8 +1708,8 @@
     <element id="Composition.subject.extension:unidentifiedPatient.extension:gender">
       <path value="Composition.subject.extension.extension"/>
       <sliceName value="gender"/>
-      <short value="Extension"/>
-      <definition value="An Extension"/>
+      <short value="Sexo"/>
+      <definition value="Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1739,6 +1739,10 @@
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0"/>
+      </binding>
     </element>
     <element id="Composition.subject.extension:unidentifiedPatient.extension:gender.id">
       <path value="Composition.subject.extension.extension.id"/>
@@ -1872,8 +1876,8 @@
     <element id="Composition.subject.extension:unidentifiedPatient.extension:birthYear">
       <path value="Composition.subject.extension.extension"/>
       <sliceName value="birthYear"/>
-      <short value="Extension"/>
-      <definition value="An Extension"/>
+      <short value="Ano de nascimento estimado"/>
+      <definition value="Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação.."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2036,8 +2040,8 @@
     <element id="Composition.subject.extension:unidentifiedPatient.extension:reason">
       <path value="Composition.subject.extension.extension"/>
       <sliceName value="reason"/>
-      <short value="Extension"/>
-      <definition value="An Extension"/>
+      <short value="Justificativa da impossibilidade de identificação do indivíduo"/>
+      <definition value="Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2067,6 +2071,10 @@
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"/>
+      </binding>
     </element>
     <element id="Composition.subject.extension:unidentifiedPatient.extension:reason.id">
       <path value="Composition.subject.extension.extension.id"/>
@@ -4628,7 +4636,7 @@
       </slicing>
       <short value="Seções do documento"/>
       <definition value="Referencia todas as seções (profiles/resources) contidos neste documento."/>
-      <min value="1"/>
+      <min value="2"/>
       <max value="*"/>
       <base>
         <path value="Composition.section"/>
@@ -7880,8 +7888,8 @@
     <element id="Composition.section:observacoes">
       <path value="Composition.section"/>
       <sliceName value="observacoes"/>
-      <short value="Seções do documento"/>
-      <definition value="Referencia todas as seções (profiles/resources) contidos neste documento."/>
+      <short value="Composition is broken into sections"/>
+      <definition value="The root of the sections that make up the composition."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -7898,7 +7906,7 @@
         <human value="A section must contain at least one of text, entries, or sub-sections"/>
         <expression value="text.exists() or entry.exists() or section.exists()"/>
         <xpath value="exists(f:text) or exists(f:entry) or exists(f:section)"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="cmp-2"/>
@@ -7906,7 +7914,7 @@
         <human value="A section can only have an emptyReason if it is empty"/>
         <expression value="emptyReason.empty() or entry.empty()"/>
         <xpath value="not(exists(f:emptyReason) and exists(f:entry))"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="ele-1"/>
@@ -7916,7 +7924,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -7998,7 +8005,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -8638,8 +8645,8 @@
     <element id="Composition.section:alergiaReacaoAdversa">
       <path value="Composition.section"/>
       <sliceName value="alergiaReacaoAdversa"/>
-      <short value="Seções do documento"/>
-      <definition value="Referencia todas as seções (profiles/resources) contidos neste documento."/>
+      <short value="Composition is broken into sections"/>
+      <definition value="The root of the sections that make up the composition."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -8656,7 +8663,7 @@
         <human value="A section must contain at least one of text, entries, or sub-sections"/>
         <expression value="text.exists() or entry.exists() or section.exists()"/>
         <xpath value="exists(f:text) or exists(f:entry) or exists(f:section)"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="cmp-2"/>
@@ -8664,7 +8671,7 @@
         <human value="A section can only have an emptyReason if it is empty"/>
         <expression value="emptyReason.empty() or entry.empty()"/>
         <xpath value="not(exists(f:emptyReason) and exists(f:entry))"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="ele-1"/>
@@ -8674,7 +8681,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -8756,7 +8762,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -9396,8 +9402,8 @@
     <element id="Composition.section:prescricao">
       <path value="Composition.section"/>
       <sliceName value="prescricao"/>
-      <short value="Seções do documento"/>
-      <definition value="Referencia todas as seções (profiles/resources) contidos neste documento."/>
+      <short value="Composition is broken into sections"/>
+      <definition value="The root of the sections that make up the composition."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -9414,7 +9420,7 @@
         <human value="A section must contain at least one of text, entries, or sub-sections"/>
         <expression value="text.exists() or entry.exists() or section.exists()"/>
         <xpath value="exists(f:text) or exists(f:entry) or exists(f:section)"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="cmp-2"/>
@@ -9422,7 +9428,7 @@
         <human value="A section can only have an emptyReason if it is empty"/>
         <expression value="emptyReason.empty() or entry.empty()"/>
         <xpath value="not(exists(f:emptyReason) and exists(f:entry))"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="ele-1"/>
@@ -9432,7 +9438,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -9514,7 +9519,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -10475,8 +10480,8 @@
     <element id="Composition.section:planoCuidados">
       <path value="Composition.section"/>
       <sliceName value="planoCuidados"/>
-      <short value="Seções do documento"/>
-      <definition value="Referencia todas as seções (profiles/resources) contidos neste documento."/>
+      <short value="Composition is broken into sections"/>
+      <definition value="The root of the sections that make up the composition."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -10493,7 +10498,7 @@
         <human value="A section must contain at least one of text, entries, or sub-sections"/>
         <expression value="text.exists() or entry.exists() or section.exists()"/>
         <xpath value="exists(f:text) or exists(f:entry) or exists(f:section)"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="cmp-2"/>
@@ -10501,7 +10506,7 @@
         <human value="A section can only have an emptyReason if it is empty"/>
         <expression value="emptyReason.empty() or entry.empty()"/>
         <xpath value="not(exists(f:emptyReason) and exists(f:entry))"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="ele-1"/>
@@ -10511,7 +10516,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -10593,7 +10597,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -11233,8 +11237,8 @@
     <element id="Composition.section:atestadoMedicoOdontologico">
       <path value="Composition.section"/>
       <sliceName value="atestadoMedicoOdontologico"/>
-      <short value="Seções do documento"/>
-      <definition value="Referencia todas as seções (profiles/resources) contidos neste documento."/>
+      <short value="Composition is broken into sections"/>
+      <definition value="The root of the sections that make up the composition."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -11251,7 +11255,7 @@
         <human value="A section must contain at least one of text, entries, or sub-sections"/>
         <expression value="text.exists() or entry.exists() or section.exists()"/>
         <xpath value="exists(f:text) or exists(f:entry) or exists(f:section)"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="cmp-2"/>
@@ -11259,7 +11263,7 @@
         <human value="A section can only have an emptyReason if it is empty"/>
         <expression value="emptyReason.empty() or entry.empty()"/>
         <xpath value="not(exists(f:emptyReason) and exists(f:entry))"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+        <source value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </constraint>
       <constraint>
         <key value="ele-1"/>
@@ -11269,7 +11273,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -11351,7 +11354,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>

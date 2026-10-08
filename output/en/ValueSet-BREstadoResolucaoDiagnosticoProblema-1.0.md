@@ -7,7 +7,7 @@
 * [CID10 Avaliado](StructureDefinition-BRCID10Avaliado-1.0.md)
 * [Problema / Diagnóstico](StructureDefinition-BRProblemaDiagnostico.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

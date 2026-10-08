@@ -7,7 +7,7 @@
 * [Ocupação](StructureDefinition-BROcupacao-1.0.md)
 * [Procedimento Realizado](StructureDefinition-BRProcedimentoRealizado-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

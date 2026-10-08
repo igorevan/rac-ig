@@ -6,7 +6,7 @@
 
 * [Medicamento](StructureDefinition-BRMedicamento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

@@ -1866,8 +1866,8 @@
       "id" : "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:gender",
       "path" : "AllergyIntolerance.patient.extension.extension",
       "sliceName" : "gender",
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Sexo",
+      "definition" : "Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -1896,7 +1896,11 @@
       }],
       "mustSupport" : true,
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0"
+      }
     },
     {
       "id" : "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:gender.id",
@@ -2037,8 +2041,8 @@
       "id" : "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:birthYear",
       "path" : "AllergyIntolerance.patient.extension.extension",
       "sliceName" : "birthYear",
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Ano de nascimento estimado",
+      "definition" : "Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação..",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -2208,8 +2212,8 @@
       "id" : "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:reason",
       "path" : "AllergyIntolerance.patient.extension.extension",
       "sliceName" : "reason",
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Justificativa da impossibilidade de identificação do indivíduo",
+      "definition" : "Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -2238,7 +2242,11 @@
       }],
       "mustSupport" : true,
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"
+      }
     },
     {
       "id" : "AllergyIntolerance.patient.extension:unidentifiedPatient.extension:reason.id",

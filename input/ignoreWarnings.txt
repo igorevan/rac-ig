@@ -9,13 +9,20 @@
 
 # Errors relacionados as particularidades dos CodeSystems e ValueSets da RNDS
 The value set expansion is too large, and only a subset has been displayed
-%Referência ao projeto CodeSystem%
 %Esta propriedade tem apenas um código%
 %The codes 'OTH' are not in the base valueset%
 %não é um código válido neste sistema de códigos%
 Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset
 O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma informação ValueSet, pelo que os códigos serão validados como códigos internos
 %allergy-intolerance-category%
+%http://hl7.org/fhir/composition-status%
+%http://hl7.org/fhir/allergy-intolerance-criticality%
+%http://hl7.org/fhir/care-plan-activity-status%
+%http://hl7.org/fhir/request-status%
+%http://hl7.org/fhir/encounter-status%
+%http://hl7.org/fhir/event-status%
+%http://hl7.org/fhir/CodeSystem/medicationrequest-status%
+%http://hl7.org/fhir/request-intent%
 
 # Errors relacionados as especificações da RNDS
 %http://hl7.org/fhir/StructureDefinition/regex%

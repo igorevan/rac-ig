@@ -6,7 +6,7 @@
 
 * [Origem da Medição](StructureDefinition-BROrigemMedida.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

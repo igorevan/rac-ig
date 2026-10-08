@@ -6,7 +6,7 @@
 
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

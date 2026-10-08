@@ -3249,7 +3249,12 @@
          fhir:ElementDefinition.type.profile [
            fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1" ;
            fhir:index -1 ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1>
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1> ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints" ] ;
+             fhir:Extension.valueCode [ fhir:value "full" ]
+           ]
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -3266,6 +3271,16 @@
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ElementDefinition.constraint.key [ fhir:value "sqty-1" ] ;
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
+         fhir:ElementDefinition.constraint.human [ fhir:value "The comparator is not used on a SimpleQuantity" ] ;
+         fhir:ElementDefinition.constraint.expression [ fhir:value "comparator.empty()" ] ;
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity" ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity>
          ]
        ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
@@ -3298,7 +3313,12 @@
          fhir:ElementDefinition.type.profile [
            fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1" ;
            fhir:index -1 ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1>
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1> ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints" ] ;
+             fhir:Extension.valueCode [ fhir:value "full" ]
+           ]
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -3315,6 +3335,16 @@
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ElementDefinition.constraint.key [ fhir:value "sqty-1" ] ;
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
+         fhir:ElementDefinition.constraint.human [ fhir:value "The comparator is not used on a SimpleQuantity" ] ;
+         fhir:ElementDefinition.constraint.expression [ fhir:value "comparator.empty()" ] ;
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity" ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity>
          ]
        ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;

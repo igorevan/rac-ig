@@ -2173,8 +2173,8 @@
        fhir:Element.id [ fhir:value "Composition.subject.extension:unidentifiedPatient.extension:gender" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.subject.extension.extension" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "gender" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Sexo" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -2211,7 +2211,14 @@
        ] ;
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0>
+         ]
+       ]
      ], [
        fhir:index -1 ;
        fhir:Element.id [ fhir:value "Composition.subject.extension:unidentifiedPatient.extension:gender.id" ] ;
@@ -2385,8 +2392,8 @@
        fhir:Element.id [ fhir:value "Composition.subject.extension:unidentifiedPatient.extension:birthYear" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.subject.extension.extension" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "birthYear" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Ano de nascimento estimado" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação.." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -2597,8 +2604,8 @@
        fhir:Element.id [ fhir:value "Composition.subject.extension:unidentifiedPatient.extension:reason" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.subject.extension.extension" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "reason" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Justificativa da impossibilidade de identificação do indivíduo" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -2635,7 +2642,14 @@
        ] ;
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0>
+         ]
+       ]
      ], [
        fhir:index -1 ;
        fhir:Element.id [ fhir:value "Composition.subject.extension:unidentifiedPatient.extension:reason.id" ] ;
@@ -5870,7 +5884,7 @@
        ] ;
        fhir:ElementDefinition.short [ fhir:value "Seções do documento" ] ;
        fhir:ElementDefinition.definition [ fhir:value "Referencia todas as seções (profiles/resources) contidos neste documento." ] ;
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
+       fhir:ElementDefinition.min [ fhir:value "2"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "*" ] ;
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Composition.section" ] ;
@@ -10161,8 +10175,8 @@
        fhir:Element.id [ fhir:value "Composition.section:observacoes" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.section" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "observacoes" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Seções do documento" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Referencia todas as seções (profiles/resources) contidos neste documento." ] ;
+       fhir:ElementDefinition.short [ fhir:value "Composition is broken into sections" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The root of the sections that make up the composition." ] ;
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "*" ] ;
        fhir:ElementDefinition.base [
@@ -10182,8 +10196,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "text.exists() or entry.exists() or section.exists()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:text) or exists(f:entry) or exists(f:section)" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -10193,8 +10207,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "emptyReason.empty() or entry.empty()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:emptyReason) and exists(f:entry))" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -10208,7 +10222,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ;
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.mapping [
@@ -10315,7 +10328,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ] ;
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)." ] ;
        fhir:ElementDefinition.alias [
          fhir:value "extensions" ;
          fhir:index -1
@@ -11169,8 +11182,8 @@
        fhir:Element.id [ fhir:value "Composition.section:alergiaReacaoAdversa" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.section" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "alergiaReacaoAdversa" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Seções do documento" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Referencia todas as seções (profiles/resources) contidos neste documento." ] ;
+       fhir:ElementDefinition.short [ fhir:value "Composition is broken into sections" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The root of the sections that make up the composition." ] ;
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "*" ] ;
        fhir:ElementDefinition.base [
@@ -11190,8 +11203,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "text.exists() or entry.exists() or section.exists()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:text) or exists(f:entry) or exists(f:section)" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -11201,8 +11214,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "emptyReason.empty() or entry.empty()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:emptyReason) and exists(f:entry))" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -11216,7 +11229,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ;
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.mapping [
@@ -11323,7 +11335,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ] ;
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)." ] ;
        fhir:ElementDefinition.alias [
          fhir:value "extensions" ;
          fhir:index -1
@@ -12177,8 +12189,8 @@
        fhir:Element.id [ fhir:value "Composition.section:prescricao" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.section" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "prescricao" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Seções do documento" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Referencia todas as seções (profiles/resources) contidos neste documento." ] ;
+       fhir:ElementDefinition.short [ fhir:value "Composition is broken into sections" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The root of the sections that make up the composition." ] ;
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -12198,8 +12210,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "text.exists() or entry.exists() or section.exists()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:text) or exists(f:entry) or exists(f:section)" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -12209,8 +12221,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "emptyReason.empty() or entry.empty()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:emptyReason) and exists(f:entry))" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -12224,7 +12236,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ;
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.mapping [
@@ -12331,7 +12342,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ] ;
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)." ] ;
        fhir:ElementDefinition.alias [
          fhir:value "extensions" ;
          fhir:index -1
@@ -13588,8 +13599,8 @@
        fhir:Element.id [ fhir:value "Composition.section:planoCuidados" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.section" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "planoCuidados" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Seções do documento" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Referencia todas as seções (profiles/resources) contidos neste documento." ] ;
+       fhir:ElementDefinition.short [ fhir:value "Composition is broken into sections" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The root of the sections that make up the composition." ] ;
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -13609,8 +13620,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "text.exists() or entry.exists() or section.exists()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:text) or exists(f:entry) or exists(f:section)" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -13620,8 +13631,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "emptyReason.empty() or entry.empty()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:emptyReason) and exists(f:entry))" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -13635,7 +13646,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ;
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.mapping [
@@ -13742,7 +13752,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ] ;
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)." ] ;
        fhir:ElementDefinition.alias [
          fhir:value "extensions" ;
          fhir:index -1
@@ -14596,8 +14606,8 @@
        fhir:Element.id [ fhir:value "Composition.section:atestadoMedicoOdontologico" ] ;
        fhir:ElementDefinition.path [ fhir:value "Composition.section" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "atestadoMedicoOdontologico" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Seções do documento" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Referencia todas as seções (profiles/resources) contidos neste documento." ] ;
+       fhir:ElementDefinition.short [ fhir:value "Composition is broken into sections" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "The root of the sections that make up the composition." ] ;
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "*" ] ;
        fhir:ElementDefinition.base [
@@ -14617,8 +14627,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "text.exists() or entry.exists() or section.exists()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:text) or exists(f:entry) or exists(f:section)" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -14628,8 +14638,8 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "emptyReason.empty() or entry.empty()" ] ;
          fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:emptyReason) and exists(f:entry))" ] ;
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Composition" ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+           fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRConjuntoMinimoDados-1.1>
          ]
        ], [
          fhir:index -1 ;
@@ -14643,7 +14653,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ;
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.mapping [
@@ -14750,7 +14759,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ] ;
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](extensibility.html#modifierExtension)." ] ;
        fhir:ElementDefinition.alias [
          fhir:value "extensions" ;
          fhir:index -1

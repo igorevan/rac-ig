@@ -6,7 +6,7 @@
 
 * [Atestado Digital](StructureDefinition-BRAtestado.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

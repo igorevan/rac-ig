@@ -7,7 +7,7 @@
 * [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)
 * [Registro de Prescrição de Medicamento](StructureDefinition-BRRegistroPrescricaoMedicamento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

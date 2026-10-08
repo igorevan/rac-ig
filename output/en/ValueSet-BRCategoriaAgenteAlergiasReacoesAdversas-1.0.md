@@ -6,7 +6,7 @@
 
 * [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

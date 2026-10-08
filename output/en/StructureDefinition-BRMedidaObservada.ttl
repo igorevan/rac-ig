@@ -54,7 +54,7 @@
   fhir:StructureDefinition.name [ fhir:value "BRMedidaObservada"] ;
   fhir:StructureDefinition.title [ fhir:value "Medida Observada"] ;
   fhir:StructureDefinition.status [ fhir:value "active"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-10-06T15:47:25-03:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-10-07T20:38:46-03:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;
@@ -1581,8 +1581,8 @@
        fhir:Element.id [ fhir:value "Observation.subject.extension:unidentifiedPatient.extension:gender" ] ;
        fhir:ElementDefinition.path [ fhir:value "Observation.subject.extension.extension" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "gender" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Sexo" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -1619,7 +1619,14 @@
        ] ;
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0>
+         ]
+       ]
      ], [
        fhir:index -1 ;
        fhir:Element.id [ fhir:value "Observation.subject.extension:unidentifiedPatient.extension:gender.id" ] ;
@@ -1793,8 +1800,8 @@
        fhir:Element.id [ fhir:value "Observation.subject.extension:unidentifiedPatient.extension:birthYear" ] ;
        fhir:ElementDefinition.path [ fhir:value "Observation.subject.extension.extension" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "birthYear" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Ano de nascimento estimado" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação.." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -2005,8 +2012,8 @@
        fhir:Element.id [ fhir:value "Observation.subject.extension:unidentifiedPatient.extension:reason" ] ;
        fhir:ElementDefinition.path [ fhir:value "Observation.subject.extension.extension" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "reason" ] ;
-       fhir:ElementDefinition.short [ fhir:value "Extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ] ;
+       fhir:ElementDefinition.short [ fhir:value "Justificativa da impossibilidade de identificação do indivíduo" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -2043,7 +2050,14 @@
        ] ;
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0>
+         ]
+       ]
      ], [
        fhir:index -1 ;
        fhir:Element.id [ fhir:value "Observation.subject.extension:unidentifiedPatient.extension:reason.id" ] ;
@@ -5230,7 +5244,12 @@
          fhir:ElementDefinition.type.profile [
            fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1" ;
            fhir:index -1 ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1>
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1> ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints" ] ;
+             fhir:Extension.valueCode [ fhir:value "full" ]
+           ]
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -5247,6 +5266,16 @@
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ElementDefinition.constraint.key [ fhir:value "sqty-1" ] ;
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
+         fhir:ElementDefinition.constraint.human [ fhir:value "The comparator is not used on a SimpleQuantity" ] ;
+         fhir:ElementDefinition.constraint.expression [ fhir:value "comparator.empty()" ] ;
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity" ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity>
          ]
        ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
@@ -5279,7 +5308,12 @@
          fhir:ElementDefinition.type.profile [
            fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1" ;
            fhir:index -1 ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1>
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1> ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints" ] ;
+             fhir:Extension.valueCode [ fhir:value "full" ]
+           ]
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -5296,6 +5330,16 @@
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ElementDefinition.constraint.key [ fhir:value "sqty-1" ] ;
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
+         fhir:ElementDefinition.constraint.human [ fhir:value "The comparator is not used on a SimpleQuantity" ] ;
+         fhir:ElementDefinition.constraint.expression [ fhir:value "comparator.empty()" ] ;
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/SimpleQuantity" ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity>
          ]
        ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;

@@ -1123,8 +1123,8 @@
       "id" : "CarePlan.subject.extension:unidentifiedPatient.extension:gender",
       "path" : "CarePlan.subject.extension.extension",
       "sliceName" : "gender",
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Sexo",
+      "definition" : "Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -1153,7 +1153,11 @@
       }],
       "mustSupport" : true,
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0"
+      }
     },
     {
       "id" : "CarePlan.subject.extension:unidentifiedPatient.extension:gender.id",
@@ -1294,8 +1298,8 @@
       "id" : "CarePlan.subject.extension:unidentifiedPatient.extension:birthYear",
       "path" : "CarePlan.subject.extension.extension",
       "sliceName" : "birthYear",
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Ano de nascimento estimado",
+      "definition" : "Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação..",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -1465,8 +1469,8 @@
       "id" : "CarePlan.subject.extension:unidentifiedPatient.extension:reason",
       "path" : "CarePlan.subject.extension.extension",
       "sliceName" : "reason",
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Justificativa da impossibilidade de identificação do indivíduo",
+      "definition" : "Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -1495,7 +1499,11 @@
       }],
       "mustSupport" : true,
       "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"
+      }
     },
     {
       "id" : "CarePlan.subject.extension:unidentifiedPatient.extension:reason.id",
@@ -3710,7 +3718,13 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "full"
+          }]
+        }]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3719,6 +3733,13 @@
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "sqty-1",
+        "severity" : "error",
+        "human" : "The comparator is not used on a SimpleQuantity",
+        "expression" : "comparator.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"
       }],
       "isModifier" : false,
       "isSummary" : false,
@@ -3745,7 +3766,13 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "full"
+          }]
+        }]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3754,6 +3781,13 @@
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "sqty-1",
+        "severity" : "error",
+        "human" : "The comparator is not used on a SimpleQuantity",
+        "expression" : "comparator.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"
       }],
       "isModifier" : false,
       "isSummary" : false,

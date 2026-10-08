@@ -7,7 +7,7 @@
 * [Medida Observada](StructureDefinition-BRMedidaObservada.md)
 * [Observação Descritiva](StructureDefinition-BRObservacaoDescritiva-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

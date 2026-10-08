@@ -334,7 +334,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "MedicationRequest.dosageInstruction.timing.repeat.extension:period.extension:periodUnit","MedicationRequest.dosageInstruction.timing.repeat.extension.extension","periodUnit","","",0,1,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,"required","Define a unidade de tempo segundo o UCUM","http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo","",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "MedicationRequest.dosageInstruction.timing.repeat.extension:period.extension:periodUnit.id","MedicationRequest.dosageInstruction.timing.repeat.extension.extension.id","","","",0,0,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -541,7 +541,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ",".maxDoseQuantity","RXO-23, RXE-19"
 "MedicationRequest.dosageInstruction.maxDosePerAdministration","MedicationRequest.dosageInstruction.maxDosePerAdministration","","","",1,1,"","","Y","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","Quantidade a ser dispensada por atendimento","Quantidade máxima da dose a ser dispensada por atendimento.","This is intended for use as an adjunct to the dosage when there is an upper cap.  For example, a body surface area related dose with a maximum amount, such as 1.5 mg/m2 (maximum 2 mg) IV over 5 – 10 minutes would have doseQuantity of 1.5 mg/m2 and maxDosePerAdministration of 2 mg.","The maximum total quantity of a therapeutic substance that may be administered to a subject per administration.","","","","","","","",,,,,"",,,,"Dosage.maxDosePerAdministration",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","not supported"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}","not supported"
 "MedicationRequest.dosageInstruction.maxDosePerAdministration.id","MedicationRequest.dosageInstruction.maxDosePerAdministration.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "MedicationRequest.dosageInstruction.maxDosePerAdministration.extension","MedicationRequest.dosageInstruction.maxDosePerAdministration.extension","","extensions
@@ -567,7 +567,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","PQ.code, MO.currency, PQ.translation.code","(see OBX.6 etc.) / CQ.2"
 "MedicationRequest.dosageInstruction.maxDosePerLifetime","MedicationRequest.dosageInstruction.maxDosePerLifetime","","","",0,0,"","","Y","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","Upper limit on medication per lifetime of the patient","Upper limit on medication per lifetime of the patient.","","The maximum total quantity of a therapeutic substance that may be administered per lifetime of the subject.","","","","","","","",,,,,"",,,,"Dosage.maxDosePerLifetime",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","not supported"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}","not supported"
 "MedicationRequest.dispenseRequest","MedicationRequest.dispenseRequest","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Medication supply authorization","Indicates the specific details for the dispense or medication supply part of a medication request (also known as a Medication Prescription or Medication Order).  Note that this information is not always sent with the order.  There may be in some settings (e.g. hospitals) institutional or system support for completing the dispense details in the pharmacy department.","","","","","","","","","",,,,,"",,,,"MedicationRequest.dispenseRequest",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Message/Body/NewRx/MedicationPrescribed/ExpirationDate","component.supplyEvent"
@@ -600,7 +600,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "MedicationRequest.dispenseRequest.initialFill.quantity","MedicationRequest.dispenseRequest.initialFill.quantity","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","First fill quantity","The amount or quantity to provide as part of the first dispense.","","","","","","","","","",,,,,"",,,,"MedicationRequest.dispenseRequest.initialFill.quantity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","Supply.quantity[moodCode=RQO]"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}","Supply.quantity[moodCode=RQO]"
 "MedicationRequest.dispenseRequest.initialFill.duration","MedicationRequest.dispenseRequest.initialFill.duration","","","",0,1,"","","","Duration {[]} {[]}
 ","First fill duration","The length of time that the first dispense is expected to last.","","","","","","","","","",,,,,"",,,,"MedicationRequest.dispenseRequest.initialFill.duration",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Supply.effectivetime[moodCode=RQO]"
@@ -615,7 +615,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Message/Body/NewRx/MedicationPrescribed/Quantity","repeatNumber","RXE-12-Number of Refills"
 "MedicationRequest.dispenseRequest.quantity","MedicationRequest.dispenseRequest.quantity","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","Total do tratamento","The amount that is to be dispensed for one fill.","","","","","","","","","",,,,,"",,,,"MedicationRequest.dispenseRequest.quantity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","Message/Body/NewRx/MedicationPrescribed/DaysSupply","quantity","RXD-4-Actual Dispense Amount / RXD-5.1-Actual Dispense Units.code / RXD-5.3-Actual Dispense Units.name of coding system"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}","Message/Body/NewRx/MedicationPrescribed/DaysSupply","quantity","RXD-4-Actual Dispense Amount / RXD-5.1-Actual Dispense Units.code / RXD-5.3-Actual Dispense Units.name of coding system"
 "MedicationRequest.dispenseRequest.quantity.id","MedicationRequest.dispenseRequest.quantity.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "MedicationRequest.dispenseRequest.quantity.extension","MedicationRequest.dispenseRequest.quantity.extension","","extensions

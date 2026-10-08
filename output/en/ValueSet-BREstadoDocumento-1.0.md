@@ -6,7 +6,7 @@
 
 * [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

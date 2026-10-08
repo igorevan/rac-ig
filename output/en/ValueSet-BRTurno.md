@@ -6,7 +6,7 @@
 
 * [Turno](StructureDefinition-BRTurno.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

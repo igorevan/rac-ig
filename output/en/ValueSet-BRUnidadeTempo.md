@@ -6,7 +6,7 @@
 
 * [Intervalo de Doses](StructureDefinition-BRIntervaloDoses.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

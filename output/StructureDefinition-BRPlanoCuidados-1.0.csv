@@ -90,7 +90,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.subject.extension:unidentifiedPatient.extension:gender","CarePlan.subject.extension.extension","gender","","",1,1,"Y","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Sexo","Sexo biológico obtido por meio de exame clínico ou de outros métodos diagnósticos referente ao indivíduo da hipótese de impossibilidade de identificação.","","","","","","","","","",,"required","","http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0","",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.subject.extension:unidentifiedPatient.extension:gender.id","CarePlan.subject.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -105,7 +105,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "CarePlan.subject.extension:unidentifiedPatient.extension:birthYear","CarePlan.subject.extension.extension","birthYear","","",1,1,"Y","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Ano de nascimento estimado","Estimativa do ano de nascimento por meio de observação direta da idade do indivíduo na hipótese de impossibilidade de identificação..","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.subject.extension:unidentifiedPatient.extension:birthYear.id","CarePlan.subject.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -120,7 +120,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "CarePlan.subject.extension:unidentifiedPatient.extension:reason","CarePlan.subject.extension.extension","reason","","",1,1,"Y","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Justificativa da impossibilidade de identificação do indivíduo","Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial.","","","","","","","","","",,"required","","http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0","",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.subject.extension:unidentifiedPatient.extension:reason.id","CarePlan.subject.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -305,10 +305,10 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Medicatio
 "CarePlan.activity.detail.dailyAmount","CarePlan.activity.detail.dailyAmount","","daily dose
 ","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","How to consume/day?","Identifies the quantity expected to be consumed in a given day.","","Allows rough dose checking.","","","","","","","",,,,,"",,,,"CarePlan.activity.detail.dailyAmount",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-",".outboundRelationship[typeCode=COMP][classCode=SBADM].doseQuantity","RXO-23 / RXE-19 / RXD-12"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}",".outboundRelationship[typeCode=COMP][classCode=SBADM].doseQuantity","RXO-23 / RXE-19 / RXD-12"
 "CarePlan.activity.detail.quantity","CarePlan.activity.detail.quantity","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","How much to administer/supply/consume","Identifies the quantity expected to be supplied, administered or consumed by the subject.","","","","","","","","","",,,,,"",,,,"CarePlan.activity.detail.quantity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-",".outboundRelationship[typeCode=COMP][classCode=SPLY].quantity","RXO-11 / RXE-10 / RXD-4 / RXG-5 / RXA-6 /  TQ1-2.1  *and*  RXO-12 /  RXE-11 / RXD-5 / RXG-7 / RXA-7 / TQ1-2.2"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}",".outboundRelationship[typeCode=COMP][classCode=SPLY].quantity","RXO-11 / RXE-10 / RXD-4 / RXG-5 / RXA-6 /  TQ1-2.1  *and*  RXO-12 /  RXE-11 / RXD-5 / RXG-7 / RXA-7 / TQ1-2.2"
 "CarePlan.activity.detail.description","CarePlan.activity.detail.description","","","",0,1,"","","","string {[]} {[]}
 ","Extra info describing activity to perform","This provides a textual description of constraints on the intended activity occurrence, including relation to other activities.  It may also include objectives, pre-conditions and end-conditions.  Finally, it may convey specifics about the activity such as body site, method, route, etc.","","","","","","","","","",,,,,"",,,,"CarePlan.activity.detail.description",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".text","NTE?"

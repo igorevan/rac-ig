@@ -68,54 +68,88 @@
           <entry>
             <reference value="urn:uuid:d12070e4-3461-4fa0-95a6-76fd435cb403"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:2af3c6c9-87ed-4f01-afec-ee8dc7df9951"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:1031de4c-be76-48d3-85de-75274dba036c"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:bd2466a4-18af-4c3b-899c-b6cccc51acff"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:84e657cc-159f-4271-b0a1-38a76e28c624"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:5302c1a3-2190-44aa-a9a2-382d27fe9230"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:8264b367-cce0-4a76-b8d4-f9dcea39ee3d"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:0509d090-3594-4f07-b32c-2a97da6a6fed"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:059208f1-0083-4f81-a472-87b32140b31d"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:98b0e992-9c95-464a-a661-6c42a4bd310c"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:efcce484-7226-435f-8c7c-b1d703079444"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:d78c1159-1473-4bef-9096-5ba98384e950"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:32e99ca6-4e7d-4d56-8f25-612dd1c51a71"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:19011496-44a1-4048-8e1b-558b82b1caf1"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:34fe98d3-e5fc-491e-a125-c90ab2abb83a"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:48e799d2-1087-4461-af34-8ecdd5bce316"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:d2176159-0427-42da-a727-636bbb042d97"/>
           </entry>
+        </section>
+        <section>
           <entry>
             <reference value="urn:uuid:22f0baea-50d7-429b-8767-3b07c9a8120e"/>
           </entry>
@@ -134,7 +168,7 @@
         </meta>
         <language value="en"/>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_d12070e4-3461-4fa0-95a6-76fd435cb403"> </a><p class="res-header-id"><b>Narrativa gerada: Encounter d12070e4-3461-4fa0-95a6-76fd435cb403</b></p><a name="d12070e4-3461-4fa0-95a6-76fd435cb403"> </a><a name="hcd12070e4-3461-4fa0-95a6-76fd435cb403"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-05-09 17:31:16+0000</p><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="CodeSystem-BRModalidadeAssistencial.html#BRModalidadeAssistencial-04">Modalidade Assistencial: 04</a> (Atenção Hospitalar)</p><p><b>priority</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento 01}">Eletivo</span></p><p><b>subject</b>: ?rref?</p><blockquote><p><b>participant</b></p><p><b>Ocupação</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 223505}">ENFERMEIRO</span></p><p><b>Identificador Nacional de Equipe</b>: 2</p><p><b>type</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante solicitante}">Profissional que solicitou o Contato Assistencial</span></p><p><b>individual</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</p></blockquote><p><b>period</b>: 2022-04-09 --&gt; 2022-05-09</p><p><b>reasonReference</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-c9f83c17-3081-4233-b1e4-f629c58d6813">Observation Annotation comment [Interpretation] Narrative</a></p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-2af3c6c9-87ed-4f01-afec-ee8dc7df9951">Condition Varizes esofagianas sem sangramento</a></p><p><b>use</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico NAD}">Diagnosis not present on admission</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-1031de4c-be76-48d3-85de-75274dba036c">Procedure CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)</a></p></blockquote><h3>Hospitalizations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style="display: none">*</td><td/><td><span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia 99}">Informação ausente no modelo de origem</span></td><td><span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho 06}">Óbito</span></td></tr></table><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td></tr><tr><td style="display: none">*</td><td><a href="Bundle-bundle-example-rac-2.html#urn-uuid-6f2180c5-32aa-49cf-8b66-b2581465513c">Location Estabelecimento de saúde</a></td></tr></table><p><b>serviceProvider</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_d12070e4-3461-4fa0-95a6-76fd435cb403"> </a><p class="res-header-id"><b>Narrativa gerada: Encounter d12070e4-3461-4fa0-95a6-76fd435cb403</b></p><a name="d12070e4-3461-4fa0-95a6-76fd435cb403"> </a><a name="hcd12070e4-3461-4fa0-95a6-76fd435cb403"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-05-09 17:31:16+0000</p><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="CodeSystem-BRModalidadeAssistencial.html#BRModalidadeAssistencial-04">Modalidade Assistencial: 04</a> (Atenção Hospitalar)</p><p><b>priority</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento 01}">Eletivo</span></p><p><b>subject</b>: ?rref?</p><blockquote><p><b>participant</b></p><p><b>Ocupação</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 223505}">ENFERMEIRO</span></p><p><b>Identificador Nacional de Equipe</b>: 2</p><p><b>type</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante solicitante}">Profissional que solicitou o Contato Assistencial</span></p><p><b>individual</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</p></blockquote><p><b>period</b>: 2022-04-09 --&gt; 2022-05-09</p><p><b>reasonReference</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-c9f83c17-3081-4233-b1e4-f629c58d6813">Observation Annotation comment [Interpretation] Narrative</a></p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-2af3c6c9-87ed-4f01-afec-ee8dc7df9951">Condition Varizes esofagianas sem sangramento</a></p><p><b>use</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico NAD}">Diagnosis not present on admission</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-1031de4c-be76-48d3-85de-75274dba036c">Procedure CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)</a></p></blockquote><h3>Hospitalizations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style="display: none">*</td><td/><td><span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia 99}">Informação ausente no modelo de origem</span></td><td><span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho 06}">Óbito</span></td></tr></table><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td></tr><tr><td style="display: none">*</td><td><a href="Bundle-bundle-example-rac-2.html#urn-uuid-6f2180c5-32aa-49cf-8b66-b2581465513c">Estabelecimento de saúde</a></td></tr></table><p><b>serviceProvider</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/162338254590005</p></div>
         </text>
         <status value="finished"/>
         <class>
@@ -443,7 +477,7 @@
         </meta>
         <language value="en"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Location_6f2180c5-32aa-49cf-8b66-b2581465513c"> </a><p class="res-header-id"><b>Narrativa gerada: Location 6f2180c5-32aa-49cf-8b66-b2581465513c</b></p><a name="6f2180c5-32aa-49cf-8b66-b2581465513c"> </a><a name="hc6f2180c5-32aa-49cf-8b66-b2581465513c"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-05-09 17:37:55+0000</p><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-BRLocalAtendimento-1.0.html">Local de Atendimento</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Estabelecimento de saúde</p><p><b>mode</b>: Kind</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Location_6f2180c5-32aa-49cf-8b66-b2581465513c"> </a><p class="res-header-id"><b>Narrativa gerada: Location 6f2180c5-32aa-49cf-8b66-b2581465513c</b></p><a name="6f2180c5-32aa-49cf-8b66-b2581465513c"> </a><a name="hc6f2180c5-32aa-49cf-8b66-b2581465513c"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2022-05-09 17:37:55+0000</p><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-BRLocalAtendimento-1.0.html">Local de Atendimento</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Estabelecimento de saúde</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="The status of the location">Status:</td><td>Active</td><td style="background-color: #f3f5da" title="Whether this describes a specific location, or a class of locations">Mode:</td><td>Kind</td></tr></table></div>
         </text>
         <status value="active"/>
         <name value="Estabelecimento de saúde"/>
@@ -932,7 +966,7 @@
         </meta>
         <language value="en"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a><p class="res-header-id"><b>Narrativa gerada: MedicationRequest 6d607d4c-18f4-4647-be8c-d3b40e1659bb</b></p><a name="6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a><a name="hc6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-BRPrescricaoMedicamento.html">Prescrição de Medicamento</a></p></div><p><b>status</b>: Completed</p><p><b>intent</b>: Order</p><p><b>medication</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd">Medication Água para injeção 1 L Sistema Fechado; frasco-ampola</a></p><p><b>subject</b>: ?rref?</p><p><b>authoredOn</b>: 2022-03-04</p><p><b>requester</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>recorder</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0</code>/162338254590005</p><p><b>note</b>: Por Dr. Getúlio @2022-03-04</p><blockquote><div><p>Medicamento necessário para tratamento da febre devido à gripe.</p>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a><p class="res-header-id"><b>Narrativa gerada: MedicationRequest 6d607d4c-18f4-4647-be8c-d3b40e1659bb</b></p><a name="6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a><a name="hc6d607d4c-18f4-4647-be8c-d3b40e1659bb"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-BRPrescricaoMedicamento.html">Prescrição de Medicamento</a></p></div><p><b>status</b>: Completed</p><p><b>intent</b>: Order</p><p><b>medication</b>: <a href="Bundle-bundle-example-rac-2.html#urn-uuid-8bea4fe3-0769-4318-b5a8-7d3a8c6f04bd">Medication Terminologia segundo CATMAT</a></p><p><b>subject</b>: ?rref?</p><p><b>authoredOn</b>: 2022-03-04</p><p><b>requester</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/3191384</p><p><b>recorder</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0</code>/162338254590005</p><p><b>note</b>: Por Dr. Getúlio @2022-03-04</p><blockquote><div><p>Medicamento necessário para tratamento da febre devido à gripe.</p>
 </div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>patientInstruction</b>: Tomar uma vez ao dia via oral.</p><p><b>timing</b>: Contagem 1  times, 12</p><p><b>asNeeded</b>: true</p><p><b>route</b>: <span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao 10907}">Oral</span></p><h3>DoseAndRates</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Dose[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 13}">Cápsula</span></td><td>10</td></tr></table><p><b>maxDosePerAdministration</b>: 10</p></blockquote><h3>DispenseRequests</h3><table class="grid"><tr><td style="display: none">-</td><td><b>ValidityPeriod</b></td><td><b>Quantity</b></td></tr><tr><td style="display: none">*</td><td>2022-02-24 --&gt; 2022-03-03</td><td>10</td></tr></table></div>
         </text>
         <status value="completed"/>

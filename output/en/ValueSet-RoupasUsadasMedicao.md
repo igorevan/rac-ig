@@ -6,7 +6,7 @@
 
 * [Roupas Usadas na Medição](StructureDefinition-BRRoupasUsadasMedicao.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 
