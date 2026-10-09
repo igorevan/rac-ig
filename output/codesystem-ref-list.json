@@ -141,9 +141,9 @@
     "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
     "uses" : {
     },
-    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
-    "ValueSet-BROrigemMedida.html" : "Origem de Medição",
     "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+    "ValueSet-BROrigemMedida.html" : "Origem de Medição",
+    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
     "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
   },
   {
@@ -271,8 +271,8 @@
     "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
     "uses" : {
     },
-    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
-    "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
+    "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
+    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
@@ -604,8 +604,8 @@
     "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
     "uses" : {
     },
-    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

@@ -1,9 +1,9 @@
 RACRNDSIG : Validation Results
 =========================================
 
-err = 6, warn = 0, info = 0
-IG Publisher Version: 2.3.5
-Generated Wed Oct 07 21:03:21 BRT 2026. FHIR version 4.0.1 for br.gov.saude.rac.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/rac)
+err = 6, warn = 0, info = 0, broken links = 0
+IG Publisher Version: 3.0.0
+Generated Thu Oct 08 21:00:56 BRT 2026. FHIR version 4.0.1 for br.gov.saude.rac.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/rac)
  Build Errors : 0 / 0 / 0
  /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo : 0 / 2 / 7
  /home/igor/rac-ig/input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado : 2 / 2 / 12

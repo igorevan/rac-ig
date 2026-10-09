@@ -8,5 +8,5 @@ RACRNDSIG
 /home/igor/rac-ig/input/resources/StructureDefinition-BRAlergiaReacaoAdversa-1.0.json: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/allergy-intolerance-category|4.0.1 because The codes 'OTH' are not in the base valueset (BUSINESSRULE)
 /home/igor/rac-ig/input/resources/StructureDefinition-BRMedicamento.json: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset (BUSINESSRULE)
 
-err = 6, warn = 0, info = 0
-IG Publisher Version: 2.3.5
+err = 6, warn = 0, info = 0, broken links = 0
+IG Publisher Version: 3.0.0

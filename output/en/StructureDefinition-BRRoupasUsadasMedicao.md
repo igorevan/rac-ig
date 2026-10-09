@@ -64,7 +64,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRRoupasUsadasMed
   "title" : "Roupas Usadas na Medição",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-07T20:38:46-03:00",
+  "date" : "2026-10-08T20:36:58-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
