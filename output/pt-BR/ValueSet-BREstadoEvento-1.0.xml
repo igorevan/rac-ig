@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstadoEvento-1.0"/>
+  <language value="pt-BR"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1"/>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"/>
+  <version value="1.0.0-release"/>
+  <name value="BREstadoEvento"/>
+  <title value="Estado do Evento"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-04-07T12:14:07.8417018+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério da Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="cgiis.datasus@saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Identificação do estado de um evento."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/event-status"/>
+      <concept>
+        <code value="preparation"/>
+        <display value="Preparation"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Pré-procedimento"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="in-progress"/>
+        <display value="In Progress"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Em andamento"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="not-done"/>
+        <display value="Not Done"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Não Realizado"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="on-hold"/>
+        <display value="On Hold"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Suspenso"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="stopped"/>
+        <display value="Stopped"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Cancelado"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="completed"/>
+        <display value="Completed"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Completado"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="unknown"/>
+        <display value="Unknown"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Desconhecido"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="entered-in-error"/>
+        <display value="Entered in Error"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Entrada com erro"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRCategoriaAgenteAlergiasReacoesAdversas-1.0"/>
+  <language value="pt-BR"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1"/>
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"/>
+  <version value="1.0.0-release"/>
+  <name value="BRCategoriaAgenteAlergiasReacoesAdversas"/>
+  <title value="Categoria do Agente da Alergia ou Reação Adversa"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-09-20T20:37:36.0254538+00:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério da Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="cgiis.datasus@saude.gov.br"/>
+    </telecom>
+  </contact>
+  <description value="Categoriza a substância responsável por causar uma alergia ou reação adversa."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/allergy-intolerance-category"/>
+      <concept>
+        <code value="food"/>
+        <display value="Food"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Alimento - Substância recebida pelo corpo que proporciona nutrição. (DeCS/BVS)"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="medication"/>
+        <display value="Medication"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Medicamento - Substâncias farmacêuticas complexas, preparações ou produtos de origem orgânica geralmente obtidos por métodos ou ensaios biológicos. (DeCS/BVS) Ex.: vacinas, soros, hormônios, antitoxinas etc."/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="biologic"/>
+        <display value="Biologic"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Biológica - Drogas dirigidas para uso humano ou veterinário, apresentadas em sua formulação final. Estão incluídos aqui os materiais usados na preparação e/ou na formulação final. (DeCS/BVS)"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="environment"/>
+        <display value="Environment"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Fator Externo/Ambiental - Quaisquer substâncias encontradas no meio ambiente, incluindo qualquer substância ainda não classificada como alimento, medicamento ou biológico (Tradução livre da definição original do HL7)."/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="OTH"/>
+        <display value="other"/>
+        <designation>
+          <language value="pt-BR"/>
+          <value value="Outras Substâncias - Qualquer outra substância encontrada no ambiente e que não pode ser classificada como alimento, medicamento ou biológica (Tradução livre da definição original do HL7)."/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
