@@ -141,9 +141,9 @@
     "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
     "uses" : {
     },
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
-    "ValueSet-BROrigemMedida.html" : "Origem de Medição",
     "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+    "ValueSet-BROrigemMedida.html" : "Origem de Medição",
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
     "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição"
   },
   {
@@ -525,8 +525,8 @@
     "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
     "uses" : {
     },
-    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
+    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
@@ -548,8 +548,8 @@
     "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
     "uses" : {
     },
-    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento",
-    "ValueSet-BRTipoAtestado.html" : "Tipo de atestado"
+    "ValueSet-BRTipoAtestado.html" : "Tipo de atestado",
+    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
@@ -604,8 +604,8 @@
     "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
     "uses" : {
     },
-    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

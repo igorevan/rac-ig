@@ -227,13 +227,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </table>
 
   
-  <div xmlns="http://www.w3.org/1999/xhtml">
+  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc" data-fhir="generated"><p>Conteúdo:</p><ul><li><a href="#caso-uso-identificado">Caso de uso para Paciente Identificado</a></li><li><a href="#caso-uso-teleconsulta">Caso de uso para Modalidade de Teleconsulta</a></li></ul></div>
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
-  <a name="exemplos">  </a>
-  <h3>Exemplos</h3>
 
   <a name="caso-uso-identificado"> </a>
-  <h4>Caso de uso para Paciente Identificado</h4>
+  <h3>Caso de uso para Paciente Identificado</h3>
 
   <ul>
     <li><a href="Bundle-bundle-example-rac-1.html">Exemplo de Bundle do Registro de Atendimento Clínico
@@ -446,14 +444,48 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     }</pre>
 
   <a name="caso-uso-teleconsulta"> </a>
-  <h4>Caso de uso para Modalidade de Teleconsulta</h4>
+  <h3>Caso de uso para Modalidade de Teleconsulta</h3>
 
   <ul>
     <li><a href="Bundle-bundle-example-rac-tc.html">Exemplo de Bundle do Registro de Atendimento Clínico
         (RAC) - Modalidade de Teleconsulta</a></li>
   </ul>
 
-  <a name="caso-uso-nao-identificado"> </a>
+  <p>
+    Com o objetivo de permitir a representação interoperável dos atendimentos realizados por <b>Teleconsulta</b> no RAC,
+    foi incorporado ao Profile <i><a href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial</a></i> o atributo
+    <code><i>Encounter.type</i></code>, destinado à identificação da modalidade de telessaúde utilizada durante o
+    atendimento.
+  </p>
+  <p>
+    O atributo é opcional e deve ser informado apenas quando o atendimento ocorrer em modalidade de telessaúde. Seu
+    preenchimento deverá utilizar o CodeSystem <i><a href="CodeSystem-BRModalidadeTelessaude.html">BRModalidadeTelessaude</a></i>, permitindo a identificação
+    padronizada da modalidade assistencial remota compartilhada com a RNDS.
+  </p>
+  <p>
+    Essa atualização não altera a utilização do atributo <code><i>Encounter.class</i></code>, que permanece responsável
+    pela representação da Modalidade Assistencial do atendimento. Dessa forma, <code><i>Encounter.class</i></code> e
+    <code><i>Encounter.type</i></code> possuem finalidades distintas e complementares: o primeiro identifica a
+    modalidade assistencial do atendimento e o segundo identifica, quando aplicável, a modalidade de telessaúde
+    utilizada.
+  </p>
+
+  <pre><code>"class": {
+    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+    "code": "04"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
+          "code": "teleconsulta"
+        }
+      ]
+    }
+  ],</code></pre>
+
+  <!-- <a name="caso-uso-nao-identificado"></a>
   <h4>Caso de uso para Paciente Não Identificado</h4>
 
   <ul>
@@ -498,7 +530,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         }
       ]
     }
-  }</pre>
+  }</pre> -->
 </div>
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -547,8 +579,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Pacote br.gov.saude.rac.fhir#1.0.0-release baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Gerado em 
-  <span title="2026-10-14 17:05:00 -0300">
-    2026-10-14
+  <span title="2026-10-19 10:41:00 -0300">
+    2026-10-19
   </span>
 
           <br/>

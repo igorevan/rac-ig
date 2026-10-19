@@ -2,9 +2,7 @@
 
 ## Exemplos
 
-### Exemplos
-
-#### Caso de uso para Paciente Identificado
+### Caso de uso para Paciente Identificado
 
 * [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Paciente Identificado](Bundle-bundle-example-rac-1.md)
 
@@ -216,46 +214,30 @@
     }
 ```
 
-#### Caso de uso para Modalidade de Teleconsulta
+### Caso de uso para Modalidade de Teleconsulta
 
 * [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta](Bundle-bundle-example-rac-tc.md)
 
-#### Caso de uso para Paciente Não Identificado
+ Com o objetivo de permitir a representação interoperável dos atendimentos realizados por **Teleconsulta** no RAC, foi incorporado ao Profile *[BRContatoAssistencial](StructureDefinition-BRContatoAssistencial-1.0.md)* o atributo `*Encounter.type*`, destinado à identificação da modalidade de telessaúde utilizada durante o atendimento. 
 
-* [Exemplo de Bundle do Registro de Atendimento Clínico (RAC) - Paciente Não Identificado](Bundle-bundle-example-rac-2.md)
+ O atributo é opcional e deve ser informado apenas quando o atendimento ocorrer em modalidade de telessaúde. Seu preenchimento deverá utilizar o CodeSystem *[BRModalidadeTelessaude](CodeSystem-BRModalidadeTelessaude.md)*, permitindo a identificação padronizada da modalidade assistencial remota compartilhada com a RNDS. 
 
- Em essência, as informações, como medidas sintomas e diagnósticos são as mesmas do exemplo do paciente identificado. As principais diferenças são a ausência do horário do atendimento e a coleta de dados que não facilitem sua identificação, sendo considerado apenas um jovem homem de aproximadamente 22 anos (nascido em 2000). Na estrutura da API ele pode ser encontrado como: 
+ Essa atualização não altera a utilização do atributo `*Encounter.class*`, que permanece responsável pela representação da Modalidade Assistencial do atendimento. Dessa forma, `*Encounter.class*` e `*Encounter.type*` possuem finalidades distintas e complementares: o primeiro identifica a modalidade assistencial do atendimento e o segundo identifica, quando aplicável, a modalidade de telessaúde utilizada. 
 
 ```
-{
-    "subject": {
-      "extension": [
+"class": {
+    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+    "code": "04"
+  },
+  "type": [
+    {
+      "coding": [
         {
-          "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0",
-          "extension": [
-            {
-              "url": "gender",
-              "valueCode": "male"
-            },
-            {
-              "url": "birthYear",
-              "valueDate": "2000"
-            },
-            {
-              "url": "reason",
-              "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-                    "code": "01"
-                  }
-                ]
-              }
-            }
-          ]
+          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
+          "code": "teleconsulta"
         }
       ]
     }
-  }
+  ],
 ```
 

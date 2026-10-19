@@ -1,11 +1,9 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
-  <a name="exemplos"> </a>
-  <h3>Exemplos</h3>
 
   <a name="caso-uso-identificado"></a>
-  <h4>Caso de uso para Paciente Identificado</h4>
+  <h3>Caso de uso para Paciente Identificado</h3>
 
   <ul>
     <li><a href="Bundle-bundle-example-rac-1.html">Exemplo de Bundle do Registro de Atendimento Clínico
@@ -218,14 +216,50 @@
     }</pre>
 
   <a name="caso-uso-teleconsulta"></a>
-  <h4>Caso de uso para Modalidade de Teleconsulta</h4>
+  <h3>Caso de uso para Modalidade de Teleconsulta</h3>
 
   <ul>
     <li><a href="Bundle-bundle-example-rac-tc.html">Exemplo de Bundle do Registro de Atendimento Clínico
         (RAC) - Modalidade de Teleconsulta</a></li>
   </ul>
 
-  <a name="caso-uso-nao-identificado"></a>
+  <p>
+    Com o objetivo de permitir a representação interoperável dos atendimentos realizados por <b>Teleconsulta</b> no RAC,
+    foi incorporado ao Profile <i><a
+        href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial</a></i> o atributo
+    <code><i>Encounter.type</i></code>, destinado à identificação da modalidade de telessaúde utilizada durante o
+    atendimento.
+  </p>
+  <p>
+    O atributo é opcional e deve ser informado apenas quando o atendimento ocorrer em modalidade de telessaúde. Seu
+    preenchimento deverá utilizar o CodeSystem <i><a
+        href="CodeSystem-BRModalidadeTelessaude.html">BRModalidadeTelessaude</a></i>, permitindo a identificação
+    padronizada da modalidade assistencial remota compartilhada com a RNDS.
+  </p>
+  <p>
+    Essa atualização não altera a utilização do atributo <code><i>Encounter.class</i></code>, que permanece responsável
+    pela representação da Modalidade Assistencial do atendimento. Dessa forma, <code><i>Encounter.class</i></code> e
+    <code><i>Encounter.type</i></code> possuem finalidades distintas e complementares: o primeiro identifica a
+    modalidade assistencial do atendimento e o segundo identifica, quando aplicável, a modalidade de telessaúde
+    utilizada.
+  </p>
+
+  <pre><code>"class": {
+    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+    "code": "04"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
+          "code": "teleconsulta"
+        }
+      ]
+    }
+  ],</code></pre>
+
+  <!-- <a name="caso-uso-nao-identificado"></a>
   <h4>Caso de uso para Paciente Não Identificado</h4>
 
   <ul>
@@ -270,5 +304,5 @@
         }
       ]
     }
-  }</pre>
+  }</pre> -->
 </div>
