@@ -207,7 +207,7 @@
           {
             "coding": [
               {
-                "system": "http://saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude",
+                "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
                 "code": "teleconsulta"
               }
             ]
