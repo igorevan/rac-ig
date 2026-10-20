@@ -268,10 +268,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         no. 234 de
         18 de julho de 2022</a>
     </li>
-    <li>
-      <a href="https://rnds-guia.saude.gov.br/docs/rac/mi-rac ">
-        https://rnds-guia.saude.gov.br/docs/rac/mi-rac </a>
-    </li>
   </ul>
 
   <a name="rac">  </a>
@@ -284,10 +280,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </p>
   <ul>
     <li>
-      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+      <b>Nível</b>: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode
+      <p><b>Ocorrência</b>: descreve o número de vezes que o elemento deve/pode
         aparecer:</p>
 
       <pre><code>
@@ -299,18 +295,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada;
+      <b>Seção/Item</b>: nome do bloco ou da informação a ser enviada;
     </li>
     <li>
-      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+      <b>Tipo de dado</b>: descreve o tipo de dado a ser preenchido;
     </li>
     <li>
-      <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra
+      <b>Conceitos/Observações (Regras de Negócio)</b>: apresenta o conceito e/ou a regra
       referente ao elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os
-      atributos dos artefatos computacionais
+      <b>Conteúdo</b>: relaciona os atributos do modelo informacional com os
+      artefatos terminológicos do modelo computacional;
+    </li>
+    <li>
+      <b>Perfil FHIR</b>: relaciona os atributos do modelo informacional com os
+      atributos dos artefatos computacionais.
     </li>
   </ul>
 
@@ -318,11 +318,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <h3>Blocos do Modelo de Informação</h3>
 
   <p>
-    Segue abaixo o modelo de informação para o Registro de Atendimento Clínico:
+    Segue abaixo o modelo de informação para o RAC:
   </p>
-
-  <a name="identificacao">  </a>
-  <h4>Identificação do Indivíduo</h4>
 
   <table class="grid">
     <thead>
@@ -332,24 +329,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <th>Seção/Item</th>
         <th>Tipo de Dados</th>
         <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
+        <th>Conteúdo (<i>CodeSystem/ValueSet</i>)</th>
+        <th>Perfil FHIR</th>
       </tr>
     </thead>
-    <thead>
+    <tbody>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[1..1]</td>
         <td>Identificação do indivíduo</td>
         <td>Seção</td>
-        <td>RN01: O documento deve trazer um identificador nacional do indíviduo. Se não houver
-          nenhum dos dois possíveis (CNS ou CPF), dever ser obrigatório o preenchimento do bloco
-          Identificação por dados demográficos.</td>
+        <td>
+          <p style="color: red;"><b>RN01</b> O documento deve trazer um identificador nacional do indíviduo. Se não
+            houver nenhum dos dois possíveis (CNS ou CPF), dever ser obrigatório o preenchimento do bloco
+            Identificação por dados demográficos.</p>
+        </td>
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
@@ -357,25 +354,31 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Caracteres numéricos</td>
         <td>
           Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único
-          válido em todo o território nacional, sendo: Cartão
-          Nacional de Saúde (CNS); Cadastro de Pessoa Física
-          (CPF). RN01: A validação do identificador
-          nacional do indivíduo deve ser feita junto ao CADSUS. RN02:
-          Se o campo vier preenchido com CPF e o indivíduo não possuir CNS correspondente, necessita
-          ser criado.
+          válido em todo o território nacional, sendo:
+          <ul>
+            <li>Cartão Nacional de Saúde (CNS)</li>
+            <li>Cadastro de Pessoa Física (CPF)</li>
+          </ul>
+          <p style="color: red;"><b>RN01</b> A validação do identificador
+            nacional do indivíduo deve ser feita junto ao CADSUS.</p>
+          <p style="color: red;"><b>RN02</b>:
+            Se o campo vier preenchido com CPF e o indivíduo não possuir CNS correspondente, necessita
+            ser criado.</p>
         </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>2</td>
         <td>[0..1]</td>
         <td>Identificação por dados demográficos</td>
         <td> </td>
-        <td>RN03: Na hipótese de não ser possível a identificação por um dos
-          identificadores nacionais acima, os campos do bloco de dados demográficos serão usados
-          como parâmetros de pesquisa para a identificação do indivíduo e
-          eventual atribuição de um CNS.</td>
+        <td>
+          <p style="color: red;"><b>RN03</b>: Na hipótese de não ser possível a identificação por um dos
+            identificadores nacionais acima, os campos do bloco de dados demográficos serão usados
+            como parâmetros de pesquisa para a identificação do indivíduo e
+            eventual atribuição de um CNS.</p>
+        </td>
         <td> </td>
         <td>
           <a href="StructureDefinition-BRIndividuoNaoIdentificado-1.0.html">Informações
@@ -390,7 +393,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Sequência de caracteres alfanuméricos</td>
         <td> </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
@@ -399,7 +402,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Sequência de caracteres alfanuméricos</td>
         <td> </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
@@ -408,7 +411,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Sequência de caracteres alfanuméricos</td>
         <td> </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
@@ -417,7 +420,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Data</td>
         <td>Conforme ISO 8601.</td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
@@ -426,54 +429,41 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Texto codificado</td>
         <td>Masculino, Feminino, Ignorado</td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
         <td>[0..1]</td>
         <td>País de nascimento</td>
         <td>Texto codificado</td>
-        <td>RN04: Obrigatório se país estrangeiro.</td>
+        <td>
+          <p style="color: red;"><b>RN04</b>: Obrigatório se país estrangeiro.</p>
+        </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
         <td>[0..1]</td>
         <td>Município de Nascimento</td>
         <td>Texto codificado</td>
-        <td>RN05: Preenchido somente se o país de nascimento for Brasil.</td>
+        <td>
+          <p style="color: red;"><b>RN05</b>: Preenchido somente se o país de nascimento for Brasil.</p>
+        </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
       <tr>
         <td>2</td>
         <td>[0..1]</td>
         <td>Endereço</td>
         <td>Sequência de caracteres alfanuméricos</td>
-        <td>RN06: Preenchido somente se o país de nascimento for Brasil.</td>
+        <td>
+          <p style="color: red;"><b>RN06</b>: Preenchido somente se o país de nascimento for Brasil.</p>
+        </td>
         <td> </td>
-        <td>Indivíduo</td>
+        <td> </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="caracterizacao">  </a>
-  <h4>Caracterização do Atendimento</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[1..1]</td>
@@ -483,8 +473,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
@@ -492,7 +480,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Caracteres numéricos</td>
         <td>Identificação unívoca do estabelecimento de atendimento, mediante número único válido em
           todo o território
-          nacional, sendo: - Cadastro Nacional de Estabelecimentos de Saúde (CNES).</td>
+          nacional, sendo:
+          <ul>
+            <li>Cadastro Nacional de Estabelecimentos de Saúde (CNES)</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a>
@@ -502,7 +494,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[1..1]</td>
         <td>Procedência</td>
-        <td>Texto codificado: Ordem Judicial, Retorno, Demanda espontânea, Demanda Referenciada</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Ordem Judicial</li>
+            <li>Retorno</li>
+            <li>Demanda espontânea</li>
+            <li>Demanda Referenciada</li>
+          </ul>
+        </td>
         <td>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável
           na busca pelo acesso
           ao serviço de saúde.</td>
@@ -539,9 +538,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[1..1]</td>
         <td>Modalidade assistencial</td>
-        <td>Texto codificado: Atenção Básica, Ambulatorial Especializada, Atenção Domiciliar,
-          Atenção
-          Psicossocial, Atenção à Urgência/Emergência</td>
+        <td>
+          Texto codificado:
+          <ul>
+            <li>Atenção Básica</li>
+            <li>Ambulatorial Especializada</li>
+            <li>Atenção Domiciliar</li>
+            <li>Atenção Psicossocial</li>
+            <li>Atenção à Urgência/Emergência</li>
+          </ul>
+        </td>
         <td>Classificação do contato com o serviço de saúde de acordo com as especificidades do
           modo, local e duração do atendimento.</td>
         <td>
@@ -555,9 +561,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[1..1]</td>
         <td>Caráter de atendimento</td>
-        <td>Texto codificado: Consulta agendada, Consulta agendada programada: cuidado continuado,
-          Demanda espontânea
-          (DE): consulta no dia, Demanda espontânea (DE): atendimento de urgência</td>
+        <td>
+          Texto codificado:
+          <ul>
+            <li>Consulta agendada</li>
+            <li>Consulta agendada programada: cuidado continuado</li>
+            <li>Demanda espontânea (DE): consulta no dia</li>
+            <li>Demanda espontânea (DE): atendimento de urgência</li>
+          </ul>
+        </td>
         <td>Identifica o contato assistencial de acordo com a prioridade de sua realização.</td>
         <td>
           <a href="ValueSet-BRCaraterAtendimento-1.0.html">Caráter de atendimento do Contato
@@ -574,20 +586,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
         <td> </td>
-        <td>
-          Profissional
-        </td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
         <td>[1..N]</td>
-        <td>Profissional</td>
         <td> </td>
         <td> </td>
         <td> </td>
-        <td>
-          Profissional
-        </td>
+        <td> </td>
+        <td> </td>
       </tr>
       <tr>
         <td>4</td>
@@ -596,9 +604,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Texto livre</td>
         <td> </td>
         <td> </td>
-        <td>
-          Profissional
-        </td>
+        <td> </td>
       </tr>
       <tr>
         <td>4</td>
@@ -607,20 +613,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Caracteres numéricos</td>
         <td>Indica o número do conselho do profissional atendente</td>
         <td> </td>
-        <td>
-          Profissional
-        </td>
+        <td> </td>
       </tr>
       <tr>
         <td>4</td>
         <td>[1..1]</td>
         <td>Conselho do profissional atendente </td>
         <td>Texto Codificado</td>
-        <td>Indica a entidade de conselho do profissional atendente (CRM, CRF, CRO, ...)</td>
+        <td>Indica a entidade de conselho do profissional atendente (CRM, CRF, CRO, etc.)</td>
         <td> </td>
-        <td>
-          Profissional
-        </td>
+        <td> </td>
       </tr>
       <tr>
         <td>4</td>
@@ -629,9 +631,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Texto Codificado</td>
         <td>Indica a UF do Conselho do Profissional atendente</td>
         <td> </td>
-        <td>
-          Profissional
-        </td>
+        <td> </td>
       </tr>
       <tr>
         <td>3</td>
@@ -639,18 +639,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Identificador do profissional atendente</td>
         <td>Caracteres numéricos</td>
         <td>Identificação unívoca do profissional prescritor, mediante número único válido em todo o
-          território nacional, sendo: Cadastro de Pessoa Física (CPF). RN08: Validar junto ao
-          CADSUS.</td>
-        <td> </td>
-        <td>
-          Profissional
+          território nacional, sendo:
+          <ul>
+            <li>Cadastro de Pessoa Física (CPF)</li>
+          </ul>
+          <p style="color: red;"><b>RN08</b>: Validar junto ao CADSUS.</p>
         </td>
+        <td> </td>
+        <td> </td>
       </tr>
       <tr>
         <td>4</td>
         <td>[1..1]</td>
         <td>Ocupação do profissional</td>
-        <td>Texto codificado por terminologia externa: CBO</td>
+        <td>Texto codificado por terminologia externa:
+          <ul>
+            <li>CBO</li>
+          </ul>
+        </td>
         <td>Atividade desempenhada pelo profissional que realizou o atendimento.</td>
         <td>
           <a href="ValueSet-BROcupacao-1.0.html">Classificação Brasileira de Ocupações - CBO</a>
@@ -667,25 +673,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td><a href="StructureDefinition-BRResponsavelAtendimento.html">Responsável pelo Atendimento</a>,
           presente em <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a></td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="atendimento">  </a>
-  <h4>Motivo do Atendimento Estruturado</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..1]</td>
@@ -695,8 +682,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[0..N]</td>
@@ -710,7 +695,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[1..1]</td>
         <td>Terminologia que descreve o motivo do atendimento</td>
-        <td>Texto codificado: CID, CIAP</td>
+        <td>Texto codificado:
+          <ul>
+            <li>CID</li>
+            <li>CIAP</li>
+          </ul>
+        </td>
         <td>Identificador da terminologia que será utilizada para descrever o motivo de atendimento.</td>
         <td> </td>
         <td>
@@ -721,7 +711,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[1..1]</td>
         <td>Código do motivo do atendimento</td>
-        <td>Texto codificado por terminologia externa: CID-9, CID-10, CID-11, CIAP-1, CIAP-2</td>
+        <td>Texto codificado por terminologia externa:
+          <ul>
+            <li>CID-10</li>
+            <li>CIAP-2</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="ValueSet-BRProblemaDiagnostico.html">Classificação Internacional de Doenças e
@@ -742,25 +737,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">Observação Descritiva</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="observacoes">  </a>
-  <h4>Observações</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..1]</td>
@@ -770,8 +746,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[0..1]</td>
@@ -842,8 +816,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[0..1]</td>
         <td>Posição do indivíduo na aferição</td>
-        <td>Texto codificado: Em pé, Sentado, Reclinado, Deitado, Deitado com inclinação para
-          esquerda</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Em pé</li>
+            <li>Sentado</li>
+            <li>Reclinado</li>
+            <li>Deitado</li>
+            <li>Deitado com inclinação para esquerda</li>
+          </ul>
+        </td>
         <td>Indica a posição do indivíduo no momento da aferição da pressão arterial.</td>
         <td>
           <a href="ValueSet-BRPosicaoIndividuo.html">Posição do Indivíduo</a>
@@ -856,9 +837,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[0..1]</td>
         <td>Local de aferição</td>
-        <td>Texto codificado: Braço direito, Braço esquerdo, Coxa direita, Coxa esquerda, Pulso
-          direito, Pulso esquerdo,
-          Tornozelo direito, Tornozelo esquerdo, Dedo da mão, Dedo do pé</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Braço direito</li>
+            <li>Braço esquerdo</li>
+            <li>Coxa direita</li>
+            <li>Coxa esquerda</li>
+            <li>Pulso direito</li>
+            <li>Pulso esquerdo</li>
+            <li>Tornozelo direito</li>
+            <li>Tornozelo esquerdo</li>
+            <li>Dedo da mão</li>
+            <li>Dedo do pé</li>
+          </ul>
+        </td>
         <td>Identifica qual parte do corpo humano foi utilizada para aferir a pressão arterial.</td>
         <td>
           <a href="ValueSet-BRLocalAfericao-1.0.html">Local de Aferição</a>
@@ -893,8 +885,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Unidade de medida do peso</td>
-        <td>Texto codificado pelo HL7 FHIR (http://hl7.org/fhir/ValueSet/ucum-bodyweight): kg,
-          lb_av, g</td>
+        <td>Texto codificado pelo HL7 FHIR (<a href="http://hl7.org/fhir/ValueSet/ucum-bodyweight">http://hl7.org/fhir/ValueSet/ucum-bodyweight</a>):
+          <ul>
+            <li>kg</li>
+            <li>lb_av</li>
+            <li>g</li>
+          </ul>
+        </td>
         <td>Unidade de medida do peso utilizada para medição. </td>
         <td>Kg, g</td>
         <td>
@@ -905,9 +902,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[0..1]</td>
         <td>Posição em relação à gravidade</td>
-        <td>Texto codificado: LOINC - https://loinc.org/8361-8/ e https://loinc.org/8352-7</td>
+        <td>Texto codificado em LOINC: <a href="https://loinc.org/8361-8/">https://loinc.org/8361-8/</a> e <a href="https://loinc.org/8352-7/">https://loinc.org/8352-7/</a></td>
         <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração
-          foi realizada: De pé, Deitado, Sentado</td>
+          foi realizada:
+          <ul>
+            <li>De pé</li>
+            <li>Deitado</li>
+            <li>Sentado</li>
+          </ul>
+        </td>
         <td>
           <a href="ValueSet-BRPosicaoIndividuo.html">Posição do Indivíduo</a>
         </td>
@@ -919,11 +922,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[0..1]</td>
         <td>Roupas usadas durante a medição</td>
-        <td>Texto codificado: loinc.org/8352-7</td>
+        <td>Texto codificado: <a href="https://loinc.org/8352-7/">https://loinc.org/8352-7/</a></td>
         <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração
-          foi realizada (roupas usadas durante a medição): Roupa íntima ou menos; Roupas de rua, sem
-          sapatos; Roupas e
-          sapatos de rua</td>
+          foi realizada (roupas usadas durante a medição):
+          <ul>
+            <li>Roupa íntima ou menos</li>
+            <li>Roupas de rua, sem sapatos</li>
+            <li>Roupas e sapatos de rua</li>
+          </ul>
+        </td>
         <td>
           <a href="ValueSet-RoupasUsadasMedicao.html">Roupas Usadas na Medição</a>
         </td>
@@ -934,7 +941,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[1..1]</td>
         <td>Origem da medição</td>
-        <td>Texto codificado: Medido (3141-9), Relatado (3142-7)</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Medido (3141-9)</li>
+            <li>Relatado (3142-7)</li>
+          </ul>
+        </td>
         <td>Informar se o peso foi aferido no atendimento ou relatado.</td>
         <td>
           <a href="ValueSet-BROrigemMedida.html">Origem de Medição</a>
@@ -956,7 +968,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Unidade de medida da altura</td>
-        <td>Texto codificado: http://hl7.org/fhir/ValueSet/ucum-bodylength </td>
+        <td>Texto codificado: <a href="http://hl7.org/fhir/ValueSet/ucum-bodylength">http://hl7.org/fhir/ValueSet/ucum-bodylength</a>
+        </td>
         <td>Unidade de medida da altura utilizada para medição da altura</td>
         <td>cm</td>
         <td>
@@ -967,9 +980,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[0..1]</td>
         <td>Posição em relação à gravidade</td>
-        <td>Texto codificado: LOINC - https://loinc.org/8361-8/</td>
+        <td>Texto codificado: LOINC - <a href="https://loinc.org/8361-8/">https://loinc.org/8361-8/</a></td>
         <td>De acordo com lista LOINC de padronização de informação, determinar como a mensuração
-          foi realizada: De pé, Deitado, Sentado</td>
+          foi realizada:
+          <ul>
+            <li>De pé</li>
+            <li>Deitado</li>
+            <li>Sentado</li>
+          </ul>
+        </td>
         <td>
           <a href="ValueSet-BRPosicaoIndividuo.html">Posição do Indivíduo</a>
         </td>
@@ -981,7 +1000,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[0..1]</td>
         <td>Origem da medição</td>
-        <td>Texto codificado (https://loinc.org/3138-5): Medido (3137-7), Relatado (3138-5)</td>
+        <td>Texto codificado (<a href="https://loinc.org/3138-5">https://loinc.org/3138-5</a>):
+          <ul>
+            <li>Medido (3137-7)</li>
+            <li>Relatado (3138-5)</li>
+          </ul>
+        </td>
         <td>Informar se a altura foi aferido no atendimento ou relatado. </td>
         <td>
           <a href="ValueSet-BROrigemMedida.html">Origem de Medição</a>
@@ -1003,7 +1027,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Unidade de medida do perímetro cefálico</td>
-        <td>Texto codificado: http://hl7.org/fhir/ValueSet/ucum-bodylength </td>
+        <td>Texto codificado: <a href="http://hl7.org/fhir/ValueSet/ucum-bodylength">http://hl7.org/fhir/ValueSet/ucum-bodylength</a>
+        </td>
         <td>Unidade de medida utilizada para medição do perímetro cefálico</td>
         <td>cm</td>
         <td>
@@ -1025,7 +1050,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Unidade de medida da Circunferência Abdominal</td>
-        <td>Texto codificado: https://loinc.org/8281-8/</td>
+        <td>Texto codificado: <a href="https://loinc.org/8281-8/">https://loinc.org/8281-8/</a></td>
         <td>Unidade de medida utilizada para medição da Circunferência Abdominal</td>
         <td>cm</td>
         <td>
@@ -1069,7 +1094,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Unidade de medida da Idade Gestacional</td>
-        <td>Texto codificado</td>
+        <td>Texto codificado: <a href="https://loinc.org/8361-8/">https://loinc.org/8361-8/</a></td>
         <td>Unidade de medida de tempo usada no campo Idade Gestacional</td>
         <td>dias ou semanas gestacionais</td>
         <td>
@@ -1113,7 +1138,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[0..1]</td>
         <td>Tipo de aleitamento materno para crianças até 2 anos</td>
-        <td>Texto Codificado: Exclusivo, Predominante, Complementado, Inexistente</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>Exclusivo</li>
+            <li>Predominante</li>
+            <li>Complementado</li>
+            <li>Inexistente</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="ValueSet-BRTipoAleitamentoMaterno-1.0.html">Tipo de Aleitamento Materno</a>
@@ -1172,9 +1204,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>5</td>
         <td>[0..1]</td>
         <td>Frequência nos últimos 3 meses</td>
-        <td>Texto codificado: Nunca, Mensalmente, 2 ou mais vezes ao mês, Semanalmente, Diariamente
-          ou
-          quase todos os dias
+        <td>Texto codificado:
+          <ul>
+            <li>Nunca</li>
+            <li>Mensalmente</li>
+            <li>2 ou mais vezes ao mês</li>
+            <li>Semanalmente</li>
+            <li>Diariamente</li>
+            <li>Quase todos os dias</li>
+          </ul>
         </td>
         <td> </td>
         <td>
@@ -1184,25 +1222,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRMedidaObservada.html">Medida Observada</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="diagnosticos">  </a>
-  <h4>Problemas/Diagnósticos Avaliados</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[1..N]</td>
@@ -1221,8 +1240,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
@@ -1241,7 +1258,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[1..1]</td>
         <td>Terminologia que descreve o diagnóstico / problema</td>
-        <td>Texto codificado: CID, CIAP</td>
+        <td>Texto codificado:
+          <ul>
+            <li>CID</li>
+            <li>CIAP</li>
+          </ul>
+        </td>
         <td>Identificador da terminologia que será utilizada para informar os problemas/diagnósticos
           avaliados.</td>
         <td> </td>
@@ -1253,7 +1275,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[0..1]</td>
         <td>Categoria do diagnóstico</td>
-        <td>Texto Codificado: Principal, Secundário</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>Principal</li>
+            <li>Secundário</li>
+          </ul>
+        </td>
         <td>Condição estabelecida após estudo de forma a esclarecer qual o mais importante ou
           principal motivo
           responsável pela demanda do contato assistencial. O diagnóstico primário reflete achados
@@ -1272,7 +1299,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[0..1]</td>
         <td>Estado de resolução do problema</td>
-        <td>Texto codificado: Ativo, Recorrente, Recidiva, Inativo, Remissão, Resolvido</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Ativo</li>
+            <li>Recorrente</li>
+            <li>Recidiva</li>
+            <li>Inativo</li>
+            <li>Remissão</li>
+            <li>Resolvido</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html">Estado da Resolução de
@@ -1294,25 +1330,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRProblemaDiagnostico.html">Problema / Diagnóstico</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="alergias">  </a>
-  <h4>Alergia e/ou Reação Adversa</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..N]</td>
@@ -1323,14 +1340,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
         <td>Categoria do agente causador da alergia ou reação adversa</td>
-        <td>Texto codificado: Alimento, Medicamento, Biológica, Outras substâncias, Fator
-          Externo/Ambiental</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Alimento</li>
+            <li>Medicamento</li>
+            <li>Biológica</li>
+            <li>Outras substâncias</li>
+            <li>Fator Externo/Ambiental</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html">Categoria do Agente
@@ -1345,7 +1367,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[1..1]</td>
         <td>Agente/substância específica</td>
-        <td>Texto dodificado: CBARA, CATMAT, Lista de vacinas do PNI</td>
+        <td>Texto dodificado:
+          <ul>
+            <li>CBARA</li>
+            <li>CATMAT</li>
+            <li>Lista de vacinas do PNI</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="ValueSet-BRAlergenos-1.0.html">Alérgenos</a>
@@ -1371,7 +1399,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[0..1]</td>
         <td>Grau de certeza</td>
-        <td>Texto codificado: Não Confirmada, Confirmada, Refutada, Cancelada por informação errada</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Não Confirmada</li>
+            <li>Confirmada</li>
+            <li>Refutada</li>
+            <li>Cancelada por informação errada</li>
+          </ul>
+        </td>
         <td> </td>
         <td>
           <a href="ValueSet-BRGrauCertezaAlergiasReacoesAdversas-1.0.html">Grau de Certeza de
@@ -1386,7 +1421,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[0..1]</td>
         <td>Criticidade</td>
-        <td>Texto codificado: Baixa, Alta, Inderteminada</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Baixa</li>
+            <li>Alta</li>
+            <li>Indeterminada</li>
+          </ul>
+        </td>
         <td>Uma indicação do potencial de danos nos órgãos críticos do sistema ou consequência de
           ameaça à vida.</td>
         <td>
@@ -1420,25 +1461,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">Alergia ou Reação Adversa</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="procedimentos">  </a>
-  <h4>Procedimento(s) Realizado(s) ou Solicitado(s)</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..N]</td>
@@ -1448,17 +1470,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
         <td>Terminologia que descreve o procedimento</td>
-        <td>Texto codificado: SIGTAP, CBHPM ou TUSS</td>
+        <td>Texto codificado:
+          <ul>
+            <li>SIGTAP</li>
+            <li>CBHPM</li>
+            <li>TUSS</li>
+          </ul>
+        </td>
         <td>Identificador único do Objeto: identificador da terminologia que será utilizada para
-          informar
-          procedimento(s)
-          realizado(s) ou solicitado(s).</td>
+          informar procedimento(s) realizado(s) ou solicitado(s).</td>
         <td> </td>
         <td>
           <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">Procedimento Realizado</a>
@@ -1468,7 +1492,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[1..1]</td>
         <td>Nome do procedimento</td>
-        <td>Texto codificado por terminologia externa: SIGTAP, CBHPM ou TUSS</td>
+        <td>Texto codificado por terminologia externa:
+          <ul>
+            <li>SIGTAP</li>
+            <li>CBHPM</li>
+            <li>TUSS</li>
+          </ul>
+        </td>
         <td>Ação de saúde realizada no indivíduo durante o contato assistencial (Ex: Número TUSS).</td>
         <td>
           <a href="ValueSet-BRProcedimentosNacionais-1.0.html">Procedimento realizado</a>
@@ -1481,10 +1511,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[1..1]</td>
         <td>Status do procedimento</td>
-        <td>Texto codificado: Pré-procedimento, Em andamento, Não Realizado, Suspenso, Cancelado,
-          Completado,
-          Desconhecido, Entrada com
-          erro.</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Pré-procedimento</li>
+            <li>Em andamento</li>
+            <li>Não Realizado</li>
+            <li>Suspenso</li>
+            <li>Cancelado</li>
+            <li>Completado</li>
+            <li>Desconhecido</li>
+            <li>Entrada com erro</li>
+          </ul>
+        </td>
         <td>Mais usado para procedimentos médicos de saúde</td>
         <td>
           <a href="ValueSet-BREstadoEvento-1.0.html">Estado do Evento</a>
@@ -1504,25 +1542,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">Procedimento Realizado</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="prescricao">  </a>
-  <h4>Prescrição no Atendimento</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[1..1]</td>
@@ -1535,8 +1554,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             de Medicamento</a>
         </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[0..1]</td>
@@ -1580,8 +1597,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Terminologia que descreve o medicamento</td>
         <td>Texto codificado</td>
         <td>Lista de registro de medicamentos da ANVISA Ontologia Brasileira em Saúde (OBS),
-          Catálogo
-          de Materiais do Governo Federal (CATMAT)</td>
+          Catálogo de Materiais do Governo Federal (CATMAT)</td>
         <td> </td>
         <td>
           <a href="StructureDefinition-BRMedicamento.html">Medicamento</a>
@@ -1702,7 +1718,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>[0..1]</td>
         <td>Uso contínuo</td>
         <td> </td>
-        <td>RN09: preenchido obrigatoriamente se "Dose Única" = não/falso</td>
+        <td>
+          <p style="color: red;"><b>RN09</b>: preenchido obrigatoriamente se "Dose Única" = não/falso</p>
+        </td>
         <td> </td>
         <td>
           <a href="StructureDefinition-BRPrescricaoMedicamento.html">Prescrição de Medicamento</a>
@@ -1781,8 +1799,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>4</td>
         <td>[1..1]</td>
         <td>Status do uso do medicamento</td>
-        <td>Texto codificado: Ativo, Completado, Entrada com erro, Pretendido, Em pausa,
-          Desconhecido, Não realizado
+        <td>Texto codificado:
+          <ul>
+            <li>Ativo</li>
+            <li>Completado</li>
+            <li>Entrada com erro</li>
+            <li>Pretendido</li>
+            <li>Em pausa</li>
+            <li>Desconhecido</li>
+            <li>Não realizado</li>
+          </ul>
         </td>
         <td>Informação sobre o uso da medicação por parte do paciente ou outro profissional (pode
           ser auto declarado ou referido).</td>
@@ -1794,25 +1820,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRMedicamento.html">Medicamento</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="plano">  </a>
-  <h4>Plano de Cuidados, Instruções e Recomendações (Na Alta)</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo deDados</th>
-        <th>Conceito/Observações(Regras de negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..1]</td>
@@ -1822,8 +1829,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
@@ -1835,25 +1840,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <a href="StructureDefinition-BRPlanoCuidados-1.0.html">Plano de Cuidados</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="desfecho">  </a>
-  <h4>Dados do Desfecho</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..1]</td>
@@ -1863,15 +1849,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[0..1]</td>
         <td>Desfecho</td>
-        <td>Texto codificado: Alta Clínica, Encaminhamento, Transferência, Retorno, Alta Voluntária,
-          Ordem Judicial, Evasão, Óbito, Permanência, Sem registro no modelo de informação de origem</td>
-        <td>Caracteriza o motivo de conclusão do atendimento. </td>
+        <td>
+          Texto codificado:
+          <ul>
+            <li>Alta Clínica</li>
+            <li>Encaminhamento</li>
+            <li>Transferência</li>
+            <li>Retorno</li>
+            <li>Alta Voluntária</li>
+            <li>Ordem Judicial</li>
+            <li>Evasão</li>
+            <li>Óbito</li>
+            <li>Permanência</li>
+            <li>Sem registro no modelo de informação de origem</li>
+          </ul>
+        </td>
+        <td>Caracteriza o motivo de conclusão do atendimento.</td>
         <td>
           <a href="ValueSet-BRMotivoDesfecho-1.0.html">Motivo do desfecho do Contato Assistencial</a>
         </td>
@@ -1891,25 +1888,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             Assistencial</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="atestado">  </a>
-  <h4>Atestado Médico/Odontológico</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..N]</td>
@@ -1919,8 +1897,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
@@ -1947,7 +1923,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>3</td>
         <td>[0..1]</td>
         <td>Data do início do Diagnóstico/Problema</td>
-        <td>Texto codificado Iso 8601</td>
+        <td>Texto codificado ISO 8601</td>
         <td>Data do inicio do problema ou Diagnóstico</td>
         <td> </td>
         <td>
@@ -1958,7 +1934,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[1..1]</td>
         <td>Data do inicio do Afastamento</td>
-        <td>Texto codificado Iso 8601</td>
+        <td>Texto codificado ISO 8601</td>
         <td>Data de inicio do afastamento das atividades</td>
         <td> </td>
         <td>
@@ -1980,32 +1956,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>2</td>
         <td>[0..1]</td>
         <td>Informações Adicionais</td>
-        <td>texto livre</td>
+        <td>Texto livre</td>
         <td>Informações adicionais necessárias para documento atestado</td>
         <td> </td>
         <td>
           <a href="StructureDefinition-BRAtestado.html">Atestado Digital</a>
         </td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="adicionais">  </a>
-  <h4>Informações Adicionais/Complementares</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de Dados</th>
-        <th>Conceito/Observações (Regras de Negócio)</th>
-        <th>Conteúdo (CodeSystem/ValueSet)</th>
-        <th>Implementação em Resource FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>[0..1]</td>
@@ -2015,8 +1972,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td> </td>
         <td> </td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>[1..1]</td>
@@ -2079,8 +2034,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Pacote br.gov.saude.rac.fhir#1.0.0-release baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Gerado em 
-  <span title="2026-10-19 10:41:00 -0300">
-    2026-10-19
+  <span title="2026-10-20 16:57:00 -0300">
+    2026-10-20
   </span>
 
           <br/>

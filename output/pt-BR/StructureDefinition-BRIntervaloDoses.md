@@ -92,7 +92,7 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRIntervaloDoses
   "name" : "BRIntervaloDoses",
   "title" : "Intervalo de Doses",
   "status" : "active",
-  "date" : "2026-10-19T10:41:45-03:00",
+  "date" : "2026-10-20T16:57:20-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
