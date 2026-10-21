@@ -22,7 +22,7 @@ Público-alvo proposto pelo RAC:
 
 ### Marcos Legais
 
-*  [Portaria no. 234 de 18 de julho de 2022](https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215) 
+*  [Portaria GM/MS nº 8.347, de 8 de outubro de 2025](https://www.in.gov.br/web/dou/-/portaria-gm/ms-n-8.347-de-8-de-outubro-de-2025-661591512) 
 
 ### Modelo de Informação
 
