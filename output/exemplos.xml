@@ -245,19 +245,19 @@
   </p>
 
   <pre><code>"class": {
-    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
-    "code": "04"
-  },
-  "type": [
-    {
-      "coding": [
-        {
-          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
-          "code": "teleconsulta"
-        }
-      ]
-    }
-  ],</code></pre>
+  "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+  "code": "04"
+},
+"type": [
+  {
+    "coding": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
+        "code": "teleconsulta"
+      }
+    ]
+  }
+],</code></pre>
 
   <!-- <a name="caso-uso-nao-identificado"></a>
   <h4>Caso de uso para Paciente Não Identificado</h4>

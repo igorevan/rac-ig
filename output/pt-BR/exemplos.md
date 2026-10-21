@@ -226,18 +226,18 @@
 
 ```
 "class": {
-    "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
-    "code": "04"
-  },
-  "type": [
-    {
-      "coding": [
-        {
-          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
-          "code": "teleconsulta"
-        }
-      ]
-    }
-  ],
+  "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+  "code": "04"
+},
+"type": [
+  {
+    "coding": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeTelessaude",
+        "code": "teleconsulta"
+      }
+    ]
+  }
+],
 ```
 

@@ -141,10 +141,10 @@
     "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
     "uses" : {
     },
-    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação",
     "ValueSet-BROrigemMedida.html" : "Origem de Medição",
-    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo"
+    "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
@@ -271,8 +271,8 @@
     "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
     "uses" : {
     },
-    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
-    "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária"
+    "ValueSet-BRProblemaDiagnostico.html" : "Classificação Internacional de Doenças e Atenção Primária",
+    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
