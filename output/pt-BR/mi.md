@@ -76,6 +76,8 @@ Público-alvo proposto pelo RAC:
 * Demanda espontânea (DE): consulta no dia
 * Demanda espontânea (DE): atendimento de urgência
  | Identifica o contato assistencial de acordo com a prioridade de sua realização. | [Caráter de atendimento do Contato Assistencial](ValueSet-BRCaraterAtendimento-1.0.md) | [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md) |
+| 2 | [0..1] | Modalidade Telessaúde | Texto codificado:* Teleconsulta
+ | Identifica a modalidade de telessaúde utilizada no atendimento | [Modalidade de Telessaúde](ValueSet-BRModalidadeTelessaude.md) | [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md) |
 | 2 | [1..1] | Profissionais do atendimento |  |  |  |  |
 | 3 | [1..N] |  |  |  |  |  |
 | 4 | [0..1] | Nome do profissional | Texto livre |  |  |  |

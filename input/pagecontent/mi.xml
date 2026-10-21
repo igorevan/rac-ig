@@ -353,6 +353,24 @@
       </tr>
       <tr>
         <td>2</td>
+        <td>[0..1]</td>
+        <td>Modalidade Telessaúde</td>
+        <td>
+          Texto codificado:
+          <ul>
+            <li>Teleconsulta</li>
+          </ul>
+        </td>
+        <td>Identifica a modalidade de telessaúde utilizada no atendimento</td>
+        <td>
+          <a href="ValueSet-BRModalidadeTelessaude.html">Modalidade de Telessaúde</a>
+        </td>
+        <td>
+          <a href="StructureDefinition-BRContatoAssistencial-1.0.html">Contato Assistencial</a>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
         <td>[1..1]</td>
         <td>Profissionais do atendimento</td>
         <td> </td>
