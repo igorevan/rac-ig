@@ -169,8 +169,8 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
     "uses" : {
     },
-    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
@@ -279,8 +279,8 @@
     "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"],
     "uses" : {
     },
-    "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+    "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeTelessaude",

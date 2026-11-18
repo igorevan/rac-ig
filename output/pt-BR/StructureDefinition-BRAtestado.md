@@ -97,7 +97,7 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRAtestado.csv),
   "name" : "BRAtestado",
   "title" : "Atestado Digital",
   "status" : "active",
-  "date" : "2026-10-21T12:30:11-03:00",
+  "date" : "2026-11-18T14:41:22-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

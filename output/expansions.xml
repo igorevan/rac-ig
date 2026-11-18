@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1d436784-aa26-4808-b86d-1909706c4659"/>
+  <id value="0eba9e5a-698d-4624-a5da-82286cf26ace"/>
   <meta>
-    <lastUpdated value="2026-10-21T12:30:11.973-03:00"/>
+    <lastUpdated value="2026-11-18T14:41:22.698-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -23086,8 +23086,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:4b240cb5-abff-4275-98de-6364a53dbed6"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:80115ad1-6d9e-42b1-add8-9e2b94053065"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="4551"/>
           <offset value="0"/>
           <parameter>
@@ -51226,8 +51226,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e0c97f21-046e-4763-ba65-242845edd0eb"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:80115ad1-6d9e-42b1-add8-9e2b94053065"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="4551"/>
           <offset value="0"/>
           <parameter>
@@ -76341,8 +76341,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3df4d646-5d06-427e-a986-bbd72f4f273c"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:25996145-e745-40f5-81a7-c46490622234"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="14230"/>
           <offset value="0"/>
           <parameter>
@@ -101424,8 +101424,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9d8d5f27-55ed-4ba4-bd56-2bb5d8f4fbde"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:25996145-e745-40f5-81a7-c46490622234"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="14230"/>
           <offset value="0"/>
           <parameter>
@@ -106644,8 +106644,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2ff950c3-3334-4ea8-887d-1f02a4bea5fb"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:4c1ff178-0262-47f7-861e-0372e722fabf"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -106899,8 +106899,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8ae4f061-e3e7-4f39-a3f8-1b54694d4041"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:4c1ff178-0262-47f7-861e-0372e722fabf"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -106981,7 +106981,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
                   </span>
@@ -107100,7 +107100,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
                 </td>
                 <td>Outras Substâncias - Qualquer outra substância encontrada no ambiente e que não pode ser classificada como alimento, medicamento ou biológica (Tradução livre da definição original do HL7).</td>
                 <td>
@@ -107144,8 +107144,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:952318eb-8300-41c4-8ac6-f6d8a9147d1b"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:18a570f3-31a1-4a75-a668-0dd3d9aa372f"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -107224,7 +107224,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
                   </span>
@@ -107343,7 +107343,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
                 </td>
                 <td>Outras Substâncias - Qualquer outra substância encontrada no ambiente e que não pode ser classificada como alimento, medicamento ou biológica (Tradução livre da definição original do HL7).</td>
                 <td>
@@ -107387,8 +107387,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8966469f-2c27-4981-8c23-5dc7a1caaffe"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:18a570f3-31a1-4a75-a668-0dd3d9aa372f"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -107461,7 +107461,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-category|2.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
@@ -107494,7 +107494,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
                 </td>
                 <td>Problema listado</td>
                 <td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td>
@@ -107515,7 +107515,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
                 </td>
                 <td>Diagnóstico</td>
                 <td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td>
@@ -107548,8 +107548,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8c4f3977-3dfd-4ad0-948f-95f77e1469c1"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:34a414e6-f648-4ee5-bbd9-70da1a8e609c"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -107599,7 +107599,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-category|2.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
@@ -107632,7 +107632,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
                 </td>
                 <td>Problema listado</td>
                 <td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td>
@@ -107653,7 +107653,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
                 </td>
                 <td>Diagnóstico</td>
                 <td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td>
@@ -107686,8 +107686,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:abbed95c-e494-4cab-9b19-3ce213b08acc"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:34a414e6-f648-4ee5-bbd9-70da1a8e609c"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -107819,8 +107819,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:bec64eed-e4cc-4f46-9fbc-216ad48d7c4a"/>
-          <timestamp value="2026-10-21T12:32:47-03:00"/>
+          <identifier value="urn:uuid:894ede0e-7e36-49b2-bd12-f557916cf4d6"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -107952,8 +107952,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:fd3ff55f-4d72-4db2-a287-d6688c50bc16"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:894ede0e-7e36-49b2-bd12-f557916cf4d6"/>
+          <timestamp value="2026-11-18T14:42:49-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -108108,8 +108108,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9d565da2-1e19-4597-bc3d-0d0e565b0bc9"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:601496aa-44fa-42ab-abf4-6fe1dbf5cebc"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -108273,8 +108273,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c63716db-1899-4c78-941e-212a3b628aa2"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:601496aa-44fa-42ab-abf4-6fe1dbf5cebc"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -108399,8 +108399,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:faf05ec0-58ae-4104-9f78-182be9ca12cb"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:eda1eccb-7b7f-4329-b756-33d15ac935cf"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -108515,8 +108515,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d6f7fc11-5a1d-43f7-b027-f84e897d757b"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:eda1eccb-7b7f-4329-b756-33d15ac935cf"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -108631,8 +108631,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:85c309cd-0c8e-4537-bafc-50b860bdf112"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:55734caa-61a0-4645-8c10-4892d628883f"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -108747,8 +108747,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:70496792-4edc-4a18-a4a8-369a95706a67"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:55734caa-61a0-4645-8c10-4892d628883f"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -108881,8 +108881,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:576afc8a-6a5e-4ad6-8665-430e122097ef"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:c5754f3f-f2d2-4522-92fc-0cac9528f278"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -109020,8 +109020,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2fed3bdc-a5f9-45f7-9cf2-f0cba82b4508"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:c5754f3f-f2d2-4522-92fc-0cac9528f278"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -109201,8 +109201,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a2696fec-913c-44b7-8571-24f249a19b00"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:505d347f-f426-4d9b-b911-871c9ca1b491"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -109392,8 +109392,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a71c6f17-513a-4ac0-a028-007f9a26091b"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:505d347f-f426-4d9b-b911-871c9ca1b491"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -109667,8 +109667,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:508d5c5e-4fbb-4024-b1e9-132d3e53ac65"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:9455a5ca-9fde-4c48-962c-7f7bc2c02f4f"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -109962,8 +109962,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b793bf42-127e-4c47-82a3-9b90fd1d198b"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:9455a5ca-9fde-4c48-962c-7f7bc2c02f4f"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -110145,8 +110145,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5fe93e6f-8fb9-4808-90fa-fc2336cb633f"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:de634f19-ffe3-4672-8164-70c8a6d0408e"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -110294,8 +110294,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1f45d7bb-cd97-4159-8955-782127277fc3"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:de634f19-ffe3-4672-8164-70c8a6d0408e"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -110342,7 +110342,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
@@ -110375,7 +110375,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td>Ativo</td>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -110396,7 +110396,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
                 </td>
                 <td>Recorrente</td>
                 <td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td>
@@ -110417,7 +110417,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
                 </td>
                 <td>Recidiva</td>
                 <td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td>
@@ -110438,7 +110438,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td>Inativo</td>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -110459,7 +110459,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
                 </td>
                 <td>Remissão</td>
                 <td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td>
@@ -110480,7 +110480,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
                 </td>
                 <td>Resolvido</td>
                 <td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td>
@@ -110513,8 +110513,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f4c7daf3-28be-4b67-a6fa-212efd4f8cf3"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:c9f9a091-5b33-4576-9b75-5f467d4c2745"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -110581,7 +110581,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
@@ -110614,7 +110614,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td>Ativo</td>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -110635,7 +110635,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
                 </td>
                 <td>Recorrente</td>
                 <td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td>
@@ -110656,7 +110656,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
                 </td>
                 <td>Recidiva</td>
                 <td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td>
@@ -110677,7 +110677,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td>Inativo</td>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -110698,7 +110698,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
                 </td>
                 <td>Remissão</td>
                 <td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td>
@@ -110719,7 +110719,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
                 </td>
                 <td>Resolvido</td>
                 <td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td>
@@ -110752,8 +110752,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f3cf217f-9e13-430c-a825-3ec4ff711472"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:c9f9a091-5b33-4576-9b75-5f467d4c2745"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -110907,8 +110907,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9f535f23-ade5-4dec-8909-b612e70f6fba"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:7d7f9f1d-c806-403c-b3fb-fd26ef75a79c"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -111046,8 +111046,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f0d8cbf3-5f83-4a30-8c63-5b4373fdf708"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:7d7f9f1d-c806-403c-b3fb-fd26ef75a79c"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -111290,8 +111290,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:f46a9775-f358-4bfb-b3b4-ba4f8e6dd228"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:dd1ad181-d4a1-4cfb-b795-0ce2a992e2db"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -111559,8 +111559,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:f545b07f-635d-465e-9614-049510e8ac72"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:dd1ad181-d4a1-4cfb-b795-0ce2a992e2db"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -111841,8 +111841,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:92b2878c-0429-4e35-b0fa-f7182c341860"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:1a469b9a-5423-485d-a9f5-66e1a3fd68d6"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -112124,8 +112124,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:263b52e8-65f0-49fb-a060-c2af0b3dbcf0"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:1a469b9a-5423-485d-a9f5-66e1a3fd68d6"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -112205,7 +112205,7 @@
               <p>Expansão efectuada internamente com base em:</p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html">codesystem GTSAbbreviation v5.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html">codesystem GTSAbbreviation v5.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation|5.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
                   </span>
@@ -112246,7 +112246,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO">MO</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO">MO</a>
                 </td>
                 <td>Mensalmente</td>
                 <td>Monthly at institution specified time.</td>
@@ -112267,7 +112267,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK">WK</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK">WK</a>
                 </td>
                 <td>Semanalmente</td>
                 <td>Weekly at institution specified time.</td>
@@ -112288,7 +112288,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD">QD</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD">QD</a>
                 </td>
                 <td>Diariamente</td>
                 <td>Every day at institution specified times.</td>
@@ -112363,8 +112363,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b077d675-356c-442c-bd06-03732f89894c"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:fe1782f4-5fbf-41e0-8848-5814cb96c503"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -112433,7 +112433,7 @@
               <p>Expansão efectuada internamente com base em:</p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html">codesystem GTSAbbreviation v5.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html">codesystem GTSAbbreviation v5.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation|5.0.0" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
                   </span>
@@ -112474,7 +112474,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO">MO</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-MO">MO</a>
                 </td>
                 <td>Mensalmente</td>
                 <td>Monthly at institution specified time.</td>
@@ -112495,7 +112495,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK">WK</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-WK">WK</a>
                 </td>
                 <td>Semanalmente</td>
                 <td>Weekly at institution specified time.</td>
@@ -112516,7 +112516,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD">QD</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-v3-GTSAbbreviation.html#v3-GTSAbbreviation-QD">QD</a>
                 </td>
                 <td>Diariamente</td>
                 <td>Every day at institution specified times.</td>
@@ -112591,8 +112591,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0c912185-b49a-4b3e-b16b-8f1f0e9653da"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:fe1782f4-5fbf-41e0-8848-5814cb96c503"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -112658,7 +112658,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification|1.0.1" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
@@ -112691,7 +112691,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
                 </td>
                 <td>Não confirmada</td>
                 <td>The propensity for a reaction to the identified substance has not been objectively verified.</td>
@@ -112712,7 +112712,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
                 </td>
                 <td>Confirmada</td>
                 <td>The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).</td>
@@ -112733,7 +112733,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
                 </td>
                 <td>Refutada</td>
                 <td>A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.</td>
@@ -112754,7 +112754,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
                 </td>
                 <td>Cancelada por informação errada</td>
                 <td>The statement was entered in error and is not valid.</td>
@@ -112787,8 +112787,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b85427ed-f4bb-4908-8f90-6790633dfea6"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:682a3578-4387-482f-aa30-59d98f736f68"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -112845,7 +112845,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification|1.0.1" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
@@ -112878,7 +112878,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
                 </td>
                 <td>Não confirmada</td>
                 <td>The propensity for a reaction to the identified substance has not been objectively verified.</td>
@@ -112899,7 +112899,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
                 </td>
                 <td>Confirmada</td>
                 <td>The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).</td>
@@ -112920,7 +112920,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
                 </td>
                 <td>Refutada</td>
                 <td>A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.</td>
@@ -112941,7 +112941,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
                 </td>
                 <td>Cancelada por informação errada</td>
                 <td>The statement was entered in error and is not valid.</td>
@@ -112974,8 +112974,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6fa4a3af-9881-4aff-a5d4-bec666b49168"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:682a3578-4387-482f-aa30-59d98f736f68"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -113106,8 +113106,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2ca0c009-4be1-45ba-862b-f9ec86d07eef"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:06600572-6d1a-4561-b7c1-c57d839142a9"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -113227,8 +113227,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5b010edc-8bdb-4911-81bf-0efbd49f9215"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:06600572-6d1a-4561-b7c1-c57d839142a9"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -113439,8 +113439,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b787d76e-e138-410b-84bd-0181bfd1efb5"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:840ed744-f0ef-41c2-8f4a-4751f2fd55c5"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -113672,8 +113672,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0c49425e-bd13-4cdc-abeb-7d38c8f74914"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:840ed744-f0ef-41c2-8f4a-4751f2fd55c5"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -113985,8 +113985,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b61114b8-a2c7-4f31-ace3-f3c40d94dbb9"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:557c5aac-12df-4129-ab2e-d404e7a08e90"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -114318,8 +114318,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1587d35a-90ff-4df4-9512-e07a941037c8"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:557c5aac-12df-4129-ab2e-d404e7a08e90"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -114631,8 +114631,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1b94f6b8-e9ae-4304-bc5a-63b8d48a210e"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:49e4f98d-00d5-4a48-9723-3f1313239679"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -114939,8 +114939,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:44b5876b-2a3e-45ea-9f4f-a24cf397e538"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:49e4f98d-00d5-4a48-9723-3f1313239679"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -115083,8 +115083,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:184f7f80-6928-4ced-af1b-8f552f8319c1"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:342bdf1d-17bb-4da0-8ef2-46614907f2ee"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -115187,8 +115187,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a8fbf12b-f5de-4468-ba43-f7083b55c066"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:342bdf1d-17bb-4da0-8ef2-46614907f2ee"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -115475,8 +115475,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b6516e91-ac4a-454b-97d5-b5205d256641"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:6ee84f39-e077-4fc5-9aae-0d14c62e931e"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -115808,8 +115808,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:48a58737-2bbf-46ea-aa25-ec02993060f9"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:6ee84f39-e077-4fc5-9aae-0d14c62e931e"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -135941,8 +135941,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:728fa781-b5ee-4868-8593-8746a3883ccb"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:a0c56d48-b503-4b57-b1d5-db3971817c64"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2714"/>
           <offset value="0"/>
           <parameter>
@@ -161024,8 +161024,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:640361f7-d12c-4148-9d16-4a2d638ef47a"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:a0c56d48-b503-4b57-b1d5-db3971817c64"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2714"/>
           <offset value="0"/>
           <parameter>
@@ -166061,9 +166061,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.82
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.83
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://loinc.org|2.82" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
+                <button data-clipboard-text="http://loinc.org|2.83" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
             </p>
             <p>Este conjunto de valores contém 2 conceitos</p>
@@ -166093,15 +166093,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/3138-5/">3138-5</a>
                 </td>
-                <td/>
+                <td>Relatado</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;3138-5&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;3138-5&quot;, &quot;display&quot;: &quot;Relatado&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;3138-5&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;3138-5&quot;/&gt;&lt;display value=&quot;Relatado&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -166113,15 +166113,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/3137-7/">3137-7</a>
                 </td>
-                <td/>
+                <td>Medido</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;3137-7&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;3137-7&quot;, &quot;display&quot;: &quot;Medido&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;3137-7&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;3137-7&quot;/&gt;&lt;display value=&quot;Medido&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -166135,6 +166135,17 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2022-05-23T08:50:09.8385573+00:00"/>
+        <contact>
+          <name value="Ministério da Saúde do Brasil"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.saude.gov.br"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="cgiis.datasus@saude.gov.br"/>
+          </telecom>
+        </contact>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -166143,8 +166154,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:caacb1cc-f76a-4b0b-a62d-2a342ff2585f"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:92edc551-79c8-4e46-8908-92061e7dbb40"/>
+          <timestamp value="2026-11-18T13:50:13.704Z"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -166152,36 +166163,30 @@
             <valueCode value="pt"/>
           </parameter>
           <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="offset"/>
             <valueInteger value="0"/>
           </parameter>
           <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
+            <name value="count"/>
+            <valueInteger value="1000"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.82"/>
+            <valueUri value="http://loinc.org|2.83"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
             <code value="3138-5"/>
+            <display value="Relatado"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="3137-7"/>
+            <display value="Medido"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -166196,9 +166201,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.82
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.83
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://loinc.org|2.82" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
+                <button data-clipboard-text="http://loinc.org|2.83" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
             </p>
             <p>Este conjunto de valores contém 2 conceitos</p>
@@ -166228,15 +166233,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/3138-5/">3138-5</a>
                 </td>
-                <td/>
+                <td>Relatado</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;3138-5&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;3138-5&quot;, &quot;display&quot;: &quot;Relatado&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;3138-5&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;3138-5&quot;/&gt;&lt;display value=&quot;Relatado&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -166248,15 +166253,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/3137-7/">3137-7</a>
                 </td>
-                <td/>
+                <td>Medido</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;3137-7&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;3137-7&quot;, &quot;display&quot;: &quot;Medido&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;3137-7&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;3137-7&quot;/&gt;&lt;display value=&quot;Medido&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -166270,6 +166275,17 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2022-05-23T08:50:09.8385573+00:00"/>
+        <contact>
+          <name value="Ministério da Saúde do Brasil"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.saude.gov.br"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="cgiis.datasus@saude.gov.br"/>
+          </telecom>
+        </contact>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -166278,8 +166294,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:14a2278b-75b4-4035-9de4-6113e96c6b43"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:92edc551-79c8-4e46-8908-92061e7dbb40"/>
+          <timestamp value="2026-11-18T13:50:13.704Z"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -166287,36 +166303,30 @@
             <valueCode value="pt"/>
           </parameter>
           <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="offset"/>
             <valueInteger value="0"/>
           </parameter>
           <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
+            <name value="count"/>
+            <valueInteger value="1000"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.82"/>
+            <valueUri value="http://loinc.org|2.83"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
             <code value="3138-5"/>
+            <display value="Relatado"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="3137-7"/>
+            <display value="Medido"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -166338,7 +166348,7 @@
               <p>Expansão efectuada internamente com base em:</p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/diagnosis-role|1.1.1" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
                   </span>
@@ -166421,7 +166431,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
                 </td>
                 <td>Admission diagnosis</td>
                 <td>The diagnoses documented for administrative purposes as the basis for a hospital or other institutional admission</td>
@@ -166442,7 +166452,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
                 </td>
                 <td>Discharge diagnosis</td>
                 <td>The diagnoses documented for administrative purposes at the time of hospital or other institutional discharge</td>
@@ -166463,7 +166473,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
                 </td>
                 <td>Chief complaint</td>
                 <td/>
@@ -166484,7 +166494,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
                 </td>
                 <td>Comorbidity diagnosis</td>
                 <td/>
@@ -166505,7 +166515,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
                 </td>
                 <td>pre-op diagnosis</td>
                 <td/>
@@ -166526,7 +166536,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
                 </td>
                 <td>post-op diagnosis</td>
                 <td/>
@@ -166547,7 +166557,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
                 </td>
                 <td>Billing</td>
                 <td>The diagnosis documented for billing purposes</td>
@@ -166580,8 +166590,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:88c8766c-6f75-4f9f-b31a-07d7fced2366"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:a08668d2-4503-4369-99a1-c221b659c967"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -166673,7 +166683,7 @@
               <p>Expansão efectuada internamente com base em:</p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/diagnosis-role|1.1.1" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
                   </span>
@@ -166756,7 +166766,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
                 </td>
                 <td>Admission diagnosis</td>
                 <td>The diagnoses documented for administrative purposes as the basis for a hospital or other institutional admission</td>
@@ -166777,7 +166787,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
                 </td>
                 <td>Discharge diagnosis</td>
                 <td>The diagnoses documented for administrative purposes at the time of hospital or other institutional discharge</td>
@@ -166798,7 +166808,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
                 </td>
                 <td>Chief complaint</td>
                 <td/>
@@ -166819,7 +166829,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
                 </td>
                 <td>Comorbidity diagnosis</td>
                 <td/>
@@ -166840,7 +166850,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
                 </td>
                 <td>pre-op diagnosis</td>
                 <td/>
@@ -166861,7 +166871,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
                 </td>
                 <td>post-op diagnosis</td>
                 <td/>
@@ -166882,7 +166892,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
+                  <a href="http://terminology.hl7.org/7.5.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
                 </td>
                 <td>Billing</td>
                 <td>The diagnosis documented for billing purposes</td>
@@ -166915,8 +166925,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a186a2bf-ec60-4754-9493-0f678dd68001"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:a08668d2-4503-4369-99a1-c221b659c967"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -167214,8 +167224,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7aae4281-7b37-4456-b8dd-61e0db131563"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:2551584a-161f-43e9-ae4c-ab0c3c257c27"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -167237,18 +167247,6 @@
           <parameter>
             <name value="used-codesystem"/>
             <valueUri value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo|1.0.0-release"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -167517,8 +167515,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1b3b09f7-a008-4e7c-83a4-76fc6f418a63"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:2551584a-161f-43e9-ae4c-ab0c3c257c27"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -167540,18 +167538,6 @@
           <parameter>
             <name value="used-codesystem"/>
             <valueUri value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo|1.0.0-release"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -167698,8 +167684,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:4b5eeef9-98be-46e0-a4cc-a8c55e462c9c"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:8271feec-0117-46e5-9cc9-6ab84b4ad8d1"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -167836,8 +167822,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6199a36f-9d8a-48d5-a3e2-e9d238ecc78c"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:8271feec-0117-46e5-9cc9-6ab84b4ad8d1"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -187940,8 +187926,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:508b4cd9-5e18-491d-979b-bf37bba5f0ee"/>
-          <timestamp value="2026-10-21T12:32:48-03:00"/>
+          <identifier value="urn:uuid:1a3285d8-1555-4fda-b410-45fba52b24bf"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="14916"/>
           <offset value="0"/>
           <parameter>
@@ -213038,8 +213024,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:73b925bd-9bbf-4b4b-87b0-606304f5fc5e"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:1a3285d8-1555-4fda-b410-45fba52b24bf"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="14916"/>
           <offset value="0"/>
           <parameter>
@@ -218225,8 +218211,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3c75d9a6-fa0a-44ca-bb85-884cedc27388"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:b5d76c6b-9cb4-4957-88bb-432695cc2c58"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -218433,8 +218419,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:80e110be-378f-4969-a394-dc2886d1a5b3"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:b5d76c6b-9cb4-4957-88bb-432695cc2c58"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -239555,8 +239541,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:763ea69f-22ff-4938-a0ba-cf6ef79e643d"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:a62bd06b-986f-4d66-9833-3cc9949448e7"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="55698"/>
           <offset value="0"/>
           <parameter>
@@ -265656,8 +265642,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5dfee35d-b6a1-40a9-9e46-9564421b5833"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:a62bd06b-986f-4d66-9833-3cc9949448e7"/>
+          <timestamp value="2026-11-18T14:42:50-03:00"/>
           <total value="55698"/>
           <offset value="0"/>
           <parameter>
@@ -271335,8 +271321,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:744c35e0-fe43-42f6-b704-1820cc4ffc95"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:9c4a866a-1615-4b56-84ef-9256d54224e1"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="28"/>
           <offset value="0"/>
           <parameter>
@@ -272150,8 +272136,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1ae79739-0ef2-4826-8a2d-5db5995a703e"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:9c4a866a-1615-4b56-84ef-9256d54224e1"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="28"/>
           <offset value="0"/>
           <parameter>
@@ -272473,8 +272459,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c990e551-b56d-4602-af1b-628d4899922a"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:5cb41d31-b8ae-435f-a644-c67a362e6df2"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -272681,8 +272667,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1607d68b-07ca-4429-b11b-2190c9ead0a6"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:5cb41d31-b8ae-435f-a644-c67a362e6df2"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -272852,8 +272838,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5b09c0ab-83eb-44c4-a910-d60f8ee37859"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:dc845333-a87b-4b23-9925-b288e8078ec0"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -273013,8 +272999,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:85f49de4-5eb7-4b36-a266-a359687ed472"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:dc845333-a87b-4b23-9925-b288e8078ec0"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -293140,8 +293126,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5ea62a26-4e11-46b8-8dbb-d6d2b71c468c"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:3064009b-2f14-43c9-8e12-e2e9bf1cedbe"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="32610"/>
           <offset value="0"/>
           <parameter>
@@ -318268,8 +318254,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e3cfc872-64f3-4d28-bce3-4c79f4d4016f"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:3064009b-2f14-43c9-8e12-e2e9bf1cedbe"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="32610"/>
           <offset value="0"/>
           <parameter>
@@ -323444,8 +323430,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9562951e-dc7b-42d5-844a-cae2ecaed29b"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:0e855eba-762b-4078-bfbc-3ae9c1fa44fd"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -323624,8 +323610,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:03e2df9e-f635-48c0-ba77-20a4b947694a"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:0e855eba-762b-4078-bfbc-3ae9c1fa44fd"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -323744,8 +323730,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ae82658e-16ad-4bed-be25-db086c9a5140"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:0636263a-a458-47c4-88e3-f28896bd218a"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -323849,8 +323835,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:43a12d46-93bd-4894-8cab-3bf79ef0c5e7"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:0636263a-a458-47c4-88e3-f28896bd218a"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -324130,8 +324116,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:43f5257d-8c27-4cf6-9dfa-e81be7983860"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:07a5b04e-8499-43f2-a3fd-137f69bef351"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -324451,8 +324437,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:daf8fe71-a58c-45eb-96cc-dca819d88577"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:07a5b04e-8499-43f2-a3fd-137f69bef351"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -324603,8 +324589,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7cc5b4c4-1629-44c5-af77-73efde506eed"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:3dd23998-95fc-4365-8562-0b76d6dde80c"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -324715,8 +324701,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c0a6da6c-7a92-4f03-b998-9146f946b3f3"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:3dd23998-95fc-4365-8562-0b76d6dde80c"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -325302,8 +325288,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ad1fe36f-aacb-4999-86c7-e82349f80417"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:87aba2e6-af00-44c6-861d-c8e9f446821a"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -325329,18 +325315,6 @@
           <parameter>
             <name value="used-codesystem"/>
             <valueUri value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS|1.0.0-release"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -326006,8 +325980,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:42850d64-0d5f-47ac-8424-8392dec09e51"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:87aba2e6-af00-44c6-861d-c8e9f446821a"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -326033,18 +326007,6 @@
           <parameter>
             <name value="used-codesystem"/>
             <valueUri value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS|1.0.0-release"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -326412,8 +326374,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b00ef8de-befc-40bf-9206-6275bcc1f581"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:2c922004-fb36-4031-b961-efb841360ec2"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -326746,8 +326708,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a3e113b6-e2ba-431b-a652-ab395db30077"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:2c922004-fb36-4031-b961-efb841360ec2"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -326939,8 +326901,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ee2e0e29-78af-4b0d-9a44-ab0e06f72bfb"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:0068e294-a8da-42f5-ae52-84280132e314"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -327097,8 +327059,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a9450cfc-30a9-4555-9c80-4c22369b791c"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:0068e294-a8da-42f5-ae52-84280132e314"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -328715,8 +328677,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:01d9a01f-0435-4c0d-970e-23fb12825d51"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:b7ab71dd-aad3-48f3-8e48-241e5ce6f1b7"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -330698,8 +330660,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:daa863c1-4bd3-4aef-8c06-848a9ed9aaf3"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:b7ab71dd-aad3-48f3-8e48-241e5ce6f1b7"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -332681,8 +332643,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f4c0a9c7-62f0-4a6e-8983-2ab71150d64f"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:11b21210-d8b7-404b-a84d-332cb74ad949"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -334664,8 +334626,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:50676d9b-f5c9-4020-8322-558b8bf93f78"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:11b21210-d8b7-404b-a84d-332cb74ad949"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -335247,8 +335209,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e01c667d-0c57-439a-82f3-042601506d6e"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:ee2be8fb-efab-4442-aeb7-3631a61a1b2b"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -335480,8 +335442,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1ed978a9-8ba4-4e95-bead-d07027dfc0d5"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:ee2be8fb-efab-4442-aeb7-3631a61a1b2b"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -336993,8 +336955,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:59844beb-1006-4533-8843-1f20bf48cfe2"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:fb88c29a-719c-4aa3-afb7-542a36fdb613"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="70"/>
           <offset value="0"/>
           <parameter>
@@ -338826,8 +338788,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c2bf0440-3ffa-4e05-ba3e-36a21fbb8c19"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:fb88c29a-719c-4aa3-afb7-542a36fdb613"/>
+          <timestamp value="2026-11-18T14:42:51-03:00"/>
           <total value="70"/>
           <offset value="0"/>
           <parameter>
@@ -339213,9 +339175,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.82
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.83
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://loinc.org|2.82" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
+                <button data-clipboard-text="http://loinc.org|2.83" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
             </p>
             <p>Este conjunto de valores contém 3 conceitos</p>
@@ -339245,15 +339207,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/LA11871-3/">LA11871-3</a>
                 </td>
-                <td/>
+                <td>Roupa íntima ou menos</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;LA11871-3&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA11871-3&quot;, &quot;display&quot;: &quot;Roupa íntima ou menos&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;LA11871-3&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA11871-3&quot;/&gt;&lt;display value=&quot;Roupa íntima ou menos&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -339265,15 +339227,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/LA11872-1/">LA11872-1</a>
                 </td>
-                <td/>
+                <td>Roupas de rua, sem sapatos</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;LA11872-1&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA11872-1&quot;, &quot;display&quot;: &quot;Roupas de rua, sem sapatos&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;LA11872-1&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA11872-1&quot;/&gt;&lt;display value=&quot;Roupas de rua, sem sapatos&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -339285,15 +339247,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/LA11873-9/">LA11873-9</a>
                 </td>
-                <td/>
+                <td>Roupas e sapatos de rua</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;LA11873-9&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA11873-9&quot;, &quot;display&quot;: &quot;Roupas e sapatos de rua&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;LA11873-9&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA11873-9&quot;/&gt;&lt;display value=&quot;Roupas e sapatos de rua&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -339307,6 +339269,17 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2022-05-23T09:26:09.8385573+00:00"/>
+        <contact>
+          <name value="Ministério da Saúde do Brasil"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.saude.gov.br"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="cgiis.datasus@saude.gov.br"/>
+          </telecom>
+        </contact>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -339315,8 +339288,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:70654f35-f61c-4a1f-8ee5-8730bd1e6892"/>
-          <timestamp value="2026-10-21T12:32:49-03:00"/>
+          <identifier value="urn:uuid:284f8c53-b11d-404a-bbe9-03a14bbf5f16"/>
+          <timestamp value="2026-11-18T13:50:14.831Z"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -339324,40 +339297,35 @@
             <valueCode value="pt"/>
           </parameter>
           <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="offset"/>
             <valueInteger value="0"/>
           </parameter>
           <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
+            <name value="count"/>
+            <valueInteger value="1000"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.82"/>
+            <valueUri value="http://loinc.org|2.83"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
             <code value="LA11871-3"/>
+            <display value="Roupa íntima ou menos"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="LA11872-1"/>
+            <display value="Roupas de rua, sem sapatos"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="LA11873-9"/>
+            <display value="Roupas e sapatos de rua"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -339372,9 +339340,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.82
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão a partir de tx.fhir.org com base em Loinc v2.83
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://loinc.org|2.82" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
+                <button data-clipboard-text="http://loinc.org|2.83" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
             </p>
             <p>Este conjunto de valores contém 3 conceitos</p>
@@ -339404,15 +339372,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/LA11871-3/">LA11871-3</a>
                 </td>
-                <td/>
+                <td>Roupa íntima ou menos</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;LA11871-3&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA11871-3&quot;, &quot;display&quot;: &quot;Roupa íntima ou menos&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;LA11871-3&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA11871-3&quot;/&gt;&lt;display value=&quot;Roupa íntima ou menos&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -339424,15 +339392,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/LA11872-1/">LA11872-1</a>
                 </td>
-                <td/>
+                <td>Roupas de rua, sem sapatos</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;LA11872-1&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA11872-1&quot;, &quot;display&quot;: &quot;Roupas de rua, sem sapatos&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;LA11872-1&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA11872-1&quot;/&gt;&lt;display value=&quot;Roupas de rua, sem sapatos&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -339444,15 +339412,15 @@
                 <td style="white-space:nowrap">  
                   <a href="https://loinc.org/LA11873-9/">LA11873-9</a>
                 </td>
-                <td/>
+                <td>Roupas e sapatos de rua</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;LA11873-9&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA11873-9&quot;, &quot;display&quot;: &quot;Roupas e sapatos de rua&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;LA11873-9&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA11873-9&quot;/&gt;&lt;display value=&quot;Roupas e sapatos de rua&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -339466,6 +339434,17 @@
         <status value="active"/>
         <experimental value="false"/>
         <date value="2022-05-23T09:26:09.8385573+00:00"/>
+        <contact>
+          <name value="Ministério da Saúde do Brasil"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.saude.gov.br"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="cgiis.datasus@saude.gov.br"/>
+          </telecom>
+        </contact>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -339474,8 +339453,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:633b188f-0e86-480d-9313-367923de8d85"/>
-          <timestamp value="2026-10-21T12:32:50-03:00"/>
+          <identifier value="urn:uuid:284f8c53-b11d-404a-bbe9-03a14bbf5f16"/>
+          <timestamp value="2026-11-18T13:50:14.831Z"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -339483,40 +339462,35 @@
             <valueCode value="pt"/>
           </parameter>
           <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="offset"/>
             <valueInteger value="0"/>
           </parameter>
           <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
+            <name value="count"/>
+            <valueInteger value="1000"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.82"/>
+            <valueUri value="http://loinc.org|2.83"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
             <code value="LA11871-3"/>
+            <display value="Roupa íntima ou menos"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="LA11872-1"/>
+            <display value="Roupas de rua, sem sapatos"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="LA11873-9"/>
+            <display value="Roupas e sapatos de rua"/>
           </contains>
         </expansion>
       </ValueSet>
