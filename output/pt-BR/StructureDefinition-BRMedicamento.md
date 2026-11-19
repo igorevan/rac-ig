@@ -98,7 +98,7 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRMedicamento.cs
   "title" : "Medicamento",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-18T14:41:22-03:00",
+  "date" : "2026-11-19T16:34:02-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
