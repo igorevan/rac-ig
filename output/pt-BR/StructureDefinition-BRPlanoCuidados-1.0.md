@@ -1,4 +1,4 @@
-# Plano de Cuidados - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Plano de Cuidados - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Perfil de recurso: Plano de Cuidados 
 
@@ -44,7 +44,7 @@ Esta estrutura deriva de [CarePlan](http://hl7.org/fhir/R4/careplan.html)
 
 #### Terminologia Ligações (Diferencial)
 
- **Visão TotalView** 
+ **Visão CompletaView** 
 
 #### Terminologia Ligações
 
@@ -68,36 +68,8 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRPlanoCuidados-
     "lastUpdated" : "2020-09-20T20:51:45.157+00:00"
   },
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRPlanoCuidados",
   "title" : "Plano de Cuidados",
   "status" : "active",

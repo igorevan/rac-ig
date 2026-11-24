@@ -1,4 +1,4 @@
-# Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Exemplo Bundle: Bundle de Exemplo do Registro de Atendimento Clínico (RAC) - Modalidade de Teleconsulta
 

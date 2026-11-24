@@ -1,4 +1,4 @@
-# Useful Downloads - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Useful Downloads - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Useful Downloads
 

@@ -1,4 +1,4 @@
-# O RAC - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# O RAC - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## O RAC
 

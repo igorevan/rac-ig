@@ -1,4 +1,4 @@
-# Via de Administração - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Via de Administração - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## CodeSystem: Via de Administração 
 
@@ -22,36 +22,8 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
     "lastUpdated" : "2021-01-11T14:28:22.708+00:00"
   },
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRViaAdministracao",
   "title" : "Via de Administração",
   "status" : "active",

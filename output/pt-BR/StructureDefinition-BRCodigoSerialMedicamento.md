@@ -1,4 +1,4 @@
-# Código Serial de Medicamento - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Código Serial de Medicamento - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Extensão: Código Serial de Medicamento 
 
@@ -31,7 +31,7 @@ Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#E
 
 Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
 
- **Visão Total** 
+ **Visão Completa** 
 
 #### Restrições
 
@@ -50,40 +50,12 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRCodigoSerialMe
   "resourceType" : "StructureDefinition",
   "id" : "BRCodigoSerialMedicamento",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRCodigoSerialMedicamento",
   "title" : "Código Serial de Medicamento",
   "status" : "active",
-  "date" : "2026-11-23T11:25:29-03:00",
+  "date" : "2026-11-24T16:12:55-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

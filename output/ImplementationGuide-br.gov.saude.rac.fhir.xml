@@ -7,25 +7,13 @@
     <status value="generated"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rac.fhir</b></p><a name="br.gov.saude.rac.fhir"> </a><a name="hcbr.gov.saude.rac.fhir"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Língua: pt-BR</p></div><h2>RACRNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>
 </div></div>
   </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="normative"/>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-    <valueInteger value="1"/>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="ehr"/>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-    <valueCode value="4.0.1"/>
-  </extension>
   <url value="https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"/>
-  <version value="1.0.0-release"/>
+  <version value="1.0.0"/>
   <name value="RACRNDSIG"/>
   <title value="Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-11-23T11:25:29-03:00"/>
+  <date value="2026-11-24T16:12:55-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <name value="Ministério da Saúde do Brasil"/>
@@ -81,7 +69,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="STU1"/>
+        <valueString value="Release 1.0.0"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1456,9 +1444,6 @@
       <description value="Conjunto de códigos utilizados para identificar as modalidades de telessaúde no contexto do atendimento clínico."/>
     </resource>
     <page>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="informative"/>
-      </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
       </extension>
@@ -1466,9 +1451,6 @@
       <title value="Índice"/>
       <generation value="html"/>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="index.html"/>
         </extension>
@@ -1477,9 +1459,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="abstract.html"/>
         </extension>
@@ -1488,9 +1467,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="credenciamento.html"/>
         </extension>
@@ -1499,9 +1475,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="integracao.html"/>
         </extension>
@@ -1510,9 +1483,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="mi.html"/>
         </extension>
@@ -1521,9 +1491,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="mc.html"/>
         </extension>
@@ -1532,9 +1499,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="exemplos.html"/>
         </extension>
@@ -1543,9 +1507,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="changes.html"/>
         </extension>
@@ -1554,9 +1515,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="downloads.html"/>
         </extension>
@@ -1565,9 +1523,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="forms.html"/>
         </extension>
@@ -1576,9 +1531,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="suporte.html"/>
         </extension>
@@ -1589,7 +1541,7 @@
     </page>
     <parameter>
       <code value="path-resource"/>
-      <value value="input\history"/>
+      <value value="input/history"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>
@@ -1630,10 +1582,6 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input/testing"/>
-    </parameter>
-    <parameter>
-      <code value="path-resource"/>
-      <value value="input/history"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

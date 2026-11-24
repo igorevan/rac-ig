@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRAlergenos",
     "title" : "Alérgenos",
@@ -12,7 +12,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCID10",
     "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
@@ -21,7 +21,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCaraterAtendimento",
     "title" : "Caráter de atendimento do Contato Assistencial",
@@ -30,7 +30,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCategoriaAgenteAlergiasReacoesAdversas",
     "title" : "Categoria do Agente da Alergia ou Reação Adversa",
@@ -40,7 +40,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCategoriaCondicao",
     "title" : "Classificação de uma condição",
@@ -49,7 +49,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCategoriaDiagnostico",
     "title" : "Categoria do Diagnóstico",
@@ -58,7 +58,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCriticidadeAlergiasReacoesAdversas",
     "title" : "Criticidade de Alergias e Reações Adversas",
@@ -67,7 +67,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoAfastamentoAtestado",
     "title" : "Status do afastamento descrito no atestado",
@@ -76,7 +76,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoAtestado",
     "title" : "Status do atestado",
@@ -85,7 +85,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoContatoAssistencial-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoContatoAssistencial",
     "title" : "Estado do Contato Assistencial",
@@ -94,7 +94,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoDocumento",
     "title" : "Estado do Documento",
@@ -103,7 +103,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoEvento",
     "title" : "Estado do Evento",
@@ -112,7 +112,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoObservacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoObservacao",
     "title" : "Estado da Observação",
@@ -121,7 +121,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoResolucaoDiagnosticoProblema",
     "title" : "Estado da Resolução de Diagnóstico ou Problema",
@@ -130,7 +130,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoSolicitacao",
     "title" : "Estado da Solicitação",
@@ -139,7 +139,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoSolicitacaoMedicamento",
     "title" : "Estado da Solicitação de Medicamento",
@@ -148,7 +148,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRFinanciamento",
     "title" : "Financiamento do procedimento realizado",
@@ -157,7 +157,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFrequenciaUsoSubstancia",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRFrequenciaUsoSubstancia",
     "title" : "Frequência de Uso da Substância",
@@ -167,7 +167,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRGrauCertezaAlergiasReacoesAdversas",
     "title" : "Grau de Certeza de Alergias e Reações Adversas",
@@ -176,7 +176,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRIntencaoAtestado",
     "title" : "Intenção do atestado",
@@ -185,7 +185,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRJustificativaIndividuoNaoIdentificado",
     "title" : "Justificativa da Impossibilidade de Identificação do Indivíduo",
@@ -194,7 +194,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAfericao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRLocalAfericao",
     "title" : "Local de Aferição",
@@ -203,7 +203,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRModalidadeAssistencial",
     "title" : "Modalidade Assistencial",
@@ -212,7 +212,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeTelessaude",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRModalidadeTelessaude",
     "title" : "Modalidade de Telessaúde (ValueSet)",
@@ -221,7 +221,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRMotivoDesfecho",
     "title" : "Motivo do desfecho do Contato assistencial",
@@ -230,7 +230,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BROcupacao",
     "title" : "Classificação Brasileira de Ocupações - CBO",
@@ -239,7 +239,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BROrigemMedida",
     "title" : "Origem de Medição",
@@ -248,7 +248,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPapelProblemaDiagnostico",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRPapelProblemaDiagnostico",
     "title" : "Classificação do papel de um problema e diagnóstico",
@@ -258,7 +258,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPosicaoIndividuo",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRPosicaoIndividuo",
     "title" : "Posição do Indivíduo",
@@ -268,7 +268,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRPrescricaoNaoEstruturada",
     "title" : "Indicativo de prescrição não estruturada ou medicamento não identificado",
@@ -277,7 +277,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRProblemaDiagnostico",
     "title" : "Classificação Internacional de Doenças e Atenção Primária",
@@ -287,7 +287,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedencia-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRProcedencia",
     "title" : "Procedência do Contato Assistencial",
@@ -296,7 +296,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRProcedimentosNacionais",
     "title" : "Procedimento realizado",
@@ -306,7 +306,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRReacoesAdversasMedDRA-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRReacoesAdversasMedDRA",
     "title" : "Reações Adversas da MedDRA",
@@ -315,7 +315,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRResponsabilidadeParticipante-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRResponsabilidadeParticipante",
     "title" : "Reponsabilidade no Contato Assistencial",
@@ -324,7 +324,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRSexo",
     "title" : "Sexo",
@@ -333,7 +333,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaMedicamento",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTerminologiaMedicamento",
     "title" : "Terminologia dos medicamentos",
@@ -346,7 +346,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAleitamentoMaterno-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoAleitamentoMaterno",
     "title" : "Tipo de Aleitamento Materno",
@@ -355,7 +355,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoAtestado",
     "title" : "Tipo de atestado",
@@ -364,7 +364,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoDocumento",
     "title" : "Tipo de Documento",
@@ -373,7 +373,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoIdentificadorProcedimento",
     "title" : "Tipo de Identificador do Procedimento",
@@ -382,7 +382,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoObservacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoObservacao",
     "title" : "Tipo de Observação",
@@ -393,7 +393,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoSubstanciaUso-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoSubstanciaUso",
     "title" : "Tipo de Substância em Uso",
@@ -402,7 +402,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTurno",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTurno",
     "title" : "Turno do dia",
@@ -411,7 +411,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRUnidadeConsumo",
     "title" : "Unidade de Consumo",
@@ -420,7 +420,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRUnidadeMedidaMedicamento",
     "title" : "Unidade de Medida de Medicamento",
@@ -429,7 +429,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeTempo",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRUnidadeTempo",
     "title" : "Unidade de Tempo",
@@ -438,7 +438,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRViaAdministracao",
     "title" : "Via de Administração do Imunobiológico",
@@ -447,7 +447,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "RoupasUsadasMedicao",
     "title" : "Roupas Usadas na Medição",

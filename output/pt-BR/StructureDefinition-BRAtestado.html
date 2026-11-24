@@ -8,7 +8,7 @@
 <html xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Atestado Digital - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release</title>
+    <title>Atestado Digital - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -47,7 +47,6 @@
 	  <script type="text/javascript" src="assets/js/prism.js"></script>
 	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"12.11"}
     h3,h4,h5,h6{--heading-prefix:"12.11"}</style>
@@ -60,7 +59,7 @@
         <div id="ig-status" data-fhir="generated">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-release - STU1
+            <span style="display:inline-block;">1.0.0 - Release 1.0.0
 
 
 
@@ -175,7 +174,7 @@
     <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Índice</b></a></li><li><a href='artifacts.html'><b>Artefatos</b></a></li><li><b>Atestado Digital</b></li>
+          <li><a href='toc.html'><b>Índice</b></a></li><li><a href='artifacts.html'><b>Resumo de Artefatos</b></a></li><li><b>Atestado Digital</b></li>
 
           <span style="float: var(--ig-right);">
 
@@ -199,7 +198,7 @@
 
 <!-- layouts\layout-profile -->
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Compilação de desenvolvimento local (v1.0.0-release) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://fhir.saude.gov.br/rac/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS - Compilação de desenvolvimento local (v1.0.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://fhir.saude.gov.br/rac/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
   
 
 
@@ -275,13 +274,13 @@ Atestado Digital
 
   </h2>
 
-  <table class="colsn" data-fhir="generated">
+  <table class="colsi" data-fhir="generated">
 
     <tr>
       <td colspan="4"><i>URL oficial</i>: <span class="copy-text">http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado<button title="Clique para copiar o URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado"/></span>
       </td>
       <td><i>Versão</i>:
-      <span class="copy-text">1.0.0-release<button title="Clique para copiar o URL com versão" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado|1.0.0-release"/></span>
+      <span class="copy-text">1.0.0<button title="Clique para copiar o URL com versão" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtestado|1.0.0"/></span>
       </td>
       <td style="text-align: right;border-left-style: hidden" title="Ative isto para ver as alterações desde a última versão oficial.">
         <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Destacar alterações no texto?</label>
@@ -300,21 +299,15 @@ Atestado Digital
 
 
 
-      <td colspan="4">
+      <td colspan="5">
         
-          <i>
-            
-            Standards status:
-          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Status dos padrões">Normative</a>
+          Active
           
-          
-        
-      </td>
 
-      <td>
-        <a href="http://hl7.org/fhir/versions.html#maturity">Nível de maturidade</a>: 1
-        
-          <span title="Inherited from , CanonicalType[https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir]">*</span>
+            a partir de 
+2026-11-24
+
+          
         
       </td>
 
@@ -614,7 +607,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">0..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="" class="hierarchy xhtCellBorder0">Informações adicionais</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // cddcefcf-3b29-49cc-82c8-894aa10b8137
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // 2b64e500-ead0-45fc-b62e-34c9ea68c9d5
 document.getElementById('cbBRAtestadoK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('BRAtestadoK'), 'constraint', document.getElementById('cbBRAtestadoK-constraint').checked, document.getElementById('ppBRAtestadoK'));
 document.getElementById('cbBRAtestadoK-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
@@ -660,7 +653,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
       <a href="ValueSet-BREstadoAtestado.html">Status do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -680,7 +673,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
       <a href="ValueSet-BRIntencaoAtestado.html">Intenção do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -700,7 +693,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
       <a href="ValueSet-BRTipoAtestado.html">Tipo de atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -720,7 +713,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
       <a href="ValueSet-BRSexo-1.0.html">Sexo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -734,7 +727,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
       <a href="ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html">Justificativa da Impossibilidade de Identificação do Indivíduo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -748,7 +741,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
       <a href="ValueSet-BREstadoAfastamentoAtestado.html">Status do afastamento descrito no atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -1422,7 +1415,7 @@ filterDesc(document.getElementById('BRAtestadoK'), 'binding', document.getElemen
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceStrikeout"></span><span class="xhtPieceStrikeout xhtPieceDeEmphasized">0</span><span class="xhtPieceStrikeout">..</span><span class="xhtPieceStrikeout">0</span></td>
 <td style="" class="hierarchy xhtCellBorder0"></td>
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceItalic xhtPieceDeEmphasized">Comments about the plan</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // cddcefcf-3b29-49cc-82c8-894aa10b8137
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // 2b64e500-ead0-45fc-b62e-34c9ea68c9d5
 document.getElementById('cbBRAtestadoD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('BRAtestadoD'), 'constraint', document.getElementById('cbBRAtestadoD-constraint').checked, document.getElementById('ppBRAtestadoD'));
 document.getElementById('cbBRAtestadoD-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
@@ -1470,7 +1463,7 @@ filterDesc(document.getElementById('BRAtestadoD'), 'binding', document.getElemen
       <a href="ValueSet-BREstadoAtestado.html" class="unchangedStyle">Status do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -1490,7 +1483,7 @@ filterDesc(document.getElementById('BRAtestadoD'), 'binding', document.getElemen
       <a href="ValueSet-BRIntencaoAtestado.html" class="unchangedStyle">Intenção do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -1510,7 +1503,7 @@ filterDesc(document.getElementById('BRAtestadoD'), 'binding', document.getElemen
       <a href="ValueSet-BRTipoAtestado.html" class="unchangedStyle">Tipo de atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -1530,7 +1523,7 @@ filterDesc(document.getElementById('BRAtestadoD'), 'binding', document.getElemen
       <a href="ValueSet-BREstadoAfastamentoAtestado.html" class="unchangedStyle">Status do afastamento descrito no atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -1910,7 +1903,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">0..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="" class="hierarchy xhtCellBorder0">Informações adicionais</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // cddcefcf-3b29-49cc-82c8-894aa10b8137
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // 2b64e500-ead0-45fc-b62e-34c9ea68c9d5
 document.getElementById('cbBRAtestadoS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('BRAtestadoS'), 'constraint', document.getElementById('cbBRAtestadoS-constraint').checked, document.getElementById('ppBRAtestadoS'));
 document.getElementById('cbBRAtestadoS-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
@@ -1979,7 +1972,7 @@ filterDesc(document.getElementById('BRAtestadoS'), 'binding', document.getElemen
       <a href="ValueSet-BREstadoAtestado.html">Status do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -1999,7 +1992,7 @@ filterDesc(document.getElementById('BRAtestadoS'), 'binding', document.getElemen
       <a href="ValueSet-BRIntencaoAtestado.html">Intenção do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -2019,7 +2012,7 @@ filterDesc(document.getElementById('BRAtestadoS'), 'binding', document.getElemen
       <a href="ValueSet-BRTipoAtestado.html">Tipo de atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -2039,7 +2032,7 @@ filterDesc(document.getElementById('BRAtestadoS'), 'binding', document.getElemen
       <a href="ValueSet-BRSexo-1.0.html">Sexo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -2053,7 +2046,7 @@ filterDesc(document.getElementById('BRAtestadoS'), 'binding', document.getElemen
       <a href="ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html">Justificativa da Impossibilidade de Identificação do Indivíduo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -2067,7 +2060,7 @@ filterDesc(document.getElementById('BRAtestadoS'), 'binding', document.getElemen
       <a href="ValueSet-BREstadoAfastamentoAtestado.html">Status do afastamento descrito no atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -2393,7 +2386,6 @@ Resumo
 
 </ul>
 
-<p><b><a class="fmm" href="http://hl7.org/fhir/versions.html#maturity" title="Maturity Level">Maturidade</a></b>: 1</p>
 </div>
         </div>
       </div>
@@ -2620,7 +2612,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">0..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="" class="hierarchy xhtCellBorder0">Informações adicionais</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // cddcefcf-3b29-49cc-82c8-894aa10b8137
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // 2b64e500-ead0-45fc-b62e-34c9ea68c9d5
 document.getElementById('cbBRAtestadoKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('BRAtestadoKA'), 'constraint', document.getElementById('cbBRAtestadoKA-constraint').checked, document.getElementById('ppBRAtestadoKA'));
 document.getElementById('cbBRAtestadoKA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
@@ -2665,7 +2657,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
       <a href="ValueSet-BREstadoAtestado.html">Status do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -2685,7 +2677,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
       <a href="ValueSet-BRIntencaoAtestado.html">Intenção do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -2705,7 +2697,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
       <a href="ValueSet-BRTipoAtestado.html">Tipo de atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -2725,7 +2717,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
       <a href="ValueSet-BRSexo-1.0.html">Sexo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -2739,7 +2731,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
       <a href="ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html">Justificativa da Impossibilidade de Identificação do Indivíduo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -2753,7 +2745,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
       <a href="ValueSet-BREstadoAfastamentoAtestado.html">Status do afastamento descrito no atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -3427,7 +3419,7 @@ filterDesc(document.getElementById('BRAtestadoKA'), 'binding', document.getEleme
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceStrikeout"></span><span class="xhtPieceStrikeout xhtPieceDeEmphasized">0</span><span class="xhtPieceStrikeout">..</span><span class="xhtPieceStrikeout">0</span></td>
 <td style="" class="hierarchy xhtCellBorder0"></td>
 <td style="" class="hierarchy xhtCellBorder0"><span class="xhtPieceItalic xhtPieceDeEmphasized">Comments about the plan</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // cddcefcf-3b29-49cc-82c8-894aa10b8137
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // 2b64e500-ead0-45fc-b62e-34c9ea68c9d5
 document.getElementById('cbBRAtestadoDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('BRAtestadoDA'), 'constraint', document.getElementById('cbBRAtestadoDA-constraint').checked, document.getElementById('ppBRAtestadoDA'));
 document.getElementById('cbBRAtestadoDA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
@@ -3472,7 +3464,7 @@ filterDesc(document.getElementById('BRAtestadoDA'), 'binding', document.getEleme
       <a href="ValueSet-BREstadoAtestado.html" class="unchangedStyle">Status do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -3492,7 +3484,7 @@ filterDesc(document.getElementById('BRAtestadoDA'), 'binding', document.getEleme
       <a href="ValueSet-BRIntencaoAtestado.html" class="unchangedStyle">Intenção do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -3512,7 +3504,7 @@ filterDesc(document.getElementById('BRAtestadoDA'), 'binding', document.getEleme
       <a href="ValueSet-BRTipoAtestado.html" class="unchangedStyle">Tipo de atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -3532,7 +3524,7 @@ filterDesc(document.getElementById('BRAtestadoDA'), 'binding', document.getEleme
       <a href="ValueSet-BREstadoAfastamentoAtestado.html" class="unchangedStyle">Status do afastamento descrito no atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -3552,7 +3544,7 @@ filterDesc(document.getElementById('BRAtestadoDA'), 'binding', document.getEleme
       </div>
       <div id="all-tbl-snap">
         <p>
-          <b>Visão TotalView</b>
+          <b>Visão CompletaView</b>
         </p>
         <div id="all-tbl-snap-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" id="BRAtestadoSA" class="xhtTableBorder0" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" class="xhtRowBorder1" data-fhir="generated-heirarchy"><th scope="col" style="" class="hierarchy xhtCellBorder0"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="O nome lógico do elemento" data-no-external="true">Nome</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Informações sobre a utilização do elemento" data-no-external="true">Bandeiras</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Número mínimo e máximo de vezes que o elemento pode aparecer na instância" data-no-external="true">Card.</a></th><th scope="col" style="; width: 100px" class="hierarchy xhtCellBorder0"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Referência ao tipo do elemento" data-no-external="true">Tipo</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Informações adicionais sobre o elemento" data-no-external="true">Descrição e condicionalismos</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('BRAtestadoSA'), event.target.value)" type="text" aria-label="Filter"/> <button onClick="showPanel(this, document.getElementById('BRAtestadoSA'), document.getElementById('ppBRAtestadoSA'))" aria-controls="ppBRAtestadoSA" style="background: none; border: 0; padding: 0; margin: 0; cursor: pointer" type="button" title="Filters" aria-label="Filters"><img src="tree-filter.png" alt=""/></button><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppBRAtestadoSA"><label>Condicionantes <input onClick="filterDesc(document.getElementById('BRAtestadoSA'), 'constraint',event.target.checked, document.getElementById('ppBRAtestadoSA'))" size="1" name="constraint" checked="true" id="cbBRAtestadoSA-constraint" type="checkbox" aria-label="constraint"/></label><br/><label>Obrigações <input onClick="filterDesc(document.getElementById('BRAtestadoSA'), 'obligation',event.target.checked, document.getElementById('ppBRAtestadoSA'))" size="1" name="obligation" checked="true" id="cbBRAtestadoSA-obligation" type="checkbox" aria-label="obligation"/></label><br/><label>Vínculos <input onClick="filterDesc(document.getElementById('BRAtestadoSA'), 'binding',event.target.checked, document.getElementById('ppBRAtestadoSA'))" size="1" name="binding" checked="true" id="cbBRAtestadoSA-binding" type="checkbox" aria-label="binding"/></label><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
@@ -3912,7 +3904,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="" class="hierarchy xhtCellBorder0">0..1</td>
 <td style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="" class="hierarchy xhtCellBorder0">Informações adicionais</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // cddcefcf-3b29-49cc-82c8-894aa10b8137
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda para este formato"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentação para este formato</a></td></tr><script type="text/javascript">  // 2b64e500-ead0-45fc-b62e-34c9ea68c9d5
 document.getElementById('cbBRAtestadoSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
 filterDesc(document.getElementById('BRAtestadoSA'), 'constraint', document.getElementById('cbBRAtestadoSA-constraint').checked, document.getElementById('ppBRAtestadoSA'));
 document.getElementById('cbBRAtestadoSA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
@@ -3979,7 +3971,7 @@ filterDesc(document.getElementById('BRAtestadoSA'), 'binding', document.getEleme
       <a href="ValueSet-BREstadoAtestado.html">Status do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -3999,7 +3991,7 @@ filterDesc(document.getElementById('BRAtestadoSA'), 'binding', document.getEleme
       <a href="ValueSet-BRIntencaoAtestado.html">Intenção do atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRIntencaoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -4019,7 +4011,7 @@ filterDesc(document.getElementById('BRAtestadoSA'), 'binding', document.getEleme
       <a href="ValueSet-BRTipoAtestado.html">Tipo de atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -4039,7 +4031,7 @@ filterDesc(document.getElementById('BRAtestadoSA'), 'binding', document.getEleme
       <a href="ValueSet-BRSexo-1.0.html">Sexo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -4053,7 +4045,7 @@ filterDesc(document.getElementById('BRAtestadoSA'), 'binding', document.getEleme
       <a href="ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html">Justificativa da Impossibilidade de Identificação do Indivíduo</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td></td>
   </tr>
@@ -4067,7 +4059,7 @@ filterDesc(document.getElementById('BRAtestadoSA'), 'binding', document.getEleme
       <a href="ValueSet-BREstadoAfastamentoAtestado.html">Status do afastamento descrito no atestado</a>
       <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" title="Clicar para copiar o URL" class="btn-copy" aria-label="copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0-release</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;1.0.0</td>
     <td>este IG</td>
     <td>
       <div>
@@ -4389,7 +4381,6 @@ Resumo
 
 </ul>
 
-<p><b><a class="fmm" href="http://hl7.org/fhir/versions.html#maturity" title="Maturity Level">Maturidade</a></b>: 1</p>
 </div>
         </div>
       </div>
@@ -4441,7 +4432,7 @@ Resumo
               </td>
               <td style="text-align:var(--ig-right);">&#xA0;
 
-                <a href="StructureDefinition-BRAtestado-definitions.html">seguinte ></a>
+                <a href="StructureDefinition-BRAtestado-definitions.html">seguinte &gt;</a>
 
               </td>
             </tr>
@@ -4455,10 +4446,10 @@ Resumo
 
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
-          Pacote br.gov.saude.rac.fhir#1.0.0-release baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Gerado em 
-  <span title="2026-11-23 11:25:00 -0300">
-    2026-11-23
+          Pacote br.gov.saude.rac.fhir#1.0.0 baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Gerado 
+  <span title="2026-11-24 16:12:00 -0300">
+    2026-11-24
   </span>
 
           <br/>

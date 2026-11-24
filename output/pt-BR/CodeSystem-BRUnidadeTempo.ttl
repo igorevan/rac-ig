@@ -16,45 +16,8 @@
      fhir:Narrative.status [ fhir:value "generated" ] ;
      fhir:Narrative.div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRUnidadeTempo</b></p><a name=\"BRUnidadeTempo\"> </a><a name=\"hcBRUnidadeTempo\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-03-22 14:53:00+0000; Língua: pt-BR</p></div><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>English (English, en)</b></td></tr><tr><td style=\"white-space:nowrap\">min<a name=\"BRUnidadeTempo-min\"> </a></td><td>minuto(s)</td><td>minute</td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"BRUnidadeTempo-h\"> </a></td><td>hora(s)</td><td>hour</td></tr><tr><td style=\"white-space:nowrap\">d<a name=\"BRUnidadeTempo-d\"> </a></td><td>dia(s)</td><td>day</td></tr><tr><td style=\"white-space:nowrap\">wk<a name=\"BRUnidadeTempo-wk\"> </a></td><td>semana(s)</td><td>week</td></tr><tr><td style=\"white-space:nowrap\">mo<a name=\"BRUnidadeTempo-mo\"> </a></td><td>mês(meses)</td><td>month</td></tr><tr><td style=\"white-space:nowrap\">a<a name=\"BRUnidadeTempo-a\"> </a></td><td>ano(s)</td><td>year</td></tr></table></div>"
   ] ;
-  fhir:DomainResource.extension [
-     fhir:index -1 ;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
-     fhir:Extension.valueCode [ fhir:value "ehr" ]
-  ], [
-     fhir:index -1 ;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
-     fhir:Extension.valueInteger [
-       fhir:value "1"^^xsd:integer ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
-         fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
-         ]
-       ]
-     ]
-  ], [
-     fhir:index -1 ;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
-     fhir:Extension.valueCode [
-       fhir:value "normative" ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
-         fhir:Extension.valueCanonical [
-           fhir:value "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir" ;
-           fhir:link <https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir>
-         ]
-       ]
-     ]
-  ], [
-     fhir:index -1 ;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
-     fhir:Extension.valueCode [ fhir:value "4.0.1" ]
-  ] ;
   fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo"] ;
-  fhir:CodeSystem.version [ fhir:value "1.0.0-release"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
   fhir:CodeSystem.name [ fhir:value "BRUnidadeTempo"] ;
   fhir:CodeSystem.title [ fhir:value "Unidade de tempo"] ;
   fhir:CodeSystem.status [ fhir:value "active"] ;

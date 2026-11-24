@@ -131,12 +131,12 @@ Generated $--. FHIR version $-- for br.gov.saude.rac.fhir#$-- (canonical = https
 
 
 == input/examples/Example-Bundle-RAC-Completo-IndividuoNaoIdentificado.json ==
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice
-ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-2: Bundle.entry[0].resource: Slice 'Composition.section:problemasDiagnosticosAvaliados': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
 
 
 == input/examples/Example-Bundle-RAC-TC.json ==
-ERROR: Bundle/bundle-example-rac-tc: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0-release). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/bundle-example-rac-tc: Bundle.entry[0].resource: Slice 'Composition.section:informacoesContatoAssistencial': a matching slice is required, but not found (from http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico|1.0.0). Note that other slices are allowed in addition to this required slice
 
 
 == input/myig.xml ==

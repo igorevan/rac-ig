@@ -1,4 +1,4 @@
-# Registro de Atendimento Clínico (RAC) - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Registro de Atendimento Clínico (RAC) - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Perfil de recurso: Registro de Atendimento Clínico (RAC) 
 
@@ -40,7 +40,7 @@ Esta estrutura deriva de [BRConjuntoMinimoDados](StructureDefinition-BRConjuntoM
 
 Esta estrutura deriva de [BRConjuntoMinimoDados](StructureDefinition-BRConjuntoMinimoDados-1.1.md) 
 
- **Visão TotalView** 
+ **Visão CompletaView** 
 
 #### Terminologia Ligações
 
@@ -61,36 +61,8 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRRegistroAtendi
   "resourceType" : "StructureDefinition",
   "id" : "BRRegistroAtendimentoClinico",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroAtendimentoClinico",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRRegistroAtendimentoClinico",
   "title" : "Registro de Atendimento Clínico",
   "status" : "active",

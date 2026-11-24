@@ -1,4 +1,4 @@
-# Roupas Usadas na Medição - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Roupas Usadas na Medição - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Extensão: Roupas Usadas na Medição 
 
@@ -38,7 +38,7 @@ Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#E
 
 #### Terminologia Ligações (Diferencial)
 
- **Visão Total** 
+ **Visão Completa** 
 
 #### Terminologia Ligações
 
@@ -59,41 +59,13 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRRoupasUsadasMe
   "resourceType" : "StructureDefinition",
   "id" : "BRRoupasUsadasMedicao",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRoupasUsadasMedicao",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRRoupasUsadasMedicao",
   "title" : "Roupas Usadas na Medição",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-23T11:25:29-03:00",
+  "date" : "2026-11-24T16:12:55-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

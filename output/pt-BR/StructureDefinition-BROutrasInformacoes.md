@@ -1,4 +1,4 @@
-# Outras Informações - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0-release
+# Outras Informações - Guia de Implementação do Registro de Atendimento Clínico (RAC) da RNDS v1.0.0
 
 ## Extensão: Outras Informações 
 
@@ -32,7 +32,7 @@ Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#E
 
 Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
 
- **Visão Total** 
+ **Visão Completa** 
 
 #### Restrições
 
@@ -50,36 +50,8 @@ Outras representações do perfil: [CSV](../StructureDefinition-BROutrasInformac
 {
   "resourceType" : "StructureDefinition",
   "id" : "BROutrasInformacoes",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rac/ImplementationGuide/br.gov.saude.rac.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BROutrasInformacoes",
   "title" : "Outras Informações",
   "status" : "active",
