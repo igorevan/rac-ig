@@ -129,8 +129,8 @@
     "oids" : ["2.16.840.1.113883.4.642.4.112"],
     "uses" : {
     },
-    "ValueSet-BREstadoAtestado.html" : "Status do atestado",
-    "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação"
+    "ValueSet-BREstadoSolicitacao-1.0.html" : "Estado da Solicitação",
+    "ValueSet-BREstadoAtestado.html" : "Status do atestado"
   },
   {
     "url" : "http://loinc.org",
@@ -141,8 +141,8 @@
     "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
     "uses" : {
     },
-    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
     "ValueSet-BRPosicaoIndividuo.html" : "Posição do Indivíduo",
+    "ValueSet-RoupasUsadasMedicao.html" : "Roupas Usadas na Medição",
     "ValueSet-BROrigemMedida.html" : "Origem de Medição",
     "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação"
   },
@@ -604,8 +604,8 @@
     "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
     "uses" : {
     },
-    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

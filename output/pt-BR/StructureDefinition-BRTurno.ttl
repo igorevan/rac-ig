@@ -19,7 +19,7 @@
   fhir:StructureDefinition.title [ fhir:value "Turno"] ;
   fhir:StructureDefinition.status [ fhir:value "active"] ;
   fhir:StructureDefinition.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-11-24T16:12:55-03:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-11-25T10:11:02-03:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;
